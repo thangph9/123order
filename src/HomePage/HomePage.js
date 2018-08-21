@@ -15,7 +15,10 @@ class HomePage extends React.Component{
         this.setState({
             login: false;
         })
+        console.log("Hello World")
     }
+
+
     render(){
         
         return (
