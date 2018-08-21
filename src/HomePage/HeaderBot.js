@@ -1,5 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
+import { HeaderBotSearch } from "./HeaderBotSearch";
+import { HeaderBotMenu } from "./HeaderBotMenu";
 class HeaderBot extends React.Component {
     constructor(props) {
         super(props);
@@ -18,9 +20,10 @@ class HeaderBot extends React.Component {
     render() {
 
         return (
-            <div class="container-fluid order-menu">
-                <div class="container pt-4">
-
+            <div className="container-fluid order-menu">
+                <div className="container pt-4">
+                  <HeaderBotSearch/>  
+                  <HeaderBotMenu/>
                 </div>
             </div>
         );

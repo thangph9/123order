@@ -1,6 +1,8 @@
 import React from "react";
 //import { Link } from "react-router-dom";
 import { connect } from "react-redux";
+import { HeaderBotSearchLeft } from "./HeaderBotSearchLeft";
+import { HeaderBotSearchRight } from "./HeaderBotSearchRight";
 class HeaderBotSearch extends React.Component{
     constructor(props){
         super(props);
@@ -28,7 +30,8 @@ class HeaderBotSearch extends React.Component{
         
         return (
             <div class="row justify-content-center">
-                
+                <HeaderBotSearchLeft/>
+                <HeaderBotSearchRight/>
             </div>
         )
         

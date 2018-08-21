@@ -14,7 +14,13 @@ class ProductItemList extends React.Component{
         
         return (
 				<div>
+                    <div class="row">
 					<ProductItem />
+                    <ProductItem />
+                    <ProductItem />
+                    <ProductItem />
+                    <ProductItem />
+                    </div>
 				</div>
         )
         
