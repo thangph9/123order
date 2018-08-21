@@ -10,6 +10,7 @@ class HomePage extends React.Component{
             loading: false,
         }
         this.handleSubmit=this.handleSubmit.bind(this);
+        this.handleChange=this.handleChange.bind(this);
     }
     handleSubmit(){
         this.setState({
@@ -17,7 +18,11 @@ class HomePage extends React.Component{
         })
         console.log("Hello World")
     }
-
+    handleChange(e){
+        this.setState({
+            login:false,
+        })
+    }
 
     render(){
         
