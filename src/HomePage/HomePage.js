@@ -9,6 +9,12 @@ class HomePage extends React.Component{
             login: true,
             loading: false,
         }
+        this.handleSubmit=this.handleSubmit.bind(this);
+    }
+    handleSubmit(){
+        this.setState({
+            login: false;
+        })
     }
     render(){
         
