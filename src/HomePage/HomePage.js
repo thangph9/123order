@@ -20,7 +20,8 @@ class HomePage extends React.Component{
     }
     handleChange(e){
         this.setState({
-            login:false,
+            login:true,
+
         })
     }
 
