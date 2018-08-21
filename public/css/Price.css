@@ -1,0 +1,21 @@
+.content h4 {
+    font-family: HNMedium;
+    font-size: 22px!important;
+}
+
+.content hr {
+    background: #ee7d00;
+    height: 3px;
+}
+
+.content input {
+    width: 60%;
+}
+
+.content textarea {
+    width: 60%;
+}
+
+.content button {
+    width: 60%;
+}

@@ -1,0 +1,111 @@
+.content .cart-items,
+.content .pay-money .site-left .pay-method {
+    background: #f2f2f2;
+    border-left: 3px solid #ee7d00;
+}
+
+.content .cart-items h6,
+.content .pay-money .site-left h6 {
+    font-family: HNMedium;
+    color: #333333;
+}
+
+.content .item-table .table thead tr th {
+    font-size: 14px;
+    font-family: HNRegular;
+}
+
+.content .item-table .table tbody tr .item-name,
+.content .item-table .table tbody tr .item-count {
+    font-size: 14px;
+    font-family: HNRegular;
+}
+
+.content .item-table .table tbody tr .item-price,
+.content .item-table .table tbody tr .items-money {
+    font-size: 16px;
+    font-family: HNMedium;
+    color: #b12704;
+}
+
+.content .item-table .table tbody tr td a {
+    font-family: HNRegular;
+    font-size: 12px;
+    color: #b8b8b8;
+    border-bottom: 1px solid #b8b8b8;
+}
+
+.content .item-table .table tbody tr td h5,
+.content .site-right .cod table tbody tr td h5 {
+    color: #333333
+}
+
+.content .item-table .table {
+    border: 1px solid #b8b8b8;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: none!important;
+    width: 51%;
+}
+
+.content .site-right .cod h6,
+.content .site-right .credit h6 {
+    font-family: HNMedium;
+}
+
+.content .site-right .cod table tbody tr td .search-box .input-group-text,
+.content .site-right .credit table tbody tr td .search-box .input-group-text {
+    background-color: #ee7d00!important;
+}
+
+.content .site-right .cod table tbody tr .number-product,
+.content .site-right .cod table tbody tr .number-product,
+.content .site-right .cod table tbody tr .point {
+    font-family: HNRegular;
+    font-size: 14px;
+    color: #333333;
+    width: 47%;
+}
+
+.content .site-right .cod table tbody tr .point span,
+.content .site-right .cod table tbody tr .summary-price,
+.content .site-right .credit table tbody tr .point span,
+.content .site-right .credit table tbody tr .summary-price {
+    color: #b12704;
+}
+
+#cod,
+#credit,
+#infor-visa,
+#infor-bank-acount,
+#infor-bank-pw {
+    display: none;
+}
+
+.content .site-right .cod button,
+.content .site-right .credit button {
+    background: #0654b9;
+    color: #fff;
+    font-family: HNMedium;
+    font-size: 14px;
+    width: 30%;
+}
+
+.content .site-right .credit p {
+    font-family: HNRegular;
+    font-size: 14px;
+}
+
+.content .site-right .credit img {
+    width: 100%;
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.content .site-right .credit .active {
+    -webkit-filter: grayscale(0%)!important;
+    filter: grayscale(0%)!important;
+}

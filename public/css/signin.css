@@ -1,0 +1,13 @@
+.modal-content .modal-body input {
+    border-radius: 5px;
+}
+
+.modal-content .modal-body button {
+    border-radius: 5px;
+    background: #0654b9;
+}
+
+.modal-content .modal-body p {
+    font-family: HNMedium;
+    font-size: 14px;
+}

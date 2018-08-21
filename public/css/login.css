@@ -1,0 +1,40 @@
+.modal-content .modal-body button {
+    color: #fff;
+    width: 100%;
+    border-radius: 5px;
+    font-family: HNmedium;
+}
+
+.modal-content .modal-body input {
+    width: 100%;
+    border-radius: 5px;
+    font-family: HNmedium;
+    color: #000;
+}
+
+.modal-content .modal-body .gmail {
+    background: #db5046;
+    font-size: 12px;
+}
+
+.modal-content .modal-body .fb {
+    background: #3c579e;
+    font-size: 12px;
+}
+
+.modal-content .modal-body .dangnhap {
+    background: #0654b9;
+    font-size: 13px;
+}
+
+.modal-content .modal-body p {
+    font-size: 14px;
+    font-family: HNMedium;
+}
+
+.modal-content .modal-body a,
+.modal-content .modal-body span {
+    color: #0654b9;
+    font-size: 14px;
+    font-family: HNMedium;
+}

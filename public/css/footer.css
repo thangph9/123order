@@ -1,0 +1,18 @@
+.footer-bg{
+	background-color: #003770;
+	color: white;
+}
+
+.footer-font-nm{
+	font-family: HNMedium;
+	font-size: 16px;
+}
+
+.footer-font-sm{
+	font-family: HNLight;
+	font-size: 14px;
+}
+
+.copyright-border{
+	border-top: 1px white solid;
+}

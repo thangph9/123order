@@ -1,0 +1,13 @@
+.breadcrumb {
+    background-color: unset;
+    font-family: HNLight;
+    font-size: 14px;
+}
+
+.breadcrumb .breadcrumb-item a {
+    color: #333333;
+}
+
+.breadcrumb .breadcrumb-item:last-child a {
+    color: #999999;
+}

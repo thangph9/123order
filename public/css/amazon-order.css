@@ -1,0 +1,27 @@
+.side-bg{
+	background-color: #ee7d00;
+	color: white;
+	font-family: HNMedium;
+	font-size: 16px;
+}
+
+.side-item{
+	font-family: HNMedium;
+	font-size: 14px;
+}
+
+.category{
+	font-family: HNMedium;
+	font-size: 16px;
+}
+
+.category-item{
+	font-family: HNRegular;
+	font-size: 14px;
+}
+
+.found-item-font{
+	font-family: HNLight;
+	font-style: italic;
+	font-size: 12px;
+}

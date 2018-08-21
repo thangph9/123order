@@ -1,0 +1,269 @@
+.detail-item h4 {
+    font-family: HNMedium;
+}
+
+.detail-item .checked {
+    color: #fdd637!important;
+}
+
+.detail-item span {
+    font-size: 12px;
+}
+
+.detail-item .rate ul {
+    list-style-type: none;
+}
+
+.detail-item .rate ul li {
+    list-style-type: none;
+    float: left;
+    font-family: HNRegular;
+    font-size: 14px;
+    color: #aeaeae;
+}
+
+.detail-item .price-item h5 {
+    font-family: HNMedium;
+    color: #c46550;
+}
+
+.detail-item .price-item strike {
+    font-family: HNMedium;
+    color: #c4c2c2;
+    font-size: 14px;
+}
+
+.detail-item .p {
+    font-family: HNMedium;
+    font-size: 14px;
+}
+
+.detail-item .quantity .plus button {
+    width: 114%;
+    height: 100%;
+}
+
+.detail-item .quantity .col-2 button {
+    height: 100%;
+}
+
+.detail-item .quantity .col-7 button {
+    height: 100%;
+    width: 100%;
+    font-size: 14px;
+}
+
+.detail-item .quantity input {
+    height: 100%!important;
+}
+
+.big-img img {
+    max-width: 100%;
+    width: max-content;
+}
+
+#day,
+#hour,
+#minute,
+#second {
+    background: #f2f6fa;
+    border-radius: 15px;
+}
+
+.detail-item .guide ul {
+    list-style-type: none;
+}
+
+.detail-item .guide ul li {
+    border: 1px solid #ededed;
+    float: left;
+    font-family: HNRegular;
+    font-size: 12px;
+    color: #585858;
+}
+
+.item-table .table tbody tr .item-status {
+    font-size: 14px;
+    font-family: HNRegular;
+}
+
+.item-table .table tbody tr th {
+    font-family: HNRegular;
+    font-size: 14px;
+}
+
+.item-table .table tbody tr .item-count,
+.item-table .table tbody tr .items-time {
+    font-size: 16px;
+    font-family: HNMedium;
+    color: #b12704;
+}
+
+.item-table .table tbody .checked {
+    color: #fdd637;
+}
+
+.item-table .table tbody span {
+    font-size: 12px;
+}
+
+.item-table .table tbody ul {
+    list-style: none;
+}
+
+.item-table .table tbody ul li {
+    font-size: 12px;
+    font-family: HNMedium;
+}
+
+.cart-items,
+.change-price,
+.item-info,
+.comment,
+.commentandrate,
+.product-involve {
+    background: #f2f2f2;
+    border-left: 3px solid #ee7d00;
+    border-right: 1px solid #b8b8b8;
+    border-top: 1px solid #b8b8b8;
+}
+
+.change-price .border {
+    border: 1px solid #e8762b!important;
+    border-radius: 15px;
+}
+
+.item-table .table tbody tr td h5,
+.site-right .cod table tbody tr td h5 {
+    color: #333333
+}
+
+.item-table .table {
+    border: 1px solid #b8b8b8;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: none!important;
+}
+
+.item-info-detail,
+.comment-detail,
+.comment-content,
+.product-involve-detail {
+    border: 1px solid #b8b8b8;
+    font-family: HNMedium;
+    font-size: 14px;
+}
+
+
+/* .comment-detail .ttl p {
+    white-space: normal;
+    width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
+
+.comment-detail .checked {
+    color: orange
+}
+
+.comment-detail .user {
+    font-family: HNMedium;
+    font-size: 12px;
+    color: #877f7f;
+}
+
+.comment-detail .content-comment {
+    font-family: HNMedium;
+    font-size: 14px;
+    color: #1f1c1c;
+}
+
+#module p.collapse[aria-expanded="false"],
+#module2 p.collapse[aria-expanded="false"],
+#module3 p.collapse[aria-expanded="false"] {
+    height: 42px !important;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+p.collapse[aria-expanded="false"],
+p.collapse[aria-expanded="false"],
+p.collapse[aria-expanded="false"] {
+    height: 42px !important;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+}
+
+#module p.collapse,
+#module2 p.collapse,
+#module3 p.collapse,
+p.ttl {
+    font-family: HNMedium;
+    font-size: 14px;
+}
+
+#module p.collapsing[aria-expanded="false"],
+#module2 p.collapsing[aria-expanded="false"],
+#module3 p.collapsing[aria-expanded="false"] {
+    height: 41px !important;
+}
+
+#module a.collapsed:after,
+#module2 a.collapsed:after,
+#module3 a.collapsed:after {
+    content: '+ Hiện nội dung';
+}
+
+#module a:not(.collapsed):after,
+#module2 a:not(.collapsed):after,
+#module3 a:not(.collapsed):after {
+    content: '- Ẩn nội dung';
+}
+
+.show-more button {
+    width: 30%;
+}
+
+
+/* .product-involve */
+
+.deal-title-font {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: HNLight;
+}
+
+.card-title {
+    margin-bottom: .75rem;
+}
+
+.xuat-xu {
+    font-size: 14px;
+    color: #2b96b6;
+}
+
+.deal-price {
+    font-size: 14px;
+    color: #b12704;
+    font-weight: bold;
+    font-family: HNLight;
+}
+
+.align-left {
+    float: left;
+}
+
+.deal-old-price {
+    font-size: 12px;
+    font-family: HNLight;
+}
+
+.align-right {
+    float: right;
+}

@@ -1,0 +1,47 @@
+/* Style the tab */
+.tab {
+    float: left;
+    padding-left: 0.5em;
+    font-family: HNRegular;
+    font-size: 14px;
+    border-right: 1px solid rgb(0,0,0,0.15); 
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+}
+
+/* Change background color of buttons on hover */
+.tab .row:hover {
+    color: #ee7d00;
+}
+
+/* Create an active/current "tab button" class */
+.tab .row .active {
+    color: #ee7d00;
+}
+
+/* Style the tab content */
+.tabcontent {
+    background-color: #fff;
+    display: none;
+}
+
+.arrow-float{
+  float: right;
+}
+
+.dropdown-arrow::after {
+    display:none;
+}
+
+.nav-line{
+  border-bottom: 1px solid rgb(0,0,0,0.15);
+}

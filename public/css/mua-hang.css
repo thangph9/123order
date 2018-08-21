@@ -1,0 +1,25 @@
+
+.align-left{
+	float: left;
+}
+
+.align-right{
+	float: right;
+}
+
+.remain-time{
+	font-size: 12px;
+	font-family: HNLight;
+}
+
+.discount{
+	font-size: 14px;
+	font-weight: bold;
+	font-family: HNLight;
+}
+
+.card-title-font{
+	font-size: 14px;
+	font-weight: bold;
+	font-family: HNLight;
+}

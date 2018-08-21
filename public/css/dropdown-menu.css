@@ -1,0 +1,127 @@
+.dropdown-no-arrow::after {
+    display:none;
+}
+
+
+.menu2-dropdown{
+	width: 80rem !important;
+}
+
+.gia-soc-position{
+	left: -90%;
+}
+
+.best-seller-position{
+	left: -275%;
+}
+
+.hot-deal-position{
+	left: -223%;
+}
+
+.mua-amazon-position{
+	left: -342%;
+}
+
+.mua-ebay-position{
+	left: -523%;
+}
+
+.ebay-position{
+	left: -69%;
+}
+
+.amazon-position{
+	left: -146%;
+}
+
+.top-sore-position{
+	left: -259%
+}
+
+.mua-ho-position{
+	left: -1187%;
+}
+
+.ship-ho-position{
+	left: -1367%;
+}
+
+@media only screen and (max-width: 768px){
+	.menu2-dropdown{
+		width: 42rem !important;
+	}
+}
+
+@media only screen and (max-width: 414px){
+	.menu2-dropdown{
+		width: 22.5rem !important;
+	}
+}
+
+@media only screen and (max-width: 320px){
+	.menu2-dropdown{
+		width: 16.5rem !important;
+	}
+}
+
+@media only screen and (max-width: 375px){
+	.menu2-dropdown{
+		width: 20rem !important;
+	}
+}
+
+.gia-soc-title{
+	font-family: HNMedium;
+	font-size: 16px;
+}
+
+.list-tittle{
+	font-family: HNMedium;
+	font-size: 14px;
+}
+
+.list-item{
+	font-family: HNRegular;
+	font-size: 14px;
+}
+
+
+.title-stroke{
+	border-left: 4px solid #ee7d00;
+}
+
+.mua-ho-bg{
+	background-color: #fafafa;
+}
+
+
+.mua-ho-title{
+	font-family: HNMedium;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.mua-ho-subtittle{
+	font-family: HNLight;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.mua-ho-li{
+	font-family: HNRegular;
+	font-size: 14px;
+}
+
+.mua-ho-li::before{
+	content: "•"; 
+	color: #ee7d00;
+  	display: inline-block; 
+  	width: 1em;
+  	margin-left: -1em
+}
+
+.step-content{
+	font-family: HNRegular;
+	font-size: 14px;
+}
