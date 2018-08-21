@@ -1,47 +1,52 @@
 import React from "react";
 //import { Link } from "react-router-dom";
 import { connect } from "react-redux";
-import {ProductItemBox} from "./ProductItemBox";
-class HomePage extends React.Component{
-    constructor(props){
+import { ProductItemBox } from "./ProductItemBox";
+import { Header } from "./Header";
+class HomePage extends React.Component {
+    constructor(props) {
         super(props);
-        this.state={
+        this.state = {
             login: true,
             loading: false,
         }
-        this.handleSubmit=this.handleSubmit.bind(this);
-        this.handleChange=this.handleChange.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleChange = this.handleChange.bind(this);
     }
-    handleSubmit(){
+    handleSubmit() {
         this.setState({
             login: false
         })
         console.log("Hello World")
     }
-    handleChange(e){
+    handleChange(e) {
         this.setState({
-            login:true,
+            login: true,
 
         })
     }
 
-    render(){
-        
+    render() {
+
         return (
-            <div className="container-fluid mt-4">
-                 <div className="container">
-					<div className="row">
-						<ProductItemBox />
-					</div>
-				 </div>      
+            <div>
+                <Header/>
+                <div className="container-fluid mt-4">
+                    <div className="container">
+                        <div className="row">
+                            <ProductItemBox />
+                        </div>
+                    </div>
+                </div>
             </div>
+
         )
-        
+
     }
 }
-function mapStateToProps(state){
-  
+function mapStateToProps(state) {
+
     return state;
 }
-const connectedHomePage=connect(mapStateToProps)(HomePage);
+const connectedHomePage = connect(mapStateToProps)(HomePage);
 export { connectedHomePage as HomePage } 
