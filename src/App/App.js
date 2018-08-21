@@ -6,7 +6,7 @@ import { createBrowserHistory } from 'history';
 
 import { alertActions } from "../actions";
 import { HomePage } from "../HomePage";
-import {PrivateRoute} from "../Sections";
+import {PrivateRoute } from "../Sections";
 
 import { history } from "../stores";
 class App extends Component{
@@ -53,7 +53,8 @@ class App extends Component{
                 <Router history={history}>
                     <div>
                     <Switch history ={ history  }>
-                        <PrivateRoute exact path="/" component={HomePage} />
+                        
+						<Route exact path="/home" component={HomePage} />
                     </Switch>
 
                     </div>
