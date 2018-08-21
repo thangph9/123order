@@ -43,5 +43,5 @@ function mapStateToProps(state){
     const {page} = state;
     return {page};
 }
-const connectedHomePage=connect(mapStateToProps)(ProductItem);
-export { connectedHomePage as ProductItem } 
+const connected=connect(mapStateToProps)(ProductItem);
+export { connected as ProductItem } 

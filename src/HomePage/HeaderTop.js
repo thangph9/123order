@@ -1,8 +1,6 @@
 import React from "react";
-//import { Link } from "react-router-dom";
 import { connect } from "react-redux";
-import {ProductItemBox} from "./ProductItemBox";
-class HomePage extends React.Component{
+class HeaderTop extends React.Component{
     constructor(props){
         super(props);
         this.state={
@@ -17,17 +15,12 @@ class HomePage extends React.Component{
         })
         console.log("Hello World")
     }
-
-
     render(){
         
         return (
-            <div className="container-fluid mt-4">
-                 <div className="container">
-					<div className="row">
-						<ProductItemBox />
-					</div>
-				 </div>      
+            <div>
+                <HeaderTop/>
+                <HeaderBot/>
             </div>
         )
         
@@ -37,5 +30,5 @@ function mapStateToProps(state){
   
     return state;
 }
-const connectedHomePage=connect(mapStateToProps)(HomePage);
-export { connectedHomePage as HomePage } 
+const connected=connect(mapStateToProps)(HomePage);
+export { connected as HomePage } 
