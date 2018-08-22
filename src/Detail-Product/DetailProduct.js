@@ -1,10 +1,10 @@
 import React from "react";
 //import { Link } from "react-router-dom";
 import { connect } from "react-redux";
-import {Header} from '../Sections/Header';
-import{Footer} from '../Sections/Footer'
-import { Content } from "./Content";
-class COD extends React.Component {
+//import { ProductItemBox } from "./ProductItemBox";
+import { Header } from "../Sections/Header";
+import { Footer } from "../Sections/Footer";
+class DetailProduct extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -32,7 +32,7 @@ class COD extends React.Component {
         return (
             <div>
                 <Header/>
-                <Content/>
+                
                 <Footer/>
             </div>
 
@@ -44,5 +44,5 @@ function mapStateToProps(state) {
 
     return state;
 }
-const connectedCOD = connect(mapStateToProps)(COD);
-export { connectedCOD as COD } 
+const connectedHomePage = connect(mapStateToProps)(DetailProduct);
+export { connectedHomePage as DetailProduct } 

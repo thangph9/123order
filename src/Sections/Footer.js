@@ -1,22 +1,22 @@
 import React from "react";
 import { connect } from "react-redux";
-class Footer extends React.Component {
-    constructor(props) {
+class Footer extends React.Component{
+    constructor(props){
         super(props);
-        this.state = {
+        this.state={
             login: true,
             loading: false,
         }
-        this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleSubmit=this.handleSubmit.bind(this);
     }
-    handleSubmit() {
+    handleSubmit(){
         this.setState({
             login: false
         })
         console.log("Hello World")
     }
-    render() {
-
+    render(){
+        
         return (
             <div className="container-fluid footer-bg">
                 <div className="row">
@@ -110,12 +110,12 @@ class Footer extends React.Component {
             </div>
 
         )
-
+        
     }
 }
-function mapStateToProps(state) {
-
+function mapStateToProps(state){
+  
     return state;
 }
-const connectedFooter = connect(mapStateToProps)(Footer);
+const connectedFooter=connect(mapStateToProps)(Footer);
 export { connectedFooter as Footer } 

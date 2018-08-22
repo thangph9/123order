@@ -1,10 +1,9 @@
 import React from "react";
 //import { Link } from "react-router-dom";
 import { connect } from "react-redux";
-import {Header} from '../Sections/Header';
-import{Footer} from '../Sections/Footer'
-import { Content } from "./Content";
-class COD extends React.Component {
+import { ContentBotLeft } from "./ContentBotLeft";
+import { ContentBotRight } from "./ContentBotRight";
+class ContentBot extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -30,10 +29,11 @@ class COD extends React.Component {
     render() {
 
         return (
-            <div>
-                <Header/>
-                <Content/>
-                <Footer/>
+            <div class="container mt-4">
+                <div class="row">
+                    <ContentBotLeft/>
+                    <ContentBotRight/>
+                </div>
             </div>
 
         )
@@ -44,5 +44,5 @@ function mapStateToProps(state) {
 
     return state;
 }
-const connectedCOD = connect(mapStateToProps)(COD);
-export { connectedCOD as COD } 
+const connected = connect(mapStateToProps)(ContentBot);
+export { connected as ContentBot } 

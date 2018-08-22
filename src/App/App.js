@@ -7,9 +7,13 @@ import { createBrowserHistory } from 'history';
 import { alertActions } from "../actions";
 import { HomePage } from "../HomePage";
 import { COD } from "../COD";
+import { DanhMucAmazon } from "../DanhMucAmazon";
+import { DanhMucEbay } from "../DanhMucEbay";
 import {PrivateRoute } from "../Sections";
-
+import {MuaHangEbay} from '../MuaHangEbay';
+import {MuaHangAmazon} from '../MuaHangAmazon';
 import { history } from "../stores";
+import {DetailProduct} from '../Detail-Product/DetailProduct';
 class App extends Component{
     constructor(props){
         super(props);
@@ -57,6 +61,11 @@ class App extends Component{
                         
 						<Route exact path="/home" component={HomePage} />
                         <Route exact path="/cod" component={COD} />
+                        <Route exact path="/danh-muc-amazon" component={DanhMucAmazon} />
+                        <Route exact path="/danh-muc-ebay" component={DanhMucEbay} />
+                        <Route exact path="/mua-hang-ebay" component={MuaHangEbay} />
+                        <Route exact path="/mua-hang-amazon" component={MuaHangAmazon} />
+                        <Route exact path="/detail-product" component={DetailProduct} />
                     </Switch>
 
                     </div>

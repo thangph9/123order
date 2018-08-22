@@ -3,8 +3,9 @@ import React from "react";
 import { connect } from "react-redux";
 import {Header} from '../Sections/Header';
 import{Footer} from '../Sections/Footer'
-import { Content } from "./Content";
-class COD extends React.Component {
+import{ContentTop} from './ContentTop'
+import { ContentBot } from "./ContentBot";
+class DanhMucAmazon extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -32,7 +33,8 @@ class COD extends React.Component {
         return (
             <div>
                 <Header/>
-                <Content/>
+                <ContentTop/>
+                <ContentBot/>
                 <Footer/>
             </div>
 
@@ -44,5 +46,5 @@ function mapStateToProps(state) {
 
     return state;
 }
-const connectedCOD = connect(mapStateToProps)(COD);
-export { connectedCOD as COD } 
+const connected = connect(mapStateToProps)(DanhMucAmazon);
+export { connected as DanhMucAmazon } 

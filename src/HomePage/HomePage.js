@@ -1,10 +1,10 @@
 import React from "react";
 //import { Link } from "react-router-dom";
 import { connect } from "react-redux";
-import { ProductItemBox } from "./ProductItemBox";
+//import { ProductItemBox } from "./ProductItemBox";
 import { Header } from "./Header";
 import { Content } from "./Content";
-import { Footer } from "./Footer";
+import { Footer } from "../Sections/Footer";
 class HomePage extends React.Component {
     constructor(props) {
         super(props);
