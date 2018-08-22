@@ -36,7 +36,7 @@ class HeaderTopLeft extends React.Component {
                     <li className="nav-item mx-1 d-none d-lg-block"> <span className="nav-link text-white">|</span> </li>
                     <HeaderTopLeftAMAZON/>
                     <li className="nav-item mx-1 d-none d-lg-block"> <span className="nav-link text-white">|</span> </li>
-                    <HeaderTopLeftTopStore/>]
+                    <HeaderTopLeftTopStore/>
                     <li className="nav-item mx-1 d-none d-lg-block"> <span className="nav-link text-white">|</span> </li>
                 </ul>
         )
