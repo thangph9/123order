@@ -34,7 +34,7 @@ class Content extends React.Component {
                     </div>
                 </div>
                 <ProductItemBox/>
-                <div class="container pay-money">
+                <div className="container pay-money">
                 <PayMoney/>
                 </div>
                 

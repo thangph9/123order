@@ -19,12 +19,12 @@ class ContentTransport extends React.Component {
     render() {
 
         return (
-            <div className="container-fluid bg-white">
+            <div className="container-fluid bg-white" >
                 <div className="row">
                     <div className="container px-2 py-4">
                         <div className="container adv-container">
                             <div className="row adv-container justify-content-center">
-                                <img src="img/uy-tin.png" alt className="img-fluid" />
+                                <img src="img/uy-tin.png" alt='img' className="img-fluid" />
                             </div>
                         </div>
                     </div>

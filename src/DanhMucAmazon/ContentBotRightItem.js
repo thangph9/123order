@@ -30,7 +30,7 @@ class ContentBotRightItem extends React.Component {
             <div className="col-md-4 mt-2">
                 <div className="card">
                     <div className="hovereffect">
-                        <div className="position-absolute discount-tag-pos"><img src="img/discount.png" alt className="img-fluid" /></div>
+                        <div className="position-absolute discount-tag-pos"><img src="img/discount.png" alt='img' className="img-fluid" /></div>
                         <img className="card-img-top img-thumbnail border-0 img-fluid" src="img/Layer 6.png" alt="Card image cap" />
                         <div className="overlay">
                             <a className="info" href="#">Chi tiết</a>

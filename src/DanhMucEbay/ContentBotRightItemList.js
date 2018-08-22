@@ -28,7 +28,7 @@ class ContentBotRightItemList extends React.Component {
     render() {
 
         return (
-            <div class="row">
+            <div className="row">
                 <ContentBotRightItem/>
                 <ContentBotRightItem/>
                 <ContentBotRightItem/>

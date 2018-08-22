@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 //import { ProductItemBox } from "./ProductItemBox";
 import { Header } from "../Sections/Header";
 import { Footer } from "../Sections/Footer";
+import { Content } from "./Content";
 class DetailProduct extends React.Component {
     constructor(props) {
         super(props);
@@ -32,7 +33,7 @@ class DetailProduct extends React.Component {
         return (
             <div>
                 <Header/>
-                
+                <Content/>
                 <Footer/>
             </div>
 

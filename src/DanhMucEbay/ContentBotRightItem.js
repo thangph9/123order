@@ -30,8 +30,8 @@ class ContentBotRightItem extends React.Component {
             <div className="col-md-4 mt-2">
                 <div className="card">
                     <div className="hovereffect">
-                        <div className="position-absolute discount-tag-pos"><img src="img/discount.png" alt className="img-fluid" /></div>
-                        <img className="card-img-top img-thumbnail border-0 img-fluid" src="img/Layer 6.png" alt="Card image cap" />
+                        <div className="position-absolute discount-tag-pos"><img src="img/discount.png" alt='img' className="img-fluid" /></div>
+                        <img className="card-img-top img-thumbnail border-0 img-fluid" src="img/Layer 6.png" alt='img' />
                         <div className="overlay">
                             <a className="info" href="#">Chi tiết</a>
                         </div>
@@ -42,7 +42,7 @@ class ContentBotRightItem extends React.Component {
                         {/* Starchart */}
                         <i className="fa fa-star text-warning" />
                         <i className="fa fa-star text-warning" />
-                        <i className="fas fa-star-half-alt text-warning" />
+                        <i className="fas fa-star-half-alt='img' text-warning" />
                         <i className="far fa-star text-warning" />
                         <i className="far fa-star text-warning" />
                         <br />

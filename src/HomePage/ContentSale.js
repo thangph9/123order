@@ -20,8 +20,8 @@ class ContentSale extends React.Component{
     render(){
         
         return (
-            <div class="container mt-2">
-                <div class="row">
+            <div className="container mt-2">
+                <div className="row">
                     <ContentSaleLeft/>
                     <ContentSaleRight/>
                 </div>

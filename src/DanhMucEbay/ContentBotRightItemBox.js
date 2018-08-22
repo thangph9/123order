@@ -29,7 +29,7 @@ class ContentBotRightItemBox extends React.Component {
     render() {
 
         return (
-            <div class="container bg-white rounded-top">
+            <div className="container bg-white rounded-top">
                 <div className="row py-2">
                     <div className="col-8 pt-1">
                         <nav aria-label="breadcrumb">

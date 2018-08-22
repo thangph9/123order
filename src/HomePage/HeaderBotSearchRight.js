@@ -27,19 +27,20 @@ class HeaderBotSearchRight extends React.Component{
     render(){
         
         return (
-                <div class="col-lg-8 offset-1">
-                        <div class="input-group input-group-lg mb-3">
-                            <input type="text" class="form-control" placeholder="Tìm sản phẩm, thương hiệu..." aria-label="Tìm sản phẩm, thương hiệu..." aria-describedby="button-addon2"/>
-                            <div class="input-group-append">
-                                    <button class="btn btn-outline-secondary search-btn text-white" type="button" id="button-addon2">
-                                    <i class="fas fa-search"></i>
-                                    </button>
-                            </div>
-                            <div class="justify-content-center ml-3 pt-1"> 
-                                <img src="img/icon1.png" alt="img"/>
-                            </div>
-                        </div>
-                </div>
+            <div className="col-lg-8 offset-1">
+            <div className="input-group input-group-lg mb-3">
+              <input type="text" className="form-control" placeholder="Tìm sản phẩm, thương hiệu..." aria-label="Tìm sản phẩm, thương hiệu..." aria-describedby="button-addon2" />
+              <div className="input-group-append">
+                <button className="btn btn-outline-secondary search-btn text-white" type="button" id="button-addon2">
+                  <i className="fas fa-search" />
+                </button>
+              </div>
+              <div className="justify-content-center ml-3 pt-1"> 
+                <img src="img/icon1.png" alt="img" />
+              </div>
+            </div>
+          </div>
+          
         );
         
     }

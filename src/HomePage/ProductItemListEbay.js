@@ -19,7 +19,7 @@ class ProductItemListEbay extends React.Component {
     render() {
 
         return (
-            <div class="row mt-4">
+            <div className="row mt-4">
                 <ProductItemEbay/>
                 <ProductItemEbay/>
                 <ProductItemEbay/>

@@ -20,8 +20,8 @@ class ContentSaleRight extends React.Component{
     render(){
         
         return (
-            <div class="col-5 p-2">
-                <div class="container p-0">
+            <div className="col-5 p-2">
+                <div className="container p-0">
                     <ContentSaleRightTop/>
                     <ContentSaleRightBot/>
                 </div>

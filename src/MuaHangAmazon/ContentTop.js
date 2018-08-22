@@ -39,7 +39,7 @@ class ContentTop extends React.Component {
                         </ol>
                     </nav>
                 </div>
-                <div class="row">
+                <div className="row">
                     <ContentTopLeft/>
                     <ContentTopRight/>
                 </div>

@@ -29,8 +29,8 @@ class ContentBot extends React.Component {
     render() {
 
         return (
-            <div class="container mt-4">
-                <div class="row">
+            <div className="container mt-4">
+                <div className="row">
                     <ContentBotLeft/>
                     <ContentBotRight/>
                 </div>

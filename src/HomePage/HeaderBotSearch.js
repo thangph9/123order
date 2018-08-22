@@ -29,7 +29,7 @@ class HeaderBotSearch extends React.Component{
     render(){
         
         return (
-            <div class="row justify-content-center">
+            <div className="row justify-content-center">
                 <HeaderBotSearchLeft/>
                 <HeaderBotSearchRight/>
             </div>

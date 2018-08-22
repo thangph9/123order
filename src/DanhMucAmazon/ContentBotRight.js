@@ -28,7 +28,7 @@ class ContentBotRight extends React.Component {
     render() {
 
         return (
-            <div class="col-md-9 px-2 d-flex align-self-stretch">
+            <div className="col-md-9 px-2 d-flex align-self-stretch">
                 <ContentBotRightItemBox/>
             </div>
 

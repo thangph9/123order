@@ -20,7 +20,7 @@ class ProductItemListAmazon extends React.Component {
     render() {
 
         return (
-            <div class="row mt-4">
+            <div className="row mt-4">
                 <ProductItemAmazon/>
                 <ProductItemAmazon/>
                 <ProductItemAmazon/>
