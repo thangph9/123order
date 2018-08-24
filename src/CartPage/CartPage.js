@@ -1,7 +1,7 @@
 import React from "react";
 import {connect} from "react-redux";
 class CartPage extends React.Component{
-    construct(props){
+    constructor(props){
         super(props)
         this.handleSubmit=this.handleSubmit.bind(this)
     }
