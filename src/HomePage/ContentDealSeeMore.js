@@ -19,7 +19,7 @@ class ContentDealSeeMore extends React.Component {
 
         return (
             <div className="row justify-content-center my-4">
-                <div className="col-4">
+                <div className="col-lg-4">
                     <button className="btn btn-block deal-btn">Xem thêm</button>
                 </div>
             </div>

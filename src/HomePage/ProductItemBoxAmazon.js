@@ -1,7 +1,6 @@
 import React from "react";
 //import { Link } from "react-router-dom";
 import { connect } from "react-redux";
-import {ProductItemList} from "./ProductItemList";
 import { ProductItemListAmazon } from "./ProductItemListAmazon";
 class ProductItemBoxAmazon extends React.Component{
     constructor(props){

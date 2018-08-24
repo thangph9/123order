@@ -2,6 +2,9 @@ import React from "react";
 import { connect } from "react-redux";
 import {HeaderTop} from "./HeaderTop";
 import {HeaderBot} from "./HeaderBot";
+import {LoginHide} from "../HomePage/LoginHide";
+import { RegisterHide } from "./RegisterHide";
+import { Forgot } from "./Forgot";
 class Header extends React.Component{
     constructor(props){
         super(props);
@@ -22,6 +25,9 @@ class Header extends React.Component{
         return (
             <div>
                 <HeaderTop/>
+                <LoginHide/>
+                <RegisterHide/>
+                <Forgot/>
                 <HeaderBot/>
             </div>
         )

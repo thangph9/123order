@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import { HotDealHide } from "./HotDealHide";
 class HeaderBotMenuHotDeal extends React.Component {
     constructor(props) {
         super(props);
@@ -18,9 +19,9 @@ class HeaderBotMenuHotDeal extends React.Component {
     render() {
 
         return (
-            <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">HOT DEAL CÔNG NGHỆ</a>
-
+            <li className="nav-item dropdown" id="menuHotDeal">
+                <a className="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLinkHotDeal" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">HOT DEAL CÔNG NGHỆ</a>
+            <HotDealHide/>
             </li>
         );
 

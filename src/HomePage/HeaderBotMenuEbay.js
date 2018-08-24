@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import { EbayHide } from "./EbayHide";
 class HeaderBotMenuEbay extends React.Component {
     constructor(props) {
         super(props);
@@ -18,11 +19,11 @@ class HeaderBotMenuEbay extends React.Component {
     render() {
 
         return (
-            <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <li className="nav-item dropdown" id="menuMuaEbay">
+                <a className="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLinkMuaEbay" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     MUA HÀNG EBAY
                 </a>
-
+            <EbayHide/>
             </li>
         );
 

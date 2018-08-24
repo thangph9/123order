@@ -23,8 +23,10 @@ class ContentBuyAmazon extends React.Component{
         return (
             <div className="container-fluid mt-4">
                 <ContentBuyAmazonTitle/>
+                <div className="container mt-4 p-2">
                 <ProductItemBoxAmazon/>
                 <ContentDealSeeMore/>
+                </div>
             </div>
         )
         

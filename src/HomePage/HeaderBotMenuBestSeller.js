@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import { BestSellerHide } from "./BestSellerHide";
 class HeaderBotMenuBestSeller extends React.Component {
     constructor(props) {
         super(props);
@@ -18,9 +19,9 @@ class HeaderBotMenuBestSeller extends React.Component {
     render() {
 
         return (
-            <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BEST SELLER</a>
-
+            <li className="nav-item dropdown" id="menuBestSeller">
+                <a className="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLinkBestSeller" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BEST SELLER</a>
+            <BestSellerHide/>
             </li>
         );
 

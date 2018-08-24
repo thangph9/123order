@@ -23,7 +23,7 @@ class ContentDeal extends React.Component{
         return (
             <div className="container-fluid mt-4">
                 <ContentDealTitle/>
-                <div className="container">
+                <div className="container mt-4 p-2">
                     <ProductItemBox/>
                     <ContentDealSeeMore/>
                 </div>

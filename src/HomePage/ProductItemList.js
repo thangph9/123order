@@ -13,7 +13,6 @@ class ProductItemList extends React.Component{
     render(){
         
         return (
-
                     <div className="row">
 					<ProductItem />
                     <ProductItem />
@@ -21,7 +20,6 @@ class ProductItemList extends React.Component{
                     <ProductItem />
                     <ProductItem />
                     </div>
-
         )
         
     }

@@ -36,7 +36,7 @@ class ContentTopLeft extends React.Component {
       {/*Mua hang amazone*/}
       <div className="container">
         <div className="row side-bg py-2 d-none d-lg-block">
-          <div className="col-12 justify-content-center">
+          <div className="col-12 justif y-content-center">
             <img src="img\ebay-category.png" alt='img' className="img-fluid" />
           </div>
         </div>
