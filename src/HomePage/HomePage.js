@@ -1,8 +1,10 @@
 import React from "react";
 //import { Link } from "react-router-dom";
 import { connect } from "react-redux";
-import { ProductItemBox } from "./ProductItemBox";
+//import { ProductItemBox } from "./ProductItemBox";
 import { Header } from "./Header";
+import { Content } from "./Content";
+import { Footer } from "../Sections/Footer";
 class HomePage extends React.Component {
     constructor(props) {
         super(props);
@@ -31,13 +33,8 @@ class HomePage extends React.Component {
         return (
             <div>
                 <Header/>
-                <div className="container-fluid mt-4">
-                    <div className="container">
-                        <div className="row">
-                            <ProductItemBox />
-                        </div>
-                    </div>
-                </div>
+                <Content/>
+                <Footer/>
             </div>
 
         )

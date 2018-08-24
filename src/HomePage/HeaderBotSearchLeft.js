@@ -27,8 +27,8 @@ class HeaderBotSearchLeft extends React.Component{
     render(){
         
         return (
-            <div class="col-lg-2 mx-2 my-2 justify-content-center"> 
-                <img src="img/logo.png" alt="" class="web-logo"/> 
+            <div className="col-lg-2 mx-2 my-2 justify-content-center"> 
+                <img src="img/logo.png" alt="" className="web-logo"/> 
             </div>
         )
         

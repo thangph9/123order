@@ -27,8 +27,8 @@ class HeaderTopLeftAMAZON extends React.Component{
     render(){
         
         return (
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle dropdown-arrow text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">AMAZON</a>
+            <li className="nav-item dropdown">
+                <a className="nav-link dropdown-toggle dropdown-arrow text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">AMAZON</a>
             </li>
         )
         

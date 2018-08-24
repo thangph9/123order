@@ -27,8 +27,8 @@ class HeaderTopRightDangNhap extends React.Component{
     render(){
         
         return (
-            <li class="nav-item">
-                <a id="login" data-toggle="modal" data-target="#myLogin" class="nav-link text-white" href="#">ĐĂNG NHẬP</a>
+            <li className="nav-item">
+                <a id="login" data-toggle="modal" data-target="#myLogin" className="nav-link text-white" href="#">ĐĂNG NHẬP</a>
             </li>
         )
         

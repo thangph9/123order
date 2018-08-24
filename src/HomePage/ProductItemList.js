@@ -13,9 +13,15 @@ class ProductItemList extends React.Component{
     render(){
         
         return (
-				<div>
+
+                    <div className="row">
 					<ProductItem />
-				</div>
+                    <ProductItem />
+                    <ProductItem />
+                    <ProductItem />
+                    <ProductItem />
+                    </div>
+
         )
         
     }
