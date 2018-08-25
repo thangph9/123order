@@ -33,13 +33,13 @@ class AmazonHide extends React.Component {
           <ul>
             <span className="list-tittle">Đồng hồ</span>
             <li>
-              <a href className="ml-2 text-dark list-item">Đồng hồ cơ</a>
+              <a href="#" className="ml-2 text-dark list-item">Đồng hồ cơ</a>
             </li>
             <li>
-              <a href className="ml-2 text-dark list-item">Đồng hồ pin</a>
+              <a href="#" className="ml-2 text-dark list-item">Đồng hồ pin</a>
             </li>
             <li>
-              <a href className="ml-2 text-dark list-item">Đồng hồ thông minh</a>
+              <a href="#" className="ml-2 text-dark list-item">Đồng hồ thông minh</a>
             </li>
           </ul>
         </div>
@@ -47,13 +47,13 @@ class AmazonHide extends React.Component {
           <ul>
             <span className="list-tittle">Thời trang</span>
             <li>
-              <a href className="ml-2 text-dark list-item">Thời trang nam</a>
+              <a href="#" className="ml-2 text-dark list-item">Thời trang nam</a>
             </li>
             <li>    
-              <a href className="ml-2 text-dark list-item">Thời trang nữ</a>
+              <a href="#" className="ml-2 text-dark list-item">Thời trang nữ</a>
             </li>
             <li>    
-              <a href className="ml-2 text-dark list-item">Thời trang trẻ em</a>
+              <a href="#" className="ml-2 text-dark list-item">Thời trang trẻ em</a>
             </li>
           </ul>
         </div>
@@ -61,17 +61,17 @@ class AmazonHide extends React.Component {
           <ul>
             <span className="list-tittle">Đồ chơi</span>
             <li>
-              <a href className="ml-2 text-dark 
+              <a href="#" className="ml-2 text-dark 
                                                               list-item">Đồ chơi lego</a>
             </li>
             <li>    
-              <a href className="ml-2 text-dark list-item">Đồ chơi barbie</a>
+              <a href="#" className="ml-2 text-dark list-item">Đồ chơi barbie</a>
             </li>
             <li>    
-              <a href className="ml-2 text-dark list-item">Đồ chơi giáo dục</a>
+              <a href="#" className="ml-2 text-dark list-item">Đồ chơi giáo dục</a>
             </li>
             <li>    
-              <a href className="ml-2 text-dark list-item">Đồ chơi thông minh</a>
+              <a href="#" className="ml-2 text-dark list-item">Đồ chơi thông minh</a>
             </li>
           </ul>
         </div>
@@ -81,16 +81,16 @@ class AmazonHide extends React.Component {
           <ul>
             <span className="list-tittle">Thực phẩm chức năng</span>
             <li>
-              <a href className="ml-2 text-dark list-item">Giảm cân</a>
+              <a href="#" className="ml-2 text-dark list-item">Giảm cân</a>
             </li>
             <li>
-              <a href className="ml-2 text-dark list-item">Protein</a>
+              <a href="#" className="ml-2 text-dark list-item">Protein</a>
             </li>
             <li>
-              <a href className="ml-2 text-dark list-item">Callogen</a>
+              <a href="#" className="ml-2 text-dark list-item">Callogen</a>
             </li>
             <li>
-              <a href className="ml-2 text-dark list-item">Vitamin</a>
+              <a href="#" className="ml-2 text-dark list-item">Vitamin</a>
             </li>
           </ul>
         </div>
@@ -98,13 +98,13 @@ class AmazonHide extends React.Component {
           <ul>
             <span className="list-tittle">Đồ công nghệ</span>
             <li>
-              <a href className="ml-2 text-dark list-item">Loa</a>
+              <a href="#" className="ml-2 text-dark list-item">Loa</a>
             </li>
             <li>    
-              <a href className="ml-2 text-dark list-item">Camera</a>
+              <a href="#" className="ml-2 text-dark list-item">Camera</a>
             </li>
             <li>    
-              <a href className="ml-2 text-dark list-item">Âm ly</a>
+              <a href="#" className="ml-2 text-dark list-item">Âm ly</a>
             </li>
           </ul>
         </div>
@@ -112,21 +112,21 @@ class AmazonHide extends React.Component {
           <ul>
             <span className="list-tittle">Gia dụng</span>
             <li>
-              <a href className="ml-2 text-dark 
+              <a href="#" className="ml-2 text-dark 
                                                               list-item">Máy xay</a>
             </li>
             <li>    
-              <a href className="ml-2 text-dark list-item">Máy xay cafe</a>
+              <a href="#" className="ml-2 text-dark list-item">Máy xay cafe</a>
             </li>
             <li>    
-              <a href className="ml-2 text-dark list-item">Máy hút bụi</a>
+              <a href="#" className="ml-2 text-dark list-item">Máy hút bụi</a>
             </li>
           </ul>
         </div>
       </div>
     </div>
     <div className="col-md-4">
-      <img src="img/dropdown-comerical.png" alt className="img-fluid pr-2" />
+      <img src="img/dropdown-comerical.png" alt="img" className="img-fluid pr-2" />
     </div>
   </div>
 </div>

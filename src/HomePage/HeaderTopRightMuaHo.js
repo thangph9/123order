@@ -33,10 +33,10 @@ class HeaderTopRightMuaHo extends React.Component {
                     <div className="row">
                         <div className="col-md-8 my-2 container">
                             <div className="row">
-                                <img src="img/mua-ho.png" alt className="img-fluid col-12 active" />
+                                <img src="img/mua-ho.png" alt="img" className="img-fluid col-12 active" />
                             </div>
                             <div className="row mt-2 justify-content-center">
-                                <a href><img src="img/bao-gia-btn.png" alt className="img-fluid" /></a>
+                                <a href="#"><img src="img/bao-gia-btn.png" alt="img" className="img-fluid" /></a>
                             </div>
                         </div>
                         <div className="col-md-4 container p-4">

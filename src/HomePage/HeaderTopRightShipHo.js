@@ -33,7 +33,7 @@ class HeaderTopRightShipHo extends React.Component{
   <div className="row">    
     <div className="col-md-8 my-2 container">
       <div className="row">
-        <img src="img/ship-ho.png" alt className="img-fluid col-12" /> 
+        <img src="img/ship-ho.png" alt="img" className="img-fluid col-12" /> 
       </div>
     </div>
     <div className="col-md-4 container p-4">

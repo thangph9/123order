@@ -9,6 +9,14 @@ class PayMoney extends React.Component {
             loading: false,
         }
         this.handleSubmit = this.handleSubmit.bind(this);
+        this.PayCod=this.PayCod.bind(this);
+        this.PayCredit=this.PayCredit.bind(this);
+    }
+    PayCredit(){
+      console.log('clicked');
+    }
+    PayCod(){
+      console.log('clicked');
     }
     handleSubmit() {
         this.setState({
@@ -27,12 +35,13 @@ class PayMoney extends React.Component {
     <div className="check mt-3 mb-1">
       <div className="form-check">
         <label className="form-check-label">
-          <input id="check-cod" defaultValue="check-cod" onClick="pay-cod()" type="radio" className="form-check-input" name="optradio" />COD
+          <input id="check-cod" defaultValue="check-cod" onClick={()=>this.PayCod()} type="radio" className="form-check-input" name="optradio" />
+          COD
         </label>
       </div>
       <div className="form-check mb-3">
         <label className="form-check-label">
-          <input id="check-credit" defaultValue="check-credit" onClick="pay-credit()" type="radio" className="form-check-input" name="optradio" />Thanh toán qua thẻ tín dụng
+          <input id="check-credit" defaultValue="check-credit" onClick={()=>this.PayCredit()} type="radio" className="form-check-input" name="optradio" />Thanh toán qua thẻ tín dụng
         </label>
       </div>
     </div>
@@ -100,54 +109,54 @@ class PayMoney extends React.Component {
       </div>
       <div className="row mb-2">
         <div className="col">
-          <img id="visa" src="img/visa1.png" alt />
+          <img id="visa" src="img/visa1.png" alt="img" />
         </div>
         <div className="col">
-          <img src="img/visa1.png" alt />
+          <img src="img/visa1.png" alt="img" />
         </div>
         <div className="col">
-          <img src="img/visa1.png" alt />
+          <img src="img/visa1.png" alt="img" />
         </div>
         <div className="col">
-          <img id="vpbank" src="img/visa1.png" alt />
+          <img id="vpbank" src="img/visa1.png" alt="img" />
         </div>
         <div className="col">
-          <img src="img/visa1.png" alt />
+          <img src="img/visa1.png" alt="img" />
         </div>
         <div className="col">
-          <img src="img/visa1.png" alt />
+          <img src="img/visa1.png" alt="img" />
         </div>
         <div className="col">
-          <img src="img/visa1.png" alt />
+          <img src="img/visa1.png" alt="img" />
         </div>
         <div className="col">
-          <img src="img/visa1.png" alt />
+          <img src="img/visa1.png" alt="img" />
         </div>
       </div>
       <div className="row mb-5">
         <div className="col">
-          <img src="img/visa1.png" alt />
+          <img src="img/visa1.png" alt="img" />
         </div>
         <div className="col">
-          <img src="img/visa1.png" alt />
+          <img src="img/visa1.png" alt="img" />
         </div>
         <div className="col">
-          <img src="img/visa1.png" alt />
+          <img src="img/visa1.png" alt="img" />
         </div>
         <div className="col">
-          <img src="img/visa1.png" alt />
+          <img src="img/visa1.png" alt="img" />
         </div>
         <div className="col">
-          <img src="img/visa1.png" alt />
+          <img src="img/visa1.png" alt="img" />
         </div>
         <div className="col">
-          <img src="img/visa1.png" alt />
+          <img src="img/visa1.png" alt="img" />
         </div>
         <div className="col">
-          <img src="img/visa1.png" alt />
+          <img src="img/visa1.png" alt="img" />
         </div>
         <div className="col">
-          <img src="img/visa1.png" alt />
+          <img src="img/visa1.png" alt="img" />
         </div>
       </div>
       <div className="row">
