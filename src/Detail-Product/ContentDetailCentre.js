@@ -29,7 +29,7 @@ class ContentDetailCentre extends React.Component {
 
         return (
             <div className="col-md-4 big-img">
-                <img className="xzoom" src="img/femmecalm.png" xoriginal="img/femmecalm.png" title="The description goes here " style={{ width: 350 }} />
+                <img alt ="img"className="xzoom" src="img/femmecalm.png" xoriginal="img/femmecalm.png" title="The description goes here " style={{ width: 350 }} />
             </div>
 
         )

@@ -24,8 +24,8 @@ class Content extends React.Component {
             <div className="content">
                 <nav aria-label="breadcrumb">
                     <ol className="container breadcrumb">
-                        <li className="breadcrumb-item"><a href="#">Trang chủ</a></li>
-                        <li className="breadcrumb-item"><a href="#">Giỏ hàng</a></li>
+                        <li className="breadcrumb-item"><a href="">Trang chủ</a></li>
+                        <li className="breadcrumb-item"><a href="">Giỏ hàng</a></li>
                     </ol>
                 </nav>
                 <div className="container cart-items">

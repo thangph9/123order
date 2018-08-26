@@ -1,12 +1,12 @@
 $(document).ready(function() {
-    $("input[value='check-cod']").click(function() {
-        $("#cod").show("slow");
-        $("#credit").hide("fast");
-    })
-    $("input[value='check-credit']").click(function() {
-        $("#cod").hide("fast");
-        $("#credit").show("slow");
-    })
+    // $("input[value='check-cod']").click(function() {
+    //     $("#cod").show("slow");
+    //     $("#credit").hide("fast");
+    // })
+    // $("input[value='check-credit']").click(function() {
+    //     $("#cod").hide("fast");
+    //     $("#credit").show("slow");
+    // })
     $("#visa").click(function() {
         $("#infor-visa").show("500");
         $("#infor-bank-acount").hide("fast");
@@ -27,9 +27,6 @@ $(document).ready(function() {
     }
     $("#signin").click(function() {
         $("#myRegister").modal();
-    });
-    $("#login").click(function() {
-        $("#myLogin").modal();
     });
     $("#login").click(function() {
         $("#myLogin").modal();

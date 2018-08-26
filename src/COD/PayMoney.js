@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-
+import $ from 'jquery';
 class PayMoney extends React.Component {
     constructor(props) {
         super(props);
@@ -24,6 +24,17 @@ class PayMoney extends React.Component {
         })
         console.log("Hello World")
     }
+    componentDidMount() {
+        $("input[value='check-cod']").on('click', function () {
+          $("#cod").show("slow");
+          $("#credit").hide("fast");
+        });
+        $("input[value='check-credit']").on('click', function () {
+          $("#cod").hide("fast");
+          $("#credit").show("slow");
+        });
+    }
+
     render() {
 
         return (
@@ -33,15 +44,15 @@ class PayMoney extends React.Component {
       <h6 className="pl-3 pt-2">CHỌN PHƯƠNG THỨC THANH TOÁN</h6>
     </div>
     <div className="check mt-3 mb-1">
-      <div className="form-check">
+      <div className="form-check" >
         <label className="form-check-label">
-          <input id="check-cod" defaultValue="check-cod" onClick={()=>this.PayCod()} type="radio" className="form-check-input" name="optradio" />
+          <input style={{width:'unset'}} id="check-cod" defaultValue="check-cod" onClick={()=>this.PayCod()} type="radio" className="form-check-input" name="optradio" />
           COD
         </label>
       </div>
       <div className="form-check mb-3">
         <label className="form-check-label">
-          <input id="check-credit" defaultValue="check-credit" onClick={()=>this.PayCredit()} type="radio" className="form-check-input" name="optradio" />Thanh toán qua thẻ tín dụng
+          <input style={{width:'unset'}} id="check-credit" defaultValue="check-credit" onClick={()=>this.PayCredit()} type="radio" className="form-check-input" name="optradio" />Thanh toán qua thẻ tín dụng
         </label>
       </div>
     </div>
@@ -68,7 +79,7 @@ class PayMoney extends React.Component {
                     <div className="input-group">
                       <input type="text" className="form-control" placeholder="Nhập số điểm thưởng" id="demo" name="email" />
                       <div className="input-group-append">
-                        <span className="input-group-text"><a href="#"><i className="fa fa-long-arrow-alt-right text-white" /></a></span>
+                        <span className="input-group-text"><a href=""><i className="fa fa-long-arrow-alt-right text-white" /></a></span>
                       </div>
                     </div>
                   </form>
@@ -176,7 +187,7 @@ class PayMoney extends React.Component {
                     <div className="input-group">
                       <input type="text" className="form-control" placeholder="Nhập số điểm thưởng" id="demo" name="email" />
                       <div className="input-group-append">
-                        <span className="input-group-text"><a href="#"><i className="fa fa-long-arrow-alt-right text-white" /></a></span>
+                        <span className="input-group-text"><a href=""><i className="fa fa-long-arrow-alt-right text-white" /></a></span>
                       </div>
                     </div>
                   </form>

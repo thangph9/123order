@@ -50,10 +50,10 @@ class LoginHide extends React.Component {
           </div>
           <div className="row">
             <div className="col-md-6">
-              <p>Bạn chưa có tài khoản?<span><a href="#">Đăng kí</a></span></p>
+              <p>Bạn chưa có tài khoản?<span><a href="">Đăng kí</a></span></p>
             </div>
             <div className="col-md-6 text-right">
-              <a id="forgot-pw" data-toggle="modal" data-target="#myforgot" href="#"><span>Quên mật khẩu?</span></a>
+              <a id="forgot-pw" data-toggle="modal" data-target="#myforgot" href=""><span>Quên mật khẩu?</span></a>
             </div>
           </div>
         </div>

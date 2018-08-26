@@ -28,7 +28,7 @@ class ProductItem extends React.Component {
                         Logitecah HD Pro Webcam C920, Widescreen Video Calling and Recording, 1080p Camera, Desktop or Laptop...
                     </div>
                     <div className="col-md-4">
-                        <a href="#" className="ml-5 pl-2 mt-2">Xóa khỏi giỏ hàng</a>
+                        <a href="" className="ml-5 pl-2 mt-2">Xóa khỏi giỏ hàng</a>
                     </div>
                 </td>
                 <td className="item-price text-center">$ 33.28 ~ 787.000 VNĐ</td>

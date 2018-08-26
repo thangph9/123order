@@ -23,7 +23,7 @@ class MenuHideRightTopItem extends React.Component {
               <div className="position-absolute discount-tag-pos"><img src="img/discount.png" alt='img' className="img-fluid" /></div>
               <img className="card-img-top img-thumbnail border-0 img-fluid" src="img/Layer 6.png" alt='img' />
               <div className="overlay">
-                <a className="info" href="#">Chi tiết</a>
+                <a className="info" href="">Chi tiết</a>
               </div>
             </div>
             <div className="card-body p-2">

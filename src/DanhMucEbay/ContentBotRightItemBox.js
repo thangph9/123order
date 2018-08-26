@@ -34,7 +34,7 @@ class ContentBotRightItemBox extends React.Component {
                     <div className="col-8 pt-1">
                         <nav aria-label="breadcrumb">
                             <ol className="breadcrumb crumb-background mb-0">
-                                <li className="breadcrumb-item category align-self-center"><a href="#" className="text-dark">Đồ công nghệ</a></li>
+                                <li className="breadcrumb-item category align-self-center"><a href="" className="text-dark">Đồ công nghệ</a></li>
                                 <li className="breadcrumb-item active found-item-font align-self-center" aria-current="page">Tìm thấy 99,804 sản phẩm</li>
                             </ol>
                         </nav>
@@ -56,8 +56,8 @@ class ContentBotRightItemBox extends React.Component {
                                                 Mới nhất
               </button>
                                             <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                                <a className="dropdown-item" href="#">Mới nhất</a>
-                                                <a className="dropdown-item" href="#">Cũ Nhất</a>
+                                                <a className="dropdown-item" href="">Mới nhất</a>
+                                                <a className="dropdown-item" href="">Cũ Nhất</a>
                                             </div>
                                         </div>
                                     </li>

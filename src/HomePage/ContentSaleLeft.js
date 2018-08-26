@@ -22,36 +22,36 @@ class ContentSaleLeft extends React.Component {
                 <div className="owl-stage-outer">
                     <div className="owl-stage" style={{ transform: 'translate3d(-2636px, 0px, 0px)', transition: 'all 0.25s ease 0s', width: 4613 }}>
                         <div className="owl-item cloned" style={{ width: 649, marginRight: 10 }}>
-                            <div> <img alt="Responsive image" src="img/Banner 3.png" className="img-fluid" />
+                            <div> <img alt="Responsive img" src="img/Banner 3.png" className="img-fluid" />
                             </div>
                         </div>
                         <div className="owl-item cloned" style={{ width: 649, marginRight: 10 }}>
                             <div>
-                                <img alt="Responsive image" src="img/Banner 3.png" className="img-fluid" />
+                                <img alt="Responsive img" src="img/Banner 3.png" className="img-fluid" />
                             </div>
                         </div>
                         <div className="owl-item" style={{ width: 649, marginRight: 10 }}>
                             <div>
-                                <img alt="Responsive image" src="img/Banner 3.png" className="img-fluid" />
+                                <img alt="Responsive img" src="img/Banner 3.png" className="img-fluid" />
                             </div>
                         </div>
                         <div className="owl-item" style={{ width: 649, marginRight: 10 }}>
                             <div>
-                                <img alt="Responsive image" src="img/Banner 3.png" className="img-fluid active" />
+                                <img alt="Responsive img" src="img/Banner 3.png" className="img-fluid active" />
                             </div>
                         </div>
                         <div className="owl-item active" style={{ width: 649, marginRight: 10 }}>
                             <div>
-                                <img alt="Responsive image" src="img/Banner 3.png" className="img-fluid" />
+                                <img alt="Responsive img" src="img/Banner 3.png" className="img-fluid" />
                             </div>
                         </div>
                         <div className="owl-item cloned" style={{ width: 649, marginRight: 10 }}>
-                            <div> <img alt="Responsive image" src="img/Banner 3.png" className="img-fluid" />
+                            <div> <img alt="Responsive img" src="img/Banner 3.png" className="img-fluid" />
                             </div>
                         </div>
                         <div className="owl-item cloned" style={{ width: 649, marginRight: 10 }}>
                             <div>
-                                <img alt="Responsive image" src="img/Banner 3.png" className="img-fluid" />
+                                <img alt="Responsive img" src="img/Banner 3.png" className="img-fluid" />
                             </div>
                         </div>
                     </div>

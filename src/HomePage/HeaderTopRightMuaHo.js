@@ -28,7 +28,7 @@ class HeaderTopRightMuaHo extends React.Component {
 
         return (
             <li className="nav-item dropdown" id="menuMuaHo">
-                <a className="nav-link dropdown-toggle dropdown-arrow text-white" href="#" id="navbarDropdownMenuLinkMuaHo" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MUA HỘ</a>
+                <a className="nav-link dropdown-toggle dropdown-arrow text-white" href="" id="navbarDropdownMenuLinkMuaHo" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MUA HỘ</a>
                 <div className="container p-2 dropdown-menu mua-ho-position menu2-dropdown bg-white" aria-haspopup="true" aria-expanded="false" id="linkMuaHo" >
                     <div className="row">
                         <div className="col-md-8 my-2 container">
@@ -36,7 +36,7 @@ class HeaderTopRightMuaHo extends React.Component {
                                 <img src="img/mua-ho.png" alt="img" className="img-fluid col-12 active" />
                             </div>
                             <div className="row mt-2 justify-content-center">
-                                <a href="#"><img src="img/bao-gia-btn.png" alt="img" className="img-fluid" /></a>
+                                <a href=""><img src="img/bao-gia-btn.png" alt="img" className="img-fluid" /></a>
                             </div>
                         </div>
                         <div className="col-md-4 container p-4">

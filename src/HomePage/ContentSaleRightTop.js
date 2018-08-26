@@ -19,7 +19,7 @@ class ContentSaleRightTop extends React.Component {
 
         return (
             <div className="row">
-                <div className="col-12"> <img alt="Responsive image" src="img/Banner 1.png" className="img-fluid" /> </div>
+                <div className="col-12"> <img alt="Responsive img" src="img/Banner 1.png" className="img-fluid" /> </div>
             </div>
         )
 

@@ -28,7 +28,7 @@ class HeaderTopRightDangKy extends React.Component{
         
         return (
             <li className="nav-item">
-                <a id="signin" data-toggle="modal" data-target="#myRegister" className="nav-link text-white" href="#">ĐĂNG KÝ</a>
+                <a id="signin" data-toggle="modal" data-target="#myRegister" className="nav-link text-white" href="">ĐĂNG KÝ</a>
             </li>
         )
         

@@ -5,6 +5,7 @@ import { Header } from '../Sections/Header';
 import { Footer } from '../Sections/Footer';
 import {ContentSale} from '../Sections/ContentSale';
 import { Form } from "./Form";
+
 class Price extends React.Component {
     constructor(props) {
         super(props);
@@ -27,7 +28,11 @@ class Price extends React.Component {
 
         })
     }
-
+    
+    componentWillMount() {
+        
+    }
+    
     render() {
 
         return (
@@ -35,8 +40,8 @@ class Price extends React.Component {
                 <Header />
                 <nav aria-label="breadcrumb">
                     <ol className="container breadcrumb">
-                        <li className="breadcrumb-item"><a href="#">Trang chủ</a></li>
-                        <li className="breadcrumb-item"><a href="#">Yêu cầu báo giá sản phẩm</a></li>
+                        <li className="breadcrumb-item"><a href="">Trang chủ</a></li>
+                        <li className="breadcrumb-item"><a href="">Yêu cầu báo giá sản phẩm</a></li>
                     </ol>
                 </nav>
                 <ContentSale/>

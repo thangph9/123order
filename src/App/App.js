@@ -2,14 +2,14 @@ import React,{ Component } from "react";
 import { Router,Route, Switch } from "react-router-dom";
 import { connect } from "react-redux";
 
-import { createBrowserHistory } from 'history';
+//import { createBrowserHistory } from 'history';
 
 import { alertActions } from "../actions";
 import { HomePage } from "../HomePage";
 import { COD } from "../COD";
 import { DanhMucAmazon } from "../DanhMucAmazon";
 import { DanhMucEbay } from "../DanhMucEbay";
-import {PrivateRoute } from "../Sections";
+//import {PrivateRoute } from "../Sections";
 import {MuaHangEbay} from '../MuaHangEbay';
 import {MuaHangAmazon} from '../MuaHangAmazon';
 import { history } from "../stores";

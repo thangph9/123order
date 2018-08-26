@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { HotDealHide } from "./HotDealHide";
+//import $ from 'jquery';
 class HeaderBotMenuHotDeal extends React.Component {
     constructor(props) {
         super(props);
@@ -16,11 +17,21 @@ class HeaderBotMenuHotDeal extends React.Component {
         })
         console.log("Hello World")
     }
+    // componentDidMount() {
+    //     $('#navbarDropdownMenuLinkHotDeal').on('click', function () {
+    //         $('#menuHotDeal').toggleClass("show");
+    //             $('#linkHotDeal').toggleClass("show");
+    //             $('#linkEbay').removeClass("show");
+    //             $('#linkTopStore').removeClass("show");
+    //             $('#navbarDropdownMenuLinkHotDeal').attr('aria-expanded', 'true');
+
+    //     })
+    // }
     render() {
 
         return (
             <li className="nav-item dropdown" id="menuHotDeal">
-                <a className="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLinkHotDeal" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">HOT DEAL CÔNG NGHỆ</a>
+                <a className="nav-link dropdown-toggle text-white" href="" id="navbarDropdownMenuLinkHotDeal" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">HOT DEAL CÔNG NGHỆ</a>
             <HotDealHide/>
             </li>
         );

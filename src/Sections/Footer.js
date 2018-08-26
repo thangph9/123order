@@ -27,16 +27,16 @@ class Footer extends React.Component{
                                     <p>GIỚI THIỆU</p>
                                 </div>
                                 <div className="row footer-font-sm">
-                                    <a href="#" className="text-white"><p>Về order 123</p></a>
+                                    <a href="" className="text-white"><p>Về order 123</p></a>
                                 </div>
                                 <div className="row footer-font-sm">
-                                    <a href="#" className="text-white"><p>Chính sách bảo mật</p></a>
+                                    <a href="" className="text-white"><p>Chính sách bảo mật</p></a>
                                 </div>
                                 <div className="row footer-font-sm">
-                                    <a href="#" className="text-white"><p>Điều khoản</p></a>
+                                    <a href="" className="text-white"><p>Điều khoản</p></a>
                                 </div>
                                 <div className="row footer-font-sm">
-                                    <a href="#" className="text-white"><p>Liên Hệ</p></a>
+                                    <a href="" className="text-white"><p>Liên Hệ</p></a>
                                 </div>
                             </div>
                             <div className="container col-lg-3">
@@ -44,31 +44,31 @@ class Footer extends React.Component{
                                     <p>TRỢ GIÚP KHÁCH HÀNG</p>
                                 </div>
                                 <div className="row footer-font-sm">
-                                    <a href="#" className="text-white"><p>Về order 123</p></a>
+                                    <a href="" className="text-white"><p>Về order 123</p></a>
                                 </div>
                                 <div className="row footer-font-sm">
-                                    <a href="#" className="text-white"><p>Chính sách bảo mật</p></a>
+                                    <a href="" className="text-white"><p>Chính sách bảo mật</p></a>
                                 </div>
                                 <div className="row footer-font-sm">
-                                    <a href="#" className="text-white"><p>Điều khoản</p></a>
+                                    <a href="" className="text-white"><p>Điều khoản</p></a>
                                 </div>
                                 <div className="row footer-font-sm">
-                                    <a href="#" className="text-white"><p>Liên Hệ</p></a>
+                                    <a href="" className="text-white"><p>Liên Hệ</p></a>
                                 </div>
                             </div>
                             <div className="container col-lg-3">
                                 <div className="row footer-font-nm"><p>DỊCH VỤ VAS</p></div>
                                 <div className="row footer-font-sm">
-                                    <a href="#" className="text-white"><p>Dịch vụ kiểm tra hàng hóa tại Mỹ</p></a>
+                                    <a href="" className="text-white"><p>Dịch vụ kiểm tra hàng hóa tại Mỹ</p></a>
                                 </div>
                                 <div className="row footer-font-sm">
-                                    <a href="#" className="text-white">
+                                    <a href="" className="text-white">
                                         <p>Dịch vụ đóng gói lại</p></a></div>
                                 <div className="row footer-font-sm">
-                                    <a href="#" className="text-white"><p>Bảo hiểm vận chuyển</p></a>
+                                    <a href="" className="text-white"><p>Bảo hiểm vận chuyển</p></a>
                                 </div>
                                 <div className="row footer-font-sm">
-                                    <a href="#" className="text-white"><p>Liên Hệ</p></a>
+                                    <a href="" className="text-white"><p>Liên Hệ</p></a>
                                 </div>
                             </div>
                             <div className="container col-lg-3">
@@ -83,7 +83,7 @@ class Footer extends React.Component{
                                 </div>
                                 <div className="row">
                                     <div className="mt-4">
-                                        <img src="img\BoCongThuong.png" className="img-fluid" />
+                                        <img alt="img" src="img\BoCongThuong.png" className="img-fluid" />
                                     </div>
                                 </div>
                                 <div className="row">
@@ -93,7 +93,7 @@ class Footer extends React.Component{
                                                 <p>Kết nối với chúng tôi</p>
                                             </div>
                                             <div className="col-sm-4">
-                                                <img src="img\Layer 43.png" className="img-fluid" />
+                                                <img alt="img" src="img\Layer 43.png" className="img-fluid" />
                                             </div>
                                         </div>
                                     </div>

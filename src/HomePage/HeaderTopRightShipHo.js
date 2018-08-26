@@ -28,7 +28,7 @@ class HeaderTopRightShipHo extends React.Component{
         
         return (
             <li className="nav-item dropdown" id="menuShipHo">
-                <a className="nav-link dropdown-toggle dropdown-arrow text-white" href="#" id="navbarDropdownMenuLinkShipHo" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SHIP HỘ</a>
+                <a className="nav-link dropdown-toggle dropdown-arrow text-white" href="" id="navbarDropdownMenuLinkShipHo" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SHIP HỘ</a>
                 <div className="container p-2 dropdown-menu ship-ho-position menu2-dropdown bg-white" aria-haspopup="true" aria-expanded="false" id="linkShipHo">
   <div className="row">    
     <div className="col-md-8 my-2 container">

@@ -28,7 +28,7 @@ class HeaderTopRightSanSale extends React.Component{
         
         return (
             <li className="nav-item">
-                <a className="nav-link text-white" href="#">SĂN SALE</a> 
+                <a className="nav-link text-white" href="">SĂN SALE</a> 
             </li>
         )
         

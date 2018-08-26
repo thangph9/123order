@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import { ContentBuyAmazonTitle } from "./ContentBuyAmazonTitle";
+//import { ContentBuyAmazonTitle } from "./ContentBuyAmazonTitle";
 class ProductItemAmazon extends React.Component {
     constructor(props) {
         super(props);
@@ -20,7 +20,7 @@ class ProductItemAmazon extends React.Component {
 
         return (
             <div className="col-md-4">
-                <div className="card"> <img className="card-img-top img-thumbnail border-0 img-fluid" src="img/Layer 51.png" alt="Card image cap" />
+                <div className="card"> <img className="card-img-top img-thumbnail border-0 img-fluid" src="img/Layer 51.png" alt="Card img cap" />
                     <div className="card-body">
                         <h5 className="card-title card-title-font">Bộ Đồ Dùng Bàn Ăn Thủy Tinh Corelle...</h5>
                         <i className="far fa-clock card-text align-left" />

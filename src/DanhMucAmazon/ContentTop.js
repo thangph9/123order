@@ -33,8 +33,8 @@ class ContentTop extends React.Component {
                 <div className="row">
                     <nav aria-label="breadcrumb">
                         <ol className="breadcrumb crumb-background">
-                            <li className="breadcrumb-item"><a href="#" className="text-dark">Trang chủ</a></li>
-                            <li className="breadcrumb-item"><a href="#" className="text-dark">Mua hàng Amazon</a></li>
+                            <li className="breadcrumb-item"><a href="" className="text-dark">Trang chủ</a></li>
+                            <li className="breadcrumb-item"><a href="" className="text-dark">Mua hàng Amazon</a></li>
                             <li className="breadcrumb-item active" aria-current="page">Đồ công nghệ</li>
                         </ol>
                     </nav>

@@ -29,9 +29,9 @@ class ContentDetailRight extends React.Component {
 
         return (
             <div className="col-md-1 xzoom-thumbs">
-                <a href="#"><img className="xzoom-gallery d-lg-block mb-2 xactive" width={80} src="img/femmecalm.png" /></a>
-                <a href="#"><img className="xzoom-gallery d-lg-block  mb-2 " width={80} src="img/Layer 22.png" /></a>
-                <a href="#"><img className="xzoom-gallery d-lg-block mb-2  xactive " width={80} src="img/femmecalm.png" /></a>
+                <a href=""><img alt="img" className="xzoom-gallery d-lg-block mb-2 xactive" width={80} src="img/femmecalm.png" /></a>
+                <a href=""><img alt = "img" className="xzoom-gallery d-lg-block  mb-2 " width={80} src="img/Layer 22.png" /></a>
+                <a href=""><img alt="img" className="xzoom-gallery d-lg-block mb-2  xactive " width={80} src="img/femmecalm.png" /></a>
             </div>
         )
 

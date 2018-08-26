@@ -2,6 +2,7 @@ import React from "react";
 //import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { MenuHideT } from "./MenuHideT";
+//import $ from 'jquery';
 class HeaderTopLeftTopStore extends React.Component{
     constructor(props){
         super(props);
@@ -24,12 +25,21 @@ class HeaderTopLeftTopStore extends React.Component{
 
         })
     }
-
+    // componentDidMount() {
+    //     $('#navbarDropdownMenuLinkTopStore').on('click', function () {
+    //         $('#menuTopStore').toggleClass("show");
+    //             $('#linkTopStore').toggleClass("show");
+    //             $('#linkAmazon').removeClass("show");
+    //             $('#linkEbay').removeClass("show");
+    //             $('#navbarDropdownMenuLinkTopStore').attr('aria-expanded', 'true');
+    //     })
+    // }
+    
     render(){
         
         return (
             <li className="nav-item dropdown" id="menuTopStore">
-                <a className="nav-link dropdown-toggle dropdown-arrow text-white" href="#" id="navbarDropdownMenuLinkTopStore" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TOP STORE</a>
+                <a className="nav-link dropdown-toggle dropdown-arrow text-white" href="" id="navbarDropdownMenuLinkTopStore" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TOP STORE</a>
                 <div className="container dropdown-menu top-sore-position menu2-dropdown bg-white" aria-haspopup="true" aria-expanded="false" id="linkTopStore">
                 <MenuHideT/>
                 </div>

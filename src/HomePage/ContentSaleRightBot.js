@@ -19,7 +19,7 @@ class ContentSaleRightBot extends React.Component {
 
         return (
             <div className="row mt-3">
-                <div className="col-12"> <img alt="Responsive image" src="img/Banner 2.png" className="img-fluid" /> </div>
+                <div className="col-12"> <img alt="Responsive img" src="img/Banner 2.png" className="img-fluid" /> </div>
             </div>
             
         )
