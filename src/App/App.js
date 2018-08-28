@@ -4,17 +4,20 @@ import { connect } from "react-redux";
 
 //import { createBrowserHistory } from 'history';
 
-import { alertActions } from "../actions";
-import { HomePage } from "../HomePage";
+
+import {Price} from '../Price/Price';
+import { Test } from '../Test';
+
 import { COD } from "../COD";
 import { DanhMucAmazon } from "../DanhMucAmazon";
-import { DanhMucEbay } from "../DanhMucEbay";
 //import {PrivateRoute } from "../Sections";
 import {MuaHangEbay} from '../MuaHangEbay';
 import {MuaHangAmazon} from '../MuaHangAmazon';
-import { history } from "../stores";
 import {DetailProduct} from '../Detail-Product/DetailProduct';
-import {Price} from '../Price/Price';
+
+
+import { history } from "../stores";
+import { alertActions } from "../actions";
 class App extends Component{
     constructor(props){
         super(props);
@@ -52,18 +55,15 @@ class App extends Component{
     componentWillMount(){
         
     }
-    render(){
+    render(){ 
         const {loading} = this.state;
         if(loading){
             return (
                 <Router history={history}>
                     <div>
                     <Switch history ={ history  }>
-                        
-						<Route exact path="/home" component={HomePage} />
                         <Route exact path="/cod" component={COD} />
                         <Route exact path="/danh-muc-amazon" component={DanhMucAmazon} />
-                        <Route exact path="/danh-muc-ebay" component={DanhMucEbay} />
                         <Route exact path="/mua-hang-ebay" component={MuaHangEbay} />
                         <Route exact path="/mua-hang-amazon" component={MuaHangAmazon} />
                         <Route exact path="/detail-product" component={DetailProduct} />
