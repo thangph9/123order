@@ -10,7 +10,6 @@ class HeaderTopLeftEBAY extends React.Component {
             login: true,
             loading: false,
             clicked: 0
-
         }
         this.handleSubmit = this.handleSubmit.bind(this);
         this.handleChange = this.handleChange.bind(this);

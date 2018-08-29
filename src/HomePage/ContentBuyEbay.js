@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import { ContentBuyEbayTitle } from "./ContentBuyEbayTitle";
 import { ProductItemBoxEbay } from "./ProductItemBoxEbay";
 import { ContentDealSeeMore } from "./ContentDealSeeMore";
+import { ProductItemEbay } from "./ProductItemEbay";
 class ContentBuyEbay extends React.Component{
     constructor(props){
         super(props);
@@ -24,6 +25,11 @@ class ContentBuyEbay extends React.Component{
             <div className="container-fluid mt-4">
                 <ContentBuyEbayTitle/>
                 <div className="container mt-4 p-2">
+                <div className="row">
+                    <ProductItemEbay/>
+                    <ProductItemEbay/>
+                    <ProductItemEbay/>
+                </div>
                 <ProductItemBoxEbay/>
                 <ContentDealSeeMore/>
                 </div>

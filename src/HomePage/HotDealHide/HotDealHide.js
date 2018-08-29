@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import { MenuHideRightTopHotBox } from "../MenuHide/MenuHideRightTopHotBox";
+import { GiaSocHideItemBox } from "../GiaSocHide/GiaSocHideItemBox";
 class HotDealHide extends React.Component {
     constructor(props) {
         super(props);
@@ -26,7 +26,7 @@ class HotDealHide extends React.Component {
                         <span className="ml-2">HOT DEAL CÔNG NGHỆ</span>
                     </div>
                 </div>
-                <MenuHideRightTopHotBox/>
+                <GiaSocHideItemBox/>
             </div>
 
         )

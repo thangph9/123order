@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import { MenuHideRightTopHotBox } from "../MenuHide/MenuHideRightTopHotBox";
+import { GiaSocHideItemBox } from "./GiaSocHideItemBox";
 class GiaSocHide extends React.Component {
     constructor(props) {
         super(props);
@@ -26,7 +26,7 @@ class GiaSocHide extends React.Component {
                         <span className="ml-2">GIÁ SỐC MỖI NGÀY</span>
                     </div>
                 </div>
-                <MenuHideRightTopHotBox/>
+                <GiaSocHideItemBox/>
             </div>
 
         )

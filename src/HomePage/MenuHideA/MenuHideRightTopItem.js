@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
-class MenuHideRightTopItem extends React.Component {
+import { NavLink } from "react-router-dom";
+class   MenuHideRightTopItem extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -18,12 +19,12 @@ class MenuHideRightTopItem extends React.Component {
     render() {
 
         return (
-            <div className="card">
+            <div className="card" style={{width:'157.25px',marginRight : '10px' }}>
             <div className="hovereffect">
               <div className="position-absolute discount-tag-pos"><img src="img/discount.png" alt='img' className="img-fluid" /></div>
               <img className="card-img-top img-thumbnail border-0 img-fluid" src="img/Layer 6.png" alt='img' />
               <div className="overlay">
-                <a className="info" href="">Chi tiết</a>
+                <NavLink className="info" to="/detail-product">Chi tiết</NavLink>
               </div>
             </div>
             <div className="card-body p-2">
@@ -35,14 +36,13 @@ class MenuHideRightTopItem extends React.Component {
               <i className="fas fa-star-half-alt text-warning" />
               <i className="far fa-star text-warning" />
               <i className="far fa-star text-warning" />
-              <br />
+              <br/>
               <span className="card-text align-left deal-price">2.155.000 VND</span>
               <span className="card-text align-right pl-5 deal-old-price mb-2"><s>4.320.000 VND</s></span>
               <div style={{clear: 'both'}} />
               <p className="card-text align-left deal-old-price"><i className="far fa-clock card-text" /> Còn lại 7 ngày</p>
             </div>
           </div>
-          
             )
 
     }

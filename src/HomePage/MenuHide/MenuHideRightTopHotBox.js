@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import { MenuHideRightTopItemList } from "./MenuHideRightTopItemList";
 class MenuHideRightTopHotBox extends React.Component {
     constructor(props) {
+        
         super(props);
         this.state = {
             login: true,
@@ -17,7 +18,7 @@ class MenuHideRightTopHotBox extends React.Component {
         console.log("Hello World")
     }
     render() {
-
+        console.log("LOG");
         return (
             <div className="row my-2">
                 <div className="col-md-1"></div>
