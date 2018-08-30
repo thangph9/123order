@@ -1,6 +1,5 @@
 export * from "./ContentBot";
 export * from "./ContentBotRight";
-export * from "./ContentBotRight";
 export * from "./ContentBotRightItem";
 export * from "./ContentBotRightItemBox";
 export * from "./ContentBotRightItemList";

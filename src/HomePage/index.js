@@ -35,8 +35,6 @@ export * from "./HeaderTopRightMuaHo";
 export * from "./HeaderTopRightSanSale";
 export * from "./HomePage";
 export * from "./ProductItem";
-export * from "./HeaderTopRightDangNhap";
-export * from "./ProductItemAmazon";
 export * from "./ProductItemAmazon";
 export * from "./ProductItemBoxEbay";
 export * from "./ProductItemList";
