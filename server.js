@@ -9,12 +9,7 @@ const app = express();
 const config = require('./webpack.config.js');
 const compiler = webpack(config);
 
-// Tell express to use the webpack-dev-middleware and use the webpack.config.js
-// configuration file as a base.
 
-app.use(webpackDevMiddleware(compiler, {
-  publicPath: config.output.publicPath
-}));
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname,'views'));
 app.use(express.static('public'));
@@ -25,6 +20,11 @@ app.get("/api/data",function(req,res,next){
    res.send("Xin chao"); 
 });
 
+// Tell express to use the webpack-dev-middleware and use the webpack.config.js
+// configuration file as a base.
+app.use(webpackDevMiddleware(compiler, {
+  publicPath: config.output.publicPath
+}));
 
 app.use(function(err,req,res,next){
 	if (!module.parent) console.error(err.stack);
