@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import Slider from "react-slick";
 class ContentSaleLeft extends React.Component {
     constructor(props) {
         super(props);
@@ -16,55 +17,32 @@ class ContentSaleLeft extends React.Component {
         console.log("Hello World")
     }
     render() {
-
+        var settings = {
+            dots: false,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            arrows: false
+        };
         return (
-            <div className="owl-carousel owl-one col-7 p-2 owl-loaded owl-drag">
-                <div className="owl-stage-outer">
-                    <div className="owl-stage" style={{ transform: 'translate3d(-2636px, 0px, 0px)', transition: 'all 0.25s ease 0s', width: 4613 }}>
-                        <div className="owl-item cloned" style={{ width: 649, marginRight: 10 }}>
-                            <div> <img alt="Responsive img" src="img/Banner 3.png" className="img-fluid" />
-                            </div>
-                        </div>
-                        <div className="owl-item cloned" style={{ width: 649, marginRight: 10 }}>
-                            <div>
-                                <img alt="Responsive img" src="img/Banner 3.png" className="img-fluid" />
-                            </div>
-                        </div>
-                        <div className="owl-item" style={{ width: 649, marginRight: 10 }}>
-                            <div>
-                                <img alt="Responsive img" src="img/Banner 3.png" className="img-fluid" />
-                            </div>
-                        </div>
-                        <div className="owl-item" style={{ width: 649, marginRight: 10 }}>
-                            <div>
-                                <img alt="Responsive img" src="img/Banner 3.png" className="img-fluid active" />
-                            </div>
-                        </div>
-                        <div className="owl-item active" style={{ width: 649, marginRight: 10 }}>
-                            <div>
-                                <img alt="Responsive img" src="img/Banner 3.png" className="img-fluid" />
-                            </div>
-                        </div>
-                        <div className="owl-item cloned" style={{ width: 649, marginRight: 10 }}>
-                            <div> <img alt="Responsive img" src="img/Banner 3.png" className="img-fluid" />
-                            </div>
-                        </div>
-                        <div className="owl-item cloned" style={{ width: 649, marginRight: 10 }}>
-                            <div>
-                                <img alt="Responsive img" src="img/Banner 3.png" className="img-fluid" />
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-7 p-2">
+            <Slider {...settings}>
+                <div>
+                    <img alt="Responsive img" src="img/Banner 3.png" className="img-fluid" />
                 </div>
-                <div className="owl-nav disabled">
-                    <button type="button" role="presentation" className="owl-prev"><span aria-label="Previous">
-                        ‹</span>
-                    </button>
-                    <button type="button" role="presentation" className="owl-next"><span aria-label="Next">
-                        ›</span>
-                    </button>
+                <div>
+                    <img alt="Responsive img" src="img/Banner 3.png" className="img-fluid" />
                 </div>
-                <div className="owl-dots disabled" />
+                <div>
+                    <img alt="Responsive img" src="img/Banner 3.png" className="img-fluid" />
+                </div>
+                <div>
+                    <img alt="Responsive img" src="img/Banner 3.png" className="img-fluid" />
+                </div>
+            </Slider>
             </div>
 
         )

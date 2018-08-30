@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import { Link } from "react-router-dom";
 class MenuHideRightDongHo extends React.Component {
     constructor(props) {
         super(props);
@@ -25,7 +26,7 @@ class MenuHideRightDongHo extends React.Component {
     <div className="row">
       <div className="col-md-12 gia-soc-title">
         <span className="title-stroke ml-2" />
-        <span className="ml-2">ĐỒNG HỒ VÀ TRANG SỨC</span>
+        <span className="ml-2">ĐỒ CỔ, SƯU TẬP</span>
       </div>
     </div>
     <div className="row mt-2">
@@ -33,13 +34,13 @@ class MenuHideRightDongHo extends React.Component {
         <ul>
           <span className="list-tittle">Đồng hồ</span>
           <li>
-            <a href="" className="ml-2 text-dark list-item">Đồng hồ cơ</a>
+            <Link to="/danh-muc-amazon" className="ml-2 text-dark list-item">Đồng hồ cơ</Link>
           </li>
           <li>
-            <a href="" className="ml-2 text-dark list-item">Đồng hồ pin</a>
+            <Link to="/danh-muc-amazon" className="ml-2 text-dark list-item">Đồng hồ pin</Link>
           </li>
           <li>
-            <a href="" className="ml-2 text-dark list-item">Đồng hồ thông minh</a>
+            <Link to="/danh-muc-amazon" className="ml-2 text-dark list-item">Đồng hồ thông minh</Link>
           </li>
         </ul>
       </div>
@@ -47,13 +48,13 @@ class MenuHideRightDongHo extends React.Component {
         <ul>
           <span className="list-tittle">Thời trang</span>
           <li>
-            <a href="" className="ml-2 text-dark list-item">Thời trang nam</a>
+            <Link to="/danh-muc-amazon" className="ml-2 text-dark list-item">Thời trang nam</Link>
           </li>
           <li>    
-            <a href="" className="ml-2 text-dark list-item">Thời trang nữ</a>
+            <Link to="/danh-muc-amazon" className="ml-2 text-dark list-item">Thời trang nữ</Link>
           </li>
           <li>    
-            <a href="" className="ml-2 text-dark list-item">Thời trang trẻ em</a>
+            <Link to="/danh-muc-amazon" className="ml-2 text-dark list-item">Thời trang trẻ em</Link>
           </li>
         </ul>
       </div>
@@ -61,17 +62,17 @@ class MenuHideRightDongHo extends React.Component {
         <ul>
           <span className="list-tittle">Đồ chơi</span>
           <li>
-            <a href="" className="ml-2 text-dark 
-                                                                          list-item">Đồ chơi lego</a>
+            <Link to="/danh-muc-amazon" className="ml-2 text-dark 
+                                                                          list-item">Đồ chơi lego</Link>
           </li>
           <li>    
-            <a href="" className="ml-2 text-dark list-item">Đồ chơi barbie</a>
+            <Link to="/danh-muc-amazon" className="ml-2 text-dark list-item">Đồ chơi barbie</Link>
           </li>
           <li>    
-            <a href="" className="ml-2 text-dark list-item">Đồ chơi giáo dục</a>
+            <Link to="/danh-muc-amazon" className="ml-2 text-dark list-item">Đồ chơi giáo dục</Link>
           </li>
           <li>    
-            <a href="" className="ml-2 text-dark list-item">Đồ chơi thông minh</a>
+            <Link to="/danh-muc-amazon" className="ml-2 text-dark list-item">Đồ chơi thông minh</Link>
           </li>
         </ul>
       </div>
@@ -81,16 +82,16 @@ class MenuHideRightDongHo extends React.Component {
         <ul>
           <span className="list-tittle">Thực phẩm chức năng</span>
           <li>
-            <a href="" className="ml-2 text-dark list-item">Giảm cân</a>
+            <Link to="/danh-muc-amazon" className="ml-2 text-dark list-item">Giảm cân</Link>
           </li>
           <li>
-            <a href="" className="ml-2 text-dark list-item">Protein</a>
+            <Link to="/danh-muc-amazon" className="ml-2 text-dark list-item">Protein</Link>
           </li>
           <li>
-            <a href="" className="ml-2 text-dark list-item">Callogen</a>
+            <Link to="/danh-muc-amazon" className="ml-2 text-dark list-item">Callogen</Link>
           </li>
           <li>
-            <a href="" className="ml-2 text-dark list-item">Vitamin</a>
+            <Link to="/danh-muc-amazon" className="ml-2 text-dark list-item">Vitamin</Link>
           </li>
         </ul>
       </div>
@@ -98,13 +99,13 @@ class MenuHideRightDongHo extends React.Component {
         <ul>
           <span className="list-tittle">Đồ công nghệ</span>
           <li>
-            <a href="" className="ml-2 text-dark list-item">Loa</a>
+            <Link to="/danh-muc-amazon" className="ml-2 text-dark list-item">Loa</Link>
           </li>
           <li>    
-            <a href="" className="ml-2 text-dark list-item">Camera</a>
+            <Link to="/danh-muc-amazon" className="ml-2 text-dark list-item">Camera</Link>
           </li>
           <li>    
-            <a href="" className="ml-2 text-dark list-item">Âm ly</a>
+            <Link to="/danh-muc-amazon" className="ml-2 text-dark list-item">Âm ly</Link>
           </li>
         </ul>
       </div>
@@ -112,14 +113,14 @@ class MenuHideRightDongHo extends React.Component {
         <ul>
           <span className="list-tittle">Gia dụng</span>
           <li>
-            <a href="" className="ml-2 text-dark 
-                                                                          list-item">Máy xay</a>
+            <Link to="/danh-muc-amazon" className="ml-2 text-dark 
+                                                                          list-item">Máy xay</Link>
           </li>
           <li>    
-            <a href="" className="ml-2 text-dark list-item">Máy xay cafe</a>
+            <Link to="/danh-muc-amazon" className="ml-2 text-dark list-item">Máy xay cafe</Link>
           </li>
           <li>    
-            <a href="" className="ml-2 text-dark list-item">Máy hút bụi</a>
+            <Link to="/danh-muc-amazon" className="ml-2 text-dark list-item">Máy hút bụi</Link>
           </li>
         </ul>
       </div>
@@ -134,6 +135,8 @@ class MenuHideRightDongHo extends React.Component {
 
                 </div>
             </div>
+
+        
 
         )
 

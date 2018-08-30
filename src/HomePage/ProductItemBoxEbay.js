@@ -14,7 +14,7 @@ class ProductItemBoxEbay extends React.Component{
         
         return (
 				
-                <div className="container mt-4 p-2">
+                <div>
 					<ProductItemListEbay/>
                     <ProductItemListEbay/>
 				</div>

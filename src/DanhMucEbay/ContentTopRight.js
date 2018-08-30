@@ -1,6 +1,7 @@
 import React from "react";
 //import { Link } from "react-router-dom";
 import { connect } from "react-redux";
+import Slider from "react-slick";
 class ContentTopRight extends React.Component {
     constructor(props) {
         super(props);
@@ -25,11 +26,30 @@ class ContentTopRight extends React.Component {
     }
 
     render() {
-
+        var settings = {
+            dots: false,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            arrows: false
+        };
         return (
-            <div className="col-lg-9 px-2 d-flex align-self-stretch">
-                <div className="owl-carousel owl-one owl-loaded owl-drag">
-                    <div className="owl-stage-outer"><div className="owl-stage" style={{ transform: 'translate3d(-2547px, 0px, 0px)', transition: 'all 0.25s ease 0s', width: 5094 }}><div className="owl-item cloned" style={{ width: 839, marginRight: 10 }}><div><img src="img\Layer 69.png" alt='img' className="img-fluid" /></div></div><div className="owl-item cloned" style={{ width: 839, marginRight: 10 }}><div><img src="img\Layer 70.png" alt='img' className="img-fluid" /></div></div><div className="owl-item" style={{ width: 839, marginRight: 10 }}><div><img src="img\Layer 69.png" alt='img' className="img-fluid" /></div></div><div className="owl-item active" style={{ width: 839, marginRight: 10 }}><div><img src="img\Layer 70.png" alt='img' className="img-fluid" /></div></div><div className="owl-item cloned" style={{ width: 839, marginRight: 10 }}><div><img src="img\Layer 69.png" alt='img' className="img-fluid" /></div></div><div className="owl-item cloned" style={{ width: 839, marginRight: 10 }}><div><img src="img\Layer 70.png" alt='img' className="img-fluid" /></div></div></div></div><div className="owl-nav disabled"><button type="button" role="presentation" className="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" className="owl-next"><span aria-label="Next">›</span></button></div><div className="owl-dots disabled" /></div>
+            <div className="col-lg-9 px-2 ">
+                <Slider {...settings}>
+                    <img src="img\Layer 69.png" alt='img' className="img-fluid" style={{width: '839px', marginRight: '10px'}} />
+                    <img src="img\Layer 70.png" alt='img' className="img-fluid" style={{width: '839px', marginRight: '10px'}} />
+                    <img src="img\Layer 69.png" alt='img' className="img-fluid" style={{width: '839px', marginRight: '10px'}}/>
+                    <img src="img\Layer 70.png" alt='img' className="img-fluid" style={{width: '839px', marginRight: '10px'}}/>
+                    <img src="img\Layer 69.png" alt='img' className="img-fluid" style={{width: '839px', marginRight: '10px'}}/>
+                    <img src="img\Layer 70.png" alt='img' className="img-fluid" style={{width: '839px', marginRight: '10px'}}/>
+                    <img src="img\Layer 69.png" alt='img' className="img-fluid" style={{width: '839px', marginRight: '10px'}}/>
+                    <img src="img\Layer 70.png" alt='img' className="img-fluid" style={{width: '839px', marginRight: '10px'}}/>
+                    <img src="img\Layer 69.png" alt='img' className="img-fluid" style={{width: '839px', marginRight: '10px'}}/>
+                    <img src="img\Layer 70.png" alt='img' className="img-fluid" style={{width: '839px', marginRight: '10px'}}/>
+                </Slider>
             </div>
 
         )

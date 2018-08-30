@@ -14,8 +14,8 @@ class ProductItemBoxAmazon extends React.Component{
         
         return (
 				
-                <div className="container mt-4 p-2">
-					<ProductItemListAmazon/>
+                <div>
+					
                     <ProductItemListAmazon/>
                     <ProductItemListAmazon/>
 				</div>

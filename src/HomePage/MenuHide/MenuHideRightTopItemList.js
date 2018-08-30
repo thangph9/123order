@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { MenuHideRightTopItem } from "./MenuHideRightTopItem";
+import Slider from "react-slick";
 class MenuHideRightTopItemList extends React.Component {
     constructor(props) {
         super(props);
@@ -17,9 +18,17 @@ class MenuHideRightTopItemList extends React.Component {
         console.log("Hello World")
     }
     render() {
-
+        var settings = {
+            dots: false,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000
+        };
         return (
-            <div className="owl-carousel owl-two p-2">
+            <Slider {...settings}>
                 <MenuHideRightTopItem/>
                 <MenuHideRightTopItem/>
                 <MenuHideRightTopItem/>
@@ -32,7 +41,7 @@ class MenuHideRightTopItemList extends React.Component {
                 <MenuHideRightTopItem/>
                 <MenuHideRightTopItem/>
                 <MenuHideRightTopItem/>
-            </div>
+            </Slider>
 
         )
 

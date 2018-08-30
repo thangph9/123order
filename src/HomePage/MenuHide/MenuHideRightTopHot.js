@@ -6,7 +6,8 @@ class MenuHideRightTopHot extends React.Component {
         super(props);
         this.state = {
             login: true,
-            loading: false,
+            loading: false
+
         }
         this.handleSubmit = this.handleSubmit.bind(this);
     }
@@ -14,10 +15,9 @@ class MenuHideRightTopHot extends React.Component {
         this.setState({
             login: false
         })
-        console.log("Hello World")
     }
     render() {
-
+       
         return (
             <div id="topHot" className="tabcontent" style={{ display: 'none' }}>
                 <div className="container bg-white" aria-haspopup="true" aria-expanded="false">

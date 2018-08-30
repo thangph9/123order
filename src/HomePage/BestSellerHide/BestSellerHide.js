@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import { MenuHideRightTopHotBox } from "../MenuHide/MenuHideRightTopHotBox";
+import { GiaSocHideItemBox } from "../GiaSocHide/GiaSocHideItemBox";
 class BestSellerHide extends React.Component {
     constructor(props) {
         super(props);
@@ -26,7 +26,7 @@ class BestSellerHide extends React.Component {
                         <span className="ml-2">BEST SELLER</span>
                     </div>
                 </div>
-                <MenuHideRightTopHotBox/>
+                <GiaSocHideItemBox/>
             </div>
 
         )
