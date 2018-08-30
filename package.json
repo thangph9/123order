@@ -49,10 +49,7 @@
         "redux-promise-middleware": "^5.1.1",
         "redux-thunk": "^2.2.0",
         "sass": "^1.3.2",
-<<<<<<< HEAD
         "slick-carousel": "^1.8.1",
-=======
->>>>>>> bf54d74e2fd6808c318b51787fea8c25b3d49f38
         "webpack": "^4.17.1"
     },
     "scripts": {
