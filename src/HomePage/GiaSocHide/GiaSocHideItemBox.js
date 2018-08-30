@@ -18,7 +18,6 @@ class GiaSocHideItemBox extends React.Component {
         console.log("Hello World")
     }
     render() {
-        console.log("LOG");
         return (
             <div className="row my-2">
                 <div className="col-md-1"></div>

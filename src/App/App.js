@@ -9,13 +9,14 @@ import {Price} from '../Price/Price';
 import { Test } from '../Test';
 
 import { COD } from "../COD";
+import { DanhMucEbay } from "../DanhMucEbay";
 import { DanhMucAmazon } from "../DanhMucAmazon";
 //import {PrivateRoute } from "../Sections";
 import {MuaHangEbay} from '../MuaHangEbay';
 import {MuaHangAmazon} from '../MuaHangAmazon';
 import {DetailProduct} from '../Detail-Product/DetailProduct';
 
-
+import {HomePage} from '../HomePage';
 import { history } from "../stores";
 import { alertActions } from "../actions";
 class App extends Component{
@@ -62,8 +63,10 @@ class App extends Component{
                 <Router history={history}>
                     <div>
                     <Switch history ={ history  }>
+                        <Route exact path="/home" component={HomePage} />
                         <Route exact path="/cod" component={COD} />
                         <Route exact path="/danh-muc-amazon" component={DanhMucAmazon} />
+                        <Route exact path="/danh-muc-ebay" component={DanhMucEbay} />
                         <Route exact path="/mua-hang-ebay" component={MuaHangEbay} />
                         <Route exact path="/mua-hang-amazon" component={MuaHangAmazon} />
                         <Route exact path="/detail-product" component={DetailProduct} />

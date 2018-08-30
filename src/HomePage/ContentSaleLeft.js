@@ -28,7 +28,7 @@ class ContentSaleLeft extends React.Component {
             arrows: false
         };
         return (
-            <div class="col-7 p-2">
+            <div className="col-7 p-2">
             <Slider {...settings}>
                 <div>
                     <img alt="Responsive img" src="img/Banner 3.png" className="img-fluid" />

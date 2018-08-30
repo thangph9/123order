@@ -26,10 +26,10 @@ class MenuHideLeft extends React.Component {
         for (i = 0; i < tablinks.length; i++) {
             tablinks[i].className = tablinks[i].className.replace(" active", "");
         }
-        console.log("Open");
+        //console.log("Open");
         // Show the current tab, and add an "active" class to the link that opened the tab
         document.getElementById(category).style.display = "block";
-       console.log(document.getElementById(category));
+       //console.log(document.getElementById(category));
        //this.setState({display:'block'});
         
     }
