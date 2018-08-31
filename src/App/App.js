@@ -63,6 +63,7 @@ class App extends Component{
                 <Router history={history}>
                     <div>
                     <Switch history ={ history  }>
+                        <Route exact path="/" component={HomePage} />
                         <Route exact path="/home" component={HomePage} />
                         <Route exact path="/cod" component={COD} />
                         <Route exact path="/danh-muc-amazon" component={DanhMucAmazon} />
