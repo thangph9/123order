@@ -172,7 +172,7 @@ function loadAmazonDealDay(){
   });
   //console.log(arr);
   ObjTable.ContentDeal=arr;
-  console.log(ObjTable);
+  //console.log(ObjTable);
 });
 }
 app.post("/home",function(req,res){
