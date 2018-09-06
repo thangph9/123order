@@ -156,12 +156,15 @@ function loadAmazonDealDay(){
   //console.log(res,err)
   var arr=result.map(item=>{
     return obj={
+      
       dealid:item.dealid,
       base_price:item.base_price,
       death_clock:item.death_clock,
       img:item.img,
       link:item.link,
       price:item.price,
+      review:item.review,
+      reviewlink:item.reviewlink,
       sale:item.sale,
       timestamp:item.timestamp+"",
       title:item.title

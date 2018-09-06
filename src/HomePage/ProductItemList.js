@@ -25,14 +25,16 @@ class ProductItemList extends React.Component{
                 <div className="row">
                 { isItem &&
                     initLoad.map((e,i) =>{
+                         return (<ProductItem key={i} data={e}/>)
+/*
                         if(dem<5+this.props.loadAdd){
                             dem++;
-                            return (<ProductItem key={i} data={e} customStyle="block"/>)
+                           
                         }
                         else{
                             return (<ProductItem key={i} data={e} customStyle="none"/>)
                         }
-                        
+  */                      
                     })
                 }
                 </div>
@@ -41,9 +43,6 @@ class ProductItemList extends React.Component{
     }
 }
 function mapStateToProps(state){
-    return {
-        initLoad:state.initLoadContentDeal
-    }
-}
+    return state;
 const connected=connect(mapStateToProps)(ProductItemList);
 export { connected as ProductItemList } 

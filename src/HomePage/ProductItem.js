@@ -9,8 +9,10 @@ class ProductItem extends React.Component {
         }
     }
     render(){
+
         var display=this.props.customStyle;
         var {data}=this.props;
+        console.log(data);
         return (
             <div className="col-md mt-2 px-2" style={{display:display}}>
                 <div className="card" >
