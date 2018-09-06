@@ -1,20 +1,17 @@
 const https   = require('https');
 const express = require('express');
 const path    = require('path');
-
 const fs      = require('fs');
 //const async           = require("async");
 //const bcrypt          = require("bcryptjs");
 const http          = require('http');
 const jsonParser	= require('body-parser').json();
-
 const webpack = require('webpack');
 const webpackDevMiddleware = require('webpack-dev-middleware');
 const models = require("./settings_db");
 const app = express();
 const config = require('./webpack.config.js');
 const compiler = webpack(config);
-<<<<<<< HEAD
 var Arr=[
   {
     id:'img1',
@@ -184,9 +181,6 @@ app.post("/home",function(req,res){
 //     return obj={dealid:value.dealid,base_price:value.base_price,death_clock:value.death_clock,img:value.img,dealid:value.dealid,dealid:value.dealid,dealid:value.dealid}
 //   })
 // });
-=======
-
->>>>>>> 75d22fda0ddcd229e673db1e4ebaca1b41108644
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname,'views'));
 app.use(express.static('public'));
