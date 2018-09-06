@@ -1,13 +1,9 @@
 import React,{ Component } from "react";
 import { Router,Route, Switch } from "react-router-dom";
 import { connect } from "react-redux";
-
 //import { createBrowserHistory } from 'history';
-
-
 import {Price} from '../Price/Price';
 import { Test } from '../Test';
-
 import { COD } from "../COD";
 import { DanhMucEbay } from "../DanhMucEbay";
 import { DanhMucAmazon } from "../DanhMucAmazon";
@@ -18,7 +14,6 @@ import {GiaSocMoiNgay} from '../GiaSocMoiNgay';
 import {HotDealCongNghe} from '../HotDealCongNghe';
 import {MuaHangAmazon} from '../MuaHangAmazon';
 import {DetailProduct} from '../Detail-Product/DetailProduct';
-
 import {HomePage} from '../HomePage';
 import { history } from "../stores";
 import { alertActions } from "../actions";
@@ -39,25 +34,8 @@ class App extends Component{
         this.setState({
             loading: true
         });
-        /*
-        const {authentication} = this.props;
-        if(authentication.loggedIn){
-            let head=document.head;
-            let myNode = document.getElementsByTagName("link");
-            //console.log(myNode[0].firstChild);
-            for(var i=0 ; i< myNode.length ; i++){
-                if(myNode[i].href.indexOf('homepage') > -1 ){
-                    myNode[i].parentNode.removeChild(myNode[i]);
-                //    console.log(myNode[i]);
-                }
-            }
-           
-        }
-        //console.log(authentication);
-        */
     }
-    componentWillMount(){
-        
+    componentWillMount(){    
     }
     render(){ 
         const {loading} = this.state;

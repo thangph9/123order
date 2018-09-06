@@ -17,6 +17,7 @@ class ContentDealSeeMore extends React.Component {
         console.log("Hello World")
     }
     handleClick(value){     
+        var numb=this.props.loadAdd+value;
         this.props.dispatch(loadAdd(value)); 
     }
     render() {
@@ -24,7 +25,7 @@ class ContentDealSeeMore extends React.Component {
         return (
             <div className="row justify-content-center my-4">
                 <div className="col-lg-4">
-                    <button onClick={()=>this.handleClick(1)} className="btn btn-block deal-btn">Xem thêm</button>
+                    <button onClick={()=>this.handleClick(5)} className="btn btn-block deal-btn">Xem thêm</button>
                 </div>
             </div>
 

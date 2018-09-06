@@ -36,7 +36,6 @@ class ContentDeal extends React.Component{
                 <ContentDealTitle/>
                 <div className="container">
                     <ProductItemBox/>
-                    {this.props.loadAdd}
                     <ContentDealSeeMore/>
                     <ContentAdvertising/>
                 </div>
