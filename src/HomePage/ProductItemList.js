@@ -34,7 +34,7 @@ class ProductItemList extends React.Component{
     }
 }
 function mapStateToProps(state){
-    return state;
+     return state;
 }
 const connected=connect(mapStateToProps)(ProductItemList);
 export { connected as ProductItemList } 
