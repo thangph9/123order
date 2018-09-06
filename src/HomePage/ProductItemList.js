@@ -25,16 +25,7 @@ class ProductItemList extends React.Component{
                 <div className="row">
                 { isItem &&
                     initLoad.map((e,i) =>{
-                         return (<ProductItem key={i} data={e}/>)
-/*
-                        if(dem<5+this.props.loadAdd){
-                            dem++;
-                           
-                        }
-                        else{
-                            return (<ProductItem key={i} data={e} customStyle="none"/>)
-                        }
-  */                      
+                         return (<ProductItem key={i} data={e}/>)                  
                     })
                 }
                 </div>
