@@ -17,7 +17,7 @@ class ProductItem extends React.Component {
             <div className="col-md mt-2 px-2" style={{display:display}}>
                 <div className="card" >
                     <div className="hovereffect">
-                        <div className="position-absolute discount-tag-pos"><img src={data.sale} alt='img' className="img-fluid" /></div>
+                        <div className="position-absolute discount-tag-pos"><img src={data.img} alt='img' className="img-fluid" /></div>
                         <img className="card-img-top img-thumbnail border-0 img-fluid" src={data.img} alt='img'/>
                         <div className="overlay">
                             <Link to="/detail-product" className="info">Chi tiết</Link>
@@ -34,9 +34,9 @@ class ProductItem extends React.Component {
                         <i className="far fa-star text-warning" />
                         <br />
                         <span className="card-text align-left deal-price">{data.price}</span>
-                        <span className="card-text align-right pl-5 deal-old-price mb-2"><s>{this.props.data.base_price}</s></span>
+                        <span className="card-text align-right pl-5 deal-old-price mb-2"><s>{data.base_price}</s></span>
                         <div style={{ clear: 'both' }} />
-                        <p className="card-text align-left deal-old-price"><i className="far fa-clock card-text" /> {this.props.data.death_clock}</p>
+                        <p className="card-text align-left deal-old-price"><i className="far fa-clock card-text" /> {data.death_clock}</p>
                     </div>
                 </div>
             </div>
