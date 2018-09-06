@@ -15,7 +15,7 @@ class ProductItemList extends React.Component{
         
     }
     render(){
-        let {initLoad}=this.props;
+        let { initLoadAmazonHide as initLoad }=this.props;
         let isItem=false
         if( initLoad.length >0 ){
             isItem=true;
