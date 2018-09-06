@@ -15,8 +15,8 @@ class ProductItemList extends React.Component{
         
     }
     render(){
-        let { initLoadAmazonHide }=this.props;
-        let initLoad=initLoadAmazonHide;
+        let { initLoad }=this.props;
+       
         let isItem=false
         if( initLoad.length >0 ){
             isItem=true;
@@ -35,7 +35,7 @@ class ProductItemList extends React.Component{
     }
 }
 function mapStateToProps(state){
-     return state;
+     return {initLoad:state.initLoadContentDeal}
 }
 const connected=connect(mapStateToProps)(ProductItemList);
 export { connected as ProductItemList } 
