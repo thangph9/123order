@@ -1,5 +1,5 @@
 import React from "react";
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { MenuHideA } from "./MenuHideA";
 //import $ from 'jquery';
@@ -39,9 +39,9 @@ class HeaderTopLeftAMAZON extends React.Component {
 
         return (
             <li className="nav-item dropdown" id='menuAmazon'>
-                <a className="nav-link dropdown-toggle dropdown-arrow text-white" href="" id="navbarDropdownMenuLinkAmazon" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <Link to="/danh-muc-amazon" className="nav-link dropdown-toggle dropdown-arrow text-white" href="" id="navbarDropdownMenuLinkAmazon" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     AMAZON
-                </a>
+                </Link>
                 <div className="container dropdown-menu amazon-position menu2-dropdown bg-white" aria-haspopup="true" aria-expanded="false" id='linkAmazon'>
                     <MenuHideA />
                 </div>

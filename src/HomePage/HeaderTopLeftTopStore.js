@@ -1,5 +1,5 @@
 import React from "react";
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { MenuHideT } from "./MenuHideT";
 //import $ from 'jquery';
@@ -39,7 +39,7 @@ class HeaderTopLeftTopStore extends React.Component{
         
         return (
             <li className="nav-item dropdown" id="menuTopStore">
-                <a className="nav-link dropdown-toggle dropdown-arrow text-white" href="" id="navbarDropdownMenuLinkTopStore" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TOP STORE</a>
+                <Link to="/" className="nav-link dropdown-toggle dropdown-arrow text-white" id="navbarDropdownMenuLinkTopStore" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TOP STORE</Link>
                 <div className="container dropdown-menu top-sore-position menu2-dropdown bg-white" aria-haspopup="true" aria-expanded="false" id="linkTopStore">
                 <MenuHideT/>
                 </div>

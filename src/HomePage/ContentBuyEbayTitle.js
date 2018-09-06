@@ -18,7 +18,7 @@ class ContentBuyEbayTitle extends React.Component {
     render() {
 
         return (
-            <div className="row bg-white justify-content-center px-3"> <span className="deal-header">MUA HANGF EBAY</span> </div>
+            <div className="row bg-white justify-content-center px-3"> <span className="deal-header">MUA HÀNG EBAY</span> </div>
 
         )
 

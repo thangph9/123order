@@ -1,5 +1,5 @@
 import React from "react";
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 class HeaderBotSearchLeft extends React.Component{
     constructor(props){
@@ -28,7 +28,7 @@ class HeaderBotSearchLeft extends React.Component{
         
         return (
             <div className="col-lg-2 mx-2 my-2 justify-content-center"> 
-                <img src="img/logo.png" alt="" className="web-logo"/> 
+                <Link to="/home"> <img src="img/logo.png" alt="img" className="web-logo"/></Link>
             </div>
         )
         

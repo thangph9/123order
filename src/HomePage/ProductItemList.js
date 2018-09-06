@@ -2,6 +2,7 @@ import React from "react";
 //import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import {ProductItem} from "./ProductItem";
+
 class ProductItemList extends React.Component{
     constructor(props){
         super(props);
@@ -9,6 +10,9 @@ class ProductItemList extends React.Component{
             login: true,
             loading: false,
         }
+    }
+    componentWillMount(){
+        
     }
     render(){
         

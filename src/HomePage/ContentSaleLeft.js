@@ -1,6 +1,8 @@
 import React from "react";
 import { connect } from "react-redux";
 import Slider from "react-slick";
+import {initLoadContentSaleLeft} from '../actions'
+import axios from 'axios';
 class ContentSaleLeft extends React.Component {
     constructor(props) {
         super(props);
@@ -10,6 +12,14 @@ class ContentSaleLeft extends React.Component {
         }
         this.handleSubmit = this.handleSubmit.bind(this);
     }
+    componentWillMount(){
+        axios.post('/home').then(res=>{
+            var action=initLoadContentSaleLeft(res.data.ContentSale);
+            this.props.dispatch(action);
+            console.log(this.props.data);
+        })
+        this.props.dispatch(initLoadContentSaleLeft);
+    }
     handleSubmit() {
         this.setState({
             login: false
@@ -17,6 +27,7 @@ class ContentSaleLeft extends React.Component {
         console.log("Hello World")
     }
     render() {
+        var menuItems=[];
         var settings = {
             dots: false,
             infinite: true,
@@ -27,21 +38,17 @@ class ContentSaleLeft extends React.Component {
             autoplaySpeed: 3000,
             arrows: false
         };
+        for(var i=0;i<this.props.initLoad.length;i++){
+            menuItems.push(
+                <div key={i}>
+                    <img  alt="Responsive img" src={this.props.initLoad[i].linkanh} className="img-fluid" />
+                </div>
+            );
+        }
         return (
             <div className="col-7 p-2">
             <Slider {...settings}>
-                <div>
-                    <img alt="Responsive img" src="img/Banner 3.png" className="img-fluid" />
-                </div>
-                <div>
-                    <img alt="Responsive img" src="img/Banner 3.png" className="img-fluid" />
-                </div>
-                <div>
-                    <img alt="Responsive img" src="img/Banner 3.png" className="img-fluid" />
-                </div>
-                <div>
-                    <img alt="Responsive img" src="img/Banner 3.png" className="img-fluid" />
-                </div>
+               {menuItems}
             </Slider>
             </div>
 
@@ -51,7 +58,9 @@ class ContentSaleLeft extends React.Component {
 }
 function mapStateToProps(state) {
 
-    return state;
+    return {
+        initLoad:state.initLoadContentSaleLeft
+    }
 }
 const connected = connect(mapStateToProps)(ContentSaleLeft);
 export { connected as ContentSaleLeft } 

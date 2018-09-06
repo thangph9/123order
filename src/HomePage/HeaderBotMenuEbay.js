@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { EbayHide } from "./EbayHide";
+import { Link } from "react-router-dom";
 //import $ from 'jquery';
 class HeaderBotMenuEbay extends React.Component {
     constructor(props) {
@@ -31,9 +32,9 @@ class HeaderBotMenuEbay extends React.Component {
 
         return (
             <li className="nav-item dropdown" id="menuMuaEbay">
-                <a className="nav-link dropdown-toggle text-white" href="" id="navbarDropdownMenuLinkMuaEbay" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <Link to="/danh-muc-ebay" className="nav-link dropdown-toggle text-white" href="" id="navbarDropdownMenuLinkMuaEbay" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     MUA HÀNG EBAY
-                </a>
+                </Link>
                 <EbayHide />
             </li>
         );

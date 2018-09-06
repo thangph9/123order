@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import {loadAdd} from '../actions';
 class ContentDealSeeMore extends React.Component {
     constructor(props) {
         super(props);
@@ -15,12 +16,15 @@ class ContentDealSeeMore extends React.Component {
         })
         console.log("Hello World")
     }
+    handleClick(value){     
+        this.props.dispatch(loadAdd(value)); 
+    }
     render() {
 
         return (
             <div className="row justify-content-center my-4">
                 <div className="col-lg-4">
-                    <button className="btn btn-block deal-btn">Xem thêm</button>
+                    <button onClick={()=>this.handleClick(1)} className="btn btn-block deal-btn">Xem thêm</button>
                 </div>
             </div>
 
@@ -30,7 +34,9 @@ class ContentDealSeeMore extends React.Component {
 }
 function mapStateToProps(state) {
 
-    return state;
+    return {
+        loadAdd:state.loadAdd
+    }
 }
 const connected = connect(mapStateToProps)(ContentDealSeeMore);
 export { connected as ContentDealSeeMore } 

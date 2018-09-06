@@ -1,7 +1,7 @@
 import React from "react";
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { connect } from "react-redux";
-
+import $ from 'jquery';
 class HeaderTopRightDangNhap extends React.Component{
     constructor(props){
         super(props);
@@ -24,13 +24,11 @@ class HeaderTopRightDangNhap extends React.Component{
 
         })
     }
-    
-
     render(){
         
         return (
             <li className="nav-item">
-                <a id="login" data-toggle="modal" data-target="#myLogin" className="nav-link text-white" href="">ĐĂNG NHẬP</a>
+                <Link id="login" data-toggle="modal" data-target="#myLogin" className="nav-link text-white" to="/home">ĐĂNG NHẬP</Link>
             </li>
 
         )

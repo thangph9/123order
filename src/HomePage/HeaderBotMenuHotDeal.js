@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { HotDealHide } from "./HotDealHide";
+import { Link } from "react-router-dom";
 //import $ from 'jquery';
 class HeaderBotMenuHotDeal extends React.Component {
     constructor(props) {
@@ -31,7 +32,7 @@ class HeaderBotMenuHotDeal extends React.Component {
 
         return (
             <li className="nav-item dropdown" id="menuHotDeal">
-                <a className="nav-link dropdown-toggle text-white" href="" id="navbarDropdownMenuLinkHotDeal" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">HOT DEAL CÔNG NGHỆ</a>
+                <Link to='/hot-deal-cong-nghe' className="nav-link dropdown-toggle text-white" href="" id="navbarDropdownMenuLinkHotDeal" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">HOT DEAL CÔNG NGHỆ</Link>
             <HotDealHide/>
             </li>
         );

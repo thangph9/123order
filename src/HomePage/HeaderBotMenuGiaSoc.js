@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { GiaSocHide } from "./GiaSocHide";
+import { Link } from "react-router-dom";
 //import $ from 'jquery';
 class HeaderBotMenuGiaSoc extends React.Component {
     constructor(props) {
@@ -31,7 +32,7 @@ class HeaderBotMenuGiaSoc extends React.Component {
 
         return (
             <li className="nav-item dropdown" id="menuGiaSoc">
-                <a className="nav-link dropdown-toggle text-white" href="" id="navbarDropdownMenuLinkGiaSoc" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GIÁ SỐC MỖI NGÀY</a>
+                <Link to="/gia-soc-moi-ngay" className="nav-link dropdown-toggle text-white" href="" id="navbarDropdownMenuLinkGiaSoc" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GIÁ SỐC MỖI NGÀY</Link>
             <GiaSocHide/>
             </li>
         );

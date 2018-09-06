@@ -1,10 +1,13 @@
 import React from "react";
+//import axios from 'axios';
 //import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 //import { ProductItemBox } from "./ProductItemBox";
 import { Header } from "./Header";
 import { Content } from "./Content";
 import { Footer } from "../Sections/Footer";
+//import {initLoadHomePage} from '../actions';
+//import axios from 'axios';
 class HomePage extends React.Component {
     constructor(props) {
         super(props);
@@ -27,9 +30,13 @@ class HomePage extends React.Component {
 
         })
     }
-
+    
+    componentDidMount(){
+        
+    }
     render() {
-
+        //console.log(this.props.initLoad);
+        //console.log('')
         return (
             <div>
                 <Header/>

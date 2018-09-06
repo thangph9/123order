@@ -1,5 +1,5 @@
 import React from "react";
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { ContentTopLeft } from "./ContentTopLeft";
 import { ContentTopRight } from "./ContentTopRight";
@@ -33,8 +33,8 @@ class ContentTop extends React.Component {
                 <div className="row">
                     <nav aria-label="breadcrumb">
                         <ol className="breadcrumb crumb-background">
-                            <li className="breadcrumb-item"><a href="" className="text-dark">Trang chủ</a></li>
-                            <li className="breadcrumb-item"><a href="" className="text-dark">Mua hàng Amazon</a></li>
+                            <li className="breadcrumb-item"><Link to="/home" className="text-dark">Trang chủ</Link></li>
+                            <li className="breadcrumb-item"><Link to="/mua-hang-amazon" className="text-dark">Mua hàng Amazon</Link></li>
                             <li className="breadcrumb-item active" aria-current="page">Đồ công nghệ</li>
                         </ol>
                     </nav>

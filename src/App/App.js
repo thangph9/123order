@@ -13,6 +13,9 @@ import { DanhMucEbay } from "../DanhMucEbay";
 import { DanhMucAmazon } from "../DanhMucAmazon";
 //import {PrivateRoute } from "../Sections";
 import {MuaHangEbay} from '../MuaHangEbay';
+import {BestSeller} from '../BestSeller';
+import {GiaSocMoiNgay} from '../GiaSocMoiNgay';
+import {HotDealCongNghe} from '../HotDealCongNghe';
 import {MuaHangAmazon} from '../MuaHangAmazon';
 import {DetailProduct} from '../Detail-Product/DetailProduct';
 
@@ -68,8 +71,11 @@ class App extends Component{
                         <Route exact path="/danh-muc-amazon" component={DanhMucAmazon} />
                         <Route exact path="/danh-muc-ebay" component={DanhMucEbay} />
                         <Route exact path="/mua-hang-ebay" component={MuaHangEbay} />
+                        <Route exact path="/gia-soc-moi-ngay" component={GiaSocMoiNgay} />
                         <Route exact path="/mua-hang-amazon" component={MuaHangAmazon} />
                         <Route exact path="/detail-product" component={DetailProduct} />
+                        <Route exact path="/best-seller" component={BestSeller} />
+                        <Route exact path="/hot-deal-cong-nghe" component={HotDealCongNghe} />
                         <Route exact path="/price" component={Price} />
                     </Switch>
 

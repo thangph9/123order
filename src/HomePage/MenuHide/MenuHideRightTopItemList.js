@@ -18,6 +18,7 @@ class MenuHideRightTopItemList extends React.Component {
         console.log("Hello World")
     }
     render() {
+        let menuItems = [];
         var settings = {
             dots: false,
             infinite: true,
@@ -27,20 +28,21 @@ class MenuHideRightTopItemList extends React.Component {
             autoplay: true,
             autoplaySpeed: 1000
         };
+        for(var i=0;i<this.props.initLoad.length;i++){
+            menuItems.push(<MenuHideRightTopItem key={this.props.initLoad[i].id}
+             detail={this.props.initLoad[i].detail}
+             from={this.props.initLoad[i].from}
+             price={this.props.initLoad[i].price}
+             salePrice={this.props.initLoad[i].salePrice}
+             linkImg={this.props.initLoad[i].linkImg}
+             />)
+        }
         return (
+
             <Slider {...settings}>
-                <MenuHideRightTopItem/>
-                <MenuHideRightTopItem/>
-                <MenuHideRightTopItem/>
-                <MenuHideRightTopItem/>
-                <MenuHideRightTopItem/>
-                <MenuHideRightTopItem/>
-                <MenuHideRightTopItem/>
-                <MenuHideRightTopItem/>
-                <MenuHideRightTopItem/>
-                <MenuHideRightTopItem/>
-                <MenuHideRightTopItem/>
-                <MenuHideRightTopItem/>
+                {menuItems}
+                {menuItems}
+                {menuItems}
             </Slider>
 
         )
@@ -49,7 +51,9 @@ class MenuHideRightTopItemList extends React.Component {
 }
 function mapStateToProps(state) {
 
-    return state;
+    return {
+        initLoad:state.initLoadEbayHide
+    }
 }
 const connected = connect(mapStateToProps)(MenuHideRightTopItemList);
 export { connected as MenuHideRightTopItemList } 

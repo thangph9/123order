@@ -1,5 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
+import axios from 'axios';
+import {initLoadEbayHide} from '../../actions/initLoad';
 import { MenuHideRightTopHotBox } from "./MenuHideRightTopHotBox";
 class MenuHideRightTopHot extends React.Component {
     constructor(props) {
@@ -7,7 +9,6 @@ class MenuHideRightTopHot extends React.Component {
         this.state = {
             login: true,
             loading: false
-
         }
         this.handleSubmit = this.handleSubmit.bind(this);
     }
@@ -15,6 +16,16 @@ class MenuHideRightTopHot extends React.Component {
         this.setState({
             login: false
         })
+    }
+    componentWillMount(){
+        axios.post('/home').then(res=>{
+            var action=initLoadEbayHide(res.data.HideEbayTopHot);
+            this.props.dispatch(action);
+           // console.log(res.data.HideEbayTopHot);
+        })
+    }
+    componentDidMount(){
+        
     }
     render() {
        
@@ -24,7 +35,7 @@ class MenuHideRightTopHot extends React.Component {
                     <div className="row">
                         <div className="col-md-12 gia-soc-title">
                             <span className="title-stroke ml-2" />
-                            <span className="ml-2">Top Hot</span>
+                            <span className="ml-2">TOP HOT</span>
                         </div>
                     </div>
                     <MenuHideRightTopHotBox/>
@@ -38,7 +49,9 @@ class MenuHideRightTopHot extends React.Component {
 }
 function mapStateToProps(state) {
 
-    return state;
+    return {
+        initLoad:state.initLoadEbayHide
+    }
 }
 const connected = connect(mapStateToProps)(MenuHideRightTopHot);
 export { connected as MenuHideRightTopHot } 

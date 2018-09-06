@@ -1,5 +1,5 @@
 import React from "react";
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { MenuHide } from "./MenuHide";
 //import $ from 'jquery';
@@ -41,9 +41,9 @@ class HeaderTopLeftEBAY extends React.Component {
 
         return (
             <li className="nav-item dropdown" id='menuEbay' >
-                <a className='nav-link dropdown-toggle dropdown-arrow text-white' href="" id="navbarDropdownMenuLinkEbay" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <Link to="/danh-muc-ebay" className='nav-link dropdown-toggle dropdown-arrow text-white' id="navbarDropdownMenuLinkEbay" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     EBAY
-                </a>
+                </Link>
                 <div className="container dropdown-menu ebay-position menu2-dropdown bg-white" aria-haspopup="true" aria-expanded="false" id='linkEbay'>
                     <MenuHide />
                 </div>

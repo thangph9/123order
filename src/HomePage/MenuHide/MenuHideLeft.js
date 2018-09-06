@@ -1,6 +1,8 @@
 import React from "react";
 import { connect } from "react-redux";
-
+//import {loadImg} from '../../actions';
+//import initLoad from '../../actions/initLoadHomePage';
+//import axios from 'axios';
 class MenuHideLeft extends React.Component {
     constructor(props) {
         super(props);
@@ -39,13 +41,17 @@ class MenuHideLeft extends React.Component {
         })
         console.log("Hello World")
     }
+    handleClickTopHot(){
+        
+            console.log('ok');
+    }
     render() {
 
         return (
             <div className="container col-md-3 tab">
                 <div className="row tablinks pl-4 my-3" onMouseOver={() => this.OpenCategory(this, 'topHot')}>
                     <div className="col-8">
-                        <span>Top hot </span>
+                        <span onClick={()=>this.handleClickTopHot()}>Top hot </span>
                     </div>
                     <div className="col-2">
                         <i className="fas fa-angle-right pl-5" />
@@ -152,7 +158,9 @@ class MenuHideLeft extends React.Component {
     }
 }
 function mapStateToProps(state) {
-    return state;
+    return {
+        loadImg:state.loadImg
+    }
 }
 const connected = connect(mapStateToProps)(MenuHideLeft);
 export { connected as MenuHideLeft } 

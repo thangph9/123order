@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { BestSellerHide } from "./BestSellerHide";
+import { Link } from "react-router-dom";
 //import $ from 'jquery';
 class HeaderBotMenuBestSeller extends React.Component {
     constructor(props) {
@@ -30,7 +31,7 @@ class HeaderBotMenuBestSeller extends React.Component {
 
         return (
             <li className="nav-item dropdown" id="menuBestSeller">
-                <a className="nav-link dropdown-toggle text-white" href="" id="navbarDropdownMenuLinkBestSeller" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BEST SELLER</a>
+                <Link to="/best-seller" className="nav-link dropdown-toggle text-white" href="" id="navbarDropdownMenuLinkBestSeller" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BEST SELLER</Link>
             <BestSellerHide/>
             </li>
         );
