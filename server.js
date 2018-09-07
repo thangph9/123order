@@ -177,7 +177,6 @@ function loadAmazonDealDay(){
 }
 app.post("/home",function(req,res){
   loadAmazonDealDay();
-  let body=req.body;
   console.log(body);
   res.json(ObjTable);
 })

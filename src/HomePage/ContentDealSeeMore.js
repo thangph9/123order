@@ -26,15 +26,23 @@ class ContentDealSeeMore extends React.Component {
               
         })
     }
+    onHandleSubmit(event){
+        event.preventDefault();
+        axios.post('/home',{ itemAdd:5 })
+        .then(res=>{
+              
+        })
+    }
     render() {
 
         return (
+            <form onSubmit={()=>this.onHandleSubmit()}>
             <div className="row justify-content-center my-4">
                 <div className="col-lg-4">
                     <button onClick={()=>this.handleClick(5)} className="btn btn-block deal-btn">Xem thêm</button>
                 </div>
             </div>
-
+            </form>
         )
 
     }
