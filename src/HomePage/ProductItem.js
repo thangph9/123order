@@ -18,7 +18,7 @@ class ProductItem extends React.Component {
                 <div className="card" style={{width:'212px',height:'402px'}}>
                     <div className="hovereffect" style={{width:'210px',height:'210px'}}>
                         
-                        <img style={{width:'210px',height:'210px'}} className="card-img-top img-thumbnail border-0 img-fluid" src={data.img} alt='img'/>
+                        <img style= {{width:'210px',height:'210px'}} className="card-img-top img-thumbnail border-0 img-fluid" src={data.img} alt='img'/>
                         <div className="overlay">
                             <Link to="/detail-product" className="info">Chi tiết</Link>
                         </div>
@@ -33,7 +33,7 @@ class ProductItem extends React.Component {
                         <i className="far fa-star text-warning" />
                         <i className="far fa-star text-warning" />
                         <br />
-                        <span className="card-text align-left deal-price">{data.price}</span>
+                        <span className="card-text align-left deal-price" style={{width:'90.81px'}}>{data.price}</span>
                         <span className="card-text align-right pl-5 deal-old-price mb-2"><s>5.000.000 VNĐ</s></span>
                         <div style={{ clear: 'both' }} />
                         <p className="card-text align-left deal-old-price"><i className="far fa-clock card-text" /> {(data.death_clock==='None') ? '' : data.death_clock }</p>
