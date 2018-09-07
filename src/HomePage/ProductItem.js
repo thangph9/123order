@@ -13,7 +13,7 @@ class ProductItem extends React.Component {
         var display=this.props.customStyle;
         var {data}=this.props;
         console.log(data);
-        var addString=" &nbsp;&nbsp;&nbsp;&nbsp...";
+        var addString=" &nbsp;&nbsp;&nbsp;&nbsp ...";
         var newTitle=data.title+addString;
         return (
             <div className="col-md mt-2 px-2" style={{display:display}}>
@@ -26,7 +26,7 @@ class ProductItem extends React.Component {
                         </div>
                     </div>
                     <div className="card-body p-2">
-                        <h5 className="card-title deal-title-font">{(data.title.length<73) ? newTitle:data.title }</h5>
+                        <h5 className="card-title deal-title-font">{(data.title.length<73)?newTitle:data.title }</h5>
                         <p className="card-text xuat-xu mb-1">Xuất xứ: </p>
                         {/* Starchart */}
                         <i className="fa fa-star text-warning" />
@@ -38,7 +38,7 @@ class ProductItem extends React.Component {
                         <span className="card-text align-left deal-price">{data.price}</span>
                         <span className="card-text align-right pl-5 deal-old-price mb-2"><s>5.000.000 VNĐ</s></span>
                         <div style={{ clear: 'both' }} />
-                        <p className="card-text align-left deal-old-price"><i className="far fa-clock card-text" /> { (data.death_clock==='None') ? '' : data.death_clock }</p>
+                        <p className="card-text align-left deal-old-price"><i className="far fa-clock card-text" /> {(data.death_clock==='None')? '' : data.death_clock }</p>
                     </div>
                 </div>
             </div>
