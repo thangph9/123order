@@ -21,7 +21,7 @@ class ContentDealSeeMore extends React.Component {
     handleClick(value){     
         var numb=this.props.loadAdd+value;
         this.props.dispatch(loadAdd(numb));
-        fetch('home',{
+        fetch('/home',{
             headers: 'day la header',
             method:'POST',
             body: {so5:5}
