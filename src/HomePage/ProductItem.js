@@ -14,7 +14,7 @@ class ProductItem extends React.Component {
         var {data}=this.props;
         console.log(data);
         return (
-            <div className="col-md mt-2 px-2" style={{display:display}}>
+            <div className="col-md mt-2 px-2" style={{display:display,marginBot:'8px'}}>
                 <div className="card" style={{width:'212px',height:'402px'}}>
                     <div className="hovereffect" style={{width:'210px',height:'210px'}}>
                         
