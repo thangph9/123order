@@ -21,10 +21,7 @@ class ContentDealSeeMore extends React.Component {
     handleClick(value){     
         var numb=this.props.loadAdd+value;
         this.props.dispatch(loadAdd(numb));
-        axios.post('/home',{ itemAdd:5 })
-        .then(res=>{
-              
-        })
+        
     }
     render() {
 
