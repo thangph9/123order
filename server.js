@@ -154,9 +154,7 @@ var ObjTable={
 var amazon_deal_dayLimitItem=15;
 function loadAmazonDealDay(req){
   console.log(req.body);
-  //var itemAdd=amazon_deal_dayLimitItem+res.body.itemAdd;
-  models.instance.amazon_deal_day.find({$limit:15},function(err,result){
-  //console.log(res,err)
+  models.instance.amazon_deal_day.find({},function(err,result){
   var arr=result.map(item=>{
     return obj={
       
