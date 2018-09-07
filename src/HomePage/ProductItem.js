@@ -13,7 +13,7 @@ class ProductItem extends React.Component {
         var display=this.props.customStyle;
         var {data}=this.props;
         console.log(data);
-        var addString="...                           ";
+        var addString="                     ...";
         var newTitle=data.title+addString;
         return (
             <div className="col-md mt-2 px-2" style={{display:display}}>
