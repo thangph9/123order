@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import {loadAdd} from '../actions';
+import axios from 'axios';
 class ContentDealSeeMore extends React.Component {
     constructor(props) {
         super(props);
@@ -18,7 +19,10 @@ class ContentDealSeeMore extends React.Component {
     }
     handleClick(value){     
         var numb=this.props.loadAdd+value;
-        this.props.dispatch(loadAdd(numb)); 
+        this.props.dispatch(loadAdd(numb));
+        axios.post('/home',{ itemAdd:5 }).then(res=>{
+                        
+        })
     }
     render() {
 

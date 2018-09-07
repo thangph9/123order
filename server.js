@@ -151,8 +151,11 @@ var ObjTable={
     }
   ]
 };
-function loadAmazonDealDay(){
-  models.instance.amazon_deal_day.find({$limit:100},function(err,result){
+var amazon_deal_dayLimitItem=15;
+function loadAmazonDealDay(res){
+  console.log(res.body.itemAdd);
+  //itemAdd=amazon_deal_dayLimitItem+res.body.itemAdd;
+  models.instance.amazon_deal_day.find({$limit:15},function(err,result){
   //console.log(res,err)
   var arr=result.map(item=>{
     return obj={
@@ -176,7 +179,7 @@ function loadAmazonDealDay(){
 });
 }
 app.post("/home",function(req,res){
-  loadAmazonDealDay();
+  loadAmazonDealDay(res);
   //console.log(ObjTable);
   res.json(ObjTable);
 })

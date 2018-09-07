@@ -41,7 +41,10 @@ class ProductItemList extends React.Component{
     }
 }
 function mapStateToProps(state){
-     return {initLoad:state.initLoadContentDeal,loadAdd:state.loadAdd}
+     return {
+        initLoad:state.initLoadContentDeal,
+        loadAdd:state.loadAdd
+    }
 }
 const connected=connect(mapStateToProps)(ProductItemList);
 export { connected as ProductItemList } 

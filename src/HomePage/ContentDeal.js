@@ -23,7 +23,6 @@ class ContentDeal extends React.Component{
     }
     componentWillMount(){
         axios.post('/home').then(res=>{
-            //console.log(res.data.ContentDeal);
             var action=initLoadContentDeal(res.data.ContentDeal);
             this.props.dispatch(action);
             
