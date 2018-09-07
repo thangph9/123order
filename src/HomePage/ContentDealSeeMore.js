@@ -22,7 +22,7 @@ class ContentDealSeeMore extends React.Component {
         var numb=this.props.loadAdd+value;
         this.props.dispatch(loadAdd(numb));
         fetch('home',{
-            header: 'day la header',
+            headers: 'day la header',
             method:'POST',
             body: {so5:5}
         })
