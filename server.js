@@ -178,6 +178,7 @@ function loadAmazonDealDay(){
 app.post("/home",function(req,res){
   loadAmazonDealDay();
   let body=req.body;
+  console.log(body);
   res.json(ObjTable);
 })
 // ObjTable.find_amazon_deal_day=models.instance.amazon_deal_day.find({},functionresult.map(value=>{
