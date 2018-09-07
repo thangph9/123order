@@ -17,6 +17,7 @@ class ContentDealSeeMore extends React.Component {
         })
         console.log("Hello World")
     }
+    
     handleClick(value){     
         var numb=this.props.loadAdd+value;
         this.props.dispatch(loadAdd(numb));
