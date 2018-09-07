@@ -36,7 +36,7 @@ class ProductItem extends React.Component {
                         <span className="card-text align-left deal-price">{data.price}</span>
                         <span className="card-text align-right pl-5 deal-old-price mb-2"><s>5.000.000 VNĐ</s></span>
                         <div style={{ clear: 'both' }} />
-                        <p className="card-text align-left deal-old-price"><i className="far fa-clock card-text" /> { (data.death_clock!=='None')? '' : data.death_clock }</p>
+                        <p className="card-text align-left deal-old-price"><i className="far fa-clock card-text" /> { (data.death_clock==='None') ? '' : data.death_clock }</p>
                     </div>
                 </div>
             </div>
