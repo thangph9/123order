@@ -7,8 +7,7 @@ class ContentDealSeeMore extends React.Component {
         super(props);
         this.state = {
             login: true,
-            loading: false,
-            itemAdd:5
+            loading: false
         }
         this.handleSubmit = this.handleSubmit.bind(this);
     }
@@ -22,7 +21,7 @@ class ContentDealSeeMore extends React.Component {
     handleClick(value){     
         var numb=this.props.loadAdd+value;
         this.props.dispatch(loadAdd(numb));
-        axios.post('/home',this.state).then(res=>{
+        axios.post('/home').then(res=>{
                         
         })
     }

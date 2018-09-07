@@ -153,7 +153,7 @@ var ObjTable={
 };
 var amazon_deal_dayLimitItem=15;
 function loadAmazonDealDay(req){
-  console.log(req.body);
+  //console.log(req.body);
 
   //var itemAdd=amazon_deal_dayLimitItem+res.body.itemAdd;
   models.instance.amazon_deal_day.find({$limit:15},function(err,result){
@@ -182,6 +182,7 @@ function loadAmazonDealDay(req){
 app.post("/home",function(req,res){
   loadAmazonDealDay(req);
   //console.log(ObjTable);
+  console.log(req.body);
   res.json(ObjTable);
 })
 // ObjTable.find_amazon_deal_day=models.instance.amazon_deal_day.find({},functionresult.map(value=>{
