@@ -13,6 +13,9 @@ class ProductItem extends React.Component {
         var display=this.props.customStyle;
         var {data}=this.props;
         console.log(data);
+        var addString="                             ";
+        console.log(this.props.data.title);
+        console.log(this.props.data.title+addString);
         return (
             <div className="col-md mt-2 px-2" style={{display:display}}>
                 <div className="card" style={{width:'212px',height:'402px'}}>
@@ -24,7 +27,7 @@ class ProductItem extends React.Component {
                         </div>
                     </div>
                     <div className="card-body p-2">
-                        <h5 className="card-title deal-title-font">{this.props.data.title}</h5>
+                        <h5 className="card-title deal-title-font">{(this.props.data.title.length<56) ? (this.props.data.title+addString):this.props.data.title }</h5>
                         <p className="card-text xuat-xu mb-1">Xuất xứ: </p>
                         {/* Starchart */}
                         <i className="fa fa-star text-warning" />
