@@ -15,7 +15,7 @@ class ProductItem extends React.Component {
         console.log(data);
         return (
             <div className="col-md mt-2 px-2" style={{display:display}}>
-                <div className="card" >
+                <div className="card" style={{width:'212px',height:'402px'}}>
                     <div className="hovereffect">
                         <div className="position-absolute discount-tag-pos"><img src={data.img} alt='img' className="img-fluid" /></div>
                         <img className="card-img-top img-thumbnail border-0 img-fluid" src={data.img} alt='img'/>
