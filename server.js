@@ -152,7 +152,7 @@ var ObjTable={
   ]
 };
 function loadAmazonDealDay(){
-  models.instance.amazon_deal_day.find({$limit:20},function(err,result){
+  models.instance.amazon_deal_day.find({$limit:11},function(err,result){
   //console.log(res,err)
   var arr=result.map(item=>{
     return obj={
