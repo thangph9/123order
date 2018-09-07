@@ -18,7 +18,7 @@ class ProductItem extends React.Component {
                 <div className="card" style={{width:'212px',height:'402px'}}>
                     <div className="hovereffect">
                         <div className="position-absolute discount-tag-pos"><img src={data.img} alt='img' className="img-fluid" /></div>
-                        <img className="card-img-top img-thumbnail border-0 img-fluid" src={data.img} alt='img'/>
+                        <img style={{width:'210px',height:'210px'}} className="card-img-top img-thumbnail border-0 img-fluid" src={data.img} alt='img'/>
                         <div className="overlay">
                             <Link to="/detail-product" className="info">Chi tiết</Link>
                         </div>
