@@ -15,7 +15,6 @@ class ProductItem extends React.Component {
         console.log(data);
         var addString="                             ";
         console.log(this.props.data.title);
-        console.log(this.props.data.title+addString);
         return (
             <div className="col-md mt-2 px-2" style={{display:display}}>
                 <div className="card" style={{width:'212px',height:'402px'}}>
