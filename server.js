@@ -176,6 +176,7 @@ function loadAmazonDealDay(){
 }
 app.post("/home",function(req,res){
   loadAmazonDealDay();
+   console.log(req.body);
   res.json(ObjTable);
 })
 // ObjTable.find_amazon_deal_day=models.instance.amazon_deal_day.find({},functionresult.map(value=>{
@@ -214,11 +215,7 @@ app.get('/', function(req, res){
 app.get("/api/data",function(req,res,next){
    res.send("Xin chao"); 
 });
-app.post("/home",function(req,res){
-  
-  console.log(req.body);
-  res.json(ObjTable);
-})
+
 // Tell express to use the webpack-dev-middleware and use the webpack.config.js
 // configuration file as a base.
 app.use(webpackDevMiddleware(compiler, {
