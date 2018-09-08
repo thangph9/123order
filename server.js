@@ -195,21 +195,7 @@ var ObjTable={
 }*/
 function loadAmazonDealDay(){
   models.instance.amazon_deal_day.eachRow({$limit:50}, {fetchSize : 5}, function(n, row){
-    var arr=row.map(item=>{
-    return obj={
-      dealid:item.dealid,
-      base_price:item.base_price,
-      death_clock:item.death_clock,
-      img:item.img,
-      link:item.link,
-      price:item.price,
-      review:item.review,
-      reviewlink:item.reviewlink,
-      sale:item.sale,
-      timestamp:item.timestamp+"",
-      title:item.title
-    }
-  });
+    console.log(row.img);
   ObjTable.ContentDeal=arr;
   }, function(err, result){
     if(result.nextPage){
