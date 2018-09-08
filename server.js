@@ -200,7 +200,7 @@ function loadAmazonDealDay(){
       result.nextPage();
       console.log('log o trong ne');
     }
-    (result.nextPage()!=undefined)? console.log(result.nextPage()):console.log('het roi');
+    console.log(result.nextPage);
   });
 }
 app.post("/home",function(req,res){
