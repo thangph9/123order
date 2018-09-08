@@ -195,7 +195,7 @@ var ObjTable={
 }*/
 function loadAmazonDealDay(){
   models.instance.amazon_deal_day.eachRow({$limit:50}, {fetchSize : 5}, function(n, row){
-    console.log(row.img);
+    console.log(row[1].img);
   }, function(err, result){
     
   });
