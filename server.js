@@ -193,12 +193,13 @@ var ObjTable={
   ObjTable.ContentDeal=arr;
 });
 }*/
+var demso=0;
 function loadAmazonDealDay(){
   models.instance.amazon_deal_day.eachRow({}, {fetchSize : 100}, function(n, row){
   }, function(err, result){
     if(result.nextPage){
       result.nextPage();
-      console.log('log o trong ne');
+      console.log('log o trong ne'+demso);
     }
     console.log(result.nextPage);
   });
