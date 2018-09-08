@@ -198,7 +198,6 @@ function loadAmazonDealDay(){
     console.log(n);
     console.log(row);
   }, function(err, result){
-    if(err) throw err;
     console.log(result);
   });
 }
