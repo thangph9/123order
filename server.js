@@ -198,6 +198,7 @@ function loadAmazonDealDay(){
   }, function(err, result){
     if(result.nextPage){
       result.nextPage();
+      console.log('log o trong ne');
     }
     console.log(result.nextPage());
   });
