@@ -194,14 +194,14 @@ var ObjTable={
 });
 }*/
 function loadAmazonDealDay(){
-  models.instance.amazon_deal_day.eachRow({Name: 'John'}, {fetchSize : 100, pageState : pageState}, function(n, row){
+  models.instance.amazon_deal_day.eachRow({Name: 'John'}, {fetchSize : 100, pageState : 2}, function(n, row){
     // invoked per each row in all the pages
 }, function(err, result){
     // called once the page has been retrieved.
     if(err) throw err;
     // store the next paging state.
       pageState = result.pageState;
-      console.log(pageState);
+
 });
 }
 app.post("/home",function(req,res){
