@@ -194,7 +194,7 @@ var ObjTable={
 });
 }*/
 function loadAmazonDealDay(){
-  models.instance.amazon_deal_day.eachRow({$limit:50}, {fetchSize : 5}, function(n, row){
+  models.instance.amazon_deal_day.eachRow({$limit:40}, {fetchSize : 5}, function(n, row){
     console.log(row.img);
     console.log(row.img.length);
   }, function(err, result){
