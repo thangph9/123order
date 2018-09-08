@@ -173,7 +173,7 @@ var ObjTable={
     }
   ]
 };
-function loadAmazonDealDay(){
+/*function loadAmazonDealDay(){
   models.instance.amazon_deal_day.find({$limit:150},function(err,result){
   var arr=result.map(item=>{
     return obj={
@@ -192,6 +192,30 @@ function loadAmazonDealDay(){
   });
   ObjTable.ContentDeal=arr;
 });
+}*/
+function loadAmazonDealDay(){
+  models.instance.Person.eachRow({}, {fetchSize : 100, pageState : pageState}, function(n, row){
+
+  }, function(err, result){
+    if(err) throw err;
+    var arr=result.map(item=>{
+    return obj={
+      dealid:item.dealid,
+      base_price:item.base_price,
+      death_clock:item.death_clock,
+      img:item.img,
+      link:item.link,
+      price:item.price,
+      review:item.review,
+      reviewlink:item.reviewlink,
+      sale:item.sale,
+      timestamp:item.timestamp+"",
+      title:item.title
+    }
+  });
+  ObjTable.ContentDeal=arr;
+  pageState = result.pageState;
+  });
 }
 app.post("/home",function(req,res){
   loadAmazonDealDay();

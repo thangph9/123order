@@ -38,9 +38,7 @@ export function initLoadContentSaleLeft(state={},action){
 export function initLoadContentDeal(state=[],action){
 	switch (action.type) {
 		case 'INIT_LOAD_CONTENT_DEAL':
-			
 			return action.arrData;
-		
 		default:
 			return state;
 	}	
