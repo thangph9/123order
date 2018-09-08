@@ -194,23 +194,8 @@ var ObjTable={
 });
 }*/
 function loadAmazonDealDay(){
-  models.instance.amazon_deal_day.eachRow({$limit:50}, {fetchSize : 5}, function(n, item){
-    var arr=[];
-    var obj={
-      dealid:item.dealid,
-      base_price:item.base_price,
-      death_clock:item.death_clock,
-      img:item.img,
-      link:item.link,
-      price:item.price,
-      review:item.review,
-      reviewlink:item.reviewlink,
-      sale:item.sale,
-      timestamp:item.timestamp+"",
-      title:item.title
-    }
-    arr.push(obj);
-    ObjTable.ContentDeal=arr;
+  models.instance.amazon_deal_day.eachRow({$limit:50}, {fetchSize : 5}, function(n, row){
+    console.log(row.img);
   }, function(err, result){
     if(result.nextPage){
       result.nextPage();
