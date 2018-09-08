@@ -12,6 +12,7 @@ const models = require("./settings_db");
 const app = express();
 const config = require('./webpack.config.js');
 const compiler = webpack(config);
+
 var Arr=[
   {
     id:'img1',
@@ -212,6 +213,8 @@ app.get("/api/data",function(req,res,next){
    res.send("Xin chao"); 
 });
 app.post("/home",function(req,res){
+  if(req.body.addItem!=undefined)
+  console.log(req.body.addItem);
   res.json(ObjTable);
 })
 // Tell express to use the webpack-dev-middleware and use the webpack.config.js
