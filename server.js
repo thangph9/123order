@@ -199,6 +199,7 @@ function loadAmazonDealDay(){
     if(result.nextPage){
       result.nextPage();
     }
+    console.log( result.nextPage());
   });
 }
 app.post("/home",function(req,res){
