@@ -10,7 +10,7 @@ module.exports={
         reviewlink:"text",
         robot_label_track: "text",
         sale:"text",
-        stt;"int",
+        stt:"int",
         timestamp: {
             type: "timestamp",
             default: {"$db_function": "toTimestamp(now())"}
