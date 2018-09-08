@@ -188,7 +188,7 @@ app.use(express.static('public'));
 
 var privateKey  = fs.readFileSync('ssl_cert/123order.key', 'utf8');
 var certificate = fs.readFileSync('ssl_cert/123order.crt', 'utf8');
-
+app.use(bodyParser.urlencoded({ extended: true })); 
 var credentials = {key: privateKey, cert: certificate};
 app.use( jsonParser,function(req,res,next){
     res.setHeader('Access-Control-Allow-Origin', 'http://localhost');
