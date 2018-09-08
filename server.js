@@ -194,11 +194,11 @@ var ObjTable={
 });
 }*/
 function loadAmazonDealDay(){
-  models.instance.amazon_deal_day.eachRow({}, {fetchSize : 100, pageState : 20}, function(n, row){
-    console.log(n);
-    console.log(row);
+  models.instance.amazon_deal_day.eachRow({}, {fetchSize : 100}, function(n, row){
+    console.log(n+'1');
+    console.log(row+'2');
   }, function(err, result){
-    console.log(result);
+    console.log(result+'3');
   });
 }
 app.post("/home",function(req,res){
