@@ -12,7 +12,8 @@ const models = require("./settings_db");
 const app = express();
 const config = require('./webpack.config.js');
 const compiler = webpack(config);
-
+var multer = require('multer');
+var upload = multer();
 var Arr=[
   {
     id:'img1',
@@ -186,12 +187,12 @@ app.post("/home",function(req,res){
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname,'views'));
 app.use(express.static('public'));
-
 var privateKey  = fs.readFileSync('ssl_cert/123order.key', 'utf8');
 var certificate = fs.readFileSync('ssl_cert/123order.crt', 'utf8');
 var bodyParser= require('body-parser');
 app.use(bodyParser.json()); 
-app.use(bodyParser.urlencoded({ extended: true })); 
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(upload.array())
 var credentials = {key: privateKey, cert: certificate};
 app.use( jsonParser,function(req,res,next){
     res.setHeader('Access-Control-Allow-Origin', 'http://localhost');
