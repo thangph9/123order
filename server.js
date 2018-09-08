@@ -197,7 +197,9 @@ function loadAmazonDealDay(){
   models.instance.amazon_deal_day.eachRow({}, {fetchSize : 100}, function(n, row){
     console.log(row.dealid+' day la log 2');
   }, function(err, result){
-    console.log(result[2]+' day la log 3');
+    result.map(item=>{
+      console.log(item);
+    })
   });
 }
 app.post("/home",function(req,res){
