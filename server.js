@@ -196,7 +196,7 @@ var ObjTable={
 function loadAmazonDealDay(){
   models.instance.amazon_deal_day.eachRow({}, {fetchSize : 100}, function(n, row){
     console.log(row+' day la log 2');
-    arr = row.map(item=>{
+    row.map(item=>{
       console.log(item);
     })
   }, function(err, result){
