@@ -198,7 +198,6 @@ function loadAmazonDealDay(){
     // invoked per each row in all the pages
 }, function(err, result){
     // called once the page has been retrieved.
-    if(err) throw err;
     // store the next paging state.
       pageState = result.pageState;
 
