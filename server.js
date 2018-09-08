@@ -194,25 +194,10 @@ var ObjTable={
 });
 }*/
 function loadAmazonDealDay(){
-  models.instance.amazon_deal_day.eachRow({}, {fetchSize : 5}, function(n, row){
-
+  models.instance.amazon_deal_day.eachRow({}, {fetchSize : 100}, function(n, row){
+    console.log(row.price);
   }, function(err, result){
-    var arr=result.map(item=>{
-    return obj={
-      dealid:item.dealid,
-      base_price:item.base_price,
-      death_clock:item.death_clock,
-      img:item.img,
-      link:item.link,
-      price:item.price,
-      review:item.review,
-      reviewlink:item.reviewlink,
-      sale:item.sale,
-      timestamp:item.timestamp+"",
-      title:item.title
-    }
-  });
-  ObjTable.ContentDeal=arr;
+    
   });
 }
 app.post("/home",function(req,res){
