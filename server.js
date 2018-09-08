@@ -194,7 +194,7 @@ var ObjTable={
 });
 }*/
 function loadAmazonDealDay(){
-  models.instance.Person.eachRow({}, {fetchSize : 100, pageState : pageState}, function(n, row){
+  models.instance.amazon_deal_day.eachRow({}, {fetchSize : 100, pageState : pageState}, function(n, row){
 
   }, function(err, result){
     if(err) throw err;
