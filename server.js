@@ -12,8 +12,36 @@ const models = require("./settings_db");
 const app = express();
 const config = require('./webpack.config.js');
 const compiler = webpack(config);
-var multer = require('multer');
+/*var multer = require('multer');
 var upload = multer();
+var bodyParser= require('body-parser');
+app.use(bodyParser.json()); 
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(upload.array())*/
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname,'views'));
+app.use(express.static('public'));
+var privateKey  = fs.readFileSync('ssl_cert/123order.key', 'utf8');
+var certificate = fs.readFileSync('ssl_cert/123order.crt', 'utf8');
+var credentials = {key: privateKey, cert: certificate};
+app.use( jsonParser,function(req,res,next){
+    res.setHeader('Access-Control-Allow-Origin', 'http://localhost');
+
+    // Request methods you wish to allow
+    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
+
+    // Request headers you wish to allow
+    res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
+
+    // Set to true if you need the website to include cookies in the requests sent
+    // to the API (e.g. in case you use sessions)
+    res.setHeader('Access-Control-Allow-Credentials', true);
+//
+    // Pass to next layer of middleware
+    next();
+});
+
+
 var Arr=[
   {
     id:'img1',
@@ -170,9 +198,7 @@ function loadAmazonDealDay(){
       title:item.title
     }
   });
-  //console.log(arr);
   ObjTable.ContentDeal=arr;
-  //console.log(ObjTable);
 });
 }
 app.post("/home",function(req,res){
@@ -180,43 +206,12 @@ app.post("/home",function(req,res){
    console.log(req.body);
   res.json(ObjTable);
 })
-// ObjTable.find_amazon_deal_day=models.instance.amazon_deal_day.find({},functionresult.map(value=>{
-//     return obj={dealid:value.dealid,base_price:value.base_price,death_clock:value.death_clock,img:value.img,dealid:value.dealid,dealid:value.dealid,dealid:value.dealid}
-//   })
-// });
-app.set('view engine', 'ejs');
-app.set('views', path.join(__dirname,'views'));
-app.use(express.static('public'));
-var privateKey  = fs.readFileSync('ssl_cert/123order.key', 'utf8');
-var certificate = fs.readFileSync('ssl_cert/123order.crt', 'utf8');
-var bodyParser= require('body-parser');
-app.use(bodyParser.json()); 
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(upload.array())
-var credentials = {key: privateKey, cert: certificate};
-app.use( jsonParser,function(req,res,next){
-    res.setHeader('Access-Control-Allow-Origin', 'http://localhost');
-
-    // Request methods you wish to allow
-    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
-
-    // Request headers you wish to allow
-    res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
-
-    // Set to true if you need the website to include cookies in the requests sent
-    // to the API (e.g. in case you use sessions)
-    res.setHeader('Access-Control-Allow-Credentials', true);
-//
-    // Pass to next layer of middleware
-    next();
-});
 app.get('/', function(req, res){
 	res.render('index');
 });
 app.get("/api/data",function(req,res,next){
    res.send("Xin chao"); 
 });
-
 // Tell express to use the webpack-dev-middleware and use the webpack.config.js
 // configuration file as a base.
 app.use(webpackDevMiddleware(compiler, {
