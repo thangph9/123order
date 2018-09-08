@@ -17,8 +17,8 @@ class ProductItem extends React.Component {
             <div className="col-md mt-2 px-2" style={{display:display,marginBottom:'8px'}}>
                 <div className="card" style={{width:'212px',height:'402px'}}>
                     <div className="hovereffect" style={{width:'210px',height:'210px'}}>
-                         <span style={{display:'block',color: '#fff',fontWeight: 700,borderRadius: '5px',fontSize:'12px',padding:'3px 6px',width: '45px',height:'24px',right: '16px',top: '4px',position: 'absolute',zIndex: 2}}>-20%</span>
-                        <div className="position-absolute discount-tag-pos"><img style={{width:'48px',height:'48px'}} src="\img\sale3.png" alt='img' className="img-fluid" /></div>
+                         <span style={{display:'block',color: '#fff',fontWeight: 700,borderRadius: '5px',fontSize:'12px',padding:'3px 6px',width: '45px',height:'24px',right: '6px',top: '4px',position: 'absolute',zIndex: 2}}>-20%</span>
+                        <div className="position-absolute discount-tag-pos"><img style={{width:'48px',height:'48px',position: 'relative';right: '-10px'}} src="\img\sale3.png" alt='img' className="img-fluid" /></div>
                         <img style= {{width:'210px',height:'210px'}} className="card-img-top img-thumbnail border-0 img-fluid" src={data.img} alt='img'/>
                         <div className="overlay">
                             <Link to="/detail-product" className="info">Chi tiết</Link>
