@@ -195,10 +195,10 @@ var ObjTable={
 }*/
 function loadAmazonDealDay(){
   models.instance.amazon_deal_day.eachRow({}, {fetchSize : 100}, function(n, row){
-    console.log(n+'1');
-    console.log(row+'2');
+    console.log(n+' day la log 1');
+    console.log(row+' day la log 2');
   }, function(err, result){
-    console.log(result+'3');
+    console.log(result+' day la log 3');
   });
 }
 app.post("/home",function(req,res){
