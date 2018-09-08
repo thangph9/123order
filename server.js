@@ -215,8 +215,8 @@ app.get("/api/data",function(req,res,next){
    res.send("Xin chao"); 
 });
 app.post("/home",function(req,res){
-  if(req.body.addItem!=undefined)
-  console.log(req.body.addItem);
+  
+  console.log(req.body);
   res.json(ObjTable);
 })
 // Tell express to use the webpack-dev-middleware and use the webpack.config.js
