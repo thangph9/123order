@@ -197,10 +197,7 @@ function loadAmazonDealDay(){
   models.instance.amazon_deal_day.eachRow({$limit:50}, {fetchSize : 5}, function(n, row){
     console.log(row.img);
   }, function(err, result){
-    if(result.nextPage){
-      result.nextPage();
-      console.log('log o trong ne');
-    }
+    
   });
 }
 app.post("/home",function(req,res){
