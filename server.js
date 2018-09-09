@@ -211,8 +211,7 @@ app.post('/detail-product',function (req,res) {
         var arr=result.map(item=>{
         return obj={
             dealid:item.dealid,
-            base_price:item.base_price,
-            death_clock:item.death_clock,
+            description:item.description,
             largeimage:item.largeimage,
             smallimage:item.smallimage,
             star:item.star,

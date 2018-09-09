@@ -26,10 +26,10 @@ class ContentDetailLeft extends React.Component {
     }
 
     render() {
-
+        var {loadDetail}=this.props;
         return (
             <div className="col-md-7 detail-item">
-                <h4>Viên Uống Bổ Da, Tóc &amp; Móng Dành Cho Phụ Nữ 50+ 90 Viên</h4>
+                <h4>{(loadDetail[0]!=undefined) &&loadDetail[0].title}</h4>
                 <div className="row border-bottom rate pl-3">
                     <span className="fa fa-star checked pt-1" />
                     <span className="fa fa-star checked pt-1" />
@@ -134,7 +134,9 @@ class ContentDetailLeft extends React.Component {
 }
 function mapStateToProps(state) {
 
-    return state;
+    return return {
+        loadDetail:state.initLoadProductDetail
+    }
 }
 const connected = connect(mapStateToProps)(ContentDetailLeft);
 export { connected as ContentDetailLeft } 
