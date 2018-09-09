@@ -196,6 +196,7 @@ app.post("/home",function(req,res){
           }   
         });
         ObjTable.ContentAmazonDealDay=arr;
+        console.log(arr);
         callback(err,ObjTable)
         });
       }
