@@ -23,7 +23,7 @@ class ContentDeal extends React.Component{
     }
     componentWillMount(){
         axios.post('/home').then(res=>{
-            var action=initLoadContentDeal(res.data.ContentDeal);
+            var action=initLoadContentDeal(res.data.ContentAmazonDealDay);
             this.props.dispatch(action);
             
         })

@@ -174,73 +174,57 @@ var ObjTable={
     }
   ]
 };
-/*function loadAmazonDealDay(){
-  //var arr=[];
-  models.instance.amazon_deal_day.find({$limit:150},function(err,result){
-   var arr= result.map(item=>{
-    return obj={
-      dealid:item.dealid,
-      base_price:item.base_price,
-      death_clock:item.death_clock,
-      img:item.img,
-      link:item.link,
-      price:item.price,
-      review:item.review,
-      reviewlink:item.reviewlink,
-      robot_label_track:item.robot_label_track,
-      sale:item.sale,
-      stt:item.stt,
-      timestamp:item.timestamp+"",
-      title:item.title
-    }
-  });
-  ObjTable.ContentDeal=arr;
-  return arr;
-});
-}*/
-function loadProductDetail(){
-  models.instance.product_detail.findOne({dealid:'3200c0b0'},function(err,result){
-  var arr=result.map(item=>{
-    return obj={
-       dealid:item.dealid,
-      base_price:item.base_price,
-      death_clock:item.death_clock,
-      largeimage:item.largeimage,
-      smallimage:item.smallimage,
-      star:item.star,
-      title:item.title
-    }
-  });
-  ObjTable.ProductDetail=arr;
-});
-}
 app.post("/home",function(req,res){
   async.series([
       (callback)=>{
         models.instance.amazon_deal_day.find({$limit:150},function(err,result){
         var arr= result.map(item=>{
         return obj={
-          dealid:item.dealid,
-          base_price:item.base_price,
-          death_clock:item.death_clock,
-          img:item.img,
-          link:item.link,
-          price:item.price,
-          review:item.review,
-          reviewlink:item.reviewlink,
-          robot_label_track:item.robot_label_track,
-          sale:item.sale,
-          stt:item.stt,
-          timestamp:item.timestamp+"",
-          title:item.title
-        }   
-    });
-      ObjTable.ContentDeal=arr;
-      callback(err,ObjTable)
+            dealid:item.dealid,
+            base_price:item.base_price,
+            death_clock:item.death_clock,
+            img:item.img,
+            link:item.link,
+            price:item.price,
+            review:item.review,
+            reviewlink:item.reviewlink,
+            robot_label_track:item.robot_label_track,
+            sale:item.sale,
+            stt:item.stt,
+            timestamp:item.timestamp+"",
+            title:item.title
+          }   
+        });
+        ObjTable.ContentAmazonDealDay=arr;
+        callback(err,ObjTable)
         });
       }
     ],(err,result)=>{
       if(err) console.log(err);
+      res.json(result[0]);
+    })
+})
+app.get('/detail-product/:dealid',function (req,res) {
+  async.series([
+      (callback)=>{
+        models.instance.product_detail.findOne({dealid:req.params.dealid},function(err,result){
+        var arr=result.map(item=>{
+        return obj={
+            dealid:item.dealid,
+            base_price:item.base_price,
+            death_clock:item.death_clock,
+            largeimage:item.largeimage,
+            smallimage:item.smallimage,
+            star:item.star,
+            title:item.title
+          }
+        });
+        ObjTable.ProductDetail=arr;
+        callback(err,ObjTable)
+      });
+      }
+    ],(err,result)=>{
+      if (err) console.log(err);
       res.json(result[0]);
     })
 })
