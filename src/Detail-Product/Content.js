@@ -36,6 +36,7 @@ class Content extends React.Component {
     
     render() {
         var {loadDetail} = this.props;
+        console.log(loadDetail[0]);
         return (
             <div>
                 <nav aria-label="breadcrumb ">
