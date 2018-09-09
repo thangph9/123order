@@ -10,6 +10,7 @@ class ProductItem extends React.Component {
         }
     }
     handleClickLink(){
+        console.log('da click');
         axios.post('/detail-product',{dealid:this.props.data.dealid}).then(res=>{
 
         })

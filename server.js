@@ -205,9 +205,10 @@ app.post("/home",function(req,res){
     })
 })
 app.post('/detail-product',function (req,res) {
+  console.log(req.body.dealid);
   async.series([
       (callback)=>{
-        models.instance.product_detail.find({dealid:req.body.dealid},function(err,result){
+        models.instance.product_detail.findOne({dealid:req.body.dealid},function(err,result){
         var arr=result.map(item=>{
         return obj={
             dealid:item.dealid,
@@ -220,7 +221,6 @@ app.post('/detail-product',function (req,res) {
           }
         });
         ObjTable.ProductDetail=arr;
-        console.log(ObjTable.ProductDetail);
         callback(err,ObjTable)
       });
       }
