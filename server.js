@@ -207,11 +207,11 @@ app.post("/home",function(req,res){
 app.post('/detail-product',function (req,res) {
   
   console.log(req);
-  var str = req.headers.referer.substring(33, 42);
+  var str = req.headers.referer.substring(34, 42);
   console.log(str);
   async.series([
       (callback)=>{
-        models.instance.product_detail.find({dealid:'cbfe0f55'},function(err,result){
+        models.instance.product_detail.find({dealid:str},function(err,result){
         var arr=result.map(item=>{
         return obj={
             dealid:item.dealid,
