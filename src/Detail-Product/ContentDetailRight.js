@@ -28,11 +28,11 @@ class ContentDetailRight extends React.Component {
     render() {
 
         return (
-            <ul className="col-md-1 xzoom-thumbs">
-                <li style={{cursor:'pointer'}} ><img alt="img" className="xzoom-gallery d-lg-block mb-2 xactive" src="img/femmecalm.png" /></li>
-                <li style={{cursor:'pointer'}} ><img alt = "img" className="xzoom-gallery d-lg-block  mb-2 "  src="img/Layer 22.png" /></li>
-                <li style={{cursor:'pointer'}} ><img alt="img" className="xzoom-gallery d-lg-block mb-2  xactive "  src="img/femmecalm.png" /></li>
-            </ul>
+            <div className="col-md-1 xzoom-thumbs">
+                <span ><img alt="img" className="xzoom-gallery d-lg-block mb-2 xactive" width={80} src="img/femmecalm.png" /></span>
+                <span ><img alt = "img" className="xzoom-gallery d-lg-block  mb-2 " width={80} src="img/Layer 22.png" /></span>
+                <span ><img alt="img" className="xzoom-gallery d-lg-block mb-2  xactive " width={80} src="img/femmecalm.png" /></span>
+            </div>
         )
 
     }
