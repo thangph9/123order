@@ -206,7 +206,7 @@ app.post("/home",function(req,res){
 })
 app.post('/detail-product',function (req,res) {
   
-  console.log(req.body.dealiditem);
+  console.log(req.body);
   async.series([
       (callback)=>{
         models.instance.product_detail.find({dealid:'cbfe0f55'},function(err,result){
