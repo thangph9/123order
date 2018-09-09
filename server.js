@@ -174,7 +174,7 @@ var ObjTable={
     }
   ]
 };
-app.post("/home",jsonParser,function(req,res){
+app.post("/home",function(req,res){
   async.series([
       (callback)=>{
         models.instance.amazon_deal_day.find({$limit:150},function(err,result){
