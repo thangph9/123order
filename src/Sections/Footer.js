@@ -83,7 +83,7 @@ class Footer extends React.Component{
                                 </div>
                                 <div className="row">
                                     <div className="mt-4">
-                                        <img alt="img" src="img\BoCongThuong.png" className="img-fluid" />
+                                        <img alt="img" src="/img/BoCongThuong.png" className="img-fluid" />
                                     </div>
                                 </div>
                                 <div className="row">
@@ -93,7 +93,7 @@ class Footer extends React.Component{
                                                 <p>Kết nối với chúng tôi</p>
                                             </div>
                                             <div className="col-sm-4">
-                                                <img alt="img" src="img\Layer 43.png" className="img-fluid" />
+                                                <img alt="img" src="/img/Layer 43.png" className="img-fluid" />
                                             </div>
                                         </div>
                                     </div>

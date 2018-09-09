@@ -1,5 +1,5 @@
 import React from "react";
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 class HeaderTopRightSanSale extends React.Component{
     constructor(props){
@@ -28,7 +28,7 @@ class HeaderTopRightSanSale extends React.Component{
         
         return (
             <li className="nav-item">
-                <a className="nav-link text-white" href="">SĂN SALE</a> 
+                <Link to='/home' className="nav-link text-white" href="">SĂN SALE</Link> 
             </li>
         )
         
