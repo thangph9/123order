@@ -175,8 +175,8 @@ var ObjTable={
 };
 function loadAmazonDealDay(){
   //var arr=[];
-  var modelAmazonDealDay=models.instance.amazon_deal_day.find({$limit:150},function(err,result){
-   var arr= result.map(item=>{
+  models.instance.amazon_deal_day.find({$limit:150},function(err,result){
+   var  arr= result.map(item=>{
     return obj={
       dealid:item.dealid,
       base_price:item.base_price,
@@ -196,9 +196,9 @@ function loadAmazonDealDay(){
 
   ObjTable.ContentDeal=arr;
 });
-   console.log(modelAmazonDealDay);
   //return arr;
 }
+console.log(loadAmazonDealDay());
 //ObjTable.ContentDeal=loadAmazonDealDay();
 function loadProductDetail(){
   models.instance.product_detail.findOne({dealid:'3200c0b0'},function(err,result){
