@@ -9,7 +9,7 @@ class ProductItem extends React.Component {
 
         }
     }
-    handleClickLink(e,dealid){
+    handleClickLink(dealid,e){
         e.preventDefault();
         axios.post('/detail-product',{dealid:dealid}).then(res=>{
         })
