@@ -21,8 +21,8 @@ class   GiaSocHideItem extends React.Component {
         return (
             <div className="card" style={{width: '224.332px', marginRight: '10px'}}>
             <div className="hovereffect">
-              <div className="position-absolute discount-tag-pos"><img src="img/discount.png" alt='img' className="img-fluid" /></div>
-              <img className="card-img-top img-thumbnail border-0 img-fluid" src="img/Layer 6.png" alt='img' />
+              <div className="position-absolute discount-tag-pos"><img src="/img/discount.png" alt='img' className="img-fluid" /></div>
+              <img className="card-img-top img-thumbnail border-0 img-fluid" src="/img/Layer 6.png" alt='img' />
               <div className="overlay">
                 <NavLink className="info" to="/detail-product">Chi tiết</NavLink>
               </div>
