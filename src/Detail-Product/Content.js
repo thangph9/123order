@@ -35,7 +35,7 @@ class Content extends React.Component {
     }
     componentWillMount(){
         console.log('da click');
-        axios.post('/detail-product',{dealid:this.props.data.dealid}).then(res=>{
+        axios.post('/detail-product').then(res=>{
             var action=initLoadProductDetail(res.data.ProductDetail);
             this.props.dispatch(action);
         })
