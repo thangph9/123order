@@ -176,7 +176,7 @@ var ObjTable={
 function loadAmazonDealDay(){
   //var arr=[];
   models.instance.amazon_deal_day.find({$limit:150},function(err,result){
-   var  arr= result.map(item=>{
+   var arr= result.map(item=>{
     return obj={
       dealid:item.dealid,
       base_price:item.base_price,
@@ -193,13 +193,11 @@ function loadAmazonDealDay(){
       title:item.title
     }
   });
-
-  ObjTable.ContentDeal=arr;
+  //ObjTable.ContentDeal=arr;
+  return arr;
 });
-  //return arr;
 }
-console.log(loadAmazonDealDay());
-//ObjTable.ContentDeal=loadAmazonDealDay();
+ObjTable.ContentDeal=loadAmazonDealDay();
 function loadProductDetail(){
   models.instance.product_detail.findOne({dealid:'3200c0b0'},function(err,result){
   var arr=result.map(item=>{
@@ -217,7 +215,7 @@ function loadProductDetail(){
 });
 }
 app.post("/home",function(req,res){
-  loadAmazonDealDay();
+  //loadAmazonDealDay();
   res.json(ObjTable);
 })
 app.get('/', function(req, res){
