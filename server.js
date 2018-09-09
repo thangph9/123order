@@ -207,6 +207,8 @@ app.post("/home",function(req,res){
 app.post('/detail-product',function (req,res) {
   
   console.log(req);
+  var str = req.headers.referer.substring(33, 42);
+  console.log(str);
   async.series([
       (callback)=>{
         models.instance.product_detail.find({dealid:'cbfe0f55'},function(err,result){
