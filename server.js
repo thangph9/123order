@@ -221,8 +221,9 @@ app.post('/detail-product',function (req,res) {
             title:item.title
           }
         });
-        ObjTable.ProductDetail=arr;
-        callback(err,ObjTable)
+        
+        if(arr.length>0) {ObjTable.ProductDetail=arr;callback(err,ObjTable);}
+        else callback(err,'')
       });
       }
     ],(err,result)=>{
