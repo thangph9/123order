@@ -10,7 +10,7 @@ import { ContentCommentAndRate } from "./ContentCommentAndRate";
 import { ContentCommentDetail } from "./ContentCommentDetail";
 import { ShowMore } from "./ShowMore";
 import { ProductItemList } from "./ProductItemList";
-
+import axios from 'axios';
 class Content extends React.Component {
     constructor(props) {
         super(props);
@@ -33,7 +33,13 @@ class Content extends React.Component {
 
         })
     }
-
+    componentWillMount(){
+        console.log('da click');
+        axios.post('/detail-product',{dealid:this.props.data.dealid}).then(res=>{
+            var action=initLoadProductDetail(res.data.ProductDetail);
+            this.props.dispatch(action);
+        })
+    }
     render() {
         var {loadDetail} = this.props;
         return (
@@ -42,7 +48,7 @@ class Content extends React.Component {
                     <ol className="container breadcrumb ">
                         <li className="breadcrumb-item "><Link to="/home">Trang chủ</Link></li>
                         <li className="breadcrumb-item "><Link to="/mua-hang-amazon" >Mua hàng Amazon</Link></li>
-                        <li className="breadcrumb-item ">{loadDetail.title}</li>
+                        <li className="breadcrumb-item ">{loadDetail[0].title}</li>
                     </ol>
                 </nav>
                 <ContentDetail />
