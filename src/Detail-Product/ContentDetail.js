@@ -48,7 +48,9 @@ class ContentDetail extends React.Component {
 }
 function mapStateToProps(state) {
 
-     return state;
+     return {
+        loadDetail:state.initLoadProductDetail
+    }
 }
 const connected = connect(mapStateToProps)(ContentDetail);
 export { connected as ContentDetail } 

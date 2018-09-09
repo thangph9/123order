@@ -27,7 +27,7 @@ class ContentDetailLeft extends React.Component {
 
     render() {
         var {loadDetail}=this.props;
-        console.log(loadDetail[0]);
+        //console.log(loadDetail[0]);
         return (
             <div className="col-md-7 detail-item">
                 <h4>{(loadDetail[0]!=undefined) &&loadDetail[0].title}</h4>
