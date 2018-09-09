@@ -241,7 +241,7 @@ app.post("/home",function(req,res){
       }
     ],(err,result)=>{
       if(err) console.log(err);
-      res.json(result);
+      res.json(result[0]);
     })
 })
 app.get('/', function(req, res){
