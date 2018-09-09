@@ -174,7 +174,7 @@ var ObjTable={
     }
   ]
 };
-app.post("/home",function(req,res){
+app.post("/home",jsonParser,function(req,res){
   async.series([
       (callback)=>{
         models.instance.amazon_deal_day.find({$limit:150},function(err,result){
@@ -204,7 +204,7 @@ app.post("/home",function(req,res){
       res.json(result[0]);
     })
 })
-app.get('/detail-product/:dealid',function (req,res) {
+app.get('/detail-product/:dealid',jsonParser,function (req,res) {
   console.log(req.params.dealid);
   async.series([
       (callback)=>{
