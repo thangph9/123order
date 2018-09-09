@@ -60,7 +60,7 @@ var ObjTable={
       from:'Việt Nam',
       price:'4.000.000 VND',
       salePrice:'2.500.000 VND',
-      linkImg:'img/ramdisk_crop_182424559_DWpYsp.jpg'
+      linkImg:'/img/ramdisk_crop_182424559_DWpYsp.jpg'
     },
     {
       id:'img2',
@@ -68,7 +68,7 @@ var ObjTable={
       from:'Lào',
       price:'3.000.000 VND',
       salePrice:'1.500.000 VND',
-      linkImg:'img/ramdisk_crop_182442219_xd6qp.jpg'
+      linkImg:'/img/ramdisk_crop_182442219_xd6qp.jpg'
     },
     {
       id:'img3',
@@ -76,7 +76,7 @@ var ObjTable={
       from:'Thái Lan',
       price:'3.000.000 VND',
       salePrice:'1.500.000 VND',
-      linkImg:'img/ramdisk_crop_182442233_rtwM.jpg'
+      linkImg:'/img/ramdisk_crop_182442233_rtwM.jpg'
     },
     {
       id:'img4',
@@ -84,7 +84,7 @@ var ObjTable={
       from:'CampuChia',
       price:'5.000.000 VND',
       salePrice:'3.000.00 VND',
-      linkImg:'img/ramdisk_crop_182462746_ERbax7P.jpg'
+      linkImg:'/img/ramdisk_crop_182462746_ERbax7P.jpg'
     }
   ],
   HideAmazonTopHot:[
@@ -94,7 +94,7 @@ var ObjTable={
       from:'Việt Nam',
       price:'1.500.000 VND',
       salePrice:'7.500.00 VND',
-      linkImg:'img/ramdisk_crop_182424559_DWpYsp.jpg'
+      linkImg:'/img/ramdisk_crop_182424559_DWpYsp.jpg'
     },
     {
       id:'img1',
@@ -102,7 +102,7 @@ var ObjTable={
       from:'Trung Quốc',
       price:'2.000.000 VND',
       salePrice:'1.200.000 VND',
-      linkImg:'img/ramdisk_crop_182442219_xd6qp.jpg'
+      linkImg:'/img/ramdisk_crop_182442219_xd6qp.jpg'
     },
     {
       id:'img1',
@@ -110,7 +110,7 @@ var ObjTable={
       from:'Myanma',
       price:'3.000.000 VND',
       salePrice:'1.500.000 VND',
-      linkImg:'img/ramdisk_crop_182442233_rtwM.jpg'
+      linkImg:'/img/ramdisk_crop_182442233_rtwM.jpg'
     },
     {
       id:'img1',
@@ -118,7 +118,7 @@ var ObjTable={
       from:'Cuba',
       price:'1.000.000 VND',
       salePrice:'5.000.00 VND',
-      linkImg:'img/ramdisk_crop_182462746_ERbax7P.jpg'
+      linkImg:'/img/ramdisk_crop_182462746_ERbax7P.jpg'
     }
   ],
   HideTopStoreTopHot:[
@@ -128,7 +128,7 @@ var ObjTable={
       from:'Việt Nam',
       price:'3.000.000 VND',
       salePrice:'1.500.000 VND',
-      linkImg:'img/ramdisk_crop_182424559_DWpYsp.jpg'
+      linkImg:'/img/ramdisk_crop_182424559_DWpYsp.jpg'
     },
     {
       id:'img1',
@@ -136,7 +136,7 @@ var ObjTable={
       from:'Việt Nam',
       price:'3.000.000 VND',
       salePrice:'1.500.000 VND',
-      linkImg:'img/ramdisk_crop_182442219_xd6qp.jpg'
+      linkImg:'/img/ramdisk_crop_182442219_xd6qp.jpg'
     },
     {
       id:'img1',
@@ -144,7 +144,7 @@ var ObjTable={
       from:'Việt Nam',
       price:'3.000.000 VND',
       salePrice:'1.500.000 VND',
-      linkImg:'img/ramdisk_crop_182442233_rtwM.jpg'
+      linkImg:'/img/ramdisk_crop_182442233_rtwM.jpg'
     },
     {
       id:'img1',
@@ -152,25 +152,25 @@ var ObjTable={
       from:'Việt Nam',
       price:'3.000.000 VND',
       salePrice:'1.500.000 VND',
-      linkImg:'img/ramdisk_crop_182462746_ERbax7P.jpg'
+      linkImg:'/img/ramdisk_crop_182462746_ERbax7P.jpg'
     }
   ],
   ContentSale:[
     {
       id:'anhgai1',
-      linkanh:'img/anh-girl-xinh-9x-10.jpg'
+      linkanh:'/img/anh-girl-xinh-9x-10.jpg'
     },
     {
       id:'anhgai2',
-      linkanh:'img/anh-girl-xinh-9x-kute-16.jpg'
+      linkanh:'/img/anh-girl-xinh-9x-kute-16.jpg'
     },
     {
       id:'anhgai3',
-      linkanh:'img/hinh-anh-girl-sinh-2000-4.jpg'
+      linkanh:'/img/hinh-anh-girl-sinh-2000-4.jpg'
     },
     {
       id:'anhgai4',
-      linkanh:'img/hinh-anh-girl-xinh-mien-tay-de-thuong.jpg'
+      linkanh:'/img/hinh-anh-girl-xinh-mien-tay-de-thuong.jpg'
     }
   ]
 };
