@@ -221,6 +221,7 @@ app.post('/detail-product',function (req,res) {
           }
         });
         ObjTable.ProductDetail=arr;
+        console.log(arr);
         callback(err,ObjTable)
       });
       }
