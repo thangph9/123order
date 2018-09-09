@@ -9,9 +9,9 @@ class ProductItem extends React.Component {
 
         }
     }
-    handleClickLink(e){
-        e.preventDefault();
-        axios.post('/detail-product',{dealid:this.props.data.dealid}).then(res=>{
+    handleClickLink(dealid){
+        
+        axios.post('/detail-product',{dealid:dealid}).then(res=>{
         })
     }
     render(){
@@ -27,7 +27,7 @@ class ProductItem extends React.Component {
                         <div className="position-absolute discount-tag-pos"><img style={{width:'48px',height:'48px',position:'relative',right:'-10px'}} src="\img\sale3.png" alt='img' className="img-fluid" /></div>
                         <img style= {{width:'210px',height:'210px'}} className="card-img-top img-thumbnail border-0 img-fluid" src={data.img} alt='img'/>
                         <div className="overlay">
-                            <Link to={"/detail-product/"+data.dealid} onClick={()=>this.handleClickLink(data.dealid)} className="info">Chi tiết</Link>
+                            <Link to="/detail-product/" onClick={()=>this.handleClickLink(data.dealid)} className="info">Chi tiết</Link>
                         </div>
                     </div>
                     <div className="card-body p-2">
