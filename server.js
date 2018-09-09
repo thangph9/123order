@@ -174,8 +174,9 @@ var ObjTable={
   ]
 };
 function loadAmazonDealDay(){
+  var arr=[];
   models.instance.amazon_deal_day.find({$limit:150},function(err,result){
-  var arr=result.map(item=>{
+   arr=result.map(item=>{
     return obj={
       dealid:item.dealid,
       base_price:item.base_price,
@@ -192,24 +193,29 @@ function loadAmazonDealDay(){
       title:item.title
     }
   });
-  ObjTable.ContentDeal=arr;
+  //ObjTable.ContentDeal=arr;
+});
+  return arr;
+}
+ObjTable.ContentDeal=loadAmazonDealDay();
+function loadProductDetail(){
+  models.instance.product_detail.findOne({dealid:'3200c0b0'},function(err,result){
+  var arr=result.map(item=>{
+    return obj={
+       dealid:item.dealid,
+      base_price:item.base_price,
+      death_clock:item.death_clock,
+      largeimage:item.largeimage,
+      smallimage:item.smallimage,
+      star:item.star,
+      title:item.title
+    }
+  });
+  ObjTable.ProductDetail=arr;
 });
 }
-/*function loadAmazonDealDay(){
-  models.instance.amazon_deal_day.eachRow({}, {fetchSize : 100, pageState : 2}, function(n, row){
-    // invoked per each row in all the pages
-}, function(err, result){
-    // called once the page has been retrieved.
-    if (result.nextPage) {
-        // retrieve the following pages
-        // the same row handler from above will be used
-        result.nextPage();
-    }
-
-});
-}*/
 app.post("/home",function(req,res){
-  loadAmazonDealDay();
+  //loadAmazonDealDay();
   res.json(ObjTable);
 })
 app.get('/', function(req, res){

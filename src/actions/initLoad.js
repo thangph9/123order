@@ -22,3 +22,9 @@ export const initLoadContentDeal=(arrData)=>{
 		arrData
 	}
 }
+export const initLoadProductDetail=(arrData)=>{
+	return{
+		type: 'INIT_LOAD_PRODUCT_DETAIL',
+		arrData
+	}
+}

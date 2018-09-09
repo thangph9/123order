@@ -43,3 +43,11 @@ export function initLoadContentDeal(state=[],action){
 			return state;
 	}	
 }
+export function initLoadProductDetail(state=[],action){
+	switch (action.type) {
+		case 'INIT_LOAD_PRODUCT_DETAIL':
+			return action.arrData;
+		default:
+			return state;
+	}	
+}
