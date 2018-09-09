@@ -28,18 +28,20 @@ class ContentDetailRight extends React.Component {
     render() {
 
         return (
-            <div className="col-md-1 xzoom-thumbs">
-                <a href=""><img alt="img" className="xzoom-gallery d-lg-block mb-2 xactive" width={80} src="img/femmecalm.png" /></a>
-                <a href=""><img alt = "img" className="xzoom-gallery d-lg-block  mb-2 " width={80} src="img/Layer 22.png" /></a>
-                <a href=""><img alt="img" className="xzoom-gallery d-lg-block mb-2  xactive " width={80} src="img/femmecalm.png" /></a>
-            </div>
+            <ul className="col-md-1 xzoom-thumbs">
+                <li style={{cursor:'pointer'}} ><img alt="img" className="xzoom-gallery d-lg-block mb-2 xactive" src="img/femmecalm.png" /></li>
+                <li style={{cursor:'pointer'}} ><img alt = "img" className="xzoom-gallery d-lg-block  mb-2 "  src="img/Layer 22.png" /></li>
+                <li style={{cursor:'pointer'}} ><img alt="img" className="xzoom-gallery d-lg-block mb-2  xactive "  src="img/femmecalm.png" /></li>
+            </ul>
         )
 
     }
 }
 function mapStateToProps(state) {
 
-    return state;
+    return {
+        loadDetail:state.initLoadProductDetail
+    }
 }
 const connected = connect(mapStateToProps)(ContentDetailRight);
 export { connected as ContentDetailRight } 
