@@ -207,7 +207,7 @@ app.post("/home",function(req,res){
 app.post('/detail-product',function (req,res) {
   async.series([
       (callback)=>{
-        models.instance.product_detail.findOne({dealid:req.body.dealid},function(err,result){
+        models.instance.product_detail.find({dealid:req.body.dealid},function(err,result){
         var arr=result.map(item=>{
         return obj={
             dealid:item.dealid,
