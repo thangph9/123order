@@ -8,7 +8,7 @@ import {initLoadAmazonHide} from "./loadInitReducer";
 import {initLoadEbayHide} from "./loadInitReducer";
 import {initLoadContentSaleLeft} from "./loadInitReducer";
 import {initLoadContentDeal} from "./loadInitReducer";
-import {initLoadProductDetail} from "./initLoadReducer";
+import {initLoadProductDetail} from "./loadInitReducer";
 const rootReducer=combineReducers({
     authentication,
     alert,
