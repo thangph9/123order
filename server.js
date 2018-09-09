@@ -2,6 +2,7 @@ const https   = require('https');
 const express = require('express');
 const path    = require('path');
 const fs      = require('fs');
+const async = require("async");
 //const async           = require("async");
 //const bcrypt          = require("bcryptjs");
 const http          = require('http');
@@ -173,7 +174,7 @@ var ObjTable={
     }
   ]
 };
-function loadAmazonDealDay(){
+/*function loadAmazonDealDay(){
   //var arr=[];
   models.instance.amazon_deal_day.find({$limit:150},function(err,result){
    var arr= result.map(item=>{
@@ -193,11 +194,10 @@ function loadAmazonDealDay(){
       title:item.title
     }
   });
-  //ObjTable.ContentDeal=arr;
+  ObjTable.ContentDeal=arr;
   return arr;
 });
-}
-ObjTable.ContentDeal=loadAmazonDealDay();
+}*/
 function loadProductDetail(){
   models.instance.product_detail.findOne({dealid:'3200c0b0'},function(err,result){
   var arr=result.map(item=>{
@@ -215,8 +215,34 @@ function loadProductDetail(){
 });
 }
 app.post("/home",function(req,res){
-  //loadAmazonDealDay();
-  res.json(ObjTable);
+  async.series([
+      (callback)=>{
+        models.instance.amazon_deal_day.find({$limit:150},function(err,result){
+        var arr= result.map(item=>{
+        return obj={
+          dealid:item.dealid,
+          base_price:item.base_price,
+          death_clock:item.death_clock,
+          img:item.img,
+          link:item.link,
+          price:item.price,
+          review:item.review,
+          reviewlink:item.reviewlink,
+          robot_label_track:item.robot_label_track,
+          sale:item.sale,
+          stt:item.stt,
+          timestamp:item.timestamp+"",
+          title:item.title
+        }   
+    });
+      ObjTable.ContentDeal=arr;
+      callback(err,ObjTable)
+        });
+      }
+    ],(err,result)=>{
+      if(err) console.log(err);
+      res.json(result);
+    })
 })
 app.get('/', function(req, res){
 	res.render('index');
