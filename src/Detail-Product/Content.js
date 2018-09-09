@@ -1,5 +1,5 @@
 import React from "react";
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { ContentDetail } from "./ContentDetail";
 import { ContentDetailSeller } from "./ContentDetailSeller";
@@ -35,14 +35,14 @@ class Content extends React.Component {
     }
 
     render() {
-
+        {loadDetail} = this.props;
         return (
             <div>
                 <nav aria-label="breadcrumb ">
                     <ol className="container breadcrumb ">
-                        <li className="breadcrumb-item "><a href="# ">Trang chủ</a></li>
-                        <li className="breadcrumb-item "><a href="# ">Mua hàng Amazon</a></li>
-                        <li className="breadcrumb-item "><a href="# ">Viên Uống Bổ Da, Tóc &amp; Móng Dành Cho Phụ Nữ 50+ 90 Viên</a></li>
+                        <li className="breadcrumb-item "><Link to="/home">Trang chủ</Link></li>
+                        <li className="breadcrumb-item "><Link to="/mua-hang-amazon" >Mua hàng Amazon</Link></li>
+                        <li className="breadcrumb-item ">{loadDetail.title}</li>
                     </ol>
                 </nav>
                 <ContentDetail />
@@ -66,7 +66,9 @@ class Content extends React.Component {
 }
 function mapStateToProps(state) {
 
-    return state;
+    return {
+        loadDetail:state.initLoadProductDetail
+    }
 }
 const connectedContent = connect(mapStateToProps)(Content);
 export { connectedContent as Content } 

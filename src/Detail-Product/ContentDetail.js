@@ -4,7 +4,8 @@ import { connect } from "react-redux";
 import { ContentDetailLeft } from "./ContentDetailLeft";
 import { ContentDetailRight } from "./ContentDetailRight";
 import { ContentDetailCentre } from "./ContentDetailCentre";
-
+import {initLoadProductDetail} from '../actions'; 
+import axios from 'axios';
 class ContentDetail extends React.Component {
     constructor(props) {
         super(props);
@@ -27,7 +28,13 @@ class ContentDetail extends React.Component {
 
         })
     }
-
+    componentWillMount(){
+        console.log('da click');
+        axios.post('/detail-product',{dealid:this.props.data.dealid}).then(res=>{
+            var action=initLoadProductDetail(res.data.ProductDetail);
+            this.props.dispatch(action);
+        })
+    }
     render() {
 
         return (
@@ -48,7 +55,9 @@ class ContentDetail extends React.Component {
 }
 function mapStateToProps(state) {
 
-    return state;
+    return {
+        loadDetail:state.initLoadProductDetail
+    }
 }
 const connected = connect(mapStateToProps)(ContentDetail);
 export { connected as ContentDetail } 

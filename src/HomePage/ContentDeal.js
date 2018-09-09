@@ -46,7 +46,6 @@ class ContentDeal extends React.Component{
 function mapStateToProps(state){
   
     return {
-        loadAdd:state.loadAdd,
         loadContent:state.initLoadContentDeal
     }
 }

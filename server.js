@@ -205,7 +205,6 @@ app.post("/home",function(req,res){
     })
 })
 app.post('/detail-product',function (req,res) {
-  console.log(req.body.dealid);
   async.series([
       (callback)=>{
         models.instance.product_detail.find({dealid:'44a06400'},function(err,result){
@@ -221,7 +220,6 @@ app.post('/detail-product',function (req,res) {
           }
         });
         ObjTable.ProductDetail=arr;
-        console.log(arr);
         callback(err,ObjTable)
       });
       }
