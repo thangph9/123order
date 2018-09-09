@@ -36,13 +36,14 @@ class Content extends React.Component {
     
     render() {
         var {loadDetail} = this.props;
+        console.log(loadDetail[0]);
         return (
             <div>
                 <nav aria-label="breadcrumb ">
                     <ol className="container breadcrumb ">
                         <li className="breadcrumb-item "><Link to="/home">Trang chủ</Link></li>
                         <li className="breadcrumb-item "><Link to="/mua-hang-amazon" >Mua hàng Amazon</Link></li>
-                        <li className="breadcrumb-item ">{loadDetail[0].title}</li>
+                        <li className="breadcrumb-item "></li>
                     </ol>
                 </nav>
                 <ContentDetail />
