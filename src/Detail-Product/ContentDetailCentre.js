@@ -31,7 +31,7 @@ class ContentDetailCentre extends React.Component {
         console.log(mouseOverImage);
         return (
             <div className="col-md-4 big-img">
-                <img alt ="img" className="xzoom" src={(loadDetail[0]!=undefined ) ? loadDetail[mouseOverImage].largeimage[mouseOverImage]:''} />
+                <img alt ="img" className="xzoom" src={(loadDetail[0]!=undefined ) ? loadDetail[0].largeimage[mouseOverImage]:''} />
             </div>
 
         )
