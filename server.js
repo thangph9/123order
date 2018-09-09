@@ -193,9 +193,10 @@ function loadAmazonDealDay(){
       title:item.title
     }
   });
-   console.log(modelAmazonDealDay);
+
   ObjTable.ContentDeal=arr;
 });
+   console.log(modelAmazonDealDay);
   //return arr;
 }
 //ObjTable.ContentDeal=loadAmazonDealDay();
