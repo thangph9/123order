@@ -208,8 +208,21 @@ app.post('/detail-product',function (req,res) {
   console.log(req.body.dealid);
   async.series([
       (callback)=>{
-        models.instance.product_detail.findOne({dealid:req.body.dealid},function(err,result){
-          console.log(result);
+        models.instance.product_detail.findOne({dealid:'ae9db903'},function(err,result){
+        var arr=result.map(item=>{
+        return obj={
+            dealid:item.dealid,
+            base_price:item.base_price,
+            death_clock:item.death_clock,
+            largeimage:item.largeimage,
+            smallimage:item.smallimage,
+            star:item.star,
+            title:item.title
+          }
+        });
+        ObjTable.ProductDetail=arr;
+        console.log(arr);
+        callback(err,ObjTable)
       });
       }
     ],(err,result)=>{
