@@ -206,7 +206,7 @@ app.post("/home",function(req,res){
 })
 app.post('/detail-product',function (req,res) {
   
-  console.log(req);
+  //console.log(req);
   var str = req.headers.referer.substring(34, 42);
   console.log(str);
   async.series([
