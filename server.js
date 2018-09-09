@@ -205,8 +205,8 @@ app.post("/home",function(req,res){
     })
 })
 app.post('/detail-product',function (req,res) {
-  if(req.body.dealid!=undefined) var dealid=req.body.dealid;
-  console.log(dealid);
+  
+  console.log(req.body.dealiditem);
   async.series([
       (callback)=>{
         models.instance.product_detail.find({dealid:'cbfe0f55'},function(err,result){
