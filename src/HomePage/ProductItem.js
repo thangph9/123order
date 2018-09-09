@@ -9,6 +9,12 @@ class ProductItem extends React.Component {
 
         }
     }
+    componentWillMount(){
+        axios.get('/detail-product/'+this.props.data.dealid).then(res=>{
+            var action=initLoadProductDetail(res.data.ProductDetail);
+            this.props.dispatch(action);
+        })
+    }
     render(){
 
         var display=this.props.customStyle;

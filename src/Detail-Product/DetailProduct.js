@@ -30,13 +30,7 @@ class DetailProduct extends React.Component {
 
         })
     }
-    componentWillMount(){
-        
-        axios.get('/detail-product/'+this.props.initLoad.dealid).then(res=>{
-            var action=initLoadProductDetail(res.data.ProductDetail);
-            this.props.dispatch(action);
-        })
-    }
+    
     render() {
 
         return (
