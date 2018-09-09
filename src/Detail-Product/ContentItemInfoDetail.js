@@ -40,7 +40,9 @@ class ContentItemInfoDetail extends React.Component {
 }
 function mapStateToProps(state) {
 
-    return state;
+    return {
+        loadDetail:state.initLoadProductDetail
+    }
 }
 const connected = connect(mapStateToProps)(ContentItemInfoDetail);
 export { connected as ContentItemInfoDetail } 
