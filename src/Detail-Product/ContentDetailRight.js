@@ -1,7 +1,7 @@
 import React from "react";
 //import { Link } from "react-router-dom";
 import { connect } from "react-redux";
-
+import {mouseOverSmallImageProduct} from '../actions'
 class ContentDetailRight extends React.Component {
     constructor(props) {
         super(props);
@@ -25,7 +25,7 @@ class ContentDetailRight extends React.Component {
         })
     }
     handleMouseOver(value){
-        
+        this.props.dispatch(mouseOverSmallImageProduct(value));
     }
     render() {
         var {loadDetail}=this.props;
@@ -45,7 +45,8 @@ class ContentDetailRight extends React.Component {
 function mapStateToProps(state) {
 
     return {
-        loadDetail:state.initLoadProductDetail
+        loadDetail:state.initLoadProductDetail,
+        mouseOverImage:state.mouseOverImageDetailProduct
     }
 }
 const connected = connect(mapStateToProps)(ContentDetailRight);
