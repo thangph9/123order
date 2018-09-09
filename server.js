@@ -176,7 +176,7 @@ var ObjTable={
 function loadAmazonDealDay(){
   var arr=[];
   models.instance.amazon_deal_day.find({$limit:150},function(err,result){
-   arr=result.map(item=>{
+   arr= result.map(item=>{
     return obj={
       dealid:item.dealid,
       base_price:item.base_price,
