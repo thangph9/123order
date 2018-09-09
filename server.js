@@ -204,7 +204,7 @@ app.post("/home",function(req,res){
       res.json(result[0]);
     })
 })
-app.get('/detail-product',function (req,res) {
+app.get('/detail-product/:dealid',function (req,res) {
   console.log(req.params.dealid);
   async.series([
       (callback)=>{

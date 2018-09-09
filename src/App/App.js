@@ -52,7 +52,7 @@ class App extends Component{
                         <Route exact path="/mua-hang-ebay" component={MuaHangEbay} />
                         <Route exact path="/gia-soc-moi-ngay" component={GiaSocMoiNgay} />
                         <Route exact path="/mua-hang-amazon" component={MuaHangAmazon} />
-                        <Route exact path="/detail-product/:deadid" component={DetailProduct} />
+                        <Route path="/detail-product/:deadid" component={DetailProduct} />
                         <Route exact path="/best-seller" component={BestSeller} />
                         <Route exact path="/hot-deal-cong-nghe" component={HotDealCongNghe} />
                         <Route exact path="/price" component={Price} />
