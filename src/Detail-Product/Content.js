@@ -66,7 +66,9 @@ class Content extends React.Component {
 }
 function mapStateToProps(state) {
 
-    return state;
+    return {
+        loadDetail:state.initLoadProductDetail
+    }
 }
 const connectedContent = connect(mapStateToProps)(Content);
 export { connectedContent as Content } 
