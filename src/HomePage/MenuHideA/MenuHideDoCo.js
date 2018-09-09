@@ -127,7 +127,7 @@ class MenuHideDoCo extends React.Component {
     </div>
   </div>
   <div className="col-md-4">
-    <img src="img/dropdown-comerical.png" alt='img' className="img-fluid pr-2" />
+    <img src="/img/dropdown-comerical.png" alt='img' className="img-fluid pr-2" />
   </div>
 </div>
 
