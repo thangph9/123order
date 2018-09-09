@@ -2,8 +2,14 @@ module.exports={
     fields:{
         dealid : "text",
         description : "text",
-        largeimage: 'list<text>',
-        smallimage: 'list<text>',
+        largeimage: {
+            type: "list",
+            typeDef: "<text>"
+        },
+        smallimage: {
+            type: "list",
+            typeDef: "<text>",   
+        },       
         star:"text",
         title:"text"
     },
