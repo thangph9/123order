@@ -27,9 +27,11 @@ class ContentDetailCentre extends React.Component {
 
     render() {
         var {loadDetail}=this.props;
+        var {mouseOverImage} = this.props;
+        console.log(mouseOverImage);
         return (
             <div className="col-md-4 big-img">
-                <img alt ="img"className="xzoom" src={(loadDetail[0]!=undefined) ? loadDetail[0].largeimage[0]:''} title="The description goes here " />
+                <img alt ="img" className="xzoom" src={(loadDetail[0]!=undefined ) ? loadDetail[0].largeimage[0]:''} />
             </div>
 
         )
@@ -39,7 +41,8 @@ class ContentDetailCentre extends React.Component {
 function mapStateToProps(state) {
 
     return {
-        loadDetail:state.initLoadProductDetail
+        loadDetail:state.initLoadProductDetail,
+        mouseOverImage:state.mouseOverImageDetailProduct
     }
 }
 const connected = connect(mapStateToProps)(ContentDetailCentre);
