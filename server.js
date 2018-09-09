@@ -175,7 +175,7 @@ var ObjTable={
 };
 function loadAmazonDealDay(){
   //var arr=[];
-  models.instance.amazon_deal_day.find({$limit:150},function(err,result){
+  var modelAmazonDealDay=models.instance.amazon_deal_day.find({$limit:150},function(err,result){
    var arr= result.map(item=>{
     return obj={
       dealid:item.dealid,
@@ -193,6 +193,7 @@ function loadAmazonDealDay(){
       title:item.title
     }
   });
+   console.log(modelAmazonDealDay);
   ObjTable.ContentDeal=arr;
 });
   //return arr;
