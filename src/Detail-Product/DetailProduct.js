@@ -32,7 +32,7 @@ class DetailProduct extends React.Component {
     }
     componentWillMount(){
         
-        axios.get('/detail-product/:deadid').then(res=>{
+        axios.get('/detail-product/'+this.props.initLoad.dealid).then(res=>{
             var action=initLoadProductDetail(res.data.ProductDetail);
             this.props.dispatch(action);
         })
@@ -53,7 +53,8 @@ class DetailProduct extends React.Component {
 function mapStateToProps(state) {
 
     return {
-        loadDetail:state.initLoadProductDetail
+        loadDetail:state.initLoadProductDetail,
+        initLoad:state.initLoadContentDeal
     }
 }
 const connectedHomePage = connect(mapStateToProps)(DetailProduct);
