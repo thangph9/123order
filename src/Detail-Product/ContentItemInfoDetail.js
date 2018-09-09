@@ -26,7 +26,7 @@ class ContentItemInfoDetail extends React.Component {
     }
 
     render() {
-
+         var {loadDetail}=this.props;
         return (
             <div className="container item-info-detail border-top-0">
                 <ul>
