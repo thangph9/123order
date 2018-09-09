@@ -4,7 +4,6 @@ import { connect } from "react-redux";
 import { ContentDetailLeft } from "./ContentDetailLeft";
 import { ContentDetailRight } from "./ContentDetailRight";
 import { ContentDetailCentre } from "./ContentDetailCentre";
-import {initLoadProductDetail} from '../actions'; 
 
 class ContentDetail extends React.Component {
     constructor(props) {

@@ -10,7 +10,7 @@ import { ContentCommentAndRate } from "./ContentCommentAndRate";
 import { ContentCommentDetail } from "./ContentCommentDetail";
 import { ShowMore } from "./ShowMore";
 import { ProductItemList } from "./ProductItemList";
-import axios from 'axios';
+
 class Content extends React.Component {
     constructor(props) {
         super(props);
@@ -33,13 +33,7 @@ class Content extends React.Component {
 
         })
     }
-    componentWillMount(){
-        console.log('da click');
-        axios.post('/detail-product').then(res=>{
-            var action=initLoadProductDetail(res.data.ProductDetail);
-            this.props.dispatch(action);
-        })
-    }
+    
     render() {
         var {loadDetail} = this.props;
         return (
@@ -72,9 +66,7 @@ class Content extends React.Component {
 }
 function mapStateToProps(state) {
 
-    return {
-        loadDetail:state.initLoadProductDetail
-    }
+    return state;
 }
 const connectedContent = connect(mapStateToProps)(Content);
 export { connectedContent as Content } 
