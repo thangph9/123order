@@ -31,7 +31,7 @@ class ContentDetailItem extends React.Component {
             <tr>
                 <td className="row ml-2">
                     <div className="col-md-2">
-                        <img src="img/amazon.png" alt='img' />
+                        <img src="/img/amazon.png" alt='img' />
                     </div>
                     <div className="col-md-10">
                         <div className="item-name col-md-11 pl-3">

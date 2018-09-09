@@ -36,7 +36,7 @@ class HeaderBotSearchRight extends React.Component{
                 </button>
               </div>
               <div className="justify-content-center ml-3 pt-1"> 
-                <img src="img/icon1.png" alt="img" />
+                <img src="/img/icon1.png" alt="img" />
               </div>
             </div>
           </div>

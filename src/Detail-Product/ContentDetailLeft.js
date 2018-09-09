@@ -110,13 +110,13 @@ class ContentDetailLeft extends React.Component {
                     </div>
                 </div>
                 <div >
-                    <img className="mb-3 pr-3" src="img/baohanh.png" alt='img' />Cam kết 100% chính hãng
+                    <img className="mb-3 pr-3" src="/img/baohanh.png" alt='img' />Cam kết 100% chính hãng
   </div>
                 <div >
-                    <img className="mb-3 pr-2" src="img/giaohang.png" alt='img' />Giao hàng dự kiến: Thứ 3 24/7 - Thứ 2 30/7
+                    <img className="mb-3 pr-2" src="/img/giaohang.png" alt='img' />Giao hàng dự kiến: Thứ 3 24/7 - Thứ 2 30/7
   </div>
                 <div >
-                    <img className="mb-3 pr-3" src="img/doitra.png" alt='img' />Đổi trả trong 7 ngày
+                    <img className="mb-3 pr-3" src="/img/doitra.png" alt='img' />Đổi trả trong 7 ngày
   </div>
                 <div className="row guide">
                     <ul className="mt-2">

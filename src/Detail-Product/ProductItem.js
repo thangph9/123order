@@ -30,8 +30,8 @@ class ProductItem extends React.Component {
             <div className="col-md mt-2 px-2">
                 <div className="card">
                     <div className="hovereffect">
-                        <div className="position-absolute discount-tag-pos"><img src="img/discount.png" alt='img' className="img-fluid" /></div>
-                        <img className="card-img-top img-thumbnail border-0 img-fluid" src="img/Layer 6.png" alt='img' />
+                        <div className="position-absolute discount-tag-pos"><img src="/img/discount.png" alt='img' className="img-fluid" /></div>
+                        <img className="card-img-top img-thumbnail border-0 img-fluid" src="/img/Layer 6.png" alt='img' />
                         <div className="overlay">
                             <a className="info" href="">Chi tiết</a>
                         </div>
