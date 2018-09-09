@@ -134,7 +134,7 @@ class ContentDetailLeft extends React.Component {
 }
 function mapStateToProps(state) {
 
-    return return {
+    return {
         loadDetail:state.initLoadProductDetail
     }
 }
