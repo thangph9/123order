@@ -29,7 +29,7 @@ class ContentDetailCentre extends React.Component {
         var {loadDetail}=this.props;
         return (
             <div className="col-md-4 big-img">
-                <img alt ="img"className="xzoom" src={(loadDetail[0]!=undefined) && loadDetail[0].largeimage[0]} xoriginal="img/femmecalm.png" title="The description goes here " />
+                <img alt ="img"className="xzoom" src={(loadDetail[0]!=undefined) ? loadDetail[0].largeimage[0]:''} xoriginal="img/femmecalm.png" title="The description goes here " />
             </div>
 
         )
