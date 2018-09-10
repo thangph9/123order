@@ -29,7 +29,9 @@ class ContentDetailLeft extends React.Component {
         if(number>=1){
             this.props.dispatch(mouseClickSettingNumberProduct(number));
         }
-        
+        onTextChange(){
+            
+        }
     }
     render() {
         var {loadDetail}=this.props;
@@ -65,7 +67,7 @@ class ContentDetailLeft extends React.Component {
                 </div>
                 <div className="row quantity mb-4">
                     <div className="col-3">
-                        <input type="text" id="quantity" name="quantity" className="form-control input-number" defaultValue={this.props.mouseClick} />
+                        <input type="text" id="quantity" name="quantity" className="form-control input-number" onChange={()=>this.onTextChange} defaultValue={this.props.mouseClick} />
                     </div>
                     <div className="col-2 pl-0">
                         <div className="row plus pl-0">
