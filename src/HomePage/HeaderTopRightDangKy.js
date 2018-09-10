@@ -24,11 +24,7 @@ class HeaderTopRightDangKy extends React.Component{
 
         })
     }
-    componentDidMount(){
-        $("#signin").on('click', function(event) {
-            $("#myRegister").modal();
-        });
-    }
+
     render(){
         
         return (
