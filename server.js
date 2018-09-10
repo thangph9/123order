@@ -205,12 +205,13 @@ app.post("/home",function(req,res){
     })
 })
 app.post('/detail-product',function (req,res) {
-  //console.log(req);
-  var str = req.headers.referer.substring(34, 42);
-  console.log(str);
+  console.log(req);
+  //var str = req.headers.referer.substring(34, 42);
+  console.log(req.body);
+
   async.series([
       (callback)=>{
-        models.instance.product_detail.find({dealid:str},function(err,result){
+        models.instance.product_detail.find({dealid:'ae9db903'},function(err,result){
         var arr=result.map(item=>{
         return obj={
             dealid:item.dealid,
@@ -221,9 +222,8 @@ app.post('/detail-product',function (req,res) {
             title:item.title
           }
         });
-        
-        if(arr.length>0) {ObjTable.ProductDetail=arr;callback(err,ObjTable);}
-        else callback(err,'')
+        ObjTable.ProductDetail=arr;
+        callback(err,ObjTable);
       });
       }
     ],(err,result)=>{
