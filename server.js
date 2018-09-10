@@ -208,7 +208,6 @@ app.post('/detail-product',function (req,res) {
   //console.log(req);
   //var str = req.headers.referer.substring(34, 42);//612e9848
   if(req.body.dealid!=undefined)
-  console.log(dealidProduct);
   async.series([
       (callback)=>{
         if(req.body.dealid!=undefined){
@@ -227,7 +226,6 @@ app.post('/detail-product',function (req,res) {
             callback(err,ObjTable);
           });
         }
-        else callback(err,ObjTable);
       }
     ],(err,result)=>{
       if (err) console.log(err);
