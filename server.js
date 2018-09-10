@@ -226,6 +226,7 @@ app.post('/detail-product',function (req,res) {
             callback(err,ObjTable);
           });
         }
+        else callback(err,ObjTable);
       }
     ],(err,result)=>{
       if (err) console.log(err);
