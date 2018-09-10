@@ -55,7 +55,7 @@ function mapStateToProps(state) {
     return {
         loadDetail:state.initLoadProductDetail,
         initLoad:state.initLoadContentDeal,
-        mouseClickLink:state.mouseClickLinkProductItem;
+        mouseClickLink:state.mouseClickLinkProductItem
     }
 }
 const connectedHomePage = connect(mapStateToProps)(DetailProduct);
