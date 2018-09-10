@@ -53,7 +53,7 @@ class ProductItem extends React.Component {
 }
 function mapStateToProps(state) {
     return {
-        mouseClickLink:state.mouseClickLinkProductItem;
+        mouseClickLink:state.mouseClickLinkProductItem
     }
 }
 const connected = connect(mapStateToProps)(ProductItem);
