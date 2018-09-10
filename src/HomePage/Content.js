@@ -5,6 +5,8 @@ import { ContentDeal } from "./ContentDeal";
 import { ContentBuyAmazon } from "./ContentBuyAmazon";
 import { ContentBuyEbay } from "./ContentBuyEbay";
 import { ContentTransport } from "./ContentTransport";
+import {initLoadContentDeal} from '../actions';
+import axios from 'axios';
 class Content extends React.Component{
     constructor(props){
         super(props);
@@ -20,6 +22,14 @@ class Content extends React.Component{
         })
         console.log("Hello World")
     }
+    componentWillMount(){
+        axios.post('/home').then(res=>{
+            var action=initLoadContentDeal(res.data.ContentAmazonDealDay);
+            this.props.dispatch(action);
+            
+        })
+    }
+
     render(){
         
         return (
@@ -36,7 +46,9 @@ class Content extends React.Component{
 }
 function mapStateToProps(state){
   
-    return state;
+    return {
+        loadContent:state.initLoadContentDeal
+    }
 }
 const connectedContent=connect(mapStateToProps)(Content);
 export { connectedContent as Content } 
