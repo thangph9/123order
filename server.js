@@ -175,9 +175,7 @@ var ObjTable={
   ]
 };
 app.post("/home",function(req,res){
-
-  var addItem=req.body.addItem+15;
-  console.log(addItem);
+  var addItem=req.body.addItem+15
   async.series([
       (callback)=>{
         models.instance.amazon_deal_day.find({$limit:addItem},function(err,result){
@@ -210,7 +208,6 @@ app.post("/home",function(req,res){
 app.post('/detail-product',function (req,res) {
   //console.log(req);
   //var str = req.headers.referer.substring(34, 42);//612e9848
-  console.log(req.body.dealid);
   async.series([
       (callback)=>{
             models.instance.product_detail.find({dealid:'612e9848'},function(err,result){

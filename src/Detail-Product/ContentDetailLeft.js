@@ -1,7 +1,7 @@
 import React from "react";
 //import { Link } from "react-router-dom";
 import { connect } from "react-redux";
-
+import {mouseClickSettingNumberProduct} from '../actions'
 class ContentDetailLeft extends React.Component {
     constructor(props) {
         super(props);
@@ -24,7 +24,13 @@ class ContentDetailLeft extends React.Component {
 
         })
     }
-
+    handleClickMinus(value){
+        var number=this.props.mouseClick +value;
+        if(number>==1){
+            this.props.dispatch(mouseClickSettingNumberProduct(number));
+        }
+        
+    }
     render() {
         var {loadDetail}=this.props;
         //console.log(loadDetail[0]);
@@ -59,19 +65,19 @@ class ContentDetailLeft extends React.Component {
                 </div>
                 <div className="row quantity mb-4">
                     <div className="col-3">
-                        <input type="text" id="quantity" name="quantity" className="form-control input-number" defaultValue={10} min={1} max={100} />
+                        <input type="text" id="quantity" name="quantity" className="form-control input-number" defaultValue={this.props.mouseClick} />
                     </div>
                     <div className="col-2 pl-0">
                         <div className="row plus pl-0">
                             <span className="input-group-btn">
-                                <button type="button" value={1} className="quantity-left-minus btn btn-danger btn-number" data-type="minus" data-field> -
+                                <button type="button" onClick={()=>this.handleClickMinus(-1)} className="quantity-left-minus btn btn-danger btn-number" data-type="minus" data-field> -
             <span className="glyphicon glyphicon-minus" />
                                 </button>
                             </span>
                         </div>
                         <div className="row">
                             <span className="input-group-btn">
-                                <button type="button" className="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field> +
+                                <button type="button" onClick={()=>this.handleClickMinus(1)} className="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field> +
             <span className="glyphicon glyphicon-plus">
                                     </span>
                                 </button>
@@ -136,7 +142,8 @@ class ContentDetailLeft extends React.Component {
 function mapStateToProps(state) {
 
     return {
-        loadDetail:state.initLoadProductDetail
+        loadDetail:state.initLoadProductDetail,
+        mouseClick:state.mouseClickSettingNumberProduct
     }
 }
 const connected = connect(mapStateToProps)(ContentDetailLeft);

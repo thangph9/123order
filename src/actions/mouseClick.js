@@ -4,3 +4,9 @@ export const mouseClickLinkProductItem=(dealid)=>{
 		dealid
 	}
 }
+export const mouseClickSettingNumberProduct=(numb)=>{
+	return{
+		type: 'MOUSE_CLICK_SETTING_NUMBER_PRODUCT',
+		numb
+	}
+}
