@@ -11,6 +11,8 @@ import { Footer } from "../Sections/Footer";
 import {initLoadContentDeal} from '../actions';
 import {initLoadContentSaleLeft} from '../actions'
 import {initLoadEbayHide} from '../actions';
+import {initLoadAmazonHide} from '../actions';
+
 import axios from 'axios';
 class HomePage extends React.Component {
     constructor(props) {
@@ -40,6 +42,7 @@ class HomePage extends React.Component {
             this.props.dispatch(initLoadContentDeal(res.data.ContentAmazonDealDay));
             this.props.dispatch(initLoadContentSaleLeft(res.data.ContentSale));
             this.props.dispatch(initLoadEbayHide(res.data.HideEbayTopHot));
+            this.props.dispatch(initLoadAmazonHide(res.data.HideAmazonTopHot));
         })
     }
     render() {

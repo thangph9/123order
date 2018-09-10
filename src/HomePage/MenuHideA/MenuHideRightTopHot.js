@@ -1,8 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { MenuHideRightTopHotBox } from "./MenuHideRightTopHotBox";
-import {initLoadAmazonHide} from '../../actions/initLoad';
-import axios from 'axios';
+
 class MenuHideRightTopHot extends React.Component {
     constructor(props) {
         super(props);
@@ -11,13 +10,6 @@ class MenuHideRightTopHot extends React.Component {
             loading: false,
         }
         this.handleSubmit = this.handleSubmit.bind(this);
-    }
-    componentWillMount(){
-        axios.post('/home').then(res=>{
-            var action=initLoadAmazonHide(res.data.HideAmazonTopHot);
-            this.props.dispatch(action);
-            //console.log(res.data.HideAmazonTopHot);
-        })
     }
     handleSubmit() {
         this.setState({
@@ -47,9 +39,7 @@ class MenuHideRightTopHot extends React.Component {
 }
 function mapStateToProps(state) {
 
-    return {
-        initLoad:state.initLoadAmazonHide
-    }
+    return state;
 }
 const connected = connect(mapStateToProps)(MenuHideRightTopHot);
 export { connected as MenuHideRightTopHot } 
