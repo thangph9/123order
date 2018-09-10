@@ -175,7 +175,9 @@ var ObjTable={
   ]
 };
 app.post("/home",function(req,res){
+
   var addItem=req.body.addItem+15;
+  console.log(addItem);
   async.series([
       (callback)=>{
         models.instance.amazon_deal_day.find({$limit:addItem},function(err,result){
