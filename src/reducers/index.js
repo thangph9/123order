@@ -10,6 +10,7 @@ import {initLoadContentSaleLeft} from "./loadInitReducer";
 import {initLoadContentDeal} from "./loadInitReducer";
 import {initLoadProductDetail} from "./loadInitReducer";
 import {mouseOverImageDetailProduct} from "./mouseOverImageReducer";
+import {mouseClickLinkProductItem} from './mouseClickReducer';
 const rootReducer=combineReducers({
     authentication,
     alert,
@@ -21,6 +22,7 @@ const rootReducer=combineReducers({
     initLoadContentSaleLeft,
     initLoadContentDeal,
     initLoadProductDetail,
-    mouseOverImageDetailProduct
+    mouseOverImageDetailProduct,
+    mouseClickLinkProductItem
 });
 export default rootReducer;

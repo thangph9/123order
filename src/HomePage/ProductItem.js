@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import axios from 'axios';
+import {mouseClickLinkProductItem} from '../actions'
 class ProductItem extends React.Component {
     constructor(props) {
         super(props);
@@ -10,8 +11,7 @@ class ProductItem extends React.Component {
         }
     }
     handleClickLink(value){
-        axios.post('/detail-product',{dealid:value})
-        .then(res=>{});
+        this.props.dispatch(mouseClickLinkProductItem(value));
     }
     render(){
 
@@ -52,7 +52,9 @@ class ProductItem extends React.Component {
     }
 }
 function mapStateToProps(state) {
-    return state;
+    return {
+        mouseClickLink:state.mouseClickLinkProductItem;
+    }
 }
 const connected = connect(mapStateToProps)(ProductItem);
 export { connected as ProductItem } 

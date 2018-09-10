@@ -207,6 +207,7 @@ app.post("/home",function(req,res){
 app.post('/detail-product',function (req,res) {
   //console.log(req);
   //var str = req.headers.referer.substring(34, 42);//612e9848
+  console.log(req.body.dealid);
   async.series([
       (callback)=>{
             models.instance.product_detail.find({dealid:'612e9848'},function(err,result){
