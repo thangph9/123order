@@ -176,7 +176,7 @@ var ObjTable={
 };
 app.post("/home",function(req,res){
   async.series([
-      /*(callback)=>{
+      (callback)=>{
         models.instance.amazon_deal_day.find({$limit:150},function(err,result){
         var arr= result.map(item=>{
         return obj={
@@ -198,20 +198,6 @@ app.post("/home",function(req,res){
         ObjTable.ContentAmazonDealDay=arr;
         callback(err,ObjTable)
         });
-      }*/
-      (callback)=>{
-        models.instance.amazon_deal_day.eachRow({}, {fetchSize : 100}, function(n, row){
-                  
-          }, function(err, result){
-              
-              if(err) throw err;
-              if (result.nextPage) {
-                  
-                  result.nextPage();
-              }
-          });
-        
-        callback(err,ObjTable)
       }
     ],(err,result)=>{
       if(err) console.log(err);
