@@ -31,9 +31,6 @@ class ContentDetailLeft extends React.Component {
         }
         
     }
-    onTextChange(e){
-            
-        }
     render() {
         var {loadDetail}=this.props;
         //console.log(loadDetail[0]);
@@ -47,7 +44,7 @@ class ContentDetailLeft extends React.Component {
                     <span className="fa fa-star pt-1" />
                     <span className="fa fa-star pt-1" />
                     <ul>
-                        <li className="mx-1">{this.props.mouseClick}</li>
+                        <li className="mx-1">(1094 lượt đánh giá) |</li>
                         <li className="mx-1"> Bán tại Amazone Mỹ |</li>
                         <li className="mx-1"> Thương hiệu: FemmeCalm</li>
                     </ul>
@@ -68,7 +65,7 @@ class ContentDetailLeft extends React.Component {
                 </div>
                 <div className="row quantity mb-4">
                     <div className="col-3">
-                        <input type="text" id="quantity" name="quantity" className="form-control input-number" onChange={()=>this.onTextChange()} defaultValue={this.props.mouseClick} />
+                        <input type="number" id="quantity" name="quantity" className="form-control input-number" defaultValue="1" />
                     </div>
                     <div className="col-2 pl-0">
                         <div className="row plus pl-0">
