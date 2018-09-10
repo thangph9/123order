@@ -1,7 +1,7 @@
 import React from "react";
 //import { Link } from "react-router-dom";
 import { connect } from "react-redux";
-//import $ from 'jquery';
+import $ from 'jquery';
 class HeaderTopRightDangNhap extends React.Component{
     constructor(props){
         super(props);
@@ -23,6 +23,11 @@ class HeaderTopRightDangNhap extends React.Component{
             login:true,
 
         })
+    }
+    componentDidMount(){
+        $("#signin").on('click', function(event) {
+            $("#myRegister").modal();
+        });
     }
     render(){
         
