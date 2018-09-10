@@ -47,7 +47,7 @@ class ContentDetailLeft extends React.Component {
                     <span className="fa fa-star pt-1" />
                     <span className="fa fa-star pt-1" />
                     <ul>
-                        <li className="mx-1">(1094 lượt đánh giá) |</li>
+                        <li className="mx-1">{this.props.mouseClick}</li>
                         <li className="mx-1"> Bán tại Amazone Mỹ |</li>
                         <li className="mx-1"> Thương hiệu: FemmeCalm</li>
                     </ul>
