@@ -205,13 +205,12 @@ app.post("/home",function(req,res){
     })
 })
 app.post('/detail-product',function (req,res) {
-  console.log(req);
-  //var str = req.headers.referer.substring(34, 42);
+  //console.log(req);
+  //var str = req.headers.referer.substring(34, 42);//612e9848
   console.log(req.body);
-
   async.series([
       (callback)=>{
-        models.instance.product_detail.find({dealid:'612e9848'},function(err,result){
+        models.instance.product_detail.find({dealid:req.body.dealid},function(err,result){
         var arr=result.map(item=>{
         return obj={
             dealid:item.dealid,

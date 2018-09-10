@@ -32,7 +32,7 @@ class DetailProduct extends React.Component {
     }
     componentWillMount(){
         
-        axios.post('/detail-product',{test:1}).then(res=>{
+        axios.post('/detail-product',null).then(res=>{
             var action=initLoadProductDetail(res.data.ProductDetail);
             this.props.dispatch(action);
         })
