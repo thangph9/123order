@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import {loadAdd} from '../actions';
+import {initLoadContentDeal} from '../actions';
 import axios from 'axios';
 class ContentDealSeeMore extends React.Component {
     constructor(props) {
