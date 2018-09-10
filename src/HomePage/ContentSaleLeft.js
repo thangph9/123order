@@ -49,7 +49,9 @@ class ContentSaleLeft extends React.Component {
 }
 function mapStateToProps(state) {
 
-    return state;
+    return {
+        initLoad:state.initLoadContentSaleLeft
+    }
 }
 const connected = connect(mapStateToProps)(ContentSaleLeft);
 export { connected as ContentSaleLeft } 
