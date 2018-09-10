@@ -207,10 +207,8 @@ app.post("/home",function(req,res){
 app.post('/detail-product',function (req,res) {
   //console.log(req);
   //var str = req.headers.referer.substring(34, 42);//612e9848
-  //if(req.body.dealid!=undefined)
   async.series([
       (callback)=>{
-        if(req.body.dealid!=undefined){
             models.instance.product_detail.find({dealid:'612e9848'},function(err,result){
             var arr=result.map(item=>{
             return obj={
@@ -225,8 +223,6 @@ app.post('/detail-product',function (req,res) {
             ObjTable.ProductDetail=arr;
             callback(err,ObjTable);
           });
-        }
-        else callback(err,ObjTable);
       }
     ],(err,result)=>{
       if (err) console.log(err);
