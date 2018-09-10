@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import { connect } from "react-redux";
-import $ from 'jquery';
+//import $ from 'jquery';
 class HeaderTopRightDangNhap extends React.Component{
     constructor(props){
         super(props);
@@ -28,7 +28,7 @@ class HeaderTopRightDangNhap extends React.Component{
         
         return (
             <li className="nav-item">
-                <Link id="login" data-toggle="modal" data-target="#myLogin" className="nav-link text-white" to="/home">ĐĂNG NHẬP</Link>
+                <span id="login" data-toggle="modal" data-target="#myLogin" className="nav-link text-white">ĐĂNG NHẬP</span>
             </li>
 
         )

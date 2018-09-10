@@ -46,8 +46,6 @@ class HomePage extends React.Component {
         })
     }
     render() {
-        //console.log(this.props.initLoad);
-        //console.log('')
         return (
             <div>
                 <Header/>
