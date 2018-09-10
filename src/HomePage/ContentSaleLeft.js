@@ -1,8 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import Slider from "react-slick";
-import {initLoadContentSaleLeft} from '../actions'
-import axios from 'axios';
+
 class ContentSaleLeft extends React.Component {
     constructor(props) {
         super(props);
@@ -11,14 +10,6 @@ class ContentSaleLeft extends React.Component {
             loading: false,
         }
         this.handleSubmit = this.handleSubmit.bind(this);
-    }
-    componentWillMount(){
-        axios.post('/home').then(res=>{
-            var action=initLoadContentSaleLeft(res.data.ContentSale);
-            this.props.dispatch(action);
-            console.log(this.props.data);
-        })
-        this.props.dispatch(initLoadContentSaleLeft);
     }
     handleSubmit() {
         this.setState({
@@ -58,9 +49,7 @@ class ContentSaleLeft extends React.Component {
 }
 function mapStateToProps(state) {
 
-    return {
-        initLoad:state.initLoadContentSaleLeft
-    }
+    return state;
 }
 const connected = connect(mapStateToProps)(ContentSaleLeft);
 export { connected as ContentSaleLeft } 
