@@ -175,10 +175,10 @@ var ObjTable={
   ]
 };
 app.post("/home",function(req,res){
-  console.log(req.body);
+  var addItem=req.body.addItem+15;
   async.series([
       (callback)=>{
-        models.instance.amazon_deal_day.find({$limit:150},function(err,result){
+        models.instance.amazon_deal_day.find({$limit:addItem},function(err,result){
         var arr= result.map(item=>{
         return obj={
             dealid:item.dealid,

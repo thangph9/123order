@@ -38,7 +38,7 @@ class HomePage extends React.Component {
     }
     
     componentWillMount(){
-        axios.post('/home').then(res=>{
+        axios.post('/home',{addItem:this.props.loadAdd}).then(res=>{
             this.props.dispatch(initLoadContentDeal(res.data.ContentAmazonDealDay));
             this.props.dispatch(initLoadContentSaleLeft(res.data.ContentSale));
             this.props.dispatch(initLoadEbayHide(res.data.HideEbayTopHot));
@@ -61,7 +61,9 @@ class HomePage extends React.Component {
 }
 function mapStateToProps(state) {
 
-    return state;
+    return {
+        loadAdd:state.loadAdd
+    }
 }
 const connectedHomePage = connect(mapStateToProps)(HomePage);
 export { connectedHomePage as HomePage } 
