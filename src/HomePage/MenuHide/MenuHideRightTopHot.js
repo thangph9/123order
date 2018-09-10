@@ -1,7 +1,5 @@
 import React from "react";
 import { connect } from "react-redux";
-import axios from 'axios';
-import {initLoadEbayHide} from '../../actions/initLoad';
 import { MenuHideRightTopHotBox } from "./MenuHideRightTopHotBox";
 class MenuHideRightTopHot extends React.Component {
     constructor(props) {
@@ -16,16 +14,6 @@ class MenuHideRightTopHot extends React.Component {
         this.setState({
             login: false
         })
-    }
-    componentWillMount(){
-        axios.post('/home').then(res=>{
-            var action=initLoadEbayHide(res.data.HideEbayTopHot);
-            this.props.dispatch(action);
-           // console.log(res.data.HideEbayTopHot);
-        })
-    }
-    componentDidMount(){
-        
     }
     render() {
        
@@ -49,9 +37,7 @@ class MenuHideRightTopHot extends React.Component {
 }
 function mapStateToProps(state) {
 
-    return {
-        initLoad:state.initLoadEbayHide
-    }
+    return state;
 }
 const connected = connect(mapStateToProps)(MenuHideRightTopHot);
 export { connected as MenuHideRightTopHot } 

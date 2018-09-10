@@ -10,6 +10,7 @@ import { Footer } from "../Sections/Footer";
 //import axios from 'axios';
 import {initLoadContentDeal} from '../actions';
 import {initLoadContentSaleLeft} from '../actions'
+import {initLoadEbayHide} from '../actions';
 import axios from 'axios';
 class HomePage extends React.Component {
     constructor(props) {
@@ -37,7 +38,8 @@ class HomePage extends React.Component {
     componentWillMount(){
         axios.post('/home').then(res=>{
             this.props.dispatch(initLoadContentDeal(res.data.ContentAmazonDealDay));
-            this.props.dispatch(initLoadContentSaleLeft(res.data.ContentSale));  
+            this.props.dispatch(initLoadContentSaleLeft(res.data.ContentSale));
+            this.props.dispatch(initLoadEbayHide(res.data.HideEbayTopHot));
         })
     }
     render() {
