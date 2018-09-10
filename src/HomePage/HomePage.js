@@ -8,6 +8,8 @@ import { Content } from "./Content";
 import { Footer } from "../Sections/Footer";
 //import {initLoadHomePage} from '../actions';
 //import axios from 'axios';
+import {initLoadContentDeal} from '../actions';
+import axios from 'axios';
 class HomePage extends React.Component {
     constructor(props) {
         super(props);
@@ -31,8 +33,12 @@ class HomePage extends React.Component {
         })
     }
     
-    componentDidMount(){
-        
+    componentWillMount(){
+        axios.post('/home').then(res=>{
+            var action=initLoadContentDeal(res.data.ContentAmazonDealDay);
+            this.props.dispatch(action);
+            
+        })
     }
     render() {
         //console.log(this.props.initLoad);
@@ -50,7 +56,9 @@ class HomePage extends React.Component {
 }
 function mapStateToProps(state) {
 
-    return state;
+    return {
+        loadContent:state.initLoadContentDeal
+    }
 }
 const connectedHomePage = connect(mapStateToProps)(HomePage);
 export { connectedHomePage as HomePage } 
