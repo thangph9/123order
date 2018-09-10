@@ -207,6 +207,7 @@ app.post("/home",function(req,res){
 app.post('/detail-product',function (req,res) {
   //console.log(req);
   //var str = req.headers.referer.substring(34, 42);//612e9848
+  if(req.body.dealid!=undefined) console.log(req.body.dealid);
   console.log(req.body);
   async.series([
       (callback)=>{
