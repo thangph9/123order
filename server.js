@@ -176,7 +176,7 @@ var ObjTable={
 };
 app.post("/home",function(req,res){
   async.series([
-      (callback)=>{
+      /*(callback)=>{
         models.instance.amazon_deal_day.find({$limit:150},function(err,result){
         var arr= result.map(item=>{
         return obj={
@@ -198,6 +198,20 @@ app.post("/home",function(req,res){
         ObjTable.ContentAmazonDealDay=arr;
         callback(err,ObjTable)
         });
+      }*/
+      (callback)=>{
+        models.instance.amazon_deal_day.eachRow({}, {fetchSize : 100}, function(n, row){
+                  
+          }, function(err, result){
+              
+              if(err) throw err;
+              if (result.nextPage) {
+                  
+                  result.nextPage();
+              }
+          });
+        
+        callback(err,ObjTable)
       }
     ],(err,result)=>{
       if(err) console.log(err);
@@ -207,25 +221,27 @@ app.post("/home",function(req,res){
 app.post('/detail-product',function (req,res) {
   //console.log(req);
   //var str = req.headers.referer.substring(34, 42);//612e9848
-  var dealidProduct='';
-  if(req.body.dealid!=undefined) dealidProduct = req.body.dealid;
+  if(req.body.dealid!=undefined)
   console.log(dealidProduct);
   async.series([
       (callback)=>{
-        models.instance.product_detail.find({dealid:'612e9848'},function(err,result){
-        var arr=result.map(item=>{
-        return obj={
-            dealid:item.dealid,
-            description:item.description,
-            largeimage:item.largeimage,
-            smallimage:item.smallimage,
-            star:item.star,
-            title:item.title
-          }
-        });
-        ObjTable.ProductDetail=arr;
-        callback(err,ObjTable);
-      });
+        if(req.body.dealid!=undefined){
+            models.instance.product_detail.find({dealid:req.body.dealid},function(err,result){
+            var arr=result.map(item=>{
+            return obj={
+                dealid:item.dealid,
+                description:item.description,
+                largeimage:item.largeimage,
+                smallimage:item.smallimage,
+                star:item.star,
+                title:item.title
+              }
+            });
+            ObjTable.ProductDetail=arr;
+            callback(err,ObjTable);
+          });
+        }
+        else callback(err,ObjTable);
       }
     ],(err,result)=>{
       if (err) console.log(err);
