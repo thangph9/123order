@@ -65,7 +65,7 @@ class ContentDetailLeft extends React.Component {
                 </div>
                 <div className="row quantity mb-4">
                     <div className="col-3">
-                        <input type="number" id="quantity" name="quantity" className="form-control input-number" defaultValue="1" />
+                        <input type="number" id="quantity" name="quantity" className="form-control input-number" defaultValue=`${this.props.mouseClick}` />
                     </div>
                     <div className="col-2 pl-0">
                         <div className="row plus pl-0">
