@@ -29,10 +29,11 @@ class ContentDetailLeft extends React.Component {
         if(number>=1){
             this.props.dispatch(mouseClickSettingNumberProduct(number));
         }
-        onTextChange(){
-
-        }
+        
     }
+    onTextChange(e){
+            
+        }
     render() {
         var {loadDetail}=this.props;
         //console.log(loadDetail[0]);
