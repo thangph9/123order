@@ -45,7 +45,7 @@ class ContentDetailRight extends React.Component {
     render() {
         var {loadDetail}=this.props;
         var {handleMouse}=this.props;
-        borderStyle='';
+        var borderStyle='';
         if(handleMouse==1) borderStyle='1px solid red';
         else if(handleMouse==2) borderStyle='1px solid red';
         else if(handleMouse==3) borderStyle='1px solid red';
