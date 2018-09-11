@@ -8,6 +8,7 @@ class ContentDetailLeft extends React.Component {
         this.state = {
             login: true,
             loading: false,
+            value:this.props.mouseClick
             
         }
         this.handleSubmit = this.handleSubmit.bind(this);
@@ -30,15 +31,13 @@ class ContentDetailLeft extends React.Component {
         if(number>=1){
             this.props.dispatch(mouseClickSettingNumberProduct(number));
         }
-        
+        this.setState({value: this.props.mouseClick});
     }
     onHandleChange(event){
         
     }
     render() {
         var {loadDetail}=this.props;
-        //console.log(loadDetail[0]);
-        var numberProduct=this.props.mouseClick;
         return (
             <div className="col-md-7 detail-item">
                 <h4>{(loadDetail[0]!=undefined) &&loadDetail[0].title}</h4>
@@ -70,7 +69,7 @@ class ContentDetailLeft extends React.Component {
                 </div>
                 <div className="row quantity mb-4">
                     <div className="col-3">
-                        <input type="text" id="quantity" name="quantity" onChange={()=>this.onHandleChange()} className="form-control input-number" defaultValue={this.props.mouseClick} />
+                        <input type="text" id="quantity" name="quantity" onChange={()=>this.onHandleChange()} className="form-control input-number" value={this.state.value} />
                     </div>
                     <div className="col-2 pl-0">
                         <div className="row plus pl-0">
