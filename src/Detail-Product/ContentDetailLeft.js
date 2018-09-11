@@ -31,6 +31,9 @@ class ContentDetailLeft extends React.Component {
         }
         
     }
+    onHandleChange(event){
+        
+    }
     render() {
         var {loadDetail}=this.props;
         //console.log(loadDetail[0]);
@@ -66,7 +69,7 @@ class ContentDetailLeft extends React.Component {
                 </div>
                 <div className="row quantity mb-4">
                     <div className="col-3">
-                        <input type="text" id="quantity" name="quantity" className="form-control input-number" defaultValue={1} value={this.props.mouseClick} />
+                        <input type="text" id="quantity" name="quantity" onChange={()=>this.onHandleChange()} className="form-control input-number" defaultValue={1} value={this.props.mouseClick} />
                     </div>
                     <div className="col-2 pl-0">
                         <div className="row plus pl-0">
