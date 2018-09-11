@@ -53,7 +53,6 @@ function mapStateToProps(state) {
 
     return {
         loadDetail:state.initLoadProductDetail,
-        mouseHandle:mouseOverImageDetailProduct
     }
 }
 const connected = connect(mapStateToProps)(ContentDetailRight);
