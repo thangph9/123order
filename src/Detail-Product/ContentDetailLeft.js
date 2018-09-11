@@ -26,7 +26,7 @@ class ContentDetailLeft extends React.Component {
 
         })
     }
-    componentDidMount(){
+    componentWillMount(){
         this.setState({value: this.props.mouseClick});
     }
     handleClickMinus(value){
