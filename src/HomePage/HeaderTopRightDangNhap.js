@@ -29,7 +29,7 @@ class HeaderTopRightDangNhap extends React.Component{
         
         return (
             <li className="nav-item">
-                <span id="login" data-toggle="modal" data-target="#myLogin" className="nav-link text-white">ĐĂNG NHẬP</span>
+                <span id="login" style={{cursor:'pointer'}} data-toggle="modal" data-target="#myLogin" className="nav-link text-white">ĐĂNG NHẬP</span>
             </li>
 
         )
