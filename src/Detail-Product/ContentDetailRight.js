@@ -48,11 +48,11 @@ class ContentDetailRight extends React.Component {
 
         return (
             <div onMouseOut={()=>this.handleOut()} className="col-md-1 xzoom-thumbs">
-                <span style={{cursor:'pointer'}} ><img onClick={()=>this.handleClickImage(1)} onMouseOver={()=>this.handleMouseOver(1)} alt="img" className="xzoom-gallery d-lg-block mb-2  xactive" src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[0]:'' } /></span>
-                <span style={{cursor:'pointer'}} ><img onClick={()=>this.handleClickImage(2)} onMouseOver={()=>this.handleMouseOver(2)} alt="img" className="xzoom-gallery d-lg-block mb-2  xactive" src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[1] :''}/></span>
-                <span style={{cursor:'pointer'}} ><img onClick={()=>this.handleClickImage(3)} onMouseOver={()=>this.handleMouseOver(3)} alt="img" className="xzoom-gallery d-lg-block mb-2  xactive" src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[2] : ''} /></span>
-                <span style={{cursor:'pointer'}} ><img onClick={()=>this.handleClickImage(4)} onMouseOver={()=>this.handleMouseOver(4)} alt="img" className="xzoom-gallery d-lg-block mb-2  xactive" src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[3] : ''} /></span>
-                <span style={{cursor:'pointer'}} ><img onClick={()=>this.handleClickImage(5)} onMouseOver={()=>this.handleMouseOver(5)} alt="img" className="xzoom-gallery d-lg-block mb-2  xactive" src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[4] :''} /></span>
+                <span style={{cursor:'pointer'}} ><img className={(handleMouse==0)?' activeSmallImage':''} onClick={()=>this.handleClickImage(1)} onMouseOver={()=>this.handleMouseOver(1)} alt="img" className="xzoom-gallery d-lg-block mb-2  xactive" src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[0]:'' } /></span>
+                <span style={{cursor:'pointer'}} ><img className={(handleMouse==1)?' activeSmallImage':''} onClick={()=>this.handleClickImage(2)} onMouseOver={()=>this.handleMouseOver(2)} alt="img" className="xzoom-gallery d-lg-block mb-2  xactive" src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[1] :''}/></span>
+                <span style={{cursor:'pointer'}} ><img className={(handleMouse==2)?' activeSmallImage':''} onClick={()=>this.handleClickImage(3)} onMouseOver={()=>this.handleMouseOver(3)} alt="img" className="xzoom-gallery d-lg-block mb-2  xactive" src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[2] : ''} /></span>
+                <span style={{cursor:'pointer'}} ><img className={(handleMouse==3)?' activeSmallImage':''} onClick={()=>this.handleClickImage(4)} onMouseOver={()=>this.handleMouseOver(4)} alt="img" className="xzoom-gallery d-lg-block mb-2  xactive" src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[3] : ''} /></span>
+                <span style={{cursor:'pointer'}} ><img className={(handleMouse==4)?' activeSmallImage':''} onClick={()=>this.handleClickImage(5)} onMouseOver={()=>this.handleMouseOver(5)} alt="img" className="xzoom-gallery d-lg-block mb-2  xactive" src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[4] :''} /></span>
             </div>
         )
 
