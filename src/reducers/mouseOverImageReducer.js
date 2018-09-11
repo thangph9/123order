@@ -1,7 +1,6 @@
 
 
-export function mouseOverImageDetailProduct(state=0,action){
-	var productClicked=0;
+export function mouseOverImageDetailProduct(state=0,action,productClicked=0){
 	switch (action.type) {
 		case 'MOUSE_OVER_SMALL_IMAGE_PRODUCT':
 		return action.numb;
