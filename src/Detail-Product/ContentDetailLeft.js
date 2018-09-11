@@ -26,8 +26,12 @@ class ContentDetailLeft extends React.Component {
 
         })
     }
+    componentDidMount(){
+        this.setState({value: this.props.mouseClick});
+    }
     handleClickMinus(value){
         var number=this.props.mouseClick +value;
+        if(value==1) this.setState({value: this.props.mouseClick+1});
         if(number>=1){
             this.props.dispatch(mouseClickSettingNumberProduct(number));
         }
