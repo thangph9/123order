@@ -10,7 +10,8 @@ class ContentDetailRight extends React.Component {
         this.state = {
             login: true,
             loading: false,
-            numbOut:0
+            numbOut:0,
+            borderStyle:''
         }
         this.handleSubmit = this.handleSubmit.bind(this);
         this.handleChange = this.handleChange.bind(this);
@@ -31,7 +32,10 @@ class ContentDetailRight extends React.Component {
         this.props.dispatch(mouseOverSmallImageProduct(value));
     }
     handleClickImage(value){
-        this.setState({numbOut:value})
+        this.setState({
+            numbOut:value,
+            borderStyle:'solid 1px red'
+        })
         this.props.dispatch(mouseClickSmallImageProduct(value));
     }
     handleOut(){
@@ -41,11 +45,11 @@ class ContentDetailRight extends React.Component {
         var {loadDetail}=this.props;
         return (
             <div onMouseOut={()=>this.handleOut()} className="col-md-1 xzoom-thumbs">
-                <span style={{cursor:'pointer'}} ><img onClick={()=>this.handleClickImage(1)} onMouseOver={()=>this.handleMouseOver(1)} alt="img" className="xzoom-gallery d-lg-block mb-2  xactive" src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[0]:'' } /></span>
-                <span style={{cursor:'pointer'}} ><img onClick={()=>this.handleClickImage(2)} onMouseOver={()=>this.handleMouseOver(2)} alt="img" className="xzoom-gallery d-lg-block mb-2  xactive" src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[1] :''}/></span>
-                <span style={{cursor:'pointer'}} ><img onClick={()=>this.handleClickImage(3)} onMouseOver={()=>this.handleMouseOver(3)} alt="img" className="xzoom-gallery d-lg-block mb-2  xactive" src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[2] : ''} /></span>
-                <span style={{cursor:'pointer'}} ><img onClick={()=>this.handleClickImage(4)} onMouseOver={()=>this.handleMouseOver(4)} alt="img" className="xzoom-gallery d-lg-block mb-2  xactive" src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[3] : ''} /></span>
-                <span style={{cursor:'pointer'}} ><img onClick={()=>this.handleClickImage(5)} onMouseOver={()=>this.handleMouseOver(5)} alt="img" className="xzoom-gallery d-lg-block mb-2  xactive" src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[4] :''} /></span>
+                <span style={{cursor:'pointer',border:this.state.borderStyle}} ><img onClick={()=>this.handleClickImage(1)} onMouseOver={()=>this.handleMouseOver(1)} alt="img" className="xzoom-gallery d-lg-block mb-2  xactive" src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[0]:'' } /></span>
+                <span style={{cursor:'pointer',border:this.state.borderStyle}} ><img onClick={()=>this.handleClickImage(2)} onMouseOver={()=>this.handleMouseOver(2)} alt="img" className="xzoom-gallery d-lg-block mb-2  xactive" src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[1] :''}/></span>
+                <span style={{cursor:'pointer',border:this.state.borderStyle}} ><img onClick={()=>this.handleClickImage(3)} onMouseOver={()=>this.handleMouseOver(3)} alt="img" className="xzoom-gallery d-lg-block mb-2  xactive" src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[2] : ''} /></span>
+                <span style={{cursor:'pointer',border:this.state.borderStyle}} ><img onClick={()=>this.handleClickImage(4)} onMouseOver={()=>this.handleMouseOver(4)} alt="img" className="xzoom-gallery d-lg-block mb-2  xactive" src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[3] : ''} /></span>
+                <span style={{cursor:'pointer',border:this.state.borderStyle}} ><img onClick={()=>this.handleClickImage(5)} onMouseOver={()=>this.handleMouseOver(5)} alt="img" className="xzoom-gallery d-lg-block mb-2  xactive" src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[4] :''} /></span>
             </div>
         )
 
