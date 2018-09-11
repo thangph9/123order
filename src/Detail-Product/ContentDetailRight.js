@@ -34,7 +34,7 @@ class ContentDetailRight extends React.Component {
     handleClickImage(value){
         this.setState({
             numbOut:value,
-            borderStyle:'solid 1px red'
+            
         })
         this.props.dispatch(mouseClickSmallImageProduct(value));
     }
@@ -43,13 +43,16 @@ class ContentDetailRight extends React.Component {
     }
     render() {
         var {loadDetail}=this.props;
+        var {handleMouse}=this.props;
+        var borderStyle='';
+
         return (
             <div onMouseOut={()=>this.handleOut()} className="col-md-1 xzoom-thumbs">
-                <span style={{cursor:'pointer',border:this.state.borderStyle}} ><img onClick={()=>this.handleClickImage(1)} onMouseOver={()=>this.handleMouseOver(1)} alt="img" className="xzoom-gallery d-lg-block mb-2  xactive" src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[0]:'' } /></span>
-                <span style={{cursor:'pointer',border:this.state.borderStyle}} ><img onClick={()=>this.handleClickImage(2)} onMouseOver={()=>this.handleMouseOver(2)} alt="img" className="xzoom-gallery d-lg-block mb-2  xactive" src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[1] :''}/></span>
-                <span style={{cursor:'pointer',border:this.state.borderStyle}} ><img onClick={()=>this.handleClickImage(3)} onMouseOver={()=>this.handleMouseOver(3)} alt="img" className="xzoom-gallery d-lg-block mb-2  xactive" src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[2] : ''} /></span>
-                <span style={{cursor:'pointer',border:this.state.borderStyle}} ><img onClick={()=>this.handleClickImage(4)} onMouseOver={()=>this.handleMouseOver(4)} alt="img" className="xzoom-gallery d-lg-block mb-2  xactive" src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[3] : ''} /></span>
-                <span style={{cursor:'pointer',border:this.state.borderStyle}} ><img onClick={()=>this.handleClickImage(5)} onMouseOver={()=>this.handleMouseOver(5)} alt="img" className="xzoom-gallery d-lg-block mb-2  xactive" src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[4] :''} /></span>
+                <span style={{cursor:'pointer'}} ><img {(handleMouse==1)? borderStyle='solid 1px red':borderStyle=''} style={{border:borderStyle}} onClick={()=>this.handleClickImage(1)} onMouseOver={()=>this.handleMouseOver(1)} alt="img" className="xzoom-gallery d-lg-block mb-2  xactive" src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[0]:'' } /></span>
+                <span style={{cursor:'pointer'}} ><img {(handleMouse==2)? borderStyle='solid 1px red':borderStyle=''} style={{border:borderStyle}} onClick={()=>this.handleClickImage(2)} onMouseOver={()=>this.handleMouseOver(2)} alt="img" className="xzoom-gallery d-lg-block mb-2  xactive" src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[1] :''}/></span>
+                <span style={{cursor:'pointer'}} ><img {(handleMouse==3)? borderStyle='solid 1px red':borderStyle=''} style={{border:borderStyle}} onClick={()=>this.handleClickImage(3)} onMouseOver={()=>this.handleMouseOver(3)} alt="img" className="xzoom-gallery d-lg-block mb-2  xactive" src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[2] : ''} /></span>
+                <span style={{cursor:'pointer'}} ><img {(handleMouse==4)? borderStyle='solid 1px red':borderStyle=''} style={{border:borderStyle}} onClick={()=>this.handleClickImage(4)} onMouseOver={()=>this.handleMouseOver(4)} alt="img" className="xzoom-gallery d-lg-block mb-2  xactive" src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[3] : ''} /></span>
+                <span style={{cursor:'pointer'}} ><img {(handleMouse==5)? borderStyle='solid 1px red':borderStyle=''} style={{border:borderStyle}} onClick={()=>this.handleClickImage(5)} onMouseOver={()=>this.handleMouseOver(5)} alt="img" className="xzoom-gallery d-lg-block mb-2  xactive" src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[4] :''} /></span>
             </div>
         )
 
@@ -59,6 +62,7 @@ function mapStateToProps(state) {
 
     return {
         loadDetail:state.initLoadProductDetail,
+        handleMouse:state.mouseOverImageDetailProduct
     }
 }
 const connected = connect(mapStateToProps)(ContentDetailRight);
