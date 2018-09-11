@@ -10,3 +10,9 @@ export const mouseClickSettingNumberProduct=(numb)=>{
 		numb
 	}
 }
+export const mouseClickSmallImageProduct=(numb)=>{
+	return{
+		type: 'MOUSE_CLICK_SMALL_IMAGE_PRODUCT',
+		numb
+	}
+}
