@@ -36,7 +36,7 @@ class ContentDetailRight extends React.Component {
             numbOut:value,
             
         })
-        console.log(handleMouse);
+        console.log(this.props.handleMouse);
         this.props.dispatch(mouseClickSmallImageProduct(value));
     }
     handleOut(){
