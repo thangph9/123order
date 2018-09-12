@@ -29,8 +29,9 @@ class ContentDetailRight extends React.Component {
         })
     }
     handleMouseOver(value){
-        this.props.dispatch(mouseOverSmallImageProduct(value));
         console.log(this.state.numbOut);
+        this.props.dispatch(mouseOverSmallImageProduct(value));
+
     }
     handleClickImage(value){
         this.setState({
@@ -45,7 +46,6 @@ class ContentDetailRight extends React.Component {
     render() {
         var {loadDetail}=this.props;
         var {handleMouse}=this.props;
-        console.log(this.state.numbOut);
         return (
             <div onMouseOut={()=>this.handleOut()} className="col-md-1 xzoom-thumbs">
                 <span style={{cursor:'pointer'}} ><img onClick={()=>this.handleClickImage(1)} onMouseOver={()=>this.handleMouseOver(1)} alt="img" className={(this.state.numbOut===1) ? 'xzoom-gallery d-lg-block mb-2  xactive active-small-image': 'xzoom-gallery d-lg-block mb-2  xactive'} src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[0]:'' } /></span>
