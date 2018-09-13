@@ -29,8 +29,8 @@ class ContentDetailCentre extends React.Component {
         var {loadDetail}=this.props;
         var {mouseOverImage} = this.props;
         return (
-            <div className="col-md-4 big-img">
-                <ReactImageMagnify  {...{
+            <div className="col-md-4">
+                <ReactImageMagnify className="xzoom" {...{
 						smallImage: {
 							alt: 'img',
 							isFluidWidth: true,
@@ -38,8 +38,8 @@ class ContentDetailCentre extends React.Component {
 						},
 						largeImage: {
 							src: (loadDetail[0]!=undefined ) ? loadDetail[0].largeimage[mouseOverImage]:'',
-							width:900,
-                            height: 900						
+							width:800,
+                            height: 800						
                         }		
 			}} />
             </div>
