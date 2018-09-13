@@ -39,7 +39,7 @@ class Content extends React.Component{
 }
 function mapStateToProps(state){
   
-    return state;
+    return  state;
 }
 const connectedContent=connect(mapStateToProps)(Content);
 export { connectedContent as Content } 
