@@ -47,14 +47,14 @@ class ContentDetailRight extends React.Component {
                 <ReactImageMagnify className={(handleMouse==1) ? 'xzoom-gallery d-lg-block mb-2  xactive active-small-image': 'xzoom-gallery d-lg-block mb-2  xactive'}  onMouseOver={()=>this.handleMouseOver(1)} {...{
 						smallImage: {
 							alt: 'img',
-							width:300,
-							height:300,
+							width:350,
+							height:350,
 							src: (loadDetail[0]!=undefined) ? loadDetail[0].smallimage[0]:'' 
 						},
 						largeImage: {
 							src: (loadDetail[0]!=undefined) ? loadDetail[0].smallimage[0]:'',
-							width: 900,
-							height: 900
+							width: 425,
+							height: 425
 						}		
 			}} />
                 </li>
