@@ -57,7 +57,6 @@ class ContentDetailRight extends React.Component {
 							height: 900
 						}		
 			}} />
-                <img onClick={()=>this.handleClickImage(1)}  alt="img" />
                 </li>
                 <li style={{cursor:'pointer'}} ><img onClick={()=>this.handleClickImage(2)} onMouseOver={()=>this.handleMouseOver(2)} alt="img" className={(handleMouse==2) ? 'xzoom-gallery d-lg-block mb-2  xactive active-small-image': 'xzoom-gallery d-lg-block mb-2  xactive'} src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[1] :''}/></li>
                 <li style={{cursor:'pointer'}} ><img onClick={()=>this.handleClickImage(3)} onMouseOver={()=>this.handleMouseOver(3)} alt="img" className={(handleMouse==3) ? 'xzoom-gallery d-lg-block mb-2  xactive active-small-image': 'xzoom-gallery d-lg-block mb-2  xactive'} src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[2] : ''} /></li>
