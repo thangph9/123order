@@ -38,8 +38,7 @@ class ContentDetailCentre extends React.Component {
 						},
 						largeImage: {
 							src: (loadDetail[0]!=undefined ) ? loadDetail[0].largeimage[mouseOverImage]:'',
-							width:900,
-                            height: 900						
+							isFluidWidth: true,					
                         }		
 			}} />
             </div>
