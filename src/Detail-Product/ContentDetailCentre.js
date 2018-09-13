@@ -41,7 +41,10 @@ class ContentDetailCentre extends React.Component {
 							width:800,
                             height: 800						
                         },
-                        shouldUsePositiveSpaceLens: true	
+                        shouldUsePositiveSpaceLens: true,
+                        enlargedImageContainerDimensions:{
+							width: '150%', height: '150%'
+						}	
 			}} />
             </div>
         )
