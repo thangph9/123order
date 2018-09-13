@@ -9,8 +9,6 @@ class ContentDetailRight extends React.Component {
         this.state = {
             login: true,
             loading: false,
-            numbOut:1,
-            borderStyle:''
         }
         this.handleSubmit = this.handleSubmit.bind(this);
         this.handleChange = this.handleChange.bind(this);
