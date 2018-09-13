@@ -1,7 +1,7 @@
 import React from "react";
 //import { Link } from "react-router-dom";
 import { connect } from "react-redux";
-
+import ReactImageMagnify from 'react-image-magnify';
 class ContentDetailCentre extends React.Component {
     constructor(props) {
         super(props);
@@ -30,7 +30,21 @@ class ContentDetailCentre extends React.Component {
         var {mouseOverImage} = this.props;
         return (
             <div className="col-md-4 big-img">
-                <img alt ="img" className="xzoom" src={(loadDetail[0]!=undefined ) ? loadDetail[0].largeimage[mouseOverImage]:''} />
+                <img alt ="img" className="xzoom" />
+                <ReactImageMagnify {...{
+						smallImage: {
+							alt: 'img',
+							width:350,
+							height:350,
+							src: (loadDetail[0]!=undefined ) ? loadDetail[0].largeimage[mouseOverImage]:''
+						},
+						largeImage: {
+							src: (loadDetail[0]!=undefined ) ? loadDetail[0].largeimage[mouseOverImage]:'',
+							width: 425,
+							height: 425
+						}
+						
+			}} />
             </div>
 
         )
