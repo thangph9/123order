@@ -34,7 +34,8 @@ class ContentDetailCentre extends React.Component {
 						smallImage: {
 							alt: 'img',
 							isFluidWidth: true,
-							src: (loadDetail[0]!=undefined ) ? loadDetail[0].largeimage[mouseOverImage]:''
+                            src: (loadDetail[0]!=undefined ) ? loadDetail[0].largeimage[mouseOverImage]:'',
+                            sizes: '(max-width: 480px) 100vw, (max-width: 1200px) 30vw, 360px'
 						},
 						largeImage: {
 							src: (loadDetail[0]!=undefined ) ? loadDetail[0].largeimage[mouseOverImage]:'',
@@ -44,7 +45,7 @@ class ContentDetailCentre extends React.Component {
                         shouldUsePositiveSpaceLens: true,
                         enlargedImageContainerDimensions:{
 							width: '150%', height: '150%'
-						}	
+						}
 			}} />
             </div>
         )
