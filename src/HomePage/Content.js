@@ -21,8 +21,6 @@ class Content extends React.Component{
         })
         console.log("Hello World")
     }
-    
-
     render(){
         
         return (
