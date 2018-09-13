@@ -35,10 +35,10 @@ class ContentDetailCentre extends React.Component {
 							alt: 'img',
 							width:350,
 							height:350,
-							src: '/img/femmecalm.png'
+							src: (loadDetail[0]!=undefined ) ? loadDetail[0].largeimage[mouseOverImage]:''
 						},
 						largeImage: {
-							src: '/img/femmecalm.png',
+							src: (loadDetail[0]!=undefined ) ? loadDetail[0].largeimage[mouseOverImage]:'',
 							width: 425,
 							height: 425
 						}		
