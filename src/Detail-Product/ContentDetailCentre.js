@@ -44,7 +44,6 @@ class ContentDetailCentre extends React.Component {
 						}		
 			}} />
             </div>
-
         )
 
     }
