@@ -33,13 +33,12 @@ class ContentDetailCentre extends React.Component {
                 <ReactImageMagnify className="xzoom" {...{
 						smallImage: {
 							alt: 'img',
-							width:350,
-							height:350,
+							isFluidWidth: true,
 							src: (loadDetail[0]!=undefined ) ? loadDetail[0].largeimage[mouseOverImage]:''
 						},
 						largeImage: {
 							src: (loadDetail[0]!=undefined ) ? loadDetail[0].largeimage[mouseOverImage]:'',
-							width: 900,
+							width:900,
                             height: 900						
                         }		
 			}} />
