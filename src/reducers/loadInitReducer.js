@@ -3,7 +3,7 @@ export function initLoadEbayHide(state={},action){
 	switch (action.type) {
 		case 'INIT_LOAD_EBAY_HIDE':{
 			var item=action.arrData.map((value,index)=>{
-				return {...state,id:value.id,detail:value.detail,from:value.from,price:value.price,salePrice:value.salePrice,linkImg:value.linkImg};
+				return {id:value.id,detail:value.detail,from:value.from,price:value.price,salePrice:value.salePrice,linkImg:value.linkImg};
 			})
 			return item;
 		};
