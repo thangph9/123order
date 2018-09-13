@@ -40,7 +40,8 @@ class ContentDetailCentre extends React.Component {
 							src: (loadDetail[0]!=undefined ) ? loadDetail[0].largeimage[mouseOverImage]:'',
 							width:800,
                             height: 800						
-                        }		
+                        },
+                        shouldUsePositiveSpaceLens: true	
 			}} />
             </div>
         )
