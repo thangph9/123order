@@ -12,6 +12,7 @@ class ContentDetailLeft extends React.Component {
         }
         this.handleSubmit = this.handleSubmit.bind(this);
         this.handleChange = this.handleChange.bind(this);
+        this.handleSelect = this.handleSelect.bind(this);
     }
     handleSubmit() {
         this.setState({
@@ -33,9 +34,9 @@ class ContentDetailLeft extends React.Component {
         }
         
     }
-    onHandleChange(event){
-        
-    }
+    handleSelect(e){
+		console.log(e.target.value);
+	}
     render() {
         var {loadDetail}=this.props;
         return (
@@ -68,28 +69,16 @@ class ContentDetailLeft extends React.Component {
                     </ul>
                 </div>
                 <div className="row quantity mb-4">
-                    <div className="col-3">
-                        <input type="text" id="quantity" name="quantity" onChange={()=>this.onHandleChange()} className="form-control input-number" value={this.props.mouseClick} />
-                    </div>
-                    <div className="col-2 pl-0">
-                        <div className="row plus pl-0">
-                            <span className="input-group-btn">
-                                <button type="button" onClick={()=>this.handleClickMinus(-1)} className="quantity-left-minus btn btn-danger btn-number" data-type="minus" data-field> -
-            <span className="glyphicon glyphicon-minus" />
-                                </button>
-                            </span>
-                        </div>
-                        <div className="row">
-                            <span className="input-group-btn">
-                                <button type="button" onClick={()=>this.handleClickMinus(1)} className="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field> +
-            <span className="glyphicon glyphicon-plus">
-                                    </span>
-                                </button>
-                            </span>
-                        </div>
+                <div className="col-3">
+						<select style={{position: 'relative',left:'25px',borderWidth: '1px',borderStyle: 'solid',borderColor: 'rgb(221, 221, 221)',borderImage: 'initial',borderRadius: '5px',padding: '3px',width: '46px'}} defaultValue={1} onChange={this.handleSelect}>
+							<option value={1}>1</option>
+							<option value={2}>2</option>
+							<option value={3}>3</option>
+							<option value={4}>4	</option>
+						</select>
                     </div>
                     <div className="col-7 add-cart">
-                        <button className="btn btn-primary">THÊM VÀO GIỎ HÀNG</button>
+                        <button style={{position: 'relative',right: '77px',top: '-2px',width: '55%'}} className="btn btn-primary">THÊM VÀO GIỎ HÀNG</button>
                     </div>
                 </div>
                 <div className="ml-5">
