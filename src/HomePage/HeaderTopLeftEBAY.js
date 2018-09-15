@@ -26,17 +26,6 @@ class HeaderTopLeftEBAY extends React.Component {
             login: true,
         })
     }
-    // componentDidMount() {
-    //     $('#navbarDropdownMenuLinkEbay').on('click', function () {
-    //         $('#menuEbay').toggleClass("show");
-    //         $('#linkEbay').toggleClass("show");
-    //         $('#linkAmazon').removeClass("show");
-    //         $('#linkTopStore').removeClass("show");
-    //         $('#navbarDropdownMenuLinkEbay').attr('aria-expanded', 'true');
-
-    //     })
-    // }
-
     render() {
 
         return (

@@ -25,16 +25,6 @@ class HeaderTopLeftAMAZON extends React.Component {
 
         })
     }
-    // componentDidMount() {
-    //     $('#navbarDropdownMenuLinkAmazon').on('click', function () {
-    //         $('#menuAmazon').toggleClass("show");
-    //         $('#linkAmazon').toggleClass("show");
-    //         $('#linkEbay').removeClass("show");
-    //         $('#linkTopStore').removeClass("show");
-    //         $('#navbarDropdownMenuLinkAmazon').attr('aria-expanded', 'true');
-    //     })
-    // }
-
     render() {
 
         return (
