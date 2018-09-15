@@ -19,7 +19,7 @@ class RegisterHide extends React.Component {
 
         return (
 
-            <div className="register modal fade" id="myRegister" style={{ display: 'none' }} aria-hidden="true">
+            <div className="register modal fade" id="myRegister">
                 <div className="modal-dialog">
                     <div className="modal-content">
                         {/* Modal body */}

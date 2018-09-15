@@ -18,7 +18,7 @@ class LoginHide extends React.Component {
     render() {
 
         return (
-            <div className="login modal fade" id="myLogin" style={{display: 'none'}} aria-hidden="true">
+            <div className="login modal fade" id="myLogin">
   <div className="modal-dialog">
     <div className="modal-content">
       {/* Modal body */}
