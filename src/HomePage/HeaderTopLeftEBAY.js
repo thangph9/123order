@@ -30,7 +30,7 @@ class HeaderTopLeftEBAY extends React.Component {
 
         return (
             <li className="nav-item dropdown" id='menuEbay' >
-                <Link to="/danh-muc-ebay" className='nav-link dropdown-toggle dropdown-arrow text-white' id="navbarDropdownMenuLinkEbay" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <Link exact to="/danh-muc-ebay" className='nav-link text-white'>
                     EBAY
                 </Link>
                 <div className="container dropdown-menu ebay-position menu2-dropdown bg-white" aria-haspopup="true" aria-expanded="false" id='linkEbay'>
