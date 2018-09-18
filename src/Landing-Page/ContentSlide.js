@@ -28,7 +28,7 @@ class ContentSlide extends React.Component{
             arrows: false
         };
         return (
-            <div style={{marginTop:'4px'}}>     
+            <div style={{marginTop:'21px',maringBot:'15px'}}>     
                         <Slider {...settings}>
                             <img alt='landing-img' src="https://static-v3.weshop.com.vn/upload/cms/18/09/08/k/d/v/7/v/1.jpg" style={{width:'1140px'}} />
                             <img alt='landing-img' src="https://static-v3.weshop.com.vn/upload/cms/18/09/08/m/c/f/e/o/1349x500.jpg" style={{width:'1140px'}} />

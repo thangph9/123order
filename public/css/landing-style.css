@@ -1,0 +1,29 @@
+.list-inline{
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+.main-tabs{
+    text-align: right;
+}
+.main-tabs ul {
+    border-bottom: 1px solid #ddd;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+.main-tabs ul li {
+    position: relative;
+}
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+ul li {
+    list-style: none;
+}
