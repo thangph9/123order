@@ -28,9 +28,9 @@
 .main-tabs ul li a {
     color: #313131;
 }
+.main-tabs:hover, .main-tabs:hover li {
+    border-bottom: 2px solid black;
+  }
 ul li {
     list-style: none;
 }
-li:hover {
-    border-bottom: 2px solid black;
-  }
