@@ -30,7 +30,6 @@ class ProductItem extends React.Component {
                     </div>
                     <div className="card-body p-2">
                         <h5 className="card-title deal-title-font" style={{ height:'48px' }}>{data.title}</h5>
-                        <p className="card-text xuat-xu mb-1">Xuất xứ: </p>
                         {/* Starchart */}
                         <i className="fa fa-star text-warning" />
                         <i className="fa fa-star text-warning" />
