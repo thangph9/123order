@@ -10,6 +10,10 @@
 .main-tabs ul {
     border-bottom: 1px solid #ddd;
     display: inline-block;
+    
+}
+.main-tabs li{
+    display: inline-block;
     padding-bottom: 10px;
 }
 .list-inline {
@@ -28,9 +32,9 @@
 .main-tabs ul li a {
     color: #313131;
 }
-.main-tabs:hover, .main-tabs:hover li {
-    border-bottom: 2px solid black;
-  }
 ul li {
     list-style: none;
+}
+.main-tabs li:hover {
+    border-bottom: 2px solid black;
 }
