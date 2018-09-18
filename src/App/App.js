@@ -3,7 +3,6 @@ import { Router,Route, Switch } from "react-router-dom";
 import { connect } from "react-redux";
 //import { createBrowserHistory } from 'history';
 import {Price} from '../Price/Price';
-import { Test } from '../Test';
 import { COD } from "../COD";
 import { DanhMucEbay } from "../DanhMucEbay";
 import { DanhMucAmazon } from "../DanhMucAmazon";
@@ -13,6 +12,7 @@ import {BestSeller} from '../BestSeller';
 import {GiaSocMoiNgay} from '../GiaSocMoiNgay';
 import {HotDealCongNghe} from '../HotDealCongNghe';
 import {MuaHangAmazon} from '../MuaHangAmazon';
+import {LandingPage} from '../Landing-Page';
 import {DetailProduct} from '../Detail-Product/DetailProduct';
 import {HomePage} from '../HomePage';
 import { history } from "../stores";
@@ -55,6 +55,7 @@ class App extends Component{
                         <Route exact path="/detail-product/:deadid" component={DetailProduct} />
                         <Route exact path="/best-seller" component={BestSeller} />
                         <Route exact path="/hot-deal-cong-nghe" component={HotDealCongNghe} />
+                        <Route exact path="/landing-page" component={LandingPage} />
                         <Route exact path="/price" component={Price} />
                     </Switch>
 
