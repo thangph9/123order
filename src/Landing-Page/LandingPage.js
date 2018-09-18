@@ -22,6 +22,7 @@ class LandingPage extends React.Component {
     }
 }
 function mapStateToProps(state) {
+    return state;
 }
 const connectedHomePage = connect(mapStateToProps)(LandingPage);
 export { connectedHomePage as LandingPage } 
