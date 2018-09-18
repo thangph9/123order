@@ -26,7 +26,7 @@ class ContentDeal extends React.Component{
         return (
             <div className="container-fluid mt-4">
                 <ContentDealTitle/>
-                <div className="container">
+                <div className="container" style={{maxWidth: '1200px'}}>
                     <ProductItemBox/>
                     <ContentDealSeeMore/>
                     <ContentAdvertising/>
