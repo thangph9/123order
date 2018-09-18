@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { ContentSlide } from "./ContentSlide";
-
+import { ContentTrademark } from "./ContentTrademark";
 class Content extends React.Component{
     constructor(props){
         super(props);
@@ -22,6 +22,7 @@ class Content extends React.Component{
         return (
             <div>
                 <ContentSlide/>
+                <ContentTrademark/>
             </div>
         )
         
