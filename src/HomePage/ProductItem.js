@@ -26,7 +26,7 @@ class ProductItem extends React.Component {
                 <div className="card" style={{width:'222px',height:'340px'}}>
                     <div className="hovereffect" style={{width:'220px',height:'210px'}}>
                     <span style={{position: 'absolute',top: '10px',right: '10px',background: 'red',color: '#fff',fontSize: '13px',fontWeight: 700,borderRadius: '3px',padding: '2px 5px',zIndex: 9}}>-64%</span>
-                        <img style= {{width:'210px',height:'210px'}} className="card-img-top img-thumbnail border-0 img-fluid" src={data.img} alt='img'/>
+                        <img style= {{width:'220px',height:'220px'}} className="card-img-top img-thumbnail border-0 img-fluid" src={data.img} alt='img'/>
                         <div className="overlay">
                             <Link to={"/detail-product/"+data.dealid} onClick={()=>this.handleClickLink(data)} className="info">Chi tiết</Link>
                         </div>
