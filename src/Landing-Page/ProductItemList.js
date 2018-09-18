@@ -23,18 +23,16 @@ class ProductItemList extends React.Component{
         var dem=0;
         return (
                 <div className="row">
-                { isItem &&
-                    initLoad.map((e,i) =>{
-                        if(dem<5+this.props.loadAdd){
-                            dem++;
-                            return (<ProductItem key={i} data={e} customStyle="block"/>)
-                        }
-                        else{
-                            return (<ProductItem key={i} data={e} customStyle="none"/>)
-                        }
-                        
-                    })
-                }
+                    <ProductItem/>
+                    <ProductItem/>
+                    <ProductItem/>
+                    <ProductItem/>
+                    <ProductItem/>
+                    <ProductItem/>
+                    <ProductItem/>
+                    <ProductItem/>
+                    <ProductItem/>
+                    <ProductItem/>
                 </div>
         )
         

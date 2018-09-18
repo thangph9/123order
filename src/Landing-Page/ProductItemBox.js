@@ -15,6 +15,9 @@ class ProductItemBox extends React.Component{
         return (
                 <div>
                     <ProductItemList />
+                    <ProductItemList />
+                    <ProductItemList />
+                    <ProductItemList />
                 </div>
         )
         

@@ -31,7 +31,7 @@ class ProductItem extends React.Component {
                         </div>
                     </div>
                     <div className="card-body p-2">
-                        <h5 className="card-title deal-title-font" style={{ height:'32px' }}>{data.title}</h5>
+                        <h5 className="card-title deal-title-font" style={{ height:'32px' }}>Invicta  Angel 90256  Stainless Steel  Watch</h5>
                         {/* Starchart */}
                         <i className="fa fa-star text-warning" />
                         <i className="fa fa-star text-warning" />
@@ -42,7 +42,7 @@ class ProductItem extends React.Component {
                         <strong className="card-text align-left deal-price" style={{width: '97px',fontSize: '12px',fontFamily:'Arial,Helvetica,sans-serif'}}>10.000.000 VNĐ</strong>
                         <span className="card-text align-right deal-old-price mb-2"><s style={{fontSize:'12px'}}>13.000.000 VNĐ</s></span>
                         <div style={{ clear: 'both' }} />
-                        <p className="card-text align-left deal-old-price"><i  className={(data.death_clock==='None')? '' :'far fa-clock card-text'} /> {(data.death_clock==='None') ? '' : data.death_clock }</p>
+                        <p className="card-text align-left deal-old-price"><i  className='far fa-clock card-text' />15:00</p>
                     </div>
                 </div>
             </div>
