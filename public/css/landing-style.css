@@ -31,3 +31,6 @@
 ul li {
     list-style: none;
 }
+li:hover {
+    border-bottom: 2px solid black;
+  }
