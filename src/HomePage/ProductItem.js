@@ -17,6 +17,9 @@ class ProductItem extends React.Component {
 
         var display=this.props.customStyle;
         var {data}=this.props;
+        if (data.title.length>65){
+            data.title= data.title.slice(0,65)+'...';
+        }
         console.log(data);
         return (
             <div className="col-md mt-2 px-2" style={{display:display,marginBottom:'8px'}}>
