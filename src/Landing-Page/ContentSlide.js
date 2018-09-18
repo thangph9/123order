@@ -27,12 +27,14 @@ class ContentSlide extends React.Component{
         return (
             <div className="container mt-2">
                 <div className="row">
-                <Slider {...settings}>
-                    <img alt='landing-img' src="https://static-v3.weshop.com.vn/upload/cms/18/09/08/k/d/v/7/v/1.jpg" style={{width:'1140px'}} />
-                    <img alt='landing-img' src="https://static-v3.weshop.com.vn/upload/cms/18/09/08/m/c/f/e/o/1349x500.jpg" style={{width:'1140px'}} />
-                    <img alt='landing-img' src="https://static-v3.weshop.com.vn/upload/cms/18/09/08/k/d/v/7/v/1.jpg" style={{width:'1140px'}} />
-                    <img alt='landing-img' src="https://static-v3.weshop.com.vn/upload/cms/18/09/08/m/c/f/e/o/1349x500.jpg" style={{width:'1140px'}} />
-                </Slider>
+                    <div className="col-12">
+                        <Slider {...settings}>
+                            <img alt='landing-img' src="https://static-v3.weshop.com.vn/upload/cms/18/09/08/k/d/v/7/v/1.jpg" style={{width:'1140px'}} />
+                            <img alt='landing-img' src="https://static-v3.weshop.com.vn/upload/cms/18/09/08/m/c/f/e/o/1349x500.jpg" style={{width:'1140px'}} />
+                            <img alt='landing-img' src="https://static-v3.weshop.com.vn/upload/cms/18/09/08/k/d/v/7/v/1.jpg" style={{width:'1140px'}} />
+                            <img alt='landing-img' src="https://static-v3.weshop.com.vn/upload/cms/18/09/08/m/c/f/e/o/1349x500.jpg" style={{width:'1140px'}} />
+                        </Slider>
+                    </div>
                 </div>
             </div>
         )
