@@ -9,8 +9,6 @@ class LandingPage extends React.Component {
             login: true,
             loading: false,
         }
-        this.handleSubmit = this.handleSubmit.bind(this);
-        this.handleChange = this.handleChange.bind(this);
     }
     render() {
         return (
