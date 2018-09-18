@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import { ContentSale } from "./ContentSlide";
+import { ContentSlide } from "./ContentSlide";
 
 class Content extends React.Component{
     constructor(props){
