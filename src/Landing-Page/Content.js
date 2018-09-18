@@ -2,6 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import { ContentSlide } from "./ContentSlide";
 import { ContentTrademark } from "./ContentTrademark";
+import {ContentDeal} from './ContentDeal';
 class Content extends React.Component{
     constructor(props){
         super(props);
@@ -23,6 +24,7 @@ class Content extends React.Component{
             <div>
                 <ContentSlide/>
                 <ContentTrademark/>
+                <ContentDeal/>
             </div>
         )
         

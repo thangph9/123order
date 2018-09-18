@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
-import axios from 'axios';
 import {mouseClickLinkProductItem} from '../actions'
 class ProductItem extends React.Component {
     constructor(props) {
