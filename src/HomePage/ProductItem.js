@@ -23,7 +23,7 @@ class ProductItem extends React.Component {
         console.log(data);
         return (
             <div className="col-md mt-2 px-2" style={{display:display,marginBottom:'8px'}}>
-                <div className="card" style={{width:'222px',height:'370px'}}>
+                <div className="card" style={{width:'222px',height:'340px'}}>
                     <div className="hovereffect" style={{width:'210px',height:'210px'}}>
                     <span style={{position: 'absolute',top: '10px',right: '10px',background: 'red',color: '#fff',fontSize: '13px',fontWeight: 700,borderRadius: '3px',padding: '2px 5px',zIndex: 9}}>-64%</span>
                         <img style= {{width:'210px',height:'210px'}} className="card-img-top img-thumbnail border-0 img-fluid" src={data.img} alt='img'/>
@@ -32,7 +32,7 @@ class ProductItem extends React.Component {
                         </div>
                     </div>
                     <div className="card-body p-2">
-                        <h5 className="card-title deal-title-font" style={{ height:'48px' }}>{data.title}</h5>
+                        <h5 className="card-title deal-title-font" style={{ height:'32px' }}>{data.title}</h5>
                         {/* Starchart */}
                         <i className="fa fa-star text-warning" />
                         <i className="fa fa-star text-warning" />
