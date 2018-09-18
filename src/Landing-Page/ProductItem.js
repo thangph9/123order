@@ -12,7 +12,7 @@ class ProductItem extends React.Component {
    
     render(){
         return (
-            <div className="col-md mt-2 px-2" style={{display:display,marginBottom:'8px'}}>
+            <div className="col-md mt-2 px-2" style={{display:'block',marginBottom:'8px'}}>
                 <div className="card" style={{width:'212px',height:'340px'}}>
                     <div className="hovereffect" style={{width:'210px',height:'190px'}}>
                     <span style={{position: 'absolute',top: '10px',right: '10px',background: 'red',color: '#fff',fontSize: '13px',fontWeight: 700,borderRadius: '3px',padding: '2px 5px',zIndex: 9}}>-64%</span>
@@ -43,9 +43,7 @@ class ProductItem extends React.Component {
     }
 }
 function mapStateToProps(state) {
-    return {
-        mouseClickLink:state.mouseClickLinkProductItem
-    }
+    return state;
 }
 const connected = connect(mapStateToProps)(ProductItem);
 export { connected as ProductItem } 
