@@ -36,7 +36,6 @@ class HeaderTopLeftEBAY extends React.Component {
                 <div className="container dropdown-menu ebay-position menu2-dropdown bg-white" aria-haspopup="true" aria-expanded="false" id='linkEbay'>
                     <MenuHide />
                 </div>
-
             </li>
         )
 
