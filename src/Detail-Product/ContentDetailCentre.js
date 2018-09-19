@@ -44,7 +44,7 @@ class ContentDetailCentre extends React.Component {
                         },
                         shouldUsePositiveSpaceLens: true,
                         enlargedImageContainerDimensions:{
-							width: '300%', height: '300%'
+							width: '200%', height: '200%'
                         },
                         isHintEnabled: true,
                         shouldHideHintAfterFirstActivation: false

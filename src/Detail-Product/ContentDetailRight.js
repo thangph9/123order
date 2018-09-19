@@ -32,13 +32,10 @@ class ContentDetailRight extends React.Component {
         let menuItems = [];
         var {loadDetail}=this.props;
         var {handleMouse}=this.props;
+        console.log(loadDetail[0].smallimage);
         return (
             <ul className="col-md-1 xzoom-thumbs">
                 <li style={{cursor:'pointer'}} ><img onMouseOver={()=>this.handleMouseOver(0)} alt="img" className={(handleMouse==0) ? 'xzoom-gallery d-lg-block mb-2  xactive active-small-image': 'xzoom-gallery d-lg-block mb-2  xactive'} src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[0]:'' } /></li>
-                <li style={{cursor:'pointer'}} ><img onMouseOver={()=>this.handleMouseOver(1)} alt="img" className={(handleMouse==1) ? 'xzoom-gallery d-lg-block mb-2  xactive active-small-image': 'xzoom-gallery d-lg-block mb-2  xactive'} src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[1]:'' } /></li>
-                <li style={{cursor:'pointer'}} ><img onMouseOver={()=>this.handleMouseOver(2)} alt="img" className={(handleMouse==2) ? 'xzoom-gallery d-lg-block mb-2  xactive active-small-image': 'xzoom-gallery d-lg-block mb-2  xactive'} src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[2]:'' } /></li>
-                <li style={{cursor:'pointer'}} ><img onMouseOver={()=>this.handleMouseOver(3)} alt="img" className={(handleMouse==3) ? 'xzoom-gallery d-lg-block mb-2  xactive active-small-image': 'xzoom-gallery d-lg-block mb-2  xactive'} src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[3]:'' } /></li>
-                <li style={{cursor:'pointer'}} ><img onMouseOver={()=>this.handleMouseOver(4)} alt="img" className={(handleMouse==4) ? 'xzoom-gallery d-lg-block mb-2  xactive active-small-image': 'xzoom-gallery d-lg-block mb-2  xactive'} src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[4]:'' } /></li>
             </ul>
         )
 
