@@ -189,9 +189,9 @@ app.post("/home",function(req,res){
     })
 })
 app.post('/detail-product',function (req,res) {
-  //console.log(req);
-  //var str = req.headers.referer.substring(34, 42);//612e9848
+  
   async.series([
+    console.log(req.body.dealid);
       (callback)=>{
             models.instance.product_detail.find({dealid:req.body.dealid},function(err,result){
             var arr=result.map(item=>{
