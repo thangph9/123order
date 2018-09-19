@@ -32,7 +32,7 @@ class ContentDetailRight extends React.Component {
         let menuItems = [];
         var {loadDetail}=this.props;
         var {handleMouse}=this.props;
-        console.log(loadDetail[0].smallimage);
+        console.log(this.props.loadDetail[0].smallimage);
         return (
             <ul className="col-md-1 xzoom-thumbs">
                 <li style={{cursor:'pointer'}} ><img onMouseOver={()=>this.handleMouseOver(0)} alt="img" className={(handleMouse==0) ? 'xzoom-gallery d-lg-block mb-2  xactive active-small-image': 'xzoom-gallery d-lg-block mb-2  xactive'} src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[0]:'' } /></li>
