@@ -163,6 +163,7 @@ app.post("/home",function(req,res){
       (callback)=>{
         models.instance.amazon_deal_day.find({$limit:addItem},function(err,result){
         var arr= result.map(item=>{
+        if(item.stt==1){
           return obj={
             dealid:item.dealid,
             base_price:item.base_price,
@@ -178,7 +179,7 @@ app.post("/home",function(req,res){
             timestamp:item.timestamp+"",
             title:item.title
           } 
-        
+        }
         });
         ObjTable.ContentAmazonDealDay=arr;
         callback(err,ObjTable)
