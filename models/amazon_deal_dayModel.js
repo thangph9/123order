@@ -1,6 +1,6 @@
 module.exports={
     fields:{
-        dealid                 : "text",
+        dealid : "text",
         base_price:"text",
         death_clock:"text",
         img:"text",
@@ -15,7 +15,7 @@ module.exports={
             type: "timestamp",
             default: {"$db_function": "toTimestamp(now())"}
         },
-        title               : "text"
+        title: "text"
     },
     key:["dealid"]
 }

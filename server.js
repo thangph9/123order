@@ -35,23 +35,6 @@ app.use( jsonParser,function(req,res,next){
     // Pass to next layer of middleware
     next();
 });
-var Arr=[
-  {
-    id:'img1',
-    detail:'img/ramdisk_crop_182424559_DWpYsp.jpg',
-    name:'Ảnh của Trí 1'
-  },
-  {
-    id:'img2',
-    detail:'img/ramdisk_crop_182442219_xd6qp.jpg',
-    name:'Ảnh của Trí 2'
-  },
-  {
-    id:'img3',
-    detail:'img/ramdisk_crop_182442233_rtwM.jpg',
-    name:'Ảnh của Trí 3'
-  }
-];
 var ObjTable={
   HideEbayTopHot:[
     {
@@ -180,7 +163,8 @@ app.post("/home",function(req,res){
       (callback)=>{
         models.instance.amazon_deal_day.find({$limit:addItem},function(err,result){
         var arr= result.map(item=>{
-        return obj={
+        if(item.stt==1){
+          return obj={
             dealid:item.dealid,
             base_price:item.base_price,
             death_clock:item.death_clock,
@@ -194,7 +178,8 @@ app.post("/home",function(req,res){
             stt:item.stt,
             timestamp:item.timestamp+"",
             title:item.title
-          }   
+          } 
+        }
         });
         ObjTable.ContentAmazonDealDay=arr;
         callback(err,ObjTable)
@@ -210,12 +195,14 @@ app.post('/detail-product',function (req,res) {
   //var str = req.headers.referer.substring(34, 42);//612e9848
   async.series([
       (callback)=>{
-            models.instance.product_detail.find({dealid:'612e9848'},function(err,result){
+            models.instance.product_detail.find({dealid:req.body.dealid},function(err,result){
             var arr=result.map(item=>{
             return obj={
                 dealid:item.dealid,
                 description:item.description,
+                hugeimage:item.hugeimage,
                 largeimage:item.largeimage,
+                size:item.size,
                 smallimage:item.smallimage,
                 star:item.star,
                 title:item.title

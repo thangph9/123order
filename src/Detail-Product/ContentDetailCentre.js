@@ -38,13 +38,12 @@ class ContentDetailCentre extends React.Component {
                             
 						},
 						largeImage: {
-							src: (loadDetail[0]!=undefined ) ? loadDetail[0].largeimage[mouseOverImage]:'',
-							width:800,
-                            height: 800						
+							src: (loadDetail[0]!=undefined ) ? loadDetail[0].hugeimage[mouseOverImage]:'',
+							isFluidWidth: true					
                         },
                         shouldUsePositiveSpaceLens: true,
                         enlargedImageContainerDimensions:{
-							width: '150%', height: '150%'
+							width: '400%', height: '400%'
                         },
                         isHintEnabled: true,
                         shouldHideHintAfterFirstActivation: false
