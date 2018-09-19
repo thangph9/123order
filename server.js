@@ -189,9 +189,9 @@ app.post("/home",function(req,res){
     })
 })
 app.post('/detail-product',function (req,res) {
-  console.log(req.body.dealid);
+  if(req.body.dealid==undefined) res.send('404 found');
+  else{
   async.series([
-    
       (callback)=>{
             models.instance.product_detail.find({dealid:req.body.dealid},function(err,result){
             var arr=result.map(item=>{
@@ -214,6 +214,7 @@ app.post('/detail-product',function (req,res) {
       if (err) console.log(err);
       res.json(result[0]);
     })
+  }
 })
 app.get('/', function(req, res){
 	res.render('index');
