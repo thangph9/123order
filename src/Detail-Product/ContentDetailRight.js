@@ -33,9 +33,9 @@ class ContentDetailRight extends React.Component {
         var {loadDetail}=this.props;
         var {handleMouse}=this.props;
         if(loadDetail[0]!=undefined){
-            console.log(loadDetail[0].smallimage.length);
             for(var i=0;i<loadDetail[0].smallimage.length;i++){
-                menuItems.push(<li key={i} style={{cursor:'pointer'}} ><img onMouseOver={()=>this.handleMouseOver(i)} alt="img" className={(handleMouse==i) ? 'xzoom-gallery d-lg-block mb-2  xactive active-small-image': 'xzoom-gallery d-lg-block mb-2  xactive'} src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[i]:'' } /></li>);
+                console.log(i);
+                menuItems.push(<li style={{cursor:'pointer'}} ><img onMouseOver={()=>this.handleMouseOver(i)} alt="img" className={(handleMouse==i) ? 'xzoom-gallery d-lg-block mb-2  xactive active-small-image': 'xzoom-gallery d-lg-block mb-2  xactive'} src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[i]:'' } /></li>);
             }
         }
         return (
