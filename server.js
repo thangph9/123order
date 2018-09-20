@@ -213,6 +213,29 @@ app.post('/detail-product',jsonParser, function (req, res) {
           ObjTable.ProductDetail = arr;
           callback(err, ObjTable);
         });
+    },
+    (callback) =>{
+      models.instance.amazon_deal_day.find({ dealid:PARAM_IS_PRODUCT_DETAIL.dealid }, function (err, result) {
+        var arr = result.map(item => {
+          return obj = {
+            dealid: item.dealid,
+            base_price: item.base_price,
+            death_clock: item.death_clock,
+            img: item.img,
+            link: item.link,
+            price: item.price,
+            review: item.review,
+            reviewlink: item.reviewlink,
+            robot_label_track: item.robot_label_track,
+            sale: item.sale,
+            stt: item.stt,
+            timestamp: item.timestamp + "",
+            title: item.title
+          }
+          callback(err, obj);
+        });
+        
+      });
     }
   ], (err, result) => {
     if (err) console.log(err);

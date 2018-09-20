@@ -36,6 +36,7 @@ class DetailProduct extends React.Component {
             dealid:this.props.mouseClickLink.dealid
         }).then(res=>{
             var action=initLoadProductDetail(res.data[1].ProductDetail);
+            this.props.dispatch(mouseClickLinkProductItem(res.data[2]));
             this.props.dispatch(action);
         })
     }
