@@ -185,7 +185,7 @@ app.post("/home",jsonParser, function (req, res) {
     }
   ], (err, result) => {
     if (err) console.log(err);
-    res.json(result[0]);
+    res.json(result);
   })
 })
 var PARAM_IS_PRODUCT_DETAIL={};
@@ -194,7 +194,7 @@ app.post('/detail-product',jsonParser, function (req, res) {
   
   async.series([
     (callback)=>{
-      if(params.dealid!=undefined) PARAM_IS_PRODUCT_DETAIL["dealid"]=params.dealid;
+      if(params.dealid!=undefined) PARAM_IS_PRODUCT_DETAIL["dealid"]=params.data.dealid;
       callback(null,null)
     },
     (callback) => { 
@@ -217,7 +217,7 @@ app.post('/detail-product',jsonParser, function (req, res) {
     }
   ], (err, result) => {
     if (err) console.log(err);
-    res.json(result[1]);
+    res.json(result);
   })
 
 })
