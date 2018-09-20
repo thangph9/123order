@@ -7,7 +7,7 @@ import { Footer } from "../Sections/Footer";
 import { Content } from "./Content";
 import axios from 'axios';
 import {initLoadProductDetail} from '../actions'; 
-
+import {mouseClickLinkProductItem} from '../actions'
 class DetailProduct extends React.Component {
     constructor(props) {
         super(props);
