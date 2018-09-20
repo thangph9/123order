@@ -189,11 +189,8 @@ app.post("/home", function (req, res) {
   })
 })
 app.post('/detail-product', function (req, res) {
-  console.log(req.body.dealid);
-  var temp = '';
   async.series([
-    (callback) => {
-      if (req.body.dealid != undefined) {
+    (callback) => { 
         temp = req.body.dealid;
         models.instance.product_detail.find({ dealid: req.body.dealid }, function (err, result) {
           var arr = result.map(item => {
@@ -211,25 +208,6 @@ app.post('/detail-product', function (req, res) {
           ObjTable.ProductDetail = arr;
           callback(err, ObjTable);
         });
-      }
-      else {
-        models.instance.product_detail.find({ dealid:temp }, function (err, result) {
-          var arr = result.map(item => {
-            return obj = {
-              dealid: item.dealid,
-              description: item.description,
-              hugeimage: item.hugeimage,
-              largeimage: item.largeimage,
-              size: item.size,
-              smallimage: item.smallimage,
-              star: item.star,
-              title: item.title
-            }
-          });
-          ObjTable.ProductDetail = arr;
-          callback(err, ObjTable);
-        });
-      }
     }
   ], (err, result) => {
     if (err) console.log(err);
