@@ -39,24 +39,13 @@ class ContentDetailLeft extends React.Component {
 	}
     render() {
         var {loadDetail}=this.props;
+        var {mouseClickLink}=this.props;
         return (
             <div className="col-md-7 detail-item">
                 <h4>{(loadDetail[0]!=undefined) &&loadDetail[0].title}</h4>
-                <div className="row border-bottom rate pl-3">
-                    <span className="fa fa-star checked pt-1" />
-                    <span className="fa fa-star checked pt-1" />
-                    <span className="fa fa-star checked pt-1" />
-                    <span className="fa fa-star pt-1" />
-                    <span className="fa fa-star pt-1" />
-                    <ul>
-                        <li className="mx-1">(1094 lượt đánh giá) |</li>
-                        <li className="mx-1"> Bán tại Amazone Mỹ |</li>
-                        <li className="mx-1"> Thương hiệu: FemmeCalm</li>
-                    </ul>
-                </div>
                 <div className="row price-item pl-3">
-                    <h5 className="mr-5">2.155.000 VNĐ</h5>
-                    <strike className="p">4.320.000 VNĐ</strike>
+                    <h5 className="mr-5">{(mouseClickLink[0]!=undefined) &&mouseClickLink.price}</h5>
+                    <strike className="p">{(mouseClickLink[0]!=undefined) &&mouseClickLink.base_price}</strike>
                 </div>
                 <div className="p">
                     Tiết kiệm: 971.365 VNĐ
@@ -162,7 +151,8 @@ function mapStateToProps(state) {
 
     return {
         loadDetail:state.initLoadProductDetail,
-        mouseClick:state.mouseClickSettingNumberProduct
+        mouseClick:state.mouseClickSettingNumberProduct,
+        mouseClickLink:state.mouseClickLinkProductItem
     }
 }
 const connected = connect(mapStateToProps)(ContentDetailLeft);
