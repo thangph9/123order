@@ -1,7 +1,7 @@
-export const mouseClickLinkProductItem=(dealid)=>{
+export const mouseClickLinkProductItem=(data)=>{
 	return{
 		type: 'MOUSE_CLICK_LINK_PRODUCT_ITEM',
-		dealid
+		data
 	}
 }
 export const mouseClickSettingNumberProduct=(numb)=>{
