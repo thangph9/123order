@@ -188,9 +188,10 @@ app.post("/home",jsonParser, function (req, res) {
     res.json(result[0]);
   })
 })
+var PARAM_IS_VALID={};
 app.post('/detail-product',jsonParser, function (req, res) {
   params=req.body;
-  var PARAM_IS_VALID={};
+  
   async.series([
     (callback)=>{
       if(params.dealid!=undefined) PARAM_IS_VALID["dealid"]=params.dealid;
