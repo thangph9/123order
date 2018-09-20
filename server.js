@@ -191,10 +191,10 @@ app.post("/home",jsonParser, function (req, res) {
 var PARAM_IS_PRODUCT_DETAIL={};
 app.post('/detail-product',jsonParser, function (req, res) {
   params=req.body;
-  
+  console.log(params.mouseClickLink);
   async.series([
     (callback)=>{
-      if(params.dealid!=undefined) PARAM_IS_PRODUCT_DETAIL["dealid"]=params.data.dealid;
+      if(params.dealid!=undefined) PARAM_IS_PRODUCT_DETAIL["dealid"]=params.mouseClickLink.dealid;
       callback(null,null)
     },
     (callback) => { 
