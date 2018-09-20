@@ -232,9 +232,8 @@ app.post('/detail-product',jsonParser, function (req, res) {
             timestamp: item.timestamp + "",
             title: item.title
           }
-          callback(err, obj);
         });
-        
+        callback(err, arr[0]);
       });
     }
   ], (err, result) => {
