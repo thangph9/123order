@@ -157,7 +157,7 @@ var ObjTable = {
     }
   ]
 };
-app.post("/home", function (req, res) {
+app.post("/home",jsonParser, function (req, res) {
   var addItem = req.body.addItem + 15
   async.series([
     (callback) =>{
@@ -188,7 +188,7 @@ app.post("/home", function (req, res) {
     res.json(result[0]);
   })
 })
-app.post('/detail-product', function (req, res) {
+app.post('/detail-product',jsonParser, function (req, res) {
   console.log(req.body.dealid);
   async.series([
     (callback) => { 
