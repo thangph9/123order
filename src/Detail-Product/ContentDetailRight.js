@@ -26,7 +26,6 @@ class ContentDetailRight extends React.Component {
         })
     }
     handleMouseOver(value){
-        console.log(value);
         this.props.dispatch(mouseOverSmallImageProduct(value));
     }
     render() {
