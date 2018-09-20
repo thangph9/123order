@@ -30,22 +30,15 @@ class ContentDetailRight extends React.Component {
         this.props.dispatch(mouseOverSmallImageProduct(value));
     }
     render() {
-        let menuItems = [];
         var {loadDetail}=this.props;
         var {handleMouse}=this.props;
-        if(loadDetail[0]!=undefined){
-            console.log(loadDetail[0].smallimage.length);
-            for(var i=0;i<loadDetail[0].smallimage.length;i++){
-                console.log(i);
-                menuItems.push(<img key={i} onMouseOver={()=>this.handleMouseOver(i)} alt="img" className={(handleMouse==i) ? 'xzoom-gallery d-lg-block mb-2  xactive active-small-image': 'xzoom-gallery d-lg-block mb-2  xactive'} src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[i]:'' } />);
-            }
-        }
         return (
             <ul className="col-md-1 xzoom-thumbs">
-                <li style={{cursor:'pointer'}} >
-                    {menuItems}
-                </li>
-                
+                {(loadDetail[0]!=undefined)&&loadDetail[0].smallimage.map((img,index)=>{
+                    return(
+                        <li key={index} style={{cursor:'pointer'}} ><img onMouseOver={()=>this.handleMouseOver(index)} alt="img" className={(handleMouse==index) ? 'xzoom-gallery d-lg-block mb-2  xactive active-small-image': 'xzoom-gallery d-lg-block mb-2  xactive'} src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[index]:'' } /></li>
+                    );
+                })}
             </ul>
         )
 
