@@ -44,11 +44,11 @@ class ContentDetailLeft extends React.Component {
             <div className="col-md-7 detail-item">
                 <h4>{(loadDetail[0]!=undefined) &&loadDetail[0].title}</h4>
                 <div className="row price-item pl-3">
-                    <h5 className="mr-5">{(mouseClickLink!=undefined) &&mouseClickLink.price}</h5>
-                    <strike className="p">{(mouseClickLink!=undefined) &&mouseClickLink.base_price}</strike>
+                    <h5 className="mr-5">{(mouseClickLink[0]!=undefined) &&mouseClickLink[0].price}</h5>
+                    <strike className="p">{(mouseClickLink[0]!=undefined) &&mouseClickLink[0].base_price}</strike>
                 </div>
                 <div className="p">
-                {(mouseClickLink!=undefined) &&mouseClickLink.sale}
+                Tiết kiệm: {(mouseClickLink!=undefined) &&mouseClickLink.sale}
   </div>
                 <div className="row">
                     <ul>
