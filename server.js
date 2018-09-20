@@ -208,7 +208,7 @@ app.post('/detail-product',jsonParser, function (req, res) {
         });
         callback(err, arr)
       });
-    }
+    },
     (callback) => { 
         models.instance.product_detail.find({ dealid:PARAM_IS_PRODUCT_DETAIL.dealid }, function (err, result) {
           var arr = result.map(item => {
