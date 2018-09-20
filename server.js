@@ -191,8 +191,8 @@ app.post("/home", function (req, res) {
 app.post('/detail-product', function (req, res) {
   async.series([
     (callback) => { 
-        temp = req.body.dealid;
         models.instance.product_detail.find({ dealid: req.body.dealid }, function (err, result) {
+          console.log(result);
           var arr = result.map(item => {
             return obj = {
               dealid: item.dealid,
