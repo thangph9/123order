@@ -20,7 +20,7 @@ class ProductItem extends React.Component {
         if (data.title.length>65){
             data.title= data.title.slice(0,65)+'...';
         }
-        data.sale=data.sale.slice(1,3);
+        data.sale=data.sale.slice(1,4);
         return (
             <div className="col-md mt-2 px-2" style={{display:display,marginBottom:'8px'}}>
                 <div className="card" style={{width:'212px',height:'340px'}}>
