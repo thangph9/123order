@@ -189,6 +189,7 @@ app.post("/home", function (req, res) {
   })
 })
 app.post('/detail-product', function (req, res) {
+  console.log(req.body.dealid);
   var temp = '';
   async.series([
     (callback) => {
