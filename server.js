@@ -189,10 +189,15 @@ app.post("/home",jsonParser, function (req, res) {
   })
 })
 app.post('/detail-product',jsonParser, function (req, res) {
-  console.log(req.body.dealid);
+  params=req.body;
+  var PARAM_IS_VALID={};
   async.series([
+    (callback)=>{
+      if(params.dealid!=undefined) PARAM_IS_VALID["dealid"]=params.dealid;
+      callback(null,null)
+    },
     (callback) => { 
-        models.instance.product_detail.find({ dealid: req.body.dealid }, function (err, result) {
+        models.instance.product_detail.find({ dealid:PARAM_IS_VALID.dealid }, function (err, result) {
           var arr = result.map(item => {
             return obj = {
               dealid: item.dealid,
@@ -211,7 +216,7 @@ app.post('/detail-product',jsonParser, function (req, res) {
     }
   ], (err, result) => {
     if (err) console.log(err);
-    res.json(result[0]);
+    res.json(result[1]);
   })
 
 })
