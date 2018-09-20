@@ -14,7 +14,6 @@ class DetailProduct extends React.Component {
         this.state = {
             login: true,
             loading: false,
-            dealidstate:''
         }
         this.handleSubmit = this.handleSubmit.bind(this);
         this.handleChange = this.handleChange.bind(this);
@@ -32,22 +31,11 @@ class DetailProduct extends React.Component {
         })
     }
     componentWillMount(){
-        if(this.props.mouseClickLink.dealid!=undefined){
-            this.setState({
-                dealidstate:this.props.mouseClickLink.dealid
-            })
-            axios.post('/detail-product',{dealid:this.props.mouseClickLink.dealid}).then(res=>{
-                var action=initLoadProductDetail(res.data.ProductDetail);
-                this.props.dispatch(action);
-            })
-        }
-        else{
-            axios.post('/detail-product',{dealid:this.state.dealidstate}).then(res=>{
-                var action=initLoadProductDetail(res.data.ProductDetail);
-                this.props.dispatch(action);
-            })
-        }
         
+        axios.post('/detail-product',{dealid:this.props.mouseClickLink.dealid}).then(res=>{
+            var action=initLoadProductDetail(res.data.ProductDetail);
+            this.props.dispatch(action);
+        })
     }
     render() {
 
