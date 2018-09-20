@@ -161,7 +161,7 @@ app.post("/home",jsonParser, function (req, res) {
   var addItem = req.body.addItem + 15
   async.series([
     (callback) =>{
-      models.instance.amazon_deal_day.find({ $limit: addItem }, function (err, result) {
+      models.instance.amazon_deal_day.find({ $limit: addItem,stt:1 },{raw:true, allow_filtering: true}, function (err, result) {
         var arr = result.map(item => {
           return obj = {
             dealid: item.dealid,
@@ -188,17 +188,17 @@ app.post("/home",jsonParser, function (req, res) {
     res.json(result[0]);
   })
 })
-var PARAM_IS_VALID={};
+var PARAM_IS_PRODUCT_DETAIL={};
 app.post('/detail-product',jsonParser, function (req, res) {
   params=req.body;
   
   async.series([
     (callback)=>{
-      if(params.dealid!=undefined) PARAM_IS_VALID["dealid"]=params.dealid;
+      if(params.dealid!=undefined) PARAM_IS_PRODUCT_DETAIL["dealid"]=params.dealid;
       callback(null,null)
     },
     (callback) => { 
-        models.instance.product_detail.find({ dealid:PARAM_IS_VALID.dealid }, function (err, result) {
+        models.instance.product_detail.find({ dealid:PARAM_IS_PRODUCT_DETAIL.dealid }, function (err, result) {
           var arr = result.map(item => {
             return obj = {
               dealid: item.dealid,
