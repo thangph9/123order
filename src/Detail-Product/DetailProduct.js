@@ -36,11 +36,18 @@ class DetailProduct extends React.Component {
             this.setState({
                 dealidstate:this.props.mouseClickLink.dealid
             })
+            axios.post('/detail-product',{dealid:this.props.mouseClickLink.dealid}).then(res=>{
+                var action=initLoadProductDetail(res.data.ProductDetail);
+                this.props.dispatch(action);
+            })
         }
-        axios.post('/detail-product',{dealid:this.state.dealidstate}).then(res=>{
-            var action=initLoadProductDetail(res.data.ProductDetail);
-            this.props.dispatch(action);
-        })
+        else{
+            axios.post('/detail-product',{dealid:this.state.dealidstate}).then(res=>{
+                var action=initLoadProductDetail(res.data.ProductDetail);
+                this.props.dispatch(action);
+            })
+        }
+        
     }
     render() {
 
