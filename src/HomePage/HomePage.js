@@ -39,10 +39,10 @@ class HomePage extends React.Component {
     
     componentWillMount(){
         axios.post('/home',{addItem:this.props.loadAdd}).then(res=>{
-            this.props.dispatch(initLoadContentDeal(res.data[0].ContentAmazonDealDay));
-            this.props.dispatch(initLoadContentSaleLeft(res.data[0].ContentSale));
-            this.props.dispatch(initLoadEbayHide(res.data[0].HideEbayTopHot));
-            this.props.dispatch(initLoadAmazonHide(res.data[0].HideAmazonTopHot));
+            this.props.dispatch(initLoadContentDeal(res.data.ContentAmazonDealDay));
+            this.props.dispatch(initLoadContentSaleLeft(res.data.ContentSale));
+            this.props.dispatch(initLoadEbayHide(res.data.HideEbayTopHot));
+            this.props.dispatch(initLoadAmazonHide(res.data.HideAmazonTopHot));
         })
     }
     render() {
