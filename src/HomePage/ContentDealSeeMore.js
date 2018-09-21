@@ -23,7 +23,7 @@ class ContentDealSeeMore extends React.Component {
         var numb=this.props.loadAdd+value;
         this.props.dispatch(loadAdd(numb));
         axios.post('/home',{addItem:this.props.loadAdd}).then(res=>{
-           this.props.dispatch(initLoadContentDeal(res.data.ContentAmazonDealDay));
+           this.props.dispatch(initLoadContentDeal(res.data[0].ContentAmazonDealDay));
         })
     }
     render() {
