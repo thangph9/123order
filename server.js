@@ -157,11 +157,11 @@ var ObjTable = {
     }
   ]
 };
-app.post("/home", function (req, res) {
+app.post("/home",jsonParser, function (req, res) {
   var addItem = req.body.addItem + 15
   async.series([
     (callback) =>{
-      models.instance.amazon_deal_day.find({ $limit: addItem,stt:1 },{allow_filtering: true}, function (err, result) {
+      models.instance.amazon_deal_day.find({ $limit: addItem }, function (err, result) {
         var arr = result.map(item => {
           return obj = {
             dealid: item.dealid,
@@ -189,7 +189,7 @@ app.post("/home", function (req, res) {
   })
 })
 var PARAM_IS_PRODUCT_DETAIL={};
-app.post('/detail-product', function (req, res) {
+app.post('/detail-product',jsonParser, function (req, res) {
   params=req.body;
   async.series([
     (callback)=>{
