@@ -40,7 +40,6 @@ class ContentDetailLeft extends React.Component {
     render() {
         var {loadDetail}=this.props;
         var {mouseClickLink}=this.props;
-        mouseClickLink.sale=mouseClickLink.sale.slice(1,4);
         return (
             <div className="col-md-7 detail-item">
                 <h4>{(loadDetail[0]!=undefined) &&loadDetail[0].title}</h4>
@@ -48,7 +47,7 @@ class ContentDetailLeft extends React.Component {
                     <h5 className="mr-5">{(mouseClickLink!=undefined) &&mouseClickLink.price}</h5>
                     <strike className="p">{(mouseClickLink!=undefined) &&mouseClickLink.base_price}</strike>
                 </div>
-                <div className="p">
+                <div className={(mouseClickLink.sale=='')?'none-hide':'p'}>
                 Tiết kiệm: {(mouseClickLink!=undefined) &&mouseClickLink.sale}
   </div>
                 <div className="row">
