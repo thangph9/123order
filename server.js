@@ -185,7 +185,7 @@ app.post("/home",jsonParser, function (req, res) {
     }
   ], (err, result) => {
     if (err) console.log(err);
-    res.json(result);
+    res.json(result[0]);
   })
 })
 var PARAM_IS_PRODUCT_DETAIL={};
