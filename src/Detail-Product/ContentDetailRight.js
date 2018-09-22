@@ -2,7 +2,6 @@ import React from "react";
 //import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import {mouseOverSmallImageProduct} from '../actions'
-import {mouseClickSmallImageProduct} from '../actions'
 class ContentDetailRight extends React.Component {
     constructor(props) {
         super(props);

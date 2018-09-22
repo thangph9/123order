@@ -7,7 +7,8 @@ import { Footer } from "../Sections/Footer";
 import { Content } from "./Content";
 import axios from 'axios';
 import {initLoadProductDetail} from '../actions'; 
-import {mouseClickLinkProductItem} from '../actions'
+import {mouseClickLinkProductItem} from '../actions';
+import {mouseOverSmallImageProduct} from '../actions';
 class DetailProduct extends React.Component {
     constructor(props) {
         super(props);
@@ -37,6 +38,7 @@ class DetailProduct extends React.Component {
         }).then(res=>{
             var action=initLoadProductDetail(res.data[1].ProductDetail);
             this.props.dispatch(mouseClickLinkProductItem(res.data[2]));
+            this.props.dispatch(mouseOverSmallImageProduct(0));
             this.props.dispatch(action);
         })
     }
