@@ -189,9 +189,9 @@ app.post("/home",jsonParser, function (req, res) {
   })
 })
 var PARAM_IS_PRODUCT_DETAIL={};
-app.post('/detail-product/:deali',jsonParser, function (req, res) {
-  console.log(req.params.dealid);
-  params=req.params;
+app.post('/detail-product',jsonParser, function (req, res) {
+  console.log(req.body.dealid);
+  params=req.body;
   async.series([
     (callback)=>{
       if(params.dealid!=undefined) PARAM_IS_PRODUCT_DETAIL["dealid"]=params.dealid;
