@@ -189,12 +189,12 @@ app.post("/home",jsonParser, function (req, res) {
   })
 })
 var PARAM_IS_PRODUCT_DETAIL={};
-app.get('/detail-product/:id',jsonParser, function (req, res) {
+app.post('/detail-product/:id',jsonParser, function (req, res) {
   console.log(req.params.dealid);
   params=req.params;
   async.series([
     (callback)=>{
-      if(params.dealid!=undefined) PARAM_IS_PRODUCT_DETAIL["dealid"]=params.id;
+      if(params.id!=undefined) PARAM_IS_PRODUCT_DETAIL["dealid"]=params.id;
       callback(null,null)
     },
     (callback) => { 
