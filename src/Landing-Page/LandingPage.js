@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import { Header } from "../Sections/Header";
 import { Footer } from "../Sections/Footer";
 import { Content } from "./Content";
+import {initLoadContentDeal} from '../actions';
 class LandingPage extends React.Component {
     constructor(props) {
         super(props);
@@ -10,6 +11,11 @@ class LandingPage extends React.Component {
             login: true,
             loading: false,
         }
+    }
+    componentWillMount(){
+        axios.post('/landing-page',{addItem:this.props.loadAdd}).then(res=>{
+            this.props.dispatch(initLoadContentDeal(res.data[0].ContentAmazonDealDay));
+        })
     }
     render() {
         return (
@@ -24,7 +30,9 @@ class LandingPage extends React.Component {
     }
 }
 function mapStateToProps(state) {
-    return state;
+    return {
+        loadAdd:state.loadAdd
+    }
 }
 const connectedHomePage = connect(mapStateToProps)(LandingPage);
 export { connectedHomePage as LandingPage } 

@@ -189,9 +189,8 @@ app.post("/home",jsonParser, function (req, res) {
   })
 })
 var PARAM_IS_PRODUCT_DETAIL={};
-app.get('/detail-product',jsonParser, function (req, res) {
+app.post('/detail-product',jsonParser, function (req, res) {
   console.log(req.body.dealid);
-  console.log(req.params.dealid);
   params=req.body;
   async.series([
     (callback)=>{
@@ -242,7 +241,37 @@ app.get('/detail-product',jsonParser, function (req, res) {
     if (err) console.log(err);
     res.json(result);
   })
-
+})
+app.post("/landing-page",jsonParser, function (req, res) {
+  var addItem = req.body.addItem + 15
+  async.series([
+    (callback) =>{
+      models.instance.amazon_deal_day.find({ $limit: addItem,stt:1 },{allow_filtering: true}, function (err, result) {
+        var arr = result.map(item => {
+          return obj = {
+            dealid: item.dealid,
+            base_price: item.base_price,
+            death_clock: item.death_clock,
+            img: item.img,
+            link: item.link,
+            price: item.price,
+            review: item.review,
+            reviewlink: item.reviewlink,
+            robot_label_track: item.robot_label_track,
+            sale: item.sale,
+            stt: item.stt,
+            timestamp: item.timestamp + "",
+            title: item.title
+          }
+        });
+        ObjTable.ContentAmazonDealDay = arr;
+        callback(err, ObjTable)
+      });
+    }
+  ], (err, result) => {
+    if (err) console.log(err);
+    res.json(result);
+  })
 })
 app.get('/', function (req, res) {
   res.render('index');

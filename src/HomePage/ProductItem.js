@@ -13,7 +13,6 @@ class ProductItem extends React.Component {
         this.props.dispatch(mouseClickLinkProductItem(value));
     }
     render(){
-
         var display=this.props.customStyle;
         var {data}=this.props;
         if (data.title.length>65){

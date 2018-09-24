@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { ProductItemBox } from "./ProductItemBox";
-
+import {ContentDealSeeMoreLanding} from './ContentDealSeeMoreLanding';
 class ContentDeal extends React.Component{
     constructor(props){
         super(props);
@@ -24,6 +24,7 @@ class ContentDeal extends React.Component{
             <div className="container-fluid mt-4">
                 <div className="container">
                     <ProductItemBox/>
+                    <ContentDealSeeMoreLanding/>
                 </div>
             </div>
         )
