@@ -173,7 +173,7 @@ app.post("/home",jsonParser, function (req, res) {
             review: item.review,
             reviewlink: item.reviewlink,
             robot_label_track: item.robot_label_track,
-            sale: item.sale,
+            sale: item.sale.slice(1,4),
             stt: item.stt,
             timestamp: item.timestamp + "",
             title: item.title
