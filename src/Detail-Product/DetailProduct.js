@@ -33,7 +33,7 @@ class DetailProduct extends React.Component {
     }
     componentWillMount(){
         
-        axios.post('/detail-product',{
+        axios.get('/detail-product',{
             dealid:this.props.mouseClickLink.dealid
         }).then(res=>{
             var action=initLoadProductDetail(res.data[1].ProductDetail);
