@@ -15,10 +15,7 @@ class ProductItem extends React.Component {
     render(){
         var {loadDetail} = this.props;
         var display=this.props.customStyle;
-        if(loadDetail[0].title!=undefined){
-            console.log(loadDetail[0].title)
-            
-        }
+        
         if (data.title.length>65){
             data.title= data.title.slice(0,65)+'...';
         }
