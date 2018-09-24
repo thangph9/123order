@@ -13,10 +13,9 @@ class ProductItem extends React.Component {
         this.props.dispatch(mouseClickLinkProductItem(value));
     }
     render(){
+        var {loadDetail} = this.props;
         var display=this.props.customStyle;
-        var {data}=this.props;
-        var dataUrl={...data};
-        var urlTitle= dataUrl.title.trim().replace(/ /g,"-");
+        var urlTitle= loadDetail[0].title.replace(/ /g,"-");
         if (data.title.length>65){
             data.title= data.title.slice(0,65)+'...';
         }
@@ -54,7 +53,8 @@ class ProductItem extends React.Component {
 }
 function mapStateToProps(state) {
     return {
-        mouseClickLink:state.mouseClickLinkProductItem
+        mouseClickLink:state.mouseClickLinkProductItem,
+        loadDetail:state.initLoadProductDetail
     }
 }
 const connected = connect(mapStateToProps)(ProductItem);
