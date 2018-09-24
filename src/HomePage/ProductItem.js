@@ -15,7 +15,8 @@ class ProductItem extends React.Component {
     render(){
         var display=this.props.customStyle;
         var {data}=this.props;
-        var urlTitle=data.title.replace(/ /g,"-");
+        var timTitle=data.title.trim();
+        var urlTitle= timTitle.replace(/ /g,"-");
         if (data.title.length>65){
             data.title= data.title.slice(0,65)+'...';
         }
