@@ -10,7 +10,7 @@ class ProductItem extends React.Component {
         }
     }
     handleClickLink(value){
-        this.props.dispatch(mouseClickLinkProductItem(value));
+        
     }
     render(){
 
