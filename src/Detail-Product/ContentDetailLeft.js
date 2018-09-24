@@ -32,6 +32,7 @@ class ContentDetailLeft extends React.Component {
     render() {
         var {loadDetail}=this.props;
         var {mouseClickLink}=this.props;
+        console.log(this.props.match.params.dealid);
         return (
             <div className="col-md-7 detail-item">
                 <h4>{(loadDetail[0]!=undefined) &&loadDetail[0].title}</h4>
