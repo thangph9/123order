@@ -1,7 +1,6 @@
 import React from "react";
 //import { Link } from "react-router-dom";
 import { connect } from "react-redux";
-import {mouseClickSettingNumberProduct} from '../actions'
 class ContentDetailLeft extends React.Component {
     constructor(props) {
         super(props);
@@ -27,13 +26,6 @@ class ContentDetailLeft extends React.Component {
         })
     }
     
-    handleClickMinus(value){
-        var number=this.props.mouseClick +value;
-        if(number>=1){
-            this.props.dispatch(mouseClickSettingNumberProduct(number));
-        }
-        
-    }
     handleSelect(e){
 		console.log(e.target.value);
 	}
