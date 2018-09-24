@@ -191,7 +191,7 @@ app.post("/home",jsonParser, function (req, res) {
 var PARAM_IS_PRODUCT_DETAIL={};
 app.post('/detail-product',jsonParser, function (req, res) {
   console.log(req.body.dealid);
-  console.log(req.query.dealid);
+  console.log(req.params.dealid);
   params=req.body;
   async.series([
     (callback)=>{
