@@ -221,11 +221,10 @@ app.post('/detail-product',jsonParser, function (req, res) {
           return obj = {
             base_price: item.base_price,
             price: item.price,
-            sale: item.sale,
+            sale: item.sale
           }
         });
-        ObjTable.ProductDetail.concat(arr);
-        callback(err, ObjTable);
+        callback(err, arr[0]);
       });
     }
   ], (err, result) => {

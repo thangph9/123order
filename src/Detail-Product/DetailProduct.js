@@ -36,7 +36,8 @@ class DetailProduct extends React.Component {
         axios.post('/detail-product',{
             dealid:this.props.match.params.dealid
         }).then(res=>{
-            var action=initLoadProductDetail(res.data[2].ProductDetail);
+            var action=initLoadProductDetail(res.data[1].ProductDetail);
+            this.props.dispatch(mouseClickLinkProductItem(res.data[2]));
             this.props.dispatch(mouseOverSmallImageProduct(0));
             this.props.dispatch(action);
         })
