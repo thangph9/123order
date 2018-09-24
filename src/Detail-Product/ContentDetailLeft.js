@@ -41,7 +41,7 @@ class ContentDetailLeft extends React.Component {
                     <strike className="p">{(mouseClickLink!=undefined) &&mouseClickLink.base_price}</strike>
                 </div>
                 <div className={(mouseClickLink.sale=='')?'none-hide':'p'}>
-                Tiết kiệm: {(mouseClickLink!=undefined) &&mouseClickLink.sale.slice(1,4)}
+                Tiết kiệm: {(mouseClickLink!=undefined) &&mouseClickLink.sale}
   </div>
                 <div className="row">
                     <ul>
