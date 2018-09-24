@@ -39,7 +39,7 @@ class ContentDetailLeft extends React.Component {
                     <h5 className="mr-5">{(loadDetail[0]!=undefined) &&loadDetail[0].price}</h5>
                     <strike className="p">{(loadDetail[0]!=undefined) &&loadDetail[0].base_price}</strike>
                 </div>
-                <div className={(mouseClickLink.sale=='')?'none-hide':'p'}>
+                <div className={(loadDetail[0].sale=='')?'none-hide':'p'}>
                 Tiết kiệm: {(loadDetail[0]!=undefined) &&loadDetail[0].sale}
   </div>
                 <div className="row">
