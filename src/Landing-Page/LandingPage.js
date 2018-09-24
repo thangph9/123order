@@ -4,6 +4,7 @@ import { Header } from "../Sections/Header";
 import { Footer } from "../Sections/Footer";
 import { Content } from "./Content";
 import {initLoadContentDeal} from '../actions';
+import axios from 'axios';
 class LandingPage extends React.Component {
     constructor(props) {
         super(props);
