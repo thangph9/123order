@@ -15,10 +15,11 @@ class ProductItem extends React.Component {
     render(){
         var display=this.props.customStyle;
         var {data}=this.props;
+        var urlTitle=data.title.replace(/ /g,"-");
         if (data.title.length>65){
             data.title= data.title.slice(0,65)+'...';
         }
-        var urlTitle=data.title.replace(/ /g,"-");
+        
         return (
             <div className="col-md mt-2 px-2" style={{display:display,marginBottom:'8px'}}>
                 <div className="card" style={{width:'212px',height:'340px'}}>
