@@ -44,6 +44,7 @@ class HomePage extends React.Component {
             this.props.dispatch(initLoadEbayHide(res.data[0].HideEbayTopHot));
             this.props.dispatch(initLoadAmazonHide(res.data[0].HideAmazonTopHot));
         })
+        
     }
     render() {
         return (
