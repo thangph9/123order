@@ -58,7 +58,7 @@
   text-transform: uppercase;
   color: #fff;
   border: 1px solid rgb(223	53	57);
-  background-color: transparent;
+  background-color: rgb(223	53	57);
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transform: scale(0);
