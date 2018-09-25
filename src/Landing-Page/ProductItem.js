@@ -9,15 +9,15 @@ class ProductItem extends React.Component {
 
         }
     }
-    handleClickLink(value){
-        this.props.dispatch(mouseClickLinkProductItem(value));
-    }
+    
     render(){
         var display=this.props.customStyle;
         var {data}=this.props;
+        var titleTrim=data.title.trim();
         if (data.title.length>65){
             data.title= data.title.slice(0,65)+'...';
         }
+        titleTrim=titleTrim.replace(/ /g , "-");
         return (
             <div className="col-md mt-2 px-2" style={{display:display,marginBottom:'8px'}}>
                 <div className="card" style={{width:'212px',height:'340px'}}>
@@ -25,7 +25,7 @@ class ProductItem extends React.Component {
                     <span className={(data.sale=='')?'none-hide':''} style={{position: 'absolute',top: '10px',right: '10px',background: 'red',color: '#fff',fontSize: '13px',fontWeight: 700,borderRadius: '3px',padding: '2px 5px',zIndex: 9}}>{data.sale}</span>
                         <img style= {{width:'210px',height:'210px'}} className="card-img-top img-thumbnail border-0 img-fluid" src={data.img} alt='img'/>
                         <div className="overlay">
-                            <Link to={"/detail-product/"+data.dealid} onClick={()=>this.handleClickLink(data)} className="info">Chi tiết</Link>
+                            <Link to={`/detail-product/${titleTrim.substring(0,titleTrim.length-3)}.`+data.dealid}  className="info">Chi tiết</Link>
                         </div>
                     </div>
                     <div className="card-body p-2">
