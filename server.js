@@ -194,7 +194,7 @@ app.post('/detail-product',jsonParser, function (req, res) {
   params=req.body;
   async.series([
     (callback)=> { 
-      models.instance.product_detail.find({ dealid:PARAM_IS_PRODUCT_DETAIL.dealid }, function (err, result) {
+      models.instance.product_detail.find({ dealid:params.dealid }, function (err, result) {
         if(result.length>0) PARAM_IS_PRODUCT_DETAIL["dealid"]=params.dealid;
         callback(err, null);
       });
