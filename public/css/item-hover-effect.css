@@ -24,6 +24,9 @@
 .card:hover .overlay {
   bottom: 0;
 }
+.card:hover  {
+      border-color: darkred;
+}
 
 .hovereffect img {
   display: block;
@@ -41,8 +44,8 @@
   -webkit-transform: translateY(45px);
   -ms-transform: translateY(45px);
   transform: translateY(45px);
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 .hovereffect:hover h2 {
@@ -52,8 +55,10 @@
 }
 
 .card a.info {
+  position: relative;
+  top: 5px;
   text-decoration: none;
-  padding: 7px 14px;
+  padding: 5px 10px;
   text-transform: uppercase;
   color: #fff;
   border: 1px solid rgb(223	53	57);
@@ -63,8 +68,8 @@
   -webkit-transform: scale(0);
   -ms-transform: scale(0);
   transform: scale(0);
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s ;
   font-weight: normal;
   border-radius: 5px;
 }
@@ -77,7 +82,7 @@
 }
 
 .card a.info:hover {
-  box-shadow: 0 0 5px rgb(223	53	57);;
+  box-shadow: 0 0 5px rgb(223	53	57);
   background-color:#fff;
   color:rgb(223	53	57);
 }
