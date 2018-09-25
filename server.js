@@ -161,7 +161,7 @@ app.post("/home",jsonParser, function (req, res) {
   var addItem = req.body.addItem + 15
   async.series([
     (callback) =>{
-      models.instance.amazon_deal_day.find({ $limit: addItem,stt:1 },{allow_filtering: true}, function (err, result) {
+      models.instance.amazon_deal_day.find({ $limit: addItem },{allow_filtering: true}, function (err, result) {
         var arr = result.map(item => {
           return obj = {
             dealid: item.dealid,
@@ -172,9 +172,7 @@ app.post("/home",jsonParser, function (req, res) {
             price: item.price,
             review: item.review,
             reviewlink: item.reviewlink,
-            robot_label_track: item.robot_label_track,
             sale: item.sale.slice(1,4),
-            stt: item.stt,
             timestamp: item.timestamp + "",
             title: item.title
           }
@@ -207,7 +205,6 @@ app.post('/detail-product',jsonParser, function (req, res) {
               description: item.description,
               hugeimage: item.hugeimage,
               largeimage: item.largeimage,
-              size: item.size,
               smallimage: item.smallimage,
               star: item.star,
               title: item.title
@@ -250,7 +247,7 @@ app.post("/landing-page",jsonParser, function (req, res) {
             review: item.review,
             reviewlink: item.reviewlink,
             robot_label_track: item.robot_label_track,
-            sale: item.sale,
+            sale: item.sale.slice(1,4),
             stt: item.stt,
             timestamp: item.timestamp + "",
             title: item.title
