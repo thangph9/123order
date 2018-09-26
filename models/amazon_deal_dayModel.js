@@ -12,13 +12,12 @@ module.exports={
         offerid :'text',
         position: 'int',
         price:"text",
-        review:"int",
         review_link: 'text',
-        reviewlink:"text",
         reviews:'int',
         sale:"text",
         smid:'text',
         star:'text',
+        stt:'text',
         timestamp: {
             type: "timestamp",
             default: {"$db_function": "toTimestamp(now())"}

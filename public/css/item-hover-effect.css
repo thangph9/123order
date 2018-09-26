@@ -47,13 +47,11 @@
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
-
 .hovereffect:hover h2 {
   -webkit-transform: translateY(5px);
   -ms-transform: translateY(5px);
   transform: translateY(5px);
 }
-
 .card a.info {
   position: relative;
   top: 5px;
@@ -73,14 +71,12 @@
   font-weight: normal;
   border-radius: 5px;
 }
-
 .card:hover a.info {
   opacity: 1;
   filter: alpha(opacity=100);
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
 }
-
 .card a.info:hover {
   box-shadow: 0 0 5px rgb(223	53	57);
   background-color:#fff;
