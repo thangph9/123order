@@ -17,7 +17,7 @@ module.exports={
         sale:"text",
         smid:'text',
         star:'text',
-        stt:'text',
+        stt:'int',
         timestamp: {
             type: "timestamp",
             default: {"$db_function": "toTimestamp(now())"}
