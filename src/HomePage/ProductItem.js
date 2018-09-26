@@ -19,6 +19,7 @@ class ProductItem extends React.Component {
         if (data.title.length>65){
             data.title= data.title.slice(0,65)+'...';
         }
+        titleTrim=titleTrim.replace(/%/g , "");
         titleTrim=titleTrim.replace(/ /g , "-");
         return (
             <div className="col-md mt-2 px-2" style={{display:display,marginBottom:'8px'}}>

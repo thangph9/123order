@@ -219,6 +219,7 @@ app.post('/detail-product',jsonParser, function (req, res) {
               description: item.description,
               hugeimage: item.hugeimage,
               largeimage: item.largeimage,
+              list_price:item.list_price,
               nested:item.nested,
               nodeid:item.nodeid,
               price:item.price,
