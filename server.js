@@ -165,16 +165,26 @@ app.post("/home",jsonParser, function (req, res) {
         var arr = result.map(item => {
           return obj = {
             dealid: item.dealid,
+            asin:item.asin,   
             base_price: item.base_price,
+            dealstate:item.dealstate,
+            dealtype:item.dealtype,
             death_clock: item.death_clock,
             img: item.img,
+            legacydealid:item.legacydealid,
             link: item.link,
+            offerid:item.offerid,
+            position:item.position,
             price: item.price,
-            review: item.review,
-            reviewlink: item.reviewlink,
+            reviews: item.reviews,
+            review_link: item.review_link,
             sale: item.sale.slice(1,4),
+            smid:item.smid,
+            stt:item.stt,
             timestamp: item.timestamp + "",
-            title: item.title
+            star:item.star,
+            title: item.title,
+            widgetid:item.widgetid
           }
         });
         ObjTable.ContentAmazonDealDay = arr;
@@ -202,11 +212,20 @@ app.post('/detail-product',jsonParser, function (req, res) {
           var arr = result.map(item => {
             return obj = {
               dealid: item.dealid,
+              asin:item.asin,
+              category:item.category,
+              color:item.color,
+              deal_of_day:item.deal_of_day,
               description: item.description,
               hugeimage: item.hugeimage,
               largeimage: item.largeimage,
+              nested:item.nested,
+              nodeid:item.nodeid,
+              price:item.price,
+              save_price:item.save_price,
               smallimage: item.smallimage,
               star: item.star,
+              style:item.style,
               title: item.title
             } 
           });
