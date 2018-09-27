@@ -164,9 +164,8 @@ app.post("/home",jsonParser, function (req, res) {
       models.instance.amazon_deal_day.find({ $limit: addItem,stt:1 },{raw:true,allow_filtering: true}, function (err, result) {
         var arr = result.map(item => {
           //var strsale=item.sale;
-          //var saleSlice=strsale.match(/\w{1,3}/).map(String);
-          var arrSale=item.sale.match(/\w{1,4}/);
-          console.log(arrSale);
+          //var saleSlice=strsale.match(/\w{1,3}/).map(String)
+          console.log(item.sale);
           return obj = {
             dealid: item.dealid,
             asin:item.asin,   
