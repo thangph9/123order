@@ -32,6 +32,7 @@ class ContentDetailLeft extends React.Component {
     render() {
         var {loadDetail}=this.props;
         var {mouseClickLink}=this.props;
+        var starNumber=Number(loadDetail[0].star)*20;
         return (
             <div className="col-md-7 detail-item">
                 <h4>{(loadDetail[0]!=undefined) &&loadDetail[0].title}</h4>
@@ -42,7 +43,7 @@ class ContentDetailLeft extends React.Component {
 								<i className="fa fa-star" aria-hidden="true"></i>
 								<i className="fa fa-star" aria-hidden="true"></i>
 								<i className="fa fa-star" aria-hidden="true"></i>
-								<div className="front-stars" style={{width:'84.6%'}}>
+								<div className="front-stars" style={{width:`${starNumber}%`}}>
 									<i className="fa fa-star" aria-hidden="true"></i>
 									<i className="fa fa-star" aria-hidden="true"></i>
 									<i className="fa fa-star" aria-hidden="true"></i>
