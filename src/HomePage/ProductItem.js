@@ -16,8 +16,8 @@ class ProductItem extends React.Component {
         var display=this.props.customStyle;
         var {data}=this.props;
         var titleTrim=data.title.trim();
-        if (data.title.length>65){
-            data.title= data.title.slice(0,65)+'...';
+        if (data.title.length>45){
+            data.title= data.title.slice(0,45)+'...';
         }
         titleTrim=titleTrim.replace(/%/g , "");
         titleTrim=titleTrim.replace(/ /g , "-");
