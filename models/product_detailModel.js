@@ -14,10 +14,12 @@ module.exports={
             type: "list",
             typeDef: "<text>"
         },
+        list_price:'text',
         nested:'text',
         nodeid:'text',
         price:'text',
         save_price:'text',
+        size:'text',
         smallimage: {
             type: "list",
             typeDef: "<text>",   

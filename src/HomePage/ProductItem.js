@@ -34,11 +34,23 @@ class ProductItem extends React.Component {
                     <div className="card-body p-2">
                         <h5 className="card-title deal-title-font" style={{ height:'32px' }}>{data.title}</h5>
                         {/* Starchart */}
-                        <i className="fa fa-star text-warning" />
-                        <i className="fa fa-star text-warning" />
-                        <i className="fas fa-star-half-alt='img' text-warning" />
-                        <i className="far fa-star text-warning" />
-                        <i className="far fa-star text-warning" />
+                        <div class="star-rating">
+							<div class="back-stars">
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+								
+								<div class="front-stars" style="width: 89.2%">
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+									<i class="fa fa-star" aria-hidden="true"></i>
+								</div>
+							</div>
+						</div>  
                         <br />
                         <strong className="card-text align-left deal-price" style={{width: '97px',fontSize: '12px',fontFamily:'Arial,Helvetica,sans-serif'}}>{data.price}</strong>
                         <span className="card-text align-right deal-old-price mb-2"><s style={{fontSize:'12px'}}>{data.base_price}</s></span>

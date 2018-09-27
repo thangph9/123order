@@ -10,10 +10,11 @@ module.exports={
         legacydealid:'text',
         link:"text",
         offerid :'text',
-        position: 'int',
+        position: 'text',
         price:"text",
         review_link: 'text',
-        reviews:'int',
+        reviews:'text',
+        robot_label_track:'text',
         sale:"text",
         smid:'text',
         star:'text',
@@ -23,7 +24,7 @@ module.exports={
             default: {"$db_function": "toTimestamp(now())"}
         },
         title: "text",
-        widgetid: 'int'
+        widgetid: 'text'
     },
     key:["dealid"]
 }

@@ -4,3 +4,21 @@
 .none-hide{
 	display: none;
 }
+.star-rating, .back-stars, .front-stars {
+	display: flex;
+  }
+  .star-rating {
+	font-size: 20px;
+	justify-content: center;
+  }
+  .back-stars {
+	color: #363636;
+	position: relative;
+  }
+  .front-stars {
+	color: #F9F400;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+  }
+  
