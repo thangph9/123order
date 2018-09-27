@@ -35,6 +35,23 @@ class ContentDetailLeft extends React.Component {
         return (
             <div className="col-md-7 detail-item">
                 <h4>{(loadDetail[0]!=undefined) &&loadDetail[0].title}</h4>
+                <div className="star-rating">
+							<div className="back-stars">
+								<i className="fa fa-star" aria-hidden="true"></i>
+								<i className="fa fa-star" aria-hidden="true"></i>
+								<i className="fa fa-star" aria-hidden="true"></i>
+								<i className="fa fa-star" aria-hidden="true"></i>
+								<i className="fa fa-star" aria-hidden="true"></i>
+								
+								<div className="front-stars" style={{width:'84.6%'}}>
+									<i className="fa fa-star" aria-hidden="true"></i>
+									<i className="fa fa-star" aria-hidden="true"></i>
+									<i className="fa fa-star" aria-hidden="true"></i>
+									<i className="fa fa-star" aria-hidden="true"></i>
+									<i className="fa fa-star" aria-hidden="true"></i>
+								</div>
+							</div>
+						</div>  
                 <div className="row price-item pl-3">
                     <h5 className="mr-5">{(mouseClickLink!=undefined) &&mouseClickLink.price}</h5>
                     <strike className="p">{(mouseClickLink!=undefined) &&mouseClickLink.base_price}</strike>
