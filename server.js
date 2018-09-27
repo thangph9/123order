@@ -165,7 +165,7 @@ app.post("/home",jsonParser, function (req, res) {
         var arr = result.map(item => {
           //var strsale=item.sale;
           //var saleSlice=strsale.match(/\w{1,3}/).map(String);
-          var arrSale=item.sale.match(/\w{1,3}/);
+          var arrSale=item.sale.match(/\w{2,4}/);
           console.log(arrSale);
           return obj = {
             dealid: item.dealid,
