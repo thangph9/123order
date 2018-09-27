@@ -15,7 +15,8 @@ class ProductItem extends React.Component {
     render(){
         var display=this.props.customStyle;
         var {data}=this.props;
-        
+       
+        var starNumber=Number(data.star)*20;
         return (
             <div className="col-md mt-2 px-2" style={{display:display,marginBottom:'8px'}}>
                 <div className="card" style={{width:'212px',height:'340px'}}>
