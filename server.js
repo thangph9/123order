@@ -163,10 +163,6 @@ app.post("/home",jsonParser, function (req, res) {
     (callback) =>{
       models.instance.amazon_deal_day.find({$limit:addItem,stt:1},{raw:true,allow_filtering: true}, function (err, result) {
         var arr = result.map(item => {
-          //var strsale=item.sale;
-          //var saleSlice=strsale.match(/\w{1,3}/).map(String)
-          console.log(item.sale);
-          console.log(item.title);
           return obj = {
             dealid: item.dealid,
             asin:item.asin,   
@@ -202,7 +198,6 @@ app.post("/home",jsonParser, function (req, res) {
 })
 var PARAM_IS_PRODUCT_DETAIL={};
 app.post('/detail-product',jsonParser, function (req, res) {
-  console.log(req.body.dealid);
   params=req.body;
   async.series([
     (callback)=> { 
