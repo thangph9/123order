@@ -180,7 +180,7 @@ app.post("/home",jsonParser, function (req, res) {
             price: item.price,
             reviews: item.reviews,
             review_link: item.review_link,
-            sale: (item.sale.length>0)?item.sale.substring(1,4):item.sale,
+            sale: (item.sale!='')?item.sale.substring(1,4):item.sale,
             smid:item.smid,
             stt:item.stt,
             timestamp: item.timestamp + "",
