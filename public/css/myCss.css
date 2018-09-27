@@ -13,11 +13,11 @@
     font-size: 18px;
   }
   .back-stars {
-	color: #777777;
+	color: #fff;
 	position: relative;
   }
   .front-stars {
-	color: #FFFF66;
+	color: #ffa700;
 	overflow: hidden;
 	position: absolute;
 	top: 0;

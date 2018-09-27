@@ -141,19 +141,19 @@ var ObjTable = {
   ContentSale: [
     {
       id: 'anhgai1',
-      linkanh: '/img/anh-girl-xinh-9x-10.jpg'
+      linkanh: '/img/Home-1.jpg'
     },
     {
       id: 'anhgai2',
-      linkanh: '/img/anh-girl-xinh-9x-kute-16.jpg'
+      linkanh: '/img/Home-2.jpg'
     },
     {
       id: 'anhgai3',
-      linkanh: '/img/hinh-anh-girl-sinh-2000-4.jpg'
+      linkanh: '/img/Home-3.jpg'
     },
     {
       id: 'anhgai4',
-      linkanh: '/img/hinh-anh-girl-xinh-mien-tay-de-thuong.jpg'
+      linkanh: '/img/Home-4.jpg'
     }
   ]
 };
@@ -254,22 +254,30 @@ app.post("/landing-page",jsonParser, function (req, res) {
   var addItem = req.body.addItem + 15
   async.series([
     (callback) =>{
-      models.instance.amazon_deal_day.find({ $limit: addItem,stt:1},{allow_filtering: true}, function (err, result) {
+      models.instance.amazon_deal_day.find({ $limit: addItem,stt:1},{raw:true,allow_filtering: true}, function (err, result) {
         var arr = result.map(item => {
           return obj = {
             dealid: item.dealid,
+            asin:item.asin,   
             base_price: item.base_price,
+            dealstate:item.dealstate,
+            dealtype:item.dealtype,
             death_clock: item.death_clock,
             img: item.img,
+            legacydealid:item.legacydealid,
             link: item.link,
+            offerid:item.offerid,
+            position:item.position,
             price: item.price,
-            review: item.review,
-            reviewlink: item.reviewlink,
-            robot_label_track: item.robot_label_track,
+            reviews: item.reviews,
+            review_link: item.review_link,
             sale:(item.sale!=null)?item.sale.slice(1,4):'',
-            stt: item.stt,
+            smid:item.smid,
+            stt:item.stt,
             timestamp: item.timestamp + "",
+            star:item.star,
             title:(item.title!=null)?item.title:'',
+            widgetid:item.widgetid
           }
         });
         ObjTable.ContentAmazonDealDay = arr;
