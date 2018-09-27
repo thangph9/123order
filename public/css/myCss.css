@@ -8,15 +8,16 @@
 	display: flex;
   }
   .star-rating {
-	font-size: 20px;
-	justify-content: center;
+		position: relative;
+    top: 14px;
+    font-size: 18px;
   }
   .back-stars {
-	color: #363636;
+	color: #777777;
 	position: relative;
   }
   .front-stars {
-	color: #F9F400;
+	color: #FFFF66;
 	overflow: hidden;
 	position: absolute;
 	top: 0;
