@@ -259,7 +259,7 @@ app.post("/landing-page",jsonParser, function (req, res) {
   var addItem = req.body.addItem + 15
   async.series([
     (callback) =>{
-      models.instance.amazon_deal_day.find({ $limit: addItem,stt:1,sale:{'$isnt':null},title:{'isnt':null} },{allow_filtering: true}, function (err, result) {
+      models.instance.amazon_deal_day.find({ $limit: addItem,stt:1,dealid:{'$isnt':{'$in':['52017939','e61eaeeb']}} },{allow_filtering: true}, function (err, result) {
         var arr = result.map(item => {
           return obj = {
             dealid: item.dealid,
