@@ -242,7 +242,7 @@ app.post('/detail-product',jsonParser, function (req, res) {
           return obj = {
             base_price: item.base_price,
             price: item.price,
-            sale: (item.sale.length>0)?item.sale.substring(1,4):item.sale
+            sale: (item.sale!='')?item.sale.substring(1,4):item.sale
           }
         });
         callback(err, arr[0]);
