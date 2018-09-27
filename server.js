@@ -163,6 +163,8 @@ app.post("/home",jsonParser, function (req, res) {
     (callback) =>{
       models.instance.amazon_deal_day.find({ $limit: addItem,stt:1 },{allow_filtering: true}, function (err, result) {
         var arr = result.map(item => {
+          var strsale=item.sale;
+          var saleSlice=strsale.match(/\w{1,3}/).map(String);
           return obj = {
             dealid: item.dealid,
             asin:item.asin,   
@@ -178,7 +180,7 @@ app.post("/home",jsonParser, function (req, res) {
             price: item.price,
             reviews: item.reviews,
             review_link: item.review_link,
-            sale: item.sale.match(/\w{2,4}/).map(String),
+            sale: saleSlice[0],
             smid:item.smid,
             stt:item.stt,
             timestamp: item.timestamp + "",
