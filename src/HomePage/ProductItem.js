@@ -35,8 +35,8 @@ class ProductItem extends React.Component {
                     <div className="card-body p-2">
                         <h5 className="card-title deal-title-font" style={{ height:'32px' }}>{data.title}</h5>
                         {/* Starchart */}
-                        <div className={(starNumber==0)?'none-hide':'star-rating'}>
-							<div className="back-stars">
+                        <div className='star-rating'>
+							<div className={(starNumber==0)?'none-hide':'back-stars'}>
 								<i className="fa fa-star" aria-hidden="true"></i>
 								<i className="fa fa-star" aria-hidden="true"></i>
 								<i className="fa fa-star" aria-hidden="true"></i>
