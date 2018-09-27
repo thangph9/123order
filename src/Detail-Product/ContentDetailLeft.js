@@ -31,6 +31,7 @@ class ContentDetailLeft extends React.Component {
 	}
     render() {
         var {loadDetail}=this.props;
+        var {mouseClickLink}=this.props;
         return (
             <div className="col-md-7 detail-item">
                 <h4>{(loadDetail[0]!=undefined) &&loadDetail[0].title}</h4>
@@ -51,11 +52,11 @@ class ContentDetailLeft extends React.Component {
 							</div>
 						</div>  
                 <div className="row price-item pl-3">
-                    <h5 className="mr-5">{(loadDetail[0].deal_of_day!=undefined) &&loadDetail[0].deal_of_day}</h5>
-                    <strike className="p">{(loadDetail[0].price!=undefined) &&loadDetail[0].price}</strike>
+                    <h5 className="mr-5">{(mouseClickLink!=undefined) &&mouseClickLink.price}</h5>
+                    <strike className="p">{(mouseClickLink!=undefined) &&mouseClickLink.base_price}</strike>
                 </div>
-                <div className={(loadDetail[0].save_price=='')?'none-hide':'p'}>
-                Tiết kiệm: {(loadDetail[0].save_price!=undefined) &&loadDetail[0].save_price}
+                <div className={(mouseClickLink.sale=='')?'none-hide':'p'}>
+                Tiết kiệm: {(mouseClickLink!=undefined) &&mouseClickLink.sale}
   </div>
                 <div className="row">
                     <ul>
@@ -158,6 +159,8 @@ function mapStateToProps(state) {
 
     return {
         loadDetail:state.initLoadProductDetail,
+        mouseClick:state.mouseClickSettingNumberProduct,
+        mouseClickLink:state.mouseClickLinkProductItem
     }
 }
 const connected = connect(mapStateToProps)(ContentDetailLeft);
