@@ -180,12 +180,12 @@ app.post("/home",jsonParser, function (req, res) {
             price: item.price,
             reviews: item.reviews,
             review_link: item.review_link,
-            sale: (item.sale!=null)&&item.sale.slice(1,4),
+            sale:item.sale.slice(1,4),
             smid:item.smid,
             stt:item.stt,
             timestamp: item.timestamp + "",
             star:item.star,
-            title: (item.title!=null)&&item.title,
+            title: item.title,
             widgetid:item.widgetid
           }
         });
@@ -229,7 +229,7 @@ app.post('/detail-product',jsonParser, function (req, res) {
               smallimage: item.smallimage,
               star: item.star,
               style:item.style,
-              title: (item.title!=null)&&item.title
+              title:item.title
             } 
           });
           ObjTable.ProductDetail = arr;
@@ -242,7 +242,7 @@ app.post('/detail-product',jsonParser, function (req, res) {
           return obj = {
             base_price: item.base_price,
             price: item.price,
-            sale: (item.sale!=null)&&item.sale.slice(1,4),
+            sale: item.sale.slice(1,4),
           }
         });
         callback(err, arr[0]);
@@ -269,10 +269,10 @@ app.post("/landing-page",jsonParser, function (req, res) {
             review: item.review,
             reviewlink: item.reviewlink,
             robot_label_track: item.robot_label_track,
-            sale: (item.sale!=null)&&item.sale.slice(1,4),
+            sale:item.sale.slice(1,4),
             stt: item.stt,
             timestamp: item.timestamp + "",
-            title: (item.title!=null)&&item.title
+            title:item.title
           }
         });
         ObjTable.ContentAmazonDealDay = arr;
