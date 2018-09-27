@@ -180,7 +180,7 @@ app.post("/home",jsonParser, function (req, res) {
             price: item.price,
             reviews: item.reviews,
             review_link: item.review_link,
-            sale: (item.sale!='')?item.sale.substring(1,4):item.sale,
+            sale: item.sale,
             smid:item.smid,
             stt:item.stt,
             timestamp: item.timestamp + "",
@@ -242,7 +242,7 @@ app.post('/detail-product',jsonParser, function (req, res) {
           return obj = {
             base_price: item.base_price,
             price: item.price,
-            sale: (item.sale!='')?item.sale.substring(1,4):item.sale
+            sale:item.sale
           }
         });
         callback(err, arr[0]);
