@@ -21,6 +21,7 @@ class ProductItem extends React.Component {
         }
         titleTrim=titleTrim.replace(/%/g , "");
         titleTrim=titleTrim.replace(/ /g , "-");
+        var starNumber=Number(data.star)*20;
         return (
             <div className="col-md mt-2 px-2" style={{display:display,marginBottom:'8px'}}>
                 <div className="card" style={{width:'212px',height:'340px'}}>
@@ -42,7 +43,7 @@ class ProductItem extends React.Component {
 								<i className="fa fa-star" aria-hidden="true"></i>
 								<i className="fa fa-star" aria-hidden="true"></i>
 								
-								<div className="front-stars" style={{width:'84.6%'}}>
+								<div className="front-stars" style={{width:`${starNumber}%`}}>
 									<i className="fa fa-star" aria-hidden="true"></i>
 									<i className="fa fa-star" aria-hidden="true"></i>
 									<i className="fa fa-star" aria-hidden="true"></i>
