@@ -161,7 +161,7 @@ app.post("/home",jsonParser, function (req, res) {
   var addItem = req.body.addItem + 15
   async.series([
     (callback) =>{
-      models.instance.amazon_deal_day.find({$limit:addItem,stt:1},{raw:true,allow_filtering: true,sale:{'$isnt': null}}, function (err, result) {
+      models.instance.amazon_deal_day.find({$limit:addItem,stt:1},{raw:true,allow_filtering: true,sale:{$isnt:''}}, function (err, result) {
         var arr = result.map(item => {
           return obj = {
             dealid: item.dealid,
