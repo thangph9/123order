@@ -145,15 +145,15 @@ var ObjTable = {
     },
     {
       id: 'anhgai2',
-      linkanh: '/img/Home2_714x584.png'
+      linkanh: '/img/Home2_715x584.png'
     },
     {
       id: 'anhgai3',
-      linkanh: '/img/Home1_714x584.png'
+      linkanh: '/img/Home1_715x584.png'
     },
     {
       id: 'anhgai4',
-      linkanh: '/img/Home_714x584.png'
+      linkanh: '/img/Home_715x584.png'
     }
   ]
 };
