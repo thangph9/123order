@@ -141,19 +141,19 @@ var ObjTable = {
   ContentSale: [
     {
       id: 'anhgai1',
-      linkanh: '/img/Home-1.jpg'
+      linkanh: '/img/Home3_714x584.png'
     },
     {
       id: 'anhgai2',
-      linkanh: '/img/Home-2.jpg'
+      linkanh: '/img/Home2_714x584.png'
     },
     {
       id: 'anhgai3',
-      linkanh: '/img/Home-3.jpg'
+      linkanh: '/img/Home1_714x584.png'
     },
     {
       id: 'anhgai4',
-      linkanh: '/img/Home-4.jpg'
+      linkanh: '/img/Home_714x584.png'
     }
   ]
 };
@@ -166,9 +166,9 @@ function removeA(arr) {
       }
   }
   return arr;
-}
+} 
 app.post("/home",jsonParser, function (req, res) {
-  var addItem = req.body.addItem + 15
+  var addItem = req.body.addItem + 15;
   async.series([
     (callback) =>{
       models.instance.amazon_deal_day.find({$limit:addItem,stt:1},{raw:true,allow_filtering: true}, function (err, result) {
