@@ -334,5 +334,9 @@ if (!module.parent) {
     console.log("server running at https://123order.vn/")
   });
 
-  server.listen(80, () => console.log('Example app listening on port 80!'));
+  var http = require('http');
+  http.createServer(function (req, res) {
+    res.writeHead(301, { "Location": "https://" + req.headers['host'] + req.url });
+    res.end();
+}).listen(80);
 }
