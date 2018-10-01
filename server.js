@@ -334,5 +334,5 @@ if (!module.parent) {
     console.log("server running at https://123order.vn/")
   });
 
-  //app.listen(80, () => console.log('Example app listening on port 80!'));
+  server.listen(80, () => console.log('Example app listening on port 80!'));
 }
