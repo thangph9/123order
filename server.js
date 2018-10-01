@@ -198,7 +198,7 @@ app.post("/home",jsonParser, function (req, res) {
               widgetid:item.widgetid
             }
           }
-          else return 'null';
+        else return 'null';
         });
         removeA(arr,'null')
         ObjTable.ContentAmazonDealDay = arr;
