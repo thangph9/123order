@@ -236,7 +236,7 @@ app.post('/detail-product',jsonParser, function (req, res) {
               nested:item.nested,
               nodeid:item.nodeid,
               price:item.price,
-              save_price:item.save_price,
+              save_price:item.save_price.slice(0,5),
               smallimage: item.smallimage,
               star: item.star,
               style:item.style,
@@ -334,5 +334,5 @@ if (!module.parent) {
     console.log("server running at https://123order.vn/")
   });
 
-  app.listen(80, () => console.log('Example app listening on port 80!'));
+  //app.listen(80, () => console.log('Example app listening on port 80!'));
 }
