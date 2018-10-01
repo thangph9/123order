@@ -325,7 +325,7 @@ app.use(function (req, res, next) {
 });
 
 
-
+var http = require('http');
 var server = https.createServer(credentials, app);
 
 if (!module.parent) {
@@ -334,7 +334,7 @@ if (!module.parent) {
     console.log("server running at https://123order.vn/")
   });
 
-  var http = require('http');
+ 
   http.createServer(function (req, res) {
     res.writeHead(301, { "Location": "https://" + req.headers['host'] + req.url });
     res.end();
