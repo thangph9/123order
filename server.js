@@ -325,7 +325,6 @@ app.use(function (req, res, next) {
 });
 
 
-var http = require('http');
 var server = https.createServer(credentials, app);
 
 if (!module.parent) {
