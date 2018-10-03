@@ -81,7 +81,7 @@ class ContentTest extends React.Component {
                                 <div className="product-img-segment">
                                     <div className="sale-tag">-21%</div>
                                     <div className="over-img-field">
-                                        <span className="field-inner"><img className="over-img" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" alt /></span>
+                                        <span className="field-inner"><img className="over-img" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" alt="img" /></span>
                                     </div>
                                     <div className="swiper-container swiper-container-horizontal">
                                         <div className="swiper-wrapper" style={{ height: 310 }}>
@@ -812,7 +812,7 @@ class ContentTest extends React.Component {
                                             <div className="img-pane">
                                                 <a className="img-field" href="/de/tablet-halterung-syncwire-ipad-stander-verstellbarer-2270-grad-handy-tisch-stand-fur-ipad-pro-12910597-air-mini-iphone-x-876s6-plus-samsung-galaxy-tab-as2s3ee-lites8note-8-huawei-p10mate-10-kindle-schwarz-B077GRNQNW.html">
                                                     <span className="field-inner">
-                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/51fDF-Sc7pL._SL500_SS135_.jpg" alt />
+                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/51fDF-Sc7pL._SL500_SS135_.jpg" alt="img" />
                                                     </span>
                                                 </a>
                                             </div>{/* .img-pane */}
@@ -824,7 +824,7 @@ class ContentTest extends React.Component {
                                             <div className="img-pane">
                                                 <a className="img-field" href="/de/tablet-stander-lamicall-multi-winkel-tablet-halter-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-grau-B072KDV6V1.html">
                                                     <span className="field-inner">
-                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/412JuL78YiL._SL500_SS135_.jpg" alt />
+                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/412JuL78YiL._SL500_SS135_.jpg" alt="img" />
                                                     </span>
                                                 </a>
                                             </div>{/* .img-pane */}
@@ -836,7 +836,7 @@ class ContentTest extends React.Component {
                                             <div className="img-pane">
                                                 <a className="img-field" href="/de/handy-stander-lamicall-handy-halterung-handyhalterung-halter-phone-stander-fur-iphone-xs-max-xs-xr-x-8-7-6s-6-plus-se-5-samsung-s7-s8-huawei-tisch-zubehor-schreibtisch-andere-smartphone-schwarz-B01LQE4ZUE.html">
                                                     <span className="field-inner">
-                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/41w1jyAbWTL._SL500_SY135_.jpg" alt />
+                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/41w1jyAbWTL._SL500_SY135_.jpg" alt="img" />
                                                     </span>
                                                 </a>
                                             </div>{/* .img-pane */}
@@ -848,7 +848,7 @@ class ContentTest extends React.Component {
                                             <div className="img-pane">
                                                 <a className="img-field" href="/de/omoton-stander-fur-ipad-pro-mehrere-winkel-alulegierung-mit-tragbarer-verstellbar-lade-dockingstation-fur-ipad-pro-129-zoll-ipad-pro-97-zoll-ipad-air-samsung-tablet-etc-stabil-und-durabel-halter-space-grau-B01K9RTSBK.html">
                                                     <span className="field-inner">
-                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/41UsoN2HC0L._SL500_SS135_.jpg" alt />
+                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/41UsoN2HC0L._SL500_SS135_.jpg" alt="img" />
                                                     </span>
                                                 </a>
                                             </div>{/* .img-pane */}
@@ -860,7 +860,7 @@ class ContentTest extends React.Component {
                                             <div className="img-pane">
                                                 <a className="img-field" href="/de/amazonbasics-tablet-stander-verstellbar-B006ZT4VA0.html">
                                                     <span className="field-inner">
-                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/41KK%2BOVaDzL._SL500_SY135_.jpg" alt />
+                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/41KK%2BOVaDzL._SL500_SY135_.jpg" alt="img" />
                                                     </span>
                                                 </a>
                                             </div>{/* .img-pane */}
@@ -872,7 +872,7 @@ class ContentTest extends React.Component {
                                             <div className="img-pane">
                                                 <a className="img-field" href="/de/tablet-stander-lamicall-multi-winkel-tablet-halter-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-silber-B07BFW58RP.html">
                                                     <span className="field-inner">
-                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/41DA0rGXz1L._SL500_SS135_.jpg" alt />
+                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/41DA0rGXz1L._SL500_SS135_.jpg" alt="img" />
                                                     </span>
                                                 </a>
                                             </div>{/* .img-pane */}
@@ -884,7 +884,7 @@ class ContentTest extends React.Component {
                                             <div className="img-pane">
                                                 <a className="img-field" href="/de/tablet-stander-verstellbare-lamicall-tablet-staender-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-silber-B078HSK1QV.html">
                                                     <span className="field-inner">
-                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/41hcendcDyL._SL500_SY135_.jpg" alt />
+                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/41hcendcDyL._SL500_SY135_.jpg" alt="img" />
                                                     </span>
                                                 </a>
                                             </div>{/* .img-pane */}
@@ -896,7 +896,7 @@ class ContentTest extends React.Component {
                                             <div className="img-pane">
                                                 <a className="img-field" href="/de/omoton-tablet-stander-fur-ipad-97-proairmini-huawei-samsung-fire-maximale-105-zoll-mit-180-grad-einstellbarem-winkel-stabil-aluminium-handy-halterung-silber-B07CYTJRSP.html">
                                                     <span className="field-inner">
-                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/416SjWjhO0L._SL500_SS135_.jpg" alt />
+                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/416SjWjhO0L._SL500_SS135_.jpg" alt="img" />
                                                     </span>
                                                 </a>
                                             </div>{/* .img-pane */}
@@ -908,7 +908,7 @@ class ContentTest extends React.Component {
                                             <div className="img-pane">
                                                 <a className="img-field" href="/de/ugreen-ipad-stander-tablet-halterung-tablet-stander-fur-laptop-bis-zu-105-zoll-B07CG71KQ1.html">
                                                     <span className="field-inner">
-                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/41HxWpQoO-L._SL500_SS135_.jpg" alt />
+                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/41HxWpQoO-L._SL500_SS135_.jpg" alt="img" />
                                                     </span>
                                                 </a>
                                             </div>{/* .img-pane */}
@@ -920,7 +920,7 @@ class ContentTest extends React.Component {
                                             <div className="img-pane">
                                                 <a className="img-field" href="/de/mygadget-aluminium-tablet-e-reader-stander-verstellbare-stand-halterung-tisch-halter-fur-zb-apple-ipad-pro-air-minigalaxy-tab-a-s2-silber-B07DJ9FLW5.html">
                                                     <span className="field-inner">
-                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/41e8EfsAqkL._SL500_SS135_.jpg" alt />
+                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/41e8EfsAqkL._SL500_SS135_.jpg" alt="img" />
                                                     </span>
                                                 </a>
                                             </div>{/* .img-pane */}
@@ -932,7 +932,7 @@ class ContentTest extends React.Component {
                                             <div className="img-pane">
                                                 <a className="img-field" href="/de/omoton-stander-fur-ipad-air-ipad-mini-ipad-pro-97-bis-zu-12-zollsamsung-tablet-stander-mit-einstellbarem-winkel-und-ladekabelauslass-stabil-aluminium-halterung-in-silber-B01C3Z7SMW.html">
                                                     <span className="field-inner">
-                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/41x1ML8m3pL._SL500_SS135_.jpg" alt />
+                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/41x1ML8m3pL._SL500_SS135_.jpg" alt="img" />
                                                     </span>
                                                 </a>
                                             </div>{/* .img-pane */}
@@ -944,7 +944,7 @@ class ContentTest extends React.Component {
                                             <div className="img-pane">
                                                 <a className="img-field" href="/de/lurico-ipad-stander-tablet-stander-270-drehbarer-aluminiumlegierung-tischplattenhalter-handy-stander-universal-halter-halterung-dock-fur-telefone-ipad-pro-97105129-ipad-air-ipad-mini-B07B9FM343.html">
                                                     <span className="field-inner">
-                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/41MfD0NU08L._SL500_SS135_.jpg" alt />
+                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/41MfD0NU08L._SL500_SS135_.jpg" alt="img" />
                                                     </span>
                                                 </a>
                                             </div>{/* .img-pane */}
@@ -956,7 +956,7 @@ class ContentTest extends React.Component {
                                             <div className="img-pane">
                                                 <a className="img-field" href="/de/ipad-stander-verstellbarer-handy-stander-matone-tablet-stander-universal-halter-halterung-dock-fur-telefone-ipad-pro-97105129-ipad-air-ipad-mini-samsung-huawei-tab-e-reader4-13-silber-B0792QB32L.html">
                                                     <span className="field-inner">
-                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/415CFqqyTgL._SL500_SS135_.jpg" alt />
+                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/415CFqqyTgL._SL500_SS135_.jpg" alt="img" />
                                                     </span>
                                                 </a>
                                             </div>{/* .img-pane */}
@@ -968,7 +968,7 @@ class ContentTest extends React.Component {
                                             <div className="img-pane">
                                                 <a className="img-field" href="/de/amazonbasics-tragbarer-stander-mit-verstellbarem-betrachtungswinkel-fur-tablets-e-reader-und-handys-silber-B01IJ5A0PC.html">
                                                     <span className="field-inner">
-                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/3196x2buUKL._SL500_SS135_.jpg" alt />
+                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/3196x2buUKL._SL500_SS135_.jpg" alt="img" />
                                                     </span>
                                                 </a>
                                             </div>{/* .img-pane */}
@@ -980,7 +980,7 @@ class ContentTest extends React.Component {
                                             <div className="img-pane">
                                                 <a className="img-field" href="/de/multi-winkel-handy-stander-lamicall-handy-halterung-handyhalterung-halter-phone-stander-fur-iphone-xs-max-xs-xr-x-8-7-6s-6-plus-se-5-samsung-s7-s8-huawei-tisch-zubehor-schreibtisch-andere-smartphone-grau-B0721K77N5.html">
                                                     <span className="field-inner">
-                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/41K2Yxc8eHL._SL500_SY135_.jpg" alt />
+                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/41K2Yxc8eHL._SL500_SY135_.jpg" alt="img" />
                                                     </span>
                                                 </a>
                                             </div>{/* .img-pane */}
@@ -992,7 +992,7 @@ class ContentTest extends React.Component {
                                             <div className="img-pane">
                                                 <a className="img-field" href="/de/handy-phone-stander-nulaxy-handy-halterung-tisch-smartphone-handy-stander-halter-schwarz-fur-huawei-samsung-s7-8-apple-iphone-5-6-7-plus8-x-se-tablet-universal-mini-aluminium-klappbar-phone-handy-stander-multi-winkel-fur-buro-kuche-schreibtisch-B01MDKI4IO.html">
                                                     <span className="field-inner">
-                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/41ZiH8U2WPL._SL500_SS135_.jpg" alt />
+                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/41ZiH8U2WPL._SL500_SS135_.jpg" alt="img" />
                                                     </span>
                                                 </a>
                                             </div>{/* .img-pane */}
@@ -1004,7 +1004,7 @@ class ContentTest extends React.Component {
                                             <div className="img-pane">
                                                 <a className="img-field" href="/de/multi-winkel-handy-stander-lamicall-handy-halterung-handyhalterung-halter-phone-stander-fur-iphone-xs-max-xs-xr-x-8-7-6s-6-plus-se-5-samsung-s7-s8-huawei-tisch-zubehor-schreibtisch-andere-smartphone-schwarz-B01M8N0G3L.html">
                                                     <span className="field-inner">
-                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/41N%2B045AcRL._SL500_SY135_.jpg" alt />
+                                                        <img className="pd-img img-lazy" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" data-src="https://images-eu.ssl-images-amazon.com/images/I/41N%2B045AcRL._SL500_SY135_.jpg" alt="img" />
                                                     </span>
                                                 </a>
                                             </div>{/* .img-pane */}
