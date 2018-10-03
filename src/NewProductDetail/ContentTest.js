@@ -38,7 +38,7 @@ class ContentTest extends React.Component {
                     <div className="container-head">
                         <div className="product-detail-head-block">
                             <div className="block-col-1">
-                                <h1 className="pd-title" itemProp="name" id="productName">
+                                <h1 style={{margin:'0px'}} className="pd-title" itemProp="name" id="productName">
                                     Tablet Ständer Verstellbare, Lamicall Tablet Staender : Universal Halter, Halterung, Dock, für iPad Pro 10.5 / 9.7, iPad Air 2 3 4, iPad mini 2 3 4, Samsung Huawei E-Reader und Google Nexus Schreibtisch, andere Tab 5"-13" - Silber              </h1>
                                 <div className="meta-item-wrap">
                                     <div className="meta-item" itemProp="aggregateRating" itemScope="itemscope" itemType="https://schema.org/AggregateRating">
@@ -64,12 +64,12 @@ class ContentTest extends React.Component {
                                             </div>
                                             <div className="desc">
                                                 <div className="star">
-                                                    <i className="fa fa-star text-yellow" /><i className="fa fa-star text-yellow" /><i className="fa fa-star text-yellow" /><i className="fa fa-star text-yellow" /><i className="fa fa-star text-yellow" />                                  </div> |
-                <div className="rating">100% đánh giá uy tín</div>
+                                                <div className="rating">100% đánh giá uy tín</div>
+                                                    <i className="fa fa-star text-yellow" /><i className="fa fa-star text-yellow" /><i className="fa fa-star text-yellow" /><i className="fa fa-star text-yellow" /><i className="fa fa-star text-yellow" /></div> |
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="segment-main">
+                                    <div className="segment-main" style={{height: '30px'}}>
                                         <div className="rating">&nbsp;Sản phẩm tốt, rất nhiều người đã mua</div>
                                     </div>{/* .segment-main */}
                                 </div>{/* .shop-segment */}

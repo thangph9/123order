@@ -2500,7 +2500,7 @@ background-image: url("https://static.fado.vn/f/desktop/v2/images/svg/product-de
 .scroll-products-block .block-main:hover .swiper-button-next,.scroll-products-block .block-main:hover .swiper-button-prev {
 	display: block
 }
-;.panel-product-scroll .img-pane {
+.panel-product-scroll .img-pane {
 	background: #fff;
 	border: 1px solid #e1e1e1;
 	border-radius: 3px;
