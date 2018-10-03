@@ -21,8 +21,8 @@ class ContentTest extends React.Component {
         return (
             <div>
                 <section id="breadcrumbs-block-v2" className="breadcrumbs-block-v2 ">
-                    <div className="container-fedo" itemScope="itemscope" itemType="http://schema.org/BreadcrumbList">
-                        <ul className="link-list" itemProp="itemListElement" itemScope="itemscope" itemType="http://schema.org/ListItem">
+                    <div className="container-fedo" itemScope="itemscope" itemType="https://schema.org/BreadcrumbList">
+                        <ul className="link-list" itemProp="itemListElement" itemScope="itemscope" itemType="https://schema.org/ListItem">
                             <li><a href="/">Trang chủ</a></li>
                             <li className="break" />
                             <li><a href="/de/amazon-store/" itemProp="item"><span itemProp="name">Amazon Đức</span></a></li>
@@ -38,7 +38,7 @@ class ContentTest extends React.Component {
                                 <h1 className="pd-title" itemProp="name" id="productName">
                                     Tablet Ständer Verstellbare, Lamicall Tablet Staender : Universal Halter, Halterung, Dock, für iPad Pro 10.5 / 9.7, iPad Air 2 3 4, iPad mini 2 3 4, Samsung Huawei E-Reader und Google Nexus Schreibtisch, andere Tab 5"-13" - Silber              </h1>
                                 <div className="meta-item-wrap">
-                                    <div className="meta-item" itemProp="aggregateRating" itemScope="itemscope" itemType="http://schema.org/AggregateRating">
+                                    <div className="meta-item" itemProp="aggregateRating" itemScope="itemscope" itemType="https://schema.org/AggregateRating">
                                         <i className="fa fa-star text-yellow" /><i className="fa fa-star text-yellow" /><i className="fa fa-star text-yellow" /><i className="fa fa-star text-yellow" /><i className="fa fa-star text-yellow" />                        <span itemProp="ratingValue">4</span>/5
             &nbsp;(<span>795</span> lượt đánh giá)
           </div>
@@ -217,10 +217,10 @@ class ContentTest extends React.Component {
                                         <div className="share-panel">
                                             <div className="lbl-col">Chia sẽ tới:</div>
                                             <div className="info-col">
-                                                <a className="social-item" href="https://www.facebook.com/sharer/sharer.php?u=https://fado.vn/de/tablet-stander-verstellbare-lamicall-tablet-staender-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-silber-B01N05W4A2.html" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;">
+                                                <a className="social-item" href="https://www.facebook.com/sharer/sharer.php?u=https://fado.vn/de/tablet-stander-verstellbare-lamicall-tablet-staender-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-silber-B01N05W4A2.html" onClick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;">
                                                     <i className="svg svg-facebook-circle svg-16px" />
                                                 </a>
-                                                <a className="social-item" href="https://plus.google.com/share?url=https://fado.vn/de/tablet-stander-verstellbare-lamicall-tablet-staender-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-silber-B01N05W4A2.html" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank">
+                                                <a className="social-item" href="https://plus.google.com/share?url=https://fado.vn/de/tablet-stander-verstellbare-lamicall-tablet-staender-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-silber-B01N05W4A2.html" onClick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank">
                                                     <i className="svg svg-google-circle svg-16px" />
                                                 </a>
                                                 <a className="social-item share-item zalo-share-button" href="javascript:;" data-href="https://fado.vn/de/tablet-stander-verstellbare-lamicall-tablet-staender-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-silber-B01N05W4A2.html" data-oaid={579745863508352884} data-layout={2} data-color="blue" data-customize="true">
@@ -336,14 +336,14 @@ class ContentTest extends React.Component {
                                         <div className="option-panel pick-panel size-panel pd-choose">
                                             <div className="lbl-col">Farbe:</div>
                                             <div className="info-col">
-                                                <select style={{ fontSize: 14, padding: '0px 0px 0px 10px' }} className="size-sel form-control">
+                                                <select defaultValue={"Silber"} style={{ fontSize: 14, padding: '0px 0px 0px 10px' }} className="size-sel form-control">
                                                     <option value="/de/tablet-stander-verstellbare-lamicall-tablet-staender-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-silber-B07HXYQXQ3.html?deal=list&m=A3AJ0GNLXXLZX8&keywords=">
                                                         ALL                                                              </option>
                                                     <option value="/de/tablet-stander-verstellbare-lamicall-tablet-staender-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-silber-B072MZM8G8.html?deal=list&m=A3AJ0GNLXXLZX8&keywords=">
                                                         Grau                                                              </option>
                                                     <option value="/de/tablet-stander-verstellbare-lamicall-tablet-staender-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-silber-B07BS8YM9B.html?deal=list&m=A3AJ0GNLXXLZX8&keywords=">
                                                         Rose Gold                                                              </option>
-                                                    <option selected value="/de/tablet-stander-verstellbare-lamicall-tablet-staender-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-silber-B01N05W4A2.html?deal=list&m=A3AJ0GNLXXLZX8&keywords=">
+                                                    <option value="/de/tablet-stander-verstellbare-lamicall-tablet-staender-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-silber-B01N05W4A2.html?deal=list&m=A3AJ0GNLXXLZX8&keywords=">
                                                         Silber                                                              </option>
                                                 </select>
                                             </div>
@@ -508,8 +508,8 @@ class ContentTest extends React.Component {
                                 </div>{/* .block-head */}
                                 <div className="block-main">
                                     <ul className="tab-title-list" style={{ paddingLeft: 0 }}>
-                                        <li className="is-active" onclick="getComment(this, '')" data-tab="#comment-quan-tam-nhat-tab">Quan tâm nhất</li>
-                                        <li onclick="getComment(this, 'date')" data-tab="#comment-moi-nhat-tab">Mới nhất</li>
+                                        <li className="is-active" onClick="getComment(this, '')" data-tab="#comment-quan-tam-nhat-tab">Quan tâm nhất</li>
+                                        <li onClick="getComment(this, 'date')" data-tab="#comment-moi-nhat-tab">Mới nhất</li>
                                     </ul>
                                     <div id="commentList" data-sort data-page={2} className="comment-tab is-show">
                                         <div className="comment-panel-wrap">
@@ -716,7 +716,7 @@ class ContentTest extends React.Component {
                                             <div className="img-pane">
                                                 <a className="img-field" href="/de/tablet-stander-gritin-handyhalterung-phone-dock-multi-winkel-aluminium-verstellbar-stabil-stand-fur-ipad-air-mini-2-3-4-ipad-pro-97-105-iphone-x-8-7-7-plus-6s-6-plus-kindle-nexus-tab-tisch-halterung-und-anderer-tablets-B07C3C55SV.html">
                                                     <span className="field-inner parent-img-loaded">
-                                                        <img className="pd-img img-lazy" src="https://images-eu.ssl-images-amazon.com/images/I/41%2B-Du4Ow7L._SL500_SY135_.jpg" alt style={{}} />
+                                                        <img className="pd-img img-lazy" src="https://images-eu.ssl-images-amazon.com/images/I/41%2B-Du4Ow7L._SL500_SY135_.jpg" alt="img" style={{}} />
                                                     </span>
                                                 </a>
                                             </div>{/* .img-pane */}
@@ -728,7 +728,7 @@ class ContentTest extends React.Component {
                                             <div className="img-pane">
                                                 <a className="img-field" href="/de/ugreen-ipad-stander-tablet-halterung-tablet-stander-fur-laptop-bis-zu-105-zoll-B01ISL5TLC.html">
                                                     <span className="field-inner parent-img-loaded">
-                                                        <img className="pd-img img-lazy" src="https://images-eu.ssl-images-amazon.com/images/I/31fvr7WwpDL._SL500_SS135_.jpg" alt style={{}} />
+                                                        <img className="pd-img img-lazy" src="https://images-eu.ssl-images-amazon.com/images/I/31fvr7WwpDL._SL500_SS135_.jpg" alt="img" style={{}} />
                                                     </span>
                                                 </a>
                                             </div>{/* .img-pane */}
@@ -740,7 +740,7 @@ class ContentTest extends React.Component {
                                             <div className="img-pane">
                                                 <a className="img-field" href="/de/soonhua-tablet-halter-360-drehbarer-aluminiumlegierung-tischplattenhalter-tablet-stander-fur-ipad-pro-ipad-64321-ipad-air-2-ipad-mini-und-anderen-tablet-B014QZ2RE6.html">
                                                     <span className="field-inner parent-img-loaded">
-                                                        <img className="pd-img img-lazy" src="https://images-eu.ssl-images-amazon.com/images/I/41tZ3-9BB7L._SL500_SS135_.jpg" alt style={{}} />
+                                                        <img className="pd-img img-lazy" src="https://images-eu.ssl-images-amazon.com/images/I/41tZ3-9BB7L._SL500_SS135_.jpg" alt="img" style={{}} />
                                                     </span>
                                                 </a>
                                             </div>{/* .img-pane */}
@@ -752,7 +752,7 @@ class ContentTest extends React.Component {
                                             <div className="img-pane">
                                                 <a className="img-field" href="/de/tablet-stander-lamicall-multi-winkel-tablet-halter-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-silber-B072MZNP1L.html">
                                                     <span className="field-inner parent-img-loaded">
-                                                        <img className="pd-img img-lazy" src="https://images-eu.ssl-images-amazon.com/images/I/41LReZXGdfL._SL500_SS135_.jpg" alt style={{}} />
+                                                        <img className="pd-img img-lazy" src="https://images-eu.ssl-images-amazon.com/images/I/41LReZXGdfL._SL500_SS135_.jpg" alt="img" style={{}} />
                                                     </span>
                                                 </a>
                                             </div>{/* .img-pane */}
@@ -764,7 +764,7 @@ class ContentTest extends React.Component {
                                             <div className="img-pane">
                                                 <a className="img-field" href="/de/tablet-stander-verstellbare-lamicall-tablet-staender-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-schwarz-B06XCD4PDF.html">
                                                     <span className="field-inner parent-img-loaded">
-                                                        <img className="pd-img img-lazy" src="https://images-eu.ssl-images-amazon.com/images/I/41ygXIRVJEL._SL500_SY135_.jpg" alt style={{}} />
+                                                        <img className="pd-img img-lazy" src="https://images-eu.ssl-images-amazon.com/images/I/41ygXIRVJEL._SL500_SY135_.jpg" alt="img" style={{}} />
                                                     </span>
                                                 </a>
                                             </div>{/* .img-pane */}
@@ -776,7 +776,7 @@ class ContentTest extends React.Component {
                                             <div className="img-pane">
                                                 <a className="img-field" href="/de/handy-stander-lamicall-handy-halterung-handyhalterung-halter-phone-stander-fur-iphone-xs-max-xs-xr-x-8-7-6s-6-plus-se-5-samsung-s7-s8-huawei-tisch-zubehor-schreibtisch-andere-smartphone-silber-B01LQE4ZS6.html">
                                                     <span className="field-inner parent-img-loaded">
-                                                        <img className="pd-img img-lazy" src="https://images-eu.ssl-images-amazon.com/images/I/41J6chjpVdL._SL500_SY135_.jpg" alt style={{}} />
+                                                        <img className="pd-img img-lazy" src="https://images-eu.ssl-images-amazon.com/images/I/41J6chjpVdL._SL500_SY135_.jpg" alt="img" style={{}} />
                                                     </span>
                                                 </a>
                                             </div>{/* .img-pane */}
@@ -788,7 +788,7 @@ class ContentTest extends React.Component {
                                             <div className="img-pane">
                                                 <a className="img-field" href="/de/multi-winkel-handy-stander-lamicall-handy-halterung-handyhalterung-halter-phone-stander-fur-iphone-xs-max-xs-xr-x-8-7-6s-6-plus-se-5-samsung-s7-s8-huawei-tisch-zubehor-schreibtisch-andere-smartphone-silber-B01M320AE4.html">
                                                     <span className="field-inner parent-img-loaded">
-                                                        <img className="pd-img img-lazy" src="https://images-eu.ssl-images-amazon.com/images/I/41rahQ7xaHL._SL500_SY135_.jpg" alt style={{}} />
+                                                        <img className="pd-img img-lazy" src="https://images-eu.ssl-images-amazon.com/images/I/41rahQ7xaHL._SL500_SY135_.jpg" alt="img" style={{}} />
                                                     </span>
                                                 </a>
                                             </div>{/* .img-pane */}
@@ -800,7 +800,7 @@ class ContentTest extends React.Component {
                                             <div className="img-pane">
                                                 <a className="img-field" href="/de/abovetek-eleganter-tablet-stand-aluminium-ipad-stand-halter-desktop-kiosk-pos-stander-fur-7-13-zoll-ipad-pro-air-mini-galaxy-tab-nexus-tablet-halterung-fur-store-showcase-buro-rezeption-kuche-B01KW7LSQK.html">
                                                     <span className="field-inner parent-img-loaded">
-                                                        <img className="pd-img img-lazy" src="https://images-eu.ssl-images-amazon.com/images/I/41LMJYTyrRL._SL500_SS135_.jpg" alt style={{}} />
+                                                        <img className="pd-img img-lazy" src="https://images-eu.ssl-images-amazon.com/images/I/41LMJYTyrRL._SL500_SS135_.jpg" alt="img" style={{}} />
                                                     </span>
                                                 </a>
                                             </div>{/* .img-pane */}
