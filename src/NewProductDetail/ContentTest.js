@@ -70,7 +70,7 @@ class ContentTest extends React.Component {
                                         <i className="fa fa-star text-yellow"></i>
                                         <i className="fa fa-star text-yellow"></i>
                                     </div>
-                                    <div className="rating"> | 100% đánh giá uy tín</div>
+                                    <span> | 100% đánh giá uy tín</span>
                                 </div>
                                         </div>
                                     </div>
