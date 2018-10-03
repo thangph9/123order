@@ -16,6 +16,9 @@ class ContentTest extends React.Component {
         })
         console.log("Hello World")
     }
+    handleClick() {
+        console.log("clicked")
+    } 
     render() {
 
         return (
@@ -217,10 +220,10 @@ class ContentTest extends React.Component {
                                         <div className="share-panel">
                                             <div className="lbl-col">Chia sẽ tới:</div>
                                             <div className="info-col">
-                                                <a className="social-item" href="https://www.facebook.com/sharer/sharer.php?u=https://fado.vn/de/tablet-stander-verstellbare-lamicall-tablet-staender-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-silber-B01N05W4A2.html" onClick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;">
+                                                <a className="social-item" href="https://www.facebook.com/sharer/sharer.php?u=https://fado.vn/de/tablet-stander-verstellbare-lamicall-tablet-staender-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-silber-B01N05W4A2.html" onClick={()=>this.handleClick()}>
                                                     <i className="svg svg-facebook-circle svg-16px" />
                                                 </a>
-                                                <a className="social-item" href="https://plus.google.com/share?url=https://fado.vn/de/tablet-stander-verstellbare-lamicall-tablet-staender-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-silber-B01N05W4A2.html" onClick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank">
+                                                <a className="social-item" href="https://plus.google.com/share?url=https://fado.vn/de/tablet-stander-verstellbare-lamicall-tablet-staender-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-silber-B01N05W4A2.html" onClick={()=>this.handleClick()}>
                                                     <i className="svg svg-google-circle svg-16px" />
                                                 </a>
                                                 <a className="social-item share-item zalo-share-button" href="javascript:;" data-href="https://fado.vn/de/tablet-stander-verstellbare-lamicall-tablet-staender-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-silber-B01N05W4A2.html" data-oaid={579745863508352884} data-layout={2} data-color="blue" data-customize="true">
@@ -508,8 +511,8 @@ class ContentTest extends React.Component {
                                 </div>{/* .block-head */}
                                 <div className="block-main">
                                     <ul className="tab-title-list" style={{ paddingLeft: 0 }}>
-                                        <li className="is-active" onClick="getComment(this, '')" data-tab="#comment-quan-tam-nhat-tab">Quan tâm nhất</li>
-                                        <li onClick="getComment(this, 'date')" data-tab="#comment-moi-nhat-tab">Mới nhất</li>
+                                        <li className="is-active" onClick={()=>this.handleClick()} data-tab="#comment-quan-tam-nhat-tab">Quan tâm nhất</li>
+                                        <li onClick={()=>this.handleClick()} data-tab="#comment-moi-nhat-tab">Mới nhất</li>
                                     </ul>
                                     <div id="commentList" data-sort data-page={2} className="comment-tab is-show">
                                         <div className="comment-panel-wrap">
