@@ -20,18 +20,17 @@ class ContentTest extends React.Component {
 
         return (
             <div>
-                <section id="breadcrumbs-block-v2" class="breadcrumbs-block-v2 ">
-
-                    <div class="container-fedo" itemscope="itemscope" itemtype="http://schema.org/BreadcrumbList">
-                        <ul class="link-list" itemprop="itemListElement" itemscope="itemscope" itemtype="http://schema.org/ListItem">
+                <section id="breadcrumbs-block-v2" className="breadcrumbs-block-v2 ">
+                    <div className="container-fedo" itemScope="itemscope" itemType="http://schema.org/BreadcrumbList">
+                        <ul className="link-list" itemProp="itemListElement" itemScope="itemscope" itemType="http://schema.org/ListItem">
                             <li><a href="/">Trang chủ</a></li>
-                            <li class="break"></li>
-                            <li><a href="/de/amazon-store/" itemprop="item"><span itemprop="name">Amazon Đức</span></a></li>
-                            <li class="break"></li>
+                            <li className="break" />
+                            <li><a href="/de/amazon-store/" itemProp="item"><span itemProp="name">Amazon Đức</span></a></li>
+                            <li className="break" />
                         </ul>
                     </div>
-
                 </section>
+
                 <main style={{ marginBottom: 30 }} id="product-detail-container-v2" className="product-detail-container-v2 container-v2">
                     <div className="container-head">
                         <div className="product-detail-head-block">
