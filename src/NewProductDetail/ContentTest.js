@@ -38,7 +38,7 @@ class ContentTest extends React.Component {
                     <div className="container-head">
                         <div className="product-detail-head-block">
                             <div className="block-col-1">
-                                <h1 style={{margin:'0px'}} className="pd-title" itemProp="name" id="productName">
+                                <h1 style={{margin:'0px 0px 6px 0px'}} className="pd-title" itemProp="name" id="productName">
                                     Tablet Ständer Verstellbare, Lamicall Tablet Staender : Universal Halter, Halterung, Dock, für iPad Pro 10.5 / 9.7, iPad Air 2 3 4, iPad mini 2 3 4, Samsung Huawei E-Reader und Google Nexus Schreibtisch, andere Tab 5"-13" - Silber              </h1>
                                 <div className="meta-item-wrap">
                                     <div className="meta-item" itemProp="aggregateRating" itemScope="itemscope" itemType="https://schema.org/AggregateRating">
@@ -63,10 +63,15 @@ class ContentTest extends React.Component {
                                                 <a style={{ color: '#2196f3', textDecoration: 'none' }} href="/de/s/cat/?me=A3AJ0GNLXXLZX8" target="_blank">LamicallDirect</a>
                                             </div>
                                             <div className="desc">
-                                                <div className="star">
-                                                <div className="rating">100% đánh giá uy tín</div>
-                                                    <i className="fa fa-star text-yellow" /><i className="fa fa-star text-yellow" /><i className="fa fa-star text-yellow" /><i className="fa fa-star text-yellow" /><i className="fa fa-star text-yellow" /></div> |
-                                            </div>
+                                    <div className="star">
+                                        <i className="fa fa-star text-yellow"></i>
+                                        <i className="fa fa-star text-yellow"></i>
+                                        <i className="fa fa-star text-yellow"></i>
+                                        <i className="fa fa-star text-yellow"></i>
+                                        <i className="fa fa-star text-yellow"></i>
+                                    </div>
+                                    <div className="rating"> | 100% đánh giá uy tín</div>
+                                </div>
                                         </div>
                                     </div>
                                     <div className="segment-main" style={{height: '30px'}}>
