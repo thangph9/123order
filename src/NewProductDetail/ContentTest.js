@@ -90,7 +90,7 @@ class ContentTest extends React.Component {
                     {/* end of location */}
                     <div className="container-main">
                         <div className="container-main-col-1" style={{ position: 'relative' }}>
-                            <section id="product-img-block" className={()=>this.selectStyle} >
+                            <section id="product-img-block" className={()=>this.selectStyle()} >
                                 <div className="product-img-segment">
                                     <div className="sale-tag">-21%</div>
                                     <div className="over-img-field">
