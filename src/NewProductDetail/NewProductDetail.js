@@ -18,8 +18,8 @@ class NewProductDetail extends React.Component {
     componentWillUnmount() {
         window.removeEventListener('scroll', this.handleScrollToElement);
     }
-    handleScrollToElement(event) {
-        console.log('Fired ' + event)
+    handleScrollToElement() {
+        console.log(document.documentElement.scrollTop);
     }
     render() {
         return (
