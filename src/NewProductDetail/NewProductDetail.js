@@ -12,7 +12,7 @@ class NewProductDetail extends React.Component {
         }
     }
     myscroll(){
-        console.log(document.documentElement.scrollTop);
+        console.log('da lan');
     }
     render() {
         return (
