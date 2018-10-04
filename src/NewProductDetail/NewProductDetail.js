@@ -11,7 +11,7 @@ class NewProductDetail extends React.Component {
             loading: false,
             scrollValue:0
         }
-        this.handleScrollToElement = this.handleScrollToElement.bind(this)
+        
     }
     componentDidMount() {
         window.addEventListener('scroll', this.handleScrollToElement);
