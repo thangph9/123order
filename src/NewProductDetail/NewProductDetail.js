@@ -3,8 +3,6 @@ import { connect } from "react-redux";
 import { Header } from "../Sections/Header";
 import { Footer } from "../Sections/Footer";
 import { Content } from "./Content";
-var ExecutionEnvironment = require('react/lib/ExecutionEnvironment');
-
 class NewProductDetail extends React.Component {
     constructor(props) {
         super(props);
@@ -14,9 +12,7 @@ class NewProductDetail extends React.Component {
         }
     }
     componentDidMount() {
-        if (ExecutionEnvironment.canUseDOM) {
           document.documentElement.addEventListener('scroll', this.handleScroll);
-        }
     }
     componentWillUnmount() {
         document.documentElement.removeEventListener('scroll', this.handleScroll);
