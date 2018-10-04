@@ -24,7 +24,7 @@ class NewProductDetail extends React.Component {
     handleScrollToElement() {
         console.log(document.documentElement.scrollTop);
         console.log(mouseScrollDetailProduct);
-        //this.props.dispatch(mouseScrollDetailProduct(document.documentElement.scrollTop));
+        this.props.dispatch(mouseScrollDetailProduct(document.documentElement.scrollTop));
     }
     render() {
         return (
