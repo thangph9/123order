@@ -19,13 +19,14 @@ class ContentTest extends React.Component {
     handleClick() {
         console.log("clicked")
     } 
-    selectStyle(){
-        if(this.props.scrollValue<367) return 'product-img-block beginProduct';
-        else if (this.props.scrollValue>367&&this.props.scrollValue<3000) return 'product-img-block fixedProduct';
-        else if(this.props.scrollValue>3000) 'product-img-block endProduct';
+    selectStyle(valueScroll){
+        if(valueScroll<367) return 'product-img-block beginProduct';
+        else if (valueScroll>367&&valueScroll<3000) return 'product-img-block fixedProduct';
+        else if(valueScroll>3000) 'product-img-block endProduct';
     }
     render() {
-
+        var {mouseScroll}=this.props;
+        var scrollValue=selectStyle(mouseScroll);
         return (
             <div>
                 <section id="breadcrumbs-block-v2" className="breadcrumbs-block-v2 ">
@@ -90,7 +91,7 @@ class ContentTest extends React.Component {
                     {/* end of location */}
                     <div className="container-main">
                         <div className="container-main-col-1" style={{ position: 'relative' }}>
-                            <section id="product-img-block" className={()=>this.selectStyle()} >
+                            <section id="product-img-block" className={scrollValue} >
                                 <div className="product-img-segment">
                                     <div className="sale-tag">-21%</div>
                                     <div className="over-img-field">
@@ -1041,7 +1042,9 @@ class ContentTest extends React.Component {
 }
 function mapStateToProps(state) {
 
-    return state;
+    return {
+        mouseScroll:state.mouseScrollPageDetailProduct
+    }
 }
 const connectedContent = connect(mapStateToProps)(ContentTest);
 export { connectedContent as ContentTest } 

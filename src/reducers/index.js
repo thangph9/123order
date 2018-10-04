@@ -12,6 +12,7 @@ import {initLoadProductDetail} from "./loadInitReducer";
 import {mouseOverImageDetailProduct} from "./mouseOverImageReducer";
 import {mouseClickLinkProductItem} from './mouseClickReducer';
 import {mouseClickSettingNumberProduct} from './mouseClickReducer';
+import {mouseScrollPageDetailProduct} from './mouseScrollReducer';
 const rootReducer=combineReducers({
     authentication,
     alert,
@@ -25,6 +26,7 @@ const rootReducer=combineReducers({
     initLoadProductDetail,
     mouseOverImageDetailProduct,
     mouseClickLinkProductItem,
-    mouseClickSettingNumberProduct
+    mouseClickSettingNumberProduct,
+    mouseScrollPageDetailProduct
 });
 export default rootReducer;

@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import { Header } from "../Sections/Header";
 import { Footer } from "../Sections/Footer";
 import { Content } from "./Content";
+import {mouseScrollDetailProduct} from '../actions';
 class NewProductDetail extends React.Component {
     constructor(props) {
         super(props);
@@ -21,15 +22,14 @@ class NewProductDetail extends React.Component {
         window.removeEventListener('scroll', this.handleScrollToElement);
     }
     handleScrollToElement() {
-        this.setState({
-            scrollValue:document.documentElement.scrollTop
-        })
+        console.log(document.documentElement.scrollTop);
+        this.props.dispatch(mouseScrollDetailProduct(document.documentElement.scrollTop));
     }
     render() {
         return (
             <div ref="scrollProduct">
                 <Header/>
-                <Content scrollValue={this.state.scrollValue}/>
+                <Content/>
                 <Footer/>
             </div>
 
