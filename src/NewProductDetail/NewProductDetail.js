@@ -12,17 +12,18 @@ class NewProductDetail extends React.Component {
         }
     }
     componentDidMount() {
-          document.documentElement.addEventListener('scroll', this.handleScroll);
+        window.addEventListener('scroll', this.handleScrollToElement);
     }
+    
     componentWillUnmount() {
-        document.documentElement.removeEventListener('scroll', this.handleScroll);
+        window.removeEventListener('scroll', this.handleScrollToElement);
     }
-    handleScroll(){
-        console.log('abc');
+    handleScrollToElement(event) {
+        console.log('Fired ' + event)
     }
     render() {
         return (
-            <div>
+            <div ref="scrollProduct">
                 <Header/>
                 <Content/>
                 <Footer/>
