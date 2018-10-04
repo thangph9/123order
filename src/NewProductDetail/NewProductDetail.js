@@ -21,7 +21,7 @@ class NewProductDetail extends React.Component {
     }
     handleScrollToElement() {
         this.setState({
-            scrollValue=document.documentElement.scrollTop
+            scrollValue:document.documentElement.scrollTop
         })
     }
     render() {
