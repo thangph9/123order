@@ -21,8 +21,8 @@ class ContentTest extends React.Component {
         console.log("clicked")
     } 
     selectStyle(valueScroll){
-        if(valueScroll<789) return 'product-img-block beginProduct';
-        else if (valueScroll>=789&&valueScroll<3000) return 'product-img-block fixedProduct';
+        if(valueScroll<367) return 'product-img-block beginProduct';
+        else if (valueScroll>=367&&valueScroll<3000) return 'product-img-block fixedProduct';
         else if(valueScroll>=3000) return 'product-img-block endProduct';
     }
     render() {
