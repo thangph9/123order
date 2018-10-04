@@ -34,8 +34,8 @@
 	position: fixed; 
 	left: 207.5px; 
 	width: 310px; 
-	bottom: 0px; 
-	top: auto;
+	bottom: auto; 
+	top: 0px;
 }
 .endProduct{
 	position: absolute; 
