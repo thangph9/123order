@@ -9,6 +9,7 @@ class NewProductDetail extends React.Component {
         this.state = {
             login: true,
             loading: false,
+            scrollValue:0
         }
     }
     componentDidMount() {
@@ -19,13 +20,15 @@ class NewProductDetail extends React.Component {
         window.removeEventListener('scroll', this.handleScrollToElement);
     }
     handleScrollToElement() {
-        console.log(document.documentElement.scrollTop);
+        this.setState({
+            scrollValue=document.documentElement.scrollTop
+        })
     }
     render() {
         return (
             <div ref="scrollProduct">
                 <Header/>
-                <Content/>
+                <Content scrollValue={this.state.scrollValue}/>
                 <Footer/>
             </div>
 

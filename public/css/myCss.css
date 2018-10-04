@@ -25,3 +25,22 @@
 .height-18px{
 	height: 18px;
 }
+.beginProduct{
+	position: static; 
+	left: auto; 
+	width: 310px;
+}
+.fixedProduct{
+	position: fixed; 
+	left: 207.5px; 
+	width: 310px; 
+	bottom: 0px; 
+	top: auto;
+}
+.endProduct{
+	position: absolute; 
+	left: 0px;
+	 width: 310px; 
+	 bottom: 0px; 
+	 top: auto;
+}

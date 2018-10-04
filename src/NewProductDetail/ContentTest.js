@@ -19,6 +19,11 @@ class ContentTest extends React.Component {
     handleClick() {
         console.log("clicked")
     } 
+    selectStyle(){
+        if(this.props.scrollValue<367) return 'product-img-block beginProduct';
+        else if (this.props.scrollValue>367&&this.props.scrollValue<3000) return 'product-img-block fixedProduct';
+        else if(this.props.scrollValue>3000) 'product-img-block endProduct';
+    }
     render() {
 
         return (
@@ -85,7 +90,7 @@ class ContentTest extends React.Component {
                     {/* end of location */}
                     <div className="container-main">
                         <div className="container-main-col-1" style={{ position: 'relative' }}>
-                            <section id="product-img-block" className="product-img-block" style={{ position: 'static', left: 'auto', width: 310 }}>
+                            <section id="product-img-block" className={()=>this.selectStyle} >
                                 <div className="product-img-segment">
                                     <div className="sale-tag">-21%</div>
                                     <div className="over-img-field">
