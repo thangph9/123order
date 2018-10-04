@@ -12,7 +12,7 @@ class NewProductDetail extends React.Component {
             loading: false,
             scrollValue:0
         }
-        
+        this.handleScrollToElement = this.handleScrollToElement.bind(this); 
     }
     componentDidMount() {
         window.addEventListener('scroll', this.handleScrollToElement);
@@ -23,7 +23,8 @@ class NewProductDetail extends React.Component {
     }
     handleScrollToElement() {
         console.log(document.documentElement.scrollTop);
-        this.props.dispatch(mouseScrollDetailProduct(document.documentElement.scrollTop));
+        console.log(mouseScrollDetailProduct);
+        //this.props.dispatch(mouseScrollDetailProduct(document.documentElement.scrollTop));
     }
     render() {
         return (
@@ -38,9 +39,7 @@ class NewProductDetail extends React.Component {
     }
 }
 function mapStateToProps(state) {
-    return {
-        loadAdd:state.loadAdd
-    }
+    return state;
 }
 const connectedHomePage = connect(mapStateToProps)(NewProductDetail);
 export { connectedHomePage as NewProductDetail } 
