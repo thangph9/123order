@@ -9,6 +9,7 @@ class ContentTest extends React.Component {
             loading: false,
         }
         this.handleSubmit = this.handleSubmit.bind(this);
+        this.selectStyle = this.selectStyle.bind(this);
     }
     handleSubmit() {
         this.setState({
@@ -26,7 +27,7 @@ class ContentTest extends React.Component {
     }
     render() {
         var {mouseScroll}=this.props;
-        var scrollValue=selectStyle(mouseScroll);
+        var scrollValue=this.selectStyle(mouseScroll);
         return (
             <div>
                 <section id="breadcrumbs-block-v2" className="breadcrumbs-block-v2 ">
