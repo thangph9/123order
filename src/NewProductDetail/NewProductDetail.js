@@ -11,6 +11,14 @@ class NewProductDetail extends React.Component {
             loading: false,
         }
     }
+    componentDidMount(){
+        window.onScoll=function(){
+            myscroll();
+        }
+    }
+    myscroll(){
+        console.log(document.documentElement.scrollTop);
+    }
     render() {
         return (
             <div>
