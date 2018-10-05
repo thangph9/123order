@@ -118,13 +118,13 @@ class ContentBodyLeft extends React.Component{
                                     </div>{/* .swiper-container */}
                                 </div>
                                 <div className="product-thumb-segment">
-                                    <div className="swiper-container swiper-container-horizontal">
+                             
                                         
                                         <Slider {...settings}>
                                         {menuItems}
                                         </Slider>
                                         
-                                        </div>{/* .swiper-wrapper */}
+   
                                     </div>{/* .swiper-container */}
                                 <div className="social-share-segment">
                                     <div className="segment-col-1">
