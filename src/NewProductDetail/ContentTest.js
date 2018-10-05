@@ -28,6 +28,8 @@ class ContentTest extends React.Component {
     render() {
         var {mouseScroll}=this.props;
         var scrollValue=this.selectStyle(mouseScroll);
+        var productDetailContainer=document.getElementById("product-detail-container-v2");
+        var leftProduct=(productDetailContainer.offsetWidth-1200)/2+16;
         return (
             <div>
                 <section id="breadcrumbs-block-v2" className="breadcrumbs-block-v2 ">
@@ -92,7 +94,7 @@ class ContentTest extends React.Component {
                     {/* end of location */}
                     <div className="container-main">
                         <div className="container-main-col-1" style={{ position: 'relative' }}>
-                            <section id="product-img-block" className={scrollValue} >
+                            <section id="product-img-block" style={{top:`${leftProduct}px`}} className={scrollValue} >
                                 <div className="product-img-segment">
                                     <div className="sale-tag">-21%</div>
                                     <div className="over-img-field">
