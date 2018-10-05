@@ -4,7 +4,7 @@ import { ContentRightDetail } from "./ContentRightDetail";
 import { Description } from "./Description";
 import { Parameter } from "./Parameter";
 import { CommentBlock } from "./CommentBlock";
-class Content extends React.Component{
+class ContentBodyRight extends React.Component{
     constructor(props){
         super(props);
         this.state={
@@ -37,5 +37,5 @@ function mapStateToProps(state){
   
     return  state;
 }
-const connectedContent=connect(mapStateToProps)(Content);
-export { connectedContent as Content } 
+const connectedContent=connect(mapStateToProps)(ContentBodyRight);
+export { connectedContent as ContentBodyRight } 

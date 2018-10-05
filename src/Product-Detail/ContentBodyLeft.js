@@ -1,7 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import { Itemscope } from "./Itemscope";
-class Content extends React.Component{
+class ContentBodyLeft extends React.Component{
     constructor(props){
         super(props);
         this.state={
@@ -221,5 +220,5 @@ function mapStateToProps(state){
         mouseScroll:state.mouseScrollPageDetailProduct
     }
 }
-const connectedContent=connect(mapStateToProps)(Content);
-export { connectedContent as Content } 
+const connectedContent=connect(mapStateToProps)(ContentBodyLeft);
+export { connectedContent as ContentBodyLeft } 
