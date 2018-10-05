@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { ContentRightDetail } from "./ContentRightDetail";
 import { Description } from "./Description";
 import { Parameter } from "./Parameter";
-import { CommentBlock } from "./ComentBlock";
+import { CommentBlock } from "./CommentBlock";
 class Content extends React.Component{
     constructor(props){
         super(props);
