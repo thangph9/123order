@@ -20,7 +20,7 @@ class ProductDetail extends React.Component {
     }
     componentWillMount(){
         console.log(this.props.match.params.dealid);
-        axios.post('/detail-product',{
+        axios.post('/product-detail',{
             dealid:this.props.match.params.dealid
         }).then(res=>{
             var action=initLoadProductDetail(res.data[1].ProductDetail);
