@@ -65,8 +65,9 @@ class ContentHead extends React.Component{
 									<i className="fa fa-star" aria-hidden="true"></i>
 								</div>
 							</div>
+                            <span> | 100% đánh giá uy tín</span>
 						</div>  
-                                    <span> | 100% đánh giá uy tín</span>
+                                    
                                 </div>
                                         </div>
                                     </div>
