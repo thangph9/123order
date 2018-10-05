@@ -25,7 +25,6 @@ class ContentBodyLeft extends React.Component{
         var scrollValue=this.selectStyle(mouseScroll);
         var productDetailContainer=document.getElementById("root");
         var leftProduct=0;
-        console.log(productDetailContainer);
         if(productDetailContainer!=null){
             leftProduct=(productDetailContainer.offsetWidth-1200)/2+16;
         }
