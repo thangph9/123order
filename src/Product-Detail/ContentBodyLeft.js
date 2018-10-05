@@ -35,7 +35,7 @@ class ContentBodyLeft extends React.Component{
             dots: false,
             infinite: true,
             speed: 500,
-            slidesToShow: loadDetail[0].smallimage.length,
+            slidesToShow: (loadDetail[0]!=undefined)?loadDetail[0].smallimage.length:1,
             slidesToScroll: 1,
             autoplay: false,
             arrows: true,
