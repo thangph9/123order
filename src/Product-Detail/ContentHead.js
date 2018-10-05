@@ -17,13 +17,14 @@ class ContentHead extends React.Component{
         console.log("Hello World")
     }
     render(){
-        
+        var {loadDetail}=this.props;
         return (
             <div className="container-head">
                         <div className="product-detail-head-block">
                             <div className="block-col-1">
                                 <h1 style={{margin:'0px 0px 6px 0px'}} className="pd-title" itemProp="name" id="productName">
-                                    Tablet Ständer Verstellbare, Lamicall Tablet Staender : Universal Halter, Halterung, Dock, für iPad Pro 10.5 / 9.7, iPad Air 2 3 4, iPad mini 2 3 4, Samsung Huawei E-Reader und Google Nexus Schreibtisch, andere Tab 5"-13" - Silber              </h1>
+                                {(loadDetail[0]!=undefined) &&loadDetail[0].title}
+                                </h1>
                                 <div className="meta-item-wrap">
                                     <div className="meta-item" itemProp="aggregateRating" itemScope="itemscope" itemType="https://schema.org/AggregateRating">
                                         <i className="fa fa-star text-yellow" /><i className="fa fa-star text-yellow" /><i className="fa fa-star text-yellow" /><i className="fa fa-star text-yellow" /><i className="fa fa-star text-yellow" />                        <span itemProp="ratingValue">4</span>/5
@@ -71,7 +72,11 @@ class ContentHead extends React.Component{
 }
 function mapStateToProps(state){
   
-    return  state;
+    return {
+        loadDetail:state.initLoadProductDetail,
+        mouseClick:state.mouseClickSettingNumberProduct,
+        mouseClickLink:state.mouseClickLinkProductItem
+    }
 }
 const connectedContent=connect(mapStateToProps)(ContentHead);
 export { connectedContent as ContentHead } 

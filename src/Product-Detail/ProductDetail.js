@@ -3,7 +3,11 @@ import { connect } from "react-redux";
 import { Header } from "../Sections/Header";
 import { Footer } from "../Sections/Footer";
 import { Content } from "./Content";
+import axios from 'axios';
 import {mouseScrollDetailProduct} from '../actions';
+import {initLoadProductDetail} from '../actions'; 
+import {mouseClickLinkProductItem} from '../actions';
+import {mouseOverSmallImageProduct} from '../actions';
 class ProductDetail extends React.Component {
     constructor(props) {
         super(props);
@@ -14,6 +18,17 @@ class ProductDetail extends React.Component {
         }
         this.handleScrollToElement = this.handleScrollToElement.bind(this); 
     }
+    componentWillMount(){
+        console.log(this.props.match.params.dealid);
+        axios.post('/detail-product',{
+            dealid:this.props.match.params.dealid
+        }).then(res=>{
+            var action=initLoadProductDetail(res.data[1].ProductDetail);
+            this.props.dispatch(mouseClickLinkProductItem(res.data[2]));
+            this.props.dispatch(mouseOverSmallImageProduct(0));
+            this.props.dispatch(action);
+        })
+    }
     componentDidMount() {
         window.addEventListener('scroll', this.handleScrollToElement);
     }
@@ -22,8 +37,6 @@ class ProductDetail extends React.Component {
         window.removeEventListener('scroll', this.handleScrollToElement);
     }
     handleScrollToElement() {
-        //console.log(document.documentElement.scrollTop);
-        //console.log(mouseScrollDetailProduct);
         this.props.dispatch(mouseScrollDetailProduct(document.documentElement.scrollTop));
     }
     render() {
