@@ -35,15 +35,20 @@ class ContentBodyLeft extends React.Component{
             dots: false,
             infinite: true,
             speed: 500,
-            slidesToShow: (loadDetail[0]!=undefined)?loadDetail[0].smallimage.length:1,
+            slidesToShow: 4 ,
             slidesToScroll: 1,
             autoplay: false,
             arrows: true,
-            infinite:false
+            infinite:false,
+            centerPadding:'60px'
         };
         if(loadDetail.length>0){
             menuItems=loadDetail[0].smallimage.map((img,index)=>{
-                return (<img style={{width:'48px'}} alt="img" key={index} src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[index]:'' } />)
+                return (
+                <div key={index} className="item-inner">
+                 <img style={{width:'48px'}} alt="img"  src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[index]:'' } />
+                 </div> 
+                )
             })
         }   
         console.log(menuItems);
