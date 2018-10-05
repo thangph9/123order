@@ -28,7 +28,6 @@ class ContentHead extends React.Component{
                                 {(loadDetail[0]!=undefined) &&loadDetail[0].title}
                                 </h1>
                                 <div className="meta-item-wrap">
-                                    <div className="meta-item" itemProp="aggregateRating" itemScope="itemscope" itemType="https://schema.org/AggregateRating">
                         <div className="star-rating" style={{fontSize:'13px'}}>
 							<div className="back-stars">
 								<i className="fa fa-star" aria-hidden="true"></i>
@@ -44,10 +43,10 @@ class ContentHead extends React.Component{
 									<i className="fa fa-star" aria-hidden="true"></i>
 								</div>
 							</div>
+                            <span itemProp="ratingValue">4</span>/5
+                                        &nbsp;(<span>795</span> lượt đánh giá)  
 						</div>
-                                        <span itemProp="ratingValue">4</span>/5
-                                        &nbsp;(<span>795</span> lượt đánh giá)
-                                    </div>
+                                                                        
                                     <div className="meta-item">
                                         Bán tại:
             <i className="si si-logo-amz-mini" />
