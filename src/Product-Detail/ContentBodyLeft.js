@@ -35,7 +35,7 @@ class ContentBodyLeft extends React.Component{
             dots: false,
             infinite: true,
             speed: 500,
-            slidesToShow: 1,
+            slidesToShow: loadDetail[0].smallimage.length,
             slidesToScroll: 1,
             autoplay: false,
             arrows: true,
@@ -43,7 +43,7 @@ class ContentBodyLeft extends React.Component{
         };
         if(loadDetail.length>0){
             menuItems=loadDetail[0].smallimage.map((img,index)=>{
-                return (<img alt="img" key={index} src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[index]:'' } />)
+                return (<img style={{width:'48px'}} alt="img" key={index} src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[index]:'' } />)
             })
         }   
         console.log(menuItems);
