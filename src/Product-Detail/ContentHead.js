@@ -28,8 +28,8 @@ class ContentHead extends React.Component{
                                 {(loadDetail[0]!=undefined) &&loadDetail[0].title}
                                 </h1>
                                 <div className="meta-item-wrap">
-                        <div className="star-rating" style={{fontSize:'13px'}}>
-							<div className="back-stars">
+                        <div className="star-rating" style={{fontSize:'13px',position:'static'}}>
+							<div className="back-stars" style={{top:'4px'}}>
 								<i className="fa fa-star" aria-hidden="true"></i>
 								<i className="fa fa-star" aria-hidden="true"></i>
 								<i className="fa fa-star" aria-hidden="true"></i>
@@ -43,7 +43,7 @@ class ContentHead extends React.Component{
 									<i className="fa fa-star" aria-hidden="true"></i>
 								</div>
 							</div>
-                            <span itemProp="ratingValue">4</span>/5
+                            <span itemProp="ratingValue"> 4</span>/5
                                         &nbsp;(<span>795</span> lượt đánh giá) | Bán tại:<i className="si si-logo-amz-mini" />Amazon Đức | Thương hiệu: <span className="text-blue"><a style={{ color: '#007bff' }} href="/de/s/search/?rh=Lamicall&keywords=Lamicall" target="_blank">Lamicall</a></span>
 						</div>                                            
                                 </div>{/* .meta-item-wrap */}
