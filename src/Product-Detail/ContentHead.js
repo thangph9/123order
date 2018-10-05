@@ -18,6 +18,8 @@ class ContentHead extends React.Component{
     }
     render(){
         var {loadDetail}=this.props;
+        var starNumber=0;
+        if(loadDetail[0]!=undefined) starNumber=Number(loadDetail[0].star)*20;
         return (
             <div className="container-head">
                         <div className="product-detail-head-block">
@@ -48,13 +50,22 @@ class ContentHead extends React.Component{
                                                 <a style={{ color: '#2196f3', textDecoration: 'none' }} href="/de/s/cat/?me=A3AJ0GNLXXLZX8" target="_blank">LamicallDirect</a>
                                             </div>
                                             <div className="desc">
-                                    <div className="star">
-                                        <i className="fa fa-star text-yellow"></i>
-                                        <i className="fa fa-star text-yellow"></i>
-                                        <i className="fa fa-star text-yellow"></i>
-                                        <i className="fa fa-star text-yellow"></i>
-                                        <i className="fa fa-star text-yellow"></i>
-                                    </div>
+                                            <div className="star-rating">
+							<div className="back-stars">
+								<i className="fa fa-star" aria-hidden="true"></i>
+								<i className="fa fa-star" aria-hidden="true"></i>
+								<i className="fa fa-star" aria-hidden="true"></i>
+								<i className="fa fa-star" aria-hidden="true"></i>
+								<i className="fa fa-star" aria-hidden="true"></i>
+								<div className="front-stars" style={{width:`${starNumber}%`}}>
+									<i className="fa fa-star" aria-hidden="true"></i>
+									<i className="fa fa-star" aria-hidden="true"></i>
+									<i className="fa fa-star" aria-hidden="true"></i>
+									<i className="fa fa-star" aria-hidden="true"></i>
+									<i className="fa fa-star" aria-hidden="true"></i>
+								</div>
+							</div>
+						</div>  
                                     <span> | 100% đánh giá uy tín</span>
                                 </div>
                                         </div>
