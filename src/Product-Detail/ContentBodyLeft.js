@@ -44,9 +44,7 @@ class ContentBodyLeft extends React.Component{
         if(loadDetail.length>0){
             menuItems=loadDetail[0].smallimage.map((img,index)=>{
                 return (
-                <div style={{padding:'5px',border:'1px solid #e1e1e1'}}>
-                 <img style={{width:'48px'}} alt="img"  src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[index]:'' } />
-                 </div> 
+                 <img style={{width:'48px'}} key={index} alt="img"  src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[index]:'' } />
                 )
             })
         }   
@@ -120,11 +118,14 @@ class ContentBodyLeft extends React.Component{
                                     </div>{/* .swiper-container */}
                                 </div>
                                 <div className="product-thumb-segment">
-                                <Slider {...settings}>
-                                    {menuItems}
-                                </Slider>
-                                    
-                                </div>
+                                    <div className="swiper-container swiper-container-horizontal">
+                                        <div className="swiper-wrapper">
+                                        <Slider {...settings}>
+                                        {menuItems}
+                                        </Slider>
+                                            </div>
+                                        </div>{/* .swiper-wrapper */}
+                                    </div>{/* .swiper-container */}
                                 <div className="social-share-segment">
                                     <div className="segment-col-1">
                                         <a className="favorite-btn add-favorite-btn bt-add-favourite" id="favouriteBtn" href="javascript:;">
