@@ -37,7 +37,6 @@ class ContentDetailLeft extends React.Component {
         return (
             <div className="col-md-7 detail-item">
                 <h4>{(loadDetail[0]!=undefined) &&loadDetail[0].title}</h4>
-              
 							<div className="back-stars" style={{top: '-18px'}}>
 								<i className="fa fa-star" aria-hidden="true"></i>
 								<i className="fa fa-star" aria-hidden="true"></i>
