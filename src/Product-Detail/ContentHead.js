@@ -44,7 +44,7 @@ class ContentHead extends React.Component{
 									<i className="fa fa-star" aria-hidden="true"></i>
 								</div>
 							</div>
-                            <span itemProp="ratingValue">4</span>/5&nbsp;(<span>795</span> lượt đánh giá)
+                            <span itemProp="ratingValue">4</span>/5 &nbsp;(<span>795</span> lượt đánh giá)
 						</div> 
           </div>
                                     <div className="meta-item">
