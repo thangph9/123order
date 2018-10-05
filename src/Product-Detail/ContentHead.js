@@ -43,8 +43,11 @@ class ContentHead extends React.Component{
 									<i className="fa fa-star" aria-hidden="true"></i>
 								</div>
 							</div>
-                            <span itemProp="ratingValue"> 4</span>/5
-                                        &nbsp;(<span>795</span> lượt đánh giá) | Bán tại:<i className="si si-logo-amz-mini" />Amazon Đức | Thương hiệu: <span className="text-blue"><a style={{ color: '#007bff' }} href="/de/s/search/?rh=Lamicall&keywords=Lamicall" target="_blank">Lamicall</a></span>
+                            <div style={{color:'#737373'}}>
+                            <span style={{color:'#737373'}} itemProp="ratingValue"> 4</span>/5
+                                        &nbsp;(<span>795</span> lượt đánh giá) &nbsp; | &nbsp; Bán tại:<i className="si si-logo-amz-mini" /> &nbsp; Amazon Đức |  &nbsp; Thương hiệu:  &nbsp; <span className="text-blue"><a style={{ color: '#007bff' }} href="/de/s/search/?rh=Lamicall&keywords=Lamicall" target="_blank"> Lamicall</a></span>
+                            </div>
+                            
 						</div>                                            
                                 </div>{/* .meta-item-wrap */}
                             </div>{/* .block-col-1 */}
