@@ -119,11 +119,11 @@ class ContentBodyLeft extends React.Component{
                                 </div>
                                 <div className="product-thumb-segment">
                                     <div className="swiper-container swiper-container-horizontal">
-                                        <div className="swiper-wrapper">
+                                        
                                         <Slider {...settings}>
                                         {menuItems}
                                         </Slider>
-                                            </div>
+                                        
                                         </div>{/* .swiper-wrapper */}
                                     </div>{/* .swiper-container */}
                                 <div className="social-share-segment">
