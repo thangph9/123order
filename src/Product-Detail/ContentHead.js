@@ -44,16 +44,8 @@ class ContentHead extends React.Component{
 								</div>
 							</div>
                             <span itemProp="ratingValue">4</span>/5
-                                        &nbsp;(<span>795</span> lượt đánh giá)  
-						</div>
-                                                                        
-                                    <div className="meta-item">
-                                        Bán tại:
-            <i className="si si-logo-amz-mini" />
-                                        Amazon Đức                                          </div>
-                                    <div className="meta-item">
-                                        Thương hiệu: <span className="text-blue"><a style={{ color: '#007bff' }} href="/de/s/search/?rh=Lamicall&keywords=Lamicall" target="_blank">Lamicall</a></span>
-                                    </div>
+                                        &nbsp;(<span>795</span> lượt đánh giá) | Bán tại:<i className="si si-logo-amz-mini" />Amazon Đức | Thương hiệu: <span className="text-blue"><a style={{ color: '#007bff' }} href="/de/s/search/?rh=Lamicall&keywords=Lamicall" target="_blank">Lamicall</a></span>
+						</div>                                            
                                 </div>{/* .meta-item-wrap */}
                             </div>{/* .block-col-1 */}
                             <div className="block-col-2">
