@@ -29,6 +29,7 @@ class ContentTest extends React.Component {
         var {mouseScroll}=this.props;
         var scrollValue=this.selectStyle(mouseScroll);
         var productDetailContainer=document.getElementById("product-detail-container-v2");
+        console.log(productDetailContainer);
         var leftProduct=(productDetailContainer.offsetWidth-1200)/2+16;
         return (
             <div>
