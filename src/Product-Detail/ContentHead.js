@@ -28,7 +28,7 @@ class ContentHead extends React.Component{
                                 {(loadDetail[0]!=undefined) &&loadDetail[0].title}
                                 </h1>
                                 <div className="meta-item-wrap">
-                                    <div style={{position:'relative',fontSize:'13px'}} className="meta-item" itemProp="aggregateRating" itemScope="itemscope" itemType="https://schema.org/AggregateRating">
+                                    <div style={{position:'relative',fontSize:'13px',display:'flex'}} className="meta-item" itemProp="aggregateRating" itemScope="itemscope" itemType="https://schema.org/AggregateRating">
 							<div className="back-stars">
 								<i className="fa fa-star" aria-hidden="true"></i>
 								<i className="fa fa-star" aria-hidden="true"></i>
