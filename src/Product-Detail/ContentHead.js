@@ -44,7 +44,7 @@ class ContentHead extends React.Component{
 								</div>
 							</div>
                             <div style={{color:'#737373'}}>
-                            <span style={{color:'#737373'}} itemProp="ratingValue"> 4</span>/5
+                            <span style={{color:'#737373'}} itemProp="ratingValue">&nbsp; 4</span>/5
                                         &nbsp;(<span>795</span> lượt đánh giá) &nbsp; | &nbsp; Bán tại: &nbsp;<i className="si si-logo-amz-mini" /> &nbsp; Amazon Đức &nbsp;|  &nbsp; Thương hiệu:  &nbsp; <span className="text-blue"><a style={{ color: '#007bff' }} href="/de/s/search/?rh=Lamicall&keywords=Lamicall" target="_blank"> Lamicall</a></span>
                             </div>
                             

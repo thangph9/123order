@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import Slider from "react-slick";
 class ContentBodyLeft extends React.Component{
     constructor(props){
         super(props);
@@ -21,6 +22,7 @@ class ContentBodyLeft extends React.Component{
         else if(valueScroll>=3000) return 'product-img-block endProduct';
     }
     render(){
+        var {loadDetail}=this.props;
         var {mouseScroll}=this.props;
         var scrollValue=this.selectStyle(mouseScroll);
         var productDetailContainer=document.getElementById("root");
@@ -28,6 +30,23 @@ class ContentBodyLeft extends React.Component{
         if(productDetailContainer!=null){
             leftProduct=(productDetailContainer.offsetWidth-1200)/2+16;
         }
+        var menuItems=[];
+        var settings = {
+            dots: false,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: false,
+            arrows: true,
+            infinite:false
+        };
+        if(loadDetail.length>0){
+            menuItems=loadDetail[0].smallimage.map((img,index)=>{
+                return (<img alt="img" key={index} src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[index]:'' } />)
+            })
+        }   
+        console.log(menuItems);
         return (
             <div className="container-main-col-1" style={{ position: 'relative' }}>
                             <section id="product-img-block" style={(scrollValue=='product-img-block fixedProduct')?{left:`${leftProduct}px`}:{}} className={scrollValue} >
@@ -97,65 +116,9 @@ class ContentBodyLeft extends React.Component{
                                     </div>{/* .swiper-container */}
                                 </div>
                                 <div className="product-thumb-segment">
-                                    <div className="swiper-container swiper-container-horizontal">
-                                        <div className="swiper-wrapper">
-                                            <div className="swiper-slide swiper-slide-active" style={{ width: 60, marginRight: 10 }}>
-                                                <div className="gallery-item img-item" data-target={0}>
-                                                    <div className="item-inner">
-                                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/71xBbWYCjnL.SR80,80_.jpg" alt="Tablet Ständer Verstellbare, Lamicall Tablet Staender : Universal Halter, Halterung, Dock, für iPad Pro 10.5 / 9.7, iPad Air 2 3 4, iPad mini 2 3 4, Samsung Huawei E-Reader und Google Nexus Schreibtisch, andere Tab 5&quot;-13&quot; - Silber" />
-                                                    </div>
-                                                </div>
-                                            </div><div className="swiper-slide swiper-slide-next" style={{ width: 60, marginRight: 10 }}>
-                                                <div className="gallery-item img-item" data-target={1}>
-                                                    <div className="item-inner">
-                                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/71WBQpQYhmL.SR80,80_.jpg" alt="Tablet Ständer Verstellbare, Lamicall Tablet Staender : Universal Halter, Halterung, Dock, für iPad Pro 10.5 / 9.7, iPad Air 2 3 4, iPad mini 2 3 4, Samsung Huawei E-Reader und Google Nexus Schreibtisch, andere Tab 5&quot;-13&quot; - Silber" />
-                                                    </div>
-                                                </div>
-                                            </div><div className="swiper-slide" style={{ width: 60, marginRight: 10 }}>
-                                                <div className="gallery-item img-item" data-target={2}>
-                                                    <div className="item-inner">
-                                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/616D%2BIXHfTL.SR80,80_.jpg" alt="Tablet Ständer Verstellbare, Lamicall Tablet Staender : Universal Halter, Halterung, Dock, für iPad Pro 10.5 / 9.7, iPad Air 2 3 4, iPad mini 2 3 4, Samsung Huawei E-Reader und Google Nexus Schreibtisch, andere Tab 5&quot;-13&quot; - Silber" />
-                                                    </div>
-                                                </div>
-                                            </div><div className="swiper-slide" style={{ width: 60, marginRight: 10 }}>
-                                                <div className="gallery-item img-item" data-target={3}>
-                                                    <div className="item-inner">
-                                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/71AVT%2Ba55OL.SR80,80_.jpg" alt="Tablet Ständer Verstellbare, Lamicall Tablet Staender : Universal Halter, Halterung, Dock, für iPad Pro 10.5 / 9.7, iPad Air 2 3 4, iPad mini 2 3 4, Samsung Huawei E-Reader und Google Nexus Schreibtisch, andere Tab 5&quot;-13&quot; - Silber" />
-                                                    </div>
-                                                </div>
-                                            </div><div className="swiper-slide" style={{ width: 60, marginRight: 10 }}>
-                                                <div className="gallery-item img-item" data-target={4}>
-                                                    <div className="item-inner">
-                                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/710b298GPPL.SR80,80_.jpg" alt="Tablet Ständer Verstellbare, Lamicall Tablet Staender : Universal Halter, Halterung, Dock, für iPad Pro 10.5 / 9.7, iPad Air 2 3 4, iPad mini 2 3 4, Samsung Huawei E-Reader und Google Nexus Schreibtisch, andere Tab 5&quot;-13&quot; - Silber" />
-                                                    </div>
-                                                </div>
-                                            </div><div className="swiper-slide" style={{ width: 60, marginRight: 10 }}>
-                                                <div className="gallery-item img-item" data-target={5}>
-                                                    <div className="item-inner">
-                                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/71mt2EDscbL.SR80,80_.jpg" alt="Tablet Ständer Verstellbare, Lamicall Tablet Staender : Universal Halter, Halterung, Dock, für iPad Pro 10.5 / 9.7, iPad Air 2 3 4, iPad mini 2 3 4, Samsung Huawei E-Reader und Google Nexus Schreibtisch, andere Tab 5&quot;-13&quot; - Silber" />
-                                                    </div>
-                                                </div>
-                                            </div><div className="swiper-slide" style={{ width: 60, marginRight: 10 }}>
-                                                <div className="gallery-item img-item" data-target={6}>
-                                                    <div className="item-inner">
-                                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/81EG5%2Bob0TL.SR80,80_.jpg" alt="Tablet Ständer Verstellbare, Lamicall Tablet Staender : Universal Halter, Halterung, Dock, für iPad Pro 10.5 / 9.7, iPad Air 2 3 4, iPad mini 2 3 4, Samsung Huawei E-Reader und Google Nexus Schreibtisch, andere Tab 5&quot;-13&quot; - Silber" />
-                                                    </div>
-                                                </div>
-                                            </div><div className="swiper-slide" style={{ width: 60, marginRight: 10 }}>
-                                                <div className="gallery-item img-item" data-target={7}>
-                                                    <div className="item-inner">
-                                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/71tWFPziusL.SR80,80_.jpg" alt="Tablet Ständer Verstellbare, Lamicall Tablet Staender : Universal Halter, Halterung, Dock, für iPad Pro 10.5 / 9.7, iPad Air 2 3 4, iPad mini 2 3 4, Samsung Huawei E-Reader und Google Nexus Schreibtisch, andere Tab 5&quot;-13&quot; - Silber" />
-                                                    </div>
-                                                </div>
-                                            </div><div className="swiper-slide" style={{ width: 60, marginRight: 10 }}>
-                                                <div className="gallery-item img-item" data-target={8}>
-                                                    <div className="item-inner">
-                                                        <img src="https://images-eu.ssl-images-amazon.com/images/I/71c6V0VDlPL.SR80,80_.jpg" alt="Tablet Ständer Verstellbare, Lamicall Tablet Staender : Universal Halter, Halterung, Dock, für iPad Pro 10.5 / 9.7, iPad Air 2 3 4, iPad mini 2 3 4, Samsung Huawei E-Reader und Google Nexus Schreibtisch, andere Tab 5&quot;-13&quot; - Silber" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>{/* .swiper-wrapper */}
-                                    </div>{/* .swiper-container */}
+                                <Slider {...settings}>
+                                    {menuItems}
+                                </Slider>
                                     <div className="swiper-button-prev swiper-button-disabled" />
                                     <div className="swiper-button-next" />
                                 </div>
@@ -216,7 +179,8 @@ class ContentBodyLeft extends React.Component{
 function mapStateToProps(state){
   
     return {
-        mouseScroll:state.mouseScrollPageDetailProduct
+        mouseScroll:state.mouseScrollPageDetailProduct,
+        loadDetail:state.initLoadProductDetail
     }
 }
 const connectedContent=connect(mapStateToProps)(ContentBodyLeft);
