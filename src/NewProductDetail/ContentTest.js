@@ -28,7 +28,7 @@ class ContentTest extends React.Component {
     render() {
         var {mouseScroll}=this.props;
         var scrollValue=this.selectStyle(mouseScroll);
-        var productDetailContainer=document.getElementById("product-detail-container-v2");
+        var productDetailContainer=document.getElementById("root");
         var leftProduct=0;
         console.log(productDetailContainer);
         if(productDetailContainer!=null){
