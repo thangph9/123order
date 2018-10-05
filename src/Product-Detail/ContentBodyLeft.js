@@ -124,8 +124,7 @@ class ContentBodyLeft extends React.Component{
                                 <Slider {...settings}>
                                     {menuItems}
                                 </Slider>
-                                    <div className="swiper-button-prev swiper-button-disabled" />
-                                    <div className="swiper-button-next" />
+                                    
                                 </div>
                                 <div className="social-share-segment">
                                     <div className="segment-col-1">
