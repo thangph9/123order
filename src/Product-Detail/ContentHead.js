@@ -29,11 +29,22 @@ class ContentHead extends React.Component{
                                 </h1>
                                 <div className="meta-item-wrap">
                                     <div className="meta-item" itemProp="aggregateRating" itemScope="itemscope" itemType="https://schema.org/AggregateRating">
-                                        <i className="fa fa-star text-yellow" />
-                                        <i className="fa fa-star text-yellow" />
-                                        <i className="fa fa-star text-yellow" />
-                                        <i className="fa fa-star text-yellow" />
-                                        <i className="fa fa-star text-yellow" />
+                                    <div className="star-rating" style={{fontSize:'12px'}}>
+							<div className="back-stars">
+								<i className="fa fa-star" aria-hidden="true"></i>
+								<i className="fa fa-star" aria-hidden="true"></i>
+								<i className="fa fa-star" aria-hidden="true"></i>
+								<i className="fa fa-star" aria-hidden="true"></i>
+								<i className="fa fa-star" aria-hidden="true"></i>
+								<div className="front-stars" style={{width:`${starNumber}%`}}>
+									<i className="fa fa-star" aria-hidden="true"></i>
+									<i className="fa fa-star" aria-hidden="true"></i>
+									<i className="fa fa-star" aria-hidden="true"></i>
+									<i className="fa fa-star" aria-hidden="true"></i>
+									<i className="fa fa-star" aria-hidden="true"></i>
+								</div>
+							</div>
+						</div>
                                         <span itemProp="ratingValue">4</span>/5
                                         &nbsp;(<span>795</span> lượt đánh giá)
                                     </div>
