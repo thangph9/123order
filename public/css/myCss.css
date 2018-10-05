@@ -61,3 +61,7 @@
 	width: 270px;
 	height: 60px;
 }
+.slick-prev:before,
+.slick-next:before {
+  color: red;
+}
