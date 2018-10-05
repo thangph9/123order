@@ -29,8 +29,23 @@ class ContentHead extends React.Component{
                                 </h1>
                                 <div className="meta-item-wrap">
                                     <div className="meta-item" itemProp="aggregateRating" itemScope="itemscope" itemType="https://schema.org/AggregateRating">
-                                        <i className="fa fa-star text-yellow" /><i className="fa fa-star text-yellow" /><i className="fa fa-star text-yellow" /><i className="fa fa-star text-yellow" /><i className="fa fa-star text-yellow" />                        <span itemProp="ratingValue">4</span>/5
-            &nbsp;(<span>795</span> lượt đánh giá)
+                                    <div className="star-rating" >
+							<div className="back-stars" >
+								<i className="fa fa-star" aria-hidden="true"></i>
+								<i className="fa fa-star" aria-hidden="true"></i>
+								<i className="fa fa-star" aria-hidden="true"></i>
+								<i className="fa fa-star" aria-hidden="true"></i>
+								<i className="fa fa-star" aria-hidden="true"></i>
+								<div className="front-stars" style={{width:`${starNumber}%`}}>
+									<i className="fa fa-star" aria-hidden="true"></i>
+									<i className="fa fa-star" aria-hidden="true"></i>
+									<i className="fa fa-star" aria-hidden="true"></i>
+									<i className="fa fa-star" aria-hidden="true"></i>
+									<i className="fa fa-star" aria-hidden="true"></i>
+								</div>
+							</div>
+                            <span itemProp="ratingValue">4</span>/5&nbsp;(<span>795</span> lượt đánh giá)
+						</div> 
           </div>
                                     <div className="meta-item">
                                         Bán tại:
@@ -50,8 +65,8 @@ class ContentHead extends React.Component{
                                                 <a style={{ color: '#2196f3', textDecoration: 'none' }} href="/de/s/cat/?me=A3AJ0GNLXXLZX8" target="_blank">LamicallDirect</a>
                                             </div>
                                             <div className="desc">
-                                            <div className="star-rating">
-							<div className="back-stars">
+                                            <div className="star-rating" style={{top:'-1px'}}>
+							<div className="back-stars" style={{top:'4px'}}>
 								<i className="fa fa-star" aria-hidden="true"></i>
 								<i className="fa fa-star" aria-hidden="true"></i>
 								<i className="fa fa-star" aria-hidden="true"></i>
@@ -65,7 +80,7 @@ class ContentHead extends React.Component{
 									<i className="fa fa-star" aria-hidden="true"></i>
 								</div>
 							</div>
-                            <span> | 100% đánh giá uy tín</span>
+                            <span style={{color:'#999'}}> | 100% đánh giá uy tín</span>
 						</div>  
                                     
                                 </div>
@@ -85,9 +100,7 @@ class ContentHead extends React.Component{
 function mapStateToProps(state){
   
     return {
-        loadDetail:state.initLoadProductDetail,
-        mouseClick:state.mouseClickSettingNumberProduct,
-        mouseClickLink:state.mouseClickLinkProductItem
+        loadDetail:state.initLoadProductDetail
     }
 }
 const connectedContent=connect(mapStateToProps)(ContentHead);
