@@ -19,9 +19,11 @@ class Description extends React.Component {
         
     }
     render() {
+        
         var blockMain=document.getElementById("block-main");
         var {loadDetail}=this.props;
         if(loadDetail[0]!=undefined&&blockMain!=null){
+            console.log(loadDetail[0].description);
             blockMain.innerHTML =loadDetail[0].description
         }
         return (
@@ -33,7 +35,7 @@ class Description extends React.Component {
                     <div className="head-control-col">
                     </div>
                 </div>{/* .block-head */}
-                <div className="block-main" style={{ fontSize: 14 }}>
+                <div id="block-main" className="block-main" style={{ fontSize: 14 }}>
                 
                 </div>
             </section>
