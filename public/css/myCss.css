@@ -50,6 +50,7 @@
 .small-image{
 	width: 48px !important;
 	height: 48px !important;
+	cursor: pointer;
 }
 .border-small-image {
 	padding: 5px;
