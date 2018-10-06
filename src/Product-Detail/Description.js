@@ -15,8 +15,14 @@ class Description extends React.Component {
         })
         console.log("Hello World")
     }
+    componentWillMount(){
+        
+    }
     render() {
         var {loadDetail}=this.props;
+        if(loadDetail[0]!=undefined){
+            document.getElementById("block-main").innerHTML =`${loadDetail[0].description}`
+        }
         return (
             <section className="product-tab-block-v2 pd-desc-block" id="mo-ta-tab">
                 <div className="block-head" style={{ width: 838 }}>
@@ -27,7 +33,7 @@ class Description extends React.Component {
                     </div>
                 </div>{/* .block-head */}
                 <div className="block-main" style={{ fontSize: 14 }}>
-                {(loadDetail[0]!=undefined) &&loadDetail[0].description}
+                
                 </div>
             </section>
         )
