@@ -32,6 +32,13 @@ class ContentBodyLeft extends React.Component {
         var { mouseClick } = this.props;
         var {mouseClickLink}=this.props;
         var scrollValue = this.selectStyle(mouseScroll);
+        var element = document.getElementById("container-scroll");
+        var childfirst = document.getElementById("product-img-block");
+        if(mouseScroll<371&&element!=null&&childfirst!=null){
+            var newElementScroll=document.createElement("div");
+            newElementScroll.className="scrollProduct";
+            element.insertBefore(element,childfirst);
+        }
         var productDetailContainer = document.getElementById("root");
         var leftProduct = 0;
         if (productDetailContainer != null) {
@@ -59,7 +66,7 @@ class ContentBodyLeft extends React.Component {
         }
         
         return (
-            <div className="container-main-col-1" style={{ position: 'relative' }}>
+            <div id="container-scroll" className="container-main-col-1" style={{ position: 'relative' }}>
                 <section id="product-img-block" style={(scrollValue == 'product-img-block fixedProduct') ? { left: `${leftProduct}px` } : {}} className={scrollValue} >
                     <div className="product-img-segment">
                         <div className={(mouseClickLink.sale=='')?'none-hide':'sale-tag'}>-{(mouseClickLink!=undefined&&mouseClickLink.sale!='') ?mouseClickLink.sale:''}</div>

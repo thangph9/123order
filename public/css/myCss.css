@@ -25,6 +25,23 @@
 .height-18px{
 	height: 18px;
 }
+.scrollProduct{
+	height: 479px; 
+	left: auto; 
+	right: auto; 
+	top: auto;
+	bottom: auto; 
+	position: static;
+	display: block; 
+	vertical-align: baseline;
+	box-sizing: border-box; 
+	margin: 0px; 
+	padding-left: 0px; 
+	padding-right: 0px; 
+	float: none; 
+	width: 310px; 
+	z-index: -1;
+}
 .beginProduct{
 	position: static; 
 	left: auto; 
