@@ -21,7 +21,7 @@ class ContentSaleLeft extends React.Component {
         this.refs.slick.innerSlider.onWindowResized()
       }
     render() {
-        console.log(initLoad);
+        console.log(this.props.initLoad);
         var settings = {
             dots: false,
             infinite: true,
