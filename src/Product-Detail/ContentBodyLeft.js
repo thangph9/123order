@@ -9,6 +9,7 @@ class ContentBodyLeft extends React.Component {
         this.state = {
             login: true,
             loading: false,
+            checkScroll:0
         }
         this.handleSubmit = this.handleSubmit.bind(this);
     }
@@ -31,21 +32,21 @@ class ContentBodyLeft extends React.Component {
         var { mouseScroll } = this.props;
         var { mouseClick } = this.props;
         var {mouseClickLink}=this.props;
+        var {checkScroll}=this.state;
         var scrollValue = this.selectStyle(mouseScroll);
         var element = document.getElementById("container-scroll");
         var childfirst = document.getElementById("product-img-block");
-        var checkScroll=0;
         if(mouseScroll>=371&&element!=null&&childfirst!=null&&checkScroll==0){
             var newElementScroll=document.createElement("div");
             newElementScroll.className="scrollProduct";
             newElementScroll.setAttribute("id", "scrollProduct");
             element.insertBefore(newElementScroll,childfirst);
-            checkScroll=1;
+            this.setState({checkScroll:1});
         }
         if(mouseScroll<371&&checkScroll==1){
             var child=document.getElementById("scrollProduct");
             element.removeChild(child);
-            checkScroll=0;
+            this.setState({checkScroll:0});
         }
         var productDetailContainer = document.getElementById("root");
         var leftProduct = 0;
