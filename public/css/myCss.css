@@ -65,7 +65,17 @@
 .list-small-image .slick-prev:before, .slick-next:before {
   color: #7388C1;
 }
-.sale-left .slick-slide{
-	width: 715px !important
+.sale-left{
+	height: 584px;
+	width:715px;
+}
+.sale-left .slick-slide {
+	height: auto; 
+}
+.sale-left .slick-track {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: stretch;
 }
 
