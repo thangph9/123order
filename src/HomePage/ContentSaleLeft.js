@@ -30,7 +30,8 @@ class ContentSaleLeft extends React.Component {
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 3000,
-            arrows: false
+            arrows: false,
+            className:'sale-left'
         };
         if(this.props.initLoad.length>0){
             var menuItems=this.props.initLoad.map((picture,index)=>{

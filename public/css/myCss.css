@@ -65,4 +65,7 @@
 .list-small-image .slick-prev:before, .slick-next:before {
   color: #7388C1;
 }
+.sale-left .slick-slide{
+	width: 715px !important
+}
 
