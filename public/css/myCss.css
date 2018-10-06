@@ -49,6 +49,7 @@
 }
 .small-image{
 	width: 48px !important;
+	height: 48px !important;
 }
 .border-small-image {
 	padding: 5px;
