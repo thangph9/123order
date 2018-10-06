@@ -17,6 +17,9 @@ class ContentSaleLeft extends React.Component {
         })
         console.log("Hello World")
     }
+    componentWillReceiveProps(){
+        this.refs.slick.innerSlider.onWindowResized()
+      }
     render() {
         var menuItems=[];
         var settings = {
