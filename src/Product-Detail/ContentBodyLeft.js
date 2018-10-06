@@ -62,7 +62,7 @@ class ContentBodyLeft extends React.Component {
             <div className="container-main-col-1" style={{ position: 'relative' }}>
                 <section id="product-img-block" style={(scrollValue == 'product-img-block fixedProduct') ? { left: `${leftProduct}px` } : {}} className={scrollValue} >
                     <div className="product-img-segment">
-                        <div className={(mouseClickLink.sale=='')?'none-hide':'sale-tag'}>{(mouseClickLink!=undefined&&mouseClickLink.sale!='') ?mouseClickLink.sale:''}</div>
+                        <div className={(mouseClickLink.sale=='')?'none-hide':'sale-tag'}>-{(mouseClickLink!=undefined&&mouseClickLink.sale!='') ?mouseClickLink.sale:''}</div>
                         <div className="over-img-field">
                             <span className="field-inner"><img className="over-img" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" alt="img" /></span>
                         </div>
