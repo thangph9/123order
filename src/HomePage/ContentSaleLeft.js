@@ -21,7 +21,7 @@ class ContentSaleLeft extends React.Component {
         this.refs.slick.innerSlider.onWindowResized()
       }
     render() {
-       
+        console.log(initLoad);
         var settings = {
             dots: false,
             infinite: true,
@@ -32,15 +32,15 @@ class ContentSaleLeft extends React.Component {
             autoplaySpeed: 3000,
             arrows: false
         };
-        
+        var menuItems=this.props.initLoad.map((picture,index)=>{
+            return(<div key={index}>
+                <img alt="img" className="img-fluid" src={picture.linkanh}/>
+            </div>)
+        })
         return (
             <div className="col-7 p-2">
             <Slider ref="slick" {...settings}>
-               {this.props.initLoad.map((picture,index)=>{
-                   return(<div key={index}>
-                       <img alt="img" className="img-fluid" src={picture.linkanh}/>
-                   </div>)
-               })}
+               {menuItems}
             </Slider>
             </div>
 
