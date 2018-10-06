@@ -16,3 +16,11 @@ export function mouseClickSettingNumberProduct(state=1,action){
 			return state;
 	}	
 }
+export function mouseClickSmallImageProduct(state=0,action){
+	switch (action.type) {
+		case 'MOUSE_CLICK_SMALL_IMAGE_PRODUCT':
+		return action.numb;
+		default:
+			return state;
+	}	
+}
