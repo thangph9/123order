@@ -60,20 +60,7 @@
 	width: 60px !important;
 	margin-right: 10px;
 }
-/* .list-small-image .slides {
-  position: relative 
+.list-small-image .slick-prev:before, .slick-next:before {
+  color: #7388C1;
 }
-.list-small-image .slick-prev, .slick-next {
-	position: absolute;
-	top: 50%;
-}
-.list-small-image .slick-prev {
-	left: 5%;
-}
-.list-small-image .slick-next {
-	right: 5%;
-} */
-/* .list-small-image .slick-prev:before, .slick-next:before {
-  color: red;
-} */
 
