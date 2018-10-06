@@ -37,7 +37,7 @@ class ContentBodyLeft extends React.Component {
         if(mouseScroll>=371&&element!=null&&childfirst!=null){
             var newElementScroll=document.createElement("div");
             newElementScroll.className="scrollProduct";
-            element.insertBefore(element,childfirst);
+            element.insertBefore(newElementScroll,childfirst);
         }
         var productDetailContainer = document.getElementById("root");
         var leftProduct = 0;
