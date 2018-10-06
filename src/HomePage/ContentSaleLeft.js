@@ -17,11 +17,8 @@ class ContentSaleLeft extends React.Component {
         })
         console.log("Hello World")
     }
-    componentWillReceiveProps(){
-        this.refs.slick.innerSlider.onWindowResized()
-      }
     render() {
-        console.log(this.props.initLoad);
+        var menuItems=[];
         var settings = {
             dots: false,
             infinite: true,
@@ -32,14 +29,18 @@ class ContentSaleLeft extends React.Component {
             autoplaySpeed: 3000,
             arrows: false
         };
-        var menuItems=this.props.initLoad.map((picture,index)=>{
-            return(<div key={index}>
-                <img alt="img" className="img-fluid" src={picture.linkanh}/>
-            </div>)
-        })
+        console.log(this.props.initLoad);
+        console.log(this.props.initLoad.length);
+        for(var i=0;i<this.props.initLoad.length;i++){
+            menuItems.push(
+                <div key={i}>
+                    <img  alt="Responsive img" src={this.props.initLoad[i].linkanh} className="img-fluid" />
+                </div>
+            );
+        }
         return (
             <div className="col-7 p-2">
-            <Slider ref="slick" {...settings}>
+            <Slider {...settings}>
                {menuItems}
             </Slider>
             </div>
