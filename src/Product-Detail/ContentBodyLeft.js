@@ -62,7 +62,7 @@ class ContentBodyLeft extends React.Component {
             <div className="container-main-col-1" style={{ position: 'relative' }}>
                 <section id="product-img-block" style={(scrollValue == 'product-img-block fixedProduct') ? { left: `${leftProduct}px` } : {}} className={scrollValue} >
                     <div className="product-img-segment">
-                        <div className="sale-tag">-21%</div>
+                        <div className={(mouseClickLink.sale=='')?'none-hide':'sale-tag'}>{(mouseClickLink!=undefined&&mouseClickLink.sale!='') ?mouseClickLink.sale:''}</div>
                         <div className="over-img-field">
                             <span className="field-inner"><img className="over-img" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" alt="img" /></span>
                         </div>
@@ -110,7 +110,7 @@ class ContentBodyLeft extends React.Component {
                         </div>{/* .segment-col-1 */}
                         <div className="segment-col-2">
                             <div className="share-panel">
-                                <div className="lbl-col">Chia sẽ tới:</div>
+                                <div className="lbl-col">Chia sẻ tới:</div>
                                 <div className="info-col">
                                     <a className="social-item" href="https://www.facebook.com/sharer/sharer.php?u=https://fado.vn/de/tablet-stander-verstellbare-lamicall-tablet-staender-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-silber-B01N05W4A2.html" onClick={() => this.handleClick()}>
                                         <i className="svg svg-facebook-circle svg-16px" />
