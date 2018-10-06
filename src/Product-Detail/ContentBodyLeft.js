@@ -3,7 +3,6 @@ import { connect } from "react-redux";
 import Slider from "react-slick";
 import { mouseClickSmallImageProduct } from '../actions';
 import ReactImageMagnify from 'react-image-magnify';
-import {mouseOverSmallImageProduct} from '../actions'
 class ContentBodyLeft extends React.Component {
     constructor(props) {
         super(props);
@@ -15,9 +14,6 @@ class ContentBodyLeft extends React.Component {
     }
     handleClick(value) {
         this.props.dispatch(mouseClickSmallImageProduct(value));
-    }
-    handleMouseOver(value){
-        this.props.dispatch(mouseOverSmallImageProduct(value));
     }
     handleSubmit() {
         this.setState({
@@ -34,7 +30,6 @@ class ContentBodyLeft extends React.Component {
         var { loadDetail } = this.props;
         var { mouseScroll } = this.props;
         var { mouseClick } = this.props;
-        var {mouseOverImage}=this.props;
         var scrollValue = this.selectStyle(mouseScroll);
         var productDetailContainer = document.getElementById("root");
         var leftProduct = 0;
@@ -61,6 +56,7 @@ class ContentBodyLeft extends React.Component {
                 )
             })
         }
+        if(loadDetail[0] != undefined)  console.log(loadDetail[0].hugeimage);
         return (
             <div className="container-main-col-1" style={{ position: 'relative' }}>
                 <section id="product-img-block" style={(scrollValue == 'product-img-block fixedProduct') ? { left: `${leftProduct}px` } : {}} className={scrollValue} >
@@ -82,7 +78,7 @@ class ContentBodyLeft extends React.Component {
 
                                                 },
                                                 largeImage: {
-                                                    src: (loadDetail[0] != undefined) ? loadDetail[0].hugeimage[mouseOverImage] : '',
+                                                    src: (loadDetail[0] != undefined) ? loadDetail[0].hugeimage[mouseClick] : '',
                                                     width: 1200,
                                                     height: 1400
                                                 },
@@ -163,8 +159,7 @@ function mapStateToProps(state) {
     return {
         mouseScroll: state.mouseScrollPageDetailProduct,
         loadDetail: state.initLoadProductDetail,
-        mouseClick: state.mouseClickSmallImageProduct,
-        mouseOverImage:state.mouseOverImageDetailProduct
+        mouseClick: state.mouseClickSmallImageProduct
     }
 }
 const connectedContent = connect(mapStateToProps)(ContentBodyLeft);
