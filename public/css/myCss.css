@@ -61,7 +61,15 @@
 	width: 270px;
 	height: 60px;
 }
+.small-image .slick-slide {
+	width: 60px;
+    margin-right: 10px;
+}
 .slick-prev:before,
 .slick-next:before {
   color: red;
+}
+.border-small-image{
+	padding: 5px;
+    border: 1px solid #e1e1e1;
 }
