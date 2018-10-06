@@ -50,8 +50,8 @@ class ContentBodyLeft extends React.Component {
         if (loadDetail.length > 0) {
             menuItems = loadDetail[0].smallimage.map((img, index) => {
                 return (
-                    <div key={index} className="border-small-image">
-                        <img onMouseOver={()=>this.handleMouseOver(index)} onClick={() => this.handleClick(index)} className="small-image" alt="img" src={(loadDetail[0] != undefined) ? loadDetail[0].smallimage[index] : ''} />
+                    <div key={index} onClick={() => this.handleClick(index)} className="border-small-image">
+                        <img  className="small-image" alt="img" src={(loadDetail[0] != undefined) ? loadDetail[0].smallimage[index] : ''} />
                     </div>
                 )
             })
@@ -86,7 +86,7 @@ class ContentBodyLeft extends React.Component {
                                                 enlargedImageContainerDimensions: {
                                                     width: '200%', height: '200%'
                                                 },
-                                                isHintEnabled: true,
+                                                
                                                 shouldHideHintAfterFirstActivation: false
                                             }} />
                                         </div>

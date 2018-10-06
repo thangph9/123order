@@ -50,11 +50,12 @@
 .small-image{
 	width: 48px !important;
 	height: 48px !important;
-	cursor: pointer;
+	
 }
 .border-small-image {
 	padding: 5px;
 	border:1px solid #e1e1e1;
+	cursor: pointer;
 }
 .list-small-image .slick-track{
 	width: 500px !important
