@@ -11,6 +11,9 @@ class ContentSaleLeft extends React.Component {
         }
         this.handleSubmit = this.handleSubmit.bind(this);
     }
+    componentWillReceiveProps(){
+        this.refs.slick.innerSlider.onWindowResized()
+      }
     handleSubmit() {
         this.setState({
             login: false
@@ -39,7 +42,7 @@ class ContentSaleLeft extends React.Component {
         
         return (
             <div className="col-7 p-2">
-            <Slider {...settings}>
+            <Slider ref="slick" {...settings}>
                {menuItems}
             </Slider>
             </div>
