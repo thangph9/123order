@@ -53,8 +53,12 @@
 	padding: 5px;
 	border:1px solid #e1e1e1;
 }
+.list-small-image .slick-track{
+	width: 500px !important
+}
 .list-small-image .slick-slide{
 	width: 60px !important;
+	margin: 10px;
 }
 /* .list-small-image .slides {
   position: relative 
