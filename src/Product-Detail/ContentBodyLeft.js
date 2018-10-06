@@ -65,25 +65,35 @@ class ContentBodyLeft extends React.Component {
                         <div className="over-img-field">
                             <span className="field-inner"><img className="over-img" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" alt="img" /></span>
                         </div>
-                        <ReactImageMagnify className="xzoom" {...{
-                            smallImage: {
-                                alt: 'img',
-                                width: 310,
-                                src: (loadDetail[0] != undefined) ? loadDetail[0].largeimage[mouseClick] : ''
+                        <div className="swiper-container swiper-container-horizontal">
+                            <div className="swiper-wrapper" style={{ height: 310 }}>
+                                <div className="swiper-slide" style={{ width: 310, marginRight: 10 }}>
+                                    <a className="gallery-item img-item" data-fancybox="group" target="_blank">
+                                        <div className="item-inner">
+                                            <ReactImageMagnify className="xzoom" {...{
+                                                smallImage: {
+                                                    alt: 'img',
+                                                    width: 310,
+                                                    src: (loadDetail[0] != undefined) ? loadDetail[0].largeimage[mouseClick] : ''
 
-                            },
-                            largeImage: {
-                                src: (loadDetail[0] != undefined) ? loadDetail[0].hugeimage[mouseClick] : '',
-                                width: 1200,
-                                height: 1400
-                            },
-                            shouldUsePositiveSpaceLens: true,
-                            enlargedImageContainerDimensions: {
-                                width: '200%', height: '200%'
-                            },
-                            isHintEnabled: true,
-                            shouldHideHintAfterFirstActivation: false
-                        }} />
+                                                },
+                                                largeImage: {
+                                                    src: (loadDetail[0] != undefined) ? loadDetail[0].hugeimage[mouseClick] : '',
+                                                    width: 1200,
+                                                    height: 1400
+                                                },
+                                                shouldUsePositiveSpaceLens: true,
+                                                enlargedImageContainerDimensions: {
+                                                    width: '200%', height: '200%'
+                                                },
+                                                isHintEnabled: true,
+                                                shouldHideHintAfterFirstActivation: false
+                                            }} />
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>{/* .swiper-wrapper */}
+                        </div>{/* .swiper-container */}
                     </div>
                     <div className="product-thumb-segment">
                         <Slider {...settings}>
