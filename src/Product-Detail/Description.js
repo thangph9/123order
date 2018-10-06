@@ -19,9 +19,10 @@ class Description extends React.Component {
         
     }
     render() {
+        var blockMain=document.getElementById("block-main");
         var {loadDetail}=this.props;
-        if(loadDetail[0]!=undefined){
-            document.getElementById("block-main").innerHTML =`${loadDetail[0].description}`
+        if(loadDetail[0]!=undefined&&blockMain!=null){
+            blockMain.innerHTML =`${loadDetail[0].description}`
         }
         return (
             <section className="product-tab-block-v2 pd-desc-block" id="mo-ta-tab">

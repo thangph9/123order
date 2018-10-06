@@ -75,6 +75,7 @@ class ContentBodyLeft extends React.Component {
                                                 smallImage: {
                                                     alt: 'img',
                                                     width: 310,
+                                                    height:310,
                                                     src: (loadDetail[0] != undefined) ? loadDetail[0].largeimage[mouseClick] : ''
 
                                                 },
