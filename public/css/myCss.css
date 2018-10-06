@@ -31,8 +31,7 @@
 	width: 310px;
 }
 .fixedProduct{
-	position: fixed; 
-	left: 207.5px; 
+	position: fixed;  
 	width: 310px; 
 	bottom: auto; 
 	top: 0px;
@@ -54,7 +53,7 @@
 	padding: 5px;
 	border:1px solid #e1e1e1;
 }
-.list-small-image{
+.list-small-image .slick-slide{
 	width: 60px !important;
 }
 /* .list-small-image .slides {
