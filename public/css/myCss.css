@@ -54,6 +54,9 @@
 	padding: 5px;
 	border:1px solid #e1e1e1;
 }
+.list-small-image{
+	width: 60px !important;
+}
 /* .list-small-image .slides {
   position: relative 
 }

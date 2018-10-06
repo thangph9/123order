@@ -44,9 +44,9 @@ class ContentBodyLeft extends React.Component{
         if(loadDetail.length>0){
             menuItems=loadDetail[0].smallimage.map((img,index)=>{
                 return (
-                
+                    <div className="border-small-image">
                     <img key={index} className="small-image"  alt="img"  src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[index]:'' } />
-                 
+                    </div>
                 )
             })
         }   
