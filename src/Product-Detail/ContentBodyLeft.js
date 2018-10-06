@@ -44,13 +44,12 @@ class ContentBodyLeft extends React.Component{
         if(loadDetail.length>0){
             menuItems=loadDetail[0].smallimage.map((img,index)=>{
                 return (
-                    <div className="border-small-image">
-                    <img key={index} className="small-image"  alt="img"  src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[index]:'' } />
+                    <div key={index} className="border-small-image">
+                    <img className="small-image"  alt="img"  src={(loadDetail[0]!=undefined) ? loadDetail[0].smallimage[index]:'' } />
                     </div>
                 )
             })
         }   
-        console.log(menuItems);
         return (
             <div className="container-main-col-1" style={{ position: 'relative' }}>
                             <section id="product-img-block" style={(scrollValue=='product-img-block fixedProduct')?{left:`${leftProduct}px`}:{}} className={scrollValue} >
