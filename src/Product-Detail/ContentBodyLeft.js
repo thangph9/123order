@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import Slider from "react-slick";
 import { mouseClickSmallImageProduct } from '../actions';
 import ReactImageMagnify from 'react-image-magnify';
+import {mouseOverSmallImageProduct} from '../actions'
 class ContentBodyLeft extends React.Component {
     constructor(props) {
         super(props);
@@ -14,6 +15,9 @@ class ContentBodyLeft extends React.Component {
     }
     handleClick(value) {
         this.props.dispatch(mouseClickSmallImageProduct(value));
+    }
+    handleMouseOver(value){
+        this.props.dispatch(mouseOverSmallImageProduct(value));
     }
     handleSubmit() {
         this.setState({
@@ -30,6 +34,7 @@ class ContentBodyLeft extends React.Component {
         var { loadDetail } = this.props;
         var { mouseScroll } = this.props;
         var { mouseClick } = this.props;
+        var {mouseOverImage}=this.props;
         var scrollValue = this.selectStyle(mouseScroll);
         var productDetailContainer = document.getElementById("root");
         var leftProduct = 0;
@@ -51,7 +56,7 @@ class ContentBodyLeft extends React.Component {
             menuItems = loadDetail[0].smallimage.map((img, index) => {
                 return (
                     <div key={index} className="border-small-image">
-                        <img onClick={() => this.handleClick(index)} className="small-image" alt="img" src={(loadDetail[0] != undefined) ? loadDetail[0].smallimage[index] : ''} />
+                        <img onMouseOver={()=>this.handleMouseOver(index)} onClick={() => this.handleClick(index)} className="small-image" alt="img" src={(loadDetail[0] != undefined) ? loadDetail[0].smallimage[index] : ''} />
                     </div>
                 )
             })
@@ -77,7 +82,7 @@ class ContentBodyLeft extends React.Component {
 
                                                 },
                                                 largeImage: {
-                                                    src: (loadDetail[0] != undefined) ? loadDetail[0].hugeimage[mouseClick] : '',
+                                                    src: (loadDetail[0] != undefined) ? loadDetail[0].hugeimage[mouseOverImage] : '',
                                                     width: 1200,
                                                     height: 1400
                                                 },
@@ -158,7 +163,8 @@ function mapStateToProps(state) {
     return {
         mouseScroll: state.mouseScrollPageDetailProduct,
         loadDetail: state.initLoadProductDetail,
-        mouseClick: state.mouseClickSmallImageProduct
+        mouseClick: state.mouseClickSmallImageProduct,
+        mouseOverImage:state.mouseOverImageDetailProduct
     }
 }
 const connectedContent = connect(mapStateToProps)(ContentBodyLeft);
