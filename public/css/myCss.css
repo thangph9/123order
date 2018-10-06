@@ -44,30 +44,27 @@
 	bottom: 0px; 
 	top: auto;
 }
-.slides {
-  position: relative 
-}
-.slick-prev, .slick-next {
-	position: absolute;
-	top: 50%;
-}
-.slick-prev {
-	left: 5%;
-}
-.slick-next {
-	right: 5%;
-}
 .small-image{
 	height: 60px;
 }
+.small-image .slides {
+  position: relative 
+}
+.small-image .slick-prev, .slick-next {
+	position: absolute;
+	top: 50%;
+}
+.small-image .slick-prev {
+	left: 5%;
+}
+.small-image .slick-next {
+	right: 5%;
+}
 .small-image .slick-slide {
-	width: 60px;
+	width: 60px !important;
   margin-right: 10px;
 }
 .small-image .slick-prev:before, .slick-next:before {
   color: red;
 }
-.border-small-image{
-	padding: 5px;
-  border: 1px solid #e1e1e1;
-}
+
