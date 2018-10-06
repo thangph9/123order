@@ -57,7 +57,7 @@ class ContentBodyLeft extends React.Component {
                 )
             })
         }
-        if(loadDetail[0] != undefined)  console.log(loadDetail[0].hugeimage);
+        
         return (
             <div className="container-main-col-1" style={{ position: 'relative' }}>
                 <section id="product-img-block" style={(scrollValue == 'product-img-block fixedProduct') ? { left: `${leftProduct}px` } : {}} className={scrollValue} >
