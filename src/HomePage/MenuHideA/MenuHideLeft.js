@@ -85,7 +85,10 @@ class MenuHideLeft extends React.Component {
 }
 function mapStateToProps(state) {
 
-    return state;
+    return {
+        loadImg: state.loadImg,
+        LoadCategory: state.initLoadCategory
+    }
 }
 const connected = connect(mapStateToProps)(MenuHideLeft);
 export { connected as MenuHideLeft } 
