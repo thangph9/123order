@@ -15,6 +15,7 @@ import {BestSeller} from '../BestSeller';
 import {GiaSocMoiNgay} from '../GiaSocMoiNgay';
 import {HotDealCongNghe} from '../HotDealCongNghe';
 import {MuaHangAmazon} from '../MuaHangAmazon';
+import {Category} from '../Category';
 import {DetailProduct} from '../Detail-Product/DetailProduct';
 import {ProductDetail} from '../Product-Detail/ProductDetail';
 import {HomePage} from '../HomePage';
@@ -61,6 +62,7 @@ class App extends Component{
                         <Route exact path="/landing-page" component={LandingPage} />
                         <Route exact path="/price" component={Price} />
                         <Route exact path="/new-product" component={NewProductDetail} />
+                        <Route exact path="/category" component={Category} />
                         <Route exact path="/product-detail/*.:dealid" component={ProductDetail} />
                     </Switch>
 
