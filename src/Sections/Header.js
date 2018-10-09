@@ -20,6 +20,11 @@ class Header extends React.Component{
         })
         console.log("Hello World")
     }
+    componentWillMount(){
+        axios.post('/category').then(res=>{
+            console.log(res.data[0]);
+        })   
+    }
     render(){
         
         return (

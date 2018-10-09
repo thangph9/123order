@@ -12,12 +12,7 @@ class Category extends React.Component {
             loading: false,
         }
     }
-    componentWillMount(){
-        axios.post('/category').then(res=>{
-            console.log(res.data[0]);
-        })
-        
-    }
+
     render() {
         return (
             <div>
