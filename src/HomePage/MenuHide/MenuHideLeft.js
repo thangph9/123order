@@ -15,7 +15,7 @@ class MenuHideLeft extends React.Component {
         this.OpenCategory = this.OpenCategory.bind(this);
     }
     OpenCategory(evt, category) {
-       
+
     }
     handleSubmit() {
         this.setState({

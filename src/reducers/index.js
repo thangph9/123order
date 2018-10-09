@@ -9,7 +9,8 @@ import {initLoadEbayHide} from "./loadInitReducer";
 import {initLoadContentSaleLeft} from "./loadInitReducer";
 import {initLoadContentDeal} from "./loadInitReducer";
 import {initLoadProductDetail} from "./loadInitReducer";
-import {mouseOverImageDetailProduct} from "./mouseOverImageReducer";
+import {mouseOverImageDetailProduct} from "./mouseOverReducer";
+import {mouseOverCategory} from "./mouseOverReducer";
 import {mouseClickLinkProductItem} from './mouseClickReducer';
 import {mouseClickSettingNumberProduct} from './mouseClickReducer';
 import {mouseScrollPageDetailProduct} from './mouseScrollReducer';
@@ -31,6 +32,7 @@ const rootReducer=combineReducers({
     mouseClickSettingNumberProduct,
     mouseScrollPageDetailProduct,
     mouseClickSmallImageProduct,
-    initLoadCategory
+    initLoadCategory,
+    mouseOverCategory
 });
 export default rootReducer;
