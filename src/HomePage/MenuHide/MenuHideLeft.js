@@ -60,86 +60,19 @@ class MenuHideLeft extends React.Component {
                 <div className="row pl-4">
                     <div className="nav-line col-12" />
                 </div>
-                <div className="row tablinks pl-4 my-3" onMouseOver={() => this.OpenCategory(this, 'thoiTrang')}>
+                {(LoadCategory.length>0)&&LoadCategory.map((v,i)=>{
+                    return (
+                        <div className="row tablinks pl-4 my-3">
                     <div className="col-8">
-                        <span>Thời trang </span>
+                        <span>{v.category}</span>
                     </div>
                     <div className="col-2">
                         <i className="fas fa-angle-right pl-5" />
                     </div>
                 </div>
-                <div className="row tablinks pl-4 my-3" onMouseOver={() => this.OpenCategory(this, 'dongHo')}>
-                    <div className="col-8">
-                        <span>Đồng hồ &amp; trang sức </span>
-                    </div>
-                    <div className="col-2">
-                        <i className="fas fa-angle-right pl-5" />
-                    </div>
-                </div>
-                <div className="row tablinks pl-4 my-3" onMouseOver={() => this.OpenCategory(this, 'dienTu')}>
-                    <div className="col-8">
-                        <span>Điện tử &amp; công nghệ</span>
-                    </div>
-                    <div className="col-2">
-                        <i className="fas fa-angle-right pl-5" />
-                    </div>
-                </div>
-                <div className="row tablinks pl-4 my-3" onMouseOver={() => this.OpenCategory(this, 'sucKhoe')}>
-                    <div className="col-8">
-                        <span>Sức khỏe &amp; làm đẹp </span>
-                    </div>
-                    <div className="col-2">
-                        <i className="fas fa-angle-right pl-5" />
-                    </div>
-                </div>
-                <div className="row tablinks pl-4 my-3" onMouseOver={() => this.OpenCategory(this, 'giaDinh')}>
-                    <div className="col-8">
-                        <span>Gia đình &amp; nhà vườn </span>
-                    </div>
-                    <div className="col-2">
-                        <i className="fas fa-angle-right pl-5" />
-                    </div>
-                </div>
-                <div className="row tablinks pl-4 my-3" onMouseOver={() => this.OpenCategory(this, 'doChoi')}>
-                    <div className="col-8">
-                        <span>Đồ chơi &amp; sở thích </span>
-                    </div>
-                    <div className="col-2">
-                        <i className="fas fa-angle-right pl-5" />
-                    </div>
-                </div>
-                <div className="row tablinks pl-4 my-3" onMouseOver={() => this.OpenCategory(this, 'theThao')}>
-                    <div className="col-8">
-                        <span>Đồ thể thao </span>
-                    </div>
-                    <div className="col-2">
-                        <i className="fas fa-angle-right pl-5" />
-                    </div>
-                </div>
-                <div className="row tablinks pl-4 my-3" onMouseOver={() => this.OpenCategory(this, 'doCo')}>
-                    <div className="col-8">
-                        <span>Đồ cổ, sưu tập</span>
-                    </div>
-                    <div className="col-2">
-                        <i className="fas fa-angle-right pl-5" />
-                    </div>
-                </div>
-                <div className="row tablinks pl-4 my-3 active" onMouseOver={() => this.OpenCategory(this, 'oTo')}>
-                    <div className="col-8">
-                        <span>Phụ tùng, phụ kiện o tô</span>
-                    </div>
-                    <div className="col-2">
-                        <i className="fas fa-angle-right pl-5" />
-                    </div>
-                </div>
-                <div className="row tablinks pl-4 my-3" onMouseOver={() => this.OpenCategory(this, 'congNghiep')}>
-                    <div className="col-8">
-                        <span>Công nghiệp</span>
-                    </div>
-                    <div className="col-2">
-                        <i className="fas fa-angle-right pl-5" />
-                    </div>
-                </div>
+                    )
+                })}
+                
                 <div className="row pl-4">
                     <div className="nav-line col-12" />
                 </div>
