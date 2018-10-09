@@ -42,7 +42,7 @@ class MenuHideLeft extends React.Component {
         var { LoadCategory } = this.props;
         var categoryItems = [];
         if (LoadCategory.length > 0) {
-            for (var i = 20; i < 28; i++) {
+            for (var i = 19; i < 28; i++) {
                 categoryItems.push(
                     <div key={i} className="row tablinks pl-4 my-3">
                         <div className="col-10">
