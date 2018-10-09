@@ -66,7 +66,7 @@ class MenuHideLeft extends React.Component {
                     <div className="col-10">
                         <span>{v.category}</span>
                     </div>
-                        <i className="next-btn pl-5" />
+                        <i style={{content: "",fontFamily: 'FontAwesome',position: 'relative'}} />
                 </div>
                     )
                 })}
