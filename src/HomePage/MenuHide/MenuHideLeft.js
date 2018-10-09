@@ -31,9 +31,9 @@ class MenuHideLeft extends React.Component {
         //console.log("Open");
         // Show the current tab, and add an "active" class to the link that opened the tab
         document.getElementById(category).style.display = "block";
-       //console.log(document.getElementById(category));
-       //this.setState({display:'block'});
-        
+        //console.log(document.getElementById(category));
+        //this.setState({display:'block'});
+
     }
     handleSubmit() {
         this.setState({
@@ -41,12 +41,22 @@ class MenuHideLeft extends React.Component {
         })
         console.log("Hello World")
     }
-    handleClickTopHot(){
-        
+    handleClickTopHot() {
+
     }
     render() {
-        var {LoadCategory}=this.props;
-        console.log(LoadCategory);
+        var { LoadCategory } = this.props;
+        var categoryItems = [];
+        if (LoadCategory.length > 0) {
+            for (var i = 0; i < 10; i++) {
+                categoryItems.push(
+                    <div key={i} className="row tablinks pl-4 my-3">
+                        <div className="col-10">
+                            <span>{LoadCategory[i].category}</span>
+                        </div>
+                    </div>)
+            }
+        }
         return (
             <div className="container col-md-3 tab">
                 <div className="row tablinks pl-4 my-3" onMouseOver={() => this.OpenCategory(this, 'topHot')}>
@@ -60,17 +70,7 @@ class MenuHideLeft extends React.Component {
                 <div className="row pl-4">
                     <div className="nav-line col-12" />
                 </div>
-                {(LoadCategory.length>0)&&LoadCategory.map((v,i)=>{
-                    return (
-                        <div key={i} className="row tablinks pl-4 my-3">
-                    <div className="col-10">
-                        <span>{v.category}</span>
-                    </div>
-                        <i style={{content: "",fontFamily: 'FontAwesome',position: 'relative'}} />
-                </div>
-                    )
-                })}
-                
+                {categoryItems}
                 <div className="row pl-4">
                     <div className="nav-line col-12" />
                 </div>
@@ -90,8 +90,8 @@ class MenuHideLeft extends React.Component {
 }
 function mapStateToProps(state) {
     return {
-        loadImg:state.loadImg,
-        LoadCategory:state.initLoadCategory
+        loadImg: state.loadImg,
+        LoadCategory: state.initLoadCategory
     }
 }
 const connected = connect(mapStateToProps)(MenuHideLeft);
