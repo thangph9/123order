@@ -41,7 +41,7 @@ class Content extends React.Component{
       </form>
     </div>{/* .container */}
   </section> {/* end section*/}
-  <div className="cate-container-v2 container-fedo" style={{padding: 0}}>
+  <div className="cate-container-v2 container" style={{padding: 0}}>
     <aside className="container-aside">
       <section className="cate-sblock">
         <div className="sblock-head">
