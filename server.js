@@ -213,7 +213,7 @@ app.post("/home",jsonParser, function (req, res) {
 app.post("/category",jsonParser,function(req,res){
   async.series([
     (callback)=>{
-      models.instance.category.find({groupid:1},{raw:true,allow_filtering: true},function(err,result){
+      models.instance.category.find({categoryindex:1},{raw:true,allow_filtering: true},function(err,result){
         var arr=result.map(item=>{
           return obj={
             nodeid:item.nodeid,
