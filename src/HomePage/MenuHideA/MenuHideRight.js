@@ -31,18 +31,47 @@ class MenuHideRight extends React.Component {
 
         return (
           <div className="col-md-9">
-            <MenuHideRightTopHot/>
-            <MenuHideRightThoiTrang/>
-            <MenuHideRightDongHo/>
-            <MenuHideRightDienTu/>
-            <MenuHideRightSucKhoe/>
-            <MenuHideRightGiaDinh/>
-            <MenuHideRightDoChoi/>
-            <MenuHideRightTheThao/>
-            <MenuHideDoCo/>
-            <MenuHideRighOto/>
-            <MenuHideRightCongNghiep/>
-            <MenuHideRightAllCategory/>
+                        <div id="congNghiep" className="tabcontent" style={{ display: 'none' }}>
+                <div className="container" aria-haspopup="true" aria-expanded="false">
+                <div className="row">
+  <div className="col-md-8">
+    <div className="row">
+      <div className="col-md-12 gia-soc-title">
+        <span className="title-stroke ml-2" />
+        <span className="ml-2">CÔNG NGHIỆP</span>
+      </div>
+    </div>
+    <div className="row mt-2">
+      <div className="col-md-4">
+        <ul>
+          <span className="list-tittle">Đồ chơi</span>
+          <li>
+            <Link to="/danh-muc-ebay" className="ml-2 text-dark 
+                                                                          list-item">Đồ chơi lego</Link>
+          </li>
+          <li>    
+            <Link to="/danh-muc-ebay" className="ml-2 text-dark list-item">Đồ chơi barbie</Link>
+          </li>
+          <li>    
+            <Link to="/danh-muc-ebay" className="ml-2 text-dark list-item">Đồ chơi giáo dục</Link>
+          </li>
+          <li>    
+            <Link to="/danh-muc-ebay" className="ml-2 text-dark list-item">Đồ chơi thông minh</Link>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+  <div className="col-md-4">
+    <img src="/img/dropdown-comerical.png" alt='img' className="img-fluid pr-2" />
+  </div>
+</div>
+
+                    
+
+                </div>
+            </div>
           </div>
         )
 
