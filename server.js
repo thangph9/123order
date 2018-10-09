@@ -166,7 +166,7 @@ function removeA(arr) {
       }
   }
   return arr;
-} 
+}
 app.post("/home",jsonParser, function (req, res) {
   var addItem = req.body.addItem + 15;
   async.series([
@@ -209,6 +209,26 @@ app.post("/home",jsonParser, function (req, res) {
     if (err) console.log(err);
     res.json(result);
   })
+})
+app.post("/category",jsonParser,function(req,res){
+  async.series([
+    (callback)=>{
+      models.instance.category.find({groupid:1},{raw:true,allow_filtering: true},function(err,result){
+        var arr=result.map(item=>{
+          return obj={
+            nodeid:item.nodeid,
+            category:item.category,
+            categoryindex:item.categoryindex,
+            groupid:item.groupid
+          }
+        })
+        callback(err,arr);
+      })
+    }
+  ],(err,result)=>{
+    if (err) console.log(err);
+    res.json(result);
+  });
 })
 var PARAM_IS_PRODUCT_DETAIL={};
 app.post('/product-detail',jsonParser, function (req, res) {
