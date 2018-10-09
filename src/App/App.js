@@ -7,7 +7,6 @@ import { Test } from '../Test';
 import { COD } from "../COD";
 import { DanhMucEbay } from "../DanhMucEbay";
 import { LandingPage } from "../Landing-Page";
-import { NewProductDetail } from "../NewProductDetail";
 import { DanhMucAmazon } from "../DanhMucAmazon";
 //import {PrivateRoute } from "../Sections";
 import {MuaHangEbay} from '../MuaHangEbay';
@@ -61,7 +60,6 @@ class App extends Component{
                         <Route exact path="/hot-deal-cong-nghe" component={HotDealCongNghe} />
                         <Route exact path="/landing-page" component={LandingPage} />
                         <Route exact path="/price" component={Price} />
-                        <Route exact path="/new-product" component={NewProductDetail} />
                         <Route exact path="/category" component={Category} />
                         <Route exact path="/product-detail/*.:dealid" component={ProductDetail} />
                     </Switch>
