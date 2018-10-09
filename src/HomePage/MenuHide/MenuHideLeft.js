@@ -62,13 +62,11 @@ class MenuHideLeft extends React.Component {
                 </div>
                 {(LoadCategory.length>0)&&LoadCategory.map((v,i)=>{
                     return (
-                        <div className="row tablinks pl-4 my-3">
-                    <div className="col-8">
+                        <div key={i} className="row tablinks pl-4 my-3">
+                    <div className="col-10">
                         <span>{v.category}</span>
                     </div>
-                    <div className="col-2">
-                        <i className="fas fa-angle-right pl-5" />
-                    </div>
+                        <i className="next-btn pl-5" />
                 </div>
                     )
                 })}
