@@ -5,6 +5,7 @@ import {HeaderBot} from "../HomePage/HeaderBot";
 import {LoginHide} from '../HomePage/LoginHide';
 import {RegisterHide} from '../HomePage/RegisterHide';
 import {Forgot} from '../HomePage/Forgot';
+import axios from 'axios';
 class Header extends React.Component{
     constructor(props){
         super(props);
