@@ -28,3 +28,9 @@ export const initLoadProductDetail=(arrData)=>{
 		arrData
 	}
 }
+export const initLoadCategory=(arrData)=>{
+	return{
+		type: 'INIT_LOAD_CATEGORY',
+		arrData
+	}
+}

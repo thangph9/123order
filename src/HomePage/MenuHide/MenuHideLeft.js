@@ -43,15 +43,15 @@ class MenuHideLeft extends React.Component {
     }
     handleClickTopHot(){
         
-            console.log('ok');
     }
     render() {
-
+        var {LoadCategory}=this.props;
+        console.log(LoadCategory);
         return (
             <div className="container col-md-3 tab">
                 <div className="row tablinks pl-4 my-3" onMouseOver={() => this.OpenCategory(this, 'topHot')}>
                     <div className="col-8">
-                        <span onClick={()=>this.handleClickTopHot()}>Top hot </span>
+                        <span>Danh mục sản phẩm </span>
                     </div>
                     <div className="col-2">
                         <i className="fas fa-angle-right pl-5" />
@@ -159,7 +159,8 @@ class MenuHideLeft extends React.Component {
 }
 function mapStateToProps(state) {
     return {
-        loadImg:state.loadImg
+        loadImg:state.loadImg,
+        LoadCategory:state.initLoadCategory
     }
 }
 const connected = connect(mapStateToProps)(MenuHideLeft);

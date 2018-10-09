@@ -51,3 +51,11 @@ export function initLoadProductDetail(state=[],action){
 			return state;
 	}	
 }
+export function initLoadCategory(state=[],action){
+	switch (action.type) {
+		case 'INIT_LOAD_CATEGORY':
+			return action.arrData;
+		default:
+			return state;
+	}	
+}
