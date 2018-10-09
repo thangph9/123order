@@ -39,44 +39,38 @@ class MenuHideLeft extends React.Component {
         console.log("Hello World")
     }
     render() {
-
+        var { LoadCategory } = this.props;
+        var categoryItems = [];
+        if (LoadCategory.length > 0) {
+            for (var i = 20; i < 29; i++) {
+                categoryItems.push(
+                    <div key={i} className="row tablinks pl-4 my-3">
+                        <div className="col-10">
+                            <span>{LoadCategory[i].category}</span>
+                        </div>
+                    </div>)
+            }
+        }
         return (
             <div className="container col-md-3 tab">
-                <div className="row tablinks pl-4 my-3 active" onMouseOver={() => this.OpenCategory(this, 'storeTrungTam')}>
+                <div className="row tablinks pl-4 my-3" onMouseOver={() => this.OpenCategory(this, 'topHot')}>
                     <div className="col-8">
-                        <span>Trung tâm mua sắm lớn</span>
+                        <span>Danh mục sản phẩm </span>
                     </div>
                     <div className="col-2">
                         <i className="fas fa-angle-right pl-5" />
                     </div>
                 </div>
-                <div className="row tablinks pl-4 my-3" onMouseOver={() => this.OpenCategory(this, 'storeThoiTrang')}>
-                    <div className="col-8">
-                        <span>Thời trang/Trang sức/Phụ kiện </span>
-                    </div>
-                    <div className="col-2">
-                        <i className="fas fa-angle-right pl-5" />
-                    </div>
+                <div className="row pl-4">
+                    <div className="nav-line col-12" />
                 </div>
-                <div className="row tablinks pl-4 my-3" onMouseOver={() => this.OpenCategory(this, 'storeSucKhoe')}>
-                    <div className="col-8">
-                        <span>Sức khỏe/Mỹ phẩm/Sắc đẹp </span>
-                    </div>
-                    <div className="col-2">
-                        <i className="fas fa-angle-right pl-5" />
-                    </div>
+                {categoryItems}
+                <div className="row pl-4">
+                    <div className="nav-line col-12" />
                 </div>
-                <div className="row tablinks pl-4 my-3" onMouseOver={() => this.OpenCategory(this, 'storeMeBe')}>
+                <div className="row tablinks pl-4 my-3" onMouseOver={() => this.OpenCategory(this, 'allCategory')}   >
                     <div className="col-8">
-                        <span>Mẹ &amp; bé</span>
-                    </div>
-                    <div className="col-2">
-                        <i className="fas fa-angle-right pl-5" />
-                    </div>
-                </div>
-                <div className="row tablinks pl-4 my-3" onMouseOver={() => this.OpenCategory(this, 'storeCongNghe')}>
-                    <div className="col-8">
-                        <span>Công nghệ </span>
+                        <span>Xem toàn bộ danh mục</span>
                     </div>
                     <div className="col-2">
                         <i className="fas fa-angle-right pl-5" />
@@ -84,7 +78,9 @@ class MenuHideLeft extends React.Component {
                 </div>
             </div>
 
+
         )
+
 
     }
 }
