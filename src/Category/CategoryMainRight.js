@@ -18,8 +18,6 @@ class CategoryMainRight extends React.Component {
                 <CategoryMainRightHead/>
                 <CategoryMainRightBody/>
                 <CategoryMainRightFoot/>
-
-              
             </section>
           </div>
         )
