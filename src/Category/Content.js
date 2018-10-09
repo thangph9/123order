@@ -536,9 +536,9 @@ class Content extends React.Component{
               <div className="filter-list-outer">
                 <ul className="filter-list" style={{padding: '0px 0px 3px 0px', margin: 0}}>
                   <li className="is-active"><a href="/us/s/cat/?rh=n:172282&sort=featured-rank&ie=UTF8&qid=1538963894">Nổi bật nhất</a></li>
-                  <li className><a href="/us/s/cat/?rh=n:172282&sort=price-asc-rank&ie=UTF8&qid=1538963894">Giá từ thấp đến cao</a></li>
-                  <li className><a href="/us/s/cat/?rh=n:172282&sort=price-desc-rank&ie=UTF8&qid=1538963894">Giá từ cao đến thấp</a></li>
-                  <li className><a href="/us/s/cat/?rh=n:172282&sort=review-rank&ie=UTF8&qid=1538963894">Nhiều người đánh giá</a></li>
+                  <li ><a href="/us/s/cat/?rh=n:172282&sort=price-asc-rank&ie=UTF8&qid=1538963894">Giá từ thấp đến cao</a></li>
+                  <li ><a href="/us/s/cat/?rh=n:172282&sort=price-desc-rank&ie=UTF8&qid=1538963894">Giá từ cao đến thấp</a></li>
+                  <li ><a href="/us/s/cat/?rh=n:172282&sort=review-rank&ie=UTF8&qid=1538963894">Nhiều người đánh giá</a></li>
                 </ul>{/* .filter-list */}
               </div>
             </div>{/* .col--2 */}
