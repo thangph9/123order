@@ -426,7 +426,7 @@ class Content extends React.Component{
           </div>
         </div>{/* .sblock-main */}
       </section>{/* .filter-sblock */}
-    </Linkside>{/* .container-aside */}
+    </Link>{/* .container-aside */}
     <div className="container-col">
       <section id="category-block-v2" className="category-block-v2">
         <div className="block-head">
