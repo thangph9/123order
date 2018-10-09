@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import { Header } from "../Sections/Header";
 import { Footer } from "../Sections/Footer";
 import { Content } from "./Content";
+import axios from 'axios';
 class Category extends React.Component {
     constructor(props) {
         super(props);
