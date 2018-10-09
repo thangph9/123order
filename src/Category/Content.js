@@ -35,7 +35,7 @@ class Content extends React.Component{
         <li className="break" />
       </ul>
       <form className="search-form" id="search-cate">
-        <input type="search" id="keyword-input-index" defaultValue className="keyword-input keyword-txt" placeholder="Tìm kiếm trong danh mục..." />
+        <input type="search" id="keyword-input-index" defaultValue="" className="keyword-input keyword-txt" placeholder="Tìm kiếm trong danh mục..." />
         <button type="button" id="search-btn-index" className="submit-btn search-btn-cate" data-lang="us" data-rh="n:172282" />
       </form>
     </div>{/* .container */}
