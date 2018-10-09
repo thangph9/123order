@@ -18,8 +18,7 @@ class Content extends React.Component{
     render(){
         
         return (
-            <div>
-                <div>
+                <div className="body-category">
   <section id="breadcrumbs-block-v2" className="breadcrumbs-block-v2" style={{marginBottom: 30}}>
     <div className="container-fedo" itemScope="itemscope" itemType="http://schema.org/BreadcrumbList" style={{padding: 0, height: 33}}>
       <ul style={{padding: 0, marginBottom: 0}} className="link-list" itemProp="itemListElement" itemScope="itemscope" itemType="http://schema.org/ListItem">
@@ -1296,7 +1295,7 @@ class Content extends React.Component{
   </div>
 </div>
 
-            </div>
+
         )
         
     }
