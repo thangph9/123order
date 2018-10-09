@@ -1,17 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import { MenuHideRightTopHot } from "./MenuHideRightTopHot";
-import { MenuHideRightThoiTrang } from "./MenuHideRightThoiTrang";
-import { MenuHideRightDongHo } from "./MenuHideRightDongHo";
-import { MenuHideRightDienTu } from "./MenuHideRightDienTu";
-import { MenuHideRightSucKhoe } from "./MenuHideRightSucKhoe";
-import { MenuHideRightGiaDinh } from "./MenuHideRightGiaDinh";
-import { MenuHideRightDoChoi } from "./MenuHideRightDoChoi";
-import { MenuHideRightTheThao } from "./MenuHideRightTheThao";
-import { MenuHideDoCo } from "./MenuHideDoCo";
-import { MenuHideRighOto } from "./MenuHideRighOto";
-import { MenuHideRightCongNghiep } from "./MenuHideRightCongNghiep";
-import { MenuHideRightAllCategory } from "./MenuHideRightAllCategory";
+import { Link } from "react-router-dom";
 class MenuHideRight extends React.Component {
     constructor(props) {
         super(props);
