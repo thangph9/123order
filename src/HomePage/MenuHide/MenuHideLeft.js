@@ -14,8 +14,8 @@ class MenuHideLeft extends React.Component {
         this.handleSubmit = this.handleSubmit.bind(this);
         this.OpenCategory = this.OpenCategory.bind(this);
     }
-    OpenCategory(evt, category) {
-
+    OpenCategory(nodeid) {
+        
     }
     handleSubmit() {
         this.setState({
@@ -30,9 +30,9 @@ class MenuHideLeft extends React.Component {
         var { LoadCategory } = this.props;
         var categoryItems = [];
         if (LoadCategory.length > 0) {
-            for (var i = 0; i < 10; i++) {
+            for (var i = 0; i < 9; i++) {
                 categoryItems.push(
-                    <div key={i} className="row tablinks pl-4 my-3" onMouseOver={() => this.OpenCategory(this, `${LoadCategory[i].nodeid}`)}>
+                    <div key={i} className="row tablinks pl-4 my-3" onMouseOver={() => this.OpenCategory(LoadCategory[i].nodeid)}>
                         <div className="col-10">
                             <span>{LoadCategory[i].category}</span>
                         </div>
@@ -41,17 +41,6 @@ class MenuHideLeft extends React.Component {
         }
         return (
             <div className="container col-md-3 tab">
-                <div className="row pl-4 my-3">
-                    <div className="col-8">
-                        <span>Danh mục sản phẩm </span>
-                    </div>
-                    <div className="col-2">
-                        <i className="fas fa-angle-right pl-5" />
-                    </div>
-                </div>
-                <div className="row pl-4">
-                    <div className="nav-line col-12" />
-                </div>
                 {categoryItems}
                 <div className="row pl-4">
                     <div className="nav-line col-12" />
