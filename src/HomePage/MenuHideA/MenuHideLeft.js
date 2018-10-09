@@ -26,7 +26,8 @@ class MenuHideLeft extends React.Component {
         if (LoadCategory.length > 0) {
             LoadCategory.splice(0,9);
             LoadCategory.splice(9,9);
-            
+            console.log(LoadCategory);
+            console.log(LoadCategory.length);
         }
         return (
             <div className="container col-md-3 tab">
