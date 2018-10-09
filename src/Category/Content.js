@@ -28,7 +28,7 @@ class Content extends React.Component{
         <li><Link to="/us/amazon-store/" itemProp="item"><span itemProp="name">Amazon Mỹ</span></Link></li>
         <li className="break" />
         <li className="is-active">
-          <Link itemProp="item">
+          <Link to="https://fado.vn" itemProp="item">
             <span itemProp="name">Electronics</span>
           </Link>
           <meta itemProp="position" content={1} />
@@ -42,7 +42,7 @@ class Content extends React.Component{
     </div>{/* .container */}
   </section> {/* end section*/}
   <div className="cate-container-v2 container" style={{padding: 0}}>
-    <Linkside className="container-aside">
+    <aside className="container-aside">
       <section className="cate-sblock">
         <div className="sblock-head">
           <div className="sblock-title">Electronics</div>
