@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
-import {Breadcrumbs} from "./Breadcrumbs";
+import { Breadcrumbs } from "./Breadcrumbs";
+import { CategoryMain } from "./CategoryMain";
 class Content extends React.Component {
   constructor(props) {
     super(props);
@@ -20,8 +21,8 @@ class Content extends React.Component {
 
     return (
       <div className="body-category">
-      <Breadcrumbs/>
-      <CategoryMain/>
+        <Breadcrumbs />
+        <CategoryMain />
       </div>
 
 
