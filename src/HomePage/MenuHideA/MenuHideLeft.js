@@ -13,6 +13,7 @@ class MenuHideLeft extends React.Component {
     }
     handleMouseOver(value){
         this.props.dispatch(mouseOverCategory(value));
+        console.log(value);
     }
     handleSubmit() {
         this.setState({
