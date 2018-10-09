@@ -9,7 +9,7 @@ export function mouseOverImageDetailProduct(state=0,action){
 export function mouseOverCategory(state=0,action){
 	switch (action.type) {
 		case 'MOUSE_OVER_CATEGORY':
-		return action.nodeid;
+		return action.obj;
 		default:
 			return state;
 	}	

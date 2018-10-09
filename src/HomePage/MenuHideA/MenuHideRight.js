@@ -17,17 +17,18 @@ class MenuHideRight extends React.Component {
         console.log("Hello World")
     }
     render() {
+        var {mouseOver}=this.props;
 
         return (
           <div className="col-md-9">
-                        <div id="congNghiep" className="tabcontent" style={{ display: 'none' }}>
+                        <div id="congNghiep" className={(mouseOver==undefined)?'tabcontent':'tabcontent block-show'} style={{ display: 'none' }}>
                 <div className="container" aria-haspopup="true" aria-expanded="false">
                 <div className="row">
   <div className="col-md-8">
     <div className="row">
       <div className="col-md-12 gia-soc-title">
         <span className="title-stroke ml-2" />
-        <span className="ml-2">CÔNG NGHIỆP</span>
+        <span className="ml-2">{mouseOver.category}</span>
       </div>
     </div>
     <div className="row mt-2">
@@ -35,8 +36,7 @@ class MenuHideRight extends React.Component {
         <ul>
           <span className="list-tittle">Đồ chơi</span>
           <li>
-            <Link to="/danh-muc-ebay" className="ml-2 text-dark 
-                                                                          list-item">Đồ chơi lego</Link>
+            <Link to="/danh-muc-ebay" className="ml-2 text-dark  list-item">Đồ chơi lego</Link>
           </li>
           <li>    
             <Link to="/danh-muc-ebay" className="ml-2 text-dark list-item">Đồ chơi barbie</Link>
@@ -50,15 +50,11 @@ class MenuHideRight extends React.Component {
         </ul>
       </div>
     </div>
-
   </div>
   <div className="col-md-4">
     <img src="/img/dropdown-comerical.png" alt='img' className="img-fluid pr-2" />
   </div>
 </div>
-
-                    
-
                 </div>
             </div>
           </div>
@@ -68,7 +64,9 @@ class MenuHideRight extends React.Component {
 }
 function mapStateToProps(state) {
 
-    return state;
+    return {
+      mouseOver:state.mouseOverCategory
+    }
 }
 const connected = connect(mapStateToProps)(MenuHideRight);
 export { connected as MenuHideRight } 

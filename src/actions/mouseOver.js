@@ -4,9 +4,9 @@ export const mouseOverSmallImageProduct=(numb)=>{
 		numb
 	}
 }
-export const mouseOverCategory=(nodeid)=>{
+export const mouseOverCategory=(obj)=>{
 	return{
 		type: 'MOUSE_OVER_CATEGORY',
-		nodeid
+		obj
 	}
 }

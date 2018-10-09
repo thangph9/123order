@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-
+import {mouseOverCategory} from '../../actions';
 class MenuHideLeft extends React.Component {
     constructor(props) {
         super(props);
@@ -12,25 +12,8 @@ class MenuHideLeft extends React.Component {
         this.handleSubmit = this.handleSubmit.bind(this);
         this.OpenCategory = this.OpenCategory.bind(this);
     }
-    OpenCategory(evt, category) {
-        var i, tabcontent, tablinks;
-
-        // Get all elements with class="tabcontent" and hide them
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-        }
-
-        // Get all elements with class="tablinks" and remove the class "active"
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-
-        // Show the current tab, and add an "active" class to the link that opened the tab
-        document.getElementById(category).style.display = "block";
-
-
+    handleMouseOver(value){
+        this.props.dispatch(mouseOverCategory(value));
     }
     handleSubmit() {
         this.setState({
@@ -44,7 +27,7 @@ class MenuHideLeft extends React.Component {
         if (LoadCategory.length > 0) {
             for (var i = 9; i < 18; i++) {
                 categoryItems.push(
-                    <div key={i} className="row tablinks pl-4 my-3">
+                    <div key={i} className="row tablinks pl-4 my-3" onMouseOver={() => this.handleMouseOver(LoadCategory[i])}>
                         <div className="col-10">
                             <span>{LoadCategory[i].category}</span>
                         </div>
@@ -57,7 +40,7 @@ class MenuHideLeft extends React.Component {
                 <div className="row pl-4">
                     <div className="nav-line col-12" />
                 </div>
-                <div className="row tablinks pl-4 my-3" onMouseOver={() => this.OpenCategory(this, 'allCategory')}   >
+                <div className="row tablinks pl-4 my-3"    >
                     <div className="col-8">
                         <span>Xem toàn bộ danh mục</span>
                     </div>
