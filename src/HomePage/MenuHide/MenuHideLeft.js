@@ -19,6 +19,8 @@ class MenuHideLeft extends React.Component {
         axios.post('/category',{itemCate:value}).then(res=>{
             this.props.dispatch(initLoadCategoryIndexSecond(res.data[1]));
         }) 
+        axios.post('/category',{itemCateSecond:this.props.LoadCategoryIndexSencond}).then(res=>{
+        }) 
     }
     handleSubmit() {
         this.setState({
@@ -64,6 +66,7 @@ function mapStateToProps(state) {
     return {
         loadImg: state.loadImg,
         LoadCategory: state.initLoadCategory,
+        LoadCategoryIndexSencond
     }
 }
 const connected = connect(mapStateToProps)(MenuHideLeft);
