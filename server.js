@@ -248,6 +248,8 @@ app.post("/category",jsonParser,function(req,res){
             }
           })
           listArr.push(arr);
+          console('day la arr 1:'+arr);
+          console('day la arr listArr:'+listArr);
         })
         callback(null,listArr)
       })
@@ -255,6 +257,7 @@ app.post("/category",jsonParser,function(req,res){
     }
   ],(err,result)=>{
     if (err) console.log(err);
+    console('day la arr 2:'+result[2]);
     res.json(result);
   });
 })
