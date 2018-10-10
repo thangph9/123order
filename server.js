@@ -257,7 +257,7 @@ app.post("/category",jsonParser,function(req,res){
     }
   ],(err,result)=>{
     if (err) console.log(err);
-    console.log('day la arr 2:'+result[2]);
+    console.log(result);
     res.json(result);
   });
 })
