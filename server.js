@@ -250,6 +250,7 @@ app.post("/category",jsonParser,function(req,res){
           return arr;
         })
       })
+      console.log(ListArr);
       callback(null,ListArr)
     }
   ],(err,result)=>{
