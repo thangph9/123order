@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
+import axios from 'axios';
 class MenuHideRight extends React.Component {
   constructor(props) {
     super(props);
@@ -15,6 +16,11 @@ class MenuHideRight extends React.Component {
       login: false
     })
     console.log("Hello World")
+  }
+  componentWillMount(){
+      axios.post('/category',{itemCateSecond:this.props.LoadCategoryIndexSencond}).then(res=>{
+      this.props.dispatch(initLoadCategoryIndexSecond(res.data[1]));
+  }) 
   }
   render() {
     var { mouseOver } = this.props;
@@ -41,13 +47,6 @@ class MenuHideRight extends React.Component {
                         <li>
                           <Link to="/danh-muc-ebay" className="ml-2 text-dark  list-item">Đồ chơi lego</Link>
                         </li>
-                        <li>
-                          <Link to="/danh-muc-ebay" className="ml-2 text-dark list-item">Đồ chơi barbie</Link>
-                        </li>
-                        <li>
-                          <Link to="/danh-muc-ebay" className="ml-2 text-dark list-item">Đồ chơi giáo dục</Link>
-                        </li>
-            
                       </ul>
                     </div>
                     )
