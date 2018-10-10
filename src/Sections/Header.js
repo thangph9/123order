@@ -23,7 +23,8 @@ class Header extends React.Component{
         console.log("Hello World")
     }
     componentWillMount(){
-        axios.post('/category').then(res=>{
+
+        axios.post('/category',{item:this.props.mouseOver}).then(res=>{
             this.props.dispatch(initLoadCategory(res.data[0]));
         })   
     }
@@ -43,7 +44,9 @@ class Header extends React.Component{
 }
 function mapStateToProps(state){
   
-    return state;
+    return {
+        mouseOver:state.mouseOverCategory
+    }
 }
 const connectedHeader=connect(mapStateToProps)(Header);
 export { connectedHeader as Header } 
