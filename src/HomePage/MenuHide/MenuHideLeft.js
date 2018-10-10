@@ -1,8 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-//import {loadImg} from '../../actions';
-//import initLoad from '../../actions/initLoadHomePage';
-//import axios from 'axios';
+import {mouseOverCategory} from '../../actions';
 class MenuHideLeft extends React.Component {
     constructor(props) {
         super(props);
@@ -14,8 +12,9 @@ class MenuHideLeft extends React.Component {
         this.handleSubmit = this.handleSubmit.bind(this);
         this.OpenCategory = this.OpenCategory.bind(this);
     }
-    OpenCategory(nodeid) {
-
+    handleMouseOver(value){
+        this.props.dispatch(mouseOverCategory(value));
+        console.log(value);
     }
     handleSubmit() {
         this.setState({
@@ -36,7 +35,7 @@ class MenuHideLeft extends React.Component {
             <div className="container col-md-3 tab">
                 {(LoadCategory.length > 0) && newLoadCategory.map((value, index) => {
                     return (
-                        <div key={index} className="row tablinks pl-4 my-3" onMouseOver={() => this.OpenCategory(value)}>
+                        <div key={index} className="row tablinks pl-4 my-3" onMouseOver={() => this.handleMouseOver(value)}>
                             <div className="col-10">
                                 <span>{value.category}</span>
                             </div>
