@@ -238,20 +238,11 @@ app.post("/category",jsonParser,function(req,res){
     },
     (callback)=>{
        ListArr=listCategorySecond.map((element,index)=>{
-       var d= models.instance.category.find({categoryindex:3,groupid:element[index].nodeid},{raw:true,allow_filtering: true},function(err,result){
-          var arr=result.map(item=>{
-            return obj={
-              nodeid:item.nodeid,
-              category:item.category,
-              categoryindex:item.categoryindex,
-              groupid:item.groupid
-            }
-          })
-          return arr;
+       models.instance.category.find({categoryindex:3,groupid:element[index].nodeid},{raw:true,allow_filtering: true},function(err,result){
+        listArr.push(result);
         })
       })
-      console.log(ListArr);
-      callback(null,ListArr)
+      callback(null,listArr);
     }
   ],(err,result)=>{
     if (err) console.log(err);
