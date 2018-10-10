@@ -13,16 +13,15 @@ class MenuHideLeft extends React.Component {
     }
     handleMouseOver(value){
         this.props.dispatch(mouseOverCategory(value));
-        console.log(value);
+        axios.post('/category',{itemCate:value}).then(res=>{
+            this.props.dispatch(initLoadCategory(res.data[0]));
+        }) 
     }
     handleSubmit() {
         this.setState({
             login: false
         })
         console.log("Hello World")
-    }
-    handleClickTopHot() {
-
     }
     render() {
         var { LoadCategory } = this.props;
@@ -44,7 +43,7 @@ class MenuHideLeft extends React.Component {
                 <div className="row pl-4">
                     <div className="nav-line col-12" />
                 </div>
-                <div className="row tablinks pl-4 my-3" onMouseOver={() => this.OpenCategory(this, 'allCategory')}   >
+                <div className="row tablinks pl-4 my-3"   >
                     <div className="col-8">
                         <span>Xem toàn bộ danh mục</span>
                     </div>

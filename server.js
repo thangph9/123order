@@ -77,7 +77,7 @@ app.post("/home",jsonParser, function (req, res) {
   })
 })
 app.post("/category",jsonParser,function(req,res){
-  console.log(req.body.nodeid);
+  console.log(req.body.itemCate);
   async.series([
     (callback)=>{
       models.instance.category.find({categoryindex:1},{raw:true,allow_filtering: true},function(err,result){

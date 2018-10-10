@@ -24,7 +24,7 @@ class Header extends React.Component{
     }
     componentWillMount(){
 
-        axios.post('/category',{item:this.props.mouseOver}).then(res=>{
+        axios.post('/category').then(res=>{
             this.props.dispatch(initLoadCategory(res.data[0]));
         })   
     }
