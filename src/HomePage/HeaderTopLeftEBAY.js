@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { MenuHide } from "./MenuHide";
+import {mouseOverCategoryFirst} from '../actions';
 //import $ from 'jquery';
 class HeaderTopLeftEBAY extends React.Component {
     constructor(props) {
@@ -26,10 +27,13 @@ class HeaderTopLeftEBAY extends React.Component {
             login: true,
         })
     }
+    handleMouseOver(value){
+        this.props.dispatch(mouseOverCategoryFirst(value));
+    }
     render() {
-
+        var {LoadCate}=this.props;
         return (
-            <li className="nav-item dropdown" id='menuEbay' >
+            <li className="nav-item dropdown" id='menuEbay' onMouseOver={()=>this.handleMouseOver(LoadCate[0])} >
                 <Link to="/danh-muc-ebay" className='nav-link text-white'>
                     EBAY
                 </Link>
@@ -43,7 +47,9 @@ class HeaderTopLeftEBAY extends React.Component {
 }
 function mapStateToProps(state) {
 
-    return state;
+    return {
+        LoadCate:state.initLoadCategory
+    }
 }
 const connected = connect(mapStateToProps)(HeaderTopLeftEBAY);
 export { connected as HeaderTopLeftEBAY } 

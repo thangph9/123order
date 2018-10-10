@@ -10,6 +10,8 @@ export function mouseOverCategory(state={},action){
 	switch (action.type) {
 		case 'MOUSE_OVER_CATEGORY':
 		return action.obj;
+		case 'MOUSE_OVER_CATEGORY_First':
+		return action.obj;
 		default:
 			return state;
 	}	

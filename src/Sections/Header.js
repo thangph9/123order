@@ -46,9 +46,7 @@ class Header extends React.Component{
 }
 function mapStateToProps(state){
   
-    return {
-        mouseOver:state.mouseOverCategory
-    }
+    return state;
 }
 const connectedHeader=connect(mapStateToProps)(Header);
 export { connectedHeader as Header } 

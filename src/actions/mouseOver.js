@@ -10,3 +10,9 @@ export const mouseOverCategory=(obj)=>{
 		obj
 	}
 }
+export const mouseOverCategoryFirst=(obj)=>{
+	return{
+		type: 'MOUSE_OVER_CATEGORY_First',
+		obj
+	}
+}
