@@ -66,7 +66,7 @@ function mapStateToProps(state) {
     return {
         loadImg: state.loadImg,
         LoadCategory: state.initLoadCategory,
-        LoadCategoryIndexSencond
+        LoadCategoryIndexSencond: state.initLoadCategoryIndexSecond
     }
 }
 const connected = connect(mapStateToProps)(MenuHideLeft);
