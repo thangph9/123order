@@ -200,7 +200,6 @@ app.post("/home",jsonParser, function (req, res) {
 
 app.post("/category",jsonParser,function(req,res){
   var listCategorySecond=[];
-  var listArr=[];
   async.series([
     (callback)=>{
       models.instance.category.find({categoryindex:1},{raw:true,allow_filtering: true},function(err,result){
@@ -237,12 +236,12 @@ app.post("/category",jsonParser,function(req,res){
       })
     },
     (callback)=>{
-       ListArr=listCategorySecond.map((element,index)=>{
+       var ListArr=listCategorySecond.map((element,index)=>{
        models.instance.category.find({categoryindex:3,groupid:element[index].nodeid},{raw:true,allow_filtering: true},function(err,result){
-        listArr.push(result);
+          return result;
         })
       })
-      callback(null,listArr);
+      callback(null,ListArr);
     }
   ],(err,result)=>{
     if (err) console.log(err);
