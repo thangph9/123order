@@ -26,7 +26,6 @@ class MenuHideRight extends React.Component {
   render() {
     var { mouseOver } = this.props;
     var { LoadCategoryIndexSencond } = this.props;
-    console.log(LoadCategoryIndexSencond);
     return (
       <div className="col-md-9">
         <div id="congNghiep" className={(mouseOver == undefined) ? 'tabcontent' : 'tabcontent block-show'} style={{ display: 'none' }}>
