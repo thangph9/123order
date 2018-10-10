@@ -197,8 +197,10 @@ app.post("/home",jsonParser, function (req, res) {
     res.json(result);
   })
 })
+
 app.post("/category",jsonParser,function(req,res){
-  console.log(req.body.itemCateSecond);
+  var listCategorySecond=[];
+  var listArr=[];
   async.series([
     (callback)=>{
       models.instance.category.find({categoryindex:1},{raw:true,allow_filtering: true},function(err,result){
@@ -230,8 +232,25 @@ app.post("/category",jsonParser,function(req,res){
             groupid:item.groupid
           }
         })
+        listCategorySecond.push(arr);
         callback(err,arr);
       })
+    },
+    (callback)=>{
+      listCategorySecond.forEach((item)=>{
+        models.instance.category.find({categoryindex:2,groupid:item.nodeid},{raw:true,allow_filtering: true},function(err,result){
+          var arr=result.map(item=>{
+            return obj={
+              nodeid:item.nodeid,
+              category:item.category,
+              categoryindex:item.categoryindex,
+              groupid:item.groupid
+            }
+          })
+          listArr.push(arr);
+        })
+      })
+      callback(err,listArr)
     }
   ],(err,result)=>{
     if (err) console.log(err);
