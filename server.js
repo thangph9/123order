@@ -92,19 +92,7 @@ app.post("/category",jsonParser,function(req,res){
         callback(err,arr);
       })
     },
-    (callback)=>{
-      models.instance.category.find({categoryindex:2,groupid:req.body.item.nodeid},{raw:true,allow_filtering: true},function(err,result){
-        var arr=result.map(item=>{
-          return obj={
-            nodeid:item.nodeid,
-            category:item.category,
-            categoryindex:item.categoryindex,
-            groupid:item.groupid
-          }
-        })
-        callback(err,arr);
-      })
-    }
+
   ],(err,result)=>{
     if (err) console.log(err);
     res.json(result);
