@@ -95,10 +95,10 @@ app.post("/category",jsonParser,function(req,res){
     (callback)=>{
       var query={};
       if(req.body.itemCate!=undefined){
-        query={categoryindex:1,groupid:req.body.itemCate};
+        query={categoryindex:2,groupid:req.body.itemCate.nodeid};
       }
       else{
-        query={categoryindex:1}
+        query={categoryindex:2}
       }
       models.instance.category.find(query,{raw:true,allow_filtering: true},function(err,result){
         var arr=result.map(item=>{
