@@ -92,7 +92,26 @@ app.post("/category",jsonParser,function(req,res){
         callback(err,arr);
       })
     },
-
+    (callback)=>{
+      var query={};
+      if(req.body.itemCate.length>0){
+        query={categoryindex:1,groupid:req.body.itemCate};
+      }
+      else{
+        query={categoryindex:1}
+      }
+      models.instance.category.find(query,{raw:true,allow_filtering: true},function(err,result){
+        var arr=result.map(item=>{
+          return obj={
+            nodeid:item.nodeid,
+            category:item.category,
+            categoryindex:item.categoryindex,
+            groupid:item.groupid
+          }
+        })
+        callback(err,arr);
+      })
+    }
   ],(err,result)=>{
     if (err) console.log(err);
     res.json(result);

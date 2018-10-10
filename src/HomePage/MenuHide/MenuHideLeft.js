@@ -15,7 +15,6 @@ class MenuHideLeft extends React.Component {
     handleMouseOver(value){
         this.props.dispatch(mouseOverCategory(value));
         axios.post('/category',{itemCate:value}).then(res=>{
-            this.props.dispatch(initLoadCategory(res.data[0]));
         }) 
     }
     handleSubmit() {

@@ -7,6 +7,7 @@ import {RegisterHide} from '../HomePage/RegisterHide';
 import {Forgot} from '../HomePage/Forgot';
 import axios from 'axios';
 import {initLoadCategory} from "../actions";
+
 class Header extends React.Component{
     constructor(props){
         super(props);
@@ -23,7 +24,7 @@ class Header extends React.Component{
         console.log("Hello World")
     }
     componentWillMount(){
-
+        
         axios.post('/category').then(res=>{
             this.props.dispatch(initLoadCategory(res.data[0]));
         })   
