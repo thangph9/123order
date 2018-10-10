@@ -247,11 +247,10 @@ app.post("/category",jsonParser,function(req,res){
               groupid:item.groupid
             }
           })
-          console.log(arr);
           listArr.push(arr);
-          console.log(listArr);
         })
       })
+      console.log(listArr);
       callback(null,listArr)
     }
   ],(err,result)=>{
