@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import {mouseOverCategory} from '../../actions';
+import axios from 'axios';
 class MenuHideLeft extends React.Component {
     constructor(props) {
         super(props);
