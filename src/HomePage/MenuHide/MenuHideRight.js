@@ -47,9 +47,7 @@ class MenuHideRight extends React.Component {
                         <li>
                           <Link to="/danh-muc-ebay" className="ml-2 text-dark list-item">Đồ chơi giáo dục</Link>
                         </li>
-                        <li>
-                          <Link to="/danh-muc-ebay" className="ml-2 text-dark list-item">Đồ chơi thông minh</Link>
-                        </li>
+            
                       </ul>
                     </div>
                     )
