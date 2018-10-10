@@ -237,8 +237,8 @@ app.post("/category",jsonParser,function(req,res){
       })
     },
     (callback)=>{
-      listCategorySecond.forEach((element)=>{
-        models.instance.category.find({categoryindex:3,groupid:element.nodeid},{raw:true,allow_filtering: true},function(err,result){
+      listCategorySecond.forEach((element,index)=>{
+        models.instance.category.find({categoryindex:3,groupid:element[index].nodeid},{raw:true,allow_filtering: true},function(err,result){
           var arr=result.map(item=>{
             return obj={
               nodeid:item.nodeid,
