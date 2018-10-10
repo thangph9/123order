@@ -34,7 +34,8 @@ class MenuHideRight extends React.Component {
                 </div>
                 <div className="row mt-2">
                   {LoadCategoryIndexSencond.length > 0 && LoadCategoryIndexSencond.map((value, index) => {
-                    <div key={index} className="col-md-4">
+                    return(
+                      <div key={index} className="col-md-4">
                       <ul>
                         <span className="list-tittle">{value.category}</span>
                         <li>
@@ -51,6 +52,7 @@ class MenuHideRight extends React.Component {
                         </li>
                       </ul>
                     </div>
+                    )
                   })}
                 </div>
               </div>
