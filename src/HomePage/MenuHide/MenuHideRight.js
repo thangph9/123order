@@ -18,7 +18,7 @@ class MenuHideRight extends React.Component {
     console.log("Hello World")
   }
   componentWillMount(){
-      console.log(LoadCategoryIndexSencond);
+      console.log(this.props.LoadCategoryIndexSencond);
       axios.post('/category',{itemCateSecond:this.props.LoadCategoryIndexSencond}).then(res=>{
 
   }) 
