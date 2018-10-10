@@ -94,7 +94,7 @@ app.post("/category",jsonParser,function(req,res){
     },
     (callback)=>{
       var query={};
-      if(req.body.itemCate.length>0){
+      if(req.body.itemCate!=undefined){
         query={categoryindex:1,groupid:req.body.itemCate};
       }
       else{
