@@ -2,6 +2,8 @@ import React from "react";
 import { connect } from "react-redux";
 import {mouseOverCategory} from '../../actions';
 import axios from 'axios';
+import {initLoadCategoryIndexSecond} from '../actions';
+
 class MenuHideLeft extends React.Component {
     constructor(props) {
         super(props);
@@ -15,6 +17,7 @@ class MenuHideLeft extends React.Component {
     handleMouseOver(value){
         this.props.dispatch(mouseOverCategory(value));
         axios.post('/category',{itemCate:value}).then(res=>{
+            this.props.dispatch(initLoadCategoryIndexSecond(res.data[1]));
         }) 
     }
     handleSubmit() {

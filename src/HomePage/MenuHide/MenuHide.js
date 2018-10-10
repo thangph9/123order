@@ -2,6 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import { MenuHideLeft } from "./MenuHideLeft";
 import { MenuHideRight } from "./MenuHideRight";
+
 class MenuHide extends React.Component {
     constructor(props) {
         super(props);
