@@ -249,6 +249,7 @@ app.post("/category",jsonParser,function(req,res){
           })
           console.log(arr);
           listArr.push(arr);
+          console.log(listArr);
         })
       })
       callback(null,listArr)
