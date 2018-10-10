@@ -34,3 +34,9 @@ export const initLoadCategory=(arrData)=>{
 		arrData
 	}
 }
+export const initLoadCategoryIndexSecond=(arrData)=>{
+	return{
+		type: 'INIT_LOAD_CATEGORY_INDEX_SECOND',
+		arrData
+	}
+}

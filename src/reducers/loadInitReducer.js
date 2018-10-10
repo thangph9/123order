@@ -59,3 +59,11 @@ export function initLoadCategory(state=[],action){
 			return state;
 	}	
 }
+export function initLoadCategoryIndexSecond(state=[],action){
+	switch (action.type) {
+		case 'INIT_LOAD_CATEGORY_INDEX_SECOND':
+			return action.arrData;
+		default:
+			return state;
+	}	
+}

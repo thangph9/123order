@@ -18,7 +18,7 @@ class MenuHideRight extends React.Component {
     }
     render() {
         var {mouseOver}=this.props;
-
+        var {LoadCategoryIndexSencond}=this.props;
         return (
           <div className="col-md-9">
                         <div id="congNghiep" className={(mouseOver==undefined)?'tabcontent':'tabcontent block-show'} style={{ display: 'none' }}>
@@ -34,7 +34,7 @@ class MenuHideRight extends React.Component {
     <div className="row mt-2">
       <div className="col-md-4">
         <ul>
-          <span className="list-tittle">Đồ chơi</span>
+          <span className="list-tittle">{LoadCategoryIndexSencond.category}</span>
           <li>
             <Link to="/danh-muc-ebay" className="ml-2 text-dark  list-item">Đồ chơi lego</Link>
           </li>
@@ -65,7 +65,8 @@ class MenuHideRight extends React.Component {
 function mapStateToProps(state) {
 
     return {
-      mouseOver:state.mouseOverCategory
+      mouseOver:state.mouseOverCategory,
+      LoadCategoryIndexSencond:state.initLoadCategoryIndexSecond
     }
 }
 const connected = connect(mapStateToProps)(MenuHideRight);
