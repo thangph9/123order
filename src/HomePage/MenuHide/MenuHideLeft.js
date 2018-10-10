@@ -2,7 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import {mouseOverCategory} from '../../actions';
 import axios from 'axios';
-import {initLoadCategoryIndexSecond} from '../actions';
+import {initLoadCategoryIndexSecond} from '../../actions';
 
 class MenuHideLeft extends React.Component {
     constructor(props) {
