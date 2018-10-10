@@ -250,7 +250,7 @@ app.post("/category",jsonParser,function(req,res){
           listArr.push(arr);
         })
       })
-      callback(err,listArr)
+      callback(null,listArr)
     }
   ],(err,result)=>{
     if (err) console.log(err);
