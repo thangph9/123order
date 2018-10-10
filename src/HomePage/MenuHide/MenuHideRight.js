@@ -25,7 +25,7 @@ class MenuHideRight extends React.Component {
         <div id="congNghiep" className={(mouseOver == undefined) ? 'tabcontent' : 'tabcontent block-show'} style={{ display: 'none' }}>
           <div className="container" aria-haspopup="true" aria-expanded="false">
             <div className="row">
-              <div className="col-md-8">
+              <div className="col-md-12">
                 <div className="row">
                   <div className="col-md-12 gia-soc-title">
                     <span className="title-stroke ml-2" />
