@@ -237,7 +237,7 @@ app.post("/category",jsonParser,function(req,res){
       })
     },
     (callback)=>{
-      listCategorySecond.forEach((element,index)=>{
+      var ListArr=listCategorySecond.map((element,index)=>{
         models.instance.category.find({categoryindex:3,groupid:element[index].nodeid},{raw:true,allow_filtering: true},function(err,result){
           var arr=result.map(item=>{
             return obj={
@@ -247,17 +247,13 @@ app.post("/category",jsonParser,function(req,res){
               groupid:item.groupid
             }
           })
-          listArr.push(arr);
-          console.log('day la arr 1:'+arr);
-          console.log('day la arr listArr:'+listArr);
+          return arr;
         })
-        callback(null,listArr)
       })
-      
+      callback(null,ListArr)
     }
   ],(err,result)=>{
     if (err) console.log(err);
-    console.log(result);
     res.json(result);
   });
 })
