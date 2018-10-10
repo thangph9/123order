@@ -247,9 +247,8 @@ app.post("/category",jsonParser,function(req,res){
               groupid:item.groupid
             }
           })
-          
+          return arr;
         })
-        console.log(d)
       })
       console.log(ListArr);
       callback(null,ListArr)
