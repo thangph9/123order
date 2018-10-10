@@ -249,9 +249,9 @@ app.post("/category",jsonParser,function(req,res){
           })
           listArr.push(arr);
         })
+        callback(null,listArr)
       })
-      console.log(listArr);
-      callback(null,listArr)
+      
     }
   ],(err,result)=>{
     if (err) console.log(err);
