@@ -35,145 +35,14 @@ app.use(jsonParser, function (req, res, next) {
   // Pass to next layer of middleware
   next();
 });
-var ObjTable = {
-  HideEbayTopHot: [
-    {
-      id: 'img1',
-      detail: 'Đây là bức ảnh của Trí 111111111111111111111111',
-      from: 'Việt Nam',
-      price: '4.000.000 VND',
-      salePrice: '2.500.000 VND',
-      linkImg: '/img/ramdisk_crop_182424559_DWpYsp.jpg'
-    },
-    {
-      id: 'img2',
-      detail: 'Đây là bức ảnh của Trí 2222222222222222222222222',
-      from: 'Lào',
-      price: '3.000.000 VND',
-      salePrice: '1.500.000 VND',
-      linkImg: '/img/ramdisk_crop_182442219_xd6qp.jpg'
-    },
-    {
-      id: 'img3',
-      detail: 'Đây là bức ảnh của Trí 33333333333333333333333333',
-      from: 'Thái Lan',
-      price: '3.000.000 VND',
-      salePrice: '1.500.000 VND',
-      linkImg: '/img/ramdisk_crop_182442233_rtwM.jpg'
-    },
-    {
-      id: 'img4',
-      detail: 'Đây là bức ảnh của Trí 4444444444444444444444444',
-      from: 'CampuChia',
-      price: '5.000.000 VND',
-      salePrice: '3.000.00 VND',
-      linkImg: '/img/ramdisk_crop_182462746_ERbax7P.jpg'
-    }
-  ],
-  HideAmazonTopHot: [
-    {
-      id: 'img1',
-      detail: 'Đây là bức ảnh của Trí trong phần ẩn của Amazon',
-      from: 'Việt Nam',
-      price: '1.500.000 VND',
-      salePrice: '7.500.00 VND',
-      linkImg: '/img/ramdisk_crop_182424559_DWpYsp.jpg'
-    },
-    {
-      id: 'img1',
-      detail: 'Đây là bức ảnh của Trí ở trong phần ẩn của amazon',
-      from: 'Trung Quốc',
-      price: '2.000.000 VND',
-      salePrice: '1.200.000 VND',
-      linkImg: '/img/ramdisk_crop_182442219_xd6qp.jpg'
-    },
-    {
-      id: 'img1',
-      detail: 'Đây là bức ảnh của Trí trong phần ẩn của Amazon',
-      from: 'Myanma',
-      price: '3.000.000 VND',
-      salePrice: '1.500.000 VND',
-      linkImg: '/img/ramdisk_crop_182442233_rtwM.jpg'
-    },
-    {
-      id: 'img1',
-      detail: 'Đây là bức ảnh của Trí trong phần ẩn của Amazon',
-      from: 'Cuba',
-      price: '1.000.000 VND',
-      salePrice: '5.000.00 VND',
-      linkImg: '/img/ramdisk_crop_182462746_ERbax7P.jpg'
-    }
-  ],
-  HideTopStoreTopHot: [
-    {
-      id: 'img1',
-      detail: 'Đây là bức ảnh của Trí',
-      from: 'Việt Nam',
-      price: '3.000.000 VND',
-      salePrice: '1.500.000 VND',
-      linkImg: '/img/ramdisk_crop_182424559_DWpYsp.jpg'
-    },
-    {
-      id: 'img1',
-      detail: 'Đây là bức ảnh của Trí',
-      from: 'Việt Nam',
-      price: '3.000.000 VND',
-      salePrice: '1.500.000 VND',
-      linkImg: '/img/ramdisk_crop_182442219_xd6qp.jpg'
-    },
-    {
-      id: 'img1',
-      detail: 'Đây là bức ảnh của Trí',
-      from: 'Việt Nam',
-      price: '3.000.000 VND',
-      salePrice: '1.500.000 VND',
-      linkImg: '/img/ramdisk_crop_182442233_rtwM.jpg'
-    },
-    {
-      id: 'img1',
-      detail: 'Đây là bức ảnh của Trí',
-      from: 'Việt Nam',
-      price: '3.000.000 VND',
-      salePrice: '1.500.000 VND',
-      linkImg: '/img/ramdisk_crop_182462746_ERbax7P.jpg'
-    }
-  ],
-  ContentSale: [
-    {
-      id: 'anhgai1',
-      linkanh: '/img/Home3_714x584.png'
-    },
-    {
-      id: 'anhgai2',
-      linkanh: '/img/Home2_715x584.png'
-    },
-    {
-      id: 'anhgai3',
-      linkanh: '/img/Home1_715x584.png'
-    },
-    {
-      id: 'anhgai4',
-      linkanh: '/img/Home_715x584.png'
-    }
-  ]
-};
-function removeA(arr) {
-  var what, a = arguments, L = a.length, ax;
-  while (L > 1 && arr.length) {
-      what = a[--L];
-      while ((ax= arr.indexOf(what)) !== -1) {
-          arr.splice(ax, 1);
-      }
-  }
-  return arr;
-}
+var ObjTable = {}; 
+
 app.post("/home",jsonParser, function (req, res) {
   var addItem = req.body.addItem + 15;
   async.series([
     (callback) =>{
       models.instance.amazon_deal_day.find({$limit:addItem,stt:1},{raw:true,allow_filtering: true}, function (err, result) {
         var arr = result.map(item => {
-          if(item.sale!=null){
             return obj = {
               dealid: item.dealid,
               asin:item.asin,   
@@ -197,10 +66,7 @@ app.post("/home",jsonParser, function (req, res) {
               title:(item.title!=null)?item.title:'',
               widgetid:item.widgetid
             }
-          }
-        else return 'null';
         });
-        removeA(arr,'null')
         ObjTable.ContentAmazonDealDay = arr;
         callback(err, ObjTable)
       });
