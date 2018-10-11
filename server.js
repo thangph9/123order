@@ -199,8 +199,7 @@ app.post("/home", jsonParser, function (req, res) {
 })
 
 app.post("/category", jsonParser, function (req, res) {
-  var listCategorySecond = [];
-  var listArr = [];
+  var objCategorySecond = {};
   async.series([
     (callback) => {
       models.instance.category.find({ categoryindex: 1 }, { raw: true, allow_filtering: true }, function (err, result) {
@@ -232,7 +231,7 @@ app.post("/category", jsonParser, function (req, res) {
             groupid: item.groupid
           }
         })
-        listCategorySecond.push(arr);
+        objCategorySecond.listCate=arr;
         console.log(listCategorySecond);
         callback(err, arr);
       })
