@@ -26,7 +26,10 @@ class Header extends React.Component{
     componentWillMount(){
         
         axios.post('/category').then(res=>{
-            this.props.dispatch(initLoadCategory(res.data[0]));
+            var catefirst=res.data[0].filter((item)=>{
+                return item.categoryindex==1;
+            }) 
+            this.props.dispatch(initLoadCategory(catefirst));
            
         })   
     }

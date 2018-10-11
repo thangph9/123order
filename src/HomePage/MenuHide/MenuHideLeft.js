@@ -18,6 +18,7 @@ class MenuHideLeft extends React.Component {
         this.props.dispatch(mouseOverCategory(value));
         axios.post('/category',{itemCate:value}).then(res=>{
             this.props.dispatch(initLoadCategoryIndexSecond(res.data[1]));
+
         })  
     }
     handleSubmit() {
@@ -28,16 +29,13 @@ class MenuHideLeft extends React.Component {
     }
     render() {
         var { LoadCategory } = this.props;
-        var categoryFirst=LoadCategory.filter((item)=>{
-            return item.categoryindex==1;
-        })   
-        var newLoadCategoryFirst=[];
-        if(categoryFirst.length > 0){
-            newLoadCategoryFirst = categoryFirst.slice(0, 9);
+        var newLoadCategory=[];
+        if(LoadCategory.length > 0){
+             newLoadCategory = LoadCategory.slice(0, 9);
         }
         return (
             <div className="container col-md-3 tab">
-                {(LoadCategory.length > 0) && newLoadCategoryFirst.map((value, index) => {
+                {(LoadCategory.length > 0) && newLoadCategory.map((value, index) => {
                     return (
                         <div key={index} className="row tablinks pl-4 my-3" onMouseOver={() => this.handleMouseOver(value)}>
                             <div className="col-10">
