@@ -67,7 +67,7 @@ class MenuHideLeft extends React.Component {
 function mapStateToProps(state) {
     return {
         loadImg: state.loadImg,
-        LoadCategory: state.initLoadCategory,
+        LoadCategory: state.initLoadCategoryFirstItem,
         LoadCategoryIndexSencond: state.initLoadCategoryIndexSecond,
         initLoadCategoryIndexSecond:state.initLoadCategoryIndexSecond
     }
