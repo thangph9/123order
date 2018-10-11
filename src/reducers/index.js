@@ -17,6 +17,7 @@ import {mouseScrollPageDetailProduct} from './mouseScrollReducer';
 import {mouseClickSmallImageProduct} from './mouseClickReducer';
 import {initLoadCategoryFirstItem} from './loadInitReducer';
 import {initLoadCategorySecondItem} from './loadInitReducer';
+import {initLoadCategoryThirdItem} from './loadInitReducer';
 import {initLoadCategoryIndexSecond} from './loadInitReducer';
 const rootReducer=combineReducers({
     authentication,
@@ -37,6 +38,7 @@ const rootReducer=combineReducers({
     initLoadCategoryFirstItem,
     mouseOverCategory,
     initLoadCategoryIndexSecond,
-    initLoadCategorySecondItem
+    initLoadCategorySecondItem,
+    initLoadCategoryThirdItem
 });
 export default rootReducer;

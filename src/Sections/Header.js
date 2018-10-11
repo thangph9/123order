@@ -8,7 +8,7 @@ import {Forgot} from '../HomePage/Forgot';
 import axios from 'axios';
 import { initLoadCategoryFirstItem} from "../actions";
 import { initLoadCategorySecondItem } from "../actions";
-
+import {initLoadCategoryThirdItem} from '../actions';
 class Header extends React.Component{
     constructor(props){
         super(props);
@@ -33,9 +33,12 @@ class Header extends React.Component{
             this.props.dispatch(initLoadCategoryFirstItem(catefirst));
             var catescond=res.data[0].filter((item)=>{
                 return item.categoryindex==2;
-            }) 
-            
+            })            
             this.props.dispatch(initLoadCategorySecondItem(catescond));
+            var catethird=res.data[0].filter((item)=>{
+                return item.categoryindex==3;
+            })            
+            this.props.dispatch(initLoadCategoryThirdItem(catethird));
         })   
     }
     render(){

@@ -67,7 +67,14 @@ export function initLoadCategorySecondItem(state=[],action){
 			return state;
 	}	
 }
-
+export function initLoadCategoryThirdItem(state=[],action){
+	switch (action.type) {
+		case 'INIT_LOAD_CATEGORY_THIRD_ITEM':
+			return action.arrData;
+		default:
+			return state;
+	}	
+}
 export function initLoadCategoryIndexSecond(state=[],action){
 	switch (action.type) {
 		case 'INIT_LOAD_CATEGORY_INDEX_SECOND':

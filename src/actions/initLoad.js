@@ -40,6 +40,12 @@ export const initLoadCategorySecondItem=(arrData)=>{
 		arrData
 	}
 }
+export const initLoadCategoryThirdItem=(arrData)=>{
+	return{
+		type: 'INIT_LOAD_CATEGORY_THIRD_ITEM',
+		arrData
+	}
+}
 export const initLoadCategoryIndexSecond=(arrData)=>{
 	return{
 		type: 'INIT_LOAD_CATEGORY_INDEX_SECOND',
