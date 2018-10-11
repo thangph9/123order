@@ -38,7 +38,7 @@ class MenuHideLeft extends React.Component {
         }
         return (
             <div className="container col-md-3 tab">
-                {(LoadCategory.length > 0) && newLoadCategory.map((value, index) => {
+                {(newLoadCategory.length > 0) && newLoadCategory.map((value, index) => {
                     return (
                         <div key={index} className="row tablinks pl-4 my-3" onMouseOver={() => this.handleMouseOver(value)}>
                             <div className="col-10">
@@ -69,7 +69,7 @@ function mapStateToProps(state) {
         loadImg: state.loadImg,
         LoadCategory: state.initLoadCategoryFirstItem,
         LoadCategoryIndexSencond: state.initLoadCategoryIndexSecond,
-        initLoadCategoryIndexSecond:state.initLoadCategoryIndexSecond
+        initLoadCategorySecondItem:state.initLoadCategorySecondItem
     }
 }
 const connected = connect(mapStateToProps)(MenuHideLeft);
