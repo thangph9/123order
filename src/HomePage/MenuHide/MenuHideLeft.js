@@ -1,7 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
 import {mouseOverCategory} from '../../actions';
-import axios from 'axios';
 import {initLoadCategoryIndexSecond} from '../../actions';
 
 class MenuHideLeft extends React.Component {
@@ -16,13 +15,11 @@ class MenuHideLeft extends React.Component {
     }
     handleMouseOver(value){
         this.props.dispatch(mouseOverCategory(value));
-        var {initLoadCategoryIndexSecond}=this.props;
-        var categoryScecond=initLoadCategoryIndexSecond.filter((item)=>{
-
+        var {initLoadCategorySecondItem}=this.props;
+        var categoryScecond=initLoadCategorySecondItem.filter((item)=>{
             return item.categoryindex==2&&item.groupid==value.nodeid
         })
         this.props.dispatch(initLoadCategoryIndexSecond(categoryScecond))
-
     }
     handleSubmit() {
         this.setState({
