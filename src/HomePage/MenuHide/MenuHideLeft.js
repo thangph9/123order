@@ -25,7 +25,7 @@ class MenuHideLeft extends React.Component {
             console.log(value);
             return (
                 initLoadCategoryThirdItem.filter((item)=>{
-                    return item.categoryindex==3&&value.nodeid
+                    return item.categoryindex==3&&item.groupid==value.nodeid
                 })
             )
         })
