@@ -158,35 +158,35 @@ var ObjTable = {
   ]
 };
 
-app.post("/home",jsonParser, function (req, res) {
+app.post("/home", jsonParser, function (req, res) {
   var addItem = req.body.addItem + 15;
   async.series([
-    (callback) =>{
-      models.instance.amazon_deal_day.find({$limit:addItem,stt:1},{raw:true,allow_filtering: true}, function (err, result) {
+    (callback) => {
+      models.instance.amazon_deal_day.find({ $limit: addItem, stt: 1 }, { raw: true, allow_filtering: true }, function (err, result) {
         var arr = result.map(item => {
-            return obj = {
-              dealid: item.dealid,
-              asin:item.asin,   
-              base_price: item.base_price,
-              dealstate:item.dealstate,
-              dealtype:item.dealtype,
-              death_clock: item.death_clock,
-              img: item.img,
-              legacydealid:item.legacydealid,
-              link: item.link,
-              offerid:item.offerid,
-              position:item.position,
-              price: item.price,
-              reviews: item.reviews,
-              review_link: item.review_link,
-              sale:(item.sale!=null)?item.sale.slice(1,4):'',
-              smid:item.smid,
-              stt:item.stt,
-              timestamp: item.timestamp + "",
-              star:item.star,
-              title:(item.title!=null)?item.title:'',
-              widgetid:item.widgetid
-            }
+          return obj = {
+            dealid: item.dealid,
+            asin: item.asin,
+            base_price: item.base_price,
+            dealstate: item.dealstate,
+            dealtype: item.dealtype,
+            death_clock: item.death_clock,
+            img: item.img,
+            legacydealid: item.legacydealid,
+            link: item.link,
+            offerid: item.offerid,
+            position: item.position,
+            price: item.price,
+            reviews: item.reviews,
+            review_link: item.review_link,
+            sale: (item.sale != null) ? item.sale.slice(1, 4) : '',
+            smid: item.smid,
+            stt: item.stt,
+            timestamp: item.timestamp + "",
+            star: item.star,
+            title: (item.title != null) ? item.title : '',
+            widgetid: item.widgetid
+          }
         });
         ObjTable.ContentAmazonDealDay = arr;
         callback(err, ObjTable)
@@ -198,109 +198,121 @@ app.post("/home",jsonParser, function (req, res) {
   })
 })
 
-app.post("/category",jsonParser,function(req,res){
-  var listCategorySecond=[];
+app.post("/category", jsonParser, function (req, res) {
+  var listCategorySecond = [];
   async.series([
-    (callback)=>{
-      models.instance.category.find({categoryindex:1},{raw:true,allow_filtering: true},function(err,result){
-        var arr=result.map(item=>{
-          return obj={
-            nodeid:item.nodeid,
-            category:item.category,
-            categoryindex:item.categoryindex,
-            groupid:item.groupid
+    (callback) => {
+      models.instance.category.find({ categoryindex: 1 }, { raw: true, allow_filtering: true }, function (err, result) {
+        var arr = result.map(item => {
+          return obj = {
+            nodeid: item.nodeid,
+            category: item.category,
+            categoryindex: item.categoryindex,
+            groupid: item.groupid
           }
         })
-        callback(err,arr);
+        callback(err, arr);
       })
     },
-    (callback)=>{
-      var query={};
-      if(req.body.itemCate!=undefined){
-        query={categoryindex:2,groupid:req.body.itemCate.nodeid};
+    (callback) => {
+      var query = {};
+      if (req.body.itemCate != undefined) {
+        query = { categoryindex: 2, groupid: req.body.itemCate.nodeid };
       }
-      else{
-        query={categoryindex:2}
+      else {
+        query = { categoryindex: 2 }
       }
-      models.instance.category.find(query,{raw:true,allow_filtering: true},function(err,result){
-        var arr=result.map(item=>{
-          return obj={
-            nodeid:item.nodeid,
-            category:item.category,
-            categoryindex:item.categoryindex,
-            groupid:item.groupid
+      models.instance.category.find(query, { raw: true, allow_filtering: true }, function (err, result) {
+        var arr = result.map(item => {
+          return obj = {
+            nodeid: item.nodeid,
+            category: item.category,
+            categoryindex: item.categoryindex,
+            groupid: item.groupid
           }
         })
         listCategorySecond.push(arr);
-        callback(err,arr);
+        callback(err, arr);
       })
     },
-    (callback)=>{
-      var listArr=[];
-      var list=listCategorySecond.map((element,index)=>{
-        models.instance.category.find({categoryindex:3,groupid:element[index].nodeid},{raw:true,allow_filtering: true},function(err,result){
-           var arr=result.map(item=>{
-             return obj={
-               nodeid:item.nodeid,
-               category:item.category,
-               categoryindex:item.categoryindex,
-               groupid:item.groupid
-             }
-           })
-            listArr.push(arr);  
-         })
-       })
-       callback(err,listArr);
+    (callback) => {
+      async.series([
+        (callback) => {
+          var listArr = [];
+          var list = listCategorySecond.map((element, index) => {
+            models.instance.category.find({ categoryindex: 3, groupid: element[index].nodeid }, { raw: true, allow_filtering: true }, function (err, result) {
+              var arr = result.map(item => {
+                return obj = {
+                  nodeid: item.nodeid,
+                  category: item.category,
+                  categoryindex: item.categoryindex,
+                  groupid: item.groupid
+                }
+              })
+              listArr.push(arr);
+            })
+          })
+          callback(null,null)
+        },
+        (callback1)=>{
+          
+          callback(null, listArr);
+          callback1(null,null)
+        }
+      ],(err,result)=>{
+        if(err) console.log(err);
+      })
+      
     }
-  ],(err,result)=>{
+  ], (err, result) => {
     if (err) console.log(err);
     res.json(result);
   });
 })
-var PARAM_IS_PRODUCT_DETAIL={};
-app.post('/product-detail',jsonParser, function (req, res) {
-  params=req.body;
+var PARAM_IS_PRODUCT_DETAIL = {};
+app.post('/product-detail', jsonParser, function (req, res) {
+  params = req.body;
   async.series([
-    (callback)=> { 
-      models.instance.product_detail.find({ dealid:params.dealid }, function (err, result) {
-        if(result.length>0) PARAM_IS_PRODUCT_DETAIL["dealid"]=params.dealid;
+    (callback) => {
+      models.instance.product_detail.find({ dealid: params.dealid }, function (err, result) {
+        if (result.length > 0) PARAM_IS_PRODUCT_DETAIL["dealid"] = params.dealid;
         callback(err, null);
       });
-  },
-    (callback) => { 
-        models.instance.product_detail.find({ dealid:PARAM_IS_PRODUCT_DETAIL.dealid },function (err, result) {
-          var arr = result.map(item => {
-            return obj = {
-              dealid: item.dealid,
-              asin:item.asin,
-              category:item.category,
-              color:item.color,
-              deal_of_day:item.deal_of_day,
-              description: item.description,
-              hugeimage: item.hugeimage,
-              largeimage: item.largeimage,
-              list_price:item.list_price,
-              nested:item.nested,
-              nodeid:item.nodeid,
-              price:item.price,
-              save_price:item.save_price.slice(0,5),
-              smallimage: item.smallimage,
-              star: item.star,
-              style:item.style,
-              title:(item.title!=null)?item.title:'',
-            } 
-          });
-          ObjTable.ProductDetail = arr;
-          callback(err, ObjTable);
-        });
     },
-    (callback) =>{
-      models.instance.amazon_deal_day.find({ dealid:PARAM_IS_PRODUCT_DETAIL.dealid }, function (err, result) {
+    (callback) => {
+      models.instance.product_detail.find({ dealid: PARAM_IS_PRODUCT_DETAIL.dealid }, function (err, result) {
+        var arr = result.map(item => {
+          return obj = {
+            dealid: item.dealid,
+            asin: item.asin,
+            category: item.category,
+            color: item.color,
+            deal_of_day: item.deal_of_day,
+            description: item.description,
+            hugeimage: item.hugeimage,
+            largeimage: item.largeimage,
+            list_price: item.list_price,
+            nested: item.nested,
+            nodeid: item.nodeid,
+            price: item.price,
+            save_price: item.save_price.slice(0, 5),
+            smallimage: item.smallimage,
+            star: item.star,
+            style: item.style,
+            title: (item.title != null) ? item.title : '',
+          }
+        });
+        ObjTable.ProductDetail = arr;
+        callback(err, ObjTable);
+      });
+    },
+    (callback) => {
+      models.instance.amazon_deal_day.find({ dealid: PARAM_IS_PRODUCT_DETAIL.dealid }, function (err, result) {
         var arr = result.map(item => {
           return obj = {
             base_price: item.base_price,
             price: item.price,
-            sale:(item.sale!=null)?item.sale.slice(1,4):'',
+            sale: (item.sale != null) ? item.sale.slice(1, 4) : '',
           }
         });
         callback(err, arr[0]);
@@ -311,34 +323,34 @@ app.post('/product-detail',jsonParser, function (req, res) {
     res.json(result);
   })
 })
-app.post("/landing-page",jsonParser, function (req, res) {
+app.post("/landing-page", jsonParser, function (req, res) {
   var addItem = req.body.addItem + 15
   async.series([
-    (callback) =>{
-      models.instance.amazon_deal_day.find({ $limit: addItem,stt:1},{raw:true,allow_filtering: true}, function (err, result) {
+    (callback) => {
+      models.instance.amazon_deal_day.find({ $limit: addItem, stt: 1 }, { raw: true, allow_filtering: true }, function (err, result) {
         var arr = result.map(item => {
           return obj = {
             dealid: item.dealid,
-            asin:item.asin,   
+            asin: item.asin,
             base_price: item.base_price,
-            dealstate:item.dealstate,
-            dealtype:item.dealtype,
+            dealstate: item.dealstate,
+            dealtype: item.dealtype,
             death_clock: item.death_clock,
             img: item.img,
-            legacydealid:item.legacydealid,
+            legacydealid: item.legacydealid,
             link: item.link,
-            offerid:item.offerid,
-            position:item.position,
+            offerid: item.offerid,
+            position: item.position,
             price: item.price,
             reviews: item.reviews,
             review_link: item.review_link,
-            sale:(item.sale!=null)?item.sale.slice(1,4):'',
-            smid:item.smid,
-            stt:item.stt,
+            sale: (item.sale != null) ? item.sale.slice(1, 4) : '',
+            smid: item.smid,
+            stt: item.stt,
             timestamp: item.timestamp + "",
-            star:item.star,
-            title:(item.title!=null)?item.title:'',
-            widgetid:item.widgetid
+            star: item.star,
+            title: (item.title != null) ? item.title : '',
+            widgetid: item.widgetid
           }
         });
         ObjTable.ContentAmazonDealDay = arr;
@@ -380,9 +392,9 @@ if (!module.parent) {
     console.log("server running at https://123order.vn/")
   });
 
- 
+
   http.createServer(function (req, res) {
     res.writeHead(301, { "Location": "https://" + req.headers['host'] + req.url });
     res.end();
-}).listen(80);
+  }).listen(80);
 }
