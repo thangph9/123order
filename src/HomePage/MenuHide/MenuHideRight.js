@@ -33,15 +33,17 @@ class MenuHideRight extends React.Component {
                 </div>
                 <div className="row mt-2">
                   {LoadCategoryIndexSencond.length > 0 && LoadCategoryIndexSencond.map((value, index) => {
-                    return(
+                    return (
                       <div key={index} className="col-md-4">
-                      <ul>
-                        <span className="list-tittle">{value.category}</span>
-                        <li>
-                          <Link to="/danh-muc-ebay" className="ml-2 text-dark  list-item">Đồ chơi lego</Link>
-                        </li>
-                      </ul>
-                    </div>
+                        <ul>
+                          <span className="list-tittle">{value.category}</span>
+                          {initLoadCategoryIndexThird.length > 0 && initLoadCategoryIndexThird[index].map((v, i) => {
+                            return (<li>
+                              <Link to="/danh-muc-ebay" className="ml-2 text-dark  list-item">v.category</Link>
+                            </li>)
+                          })}
+                        </ul>
+                      </div>
                     )
                   })}
                 </div>
@@ -58,7 +60,8 @@ function mapStateToProps(state) {
 
   return {
     mouseOver: state.mouseOverCategory,
-    LoadCategoryIndexSencond: state.initLoadCategoryIndexSecond
+    LoadCategoryIndexSencond: state.initLoadCategoryIndexSecond,
+    initLoadCategoryIndexThird: state.initLoadCategoryIndexThird
   }
 }
 const connected = connect(mapStateToProps)(MenuHideRight);
