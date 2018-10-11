@@ -203,7 +203,7 @@ app.post("/category", jsonParser, function (req, res) {
   var arrCategoryThird=[];
   async.series([
     (callback) => {
-      models.instance.category.find({ categoryindex: 1 }, { raw: true, allow_filtering: true }, function (err, result) {
+      models.instance.category.find({}, { raw: true, allow_filtering: true }, function (err, result) {
         var arr = result.map(item => {
           return obj = {
             nodeid: item.nodeid,
@@ -236,38 +236,8 @@ app.post("/category", jsonParser, function (req, res) {
         callback(err, arr);
       })
     },
-    (callback)=>{
-      async.series([
-      (callback1)=>{
-        for(var i=0;i<objCategorySecond.listCate.length;i++){
-          console.log('so 1');
-          models.instance.category.find({ categoryindex: 3,groupid:objCategorySecond.listCate[i].nodeid }, { raw: true, allow_filtering: true }, function (err, result) {
-            var arr = result.map(item => {
-              return obj = {
-                nodeid: item.nodeid,
-                category: item.category,
-                categoryindex: item.categoryindex,
-                groupid: item.groupid
-              }
-            })
-            console.log('so 2');
-            arrCategoryThird.push(arr);
-            console.log(arrCategoryThird);
-          })
-        }
-        callback1(null,null);
-      },
-      (callback1)=>{
-        console.log('so 3');
-        callback(null,arrCategoryThird);
-        callback1(null,null);
-      }
-      ],(err,result)=>{
-        if(err) console.log(err);
-      })
-      
-    }
   ], (err, result) => {
+
     if (err) console.log(err);
     res.json(result);
   });
