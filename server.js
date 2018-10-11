@@ -238,6 +238,7 @@ app.post("/category", jsonParser, function (req, res) {
     },
     (callback)=>{
       for(var i=0;i<objCategorySecond.listCate;i++){
+        console.log('so 1');
         models.instance.category.find({ categoryindex: 3,groupid:objCategorySecond.listCate[i].nodeid }, { raw: true, allow_filtering: true }, function (err, result) {
           var arr = result.map(item => {
             return obj = {
@@ -250,6 +251,7 @@ app.post("/category", jsonParser, function (req, res) {
           arrCategoryThird.push(arr);
         })
       }
+      console.log('so 2');
       callback(null,arrCategoryThird);
     }
   ], (err, result) => {
