@@ -29,13 +29,10 @@ class MenuHideLeft extends React.Component {
     render() {
         var { LoadCategory } = this.props;
         var categoryFirst=LoadCategory.filter((item)=>{
-            return item.categoryindex=1;
-        })
-        console.log(categoryFirst.length);
-        console.log(categoryFirst);
-        
+            return item.categoryindex==1;
+        })   
         var newLoadCategoryFirst=[];
-        if(LoadCategory.length > 0){
+        if(categoryFirst.length > 0){
             newLoadCategoryFirst = categoryFirst.slice(0, 9);
         }
         return (
