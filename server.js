@@ -240,7 +240,7 @@ app.post("/category", jsonParser, function (req, res) {
       async.series([
         (callback1) => {
           
-          var list = listCategorySecond.map((element, index) => {
+          listCategorySecond.forEach((element, index) => {
             models.instance.category.find({ categoryindex: 3, groupid: element[index].nodeid }, { raw: true, allow_filtering: true }, function (err, result) {
               var arr = result.map(item => {
                 return obj = {
