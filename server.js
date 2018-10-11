@@ -236,12 +236,28 @@ app.post("/category",jsonParser,function(req,res){
       })
     },
     (callback)=>{
-       var ListArr=listCategorySecond.map((element,index)=>{
-       models.instance.category.find({categoryindex:3,groupid:element[index].nodeid},{raw:true,allow_filtering: true},function(err,result){
-          return result;
-        })
-      })
-      callback(null,ListArr);
+      
+       var listCategoryThird=()=>{
+        var listArr=[];
+         return new Promise((res,rej)=>{
+          var list=listCategorySecond.map((element,index)=>{
+            models.instance.category.find({categoryindex:3,groupid:element[index].nodeid},{raw:true,allow_filtering: true},function(err,result){
+               var arr=result.map(item=>{
+                 return obj={
+                   nodeid:item.nodeid,
+                   category:item.category,
+                   categoryindex:item.categoryindex,
+                   groupid:item.groupid
+                 }
+               })
+               listArr.push(arr);
+             })
+            return listArr;
+           })
+           res(list);
+         })
+       }
+       listCategoryThird().then(res=>callback(null,res));
     }
   ],(err,result)=>{
     if (err) console.log(err);
