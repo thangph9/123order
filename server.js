@@ -248,10 +248,12 @@ app.post("/category", jsonParser, function (req, res) {
               groupid: item.groupid
             }
           })
+          console.log('so 2');
           arrCategoryThird.push(arr);
+          console.log(arrCategoryThird);
         })
       }
-      console.log('so 2');
+      console.log('so 3');
       callback(null,arrCategoryThird);
     }
   ], (err, result) => {
