@@ -233,38 +233,11 @@ app.post("/category", jsonParser, function (req, res) {
           }
         })
         listCategorySecond.push(arr);
+        console.log(listCategorySecond);
         callback(err, arr);
       })
     },
-    (callback) => {
-      async.series([
-        (callback1) => {
-          listCategorySecond.forEach((element, index) => {
-            models.instance.category.find({ categoryindex: 3, groupid: element[index].nodeid }, { raw: true, allow_filtering: true }, function (err, result) {
-              var arr = result.map(item => {
-                return obj = {
-                  nodeid: item.nodeid,
-                  category: item.category,
-                  categoryindex: item.categoryindex,
-                  groupid: item.groupid
-                }
-              })
-              listArr.push(arr);
-              console.log(listArr);
-            })
-          })
-          callback1(null,null)
-        },
-        (callback1)=>{
-          console.log(listArr);
-          callback(null, listArr);
-          callback1(null,null)
-        }
-      ],(err,result)=>{
-        if(err) console.log(err);
-      })
-      
-    }
+    
   ], (err, result) => {
     if (err) console.log(err);
     res.json(result);
