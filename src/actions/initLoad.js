@@ -28,9 +28,15 @@ export const initLoadProductDetail=(arrData)=>{
 		arrData
 	}
 }
-export const initLoadCategory=(arrData)=>{
+export const initLoadCategoryFirstItem=(arrData)=>{
 	return{
-		type: 'INIT_LOAD_CATEGORY',
+		type: 'INIT_LOAD_CATEGORY_FIRST_ITEM',
+		arrData
+	}
+}
+export const initLoadCategorySecondItem=(arrData)=>{
+	return{
+		type: 'INIT_LOAD_CATEGORY_SECOND_ITEM',
 		arrData
 	}
 }

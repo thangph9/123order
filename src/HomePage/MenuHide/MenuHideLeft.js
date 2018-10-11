@@ -16,8 +16,8 @@ class MenuHideLeft extends React.Component {
     }
     handleMouseOver(value){
         this.props.dispatch(mouseOverCategory(value));
-        var {LoadCategory}=this.props;
-        var categoryScecond=LoadCategory.filter((item)=>{
+        var {initLoadCategoryIndexSecond}=this.props;
+        var categoryScecond=initLoadCategoryIndexSecond.filter((item)=>{
 
             return item.categoryindex==2&&item.groupid==value.nodeid
         })
@@ -68,7 +68,8 @@ function mapStateToProps(state) {
     return {
         loadImg: state.loadImg,
         LoadCategory: state.initLoadCategory,
-        LoadCategoryIndexSencond: state.initLoadCategoryIndexSecond
+        LoadCategoryIndexSencond: state.initLoadCategoryIndexSecond,
+        initLoadCategoryIndexSecond:state.initLoadCategoryIndexSecond
     }
 }
 const connected = connect(mapStateToProps)(MenuHideLeft);

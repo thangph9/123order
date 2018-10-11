@@ -6,7 +6,8 @@ import {LoginHide} from '../HomePage/LoginHide';
 import {RegisterHide} from '../HomePage/RegisterHide';
 import {Forgot} from '../HomePage/Forgot';
 import axios from 'axios';
-import {initLoadCategory} from "../actions";
+import { initLoadCategoryFirstItem} from "../actions";
+import { initLoadCategoryIndexSecond } from "../reducers/loadInitReducer";
 
 class Header extends React.Component{
     constructor(props){
@@ -29,8 +30,11 @@ class Header extends React.Component{
             var catefirst=res.data[0].filter((item)=>{
                 return item.categoryindex==1;
             }) 
-            this.props.dispatch(initLoadCategory(catefirst));
-           
+            var catescond=res.data[0].filter((item)=>{
+                return item.categoryindex==2;
+            }) 
+            this.props.dispatch(initLoadCategoryFirstItem(catefirst));
+            this.props.dispatch(initLoadCategoryIndexSecond(catefirst));
         })   
     }
     render(){

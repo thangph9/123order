@@ -51,14 +51,23 @@ export function initLoadProductDetail(state=[],action){
 			return state;
 	}	
 }
-export function initLoadCategory(state=[],action){
+export function initLoadCategoryFirstItem(state=[],action){
 	switch (action.type) {
-		case 'INIT_LOAD_CATEGORY':
+		case 'INIT_LOAD_CATEGORY_FIRST_ITEM':
 			return action.arrData;
 		default:
 			return state;
 	}	
 }
+export function initLoadCategorySecondItem(state=[],action){
+	switch (action.type) {
+		case 'INIT_LOAD_CATEGORY_SECOND_ITEM':
+			return action.arrData;
+		default:
+			return state;
+	}	
+}
+
 export function initLoadCategoryIndexSecond(state=[],action){
 	switch (action.type) {
 		case 'INIT_LOAD_CATEGORY_INDEX_SECOND':
