@@ -232,7 +232,7 @@ app.post("/category", jsonParser, function (req, res) {
           }
         })
         objCategorySecond.listCate=arr;
-        console.log(listCategorySecond);
+        console.log(objCategorySecond);
         callback(err, arr);
       })
     },
