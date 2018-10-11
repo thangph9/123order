@@ -20,14 +20,7 @@ class MenuHideLeft extends React.Component {
 
             var catesecond=res.data[0].filter((item)=>{
                 return item.categoryindex==2&&item.groupid==value.nodeid;
-            }) 
-            for(var i=0;i<catesecond.length;i++){
-                var catethird=catesecond.res.data[0].filter((item)=>{
-                    return item.categoryindex==3&&item.groupid==catesecond[i].nodeid
-                })
-                console.log(catethird);
-            }
-            
+            })
             this.props.dispatch(initLoadCategoryIndexSecond(catesecond))
 
         })  
