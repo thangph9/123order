@@ -48,7 +48,7 @@ class HeaderTopLeftEBAY extends React.Component {
 function mapStateToProps(state) {
 
     return {
-        LoadCate:state.initLoadCategory
+        LoadCate:state.initLoadCategoryFirstItem
     }
 }
 const connected = connect(mapStateToProps)(HeaderTopLeftEBAY);
