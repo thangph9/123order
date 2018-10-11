@@ -27,7 +27,7 @@ class MenuHideLeft extends React.Component {
                 })
                 console.log(catethird);
             }
-            console.log(catethird);
+            
             this.props.dispatch(initLoadCategoryIndexSecond(catesecond))
 
         })  
