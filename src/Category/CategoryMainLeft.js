@@ -9,108 +9,35 @@ class CategoryMainLeft extends React.Component {
         }
     }
     render() {
+        var { initLoadCategoryItem } = this.props;
+        var { mouseClickCategory } = this.props;
+        var parentCate = initLoadCategoryItem.filter((item) => {
+            return item.nodeid == mouseClickCategory.nodeid;
+        })
+        var childCate = initLoadCategoryItem.filter((item) => {
+            return item.groupid == mouseClickCategory.nodeid && item.categoryindex == (Number(mouseClickCategory.categoryindex) + 1);
+        })
         return (
             <div>
                 <aside className="container-aside">
                     <section className="cate-sblock">
                         <div className="sblock-head">
-                            <div className="sblock-title">Electronics</div>
+                            <div className="sblock-title">{parentCate}</div>
                         </div>{/* .sblock-head */}
                         <div className="sblock-main">
                             <ul className="cate-list" style={{ paddingLeft: 0 }}>
-                                <li>
-                                    <a href="/us/s/cat/?fst=as:off&rh=n:172282,n:!493964,n:281407&bbn=493964&ie=UTF8&qid=1538963894&rnid=493964">
-                                        <span className="title">Accessories &amp; Supplies</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/us/s/cat/?fst=as:off&rh=n:172282,n:!493964,n:502394&bbn=493964&ie=UTF8&qid=1538963894&rnid=493964">
-                                        <span className="title">Camera &amp; Photo</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/us/s/cat/?fst=as:off&rh=n:172282,n:!493964,n:3248684011&bbn=493964&ie=UTF8&qid=1538963894&rnid=493964">
-                                        <span className="title">Car &amp; Vehicle Electronics</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/us/s/cat/?fst=as:off&rh=n:172282,n:!493964,n:2811119011&bbn=493964&ie=UTF8&qid=1538963894&rnid=493964">
-                                        <span className="title">Cell Phones &amp; Accessories</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/us/s/cat/?fst=as:off&rh=n:172282,n:!493964,n:541966&bbn=493964&ie=UTF8&qid=1538963894&rnid=493964">
-                                        <span className="title">Computers &amp; Accessories</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/us/s/cat/?fst=as:off&rh=n:172282,n:!493964,n:2242348011&bbn=493964&ie=UTF8&qid=1538963894&rnid=493964">
-                                        <span className="title">Electronics Warranties</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/us/s/cat/?fst=as:off&rh=n:172282,n:!493964,n:172526&bbn=493964&ie=UTF8&qid=1538963894&rnid=493964">
-                                        <span className="title">GPS, Finders &amp; Accessories</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/us/s/cat/?fst=as:off&rh=n:172282,n:!493964,n:172541&bbn=493964&ie=UTF8&qid=1538963894&rnid=493964">
-                                        <span className="title">Headphones</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/us/s/cat/?fst=as:off&rh=n:172282,n:!493964,n:667846011&bbn=493964&ie=UTF8&qid=1538963894&rnid=493964">
-                                        <span className="title">Home Audio</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/us/s/cat/?fst=as:off&rh=n:172282,n:!493964,n:172574&bbn=493964&ie=UTF8&qid=1538963894&rnid=493964">
-                                        <span className="title">Office Electronics</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/us/s/cat/?fst=as:off&rh=n:172282,n:!493964,n:172623&bbn=493964&ie=UTF8&qid=1538963894&rnid=493964">
-                                        <span className="title">Portable Audio &amp; Video</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/us/s/cat/?fst=as:off&rh=n:172282,n:!493964,n:524136&bbn=493964&ie=UTF8&qid=1538963894&rnid=493964">
-                                        <span className="title">Security &amp; Surveillance</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/us/s/cat/?fst=as:off&rh=n:172282,n:!493964,n:16285901&bbn=493964&ie=UTF8&qid=1538963894&rnid=493964">
-                                        <span className="title">Service Plans</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/us/s/cat/?fst=as:off&rh=n:172282,n:!493964,n:1266092011&bbn=493964&ie=UTF8&qid=1538963894&rnid=493964">
-                                        <span className="title">Television &amp; Video</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/us/s/cat/?fst=as:off&rh=n:172282,n:!493964,n:7926841011&bbn=493964&ie=UTF8&qid=1538963894&rnid=493964">
-                                        <span className="title">Video Game Consoles &amp; Accessories</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/us/s/cat/?fst=as:off&rh=n:172282,n:!493964,n:300334&bbn=493964&ie=UTF8&qid=1538963894&rnid=493964">
-                                        <span className="title">Video Projectors</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/us/s/cat/?fst=as:off&rh=n:172282,n:!493964,n:10048700011&bbn=493964&ie=UTF8&qid=1538963894&rnid=493964">
-                                        <span className="title">Wearable Technology</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/us/s/cat/?fst=as:off&rh=n:172282,n:!493964,n:2642125011&bbn=493964&ie=UTF8&qid=1538963894&rnid=493964">
-                                        <span className="title">eBook Readers &amp; Accessories</span>
-                                    </a>
-                                </li>
-                            </ul>{/* .cate-list */}
-                        </div>{/* .sblock-main */}
-                    </section>{/* .cate-sblock */}
+                                {childCate.map((value, item) => {
+                                    return (
+                                        <li key={item}>
+                                            <a href="/us/s/cat/?fst=as:off&rh=n:172282,n:!493964,n:281407&bbn=493964&ie=UTF8&qid=1538963894&rnid=493964">
+                                                <span className="title">{value.category}</span>
+                                            </a>
+                                        </li>
+                                    )
+                                })}
+                            </ul>
+                        </div>
+                    </section>
                     <section className="filter-sblock is-collapse">
                         <div className="sblock-head">
                             <div className="sblock-title">Amazon Certified</div>
@@ -404,7 +331,8 @@ class CategoryMainLeft extends React.Component {
 }
 function mapStateToProps(state) {
     return {
-        loadAdd: state.loadAdd
+        initLoadCategoryItem: state.initLoadCategoryItem,
+        mouseClickCategory: state.mouseClickCategory
     }
 }
 const connectedHomePage = connect(mapStateToProps)(CategoryMainLeft);

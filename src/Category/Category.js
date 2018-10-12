@@ -17,7 +17,7 @@ class Category extends React.Component {
     render() {
         var obj={};
         obj.nodeid=this.props.match.params.nodeid;
-        obj.categoryindex=this.props.match.categoryindex;
+        obj.categoryindex=this.props.match.params.categoryindex;
         this.props.dispatch(mouseClickCategory(obj));
         return (
             <div>
