@@ -37,7 +37,7 @@ class MenuHideRight extends React.Component {
                     return (
                       <div key={index} className="col-md-4">
                         <ul>
-                          <Link to={`/category/nodeid=${value.nodeid}&categoryindex=${value.categoryindex}`} className="list-tittle">{value.category}</Link>
+                          <Link style={{color:'#212529'}} to={`/category/nodeid=${value.nodeid}&categoryindex=${value.categoryindex}`} className="list-tittle">{value.category}</Link>
                           {initLoadCategoryIndexThird.length > 0 && initLoadCategoryIndexThird[index].map((v, i) => {
                             return (<li key={i}>
                               <Link to={`/category/nodeid=${v.nodeid}&categoryindex=${v.categoryindex}`} className="ml-2 text-dark  list-item">{v.category}</Link>
