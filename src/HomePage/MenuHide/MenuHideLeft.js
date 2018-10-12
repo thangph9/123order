@@ -47,11 +47,11 @@ class MenuHideLeft extends React.Component {
             <div className="container col-md-3 tab">
                 {(newLoadCategory.length > 0) && newLoadCategory.map((value, index) => {
                     return (
-                        <Link to={`/category/nodeid=${value.nodeid}&categoryindex=${value.categoryindex}`} key={index} className="row tablinks pl-4 my-3" onMouseOver={() => this.handleMouseOver(value)}>
-                            <div className="col-10">
+                        <div key={index}  className="row tablinks pl-4 my-3" onMouseOver={() => this.handleMouseOver(value)}>
+                            <Link to={`/category/nodeid=${value.nodeid}&categoryindex=${value.categoryindex}`} className="col-10">
                                 <span>{value.category}</span>
-                            </div>
-                        </Link>
+                            </Link>
+                        </div>
                     )
                 })}
                 <div className="row pl-4">
