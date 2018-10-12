@@ -22,7 +22,7 @@ class CategoryMainLeft extends React.Component {
                 <aside className="container-aside">
                     <section className="cate-sblock">
                         <div className="sblock-head">
-                            <div className="sblock-title">{parentCate.category}</div>
+                            <div className="sblock-title">{parentCate[0].category}</div>
                         </div>{/* .sblock-head */}
                         <div className="sblock-main">
                             <ul className="cate-list" style={{ paddingLeft: 0 }}>
