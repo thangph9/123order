@@ -12,8 +12,8 @@ class Category extends React.Component {
             loading: false,
         }
     }
-
     render() {
+        
         return (
             <div>
                 <Header/>

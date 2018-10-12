@@ -25,10 +25,7 @@ class Header extends React.Component{
         console.log("Hello World")
     }
     componentWillMount(){
-        if(this.props.match!=undefined){
-            console.log(this.props.match.params.nodeid);
-            console.log(this.props.match.params.categoryindex);
-        }
+        
         axios.post('/category').then(res=>{
             var catefirst=res.data[0].filter((item)=>{
                 return item.categoryindex==1;
@@ -45,7 +42,8 @@ class Header extends React.Component{
         })   
     }
     render(){
-        
+        console.log(this.props.match.params.nodeid);
+        console.log(this.props.match.params.categoryindex);
         return (
             <div>
                 <HeaderTop/>
