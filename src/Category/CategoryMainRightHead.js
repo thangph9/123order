@@ -9,6 +9,7 @@ class CategoryMainRightHead extends React.Component {
         }
     }
     render() {
+        var {initLoadCategoryItem} = this.props;
         var parentCate = initLoadCategoryItem.filter((item) => {
             return item.nodeid == mouseClickCategory.nodeid;
         })
