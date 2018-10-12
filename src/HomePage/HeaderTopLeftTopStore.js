@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { MenuHideT } from "./MenuHideT";
+import {mouseOverCategoryFirst} from '../actions';
 //import $ from 'jquery';
 class HeaderTopLeftTopStore extends React.Component{
     constructor(props){
@@ -25,15 +26,6 @@ class HeaderTopLeftTopStore extends React.Component{
 
         })
     }
-    // componentDidMount() {
-    //     $('#navbarDropdownMenuLinkTopStore').on('click', function () {
-    //         $('#menuTopStore').toggleClass("show");
-    //             $('#linkTopStore').toggleClass("show");
-    //             $('#linkAmazon').removeClass("show");
-    //             $('#linkEbay').removeClass("show");
-    //             $('#navbarDropdownMenuLinkTopStore').attr('aria-expanded', 'true');
-    //     })
-    // }
     handleMouseOver(value){
         this.props.dispatch(mouseOverCategoryFirst(value));
     }
