@@ -18,6 +18,8 @@ class MenuHideRight extends React.Component {
   }
   render() {
     var { mouseOver } = this.props;
+    var { LoadCategoryIndexSencond } = this.props;
+    var {initLoadCategoryIndexThird}=this.props;
 
     return (
       <div className="col-md-9">
