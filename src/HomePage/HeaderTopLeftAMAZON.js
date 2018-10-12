@@ -26,13 +26,15 @@ class HeaderTopLeftAMAZON extends React.Component {
         })
     }
     handleMouseOver(value){
-        this.props.dispatch(mouseOverCategoryFirst(value));
+        if(value!=0){
+            this.props.dispatch(mouseOverCategoryFirst(value));
+        }
     }
     render() {
         var {LoadCate}=this.props;
         return (
             <li className="nav-item dropdown" id='menuAmazon'>
-                <Link to="/danh-muc-amazon" className="nav-link text-white" onMouseOver={()=>this.handleMouseOver(LoadCate[9])}>
+                <Link to="/danh-muc-amazon" className="nav-link text-white" onMouseOver={(LoadCate.length>0)?()=>this.handleMouseOver(LoadCate[0]):()=>this.handleMouseOver(0)}>
                     AMAZON
                 </Link>
                 <div className="container dropdown-menu amazon-position menu2-dropdown bg-white" aria-haspopup="true" aria-expanded="false" id='linkAmazon'>
