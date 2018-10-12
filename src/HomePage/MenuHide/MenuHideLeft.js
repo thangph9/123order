@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import { Link } from "react-router-dom";
 import {mouseOverCategory} from '../../actions';
 import {initLoadCategoryIndexSecond} from '../../actions';
 import {initLoadCategoryIndexThird} from '../../actions';
@@ -46,11 +47,11 @@ class MenuHideLeft extends React.Component {
             <div className="container col-md-3 tab">
                 {(newLoadCategory.length > 0) && newLoadCategory.map((value, index) => {
                     return (
-                        <div key={index} className="row tablinks pl-4 my-3" onMouseOver={() => this.handleMouseOver(value)}>
+                        <Link to={`/category/nodeid=${value.nodeid}&categoryindex=${value.categoryindex}`} key={index} className="row tablinks pl-4 my-3" onMouseOver={() => this.handleMouseOver(value)}>
                             <div className="col-10">
                                 <span>{value.category}</span>
                             </div>
-                        </div>
+                        </Link>
                     )
                 })}
                 <div className="row pl-4">
