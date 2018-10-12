@@ -28,7 +28,10 @@ class HeaderTopLeftEBAY extends React.Component {
         })
     }
     handleMouseOver(value){
-        this.props.dispatch(mouseOverCategoryFirst(value));
+
+        if(value!=undefined){
+            this.props.dispatch(mouseOverCategoryFirst(value));
+        }
     }
     render() {
         var {LoadCate}=this.props;
