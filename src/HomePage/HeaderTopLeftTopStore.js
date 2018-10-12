@@ -38,7 +38,7 @@ class HeaderTopLeftTopStore extends React.Component{
         this.props.dispatch(mouseOverCategoryFirst(value));
     }
     render(){
-        
+        var {LoadCate}=this.props;
         return (
             <li className="nav-item dropdown" id="menuTopStore">
                 <Link onMouseOver={()=>this.handleMouseOver(LoadCate[18])}  to="/" className="nav-link dropdown-toggle dropdown-arrow text-white" id="navbarDropdownMenuLinkTopStore" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TOP STORE</Link>
