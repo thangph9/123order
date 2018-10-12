@@ -6,7 +6,7 @@ export function mouseOverImageDetailProduct(state=0,action){
 			return state;
 	}	
 }
-export function mouseOverCategory(state={},action){
+export function mouseOverCategory(state=null,action){
 	switch (action.type) {
 		case 'MOUSE_OVER_CATEGORY':
 		return action.obj;
