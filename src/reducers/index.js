@@ -20,6 +20,8 @@ import {initLoadCategorySecondItem} from './loadInitReducer';
 import {initLoadCategoryThirdItem} from './loadInitReducer';
 import {initLoadCategoryIndexSecond} from './loadInitReducer';
 import {initLoadCategoryIndexThird} from './loadInitReducer';
+import {mouseClickCategory} from './mouseClickReducer';
+import {initLoadCategoryItem} from './loadInitReducer';
 const rootReducer=combineReducers({
     authentication,
     alert,
@@ -41,6 +43,8 @@ const rootReducer=combineReducers({
     initLoadCategoryIndexSecond,
     initLoadCategorySecondItem,
     initLoadCategoryThirdItem,
-    initLoadCategoryIndexThird
+    initLoadCategoryIndexThird,
+    mouseClickCategory,
+    initLoadCategoryItem
 });
 export default rootReducer;

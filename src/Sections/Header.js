@@ -9,6 +9,7 @@ import axios from 'axios';
 import { initLoadCategoryFirstItem} from "../actions";
 import { initLoadCategorySecondItem } from "../actions";
 import {initLoadCategoryThirdItem} from '../actions';
+import {initLoadCategoryItem} from '../actions';
 class Header extends React.Component{
     constructor(props){
         super(props);
@@ -24,8 +25,7 @@ class Header extends React.Component{
         })
         console.log("Hello World")
     }
-    componentWillMount(){
-        
+    componentWillMount(){  
         axios.post('/category').then(res=>{
             var catefirst=res.data[0].filter((item)=>{
                 return item.categoryindex==1;
@@ -39,6 +39,7 @@ class Header extends React.Component{
                 return item.categoryindex==3;
             })            
             this.props.dispatch(initLoadCategoryThirdItem(catethird));
+            this.props.dispatch(initLoadCategoryItem(res.data[0]));
         })   
     }
     render(){

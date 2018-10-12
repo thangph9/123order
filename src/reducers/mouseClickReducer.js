@@ -24,3 +24,11 @@ export function mouseClickSmallImageProduct(state=0,action){
 			return state;
 	}	
 }
+export function mouseClickCategory(state={},action){
+	switch (action.type) {
+		case 'MOUSE_CLICK_CATEGORY':
+		return action.obj;
+		default:
+			return state;
+	}	
+}

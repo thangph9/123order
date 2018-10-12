@@ -91,3 +91,11 @@ export function initLoadCategoryIndexThird(state=[],action){
 			return state;
 	}	
 }
+export function initLoadCategoryItem(state=[],action){
+	switch (action.type) {
+		case 'INIT_LOAD_CATEGORY_ITEM':
+			return action.arrData;
+		default:
+			return state;
+	}	
+}

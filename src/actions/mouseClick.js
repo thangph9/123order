@@ -16,4 +16,10 @@ export const mouseClickSmallImageProduct=(numb)=>{
 		numb
 	}
 }
+export const mouseClickCategory=(obj)=>{
+	return{
+		type: 'MOUSE_CLICK_CATEGORY',
+		obj
+	}
+}
 

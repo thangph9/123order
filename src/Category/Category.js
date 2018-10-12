@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { Header } from "../Sections/Header";
 import { Footer } from "../Sections/Footer";
 import { Content } from "./Content";
-import axios from 'axios';
+import {mouseClickCategory} from "../actions";
 class Category extends React.Component {
     constructor(props) {
         super(props);
@@ -13,11 +13,12 @@ class Category extends React.Component {
         }
     }
     componentWillMount(){
-        
     }
     render() {
-        console.log(this.props.match.params.nodeid);
-            console.log(this.props.match.params.categoryindex);
+        var obj={};
+        obj.nodeid=this.props.match.params.nodeid;
+        obj.categoryindex=this.props.match.categoryindex;
+        this.props.dispatch(mouseClickCategory(obj));
         return (
             <div>
                 <Header/>
