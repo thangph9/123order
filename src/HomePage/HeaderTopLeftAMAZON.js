@@ -31,7 +31,7 @@ class HeaderTopLeftAMAZON extends React.Component {
         var {LoadCate}=this.props;
         return (
             <li className="nav-item dropdown" id='menuAmazon'>
-                <Link to="/danh-muc-amazon" className="nav-link text-white" onMouseOver={()=>this.handleMouseOver(LoadCate[0])}>
+                <Link to="/danh-muc-amazon" className="nav-link text-white" onMouseOver={()=>this.handleMouseOver(LoadCate[9])}>
                     AMAZON
                 </Link>
                 <div className="container dropdown-menu amazon-position menu2-dropdown bg-white" aria-haspopup="true" aria-expanded="false" id='linkAmazon'>
@@ -45,7 +45,9 @@ class HeaderTopLeftAMAZON extends React.Component {
 }
 function mapStateToProps(state) {
 
-    return state;
+    return {
+        LoadCate:state.initLoadCategoryFirstItem
+    }
 }
 const connected = connect(mapStateToProps)(HeaderTopLeftAMAZON);
 export { connected as HeaderTopLeftAMAZON } 
