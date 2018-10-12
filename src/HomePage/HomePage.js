@@ -3,7 +3,7 @@ import React from "react";
 //import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 //import { ProductItemBox } from "./ProductItemBox";
-import { Header } from "./Header";
+import {Header} from '../Sections/Header';
 import { Content } from "./Content";
 import { Footer } from "../Sections/Footer";
 //import {initLoadHomePage} from '../actions';
