@@ -29,7 +29,7 @@ class HeaderTopLeftEBAY extends React.Component {
     }
     handleMouseOver(value){
 
-        if(value.length>0){
+        if(value!=0){
             this.props.dispatch(mouseOverCategoryFirst(value));
         }
     }
@@ -37,7 +37,7 @@ class HeaderTopLeftEBAY extends React.Component {
         var {LoadCate}=this.props;
         return (
             <li className="nav-item dropdown" id='menuEbay'  >
-                <Link to="/danh-muc-ebay" className='nav-link text-white' onMouseOver={(LoadCate.length>0)?()=>this.handleMouseOver(LoadCate[0]):""}>
+                <Link to="/danh-muc-ebay" className='nav-link text-white' onMouseOver={(LoadCate.length>0)?()=>this.handleMouseOver(LoadCate[0]):()=>this.handleMouseOver(0)}>
                     EBAY
                 </Link>
                 <div className="container dropdown-menu ebay-position menu2-dropdown bg-white" aria-haspopup="true" aria-expanded="false" id='linkEbay'>
