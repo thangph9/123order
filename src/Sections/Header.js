@@ -42,10 +42,6 @@ class Header extends React.Component{
         })   
     }
     render(){
-        if(this.props.match!=undefined){
-            console.log(this.props.match.params.nodeid);
-        console.log(this.props.match.params.categoryindex);
-        }
         return (
             <div>
                 <HeaderTop/>
