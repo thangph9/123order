@@ -1,6 +1,8 @@
 import React from "react";
 import { connect } from "react-redux";
 import {mouseOverCategory} from '../../actions';
+import {initLoadCategoryIndexSecond} from '../../actions';
+import {initLoadCategoryIndexThird} from '../../actions';
 class MenuHideLeft extends React.Component {
     constructor(props) {
         super(props);
@@ -13,7 +15,20 @@ class MenuHideLeft extends React.Component {
     }
     handleMouseOver(value){
         this.props.dispatch(mouseOverCategory(value));
-        console.log(value);
+        var {initLoadCategorySecondItem}=this.props;
+        var {initLoadCategoryThirdItem}=this.props;
+        var categoryScecond=initLoadCategorySecondItem.filter((item)=>{
+            return item.categoryindex==2&&item.groupid==value.nodeid
+        })
+        this.props.dispatch(initLoadCategoryIndexSecond(categoryScecond))
+        var mapCate=categoryScecond.map((value,index)=>{
+            return (
+                initLoadCategoryThirdItem.filter((item)=>{
+                    return item.categoryindex==3&&item.groupid==value.nodeid
+                })
+            )
+        })
+        this.props.dispatch(initLoadCategoryIndexThird(mapCate))
     }
     handleSubmit() {
         this.setState({
@@ -62,7 +77,8 @@ function mapStateToProps(state) {
         loadImg: state.loadImg,
         LoadCategory: state.initLoadCategoryFirstItem,
         LoadCategoryIndexSencond: state.initLoadCategoryIndexSecond,
-        initLoadCategorySecondItem:state.initLoadCategorySecondItem
+        initLoadCategorySecondItem:state.initLoadCategorySecondItem,
+        initLoadCategoryThirdItem:state.initLoadCategoryThirdItem
     }
 }
 const connected = connect(mapStateToProps)(MenuHideLeft);

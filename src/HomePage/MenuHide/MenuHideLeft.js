@@ -22,7 +22,6 @@ class MenuHideLeft extends React.Component {
         })
         this.props.dispatch(initLoadCategoryIndexSecond(categoryScecond))
         var mapCate=categoryScecond.map((value,index)=>{
-            console.log(value);
             return (
                 initLoadCategoryThirdItem.filter((item)=>{
                     return item.categoryindex==3&&item.groupid==value.nodeid
@@ -71,7 +70,7 @@ class MenuHideLeft extends React.Component {
 
     }
 }
-import { format } from "util";
+
 function mapStateToProps(state) {
     return {
         loadImg: state.loadImg,
