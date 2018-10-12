@@ -10,6 +10,7 @@ class CategoryMainRightHead extends React.Component {
     }
     render() {
         var {initLoadCategoryItem} = this.props;
+        var { mouseClickCategory} = this.props;
         var parentCate = initLoadCategoryItem.filter((item) => {
             return item.nodeid == mouseClickCategory.nodeid;
         })
@@ -137,6 +138,7 @@ class CategoryMainRightHead extends React.Component {
 function mapStateToProps(state) {
     return {
         initLoadCategoryItem: state.initLoadCategoryItem,
+        mouseClickCategory: state.mouseClickCategory
     }
 }
 const connectedHomePage = connect(mapStateToProps)(CategoryMainRightHead);
