@@ -34,12 +34,14 @@ class HeaderTopLeftTopStore extends React.Component{
     //             $('#navbarDropdownMenuLinkTopStore').attr('aria-expanded', 'true');
     //     })
     // }
-    
+    handleMouseOver(value){
+        this.props.dispatch(mouseOverCategoryFirst(value));
+    }
     render(){
         
         return (
             <li className="nav-item dropdown" id="menuTopStore">
-                <Link to="/" className="nav-link dropdown-toggle dropdown-arrow text-white" id="navbarDropdownMenuLinkTopStore" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TOP STORE</Link>
+                <Link onMouseOver={()=>this.handleMouseOver(LoadCate[18])}  to="/" className="nav-link dropdown-toggle dropdown-arrow text-white" id="navbarDropdownMenuLinkTopStore" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TOP STORE</Link>
                 <div className="container dropdown-menu top-sore-position menu2-dropdown bg-white" aria-haspopup="true" aria-expanded="false" id="linkTopStore">
                 <MenuHideT/>
                 </div>
