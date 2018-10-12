@@ -13,11 +13,11 @@ class Category extends React.Component {
         }
     }
     componentWillMount(){
-        console.log(this.props.match.params.nodeid);
-            console.log(this.props.match.params.categoryindex);
+        
     }
     render() {
-        
+        console.log(this.props.match.params.nodeid);
+            console.log(this.props.match.params.categoryindex);
         return (
             <div>
                 <Header/>
