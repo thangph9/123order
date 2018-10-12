@@ -26,7 +26,7 @@ class CategoryMainLeft extends React.Component {
                             <div className="sblock-title">{parentCate[0].category}</div>
                         </div>{/* .sblock-head */}
                         <div className="sblock-main">
-                            <ul className="cate-list" style={{ paddingLeft: 0 }}>
+                            <ul className={(childCate.length==0)?'':"cate-list"} style={{ paddingLeft: 0 }}>
                                 {childCate.map((value, item) => {
                                     return (
                                         <li key={item}>
