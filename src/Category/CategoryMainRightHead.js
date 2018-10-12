@@ -9,12 +9,15 @@ class CategoryMainRightHead extends React.Component {
         }
     }
     render() {
+        var parentCate = initLoadCategoryItem.filter((item) => {
+            return item.nodeid == mouseClickCategory.nodeid;
+        })
         return (
             <div className="block-head">
                 <div className="title-segment">
                     <div className="col-1">
                         <div className="block-title">
-                            Electronics                                <span className="sub-desc">/ Tìm thấy 91,012 sản phẩm tại Fado.vn</span>
+                        {(parentCate.length>0)&&parentCate[0].category}<span className="sub-desc">/ Tìm thấy 91,012 sản phẩm tại Fado.vn</span>
                         </div>
                     </div>
                     <div className="col-2">
@@ -132,7 +135,7 @@ class CategoryMainRightHead extends React.Component {
 }
 function mapStateToProps(state) {
     return {
-        loadAdd: state.loadAdd
+        initLoadCategoryItem: state.initLoadCategoryItem,
     }
 }
 const connectedHomePage = connect(mapStateToProps)(CategoryMainRightHead);
