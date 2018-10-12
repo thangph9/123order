@@ -60,7 +60,7 @@ class App extends Component{
                         <Route exact path="/hot-deal-cong-nghe" component={HotDealCongNghe} />
                         <Route exact path="/landing-page" component={LandingPage} />
                         <Route exact path="/price" component={Price} />
-                        <Route exact path="/category" component={Category} />
+                        <Route exact path="/category/nodeid=:nodeid" component={Category} />
                         <Route exact path="/product-detail/*.:dealid" component={ProductDetail} />
                     </Switch>
 
