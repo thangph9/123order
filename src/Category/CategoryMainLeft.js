@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import { Link } from "react-router-dom";
 class CategoryMainLeft extends React.Component {
     constructor(props) {
         super(props);
@@ -29,9 +30,9 @@ class CategoryMainLeft extends React.Component {
                                 {childCate.map((value, item) => {
                                     return (
                                         <li key={item}>
-                                            <a href="/us/s/cat/?fst=as:off&rh=n:172282,n:!493964,n:281407&bbn=493964&ie=UTF8&qid=1538963894&rnid=493964">
+                                            <Link style={{color:'#333'}} to={`/category/nodeid=${value.nodeid}&categoryindex=${value.categoryindex}`}>
                                                 <span className="title">{value.category}</span>
-                                            </a>
+                                            </Link>
                                         </li>
                                     )
                                 })}
