@@ -10,7 +10,7 @@ class CategoryMainRightHead extends React.Component {
     }
     summaryCategory(nodeid,categoryindex){
         var childCate=this.props.initLoadCategoryItem.filter((item)=>{
-            return item.groupid=nodeid&&item.categoryindex == categoryindex + 1;
+            return item.groupid==nodeid&&item.categoryindex == categoryindex + 1;
         })
         console.log(childCate);
         if(childCate.length>0){
