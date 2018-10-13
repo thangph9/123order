@@ -15,7 +15,7 @@ class CategoryMainRightHead extends React.Component {
         console.log(childCate);
         if(childCate.length>0){
             childCate.forEach((value,index)=>{
-                summaryCategory(value.groupid,value.categoryindex+1)
+                this.summaryCategory(value.groupid,value.categoryindex+1)
             })
         }
     }
