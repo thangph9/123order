@@ -8,14 +8,40 @@ class CategoryMainRightBody extends React.Component {
             loading: false,
         }
     }
+    summaryCategory(nodeid,categoryindex,arr){
+        
+        var childCate=this.props.initLoadCategoryItem.filter((item)=>{
+            return item.groupid==nodeid&&item.categoryindex == categoryindex + 1;
+        })
+        
+        if(childCate.length>0){
+            childCate.forEach((value,index)=>{
+                arr.push(value.nodeid)
+                this.summaryCategory(value.nodeid,value.categoryindex)
+            })
+        }
+
+        return arr;
+    }
     render() {
-        var { initLoadCategoryProducts } = this.props
+        var { initLoadCategoryProducts } = this.props;
+        var {mouseClickCategory} = this.props;
+        var categoryindex=Number(mouseClickCategory.categoryindex);
+        var arr=[];
+        var newarr =this.summaryCategory(mouseClickCategory.nodeid,categoryindex,arr);
+        var newinitLoadCategoryProducts=initLoadCategoryProducts.filter((value,index)=>{
+            return(
+                newarr.forEach(item=>{
+                   value.nodeid==item.nodeid 
+                })
+            )
+        })
         return (
             <div className="block-main">
                 <div className="wrap-product-col-v2">
-                    {(initLoadCategoryProducts.length>0)&&initLoadCategoryProducts.map((value,index)=>{
+                    {(initLoadCategoryProducts.length>0)&&newinitLoadCategoryProducts.map((value,index)=>{
                         return(
-                            <div key={index} className="product-col">
+                            <div key={index} className="product-col" onMouseOver={}>
                         <div className="panel-product-v2 js-get-product-to-asin-us is-checked" id="panel-product" data-asin="B00ZV9RDKK">
                             <div className="panel-inner" temprop="item" itemScope="itemscope" itemType="http://schema.org/Product">
                                 <a className="img-pane href" itemProp="url" href="/us/fire-tv-stick-with-alexa-voice-remote-1st-gen-streaming-media-player-B00ZV9RDKK.html">
@@ -55,7 +81,9 @@ class CategoryMainRightBody extends React.Component {
 function mapStateToProps(state) {
     return {
         loadAdd: state.loadAdd,
-        initLoadCategoryProducts: state.initLoadCategoryProducts
+        initLoadCategoryProducts: state.initLoadCategoryProducts,
+        mouseClickCategory: state.mouseClickCategory,
+        initLoadCategoryItem: state.initLoadCategoryItem,
     }
 }
 const connectedHomePage = connect(mapStateToProps)(CategoryMainRightBody);
