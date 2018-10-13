@@ -35,7 +35,7 @@ class CategoryMainRightBody extends React.Component {
                 var newProduct=initLoadCategoryProducts.filter(item=>{
                     return item.nodeid==newarr[i]
                 })
-                if(newProduct.length>0) arrNewCate.push(newProduct)
+                if(newProduct.length>0) arrNewCate.concat(newProduct)
             }
             console.log(arrNewCate);
         }
