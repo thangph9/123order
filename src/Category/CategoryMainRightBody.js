@@ -29,6 +29,7 @@ class CategoryMainRightBody extends React.Component {
         var categoryindex=Number(mouseClickCategory.categoryindex);
         var arr=[];
         var newarr =this.summaryCategory(mouseClickCategory.nodeid,categoryindex,arr);
+        console.log(newarr);
         var newinitLoadCategoryProducts=initLoadCategoryProducts.filter((value,index)=>{
             for(var i=0;i<newarr.length;i++){
                 if(value.nodeid==newarr[i].nodeid){
@@ -36,7 +37,7 @@ class CategoryMainRightBody extends React.Component {
                 }
             }
         })
-
+        console.log(newinitLoadCategoryProducts);
         return (
             <div className="block-main">
                 <div className="wrap-product-col-v2">
