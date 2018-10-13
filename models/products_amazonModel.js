@@ -5,12 +5,10 @@ module.exports={
         category:'text',
         death_clock:"text",
         img:"text",
-        link:"text",
         nodeid:'text',
         price:"text",
         reviews:'text',
         sale:"text",
-        smid:'text',
         star:'text',
         timestamp: {
             type: "timestamp",

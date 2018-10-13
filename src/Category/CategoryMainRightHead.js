@@ -25,7 +25,7 @@ class CategoryMainRightHead extends React.Component {
             number=number+1;
         }
         console.log(number)
-        return number;
+        
     }
     render() {
         var {initLoadCategoryItem} = this.props;
