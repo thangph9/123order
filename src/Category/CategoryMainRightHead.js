@@ -16,7 +16,7 @@ class CategoryMainRightHead extends React.Component {
         })
         if(parentCate.length>0){
             let childCate=initLoadCategoryItem.filter((item)=>{
-                return item.groupid==mouseClickCategory.nodeid
+                return item.groupid==mouseClickCategory.nodeid&&item.categoryindex == (Number(mouseClickCategory.categoryindex) + 1);
             })
             console.log(childCate);
         }      
