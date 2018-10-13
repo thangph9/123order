@@ -55,13 +55,13 @@ class App extends Component{
                         <Route exact path="/mua-hang-ebay" component={MuaHangEbay} />
                         <Route exact path="/gia-soc-moi-ngay" component={GiaSocMoiNgay} />
                         <Route exact path="/mua-hang-amazon" component={MuaHangAmazon} />
-                        <Route exact path="/detail-product/*.:dealid:thang" component={DetailProduct} />
+                        <Route exact path="/detail-product/*.:dealid" component={DetailProduct} />
                         <Route exact path="/best-seller" component={BestSeller} />
                         <Route exact path="/hot-deal-cong-nghe" component={HotDealCongNghe} />
                         <Route exact path="/landing-page" component={LandingPage} />
                         <Route exact path="/price" component={Price} />
                         <Route exact path="/category/nodeid=:nodeid&categoryindex=:categoryindex" component={Category} />
-                        <Route exact path="/product-detail/*.:dealid" component={ProductDetail} />
+                        <Route exact path="/product-detail/*.:dealid:thang" component={ProductDetail} />
                     </Switch>
 
                     </div>
