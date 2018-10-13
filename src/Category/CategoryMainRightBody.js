@@ -41,7 +41,7 @@ class CategoryMainRightBody extends React.Component {
                 <div className="wrap-product-col-v2">
                     {(initLoadCategoryProducts.length>0)&&newinitLoadCategoryProducts.map((value,index)=>{
                         return(
-                            <div key={index} className="product-col" onMouseOver={}>
+                            <div key={index} className="product-col">
                         <div className="panel-product-v2 js-get-product-to-asin-us is-checked" id="panel-product" data-asin="B00ZV9RDKK">
                             <div className="panel-inner" temprop="item" itemScope="itemscope" itemType="http://schema.org/Product">
                                 <a className="img-pane href" itemProp="url" href="/us/fire-tv-stick-with-alexa-voice-remote-1st-gen-streaming-media-player-B00ZV9RDKK.html">
