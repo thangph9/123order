@@ -30,7 +30,7 @@ class CategoryMainRightBody extends React.Component {
         var newarr =this.summaryCategory(mouseClickCategory.nodeid,categoryindex,arr);
         console.log(newarr);
         
-        console.log(newinitLoadCategoryProducts);
+
         return (
             <div className="block-main">
                 <div className="wrap-product-col-v2">
