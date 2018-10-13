@@ -22,7 +22,7 @@ class CategoryMainRightHead extends React.Component {
         }
         if(childCate==0){
             var parentCategory=this.props.initLoadCategoryItem.filter((item)=>{
-                return item.nodeid==nodeid&&item.categoryindex == categoryindex - 1;
+                return item.nodeid==nodeid&&item.categoryindex == categoryindex;
             })
             console.log('Day la thang cha cua thang khong co con:');
             console.log(parentCategory)
