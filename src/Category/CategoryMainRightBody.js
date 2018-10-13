@@ -17,7 +17,7 @@ class CategoryMainRightBody extends React.Component {
         if(childCate.length>0){
             childCate.forEach((value,index)=>{
                 arr.push(value.nodeid)
-                this.summaryCategory(value.nodeid,value.categoryindex)
+                this.summaryCategory(value.nodeid,value.categoryindex,arr)
             })
         }
 
