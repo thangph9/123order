@@ -8,17 +8,26 @@ class CategoryMainRightHead extends React.Component {
             loading: false,
         }
     }
+    summaryCategory(nodeid,categoryindex){
+        var childCate=initLoadCategoryItem.filter((item)=>{
+            return item.groupid=nodeid&&item.categoryindex == categoryindex + 1;
+        })
+        console.log(childCate);
+        if(childCate.length>0){
+            childCate.forEach((value,index)=>{
+                summaryCategory(value.groupid,value.categoryindex+1)
+            })
+        }
+    }
     render() {
         var {initLoadCategoryItem} = this.props;
         var { mouseClickCategory} = this.props;
+        var categoryindex=Number(mouseClickCategory.categoryindex);
         var parentCate = initLoadCategoryItem.filter((item) => {
             return item.nodeid == mouseClickCategory.nodeid;
         })
         if(parentCate.length>0){
-            let childCate=initLoadCategoryItem.filter((item)=>{
-                return item.groupid==mouseClickCategory.nodeid&&item.categoryindex == (Number(mouseClickCategory.categoryindex) + 1);
-            })
-            console.log(childCate);
+            this.summaryCategory(mouseClickCategory.nodeid,categoryindex)
         }      
         return (
             <div className="block-head">
