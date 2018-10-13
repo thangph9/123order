@@ -23,7 +23,7 @@ class CategoryMainRightHead extends React.Component {
         if(childCate==0){
             num=num+1;
         }
-        console.log(number)
+        console.log(num)
         
     }
     render() {
