@@ -22,7 +22,7 @@ class CategoryMainRightHead extends React.Component {
             })
         }
         
-        console.log(arr);
+        return arr;
     }
     render() {
         var {initLoadCategoryItem} = this.props;
@@ -32,7 +32,8 @@ class CategoryMainRightHead extends React.Component {
             return item.nodeid == mouseClickCategory.nodeid;
         })
         var arr=[];
-        this.summaryCategory(mouseClickCategory.nodeid,categoryindex,arr);
+        var newarr=this.summaryCategory(mouseClickCategory.nodeid,categoryindex,arr);
+        console.log(newarr);
         return (
             <div className="block-head">
                 <div className="title-segment">
