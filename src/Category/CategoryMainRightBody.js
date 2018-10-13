@@ -34,7 +34,7 @@ class CategoryMainRightBody extends React.Component {
         return (
             <div className="block-main">
                 <div className="wrap-product-col-v2">
-                    {(initLoadCategoryProducts.length>0)&&newinitLoadCategoryProducts.map((value,index)=>{
+                    {(initLoadCategoryProducts.length>0)&&initLoadCategoryProducts.map((value,index)=>{
                         return(
                             <div key={index} className="product-col">
                         <div className="panel-product-v2 js-get-product-to-asin-us is-checked" id="panel-product" data-asin="B00ZV9RDKK">
