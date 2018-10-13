@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import {showSummaryProductByCategory} from '../actions';
 class CategoryMainRightBody extends React.Component {
     constructor(props) {
         super(props);
@@ -28,7 +29,6 @@ class CategoryMainRightBody extends React.Component {
         var categoryindex=Number(mouseClickCategory.categoryindex);
         var arr=[];
         var newarr =this.summaryCategory(mouseClickCategory.nodeid,categoryindex,arr);
-        console.log(newarr);
         var arrNewCate=[];
         if(initLoadCategoryProducts.length>0){
             for(var i=0;i<newarr.length;i++){
@@ -41,9 +41,8 @@ class CategoryMainRightBody extends React.Component {
                     })
                 }
             }
-            console.log(arrNewCate);
         }
-        
+        this.props.dispatch(showSummaryProductByCategory(arrNewCate.length));
         return (
             <div className="block-main">
                 <div className="wrap-product-col-v2">

@@ -22,4 +22,11 @@ export const mouseClickCategory=(obj)=>{
 		obj
 	}
 }
+export const showSummaryProductByCategory=(numb)=>{
+	return{
+		type: 'SHOW_SUMMARY_PRODUCT_BY_CATEGORY',
+		numb
+	}
+}
+
 

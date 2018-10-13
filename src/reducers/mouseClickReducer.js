@@ -32,3 +32,11 @@ export function mouseClickCategory(state={},action){
 			return state;
 	}	
 }
+export function showSummaryProductByCategory(state=0,num){
+	switch (action.type) {
+		case 'SHOW_SUMMARY_PRODUCT_BY_CATEGORY':
+		return action.num;
+		default:
+			return state;
+	}	
+}
