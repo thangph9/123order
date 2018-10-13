@@ -9,25 +9,21 @@ class CategoryMainRightHead extends React.Component {
         }
     }
     summaryCategory(nodeid,categoryindex){
-        var num=0;
+        var arr=[];
         var childCate=this.props.initLoadCategoryItem.filter((item)=>{
             return item.groupid==nodeid&&item.categoryindex == categoryindex + 1;
         })
         
         if(childCate.length>0){
             //console.log(childCate);
-
             childCate.forEach((value,index)=>{
-                console.log(value.nodeid);
+                //console.log(value.nodeid);
+                arr.push(value.nodeid);
                 this.summaryCategory(value.nodeid,value.categoryindex)
             })
         }
-        if(childCate==0){
-            var parentCategory=this.props.initLoadCategoryItem.filter((item)=>{
-                return item.nodeid==nodeid&&item.categoryindex == categoryindex;
-            })
-        }
         
+        console.log(arr);
     }
     render() {
         var {initLoadCategoryItem} = this.props;
