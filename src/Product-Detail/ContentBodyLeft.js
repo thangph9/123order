@@ -24,8 +24,8 @@ class ContentBodyLeft extends React.Component {
     }
     selectStyle(valueScroll) {
         if (valueScroll < 371) return 'product-img-block beginProduct';
-        else if (valueScroll >= 371 && valueScroll < 2900) return 'product-img-block fixedProduct';
-        else if (valueScroll >= 2900) return 'product-img-block endProduct';
+        else if (valueScroll >= 371 && valueScroll < 3000) return 'product-img-block fixedProduct';
+        else if (valueScroll >= 3000) return 'product-img-block endProduct';
     }
     render() {
         var { loadDetail } = this.props;
