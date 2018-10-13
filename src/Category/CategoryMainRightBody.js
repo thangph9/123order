@@ -58,8 +58,8 @@ class CategoryMainRightBody extends React.Component {
                                         </a>{/* .img-pane */}
                                         <div className="meta-pane">
                                             <div className="col-1">
-                                                <div className="star-rating" style={{ fontSize: '12px', position: 'static' }}>
-                                                    <div className="back-stars" style={{ top: '4px' }}>
+                                                <div className="star-rating" style={{ fontSize: '13px', position: 'static' }}>
+                                                    <div className="back-stars" style={{ top: '0px',left:'20px' }}>
                                                         <i className="fa fa-star" aria-hidden="true"></i>
                                                         <i className="fa fa-star" aria-hidden="true"></i>
                                                         <i className="fa fa-star" aria-hidden="true"></i>
