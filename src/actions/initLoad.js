@@ -64,3 +64,9 @@ export const initLoadCategoryItem=(arrData)=>{
 		arrData
 	}
 }
+export const initLoadCategoryProducts=(arrData)=>{
+	return{
+		type: 'INIT_LOAD_CATEGORY_PRODUCTS',
+		arrData
+	}
+}

@@ -4,6 +4,8 @@ import { Header } from "../Sections/Header";
 import { Footer } from "../Sections/Footer";
 import { Content } from "./Content";
 import {mouseClickCategory} from "../actions";
+import {initLoadCategoryProducts} from  '../actions';
+import axios from 'axios';
 class Category extends React.Component {
     constructor(props) {
         super(props);
@@ -12,7 +14,10 @@ class Category extends React.Component {
             loading: false,
         }
     }
-    componentWillMount(){
+    componentWillMount(){  
+        axios.post('/category').then(res=>{
+            this.props.dispatch(initLoadCategoryProducts(res.data[1]))
+        })   
     }
     render() {
         var obj={};

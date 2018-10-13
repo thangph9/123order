@@ -99,3 +99,11 @@ export function initLoadCategoryItem(state=[],action){
 			return state;
 	}	
 }
+export function initLoadCategoryProducts(state=[],action){
+	switch (action.type) {
+		case 'INIT_LOAD_CATEGORY_PRODUCTS':
+			return action.arrData;
+		default:
+			return state;
+	}	
+}

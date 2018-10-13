@@ -199,8 +199,6 @@ app.post("/home", jsonParser, function (req, res) {
 })
 
 app.post("/category", jsonParser, function (req, res) {
-  var objCategorySecond = {};
-  var arrCategoryThird=[];
   async.series([
     (callback) => {
       models.instance.category.find({}, { raw: true, allow_filtering: true }, function (err, result) {
@@ -215,27 +213,28 @@ app.post("/category", jsonParser, function (req, res) {
         callback(err, arr);
       })
    },
-    // (callback) => {
-    //   var query = {};
-    //   if (req.body.itemCate != undefined) {
-    //     query = { categoryindex: 2, groupid: req.body.itemCate.nodeid };
-    //   }
-    //   else {
-    //     query = { categoryindex: 2 }
-    //   }
-    //   models.instance.category.find(query, { raw: true, allow_filtering: true }, function (err, result) {
-    //     var arr = result.map(item => {
-    //       return obj = {
-    //         nodeid: item.nodeid,
-    //         category: item.category,
-    //         categoryindex: item.categoryindex,
-    //         groupid: item.groupid
-    //       }
-    //     })
-    //     objCategorySecond.listCate=arr;
-    //     callback(err, arr);
-    //   })
-    // },
+   (callback)=>{
+     models.instance.products_amazon.find({},function(err,result){
+       var arr =result.map(item=>{
+         return obj={
+           asin:item.asin,
+           base_price:item.base_price,
+           category:item.category,
+           death_clock:item.death_clock,
+           img:item.img,
+           nodeid:item.nodeid,
+           price:item.price,
+           reviews:item.reviews,
+           sale:item.sale,
+           star:item.star,
+           timestamp:item.timestamp+"",
+           title:item.title,
+           type:item.type
+         }  
+       })
+       callback(err,arr)
+     })
+   }
   ], (err, result) => {
 
     if (err) console.log(err);
