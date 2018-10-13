@@ -25,9 +25,9 @@ class CategoryMainRightHead extends React.Component {
             var parentCategory=this.props.initLoadCategoryItem.filter((item)=>{
                 return item.nodeid==nodeid&&item.categoryindex == categoryindex;
             })
-            
+            num=num+parentCategory.length;
         }
-        return num=num+parentCategory.length;
+        return num;
         
     }
     render() {
