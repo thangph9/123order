@@ -32,10 +32,10 @@ export function mouseClickCategory(state={},action){
 			return state;
 	}	
 }
-export function showSummaryProductByCategory(state=0,num){
+export function showSummaryProductByCategory(state=0,action){
 	switch (action.type) {
 		case 'SHOW_SUMMARY_PRODUCT_BY_CATEGORY':
-		return action.num;
+		return action.numb;
 		default:
 			return state;
 	}	
