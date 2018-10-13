@@ -15,9 +15,10 @@ class CategoryMainRightHead extends React.Component {
         })
         
         if(childCate.length>0){
-            console.log(childCate);
+            //console.log(childCate);
 
             childCate.forEach((value,index)=>{
+                console.log(v.nodeid);
                 this.summaryCategory(value.nodeid,value.categoryindex)
             })
         }
@@ -25,9 +26,7 @@ class CategoryMainRightHead extends React.Component {
             var parentCategory=this.props.initLoadCategoryItem.filter((item)=>{
                 return item.nodeid==nodeid&&item.categoryindex == categoryindex;
             })
-            num=num+parentCategory.length;
         }
-        return num;
         
     }
     render() {
@@ -37,8 +36,7 @@ class CategoryMainRightHead extends React.Component {
         var parentCate = initLoadCategoryItem.filter((item) => {
             return item.nodeid == mouseClickCategory.nodeid;
         })
-        var num=this.summaryCategory(mouseClickCategory.nodeid,categoryindex);
-        console.log(num);
+        this.summaryCategory(mouseClickCategory.nodeid,categoryindex);
         return (
             <div className="block-head">
                 <div className="title-segment">
