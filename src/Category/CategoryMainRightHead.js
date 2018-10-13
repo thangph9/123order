@@ -18,7 +18,7 @@ class CategoryMainRightHead extends React.Component {
             //console.log(childCate);
 
             childCate.forEach((value,index)=>{
-                console.log(v.nodeid);
+                console.log(value.nodeid);
                 this.summaryCategory(value.nodeid,value.categoryindex)
             })
         }
