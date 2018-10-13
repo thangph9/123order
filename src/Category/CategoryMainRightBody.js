@@ -29,12 +29,17 @@ class CategoryMainRightBody extends React.Component {
         var arr=[];
         var newarr =this.summaryCategory(mouseClickCategory.nodeid,categoryindex,arr);
         console.log(newarr);
-        
-
+        var arrNewCate=[];
+        for(var i=0;i<newarr.length;i++){
+            var newProduct=initLoadCategoryProducts.filter(item=>{
+                return item.nodeid==newarr[i]
+            })
+            if(newProduct.length>0) arrNewCate.push(newProduct)
+        }
         return (
             <div className="block-main">
                 <div className="wrap-product-col-v2">
-                    {(initLoadCategoryProducts.length>0)&&initLoadCategoryProducts.map((value,index)=>{
+                    {(initLoadCategoryProducts.length>0)&&arrNewCate.map((value,index)=>{
                         return(
                             <div key={index} className="product-col">
                         <div className="panel-product-v2 js-get-product-to-asin-us is-checked" id="panel-product" data-asin="B00ZV9RDKK">
