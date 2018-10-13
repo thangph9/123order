@@ -13,14 +13,13 @@ class CategoryMainRightBody extends React.Component {
         var childCate=this.props.initLoadCategoryItem.filter((item)=>{
             return item.groupid==nodeid&&item.categoryindex == categoryindex + 1;
         })
-        
+        arr.push(nodeid);
         if(childCate.length>0){
             childCate.forEach((value,index)=>{
-                arr.push(value.nodeid)
+                
                 this.summaryCategory(value.nodeid,value.categoryindex,arr)
             })
         }
-
         return arr;
     }
     render() {
@@ -30,13 +29,7 @@ class CategoryMainRightBody extends React.Component {
         var arr=[];
         var newarr =this.summaryCategory(mouseClickCategory.nodeid,categoryindex,arr);
         console.log(newarr);
-        var newinitLoadCategoryProducts=initLoadCategoryProducts.filter((value,index)=>{
-            for(var i=0;i<newarr.length;i++){
-                if(value.nodeid==newarr[i].nodeid){
-                    return value.nodeid==newarr[i].nodeid;
-                }
-            }
-        })
+        
         console.log(newinitLoadCategoryProducts);
         return (
             <div className="block-main">
