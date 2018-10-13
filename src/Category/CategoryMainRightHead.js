@@ -19,6 +19,7 @@ class CategoryMainRightHead extends React.Component {
                 this.summaryCategory(value.nodeid,value.categoryindex)
             })
         }
+        else return;
     }
     render() {
         var {initLoadCategoryItem} = this.props;
@@ -27,9 +28,7 @@ class CategoryMainRightHead extends React.Component {
         var parentCate = initLoadCategoryItem.filter((item) => {
             return item.nodeid == mouseClickCategory.nodeid;
         })
-        if(parentCate.length>0){
-            this.summaryCategory(mouseClickCategory.nodeid,categoryindex)
-        }      
+        this.summaryCategory(mouseClickCategory.nodeid,categoryindex)    
         return (
             <div className="block-head">
                 <div className="title-segment">
