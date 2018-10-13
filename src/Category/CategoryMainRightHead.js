@@ -20,7 +20,7 @@ class CategoryMainRightHead extends React.Component {
                 <div className="title-segment">
                     <div className="col-1">
                         <div className="block-title">
-                        {(parentCate.length>0)&&parentCate[0].category}<span className="sub-desc">/ Tìm thấy {showSummaryProductByCategory}  sản phẩm tại Fado.vn</span>
+                        {(parentCate.length>0)&&parentCate[0].category}<span className="sub-desc">/ Tìm thấy {showSummaryProductByCategory}  sản phẩm tại 123order.vn</span>
                         </div>
                     </div>
                     <div className="col-2">
