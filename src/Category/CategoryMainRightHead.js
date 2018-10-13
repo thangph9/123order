@@ -8,8 +8,7 @@ class CategoryMainRightHead extends React.Component {
             loading: false,
         }
     }
-    summaryCategory(nodeid,categoryindex){
-        var number =0;
+    summaryCategory(nodeid,categoryindex,num){
         var childCate=this.props.initLoadCategoryItem.filter((item)=>{
             return item.groupid==nodeid&&item.categoryindex == categoryindex + 1;
         })
@@ -18,11 +17,11 @@ class CategoryMainRightHead extends React.Component {
             console.log(childCate);
 
             childCate.forEach((value,index)=>{
-                this.summaryCategory(value.nodeid,value.categoryindex)
+                this.summaryCategory(value.nodeid,value.categoryindex,num)
             })
         }
         if(childCate==0){
-            number=number+1;
+            num=num+1;
         }
         console.log(number)
         
@@ -34,8 +33,9 @@ class CategoryMainRightHead extends React.Component {
         var parentCate = initLoadCategoryItem.filter((item) => {
             return item.nodeid == mouseClickCategory.nodeid;
         })
-        this.summaryCategory(mouseClickCategory.nodeid,categoryindex);
-        console.log( this.summaryCategory(mouseClickCategory.nodeid,categoryindex));
+        var num=0;
+        this.summaryCategory(mouseClickCategory.nodeid,categoryindex,num);
+        
         return (
             <div className="block-head">
                 <div className="title-segment">
