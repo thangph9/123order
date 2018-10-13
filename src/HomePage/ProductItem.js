@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link,NavLink  } from "react-router-dom";
 import { connect } from "react-redux";
 import {mouseClickLinkProductItem} from '../actions'
 class ProductItem extends React.Component {
@@ -29,7 +29,7 @@ class ProductItem extends React.Component {
                     <span className={(data.sale=='')?'none-hide':''} style={{position: 'absolute',top: '10px',right: '10px',background: 'red',color: '#fff',fontSize: '13px',fontWeight: 700,borderRadius: '3px',padding: '2px 5px',zIndex: 9}}>{data.sale}</span>
                         <img style= {{width:'210px',height:'210px'}} className="card-img-top img-thumbnail border-0 img-fluid" src={data.img} alt='img'/>
                         <div className="overlay">
-                            <Link to={`/product-detail/${titleTrim.substring(0,titleTrim.length-3)}id=` +`${data.dealid}&thang=`+'#'} onClick={()=>this.handleClickLink(data)} className="info">Chi tiết</Link>
+                            <NavLink to={`/product-detail/${titleTrim.substring(0,titleTrim.length-3)}id=` +`${data.dealid}`} onClick={()=>this.handleClickLink(data)} className="info">Chi tiết</NavLink>
                         </div>
                     </div>
                     <div className="card-body p-2">
