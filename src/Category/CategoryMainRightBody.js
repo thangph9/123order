@@ -60,7 +60,7 @@ class CategoryMainRightBody extends React.Component {
                                                 <img className="pd-img img-lazy" src={value.img} alt="img" />
                                             </div>
                                             <div className="overlay">
-                                                <NavLink to={`/product-detail-amazon/${titleTrim}&asin=${value.asin}`} className="info">Chi tiết</NavLink>
+                                                <NavLink to={`/product-detail-amazon/${titleTrim.substring(0,titleTrim.length-3)}&asin=${value.asin}`} className="info">Chi tiết</NavLink>
                                             </div>
                                         </div>{/* .img-pane */}
                                         <div className="meta-pane">

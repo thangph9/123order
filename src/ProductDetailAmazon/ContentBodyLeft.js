@@ -76,7 +76,7 @@ class ContentBodyLeft extends React.Component {
             <div id="container-scroll" className="container-main-col-1" style={{ position: 'relative' }}>
                 <section id="product-img-block" style={(scrollValue == 'product-img-block fixedProduct') ? { left: `${leftProduct}px` } : {}} className={scrollValue} >
                     <div className="product-img-segment">
-                        <div className={(mouseClickLink.sale=='')?'none-hide':'sale-tag'}>-{(mouseClickLink!=undefined&&mouseClickLink.sale!='') ?mouseClickLink.sale:''}</div>
+                        <div className={(loadDetail.save_price=='')?'none-hide':'sale-tag'}>-{(loadDetail!=undefined&&loadDetail.save_price!='') ?loadDetail.save_price:''}</div>
                         <div className="over-img-field">
                             <span className="field-inner"><img className="over-img" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" alt="img" /></span>
                         </div>
@@ -176,7 +176,6 @@ function mapStateToProps(state) {
         mouseScroll: state.mouseScrollPageDetailProduct,
         loadDetail: state.initLoadProductDetailAmazon,
         mouseClick: state.mouseClickSmallImageProduct,
-        mouseClickLink:state.mouseClickLinkProductItem
     }
 }
 const connectedContent = connect(mapStateToProps)(ContentBodyLeft);
