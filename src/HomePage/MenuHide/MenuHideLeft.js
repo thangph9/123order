@@ -45,6 +45,7 @@ class MenuHideLeft extends React.Component {
     render() {
         var { LoadCategory } = this.props;
         var newLoadCategory=[];
+        var {mouseOverCategory}=this.props;
         if(LoadCategory.length > 0){
              newLoadCategory = LoadCategory.slice(0, 9);
         }
@@ -52,7 +53,7 @@ class MenuHideLeft extends React.Component {
             <div className="container col-md-3 tab">
                 {(newLoadCategory.length > 0) && newLoadCategory.map((value, index) => {
                     return (
-                        <Link className="row tablinks pl-4 my-3 link-color-category" style={{color:'#212529'}} to={`/category/nodeid=${value.nodeid}&categoryindex=${value.categoryindex}`} key={index}  onMouseOver={() => this.handleMouseOver(value)}>
+                        <Link className={(mouseOverCategory==newLoadCategory[0])?'row tablinks pl-4 my-3 link-color-category link-first-color-category':'row tablinks pl-4 my-3 link-color-category'} style={{color:'#212529'}} to={`/category/nodeid=${value.nodeid}&categoryindex=${value.categoryindex}`} key={index}  onMouseOver={() => this.handleMouseOver(value)}>
                             <div className="col-10">
                                 <span>{value.category}</span>
                             </div>
@@ -73,7 +74,7 @@ function mapStateToProps(state) {
         LoadCategoryIndexSencond: state.initLoadCategoryIndexSecond,
         initLoadCategorySecondItem:state.initLoadCategorySecondItem,
         initLoadCategoryThirdItem:state.initLoadCategoryThirdItem,
-        
+        mouseOverCategory:state.mouseOverCategory
     }
 }
 const connected = connect(mapStateToProps)(MenuHideLeft);
