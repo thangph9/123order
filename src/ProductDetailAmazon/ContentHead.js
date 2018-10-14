@@ -18,7 +18,6 @@ class ContentHead extends React.Component{
     }
     render(){
         var {loadDetail}=this.props;
-        i
         var starNumber=0;
         if(loadDetail[0]!=undefined) {starNumber=Number(loadDetail[0].star)*20;console.log(loadDetail)}
         return (
