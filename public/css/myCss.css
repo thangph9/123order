@@ -55,6 +55,7 @@
 	width: 310px; 
 	bottom: auto; 
 	top: 0px;
+	z-index: 1;
 }
 .endProduct{
 	position: absolute; 
