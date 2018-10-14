@@ -295,10 +295,18 @@ app.post('/product-detail', jsonParser, function (req, res) {
     res.json(result);
   })
 })
+var PARAM_IS_PRODUCT_ASIN_AMAZON = {};
 app.post('/product-detail-amazon', jsonParser, function (req, res) {
+  params = req.body;
   async.series([
     (callback) => {
-      models.instance.product_detail_amazon.find({}, function (err, result) {
+      models.instance.product_detail_amazon.find({ dealid: params.asin }, function (err, result) {
+        if (result.length > 0) PARAM_IS_PRODUCT_ASIN_AMAZON["asin"] = params.asin;
+        callback(err, null);
+      });
+    },
+    (callback) => {
+      models.instance.product_detail_amazon.find({dealid: PARAM_IS_PRODUCT_ASIN_AMAZON.asin}, function (err, result) {
         var arr = result.map(item => {
           return obj = {
             asin: item.asin,

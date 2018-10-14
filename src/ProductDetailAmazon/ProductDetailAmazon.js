@@ -6,7 +6,7 @@ import { Content } from "./Content";
 import axios from 'axios';
 import {mouseScrollDetailProduct} from '../actions';
 import {initLoadProductDetailAmazon} from '../actions'; 
-import {mouseOverSmallImageProduct} from '../actions';
+import {mouseClickSmallImageProduct} from '../actions';
 class ProductDetailAmazon extends React.Component {
     constructor(props) {
         super(props);
@@ -18,12 +18,10 @@ class ProductDetailAmazon extends React.Component {
         this.handleScrollToElement = this.handleScrollToElement.bind(this); 
     }
     componentWillMount(){
-        axios.post('/product-detail-amazon',).then(res=>{
-            var findProduct=res.data[0].filter(item=>{
-                return item.asin==this.props.match.params.asin
-            })
-            this.props.dispatch(mouseOverSmallImageProduct(0));
-            this.props.dispatch(initLoadProductDetailAmazon(findProduct));
+        axios.post('/product-detail-amazon',{asin:this.props.match.params.asin}).then(res=>{
+            this.props.dispatch(initLoadProductDetailAmazon(res.data[1]));
+            this.props.dispatch(mouseClickSmallImageProduct(0));
+            
         })
     }
     componentDidMount() {
