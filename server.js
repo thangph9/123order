@@ -295,6 +295,41 @@ app.post('/product-detail', jsonParser, function (req, res) {
     res.json(result);
   })
 })
+app.post('/product-detail-amazon', jsonParser, function (req, res) {
+  async.series([
+    (callback) => {
+      models.instance.product_detail_amazon.find({}, function (err, result) {
+        var arr = result.map(item => {
+          return obj = {
+            asin: item.asin,
+            category: item.category,
+            color: item.color,
+            deal_of_day: item.deal_of_day,
+            death_clock:item.death_clock,
+            description: item.description,
+            hugeimage: item.hugeimage,
+            largeimage: item.largeimage,
+            list_price: item.list_price,
+            nested: item.nested,
+            nodeid: item.nodeid,
+            price: item.price,
+            save_price: item.save_price,
+            size:item.size,
+            smallimage: item.smallimage,
+            star: item.star,
+            style: item.style,
+            timestamp:item.timestamp+"",
+            title: (item.title != null) ? item.title : '',
+          }
+        });
+        callback(err, arr);
+      });
+    },
+  ], (err, result) => {
+    if (err) console.log(err);
+    res.json(result);
+  })
+})
 app.post("/landing-page", jsonParser, function (req, res) {
   var addItem = req.body.addItem + 15
   async.series([
