@@ -99,6 +99,6 @@
 	align-items: stretch;
 }
 .nav-item .link-color-category:hover{
-	color:#2196f3;
+	color:#2196f3 !important;
 }
 
