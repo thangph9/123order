@@ -4,6 +4,8 @@ import { connect } from "react-redux";
 import { MenuHide } from "./MenuHide";
 import { mouseOverCategoryFirst } from '../actions';
 import {mouseOverCategory} from '../actions';
+import {initLoadCategoryIndexSecond} from '../actions';
+import {initLoadCategoryIndexThird} from '../actions';
 //import $ from 'jquery';
 class HeaderTopLeftEBAY extends React.Component {
     constructor(props) {
@@ -98,7 +100,8 @@ function mapStateToProps(state) {
     return {
         LoadCate: state.initLoadCategoryFirstItem,
         initLoadCategorySecondItem:state.initLoadCategorySecondItem,
-        initLoadCategoryThirdItem:state.initLoadCategoryThirdItem
+        initLoadCategoryThirdItem:state.initLoadCategoryThirdItem,
+        
     }
 }
 const connected = connect(mapStateToProps)(HeaderTopLeftEBAY);
