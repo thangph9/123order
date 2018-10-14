@@ -306,7 +306,7 @@ app.post('/product-detail-amazon', jsonParser, function (req, res) {
       });
     },
     (callback) => {
-      models.instance.product_detail_amazon.find({dealid: PARAM_IS_PRODUCT_ASIN_AMAZON.asin}, function (err, result) {
+      models.instance.product_detail_amazon.find({asin: PARAM_IS_PRODUCT_ASIN_AMAZON.asin}, function (err, result) {
         var arr = result.map(item => {
           return obj = {
             asin: item.asin,
