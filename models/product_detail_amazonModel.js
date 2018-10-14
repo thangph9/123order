@@ -26,7 +26,11 @@ module.exports={
         },
         star:"text",
         style:'text',
-        title:"text"
+        title:"text",
+        timestamp: {
+            type: "timestamp",
+            default: {"$db_function": "toTimestamp(now())"}
+        },
     },
     key:["asin"]
 }

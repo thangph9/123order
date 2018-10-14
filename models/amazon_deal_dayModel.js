@@ -24,10 +24,6 @@ module.exports={
             default: {"$db_function": "toTimestamp(now())"}
         },
         title: "text",
-        timestamp: {
-            type: "timestamp",
-            default: {"$db_function": "toTimestamp(now())"}
-        },
         widgetid: 'text'
     },
     key:["dealid"]
