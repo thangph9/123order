@@ -300,7 +300,7 @@ app.post('/product-detail-amazon', jsonParser, function (req, res) {
   params = req.body;
   async.series([
     (callback) => {
-      models.instance.product_detail_amazon.find({ dealid: params.asin }, function (err, result) {
+      models.instance.product_detail_amazon.find({ asin: params.asin }, function (err, result) {
         if (result.length > 0) PARAM_IS_PRODUCT_ASIN_AMAZON["asin"] = params.asin;
         callback(err, null);
       });
