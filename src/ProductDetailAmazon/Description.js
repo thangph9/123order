@@ -46,7 +46,7 @@ class Description extends React.Component {
 function mapStateToProps(state) {
 
     return {
-        loadDetail:state.initLoadProductDetail
+        loadDetail:state.initLoadProductDetailAmazon
     }
 }
 const connectedContent = connect(mapStateToProps)(Description);

@@ -55,7 +55,6 @@ class ContentBodyLeft extends React.Component {
         var menuItems = [];
         var settings = {
             dots: false,
-            speed: 500,
             slidesToShow: 4,
             slidesToScroll: 1,
             autoplay: false,

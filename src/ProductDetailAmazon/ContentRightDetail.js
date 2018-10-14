@@ -16,7 +16,7 @@ class ContentRightDetail extends React.Component {
         console.log("Hello World")
     }
     render() {
-        var { mouseClickLink } = this.props;
+        var { loadDetail } = this.props;
         return (
             <section id="product-detail-block-v2" className="product-detail-block-v2 ">
                 <div className="blur-bg" />
@@ -35,20 +35,20 @@ class ContentRightDetail extends React.Component {
                                         <div className="info-item">
                                             <div className="lbl-col">Giá bán tại Việt Nam <i className="fa fa-question-circle ttip guide-icon" aria-hidden="true" data-ttip="Giá trọn gói: bao gồm tất cả loại thuế phí,<br/>không phát sinh phụ phí" data-hasqtip={1} aria-describedby="qtip-2" /></div>
                                             <div className="info-col">
-                                                <div id="currPrice" className="curr-price">{(mouseClickLink!=undefined) &&mouseClickLink.price}</div>
+                                                <div id="currPrice" className="curr-price">{(loadDetail!=undefined) &&loadDetail.price}</div>
                                             </div>
                                         </div>
                                         <div className="info-item sub-item">
                                             <div className="lbl-col">Tiết kiệm:</div>
                                             <div className="info-col text-nowrap">
-                                                <span className={(mouseClickLink.sale=='')?'none-hide':'sale-percent'}>{(mouseClickLink!=undefined&&mouseClickLink.sale!='') ?mouseClickLink.sale:''}</span>
+                                                <span className={(loadDetail.save_price=='')?'none-hide':'sale-percent'}>{(loadDetail!=undefined&&loadDetail.save_price!='') ?loadDetail.save_price:''}</span>
                                                 
                                             </div>
                                         </div>
                                         <div className="info-item sub-item">
                                             <div className="lbl-col">Giá chưa giảm:</div>
                                             <div className="info-col">
-                                                <span id="oldPrice" className="old-price line-through">{(mouseClickLink!=undefined) &&mouseClickLink.base_price}</span>
+                                                <span id="oldPrice" className="old-price line-through">{(loadDetail!=undefined) &&loadDetail.base_price}</span>
                                             </div>
                                         </div>
                                     </div>{/* .price-panel */}
@@ -211,7 +211,8 @@ class ContentRightDetail extends React.Component {
 function mapStateToProps(state) {
 
     return {
-        mouseClickLink: state.mouseClickLinkProductItem
+        mouseClickLink: state.mouseClickLinkProductItem,
+        loadDetail: state.initLoadProductDetailAmazon,
     }
 }
 const connectedContent = connect(mapStateToProps)(ContentRightDetail);
