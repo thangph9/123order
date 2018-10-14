@@ -98,7 +98,10 @@
 	flex-wrap: nowrap;
 	align-items: stretch;
 }
-.nav-item .link-color-category:hover{
+.link-color-category:hover{
+	color:#2196f3 !important;
+}
+.link-first-color-category{
 	color:#2196f3 !important;
 }
 
