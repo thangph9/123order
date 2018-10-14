@@ -2,7 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { MenuHideA } from "./MenuHideA";
-import {mouseOverCategoryFirst} from '../actions';
+import {mouseOverCategory} from '../actions';
+import {initLoadCategoryIndexSecond} from '../actions';
+import {initLoadCategoryIndexThird} from '../actions';
 class HeaderTopLeftAMAZON extends React.Component {
     constructor(props) {
         super(props);
@@ -25,9 +27,28 @@ class HeaderTopLeftAMAZON extends React.Component {
 
         })
     }
-    handleMouseOver(value){
-        if(value!=0){
-            this.props.dispatch(mouseOverCategoryFirst(value));
+    handleMouseOver(value) {
+        if (value != 0) {
+            this.props.dispatch(mouseOverCategory(value));
+            var { initLoadCategorySecondItem } = this.props;
+            var { initLoadCategoryThirdItem } = this.props;
+            var categoryScecond = initLoadCategorySecondItem.filter((item, index) => {
+                return item.categoryindex == 2 && item.groupid == value.nodeid
+            }).filter((v, i) => {
+                return i < 6
+            })
+
+            this.props.dispatch(initLoadCategoryIndexSecond(categoryScecond))
+            var mapCate = categoryScecond.map((value, index) => {
+                return (
+                    initLoadCategoryThirdItem.filter((item, index) => {
+                        return item.categoryindex == 3 && item.groupid == value.nodeid
+                    }).filter((v, i) => {
+                        return i < 3
+                    })
+                )
+            })
+            this.props.dispatch(initLoadCategoryIndexThird(mapCate))
         }
     }
     render() {
@@ -49,7 +70,10 @@ class HeaderTopLeftAMAZON extends React.Component {
 function mapStateToProps(state) {
 
     return {
-        LoadCate:state.initLoadCategoryFirstItem
+        LoadCate: state.initLoadCategoryFirstItem,
+        initLoadCategorySecondItem:state.initLoadCategorySecondItem,
+        initLoadCategoryThirdItem:state.initLoadCategoryThirdItem,
+        
     }
 }
 const connected = connect(mapStateToProps)(HeaderTopLeftAMAZON);
