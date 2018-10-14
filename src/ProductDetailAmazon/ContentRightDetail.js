@@ -41,7 +41,7 @@ class ContentRightDetail extends React.Component {
                                         <div className="info-item sub-item">
                                             <div className="lbl-col">Tiết kiệm:</div>
                                             <div className="info-col text-nowrap">
-                                                <span className={(loadDetail[0].save_price=='')?'none-hide':'sale-percent'}>{(loadDetail[0]!=undefined&&loadDetail[0].save_price!='') ?loadDetail[0].save_price:''}</span>
+                                                <span className={(loadDetail[0].save_price!=undefined&&loadDetail[0].save_price=='')?'none-hide':'sale-percent'}>{(loadDetail[0]!=undefined&&loadDetail[0].save_price!='') ?loadDetail[0].save_price:''}</span>
                                                 
                                             </div>
                                         </div>
