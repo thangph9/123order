@@ -98,5 +98,7 @@
 	flex-wrap: nowrap;
 	align-items: stretch;
 }
-
+.nav-item .link-color:hover{
+	color:#2196f3;
+}
 

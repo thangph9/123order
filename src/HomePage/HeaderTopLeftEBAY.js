@@ -29,10 +29,6 @@ class HeaderTopLeftEBAY extends React.Component {
             login: true,
         })
     }
-    componentWillMount(){
-        var { LoadCate } = this.props;
-        (LoadCate.length > 0) ? () => this.handleMouseOver(LoadCate[0]) : () => this.handleMouseOver(0)
-    }
     handleMouseOver(value) {
         if (value != 0) {
             this.props.dispatch(mouseOverCategory(value));
@@ -60,8 +56,8 @@ class HeaderTopLeftEBAY extends React.Component {
     render() {
         var { LoadCate } = this.props;
         return (
-            <li className="nav-item dropdown" id='menuEbay'  >
-                <Link to="/danh-muc-ebay" className='nav-link text-white' onMouseOver={(LoadCate.length > 0) ? () => this.handleMouseOver(LoadCate[0]) : () => this.handleMouseOver(0)}>
+            <li className="nav-item dropdown" id='menuEbay' >
+                <Link to="/danh-muc-ebay" className='nav-link text-white link-color' onMouseOver={(LoadCate.length > 0) ? () => this.handleMouseOver(LoadCate[0]) : () => this.handleMouseOver(0)}>
                     EBAY
                 </Link>
                 <div className="container dropdown-menu ebay-position menu2-dropdown bg-white" aria-haspopup="true" aria-expanded="false" id='linkEbay'>
