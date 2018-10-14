@@ -55,9 +55,10 @@ class HeaderTopLeftEBAY extends React.Component {
     }
     render() {
         var { LoadCate } = this.props;
+        var {mouseOverCategory}=this.props;
         return (
             <li className="nav-item dropdown" id='menuEbay' >
-                <Link to="/danh-muc-ebay" className='nav-link text-white' onMouseOver={(LoadCate.length > 0) ? () => this.handleMouseOver(LoadCate[0]) : () => this.handleMouseOver(0)}>
+                <Link to="/danh-muc-ebay" className={(mouseOverCategory==LoadCate[0]&&LoadCate.length>0)?'nav-link text-white link-first-color-category':'nav-link text-white'} onMouseOver={(LoadCate.length > 0) ? () => this.handleMouseOver(LoadCate[0]) : () => this.handleMouseOver(0)}>
                     EBAY
                 </Link>
                 <div className="container dropdown-menu ebay-position menu2-dropdown bg-white" aria-haspopup="true" aria-expanded="false" id='linkEbay'>
@@ -74,6 +75,7 @@ function mapStateToProps(state) {
         LoadCate: state.initLoadCategoryFirstItem,
         initLoadCategorySecondItem:state.initLoadCategorySecondItem,
         initLoadCategoryThirdItem:state.initLoadCategoryThirdItem,
+        mouseOverCategory:state.mouseOverCategory
         
     }
 }
