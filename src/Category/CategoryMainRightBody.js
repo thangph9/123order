@@ -50,8 +50,8 @@ class CategoryMainRightBody extends React.Component {
                     {(initLoadCategoryProducts.length > 0) && arrNewCate.map((value, index) => {
                         return (
                             <div key={index} className="product-col">
-                                <div className="panel-product-v2 js-get-product-to-asin-us is-checked " id="panel-product" data-asin="B00ZV9RDKK">
-                                    <div className="panel-inner card" temprop="item" itemScope="itemscope" itemType="http://schema.org/Product">
+                                <div className="panel-product-v2 js-get-product-to-asin-us is-checked card" id="panel-product" data-asin="B00ZV9RDKK">
+                                    <div className="panel-inner " temprop="item" itemScope="itemscope" itemType="http://schema.org/Product">
                                         <div className="img-pane href hovereffect" itemProp="url" href="/us/fire-tv-stick-with-alexa-voice-remote-1st-gen-streaming-media-player-B00ZV9RDKK.html">
                                             <div className="pane-inner">
                                                 <img className="pd-img img-lazy" src={value.img} alt="img" />
