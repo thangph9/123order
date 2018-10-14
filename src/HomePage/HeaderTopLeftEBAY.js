@@ -57,7 +57,7 @@ class HeaderTopLeftEBAY extends React.Component {
         var { LoadCate } = this.props;
         return (
             <li className="nav-item dropdown" id='menuEbay' >
-                <Link to="/danh-muc-ebay" className='nav-link text-white' onMouseOver={(LoadCate.length > 0) ? () => this.handleMouseOver(LoadCate[0]) : () => this.handleMouseOver(0)}>
+                <Link to="#" className='nav-link dropdown-toggle dropdown-arrow text-white' onMouseOver={(LoadCate.length > 0) ? () => this.handleMouseOver(LoadCate[0]) : () => this.handleMouseOver(0)}>
                     EBAY
                 </Link>
                 <div className="container dropdown-menu ebay-position menu2-dropdown bg-white" aria-haspopup="true" aria-expanded="false" id='linkEbay'>
