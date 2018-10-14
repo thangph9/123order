@@ -19,13 +19,16 @@ class MenuHideLeft extends React.Component {
         var {initLoadCategorySecondItem}=this.props;
         var {initLoadCategoryThirdItem}=this.props;
         var categoryScecond=initLoadCategorySecondItem.filter((item,index)=>{
-            return item.categoryindex==2&&item.groupid==value.nodeid&&index<6
+            return item.categoryindex==2&&item.groupid==value.nodeid
         })
-        this.props.dispatch(initLoadCategoryIndexSecond(categoryScecond))
+        var newCategoryScecond=categoryScecond.filter((item,index)=>{
+            return index<6
+        })
+        this.props.dispatch(initLoadCategoryIndexSecond(newCategoryScecond))
         var mapCate=categoryScecond.map((value,index)=>{
             return (
                 initLoadCategoryThirdItem.filter((item,index)=>{
-                    return item.categoryindex==3&&item.groupid==value.nodeid&&index<3
+                    return item.categoryindex==3&&item.groupid==value.nodeid
                 })
             )
         })

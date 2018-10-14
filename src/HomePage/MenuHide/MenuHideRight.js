@@ -16,10 +16,23 @@ class MenuHideRight extends React.Component {
     })
     console.log("Hello World")
   }
+  showThird(index,arr){
+    var {initLoadCategoryIndexThird}=this.props;
+    if(initLoadCategoryIndexThird.length > 0 ){
+      for(var j=0;j<3;j++){
+        arr.push(<li key={j}>
+          <Link to={`/category/nodeid=${initLoadCategoryIndexThird[index][j].nodeid}&categoryindex=${initLoadCategoryIndexThird[i][j].categoryindex}`} className="ml-2 text-dark  list-item">{initLoadCategoryIndexThird[i][j].category}</Link>
+        </li>)
+      }
+    }
+    return arr;
+  }
   render() {
     var { mouseOver } = this.props;
     var { LoadCategoryIndexSencond } = this.props;
-    var {initLoadCategoryIndexThird}=this.props;
+
+    var arr=[];
+
     return (
       <div className="col-md-9">
         <div id="congNghiep" className={(mouseOver == undefined) ? 'tabcontent' : 'tabcontent block-show'} style={{ display: 'none' }}>
@@ -38,11 +51,7 @@ class MenuHideRight extends React.Component {
                       <div key={index} className="col-md-4">
                         <ul>
                           <Link style={{color:'#212529'}} to={`/category/nodeid=${value.nodeid}&categoryindex=${value.categoryindex}`} className="list-tittle">{value.category}</Link>
-                          {initLoadCategoryIndexThird.length > 0 && initLoadCategoryIndexThird[index].map((v, i) => {
-                            return (<li key={i}>
-                              <Link to={`/category/nodeid=${v.nodeid}&categoryindex=${v.categoryindex}`} className="ml-2 text-dark  list-item">{v.category}</Link>
-                            </li>)
-                          })}
+                          { ()=>this.showThird(index,arr)}
                         </ul>
                       </div>
                     )
