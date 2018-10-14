@@ -82,7 +82,7 @@ class ContentBodyLeft extends React.Component {
                         <div className="over-img-field">
                             <span className="field-inner"><img className="over-img" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" alt="img" /></span>
                         </div>
-                        <div className="swiper-container swiper-container-horizontal">
+                        <div className="swiper-container swiper-container-horizontal" style={{overflow: 'visible'}}>
                             <div className="swiper-wrapper" style={{ height: 310 }}>
                                 <div className="swiper-slide" style={{ width: 310, marginRight: 10 }}>
                                     <a className="gallery-item img-item" data-fancybox="group" target="_blank">

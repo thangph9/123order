@@ -49,23 +49,26 @@ class CategoryMainRightBody extends React.Component {
                     {(initLoadCategoryProducts.length > 0) && arrNewCate.map((value, index) => {
                         return (
                             <div key={index} className="product-col">
-                                <div className="panel-product-v2 js-get-product-to-asin-us is-checked" id="panel-product" data-asin="B00ZV9RDKK">
-                                    <div className="panel-inner" temprop="item" itemScope="itemscope" itemType="http://schema.org/Product">
-                                        <a className="img-pane href" itemProp="url" href="/us/fire-tv-stick-with-alexa-voice-remote-1st-gen-streaming-media-player-B00ZV9RDKK.html">
+                                <div className="panel-product-v2 js-get-product-to-asin-us is-checked " id="panel-product" data-asin="B00ZV9RDKK">
+                                    <div className="panel-inner card" temprop="item" itemScope="itemscope" itemType="http://schema.org/Product">
+                                        <div className="img-pane href hovereffect" itemProp="url" href="/us/fire-tv-stick-with-alexa-voice-remote-1st-gen-streaming-media-player-B00ZV9RDKK.html">
                                             <div className="pane-inner">
                                                 <img className="pd-img img-lazy" src={value.img} alt="img" />
                                             </div>
-                                        </a>{/* .img-pane */}
+                                            <div className="overlay">
+                                                <NavLink to={`/product-detail/`} className="info">Chi tiết</NavLink>
+                                            </div>
+                                        </div>{/* .img-pane */}
                                         <div className="meta-pane">
                                             <div className="col-1">
                                                 <div className="star-rating" style={{ fontSize: '13px', position: 'static' }}>
-                                                    <div className="back-stars" style={{ top: '0px',left:'20px' }}>
+                                                    <div className="back-stars" style={{ top: '0px', left: '20px' }}>
                                                         <i className="fa fa-star" aria-hidden="true"></i>
                                                         <i className="fa fa-star" aria-hidden="true"></i>
                                                         <i className="fa fa-star" aria-hidden="true"></i>
                                                         <i className="fa fa-star" aria-hidden="true"></i>
                                                         <i className="fa fa-star" aria-hidden="true"></i>
-                                                        <div className="front-stars" style={{ width: `${Number(value.star)*20}%` }}>
+                                                        <div className="front-stars" style={{ width: `${Number(value.star) * 20}%` }}>
                                                             <i className="fa fa-star" aria-hidden="true"></i>
                                                             <i className="fa fa-star" aria-hidden="true"></i>
                                                             <i className="fa fa-star" aria-hidden="true"></i>
