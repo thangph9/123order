@@ -19,6 +19,9 @@ class MenuHideRight extends React.Component {
   render() {
     var { mouseOver } = this.props;
     var { LoadCategoryIndexSencond } = this.props;
+    var newSecond=LoadCategoryIndexSencond.filter((value,index)=>{
+      return index<=3;
+    })
     var {initLoadCategoryIndexThird}=this.props;
     return (
       <div className="col-md-9">
@@ -33,7 +36,7 @@ class MenuHideRight extends React.Component {
                   </div>
                 </div>
                 <div className="row mt-2">
-                  {LoadCategoryIndexSencond.length > 0 && LoadCategoryIndexSencond.map((value, index) => {
+                  {LoadCategoryIndexSencond.length > 0 && newSecond.map((value, index) => {
                     return (
                       <div key={index} className="col-md-4">
                         <ul>
