@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { MenuHide } from "./MenuHide";
-import { mouseOverCategoryFirst } from '../actions';
 import {mouseOverCategory} from '../actions';
 import {initLoadCategoryIndexSecond} from '../actions';
 import {initLoadCategoryIndexThird} from '../actions';
@@ -29,12 +28,6 @@ class HeaderTopLeftEBAY extends React.Component {
         this.setState({
             login: true,
         })
-    }
-    handleMouseOver1(value) {
-
-        if (value != 0) {
-            this.props.dispatch(mouseOverCategoryFirst(value));
-        }
     }
     handleMouseOver(value) {
         if (value != 0) {
