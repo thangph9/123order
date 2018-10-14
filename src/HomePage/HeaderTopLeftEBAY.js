@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { MenuHide } from "./MenuHide";
 import { mouseOverCategoryFirst } from '../actions';
-import {mouseOverCategory} from '../../actions';
+import {mouseOverCategory} from '../actions';
 //import $ from 'jquery';
 class HeaderTopLeftEBAY extends React.Component {
     constructor(props) {
