@@ -1,6 +1,5 @@
 export * from './ProductDetailAmazon';
 export * from './Content';
-export * from './ContentTest';
 export * from './Itemscope';
 export * from './ContentMain';
 export * from './ContentHead';
