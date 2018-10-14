@@ -48,6 +48,9 @@ class CategoryMainRightBody extends React.Component {
             <div className="block-main">
                 <div className="wrap-product-col-v2">
                     {(initLoadCategoryProducts.length > 0) && arrNewCate.map((value, index) => {
+                        var titleTrim=value.title.trim();
+                        titleTrim=titleTrim.replace(/%/g , "");
+                        titleTrim=titleTrim.replace(/ /g , "-");
                         return (
                             <div key={index} className="product-col">
                                 <div className="panel-product-v2 js-get-product-to-asin-us is-checked card" id="panel-product" data-asin="B00ZV9RDKK">
@@ -57,7 +60,7 @@ class CategoryMainRightBody extends React.Component {
                                                 <img className="pd-img img-lazy" src={value.img} alt="img" />
                                             </div>
                                             <div className="overlay">
-                                                <NavLink to={`/product-detail-amazon/${value.title.trim().replace(/ /g , "-")}&asin=${value.asin}`} className="info">Chi tiết</NavLink>
+                                                <NavLink to={`/product-detail-amazon/${titleTrim}&asin=${value.asin}`} className="info">Chi tiết</NavLink>
                                             </div>
                                         </div>{/* .img-pane */}
                                         <div className="meta-pane">
