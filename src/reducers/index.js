@@ -18,6 +18,7 @@ import {mouseClickSmallImageProduct} from './mouseClickReducer';
 import {initLoadCategoryFirstItem} from './loadInitReducer';
 import {initLoadCategorySecondItem} from './loadInitReducer';
 import {initLoadCategoryThirdItem} from './loadInitReducer';
+import {initLoadProductDetailAmazon} from './loadInitReducer';
 import {initLoadCategoryIndexSecond} from './loadInitReducer';
 import {initLoadCategoryIndexThird} from './loadInitReducer';
 import {mouseClickCategory} from './mouseClickReducer';
@@ -49,6 +50,7 @@ const rootReducer=combineReducers({
     mouseClickCategory,
     initLoadCategoryItem,
     initLoadCategoryProducts,
-    showSummaryProductByCategory
+    showSummaryProductByCategory,
+    initLoadProductDetailAmazon
 });
 export default rootReducer;

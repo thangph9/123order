@@ -70,3 +70,9 @@ export const initLoadCategoryProducts=(arrData)=>{
 		arrData
 	}
 }
+export const initLoadProductDetailAmazon=(arrData)=>{
+	return{
+		type: 'INIT_LOAD_PRODUCT_DETAIL_AMAZON',
+		arrData
+	}
+}

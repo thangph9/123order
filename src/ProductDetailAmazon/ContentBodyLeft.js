@@ -31,7 +31,6 @@ class ContentBodyLeft extends React.Component {
         var { loadDetail } = this.props;
         var { mouseScroll } = this.props;
         var { mouseClick } = this.props;
-        var {mouseClickLink}=this.props;
         var {checkScroll}=this.state;
         var scrollValue = this.selectStyle(mouseScroll);
         var element = document.getElementById("container-scroll");
@@ -176,7 +175,7 @@ function mapStateToProps(state) {
 
     return {
         mouseScroll: state.mouseScrollPageDetailProduct,
-        loadDetail: state.initLoadProductDetail,
+        loadDetail: state.initLoadProductDetailAmazon,
         mouseClick: state.mouseClickSmallImageProduct,
         mouseClickLink:state.mouseClickLinkProductItem
     }

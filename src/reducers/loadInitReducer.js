@@ -107,3 +107,11 @@ export function initLoadCategoryProducts(state=[],action){
 			return state;
 	}	
 }
+export function initLoadProductDetailAmazon(state=[],action){
+	switch (action.type) {
+		case 'INIT_LOAD_PRODUCT_DETAIL_AMAZON':
+			return action.arrData;
+		default:
+			return state;
+	}	
+}

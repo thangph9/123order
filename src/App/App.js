@@ -63,7 +63,7 @@ class App extends Component{
                         <Route exact path="/price" component={Price} />
                         <Route exact path="/category/nodeid=:nodeid&categoryindex=:categoryindex" component={Category} />
                         <Route exact path="/product-detail/*id=:dealid" component={ProductDetail} />
-                        <Route exact path="/product-detail-amazon/*asin=:asin" component={ProductDetailAmazon} />
+                        <Route exact path="/product-detail-amazon/*&asin=:asin" component={ProductDetailAmazon} />
                     </Switch>
 
                     </div>

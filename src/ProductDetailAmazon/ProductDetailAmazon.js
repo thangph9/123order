@@ -5,8 +5,7 @@ import { Footer } from "../Sections/Footer";
 import { Content } from "./Content";
 import axios from 'axios';
 import {mouseScrollDetailProduct} from '../actions';
-import {initLoadProductDetail} from '../actions'; 
-import {mouseClickLinkProductItem} from '../actions';
+import {initLoadProductDetailAmazon} from '../actions'; 
 import {mouseOverSmallImageProduct} from '../actions';
 class ProductDetailAmazon extends React.Component {
     constructor(props) {
@@ -19,14 +18,12 @@ class ProductDetailAmazon extends React.Component {
         this.handleScrollToElement = this.handleScrollToElement.bind(this); 
     }
     componentWillMount(){
-        console.log(this.props.match.params.dealid);
-        axios.post('/product-detail',{
-            dealid:this.props.match.params.dealid
-        }).then(res=>{
-            var action=initLoadProductDetail(res.data[1].ProductDetail);
-            this.props.dispatch(mouseClickLinkProductItem(res.data[2]));
+        axios.post('/product-detail-amazon',).then(res=>{
+            var findProduct=res.data[0].filter(item=>{
+                return item.asin==this.props.match.params.asin
+            })
             this.props.dispatch(mouseOverSmallImageProduct(0));
-            this.props.dispatch(action);
+            this.props.dispatch(initLoadProductDetailAmazon(findProduct));
         })
     }
     componentDidMount() {

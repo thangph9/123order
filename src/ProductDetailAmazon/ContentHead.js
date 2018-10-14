@@ -18,8 +18,9 @@ class ContentHead extends React.Component{
     }
     render(){
         var {loadDetail}=this.props;
+        i
         var starNumber=0;
-        if(loadDetail[0]!=undefined) starNumber=Number(loadDetail[0].star)*20;
+        if(loadDetail[0]!=undefined) {starNumber=Number(loadDetail[0].star)*20;console.log(loadDetail)}
         return (
             <div className="container-head">
                         <div className="product-detail-head-block">
@@ -95,7 +96,7 @@ class ContentHead extends React.Component{
 function mapStateToProps(state){
   
     return {
-        loadDetail:state.initLoadProductDetail
+        loadDetail:state.initLoadProductDetailAmazon
     }
 }
 const connectedContent=connect(mapStateToProps)(ContentHead);
