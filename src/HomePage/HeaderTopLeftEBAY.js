@@ -52,16 +52,19 @@ class HeaderTopLeftEBAY extends React.Component {
             })
             this.props.dispatch(initLoadCategoryIndexThird(mapCate))
         }
-        document.getElementById("linkEbay").style.display = "block";
+        
     }
-    handleMouseOut(){
-        document.getElementById("linkEbay").style.display = "none";
+    handleMouseOutMenu(){
+        document.getElementById("menuEbay").style.display = "none";
+    }
+    handleMouseOverMenu(){
+        document.getElementById("menuEbay").style.display = "block";
     }
     render() {
         var { LoadCate } = this.props;
         return (
-            <li className="nav-item dropdown" id='menuEbay' >
-                <Link to="/danh-muc-ebay" className='nav-link text-white' onMouseOut={()=>this.handleMouseOut()} onMouseOver={(LoadCate.length > 0) ? () => this.handleMouseOver(LoadCate[0]) : () => this.handleMouseOver(0)}>
+            <li className="nav-item dropdown" id='menuEbay' onMouseOver={()=>this.handleMouseOverMenu()} onMouseOver={()=>this.handleMouseOutMenu()}>
+                <Link to="/danh-muc-ebay" className='nav-link text-white'  onMouseOver={(LoadCate.length > 0) ? () => this.handleMouseOver(LoadCate[0]) : () => this.handleMouseOver(0)}>
                     EBAY
                 </Link>
                 <div  className="container dropdown-menu ebay-position menu2-dropdown bg-white" aria-haspopup="true" aria-expanded="false" id='linkEbay'>
