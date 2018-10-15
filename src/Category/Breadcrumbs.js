@@ -60,7 +60,7 @@ class Breadcrumbs extends React.Component {
                                     <li className="break" />
                                     <li className="is-active">
                                         <a itemProp="item">
-                                            <span itemProp="name">{v.category}</span>
+                                            <span itemProp="name">{v}</span>
                                         </a>
                                         <meta itemProp="position" content={1} />
                                     </li>
