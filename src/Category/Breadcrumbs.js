@@ -25,30 +25,21 @@ class Breadcrumbs extends React.Component {
         return arr;
     }
     render() {
-        var { initLoadCategoryItem } = this.props;
-        var { mouseClickCategory } = this.props;
-        var categoryindex = Number(mouseClickCategory.categoryindex);
-        var arr = [];
-        var newarr = this.summaryCategory(mouseClickCategory.nodeid, categoryindex, arr);
-        var parentCate = initLoadCategoryItem.filter((item) => {
-            return item.nodeid == mouseClickCategory.nodeid;
-        })
-        if (parentCate[0] != undefined && this.state.num != parentCate[0].nodeid) {
-            if (this.state.arr.length < Number(mouseClickCategory.categoryindex)) {
-                this.setState({
-                    num: parentCate[0].nodeid,
-                    arr: this.state.arr.concat(parentCate[0].category)
-                })
-            }
-            else if (this.state.arr.length - Number(mouseClickCategory.categoryindex) == 1) {
-                this.setState({
-                    arr: this.state.arr.filter((v, i) => i !== (this.state.arr.length - 1))
-                })
-            }
-            
-            
+        var {initLoadCategoryItem}=this.props;
+        var {mouseClickCategory} = this.props;
+        var categoryindex=Number(mouseClickCategory.categoryindex);
+        var breadcrunmb=[];
+        if(mouseClickCategory.categoryindex==1){
+            breadcrunmb=initLoadCategoryItem.filter((v,i)=>{
+                return v.nodeid==mouseClickCategory.nodeid
+            })
         }
-        console.log(this.state.arr);
+        else{
+            breadcrunmb=initLoadCategoryItem.filter((v,i)=>{
+                return v.categoryindex==(categoryindex-1)&&v.groupid==mouseClickCategory.nodeid
+            })
+        }
+        
         return (
             <section id="breadcrumbs-block-v2" className="breadcrumbs-block-v2" style={{ marginBottom: 30 }}>
                 <div className="container-fedo" itemScope="itemscope" itemType="http://schema.org/BreadcrumbList" style={{ padding: 0, height: 33 }}>
@@ -56,7 +47,7 @@ class Breadcrumbs extends React.Component {
                         <li><a href="https://fado.vn" itemProp="item"><span itemProp="name">Trang chủ</span></a></li>
                         <li className="break" />
                         <li><a href="/us/amazon-store/" itemProp="item"><span itemProp="name">Amazon Mỹ</span></a></li>
-                        {this.state.arr.map((v, i) => {
+                        {breadcrunmb.map((v, i) => {
                             return (
                                 <span key={i}>
                                     <li className="break" />
@@ -66,7 +57,6 @@ class Breadcrumbs extends React.Component {
                                         </a>
                                         <meta itemProp="position" content={1} />
                                     </li>
-                                    <li className="break" />
                                 </span>
                             )
                         })}
