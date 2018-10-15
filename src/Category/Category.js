@@ -18,12 +18,13 @@ class Category extends React.Component {
         axios.post('/category').then(res=>{
             this.props.dispatch(initLoadCategoryProducts(res.data[1]))
         })   
-    }
-    render() {
         var obj={};
         obj.nodeid=this.props.match.params.nodeid;
         obj.categoryindex=this.props.match.params.categoryindex;
         this.props.dispatch(mouseClickCategory(obj));
+    }
+    render() {
+        
         return (
             <div>
                 <Header/>
