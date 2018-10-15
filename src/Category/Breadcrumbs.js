@@ -21,7 +21,7 @@ class Breadcrumbs extends React.Component {
             return item.nodeid == mouseClickCategory.nodeid;
         })
         this.setState({
-            arrBreacrumbs: arrBreacrumbs.concat(parentCate)
+            arrBreacrumbs: this.state.arrBreacrumbs.concat(parentCate)
         })
 
         return (
