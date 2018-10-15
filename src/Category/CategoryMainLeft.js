@@ -23,7 +23,7 @@ class CategoryMainLeft extends React.Component {
         this.setState({
             arr: this.state.arr.concat(parentCate[0].nodeid)
         })
-        console.log(arr);
+        console.log(this.state.arr);
         return (
             <div>
                 <aside className="container-aside">
