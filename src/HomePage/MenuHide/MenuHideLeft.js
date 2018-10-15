@@ -42,6 +42,9 @@ class MenuHideLeft extends React.Component {
         })
         console.log("Hello World")
     }
+    handleClick(){
+        document.getElementById("linkEbay").style.display = "none";
+    }
     render() {
         var { LoadCategory } = this.props;
         var newLoadCategory=[];
@@ -53,7 +56,7 @@ class MenuHideLeft extends React.Component {
             <div className="container col-md-3 tab">
                 {(newLoadCategory.length > 0) && newLoadCategory.map((value, index) => {
                     return (
-                        <Link id={(mouseOverCategory==newLoadCategory[0])?`link-${index}-color-category-ebay`:''} className='row tablinks pl-4 my-3 link-color-category' style={{color:'#212529'}} to={`/category/nodeid=${value.nodeid}&categoryindex=${value.categoryindex}`} key={index}  onMouseOver={() => this.handleMouseOver(value)}>
+                        <Link onClick={()=>this.handleClick()} id={(mouseOverCategory==newLoadCategory[0])?`link-${index}-color-category-ebay`:''} className='row tablinks pl-4 my-3 link-color-category' style={{color:'#212529'}} to={`/category/nodeid=${value.nodeid}&categoryindex=${value.categoryindex}`} key={index}  onMouseOver={() => this.handleMouseOver(value)}>
                             <div className="col-10">
                                 <span>{value.category}</span>
                             </div>
