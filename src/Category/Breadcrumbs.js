@@ -37,6 +37,7 @@ class Breadcrumbs extends React.Component {
             newarr.push(parentCate[0].category);
         }
         newarr.reverse();
+        console.log(newarr);
         return (
             <section id="breadcrumbs-block-v2" className="breadcrumbs-block-v2" style={{ marginBottom: 30 }}>
                 <div className="container-fedo" itemScope="itemscope" itemType="http://schema.org/BreadcrumbList" style={{ padding: 0, height: 33 }}>
