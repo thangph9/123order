@@ -35,9 +35,13 @@ class Breadcrumbs extends React.Component {
             })
         }
         else{
-            breadcrunmb=initLoadCategoryItem.filter((v,i)=>{
-                return v.categoryindex==(categoryindex-1)&&v.groupid==mouseClickCategory.nodeid
+            breadcrunmbChild=initLoadCategoryItem.filter((v,i)=>{
+                return v.nodeid==mouseClickCategory.nodeid
             })
+            var breadcrunmbParent=initLoadCategoryItem.filter((v,i)=>{
+                return v.nodeid==breadcrunmbChild[0].groupid
+            })
+            console.log(breadcrunmbParent);
         }
         console.log(breadcrunmb);
         return (
