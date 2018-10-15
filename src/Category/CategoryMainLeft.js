@@ -11,6 +11,16 @@ class CategoryMainLeft extends React.Component {
             arr:[]
         }
     }
+    handleCick(){
+        var { initLoadCategoryItem } = this.props;
+        var { mouseClickCategory } = this.props;
+        var parentCate = initLoadCategoryItem.filter((item) => {
+            return item.nodeid == mouseClickCategory.nodeid;
+        })
+        this.setState({
+            arr: this.state.arr.concat(parentCate[0].nodeid)
+        })
+    }
     render() {
         var { initLoadCategoryItem } = this.props;
         var { mouseClickCategory } = this.props;
@@ -20,9 +30,7 @@ class CategoryMainLeft extends React.Component {
         var childCate = initLoadCategoryItem.filter((item) => {
             return item.groupid == mouseClickCategory.nodeid && item.categoryindex == (Number(mouseClickCategory.categoryindex) + 1);
         })
-        this.setState({
-            arr: this.state.arr.concat(parentCate[0].nodeid)
-        })
+        
         console.log(this.state.arr);
         return (
             <div>
@@ -36,7 +44,7 @@ class CategoryMainLeft extends React.Component {
                                 {childCate.map((value, item) => {
                                     return (
                                         <li key={item}>
-                                            <Link style={{color:'#333'}} to={`/category/nodeid=${value.nodeid}&categoryindex=${value.categoryindex}`}>
+                                            <Link onClick={()=>this.handleCick()} style={{color:'#333'}} to={`/category/nodeid=${value.nodeid}&categoryindex=${value.categoryindex}`}>
                                                 <span className="title">{value.category}</span>
                                             </Link>
                                         </li>
