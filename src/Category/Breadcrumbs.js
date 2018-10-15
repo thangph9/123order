@@ -17,7 +17,7 @@ class Breadcrumbs extends React.Component {
         })
         if (arrBreadcrumb.length <= mouseClickCategory.categoryindex-1) {
             this.setState({
-                arrBreadcrumb = this.state.arrBreadcrumb.concat(parentCate)
+                arrBreadcrumb : this.state.arrBreadcrumb.concat(parentCate)
             })
         }
         
