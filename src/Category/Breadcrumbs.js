@@ -39,7 +39,7 @@ class Breadcrumbs extends React.Component {
                 return v.categoryindex==(categoryindex-1)&&v.groupid==mouseClickCategory.nodeid
             })
         }
-        
+        console.log(breadcrunmb);
         return (
             <section id="breadcrumbs-block-v2" className="breadcrumbs-block-v2" style={{ marginBottom: 30 }}>
                 <div className="container-fedo" itemScope="itemscope" itemType="http://schema.org/BreadcrumbList" style={{ padding: 0, height: 33 }}>
@@ -57,9 +57,11 @@ class Breadcrumbs extends React.Component {
                                         </a>
                                         <meta itemProp="position" content={1} />
                                     </li>
+                                    
                                 </span>
                             )
                         })}
+                        <li className="break" />
                     </ul>
                     <form className="search-form" id="search-cate">
                         <input type="search" id="keyword-input-index" defaultValue="" className="keyword-input keyword-txt" placeholder="Tìm kiếm trong danh mục..." />
