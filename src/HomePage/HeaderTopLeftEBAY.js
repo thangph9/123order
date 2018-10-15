@@ -55,10 +55,10 @@ class HeaderTopLeftEBAY extends React.Component {
         
     }
     handleMouseOutMenu(){
-        document.getElementById("menuEbay").style.display = "none";
+        document.getElementById("linkEbay").style.display = "none";
     }
     handleMouseOverMenu(){
-        document.getElementById("menuEbay").style.display = "block";
+        document.getElementById("linkEbay").style.display = "block";
     }
     render() {
         var { LoadCate } = this.props;
