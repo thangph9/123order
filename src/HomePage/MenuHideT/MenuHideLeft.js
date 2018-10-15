@@ -37,7 +37,7 @@ class MenuHideLeft extends React.Component {
         this.props.dispatch(initLoadCategoryIndexThird(mapCate))
     }
     handleClick(){
-        document.getElementById("linkEbay").style.display = "none";
+        document.getElementById("linkTopStore").style.display = "none";
     }
     handleSubmit() {
         this.setState({
