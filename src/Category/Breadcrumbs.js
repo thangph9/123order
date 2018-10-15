@@ -45,7 +45,6 @@ class Breadcrumbs extends React.Component {
                     arr: this.state.arr.filter((v, i) => i !== (this.state.arr.length - 1))
                 })
             }
-            else if 
             
             
         }
