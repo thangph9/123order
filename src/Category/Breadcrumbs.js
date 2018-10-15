@@ -11,7 +11,7 @@ class Breadcrumbs extends React.Component {
         }
     }
     myFunc(categoryindex,nodeid,arr){
-
+        var {initLoadCategoryItem}=this.props;
             var breadcrunmb=initLoadCategoryItem.filter((v,i)=>{
                 return v.nodeid==nodeid
             })
@@ -31,7 +31,7 @@ class Breadcrumbs extends React.Component {
         return arr;
     }
     render() {
-        var {initLoadCategoryItem}=this.props;
+        
         var {mouseClickCategory} = this.props;
         var categoryindex=Number(mouseClickCategory.categoryindex);
         var arr=[];
