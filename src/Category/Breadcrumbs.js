@@ -31,7 +31,7 @@ class Breadcrumbs extends React.Component {
                         <li className="break" />
                             <li className="is-active">
                                 <a itemProp="item">
-                                    <span itemProp="name">{showBreadcrumbByCategory.category}</span>
+                                    <span itemProp="name">Electronics</span>
                                 </a>
                                 <meta itemProp="position" content={1} />
                             </li>
