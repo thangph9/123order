@@ -17,7 +17,7 @@ class Breadcrumbs extends React.Component {
             })
             
             if(breadcrunmb[0].categoryindex==1){
-                arr.push(breadcrunmb[0].category)
+                arr.push(breadcrunmb[0].category);return arr;
             }
             else{
                for(var i=1;i<=categoryindex;i++){
@@ -28,10 +28,10 @@ class Breadcrumbs extends React.Component {
                     return value.nodeid==breadcrunmbChild[0].groupid
                 })
                 arr.push(breadcrunmbParent[0].category)
+                this.myFunc(breadcrunmbParent[0].categoryindex,breadcrunmbParent[0].nodeid,arr)
                }
             }
         
-        return arr;
     }
     render() {
         
