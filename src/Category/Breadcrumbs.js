@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import { Link } from "react-router-dom";
 class Breadcrumbs extends React.Component {
     constructor(props) {
         super(props);
@@ -18,7 +19,7 @@ class Breadcrumbs extends React.Component {
         var breadcrunmbParent = initLoadCategoryItem.filter((value, index) => {
             return value.nodeid == breadcrunmb[0].groupid
         })
-        arr.push(breadcrunmbParent[0].category)
+        arr.push(breadcrunmbParent[0])
         if (breadcrunmbParent[0].categoryindex > 1) {
             this.myFunc(breadcrunmbParent[0].nodeid, arr)
         }
@@ -34,7 +35,7 @@ class Breadcrumbs extends React.Component {
             var parentCate = initLoadCategoryItem.filter((item) => {
                 return item.nodeid == mouseClickCategory.nodeid;
             })
-            newarr.unshift(parentCate[0].category);
+            newarr.unshift(parentCate[0]);
         }
         newarr.reverse();
         console.log(newarr);
@@ -50,9 +51,9 @@ class Breadcrumbs extends React.Component {
                                 <span key={i}>
                                     <li className="break" />
                                     <li className="is-active">
-                                        <a itemProp="item">
-                                            <span itemProp="name">{v}</span>
-                                        </a>
+                                        <Link to={`/category/nodeid=${v.nodeid}&categoryindex=${v.categoryindex}`} itemProp="item">
+                                            <span itemProp="name">{v.category}</span>
+                                        </Link>
                                         <meta itemProp="position" content={1} />
                                     </li>
 
