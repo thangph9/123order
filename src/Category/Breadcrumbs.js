@@ -6,17 +6,19 @@ class Breadcrumbs extends React.Component {
         this.state = {
             login: true,
             loading: false,
+            arrBreadcrumb:[]
         }
     }
     render() {
         var { mouseClickCategory } = this.props;
         var { initLoadCategoryItem } = this.props;
-        var arrBreadcrumb = [];
         var parentCate = initLoadCategoryItem.filter((item) => {
             return item.nodeid == mouseClickCategory.nodeid;
         })
         if (arrBreadcrumb.length <= mouseClickCategory.categoryindex-1) {
-            arrBreadcrumb = arrBreadcrumb.concat(parentCate);
+            this.setState({
+                arrBreadcrumb = this.state.arrBreadcrumb.concat(parentCate)
+            })
         }
         
         return (
