@@ -16,6 +16,9 @@ class MenuHideRight extends React.Component {
     })
     console.log("Hello World")
   }
+  handleClick(){
+    document.getElementById("linkEbay").style.display = "none";
+  }
   render() {
     var { mouseOver } = this.props;
     var { LoadCategoryIndexSencond } = this.props;
@@ -37,10 +40,10 @@ class MenuHideRight extends React.Component {
                     return (
                       <div key={index} className="col-md-4">
                         <ul>
-                          <Link style={{color:'#212529'}} to={`/category/nodeid=${value.nodeid}&categoryindex=${value.categoryindex}`} className="list-tittle">{value.category}</Link>
+                          <Link onClick={()=>this.handleClick()} style={{color:'#212529'}} to={`/category/nodeid=${value.nodeid}&categoryindex=${value.categoryindex}`} className="list-tittle">{value.category}</Link>
                           {initLoadCategoryIndexThird.length > 0 && initLoadCategoryIndexThird[index].map((v, i) => {
                             return (<li key={i}>
-                              <Link to={`/category/nodeid=${v.nodeid}&categoryindex=${v.categoryindex}`} className="ml-2 text-dark  list-item">{v.category}</Link>
+                              <Link onClick={()=>this.handleClick()} to={`/category/nodeid=${v.nodeid}&categoryindex=${v.categoryindex}`} className="ml-2 text-dark  list-item">{v.category}</Link>
                             </li>)
                           })}
                         </ul>
