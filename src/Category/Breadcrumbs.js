@@ -59,7 +59,6 @@ function mapStateToProps(state) {
         loadAdd: state.loadAdd,
         mouseClickCategory: state.mouseClickCategory,
         initLoadCategoryItem: state.initLoadCategoryItem,
-        showBreadcrumbByCategory
     }
 }
 const connectedHomePage = connect(mapStateToProps)(Breadcrumbs);
