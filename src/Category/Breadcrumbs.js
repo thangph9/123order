@@ -10,40 +10,33 @@ class Breadcrumbs extends React.Component {
             num: ''
         }
     }
-    summaryCategory(nodeid, categoryindex, arr) {
+    myFunc(categoryindex,nodeid,arr){
 
-        var childCate = this.props.initLoadCategoryItem.filter((item) => {
-            return item.groupid == nodeid && item.categoryindex == categoryindex + 1;
-        })
-        arr.push(nodeid);
-        if (childCate.length > 0) {
-            childCate.forEach((value, index) => {
-
-                this.summaryCategory(value.nodeid, value.categoryindex, arr)
+            var breadcrunmb=initLoadCategoryItem.filter((v,i)=>{
+                return v.nodeid==nodeid
             })
-        }
+            
+            if(breadcrunmb[0].categoryindex==1){
+                arr.push(breadcrunmb[0].category)
+            }
+            else{
+               for(var i=1;i<=categoryindex;i++){
+                var breadcrunmbParent=initLoadCategoryItem.filter((value,index)=>{
+                    return v.nodeid==breadcrunmb[0].groupid
+                })
+                myFunc(breadcrunmbParent[0].categoryindex,breadcrunmb[0].nodeid,arr)
+               }
+            }
+        
         return arr;
     }
     render() {
         var {initLoadCategoryItem}=this.props;
         var {mouseClickCategory} = this.props;
         var categoryindex=Number(mouseClickCategory.categoryindex);
-        var breadcrunmb=[];
-        if(categoryindex==1){
-            breadcrunmb=initLoadCategoryItem.filter((v,i)=>{
-                return v.nodeid==mouseClickCategory.nodeid
-            })
-        }
-        else{
-            var breadcrunmbChild=initLoadCategoryItem.filter((v,i)=>{
-                return v.nodeid==mouseClickCategory.nodeid
-            })
-            var breadcrunmbParent=initLoadCategoryItem.filter((v,i)=>{
-                return v.nodeid==breadcrunmbChild[0].groupid
-            })
-            console.log(breadcrunmbParent);
-        }
-        console.log(breadcrunmb);
+        var arr=[];
+        var newarr=this.myFunc(categoryindex,mouseClickCategory.nodeid,arr);
+        console.log(newarr);
         return (
             <section id="breadcrumbs-block-v2" className="breadcrumbs-block-v2" style={{ marginBottom: 30 }}>
                 <div className="container-fedo" itemScope="itemscope" itemType="http://schema.org/BreadcrumbList" style={{ padding: 0, height: 33 }}>
