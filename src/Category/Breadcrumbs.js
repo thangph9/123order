@@ -24,7 +24,7 @@ class Breadcrumbs extends React.Component {
                 var breadcrunmbParent=initLoadCategoryItem.filter((value,index)=>{
                     return value.nodeid==breadcrunmb[0].groupid
                 })
-                myFunc(breadcrunmbParent[0].categoryindex,breadcrunmb[0].nodeid,arr)
+                this.myFunc(breadcrunmbParent[0].categoryindex,breadcrunmb[0].nodeid,arr)
                }
             }
         
