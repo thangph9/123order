@@ -29,7 +29,7 @@ class Breadcrumbs extends React.Component {
         var {mouseClickCategory} = this.props;
         var categoryindex=Number(mouseClickCategory.categoryindex);
         var breadcrunmb=[];
-        if(mouseClickCategory.categoryindex==1){
+        if(categoryindex==1){
             breadcrunmb=initLoadCategoryItem.filter((v,i)=>{
                 return v.nodeid==mouseClickCategory.nodeid
             })
