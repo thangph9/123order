@@ -8,6 +8,7 @@ class CategoryMainLeft extends React.Component {
         this.state = {
             login: true,
             loading: false,
+            arr:[]
         }
     }
     render() {
@@ -19,8 +20,9 @@ class CategoryMainLeft extends React.Component {
         var childCate = initLoadCategoryItem.filter((item) => {
             return item.groupid == mouseClickCategory.nodeid && item.categoryindex == (Number(mouseClickCategory.categoryindex) + 1);
         })
-        var arr=[];
-        arr.push(parentCate[0].nodeid);
+        this.setState({
+            arr: this.state.arr.concat(parentCate[0].nodeid)
+        })
         console.log(arr);
         return (
             <div>
