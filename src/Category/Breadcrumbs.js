@@ -44,20 +44,16 @@ class Breadcrumbs extends React.Component {
                         <li><a href="https://fado.vn" itemProp="item"><span itemProp="name">Trang chủ</span></a></li>
                         <li className="break" />
                         <li><a href="/us/amazon-store/" itemProp="item"><span itemProp="name">Amazon Mỹ</span></a></li>
-                        {breadcrunmb.map((v, i) => {
-                            return (
-                                <span key={i}>
+                        <span>
                                     <li className="break" />
                                     <li className="is-active">
                                         <a itemProp="item">
-                                            <span itemProp="name">{v.category}</span>
+                                            <span itemProp="name">E</span>
                                         </a>
                                         <meta itemProp="position" content={1} />
                                     </li>
                                     
                                 </span>
-                            )
-                        })}
                         <li className="break" />
                     </ul>
                     <form className="search-form" id="search-cate">
