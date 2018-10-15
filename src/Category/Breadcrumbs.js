@@ -6,9 +6,24 @@ class Breadcrumbs extends React.Component {
         this.state = {
             login: true,
             loading: false,
+            arrBreacrumbs: []
         }
     }
     render() {
+        var { mouseClickCategory } = this.props;
+        var { initLoadCategoryItem } = this.props;
+        if (mouseClickCategory.categoryindex == 1) {
+            this.setState({
+                arrBreacrumbs: []
+            })
+        }
+        var parentCate = initLoadCategoryItem.filter((item) => {
+            return item.nodeid == mouseClickCategory.nodeid;
+        })
+        this.setState({
+            arrBreacrumbs: arrBreacrumbs.concat(parentCate)
+        })
+
         return (
             <section id="breadcrumbs-block-v2" className="breadcrumbs-block-v2" style={{ marginBottom: 30 }}>
                 <div className="container-fedo" itemScope="itemscope" itemType="http://schema.org/BreadcrumbList" style={{ padding: 0, height: 33 }}>
@@ -17,12 +32,16 @@ class Breadcrumbs extends React.Component {
                         <li className="break" />
                         <li><a href="/us/amazon-store/" itemProp="item"><span itemProp="name">Amazon Mỹ</span></a></li>
                         <li className="break" />
-                        <li className="is-active">
-                            <a itemProp="item">
-                                <span itemProp="name">Electronics</span>
-                            </a>
-                            <meta itemProp="position" content={1} />
-                        </li>
+                        {this.state.Breadcrumbs.map((value, index) => {
+                            return (
+                                <li key={index} className="is-active">
+                                    <a itemProp="item">
+                                        <span itemProp="name">{value.category}</span>
+                                    </a>
+                                    <meta itemProp="position" content={1} />
+                                </li>
+                            )
+                        })}
                         <li className="break" />
                     </ul>
                     <form className="search-form" id="search-cate">
@@ -37,7 +56,9 @@ class Breadcrumbs extends React.Component {
 }
 function mapStateToProps(state) {
     return {
-        loadAdd: state.loadAdd
+        loadAdd: state.loadAdd,
+        mouseClickCategory: state.mouseClickCategory,
+        initLoadCategoryItem: state.initLoadCategoryItem
     }
 }
 const connectedHomePage = connect(mapStateToProps)(Breadcrumbs);
