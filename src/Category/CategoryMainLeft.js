@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
+import {showBreadcrumbByCategory} from '../actions';
 class CategoryMainLeft extends React.Component {
     constructor(props) {
         super(props);
@@ -12,12 +13,16 @@ class CategoryMainLeft extends React.Component {
     render() {
         var { initLoadCategoryItem } = this.props;
         var { mouseClickCategory } = this.props;
+        
         var parentCate = initLoadCategoryItem.filter((item) => {
             return item.nodeid == mouseClickCategory.nodeid;
         })
         var childCate = initLoadCategoryItem.filter((item) => {
             return item.groupid == mouseClickCategory.nodeid && item.categoryindex == (Number(mouseClickCategory.categoryindex) + 1);
         })
+        if(showBreadcrumbByCategory.length<=mouseClickCategory.categoryindex-1){
+            this.props.dispatch(showBreadcrumbByCategory(showBreadcrumbByCategory.concat(parentCate)));
+        }
         return (
             <div>
                 <aside className="container-aside">
@@ -333,7 +338,8 @@ class CategoryMainLeft extends React.Component {
 function mapStateToProps(state) {
     return {
         initLoadCategoryItem: state.initLoadCategoryItem,
-        mouseClickCategory: state.mouseClickCategory
+        mouseClickCategory: state.mouseClickCategory,
+        showBreadcrumbByCategory:state.showBreadcrumbByCategory
     }
 }
 const connectedHomePage = connect(mapStateToProps)(CategoryMainLeft);

@@ -21,6 +21,7 @@ import {initLoadCategoryThirdItem} from './loadInitReducer';
 import {initLoadProductDetailAmazon} from './loadInitReducer';
 import {initLoadCategoryIndexSecond} from './loadInitReducer';
 import {initLoadCategoryIndexThird} from './loadInitReducer';
+import {showBreadcrumbByCategory} from './mouseClickReducer';
 import {mouseClickCategory} from './mouseClickReducer';
 import {showSummaryProductByCategory} from './mouseClickReducer';
 import {initLoadCategoryItem} from './loadInitReducer';
@@ -51,6 +52,7 @@ const rootReducer=combineReducers({
     initLoadCategoryItem,
     initLoadCategoryProducts,
     showSummaryProductByCategory,
-    initLoadProductDetailAmazon
+    initLoadProductDetailAmazon,
+    showBreadcrumbByCategory
 });
 export default rootReducer;

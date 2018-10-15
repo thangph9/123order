@@ -28,5 +28,11 @@ export const showSummaryProductByCategory=(numb)=>{
 		numb
 	}
 }
+export const showBreadcrumbByCategory=(arr)=>{
+	return{
+		type: 'SHOW_BREADCRUMB_BY_CATEGORY',
+		arr
+	}
+}
 
 

@@ -1,26 +1,18 @@
 import React from "react";
 import { connect } from "react-redux";
+import { showBreadcrumbByCategory } from '../actions';
 class Breadcrumbs extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             login: true,
             loading: false,
-            arrBreadcrumb:[]
         }
     }
     render() {
-        var { mouseClickCategory } = this.props;
-        var { initLoadCategoryItem } = this.props;
-        var parentCate = initLoadCategoryItem.filter((item) => {
-            return item.nodeid == mouseClickCategory.nodeid;
-        })
-        if (this.state.arrBreadcrumb.length <= mouseClickCategory.categoryindex-1) {
-            this.setState({
-                arrBreadcrumb : this.state.arrBreadcrumb.concat(parentCate)
-            })
-        }
-        
+        var { showBreadcrumbByCategory } = this.props;
+
+
         return (
             <section id="breadcrumbs-block-v2" className="breadcrumbs-block-v2" style={{ marginBottom: 30 }}>
                 <div className="container-fedo" itemScope="itemscope" itemType="http://schema.org/BreadcrumbList" style={{ padding: 0, height: 33 }}>
@@ -29,14 +21,17 @@ class Breadcrumbs extends React.Component {
                         <li className="break" />
                         <li><a href="/us/amazon-store/" itemProp="item"><span itemProp="name">Amazon Mỹ</span></a></li>
                         <li className="break" />
-                        {this.state.arrBreadcrumb.map((value, index) => {
+                        {(showBreadcrumbByCategory.length>0)&&showBreadcrumbByCategory.map((value, index) => {
                             return (
-                                <li key={index} className="is-active">
-                                    <a itemProp="item">
-                                        <span itemProp="name">{value.category}</span>
-                                    </a>
-                                    <meta itemProp="position" content={1} />
-                                </li>)
+                                <div key={index}>
+                                    <li className="break" />
+                                    <li  className="is-active">
+                                        <a itemProp="item">
+                                            <span itemProp="name">{value.category}</span>
+                                        </a>
+                                        <meta itemProp="position" content={1} />
+                                    </li>
+                                </div>)
                         })}
                         <li className="break" />
                     </ul>
@@ -55,6 +50,7 @@ function mapStateToProps(state) {
         loadAdd: state.loadAdd,
         mouseClickCategory: state.mouseClickCategory,
         initLoadCategoryItem: state.initLoadCategoryItem,
+        showBreadcrumbByCategory
     }
 }
 const connectedHomePage = connect(mapStateToProps)(Breadcrumbs);

@@ -40,3 +40,11 @@ export function showSummaryProductByCategory(state=0,action){
 			return state;
 	}	
 }
+export function showBreadcrumbByCategory(state=[],action){
+	switch (action.type) {
+		case 'SHOW_BREADCRUMB_BY_CATEGORY':
+		return action.arr;
+		default:
+			return state;
+	}	
+}
