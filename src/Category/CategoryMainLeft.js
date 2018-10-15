@@ -10,9 +10,6 @@ class CategoryMainLeft extends React.Component {
             loading: false,
         }
     }
-    handleClick(value){
-        this.props.dispatch(showBreadcrumbByCategory(value));
-    }
     render() {
         var { initLoadCategoryItem } = this.props;
         var { mouseClickCategory } = this.props;
@@ -22,6 +19,9 @@ class CategoryMainLeft extends React.Component {
         var childCate = initLoadCategoryItem.filter((item) => {
             return item.groupid == mouseClickCategory.nodeid && item.categoryindex == (Number(mouseClickCategory.categoryindex) + 1);
         })
+        var arr=[];
+        arr.push(parentCate[0].nodeid);
+        console.log(arr);
         return (
             <div>
                 <aside className="container-aside">
@@ -34,7 +34,7 @@ class CategoryMainLeft extends React.Component {
                                 {childCate.map((value, item) => {
                                     return (
                                         <li key={item}>
-                                            <Link onClick={()=>this.handleClick(value)} style={{color:'#333'}} to={`/category/nodeid=${value.nodeid}&categoryindex=${value.categoryindex}`}>
+                                            <Link style={{color:'#333'}} to={`/category/nodeid=${value.nodeid}&categoryindex=${value.categoryindex}`}>
                                                 <span className="title">{value.category}</span>
                                             </Link>
                                         </li>
