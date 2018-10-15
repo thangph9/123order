@@ -6,20 +6,26 @@ class Breadcrumbs extends React.Component {
         this.state = {
             login: true,
             loading: false,
-            arr:[]
+            arr:[],
+            num:''
         }
     }
     componentDidUpdate(){
+        
+    }
+    render() {
         var { initLoadCategoryItem } = this.props;
         var { mouseClickCategory } = this.props;
         var parentCate = initLoadCategoryItem.filter((item) => {
             return item.nodeid == mouseClickCategory.nodeid;
         })
-        this.setState({
-            arr: this.state.arr.concat(parentCate[0].category)
-        })
-    }
-    render() {
+        if(this.state.num!=parentCate[0].nodeid){
+            this.setState({
+                num:parentCate[0].nodeid,
+                arr: this.state.arr.concat(parentCate[0].category)
+            })
+            
+        }
         console.log(this.state.arr);
         return (
             <section id="breadcrumbs-block-v2" className="breadcrumbs-block-v2" style={{ marginBottom: 30 }}>
