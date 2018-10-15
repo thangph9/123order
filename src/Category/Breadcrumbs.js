@@ -45,6 +45,9 @@ class Breadcrumbs extends React.Component {
                     arr: this.state.arr.filter((v, i) => i !== (this.state.arr.length - 1))
                 })
             }
+            else if 
+            
+            
         }
         console.log(this.state.arr);
         return (
@@ -56,7 +59,7 @@ class Breadcrumbs extends React.Component {
                         <li><a href="/us/amazon-store/" itemProp="item"><span itemProp="name">Amazon Mỹ</span></a></li>
                         {this.state.arr.map((v, i) => {
                             return (
-                                <div key={i}>
+                                <span key={i}>
                                     <li className="break" />
                                     <li className="is-active">
                                         <a itemProp="item">
@@ -65,7 +68,7 @@ class Breadcrumbs extends React.Component {
                                         <meta itemProp="position" content={1} />
                                     </li>
                                     <li className="break" />
-                                </div>
+                                </span>
                             )
                         })}
                     </ul>
