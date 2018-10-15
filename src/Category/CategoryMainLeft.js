@@ -31,14 +31,13 @@ class CategoryMainLeft extends React.Component {
             return item.groupid == mouseClickCategory.nodeid && item.categoryindex == (Number(mouseClickCategory.categoryindex) + 1);
         })
         
-        console.log(this.state.arr);
         return (
             <div>
                 <aside className="container-aside">
                     <section className="cate-sblock">
                         <div className="sblock-head">
                             <div className="sblock-title">{(parentCate.length>0)&&parentCate[0].category}</div>
-                        </div>{/* .sblock-head */}
+                        </div>
                         <div className="sblock-main">
                             <ul className={(childCate.length==0)?'':"cate-list"} style={{ paddingLeft: 0 }}>
                                 {childCate.map((value, item) => {
@@ -56,7 +55,7 @@ class CategoryMainLeft extends React.Component {
                     <section className="filter-sblock is-collapse">
                         <div className="sblock-head">
                             <div className="sblock-title">Amazon Certified</div>
-                        </div>{/* .sblock-head */}
+                        </div>
                         <div className="sblock-main">
                             <ul className="filter-list">
                                 <li>
@@ -71,13 +70,13 @@ class CategoryMainLeft extends React.Component {
                                         <span className="title">Works with Alexa</span>
                                     </a>
                                 </li>
-                            </ul>{/* .filter-list */}
-                        </div>{/* .sblock-main */}
-                    </section>{/* .filter-sblock */}
+                            </ul>
+                        </div>
+                    </section>
                     <section className="filter-sblock is-collapse">
                         <div className="sblock-head">
                             <div className="sblock-title">Featured Brands</div>
-                        </div>{/* .sblock-head */}
+                        </div>
                         <div className="sblock-main">
                             <ul className="filter-list">
                                 <li>
