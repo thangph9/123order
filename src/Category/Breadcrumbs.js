@@ -6,7 +6,7 @@ class Breadcrumbs extends React.Component {
         this.state = {
             login: true,
             loading: false,
-            arrBreadcrumb:[]
+            arrBreadcrumb: []
         }
     }
     render() {
@@ -32,17 +32,17 @@ class Breadcrumbs extends React.Component {
                         {this.state.arrBreadcrumb.map((value, index) => {
                             return (
                                 <div key={index}>
-                                    <li className="break" />
                                     <li className="is-active">
                                         <a itemProp="item">
                                             <span itemProp="name">{value.category}</span>
                                         </a>
                                         <meta itemProp="position" content={1} />
                                     </li>
+                                    <li className="break" />
                                 </div>
                             )
                         })}
-                        <li className="break" />
+
                     </ul>
                     <form className="search-form" id="search-cate">
                         <input type="search" id="keyword-input-index" defaultValue="" className="keyword-input keyword-txt" placeholder="Tìm kiếm trong danh mục..." />
