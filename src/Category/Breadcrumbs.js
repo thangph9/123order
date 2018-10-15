@@ -34,9 +34,9 @@ class Breadcrumbs extends React.Component {
             var parentCate = initLoadCategoryItem.filter((item) => {
                 return item.nodeid == mouseClickCategory.nodeid;
             })
-            newarr.push(parentCate[0].category);
+            newarr.unshift(parentCate[0].category);
         }
-        
+        newarr.reverse();
         console.log(newarr);
         return (
             <section id="breadcrumbs-block-v2" className="breadcrumbs-block-v2" style={{ marginBottom: 30 }}>
