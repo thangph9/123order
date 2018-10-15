@@ -28,6 +28,12 @@ class HeaderTopLeftTopStore extends React.Component{
 
         })
     }
+    handleMouseOutMenu(){
+        document.getElementById("linkTopStore").style.display = "none";
+    }
+    handleMouseOverMenu(){
+        document.getElementById("linkTopStore").style.display = "block";
+    }
     handleMouseOver(value) {
         if (value != 0) {
             this.props.dispatch(mouseOverCategory(value));
@@ -55,7 +61,7 @@ class HeaderTopLeftTopStore extends React.Component{
     render(){
         var {LoadCate}=this.props;
         return (
-            <li className="nav-item dropdown" id="menuTopStore">
+            <li className="nav-item dropdown" id="menuTopStore" onMouseOver={()=>this.handleMouseOverMenu()} onMouseOut={()=>this.handleMouseOutMenu()}>
                 <Link onMouseOver={(LoadCate.length>0)?()=>this.handleMouseOver(LoadCate[18]):()=>this.handleMouseOver(0)}  to="/" className="nav-link dropdown-toggle dropdown-arrow text-white" id="navbarDropdownMenuLinkTopStore" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TOP STORE</Link>
                 <div className="container dropdown-menu top-sore-position menu2-dropdown bg-white" aria-haspopup="true" aria-expanded="false" id="linkTopStore">
                 <MenuHideT/>

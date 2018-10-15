@@ -36,6 +36,9 @@ class MenuHideLeft extends React.Component {
         })
         this.props.dispatch(initLoadCategoryIndexThird(mapCate))
     }
+    handleClick(){
+        document.getElementById("linkEbay").style.display = "none";
+    }
     handleSubmit() {
         this.setState({
             login: false
@@ -53,7 +56,7 @@ class MenuHideLeft extends React.Component {
             <div className="container col-md-3 tab">
                 {(LoadCategory.length > 0) && newLoadCategory.map((value, index) => {
                     return (
-                        <Link id={(mouseOverCategory==newLoadCategory[0])?`link-${index}-color-category-amazon`:''} style={{color:'#212529'}} to={`/category/nodeid=${value.nodeid}&categoryindex=${value.categoryindex}`} key={index} className="row tablinks pl-4 my-3 link-color-category" onMouseOver={() => this.handleMouseOver(value)}>
+                        <Link onClick={()=>this.handleClick()} id={(mouseOverCategory==newLoadCategory[0])?`link-${index}-color-category-amazon`:''} style={{color:'#212529'}} to={`/category/nodeid=${value.nodeid}&categoryindex=${value.categoryindex}`} key={index} className="row tablinks pl-4 my-3 link-color-category" onMouseOver={() => this.handleMouseOver(value)}>
                             <div className="col-10">
                                 <span>{value.category}</span>
                             </div>
