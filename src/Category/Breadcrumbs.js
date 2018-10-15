@@ -10,24 +10,19 @@ class Breadcrumbs extends React.Component {
             num: ''
         }
     }
-    myFunc(categoryindex,nodeid,arr){
+    myFunc(nodeid,arr){
         var {initLoadCategoryItem}=this.props;
             var breadcrunmb=initLoadCategoryItem.filter((v,i)=>{
                 return v.nodeid==nodeid
             })
-            
+            var breadcrunmbParent=initLoadCategoryItem.filter((value,index)=>{
+                return value.nodeid==breadcrunmb[0].groupid
+            })
             if(breadcrunmb[0].categoryindex==1){
-                arr.push(breadcrunmb[0].category);return arr;
+                arr.push(breadcrunmbParent[0].category);return arr;
             }
-               for(var i=1;i<=categoryindex;i++){
-                var breadcrunmbChild=initLoadCategoryItem.filter((v,i)=>{
-                    return v.nodeid==nodeid
-                })
-                var breadcrunmbParent=initLoadCategoryItem.filter((value,index)=>{
-                    return value.nodeid==breadcrunmbChild[0].groupid
-                })
-                arr.push(breadcrunmbParent[0].category)
-                this.myFunc(breadcrunmbParent[0].categoryindex,breadcrunmbParent[0].nodeid,arr)
+            else{
+                this.myFunc(breadcrunmbParent[0].nodeid,arr)
             }
         
     }
@@ -36,7 +31,7 @@ class Breadcrumbs extends React.Component {
         var {mouseClickCategory} = this.props;
         var categoryindex=Number(mouseClickCategory.categoryindex);
         var arr=[];
-        var newarr=this.myFunc(categoryindex,mouseClickCategory.nodeid,arr);
+        var newarr=this.myFunc(mouseClickCategory.nodeid,arr);
         console.log(newarr);
         return (
             <section id="breadcrumbs-block-v2" className="breadcrumbs-block-v2" style={{ marginBottom: 30 }}>
