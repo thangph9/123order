@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
+import {showBreadcrumbByCategory} from '../actions';
 class CategoryMainLeft extends React.Component {
     constructor(props) {
         super(props);
@@ -8,6 +9,9 @@ class CategoryMainLeft extends React.Component {
             login: true,
             loading: false,
         }
+    }
+    handleClick(value){
+        this.props.dispatch(showBreadcrumbByCategory(value));
     }
     render() {
         var { initLoadCategoryItem } = this.props;
@@ -30,7 +34,7 @@ class CategoryMainLeft extends React.Component {
                                 {childCate.map((value, item) => {
                                     return (
                                         <li key={item}>
-                                            <Link style={{color:'#333'}} to={`/category/nodeid=${value.nodeid}&categoryindex=${value.categoryindex}`}>
+                                            <Link onClick={()=>this.handleClick(value)} style={{color:'#333'}} to={`/category/nodeid=${value.nodeid}&categoryindex=${value.categoryindex}`}>
                                                 <span className="title">{value.category}</span>
                                             </Link>
                                         </li>

@@ -9,6 +9,7 @@ class Breadcrumbs extends React.Component {
         }
     }
     render() {
+        var {showBreadcrumbByCategory} = this.props;
         return (
             <section id="breadcrumbs-block-v2" className="breadcrumbs-block-v2" style={{ marginBottom: 30 }}>
                 <div className="container-fedo" itemScope="itemscope" itemType="http://schema.org/BreadcrumbList" style={{ padding: 0, height: 33 }}>
@@ -19,7 +20,7 @@ class Breadcrumbs extends React.Component {
                         <li className="break" />
                         <li className="is-active">
                             <a itemProp="item">
-                                <span itemProp="name">Electronics</span>
+                                <span itemProp="name">{showBreadcrumbByCategory.category}</span>
                             </a>
                             <meta itemProp="position" content={1} />
                         </li>
@@ -37,7 +38,8 @@ class Breadcrumbs extends React.Component {
 }
 function mapStateToProps(state) {
     return {
-        loadAdd: state.loadAdd
+        loadAdd: state.loadAdd,
+        showBreadcrumbByCategory:state.showBreadcrumbByCategory
     }
 }
 const connectedHomePage = connect(mapStateToProps)(Breadcrumbs);
