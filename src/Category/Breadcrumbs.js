@@ -29,7 +29,7 @@ class Breadcrumbs extends React.Component {
                         <li className="break" />
                         <li><a href="/us/amazon-store/" itemProp="item"><span itemProp="name">Amazon Mỹ</span></a></li>
                         <li className="break" />
-                        {arrBreadcrumb.map((value, index) => {
+                        {this.state.arrBreadcrumb.map((value, index) => {
                             return (
                                 <li key={index} className="is-active">
                                     <a itemProp="item">
