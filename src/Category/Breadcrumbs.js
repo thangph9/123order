@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import { Link } from "react-router-dom";
 class Breadcrumbs extends React.Component {
     constructor(props) {
         super(props);
@@ -33,9 +34,9 @@ class Breadcrumbs extends React.Component {
                             return (
                                 <span key={index}>
                                     <li className="is-active">
-                                        <a >
+                                        <Link >
                                             <span itemProp="name">{value.category}</span>
-                                        </a>
+                                        </Link>
                                         <meta itemProp="position" content={1} />
                                     </li>
                                     <li className="break" />
