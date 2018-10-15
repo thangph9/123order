@@ -6,33 +6,45 @@ class Breadcrumbs extends React.Component {
         this.state = {
             login: true,
             loading: false,
-            arr:[],
-            num:''
+            arr: [],
+            num: ''
         }
     }
-    componentDidUpdate(){
-        
+    summaryCategory(nodeid, categoryindex, arr) {
+
+        var childCate = this.props.initLoadCategoryItem.filter((item) => {
+            return item.groupid == nodeid && item.categoryindex == categoryindex + 1;
+        })
+        arr.push(nodeid);
+        if (childCate.length > 0) {
+            childCate.forEach((value, index) => {
+
+                this.summaryCategory(value.nodeid, value.categoryindex, arr)
+            })
+        }
+        return arr;
     }
     render() {
         var { initLoadCategoryItem } = this.props;
         var { mouseClickCategory } = this.props;
+        var categoryindex = Number(mouseClickCategory.categoryindex);
+        var arr = [];
+        var newarr = this.summaryCategory(mouseClickCategory.nodeid, categoryindex, arr);
         var parentCate = initLoadCategoryItem.filter((item) => {
             return item.nodeid == mouseClickCategory.nodeid;
         })
-        if(parentCate[0]!=undefined&&this.state.num!=parentCate[0].nodeid){
-            if(this.state.arr.length<Number(mouseClickCategory.categoryindex)){
+        if (parentCate[0] != undefined && this.state.num != parentCate[0].nodeid) {
+            if (this.state.arr.length < Number(mouseClickCategory.categoryindex)) {
                 this.setState({
-                    num:parentCate[0].nodeid,
+                    num: parentCate[0].nodeid,
                     arr: this.state.arr.concat(parentCate[0].category)
                 })
             }
-            else if(this.state.arr.length-Number(mouseClickCategory.categoryindex)==1){
+            else if (this.state.arr.length - Number(mouseClickCategory.categoryindex) == 1) {
                 this.setState({
-                    arr: this.state.arr.filter((v, i) => i !== (this.state.arr.length-1))
+                    arr: this.state.arr.filter((v, i) => i !== (this.state.arr.length - 1))
                 })
             }
-            
-            
         }
         console.log(this.state.arr);
         return (
@@ -42,14 +54,20 @@ class Breadcrumbs extends React.Component {
                         <li><a href="https://fado.vn" itemProp="item"><span itemProp="name">Trang chủ</span></a></li>
                         <li className="break" />
                         <li><a href="/us/amazon-store/" itemProp="item"><span itemProp="name">Amazon Mỹ</span></a></li>
-                        <li className="break" />
-                            <li className="is-active">
-                                <a itemProp="item">
-                                    <span itemProp="name">Electronics</span>
-                                </a>
-                                <meta itemProp="position" content={1} />
-                            </li>
-                        <li className="break" />
+                        {this.state.arr.map((v, i) => {
+                            return (
+                                <div key={i}>
+                                    <li className="break" />
+                                    <li className="is-active">
+                                        <a itemProp="item">
+                                            <span itemProp="name">{v.category}</span>
+                                        </a>
+                                        <meta itemProp="position" content={1} />
+                                    </li>
+                                    <li className="break" />
+                                </div>
+                            )
+                        })}
                     </ul>
                     <form className="search-form" id="search-cate">
                         <input type="search" id="keyword-input-index" defaultValue="" className="keyword-input keyword-txt" placeholder="Tìm kiếm trong danh mục..." />
@@ -64,8 +82,8 @@ class Breadcrumbs extends React.Component {
 function mapStateToProps(state) {
     return {
         loadAdd: state.loadAdd,
-        initLoadCategoryItem:state.initLoadCategoryItem,
-        mouseClickCategory:state.mouseClickCategory
+        initLoadCategoryItem: state.initLoadCategoryItem,
+        mouseClickCategory: state.mouseClickCategory
     }
 }
 const connectedHomePage = connect(mapStateToProps)(Breadcrumbs);

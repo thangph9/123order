@@ -11,16 +11,7 @@ class CategoryMainLeft extends React.Component {
             arr:[]
         }
     }
-    handleCick(){
-        var { initLoadCategoryItem } = this.props;
-        var { mouseClickCategory } = this.props;
-        var parentCate = initLoadCategoryItem.filter((item) => {
-            return item.nodeid == mouseClickCategory.nodeid;
-        })
-        this.setState({
-            arr: this.state.arr.concat(parentCate[0].category)
-        })
-    }
+ 
     render() {
         var { initLoadCategoryItem } = this.props;
         var { mouseClickCategory } = this.props;
@@ -43,7 +34,7 @@ class CategoryMainLeft extends React.Component {
                                 {childCate.map((value, item) => {
                                     return (
                                         <li key={item}>
-                                            <Link onClick={()=>this.handleCick()} style={{color:'#333'}} to={`/category/nodeid=${value.nodeid}&categoryindex=${value.categoryindex}`}>
+                                            <Link style={{color:'#333'}} to={`/category/nodeid=${value.nodeid}&categoryindex=${value.categoryindex}`}>
                                                 <span className="title">{value.category}</span>
                                             </Link>
                                         </li>
