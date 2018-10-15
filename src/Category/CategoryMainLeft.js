@@ -18,7 +18,7 @@ class CategoryMainLeft extends React.Component {
             return item.nodeid == mouseClickCategory.nodeid;
         })
         this.setState({
-            arr: this.state.arr.concat(parentCate[0].nodeid)
+            arr: this.state.arr.concat(parentCate[0].category)
         })
     }
     render() {
