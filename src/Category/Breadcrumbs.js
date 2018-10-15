@@ -19,7 +19,6 @@ class Breadcrumbs extends React.Component {
             if(breadcrunmb[0].categoryindex==1){
                 arr.push(breadcrunmb[0].category);return arr;
             }
-            else{
                for(var i=1;i<=categoryindex;i++){
                 var breadcrunmbChild=initLoadCategoryItem.filter((v,i)=>{
                     return v.nodeid==nodeid
@@ -29,7 +28,6 @@ class Breadcrumbs extends React.Component {
                 })
                 arr.push(breadcrunmbParent[0].category)
                 this.myFunc(breadcrunmbParent[0].categoryindex,breadcrunmbParent[0].nodeid,arr)
-               }
             }
         
     }
