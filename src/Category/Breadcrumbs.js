@@ -1,6 +1,5 @@
 import React from "react";
 import { connect } from "react-redux";
-import { showBreadcrumbByCategory } from '../actions';
 class Breadcrumbs extends React.Component {
     constructor(props) {
         super(props);

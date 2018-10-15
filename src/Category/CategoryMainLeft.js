@@ -13,15 +13,15 @@ class CategoryMainLeft extends React.Component {
     render() {
         var { initLoadCategoryItem } = this.props;
         var { mouseClickCategory } = this.props;
-        
+        var {showBreadcrumb}=this.props;
         var parentCate = initLoadCategoryItem.filter((item) => {
             return item.nodeid == mouseClickCategory.nodeid;
         })
         var childCate = initLoadCategoryItem.filter((item) => {
             return item.groupid == mouseClickCategory.nodeid && item.categoryindex == (Number(mouseClickCategory.categoryindex) + 1);
         })
-        if(showBreadcrumbByCategory.length<=mouseClickCategory.categoryindex-1){
-            this.props.dispatch(showBreadcrumbByCategory(showBreadcrumbByCategory.concat(parentCate)));
+        if(showBreadcrumb.length<=mouseClickCategory.categoryindex-1){
+            this.props.dispatch(showBreadcrumbByCategory(showBreadcrumb.concat(parentCate)));
         }
         return (
             <div>
@@ -339,7 +339,7 @@ function mapStateToProps(state) {
     return {
         initLoadCategoryItem: state.initLoadCategoryItem,
         mouseClickCategory: state.mouseClickCategory,
-        showBreadcrumbByCategory:state.showBreadcrumbByCategory
+        showBreadcrumb:state.showBreadcrumbByCategory
     }
 }
 const connectedHomePage = connect(mapStateToProps)(CategoryMainLeft);
