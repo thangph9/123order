@@ -31,7 +31,7 @@ class Breadcrumbs extends React.Component {
                         <li className="break" />
                         {this.state.arrBreadcrumb.map((value, index) => {
                             return (
-                                <ul key={index}>
+                                <span key={index}>
                                     <li className="is-active">
                                         <a itemProp="item">
                                             <span itemProp="name">{value.category}</span>
@@ -39,7 +39,7 @@ class Breadcrumbs extends React.Component {
                                         <meta itemProp="position" content={1} />
                                     </li>
                                     <li className="break" />
-                                </ul>
+                                </span>
 
                             )
                         })}
