@@ -31,15 +31,19 @@ class Breadcrumbs extends React.Component {
                         <li className="break" />
                         {this.state.arrBreadcrumb.map((value, index) => {
                             return (
-                                    <li key={index} className="is-active">
+                                <ul key={index}>
+                                    <li className="is-active">
                                         <a itemProp="item">
                                             <span itemProp="name">{value.category}</span>
                                         </a>
                                         <meta itemProp="position" content={1} />
                                     </li>
+                                    <li className="break" />
+                                </ul>
+
                             )
                         })}
-                        <li className="break" />
+
                     </ul>
                     <form className="search-form" id="search-cate">
                         <input type="search" id="keyword-input-index" defaultValue="" className="keyword-input keyword-txt" placeholder="Tìm kiếm trong danh mục..." />
