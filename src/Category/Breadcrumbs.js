@@ -10,27 +10,31 @@ class Breadcrumbs extends React.Component {
             num: ''
         }
     }
-    myFunc(nodeid,arr){
-        var {initLoadCategoryItem}=this.props;
-            var breadcrunmb=initLoadCategoryItem.filter((v,i)=>{
-                return v.nodeid==nodeid
-            })
-            var breadcrunmbParent=initLoadCategoryItem.filter((value,index)=>{
-                return value.nodeid==breadcrunmb[0].groupid
-            })
-            arr.push(breadcrunmbParent[0].category)
-            if(breadcrunmbParent[0].categoryindex>1){
-                this.myFunc(breadcrunmbParent[0].nodeid,arr)
-            }
+    myFunc(nodeid, arr) {
+        var { initLoadCategoryItem } = this.props;
+        var breadcrunmb = initLoadCategoryItem.filter((v, i) => {
+            return v.nodeid == nodeid
+        })
+        var breadcrunmbParent = initLoadCategoryItem.filter((value, index) => {
+            return value.nodeid == breadcrunmb[0].groupid
+        })
+        arr.push(breadcrunmbParent[0].category)
+        if (breadcrunmbParent[0].categoryindex > 1) {
+            this.myFunc(breadcrunmbParent[0].nodeid, arr)
+        }
         return arr;
     }
     render() {
-        
-        var {mouseClickCategory} = this.props;
-        var categoryindex=Number(mouseClickCategory.categoryindex);
-        var arr=[];
-        var newarr=this.myFunc(mouseClickCategory.nodeid,arr);
-        console.log(newarr);
+
+        var { mouseClickCategory } = this.props;
+        var arr = [];
+        var newarr = this.myFunc(mouseClickCategory.nodeid, arr);
+        var { initLoadCategoryItem } = this.props;
+        var parentCate = initLoadCategoryItem.filter((item) => {
+            return item.nodeid == mouseClickCategory.nodeid;
+        })
+        newarr.push(parentCate[0].category);
+        newarr.reverse();
         return (
             <section id="breadcrumbs-block-v2" className="breadcrumbs-block-v2" style={{ marginBottom: 30 }}>
                 <div className="container-fedo" itemScope="itemscope" itemType="http://schema.org/BreadcrumbList" style={{ padding: 0, height: 33 }}>
@@ -38,16 +42,19 @@ class Breadcrumbs extends React.Component {
                         <li><a href="https://fado.vn" itemProp="item"><span itemProp="name">Trang chủ</span></a></li>
                         <li className="break" />
                         <li><a href="/us/amazon-store/" itemProp="item"><span itemProp="name">Amazon Mỹ</span></a></li>
-                        <span>
+                        {(newarr.length > 0) && newarr.map((v, i) => {
+                            return (
+                                <span key={i}>
                                     <li className="break" />
                                     <li className="is-active">
                                         <a itemProp="item">
-                                            <span itemProp="name">E</span>
+                                            <span itemProp="name">{v}</span>
                                         </a>
                                         <meta itemProp="position" content={1} />
                                     </li>
-                                    
-                                </span>
+
+                                </span>)
+                        })}
                         <li className="break" />
                     </ul>
                     <form className="search-form" id="search-cate">
