@@ -34,7 +34,7 @@ class Breadcrumbs extends React.Component {
                             return (
                                 <span key={index}>
                                     <li className="is-active">
-                                        <Link >
+                                        <Link to="#">
                                             <span itemProp="name">{value.category}</span>
                                         </Link>
                                         <meta itemProp="position" content={1} />
