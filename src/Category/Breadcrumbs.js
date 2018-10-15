@@ -20,10 +20,13 @@ class Breadcrumbs extends React.Component {
             return item.nodeid == mouseClickCategory.nodeid;
         })
         if(parentCate[0]!=undefined&&this.state.num!=parentCate[0].nodeid){
-            this.setState({
-                num:parentCate[0].nodeid,
-                arr: this.state.arr.concat(parentCate[0].category)
-            })
+            if(this.state.arr.length<mouseClickCategory.categoryindex){
+                this.setState({
+                    num:parentCate[0].nodeid,
+                    arr: this.state.arr.concat(parentCate[0].category)
+                })
+            }
+            
             
         }
         console.log(this.state.arr);
