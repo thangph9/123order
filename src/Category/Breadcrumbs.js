@@ -20,7 +20,7 @@ class Breadcrumbs extends React.Component {
         })
         arr.push(breadcrunmbParent[0].category)
         if (breadcrunmbParent[0].categoryindex > 1) {
-            this.myFunc(breadcrunmb[0].nodeid, arr)
+            this.myFunc(breadcrunmbParent[0].nodeid, arr)
         }
         return arr;
     }
