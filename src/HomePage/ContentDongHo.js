@@ -1,10 +1,10 @@
 import React from "react";
 import { connect } from "react-redux";
-import { ContentDealTitle } from "./ContentDealTitle";
-import { ProductItemBox } from "./ProductItemBox";
-import { ContentDongHoSeeMore } from "./ContentDongHoSeeMore";
+import { ContentDongHoTitle } from "./ContentDongHoTitle";
+import { ProductItemBoxDongHo } from "./ProductItemBoxDongHo";
+import { ContentDealSeeMore } from "./ContentDealSeeMore";
 
-class ContentDeal extends React.Component{
+class ContentDongHo extends React.Component{
     constructor(props){
         super(props);
         this.state={
@@ -24,10 +24,10 @@ class ContentDeal extends React.Component{
         //console.log(this.props.loadAdd);
         return (
             <div className="container-fluid mt-4">
-                <ContentDealTitle/>
+                <ContentDongHoTitle/>
                 <div className="container">
-                    <ProductItemBox/>
-                    <ContentDongHoSeeMore/>
+                    <ProductItemBoxDongHo/>
+                    <ContentDealSeeMore/>
                 </div>
             </div>
         )
@@ -38,5 +38,5 @@ function mapStateToProps(state){
   
     return state;
 }
-const connected=connect(mapStateToProps)(ContentDeal);
-export { connected as ContentDeal } 
+const connected=connect(mapStateToProps)(ContentDongHo);
+export { connected as ContentDongHo } 
