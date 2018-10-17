@@ -11,19 +11,18 @@ class Breadcrumbs extends React.Component {
             num: ''
         }
     }
-    
-    myFunc(arr) {
-        var { mouseClickCategory } = this.props;
+
+    myFunc(nodeid, arr) {
         var { initLoadCategoryItem } = this.props;
         var breadcrunmb = initLoadCategoryItem.filter((v, i) => {
-            return v.nodeid == mouseClickCategory.nodeid
+            return v.nodeid == nodeid
         })
-        console.log(breadcrunmb[0]);
         var breadcrunmbParent = initLoadCategoryItem.filter((value, index) => {
             return value.nodeid == breadcrunmb[0].groupid
         })
         arr.push(breadcrunmbParent[0])
-        console.log(breadcrunmbParent[0]);
+
+        console.log(breadcrunmbParent[0].categoryindex);
         if (breadcrunmbParent[0].categoryindex > 1) {
             this.myFunc(breadcrunmbParent[0].nodeid, arr)
         }
@@ -33,9 +32,11 @@ class Breadcrumbs extends React.Component {
 
         var { mouseClickCategory } = this.props;
         var { initLoadCategoryItem } = this.props;
+        if (mouseClickCategory != undefined) {
+            var nodeid = mouseClickCategory.nodeid;
             var arr = [];
-            console.log(mouseClickCategory);
-            var newarr = this.myFunc(arr);
+            var nodeid = mouseClickCategory.nodeid;
+            var newarr = this.myFunc(nodeid, arr);
             if (Number(mouseClickCategory.categoryindex) > 1) {
                 var parentCate = initLoadCategoryItem.filter((item) => {
                     return item.nodeid == mouseClickCategory.nodeid;
@@ -43,7 +44,8 @@ class Breadcrumbs extends React.Component {
                 newarr.unshift(parentCate[0]);
             }
             newarr.reverse();
-        
+        }
+
         return (
             <section id="breadcrumbs-block-v2" className="breadcrumbs-block-v2" style={{ marginBottom: 30 }}>
                 <div className="container-fedo" itemScope="itemscope" itemType="http://schema.org/BreadcrumbList" style={{ padding: 0, height: 33 }}>
