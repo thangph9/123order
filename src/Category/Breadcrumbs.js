@@ -11,6 +11,7 @@ class Breadcrumbs extends React.Component {
             num: ''
         }
     }
+    
     myFunc(nodeid, arr) {
         var { initLoadCategoryItem } = this.props;
         var breadcrunmb = initLoadCategoryItem.filter((v, i) => {
@@ -29,7 +30,7 @@ class Breadcrumbs extends React.Component {
 
         var { mouseClickCategory } = this.props;
         var { initLoadCategoryItem } = this.props;
-        if (mouseClickCategory!= undefined) {
+        if (mouseClickCategory.node!= undefined&&mouseClickCategory.groupid!=undefined) {
             var arr = [];
             var newarr = this.myFunc(mouseClickCategory.nodeid, arr);
             if (Number(mouseClickCategory.categoryindex) > 1) {
@@ -39,7 +40,6 @@ class Breadcrumbs extends React.Component {
                 newarr.unshift(parentCate[0]);
             }
             newarr.reverse();
-            console.log(newarr);
         }
         return (
             <section id="breadcrumbs-block-v2" className="breadcrumbs-block-v2" style={{ marginBottom: 30 }}>
