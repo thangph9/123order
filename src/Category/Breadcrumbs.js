@@ -31,14 +31,16 @@ class Breadcrumbs extends React.Component {
         var arr = [];
         var newarr = this.myFunc(mouseClickCategory.nodeid, arr);
         var { initLoadCategoryItem } = this.props;
-        if(Number(mouseClickCategory.categoryindex)>1){
-            var parentCate = initLoadCategoryItem.filter((item) => {
-                return item.nodeid == mouseClickCategory.nodeid;
-            })
-            newarr.unshift(parentCate[0]);
+        if(mouseClickCategory!=undefined){
+            if(Number(mouseClickCategory.categoryindex)>1){
+                var parentCate = initLoadCategoryItem.filter((item) => {
+                    return item.nodeid == mouseClickCategory.nodeid;
+                })
+                newarr.unshift(parentCate[0]);
+            }
+            newarr.reverse();
+            console.log(newarr);
         }
-        newarr.reverse();
-        console.log(newarr);
         return (
             <section id="breadcrumbs-block-v2" className="breadcrumbs-block-v2" style={{ marginBottom: 30 }}>
                 <div className="container-fedo" itemScope="itemscope" itemType="http://schema.org/BreadcrumbList" style={{ padding: 0, height: 33 }}>
