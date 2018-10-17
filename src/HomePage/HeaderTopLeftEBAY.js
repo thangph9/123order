@@ -65,7 +65,7 @@ class HeaderTopLeftEBAY extends React.Component {
         return (
             <li className="nav-item dropdown" id='menuEbay' onMouseOver={()=>this.handleMouseOverMenu()} onMouseOut={()=>this.handleMouseOutMenu()}>
                 <Link to="/danh-muc-ebay" className='nav-link text-white'  onMouseOver={(LoadCate.length > 0) ? () => this.handleMouseOver(LoadCate[0]) : () => this.handleMouseOver(0)}>
-                    EBAY
+                    Amazon Mỹ
                 </Link>
                 <div  className="container dropdown-menu ebay-position menu2-dropdown bg-white" aria-haspopup="true" aria-expanded="false" id='linkEbay'>
                     <MenuHide />

@@ -2,36 +2,36 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { MenuHideT } from "./MenuHideT";
-import {mouseOverCategory} from '../actions';
-import {initLoadCategoryIndexSecond} from '../actions';
-import {initLoadCategoryIndexThird} from '../actions';
+import { mouseOverCategory } from '../actions';
+import { initLoadCategoryIndexSecond } from '../actions';
+import { initLoadCategoryIndexThird } from '../actions';
 //import $ from 'jquery';
-class HeaderTopLeftTopStore extends React.Component{
-    constructor(props){
+class HeaderTopLeftTopStore extends React.Component {
+    constructor(props) {
         super(props);
-        this.state={
+        this.state = {
             login: true,
             loading: false,
         }
-        this.handleSubmit=this.handleSubmit.bind(this);
-        this.handleChange=this.handleChange.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleChange = this.handleChange.bind(this);
     }
-    handleSubmit(){
+    handleSubmit() {
         this.setState({
             login: false
         })
         console.log("Hello World")
     }
-    handleChange(e){
+    handleChange(e) {
         this.setState({
-            login:true,
+            login: true,
 
         })
     }
-    handleMouseOutMenu(){
+    handleMouseOutMenu() {
         document.getElementById("linkTopStore").style.display = "none";
     }
-    handleMouseOverMenu(){
+    handleMouseOverMenu() {
         document.getElementById("linkTopStore").style.display = "block";
     }
     handleMouseOver(value) {
@@ -58,27 +58,27 @@ class HeaderTopLeftTopStore extends React.Component{
             this.props.dispatch(initLoadCategoryIndexThird(mapCate))
         }
     }
-    render(){
-        var {LoadCate}=this.props;
+    render() {
+        var { LoadCate } = this.props;
         return (
-            <li className="nav-item dropdown" id="menuTopStore" onMouseOver={()=>this.handleMouseOverMenu()} onMouseOut={()=>this.handleMouseOutMenu()}>
-                <Link onMouseOver={(LoadCate.length>0)?()=>this.handleMouseOver(LoadCate[18]):()=>this.handleMouseOver(0)}  to="/" className="nav-link dropdown-toggle dropdown-arrow text-white" id="navbarDropdownMenuLinkTopStore" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TOP STORE</Link>
+            <li className="nav-item dropdown" id="menuTopStore" onMouseOver={() => this.handleMouseOverMenu()} onMouseOut={() => this.handleMouseOutMenu()}>
+                <Link onMouseOver={(LoadCate.length > 0) ? () => this.handleMouseOver(LoadCate[18]) : () => this.handleMouseOver(0)} to="/" className="nav-link dropdown-toggle dropdown-arrow text-white" id="navbarDropdownMenuLinkTopStore" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Amazon Đức</Link>
                 <div className="container dropdown-menu top-sore-position menu2-dropdown bg-white" aria-haspopup="true" aria-expanded="false" id="linkTopStore">
-                <MenuHideT/>
+                    <MenuHideT />
                 </div>
             </li>
         )
-        
+
     }
 }
-function mapStateToProps(state){
-  
+function mapStateToProps(state) {
+
     return {
         LoadCate: state.initLoadCategoryFirstItem,
-        initLoadCategorySecondItem:state.initLoadCategorySecondItem,
-        initLoadCategoryThirdItem:state.initLoadCategoryThirdItem,
-        
+        initLoadCategorySecondItem: state.initLoadCategorySecondItem,
+        initLoadCategoryThirdItem: state.initLoadCategoryThirdItem,
+
     }
 }
-const connected=connect(mapStateToProps)(HeaderTopLeftTopStore);
+const connected = connect(mapStateToProps)(HeaderTopLeftTopStore);
 export { connected as HeaderTopLeftTopStore } 
