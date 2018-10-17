@@ -32,7 +32,7 @@ class HeaderBotSearchRight extends React.Component{
               <input type="text" className="form-control" placeholder="Tìm sản phẩm, thương hiệu..." aria-label="Tìm sản phẩm, thương hiệu..." aria-describedby="button-addon2" />
               <div className="input-group-append">
                 <button className="btn btn-outline-secondary search-btn text-white" type="button" id="button-addon2">
-                  <i className="fas fa-search" />
+                  <i className="fa fa-search" />
                 </button>
               </div>
               <div className="justify-content-center ml-3 pt-1"> 

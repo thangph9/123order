@@ -20,7 +20,7 @@ class HeaderBot extends React.Component {
     render() {
 
         return (
-            <div className="container-fluid order-menu">
+            <div className="container-fluid order-menu" style={{paddingTop: '20px'}}>
                 <div className="container pt-4">
                   <HeaderBotSearch/>  
                   <HeaderBotMenu/>
