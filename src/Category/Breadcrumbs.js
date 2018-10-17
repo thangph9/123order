@@ -21,24 +21,11 @@ class Breadcrumbs extends React.Component {
             return value.nodeid == breadcrunmb[0].groupid
         })
         arr.push(breadcrunmbParent[0])
+        console.log(breadcrunmbParent[0].categoryindex);
         if (breadcrunmbParent[0].categoryindex > 1) {
             this.myFunc(breadcrunmbParent[0].nodeid, arr)
         }
         return arr;
-    }
-    componentWillMount(){
-        var { mouseClickCategory } = this.props;
-        var { initLoadCategoryItem } = this.props;
-            var arr = [];
-            console.log(mouseClickCategory);
-            var newarr = this.myFunc(mouseClickCategory.nodeid, arr);
-            if (Number(mouseClickCategory.categoryindex) > 1) {
-                var parentCate = initLoadCategoryItem.filter((item) => {
-                    return item.nodeid == mouseClickCategory.nodeid;
-                })
-                newarr.unshift(parentCate[0]);
-            }
-            newarr.reverse();
     }
     render() {
 
