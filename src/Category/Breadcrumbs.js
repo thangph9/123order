@@ -53,7 +53,7 @@ class Breadcrumbs extends React.Component {
                         <li><a href="https://fado.vn" itemProp="item"><span itemProp="name">Trang chủ</span></a></li>
                         <li className="break" />
                         <li><a href="/us/amazon-store/" itemProp="item"><span itemProp="name">Amazon Mỹ</span></a></li>
-                        {(newarr.length > 0) && newarr.map((v, i) => {
+                        {(initLoadCategoryItem!=undefined&&initLoadCategoryItem.length>0) && newarr.map((v, i) => {
                             return (
                                 <span key={i}>
                                     <li className="break" />
