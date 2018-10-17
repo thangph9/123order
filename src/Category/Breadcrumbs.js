@@ -12,10 +12,8 @@ class Breadcrumbs extends React.Component {
         }
     }
 
-    myFunc(nodeid, arr) {
+    myFunc(nodeid, arr,initLoadCategoryItem) {
         console.log(nodeid);
-        var { initLoadCategoryItem } = this.props;
-        console.log(initLoadCategoryItem);
         var breadcrunmb = initLoadCategoryItem.filter((v, i) => {
             return v.nodeid == nodeid
         })
@@ -26,7 +24,7 @@ class Breadcrumbs extends React.Component {
         arr.push(breadcrunmbParent[0])
         console.log(breadcrunmbParent[0].categoryindex);
         if (breadcrunmbParent[0].categoryindex > 1) {
-            this.myFunc(breadcrunmbParent[0].nodeid, arr)
+            this.myFunc(breadcrunmbParent[0].nodeid, arr,initLoadCategoryItem)
         }
         return arr;
     }
@@ -38,7 +36,7 @@ class Breadcrumbs extends React.Component {
             var nodeid = mouseClickCategory.nodeid;
             var arr = [];
             var nodeid = mouseClickCategory.nodeid;
-            var newarr = this.myFunc(nodeid, arr);
+            var newarr = this.myFunc(nodeid, arr,initLoadCategoryItem);
             if (Number(mouseClickCategory.categoryindex) > 1) {
                 var parentCate = initLoadCategoryItem.filter((item) => {
                     return item.nodeid == mouseClickCategory.nodeid;
