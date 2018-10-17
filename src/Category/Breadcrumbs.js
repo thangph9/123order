@@ -26,15 +26,11 @@ class Breadcrumbs extends React.Component {
         }
         return arr;
     }
-    render() {
-
+    componentWillMount(){
         var { mouseClickCategory } = this.props;
         var { initLoadCategoryItem } = this.props;
-        console.log(mouseClickCategory.categoryindex+" dong tren");
-        if (mouseClickCategory.nodeid!= undefined&&mouseClickCategory.categoryindex!=undefined) {
             var arr = [];
             console.log(mouseClickCategory);
-            console.log(mouseClickCategory.categoryindex+" dong duoi");
             var newarr = this.myFunc(mouseClickCategory.nodeid, arr);
             if (Number(mouseClickCategory.categoryindex) > 1) {
                 var parentCate = initLoadCategoryItem.filter((item) => {
@@ -43,7 +39,22 @@ class Breadcrumbs extends React.Component {
                 newarr.unshift(parentCate[0]);
             }
             newarr.reverse();
-        }
+    }
+    render() {
+
+        var { mouseClickCategory } = this.props;
+        var { initLoadCategoryItem } = this.props;
+            var arr = [];
+            console.log(mouseClickCategory);
+            var newarr = this.myFunc(mouseClickCategory.nodeid, arr);
+            if (Number(mouseClickCategory.categoryindex) > 1) {
+                var parentCate = initLoadCategoryItem.filter((item) => {
+                    return item.nodeid == mouseClickCategory.nodeid;
+                })
+                newarr.unshift(parentCate[0]);
+            }
+            newarr.reverse();
+        
         return (
             <section id="breadcrumbs-block-v2" className="breadcrumbs-block-v2" style={{ marginBottom: 30 }}>
                 <div className="container-fedo" itemScope="itemscope" itemType="http://schema.org/BreadcrumbList" style={{ padding: 0, height: 33 }}>
