@@ -1,7 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
 import { HeaderTopLeft } from "./HeaderTopLeft";
-import { HeaderTopRight } from "./HeaderTopRight";
 class HeaderTop extends React.Component {
     constructor(props) {
         super(props);
@@ -28,7 +27,6 @@ class HeaderTop extends React.Component {
                         </button>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <HeaderTopLeft/>
-                            <HeaderTopRight/>
                         </div>
                     </nav>
                 </div>
