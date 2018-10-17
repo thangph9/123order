@@ -4,7 +4,7 @@ import { ContentThoiTrangNuTitle } from "./ContentThoiTrangNuTitle";
 import { ProductItemBoxThoiTrangNu } from "./ProductItemBoxThoiTrangNu";
 import { ContentThoiTrangNuSeeMore } from "./ContentThoiTrangNuSeeMore";
 
-class ContentDeal extends React.Component{
+class ContentThoiTrangNu extends React.Component{
     constructor(props){
         super(props);
         this.state={
@@ -38,5 +38,5 @@ function mapStateToProps(state){
   
     return state;
 }
-const connected=connect(mapStateToProps)(ContentDeal);
-export { connected as ContentDeal } 
+const connected=connect(mapStateToProps)(ContentThoiTrangNu);
+export { connected as ContentThoiTrangNu } 
