@@ -2,8 +2,6 @@ import React from "react";
 import { connect } from "react-redux";
 import { ContentSale } from "./ContentSale";
 import { ContentDeal } from "./ContentDeal";
-import { ContentBuyAmazon } from "./ContentBuyAmazon";
-import { ContentBuyEbay } from "./ContentBuyEbay";
 import { ContentTransport } from "./ContentTransport";
 
 class Content extends React.Component{
@@ -27,8 +25,6 @@ class Content extends React.Component{
             <div>
                 <ContentSale/>
                 <ContentDeal/>
-                <ContentBuyAmazon/>
-                <ContentBuyEbay/>
                 <ContentTransport/>
             </div>
         )

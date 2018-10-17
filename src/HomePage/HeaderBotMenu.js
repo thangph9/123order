@@ -34,7 +34,6 @@ class HeaderBotMenu extends React.Component {
                             <HeaderBotMenuBestSeller/>
                             <HeaderBotMenuHotDeal/>
                             <HeaderBotMenuAmazon/>
-                            <HeaderBotMenuEbay/>
                         </ul>
                     </div>
                 </nav>
