@@ -17,6 +17,7 @@ class Breadcrumbs extends React.Component {
         var breadcrunmb = initLoadCategoryItem.filter((v, i) => {
             return v.nodeid == nodeid
         })
+        console.log(breadcrunmb[0]);
         var breadcrunmbParent = initLoadCategoryItem.filter((value, index) => {
             return value.nodeid == breadcrunmb[0].groupid
         })
