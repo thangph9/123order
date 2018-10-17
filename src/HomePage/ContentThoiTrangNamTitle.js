@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-class ContentDongHoTitle extends React.Component {
+class ContentThoiTrangNamTitle extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -30,5 +30,5 @@ function mapStateToProps(state) {
 
     return state;
 }
-const connected = connect(mapStateToProps)(ContentDongHoTitle);
-export { connected as ContentDongHoTitle } 
+const connected = connect(mapStateToProps)(ContentThoiTrangNamTitle);
+export { connected as ContentThoiTrangNamTitle } 

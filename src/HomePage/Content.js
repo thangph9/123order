@@ -4,6 +4,8 @@ import { ContentSale } from "./ContentSale";
 import { ContentDeal } from "./ContentDeal";
 import { ContentTransport } from "./ContentTransport";
 import { ContentDongHo } from "./ContentDongHo";
+import { ContentThoiTrangNam } from "./ContentThoiTrangNam";
+import { ContentThoiTrangNu } from "./ContentThoiTrangNu";
 class Content extends React.Component{
     constructor(props){
         super(props);
@@ -26,6 +28,8 @@ class Content extends React.Component{
                 <ContentSale/>
                 <ContentDeal/>
                 <ContentDongHo/>
+                <ContentThoiTrangNam/>
+                <ContentThoiTrangNu/>
                 <ContentTransport/>
             </div>
         )
