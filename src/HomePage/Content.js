@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { ContentSale } from "./ContentSale";
 import { ContentDeal } from "./ContentDeal";
 import { ContentTransport } from "./ContentTransport";
-
+import { ContentDongHo } from "./ContentDongHo";
 class Content extends React.Component{
     constructor(props){
         super(props);
@@ -25,6 +25,7 @@ class Content extends React.Component{
             <div>
                 <ContentSale/>
                 <ContentDeal/>
+                <ContentDongHo/>
                 <ContentTransport/>
             </div>
         )

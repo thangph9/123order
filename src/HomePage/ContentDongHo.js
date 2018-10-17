@@ -2,7 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import { ContentDongHoTitle } from "./ContentDongHoTitle";
 import { ProductItemBoxDongHo } from "./ProductItemBoxDongHo";
-import { ContentDealSeeMore } from "./ContentDealSeeMore";
+import { ContentDongHoSeeMore } from "./ContentDongHoSeeMore";
 
 class ContentDongHo extends React.Component{
     constructor(props){
@@ -27,7 +27,7 @@ class ContentDongHo extends React.Component{
                 <ContentDongHoTitle/>
                 <div className="container">
                     <ProductItemBoxDongHo/>
-                    <ContentDealSeeMore/>
+                    <ContentDongHoSeeMore/>
                 </div>
             </div>
         )
