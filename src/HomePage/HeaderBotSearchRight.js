@@ -27,8 +27,8 @@ class HeaderBotSearchRight extends React.Component{
     render(){
         
         return (
-            <div className="col-lg-8 offset-1">
-            <div className="input-group input-group-lg mb-3">
+            <div className="col-lg-8 offset-1" style={{marginLeft: '0px'}}>
+            <div className="input-group input-group-lg mb-3" style={{width: '800px',position: 'relative',left: '-46px'}}>
               <input type="text" className="form-control" placeholder="Tìm sản phẩm, thương hiệu..." aria-label="Tìm sản phẩm, thương hiệu..." aria-describedby="button-addon2" />
               <div className="input-group-append">
                 <button className="btn btn-outline-secondary search-btn text-white" type="button" id="button-addon2">
