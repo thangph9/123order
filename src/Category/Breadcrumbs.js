@@ -32,7 +32,7 @@ class Breadcrumbs extends React.Component {
 
         var { mouseClickCategory } = this.props;
         var { initLoadCategoryItem } = this.props;
-        if (mouseClickCategory != undefined) {
+        if (initLoadCategoryItem.length>0) {
             var nodeid = mouseClickCategory.nodeid;
             var arr = [];
             var nodeid = mouseClickCategory.nodeid;
