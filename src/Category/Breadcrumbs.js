@@ -13,6 +13,7 @@ class Breadcrumbs extends React.Component {
     }
 
     myFunc(nodeid, arr) {
+        console.log(nodeid);
         var { initLoadCategoryItem } = this.props;
         var breadcrunmb = initLoadCategoryItem.filter((v, i) => {
             return v.nodeid == nodeid
