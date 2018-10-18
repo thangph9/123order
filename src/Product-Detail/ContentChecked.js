@@ -39,7 +39,7 @@ class ContentChecked extends React.Component {
                                 <div className="img-pane">
                                     <a className="img-field" href="/de/tablet-stander-gritin-handyhalterung-phone-dock-multi-winkel-aluminium-verstellbar-stabil-stand-fur-ipad-air-mini-2-3-4-ipad-pro-97-105-iphone-x-8-7-7-plus-6s-6-plus-kindle-nexus-tab-tisch-halterung-und-anderer-tablets-B07C3C55SV.html">
                                         <span className="field-inner parent-img-loaded">
-
+                                            <img className="pd-img img-lazy" src="https://images-eu.ssl-images-amazon.com/images/I/41%2B-Du4Ow7L._SL500_SY135_.jpg" alt="img" style={{}} />
                                         </span>
                                     </a>
                                 </div>{/* .img-pane */}
@@ -49,7 +49,7 @@ class ContentChecked extends React.Component {
                                 <div className="img-pane">
                                     <a className="img-field" href="/de/tablet-stander-gritin-handyhalterung-phone-dock-multi-winkel-aluminium-verstellbar-stabil-stand-fur-ipad-air-mini-2-3-4-ipad-pro-97-105-iphone-x-8-7-7-plus-6s-6-plus-kindle-nexus-tab-tisch-halterung-und-anderer-tablets-B07C3C55SV.html">
                                         <span className="field-inner parent-img-loaded">
-
+                                            <img className="pd-img img-lazy" src="https://images-eu.ssl-images-amazon.com/images/I/41%2B-Du4Ow7L._SL500_SY135_.jpg" alt="img" style={{}} />
                                         </span>
                                     </a>
                                 </div>{/* .img-pane */}
@@ -59,7 +59,7 @@ class ContentChecked extends React.Component {
                                 <div className="img-pane">
                                     <a className="img-field" href="/de/tablet-stander-gritin-handyhalterung-phone-dock-multi-winkel-aluminium-verstellbar-stabil-stand-fur-ipad-air-mini-2-3-4-ipad-pro-97-105-iphone-x-8-7-7-plus-6s-6-plus-kindle-nexus-tab-tisch-halterung-und-anderer-tablets-B07C3C55SV.html">
                                         <span className="field-inner parent-img-loaded">
-
+                                            <img className="pd-img img-lazy" src="https://images-eu.ssl-images-amazon.com/images/I/41%2B-Du4Ow7L._SL500_SY135_.jpg" alt="img" style={{}} />
                                         </span>
                                     </a>
                                 </div>{/* .img-pane */}
@@ -69,7 +69,7 @@ class ContentChecked extends React.Component {
                                 <div className="img-pane">
                                     <a className="img-field" href="/de/tablet-stander-gritin-handyhalterung-phone-dock-multi-winkel-aluminium-verstellbar-stabil-stand-fur-ipad-air-mini-2-3-4-ipad-pro-97-105-iphone-x-8-7-7-plus-6s-6-plus-kindle-nexus-tab-tisch-halterung-und-anderer-tablets-B07C3C55SV.html">
                                         <span className="field-inner parent-img-loaded">
-
+                                            <img className="pd-img img-lazy" src="https://images-eu.ssl-images-amazon.com/images/I/41%2B-Du4Ow7L._SL500_SY135_.jpg" alt="img" style={{}} />
                                         </span>
                                     </a>
                                 </div>{/* .img-pane */}
@@ -79,7 +79,7 @@ class ContentChecked extends React.Component {
                                 <div className="img-pane">
                                     <a className="img-field" href="/de/tablet-stander-gritin-handyhalterung-phone-dock-multi-winkel-aluminium-verstellbar-stabil-stand-fur-ipad-air-mini-2-3-4-ipad-pro-97-105-iphone-x-8-7-7-plus-6s-6-plus-kindle-nexus-tab-tisch-halterung-und-anderer-tablets-B07C3C55SV.html">
                                         <span className="field-inner parent-img-loaded">
-
+                                            <img className="pd-img img-lazy" src="https://images-eu.ssl-images-amazon.com/images/I/41%2B-Du4Ow7L._SL500_SY135_.jpg" alt="img" style={{}} />
                                         </span>
                                     </a>
                                 </div>{/* .img-pane */}
@@ -89,7 +89,7 @@ class ContentChecked extends React.Component {
                                 <div className="img-pane">
                                     <a className="img-field" href="/de/tablet-stander-gritin-handyhalterung-phone-dock-multi-winkel-aluminium-verstellbar-stabil-stand-fur-ipad-air-mini-2-3-4-ipad-pro-97-105-iphone-x-8-7-7-plus-6s-6-plus-kindle-nexus-tab-tisch-halterung-und-anderer-tablets-B07C3C55SV.html">
                                         <span className="field-inner parent-img-loaded">
-
+                                            <img className="pd-img img-lazy" src="https://images-eu.ssl-images-amazon.com/images/I/41%2B-Du4Ow7L._SL500_SY135_.jpg" alt="img" style={{}} />
                                         </span>
                                     </a>
                                 </div>{/* .img-pane */}
