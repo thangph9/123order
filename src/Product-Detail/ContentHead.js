@@ -18,6 +18,7 @@ class ContentHead extends React.Component{
     }
     render(){
         var {loadDetail}=this.props;
+        var { mouseClickLink } = this.props;
         var starNumber=0;
         if(loadDetail[0]!=undefined) starNumber=Number(loadDetail[0].star)*20;
         return (
@@ -44,8 +45,8 @@ class ContentHead extends React.Component{
 								</div>
 							</div>
                             <div style={{color:'#737373'}}>
-                            <span style={{color:'#737373'}} itemProp="ratingValue">&nbsp; 4</span>/5
-                                        &nbsp;(<span>795</span> lượt đánh giá) &nbsp; | &nbsp; Bán tại: &nbsp;<i className="si si-logo-amz-mini" /> &nbsp; Amazon Đức &nbsp;|  &nbsp; Thương hiệu:  &nbsp; <span className="text-blue"><a style={{ color: '#007bff' }} href="/de/s/search/?rh=Lamicall&keywords=Lamicall" target="_blank"> Lamicall</a></span>
+                            <span style={{color:'#737373'}} itemProp="ratingValue">&nbsp; {(loadDetail[0]!=undefined)&&loadDetail[0].star}</span>/5
+                                        &nbsp;(<span>{(mouseClickLink!=undefined)&&mouseClickLink.reviews}</span> lượt đánh giá) &nbsp; | &nbsp; Bán tại: &nbsp;<i className="si si-logo-amz-mini" /> &nbsp; Amazon Đức &nbsp;|  &nbsp; Thương hiệu:  &nbsp; <span className="text-blue"><a style={{ color: '#007bff' }} href="/de/s/search/?rh=Lamicall&keywords=Lamicall" target="_blank"> Lamicall</a></span>
                             </div>
                             
 						</div>                                            
@@ -95,7 +96,8 @@ class ContentHead extends React.Component{
 function mapStateToProps(state){
   
     return {
-        loadDetail:state.initLoadProductDetail
+        loadDetail:state.initLoadProductDetail,
+        mouseClickLink:state.mouseClickLink
     }
 }
 const connectedContent=connect(mapStateToProps)(ContentHead);
