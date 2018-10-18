@@ -19,7 +19,7 @@ class ContentDealTitleBestSeller extends React.Component {
 
         return (
             <div className="row bg-white justify-content-center px-3 mb-2">
-                <span className="deal-header">DEAL SỐC TRONG NGÀY</span>
+                <span className="deal-header">BEST SELLER</span>
             </div>
 
         )

@@ -2,7 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import { ContentDealTitleBestSeller } from "./ContentDealTitleBestSeller";
 import { ProductItemBoxBestSeller } from "./ProductItemBoxBestSeller";
-import { ContentDealSeeMoreBesller } from "./ContentDealSeeMoreBesller";
+import { ContentDealSeeMoreBestller } from "./ContentDealSeeMoreBestller";
 
 class ContentDealBestSeller extends React.Component{
     constructor(props){
@@ -27,7 +27,7 @@ class ContentDealBestSeller extends React.Component{
                 <ContentDealTitleBestSeller/>
                 <div className="container">
                     <ProductItemBoxBestSeller/>
-                    <ContentDealSeeMoreBesller/>
+                    <ContentDealSeeMoreBestller/>
                 </div>
             </div>
         )
