@@ -18,13 +18,13 @@ class ContentRightDetail extends React.Component {
     }
     handleClick(value){
         var {settingNumberItem} =this.props;
-        newNumb=settingNumberItem+value;
+        var newNumb=settingNumberItem+value;
         if(newNumb>=1&&newNumb<=15){
             this.props.dispatch(settingNumberItem(newNumb));
         }
     }
     handleChange(){
-        
+
     }
     render() {
         var { mouseClickLink } = this.props;
