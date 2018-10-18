@@ -23,6 +23,8 @@ class ContentMain extends React.Component{
             <main style={{ marginBottom: 30 }} id="product-detail-container-v2" className="product-detail-container-v2 container-v2">
                     <ContentHead/>
                     <ContentBody/>
+                    <div className='clear-both'>
+                    </div>
             </main>
         )
         

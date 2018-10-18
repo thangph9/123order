@@ -1,6 +1,9 @@
 .body-product-detail{
 	background: #fafafa;
 }
+.clear-both{
+	clear: both;
+}
 .breadcrumbs-block-v2 {
 	border-bottom: 1px solid #e1e1e1;
 	min-height: 33px;
