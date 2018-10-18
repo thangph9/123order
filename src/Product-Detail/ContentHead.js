@@ -22,9 +22,9 @@ class ContentHead extends React.Component{
         var starNumber=0;
         if(loadDetail[0]!=undefined) starNumber=Number(loadDetail[0].star)*20;
         return (
-            <div className="container-head">
-                        <div className="product-detail-head-block">
-                            <div className="block-col-1">
+            <div className="container-head" style={{float:'left'}}>
+                        <div className="product-detail-head-block" >
+                            <div className="block-col-1" style={{    position: 'relative',top: '-10px'}}>
                                 <h1 style={{margin:'0px 0px 6px 0px'}} className="pd-title" itemProp="name" id="productName">
                                 {(loadDetail[0]!=undefined) &&loadDetail[0].title}
                                 </h1>
@@ -52,7 +52,7 @@ class ContentHead extends React.Component{
 						</div>                                            
                                 </div>{/* .meta-item-wrap */}
                             </div>{/* .block-col-1 */}
-                            <div className="block-col-2">
+                            <div className="block-col-2" style={{position: 'relative',left:'10px'}}>
                                 <div className="shop-segment">
                                     <div className="segment-head">
                                         <div className="icon-col"><i className="svg svg-shop svg-24px" /></div>
