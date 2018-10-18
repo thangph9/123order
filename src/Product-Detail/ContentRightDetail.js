@@ -89,7 +89,7 @@ class ContentRightDetail extends React.Component {
                             <div className="main-inner">
                                 <div className="control-col quantity-col">
                                     <div className="pd-quantity-control">
-                                        <input type="text" className="quantity-input quantity-input-fix" min={1} value={settingNumberItem} />
+                                        <input type="text" className="quantity-input quantity-input-fix" defaultValue={1} min={1} value={settingNumberItem} />
                                         <div onClick={()=>this.handleClick(1)} className="control-btn plus-btn">+</div>
                                         <div onClick={()=>this.handleClick(-1)} className="control-btn minus-btn is-disabled">-</div>
                                     </div>{/* .quantity-control */}
