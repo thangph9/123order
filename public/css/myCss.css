@@ -122,4 +122,8 @@
 	width: 207.6px !important; 
 	height:235px !important;
 }
+.list-checked .slick-slide{
+	width: 225 !important;
+	margin-right: 10px;
+}
 
