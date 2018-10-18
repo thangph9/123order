@@ -93,8 +93,8 @@ class ContentRightDetail extends React.Component {
                                 <div className="control-col quantity-col">
                                     <div className="pd-quantity-control">
                                         <input type="text" className="quantity-input quantity-input-fix" onChange={()=>this.handleChange()} value={settingNumber} />
-                                        <div onClick={()=>this.handleClick(1)} className={(settingNumber<15)?'control-btn plus-btn':'control-btn minus-btn is-disabled'}>+</div>
-                                        <div onClick={()=>this.handleClick(-1)} className={(settingNumber>1)?'control-btn plus-btn':'control-btn minus-btn is-disabled'}>-</div>
+                                        <div onClick={()=>this.handleClick(1)} className="control-btn plus-btn">+</div>
+                                        <div onClick={()=>this.handleClick(-1)} className="control-btn minus-btn">-</div>
                                     </div>{/* .quantity-control */}
                                 </div>
                                 <div className="control-col buy-now-col">
