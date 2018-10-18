@@ -18,7 +18,7 @@ class Itemscope extends React.Component {
     render() {
 
         return (
-            <section style={{marginBottom:'0px'}} id="breadcrumbs-block-v2" className="breadcrumbs-block-v2 ">
+            <section id="breadcrumbs-block-v2" className="breadcrumbs-block-v2 ">
                 <div className="container-fedo" itemScope="itemscope" itemType="https://schema.org/BreadcrumbList">
                     <ul className="link-list" itemProp="itemListElement" itemScope="itemscope" itemType="https://schema.org/ListItem">
                         <li><a href="/">Trang chủ</a></li>

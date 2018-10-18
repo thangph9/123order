@@ -1052,9 +1052,7 @@ background-image: url("https://static.fado.vn/f/desktop/v2/images/svg/product-de
 
 .product-detail-block-v2 .price-segment .price-panel .lbl-col {
 	flex: 0 0 120px;
-	
-	text-align: right;
-	margin-right: 15px;
+	text-align: left;
 }
 
 .product-detail-block-v2 .price-segment .price-panel .info-col {
