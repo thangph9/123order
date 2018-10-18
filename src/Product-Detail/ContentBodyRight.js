@@ -3,8 +3,6 @@ import { connect } from "react-redux";
 import { ContentRightDetail } from "./ContentRightDetail";
 import { Description } from "./Description";
 import { Parameter } from "./Parameter";
-import { CommentBlock } from "./CommentBlock";
-import { ShowComent } from "./ShowComent";
 class ContentBodyRight extends React.Component{
     constructor(props){
         super(props);
@@ -27,8 +25,7 @@ class ContentBodyRight extends React.Component{
                 <ContentRightDetail/>
                 <Description/>
                 <Parameter/>
-                <CommentBlock/>
-                <ShowComent/>
+                
             </div>
         )
         

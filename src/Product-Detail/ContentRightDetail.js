@@ -57,23 +57,6 @@ class ContentRightDetail extends React.Component {
                             </div>
                         </div>{/* .segment-main */}
                     </div>{/* .price-segment */}
-                    <div className="other-info-segment">
-                        <div className="segment-main">
-                            <div className="info-panel compare-panel">
-                                <div className="panel-head">
-                                    <div className="icon-col"><i className="svg svg-compare-grd svg-24px" /></div>
-                                    <div className="title-col" style={{ fontSize: 14 }}>
-                                        Quý Khách muốn so sánh giá với sản phẩm khác
-                  </div>
-                                    <div className="control-col">
-                                        <div className="btn btn-pill btn-grd-border btn-xs compare-btn compare ">
-                                            <div className="btn-inner"><i className="svg svg-plus-black svg-16px" /> Thêm vào so sánh</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>{/* .compare-panel */}
-                        </div>{/* .segment-main */}
-                    </div>{/* .other-info-segment */}
                     <div className="desc-segment">
                         <div className="segment-main">
                             <div className="param-list-outer">
