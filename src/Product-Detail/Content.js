@@ -21,7 +21,7 @@ class Content extends React.Component{
     render(){
         
         return (
-            <div className="body-product-detail">
+            <div >
                 <Itemscope/>
                 <ContentMain/>
                 <ContentChecked/>
