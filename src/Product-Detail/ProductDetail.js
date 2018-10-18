@@ -28,7 +28,7 @@ class ProductDetail extends React.Component {
             this.props.dispatch(mouseClickSmallImageProduct(0));
             this.props.dispatch(action);
         })
-        document.documentElement.scrollTop
+        document.documentElement.scrollTop=0
     }
     componentDidMount() {
         window.addEventListener('scroll', this.handleScrollToElement);
