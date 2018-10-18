@@ -91,8 +91,8 @@ class ContentBodyLeft extends React.Component {
                                         </div>
                                     </a>
                                 </div>
-                            </div>{/* .swiper-wrapper */}
-                        </div>{/* .swiper-container */}
+                            </div>
+                        </div>
                     </div>
                     <div className="product-thumb-segment">
                         <Slider {...settings}>
