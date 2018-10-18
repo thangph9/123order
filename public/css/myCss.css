@@ -141,6 +141,10 @@
 	height: 40px;
 	
 }
+.list-landing .slick-slide{
+	position: relative;
+	top: -40px;
+}
 .list-landing .slick-prev{
 	display: block;
 	position: relative;
@@ -155,5 +159,6 @@
 	top: -260px;
 	z-index: 1;
 }
+
 
 
