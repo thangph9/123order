@@ -23,8 +23,6 @@ class Itemscope extends React.Component {
                     <ul className="link-list" itemProp="itemListElement" itemScope="itemscope" itemType="https://schema.org/ListItem">
                         <li><a href="/">Trang chủ</a></li>
                         <li className="break" />
-                        <li><a href="/de/amazon-store/" itemProp="item"><span itemProp="name">Amazon Đức</span></a></li>
-                        <li className="break" />
                     </ul>
                 </div>
             </section>
