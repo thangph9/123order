@@ -25,7 +25,7 @@ class ContentHead extends React.Component{
             <div className="container-head" style={{float:'left'}}>
                         <div className="product-detail-head-block" >
                             <div className="block-col-1" style={{    position: 'relative',top: '-10px'}}>
-                                <h1 style={{margin:'0px 0px 6px 0px'}} className="pd-title" itemProp="name" id="productName">
+                                <h1 style={{margin:'0px 0px 6px 0px',width:'907px'}} className="pd-title" itemProp="name" id="productName">
                                 {(loadDetail[0]!=undefined) &&loadDetail[0].title}
                                 </h1>
                                 <div className="meta-item-wrap">
