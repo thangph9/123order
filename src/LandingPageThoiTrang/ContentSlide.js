@@ -25,7 +25,7 @@ class ContentSlide extends React.Component{
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 3000,
-            arrows: false
+            arrows: true
         };
         return (
             <div style={{marginTop:'21px',maringBot:'15px'}}>     
