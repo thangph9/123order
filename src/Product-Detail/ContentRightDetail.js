@@ -30,10 +30,10 @@ class ContentRightDetail extends React.Component {
                         </div>
                         <div className="segment-main">
                             <div className="price-type-col-wrap">
-                                <div className="price-type-col">
+                                <div className="price-type-col" style={{position: 'relative',left: '85px'}}>
                                     <div className="price-panel">
                                         <div className="info-item">
-                                            <div className="lbl-col">Giá bán tại Việt Nam <i className="fa fa-question-circle ttip guide-icon" aria-hidden="true" data-ttip="Giá trọn gói: bao gồm tất cả loại thuế phí,<br/>không phát sinh phụ phí" data-hasqtip={1} aria-describedby="qtip-2" /></div>
+                                            <div className="lbl-col" style={{flex: '0 0 160px'}}>Giá bán tại Việt Nam <i className="fa fa-question-circle ttip guide-icon" aria-hidden="true" data-ttip="Giá trọn gói: bao gồm tất cả loại thuế phí,<br/>không phát sinh phụ phí" data-hasqtip={1} aria-describedby="qtip-2" /></div>
                                             <div className="info-col">
                                                 <div id="currPrice" className="curr-price">{(mouseClickLink!=undefined) &&mouseClickLink.price}</div>
                                             </div>
@@ -53,12 +53,7 @@ class ContentRightDetail extends React.Component {
                                         </div>
                                     </div>{/* .price-panel */}
                                 </div>
-                                <div className="login-col">
-                                    <div className="login-panel">
-                                        <a className="login-btn btn btn-xs btn-grd-border btn-pill" href="https://fado.vn/dang-nhap?r=https:%2F%2Ffado.vn%2Fde%2Ftablet-stander-verstellbare-lamicall-tablet-staender-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-silber-B01N05W4A2.html%3Fdeal=list&m=A3AJ0GNLXXLZX8"><div className="btn-inner">Đăng nhập <i className="svg svg-arrow-right-black svg-14px" /></div></a>
-                                        <div>Để nhận giá ưu đãi cho thành viên</div>
-                                    </div>{/* .login-panel */}
-                                </div>{/* .login-col */}
+                               
                             </div>
                         </div>{/* .segment-main */}
                     </div>{/* .price-segment */}
