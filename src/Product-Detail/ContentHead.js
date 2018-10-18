@@ -46,7 +46,7 @@ class ContentHead extends React.Component{
 							</div>
                             <div style={{color:'#737373'}}>
                             <span style={{color:'#737373'}} itemProp="ratingValue">&nbsp; {(loadDetail[0]!=undefined)&&loadDetail[0].star}</span>/5
-                                        &nbsp;(<span>{(mouseClickLink!=undefined)&&mouseClickLink.reviews}</span> lượt đánh giá) &nbsp; | &nbsp; Bán tại: &nbsp;<i className="si si-logo-amz-mini" /> &nbsp; Amazon Đức &nbsp;|  &nbsp; Thương hiệu:  &nbsp; <span className="text-blue"><a style={{ color: '#007bff' }} href="/de/s/search/?rh=Lamicall&keywords=Lamicall" target="_blank"> Lamicall</a></span>
+                                        &nbsp;(<span>{(mouseClickLink!=undefined)&&mouseClickLink.reviews}</span> lượt đánh giá) &nbsp; | &nbsp; Bán tại: &nbsp;<i className="si si-logo-amz-mini" /> &nbsp;
                             </div>
                             
 						</div>                                            
@@ -57,9 +57,7 @@ class ContentHead extends React.Component{
                                     <div className="segment-head">
                                         <div className="icon-col"><i className="svg svg-shop svg-24px" /></div>
                                         <div className="info-col">
-                                            <div className="shop-title">
-                                                <a style={{ color: '#2196f3', textDecoration: 'none' }} href="/de/s/cat/?me=A3AJ0GNLXXLZX8" target="_blank">LamicallDirect</a>
-                                            </div>
+                                            
                                             <div className="desc">
                                             <div className="star-rating" style={{top:'-1px',fontSize:'12px'}}>
 							<div className="back-stars" style={{top:'4px'}}>
