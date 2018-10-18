@@ -117,5 +117,9 @@
 }
 .list-checked .slick-prev:before, .slick-next:before {
 	color: #7388C1;
-  }
+}
+.checked-image .panel-product-scroll{
+	width: 207.6px !important; 
+	height:235px !important;
+}
 
