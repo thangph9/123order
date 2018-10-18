@@ -48,3 +48,11 @@ export function showBreadcrumbByCategory(state={},action){
 			return state;
 	}	
 }
+export function settingNumberItem(state=1,action){
+	switch (action.type) {
+		case 'SETTING_NUMBER_ITEM':
+		return action.num;
+		default:
+			return state;
+	}	
+}

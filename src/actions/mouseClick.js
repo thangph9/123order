@@ -34,5 +34,11 @@ export const showBreadcrumbByCategory=(arr)=>{
 		arr
 	}
 }
+export const settingNumberItem=(num)=>{
+	return{
+		type: 'SETTING_NUMBER_ITEM',
+		num
+	}
+}
 
 

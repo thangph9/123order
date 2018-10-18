@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import {settingNumberItem} from '../actions';
 class ContentRightDetail extends React.Component {
     constructor(props) {
         super(props);
@@ -15,8 +16,16 @@ class ContentRightDetail extends React.Component {
         })
         console.log("Hello World")
     }
+    handleClick(value){
+        var {settingNumberItem} =this.props;
+        newNumb=settingNumberItem+value;
+        if(newNumb>=1&&newNumb<=15){
+            this.props.dispatch(settingNumberItem(newNumb));
+        }
+    }
     render() {
         var { mouseClickLink } = this.props;
+        var {settingNumberItem}=this.props;
         return (
             <section id="product-detail-block-v2" className="product-detail-block-v2 ">
                 <div className="blur-bg" />
@@ -80,9 +89,9 @@ class ContentRightDetail extends React.Component {
                             <div className="main-inner">
                                 <div className="control-col quantity-col">
                                     <div className="pd-quantity-control">
-                                        <input type="text" className="quantity-input quantity-input-fix" defaultValue={1} min={1} />
-                                        <div className="control-btn plus-btn">+</div>
-                                        <div className="control-btn minus-btn is-disabled">-</div>
+                                        <input type="text" className="quantity-input quantity-input-fix" min={1} value={settingNumberItem} />
+                                        <div onClick={()=>this.handleClick(1)} className="control-btn plus-btn">+</div>
+                                        <div onClick={()=>this.handleClick(-1)} className="control-btn minus-btn is-disabled">-</div>
                                     </div>{/* .quantity-control */}
                                 </div>
                                 <div className="control-col buy-now-col">
@@ -171,7 +180,8 @@ class ContentRightDetail extends React.Component {
 function mapStateToProps(state) {
 
     return {
-        mouseClickLink: state.mouseClickLinkProductItem
+        mouseClickLink: state.mouseClickLinkProductItem,
+        settingNumberItem:state.settingNumberItem
     }
 }
 const connectedContent = connect(mapStateToProps)(ContentRightDetail);
