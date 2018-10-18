@@ -7,6 +7,7 @@ import { Test } from '../Test';
 import { COD } from "../COD";
 import { DanhMucEbay } from "../DanhMucEbay";
 import { LandingPage } from "../Landing-Page";
+import { LandingPageThoiTrang } from "../Landing-Page";
 import { DanhMucAmazon } from "../DanhMucAmazon";
 //import {PrivateRoute } from "../Sections";
 import {MuaHangEbay} from '../MuaHangEbay';
