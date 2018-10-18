@@ -966,9 +966,7 @@ background-image: url("https://static.fado.vn/f/desktop/v2/images/svg/product-de
 	height: 3px;
 	width: 100%;
 	position: absolute;
-	background: #23487b;
-	background: linear-gradient(135deg, #bd2a36, #9b4599, #214181);
-	background: -ms-linear-gradient(135deg, #bd2a36, #9b4599, #214181);
+	
 }
 
 .product-detail-block-v2 .price-segment .segment-title.is-active {
@@ -1052,8 +1050,7 @@ background-image: url("https://static.fado.vn/f/desktop/v2/images/svg/product-de
 
 .product-detail-block-v2 .price-segment .price-panel .lbl-col {
 	flex: 0 0 120px;
-	text-align: right;
-	margin-right: 15px;
+	text-align: left;
 }
 
 .product-detail-block-v2 .price-segment .price-panel .info-col {

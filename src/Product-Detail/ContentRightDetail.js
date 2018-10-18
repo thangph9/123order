@@ -25,12 +25,12 @@ class ContentRightDetail extends React.Component {
                     </div>
                     <div className="price-segment">
                         <div className="segment-head">
-                            <a data-ttip="Dành cho người mua cá nhân.<br/>Giá đã bao gồm tất cả các loại thuế phí." className="segment-title ttip is-active" href="javascript:;" data-hasqtip={0}>Nhập khẩu DDP</a>
+                            <a style={{background:'#fff'}} data-ttip="Dành cho người mua cá nhân.<br/>Giá đã bao gồm tất cả các loại thuế phí." className="segment-title ttip is-active" href="javascript:;" data-hasqtip={0}>Nhập khẩu DDP</a>
                         
                         </div>
-                        <div className="segment-main">
+                        <div className="segment-main" style={{background:'#fff'}}>
                             <div className="price-type-col-wrap">
-                                <div className="price-type-col" style={{position: 'relative',left: '85px'}}>
+                                <div className="price-type-col" style={{position: 'relative',left: '30px'}}>
                                     <div className="price-panel">
                                         <div className="info-item">
                                             <div className="lbl-col" style={{flex: '0 0 160px'}}>Giá bán tại Việt Nam <i className="fa fa-question-circle ttip guide-icon" aria-hidden="true" data-ttip="Giá trọn gói: bao gồm tất cả loại thuế phí,<br/>không phát sinh phụ phí" data-hasqtip={1} aria-describedby="qtip-2" /></div>
@@ -41,14 +41,14 @@ class ContentRightDetail extends React.Component {
                                         <div className="info-item sub-item">
                                             <div className="lbl-col">Tiết kiệm:</div>
                                             <div className="info-col text-nowrap">
-                                                <span className={(mouseClickLink.sale=='')?'none-hide':'sale-percent'}>{(mouseClickLink!=undefined&&mouseClickLink.sale!='') ?mouseClickLink.sale:''}</span>
+                                                <span style={{position: 'relative',left:'40px'}} className={(mouseClickLink.sale=='')?'none-hide':'sale-percent'}>{(mouseClickLink!=undefined&&mouseClickLink.sale!='') ?mouseClickLink.sale:''}</span>
                                                 
                                             </div>
                                         </div>
                                         <div className="info-item sub-item">
                                             <div className="lbl-col">Giá chưa giảm:</div>
                                             <div className="info-col">
-                                                <span id="oldPrice" className="old-price line-through">{(mouseClickLink!=undefined) &&mouseClickLink.base_price}</span>
+                                                <span style={{position:'relative',left:'25px'}} id="oldPrice" className="old-price line-through">{(mouseClickLink!=undefined) &&mouseClickLink.base_price}</span>
                                             </div>
                                         </div>
                                     </div>{/* .price-panel */}
