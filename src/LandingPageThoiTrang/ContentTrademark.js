@@ -22,21 +22,7 @@ class ContentTrademark extends React.Component{
             <div className="main-tabs">
             <div className="container">
                 <ul className="list-inline">
-                    <li className=""><a style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} href="#">Citizen</a></li>
-                    <li className=""><a style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} href="#">Seiko</a></li>
-                    <li className=""><a style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} href="#">Burgi</a></li>
-                    <li className=""><a style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} href="#">Akribos</a></li>
-                    <li className=""><a style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} href="#">Skagen</a></li>
-                    <li className=""><a style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} href="#">Anne Klein</a></li>
-                    <li className=""><a style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} href="#">Guess</a></li>
-                    <li className=""><a style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} href="#">Casio</a></li>
-                    <li className=""><a style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} href="#">Invicta</a></li>
-                    <li className=""><a style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} href="#">Michael Kors</a></li>
-                    <li className=""><a style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} href="#">Daniel Wellington</a></li>
-                    <li className=""><a style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} href="#">Fossil</a></li>
-                    <li className=""><a style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} href="#">Kenneth Cole</a></li>
-                    <li className=""><a style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} href="#">Timex</a></li>
-                    <li className=""><a style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} href="#">Kate Spade</a></li>
+                    
                 </ul>
             </div>
             </div>
