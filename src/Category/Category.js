@@ -19,6 +19,7 @@ class Category extends React.Component {
             this.props.dispatch(initLoadCategoryProducts(res.data[1]))
         })   
     }
+    
     render() {
         var obj={};
         obj.nodeid=this.props.match.params.nodeid;
