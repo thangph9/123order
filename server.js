@@ -339,7 +339,7 @@ app.post('/product-detail-amazon', jsonParser, function (req, res) {
   })
 })
 app.post("/landing-page", jsonParser, function (req, res) {
-  var addItem = req.body.addItem + 15
+  var addItem = req.body.addItem + 10
   async.series([
     (callback) => {
       models.instance.amazon_deal_day.find({ $limit: addItem }, { raw: true, allow_filtering: true }, function (err, result) {
