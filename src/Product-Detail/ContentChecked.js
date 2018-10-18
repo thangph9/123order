@@ -26,6 +26,7 @@ class ContentChecked extends React.Component {
             autoplay: false,
             arrows: true,
             infinite: false,
+            className:'list-checked'
         };
         return (
             <section className="scroll-products-block is-checked">
