@@ -21,7 +21,7 @@ class ContentTrademark extends React.Component{
         return (
             <div className="main-tabs">
             <div className="container" style={{textAlign:'center'}}>
-                    <h1 style={{fontSize:'24px'}}>HƯƠNG THƠM QUẤN HÚT</h1>
+                    <h1 style={{fontSize:'24px'}}>ĐỒ CÔNG NGHỆ</h1>
             </div>
             </div>
         )
