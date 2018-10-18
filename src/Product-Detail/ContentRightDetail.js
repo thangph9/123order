@@ -70,23 +70,6 @@ class ContentRightDetail extends React.Component {
                             </div>
                         </div>
                     </div>{/* .desc-segment */}
-                    <div className="option-segment">
-                        <div className="option-panel pick-panel size-panel pd-choose">
-                            <div className="lbl-col">Farbe:</div>
-                            <div className="info-col">
-                                <select defaultValue={"Silber"} style={{ fontSize: 14, padding: '0px 0px 0px 10px' }} className="size-sel form-control">
-                                    <option value="/de/tablet-stander-verstellbare-lamicall-tablet-staender-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-silber-B07HXYQXQ3.html?deal=list&m=A3AJ0GNLXXLZX8&keywords=">
-                                        ALL                                                              </option>
-                                    <option value="/de/tablet-stander-verstellbare-lamicall-tablet-staender-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-silber-B072MZM8G8.html?deal=list&m=A3AJ0GNLXXLZX8&keywords=">
-                                        Grau                                                              </option>
-                                    <option value="/de/tablet-stander-verstellbare-lamicall-tablet-staender-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-silber-B07BS8YM9B.html?deal=list&m=A3AJ0GNLXXLZX8&keywords=">
-                                        Rose Gold                                                              </option>
-                                    <option value="/de/tablet-stander-verstellbare-lamicall-tablet-staender-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-silber-B01N05W4A2.html?deal=list&m=A3AJ0GNLXXLZX8&keywords=">
-                                        Silber                                                              </option>
-                                </select>
-                            </div>
-                        </div>{/* .option-panel */}
-                    </div>{/* .option-segment */}
                     <div className="quantity-segment">
                         <div className="segment-main">
                             Số lượng sản phẩm còn lại trong kho người bán: <b>2,446 sản phẩm</b>
