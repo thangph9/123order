@@ -21,9 +21,7 @@ class ContentTrademark extends React.Component{
         return (
             <div className="main-tabs">
             <div className="container">
-                <ul className="list-inline">
-                    
-                </ul>
+                    HƯƠNG THƠM QUẤN HÚT
             </div>
             </div>
         )
