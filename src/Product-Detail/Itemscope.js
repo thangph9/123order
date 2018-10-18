@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import {Link} from 'react-router-dom';
 class Itemscope extends React.Component {
     constructor(props) {
         super(props);
@@ -21,7 +22,7 @@ class Itemscope extends React.Component {
             <section style={{marginBottom:'0px'}} id="breadcrumbs-block-v2" className="breadcrumbs-block-v2 ">
                 <div className="container-fedo" itemScope="itemscope" itemType="https://schema.org/BreadcrumbList">
                     <ul className="link-list" itemProp="itemListElement" itemScope="itemscope" itemType="https://schema.org/ListItem">
-                        <li><a href="/">Trang chủ</a></li>
+                        <li><Link href="/home">Trang chủ</Link></li>
                         <li className="break" />
                     </ul>
                 </div>
