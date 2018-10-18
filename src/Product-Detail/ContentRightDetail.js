@@ -17,8 +17,8 @@ class ContentRightDetail extends React.Component {
         console.log("Hello World")
     }
     handleClick(value){
-        var {settingNumberItem} =this.props;
-        var newNumb=settingNumberItem+value;
+        var {settingNumber} =this.props;
+        var newNumb=settingNumber+value;
         if(newNumb>=1&&newNumb<=15){
             this.props.dispatch(settingNumberItem(newNumb));
         }
@@ -184,7 +184,7 @@ function mapStateToProps(state) {
 
     return {
         mouseClickLink: state.mouseClickLinkProductItem,
-        settingNumberItem:state.settingNumberItem
+        settingNumber:state.settingNumberItem
     }
 }
 const connectedContent = connect(mapStateToProps)(ContentRightDetail);
