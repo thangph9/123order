@@ -132,6 +132,13 @@
 	position: absolute;
 	top: 110px;
 }
-
+.list-landing .slick-prev:before,.list-landing .slick-next:before{
+	color: #7388C1;
+	font-size: 40px;
+}
+.list-landing .slick-prev,.list-landing .slick-next{
+	width: 40px;
+	height: 40px;
+}
 
 
