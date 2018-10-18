@@ -22,7 +22,7 @@ class Itemscope extends React.Component {
             <section style={{marginBottom:'0px'}} id="breadcrumbs-block-v2" className="breadcrumbs-block-v2 ">
                 <div className="container-fedo" itemScope="itemscope" itemType="https://schema.org/BreadcrumbList">
                     <ul className="link-list" itemProp="itemListElement" itemScope="itemscope" itemType="https://schema.org/ListItem">
-                        <li><Link href="/home">Trang chủ</Link></li>
+                        <li><Link to={"/home"}>Trang chủ</Link></li>
                         <li className="break" />
                     </ul>
                 </div>
