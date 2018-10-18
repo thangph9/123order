@@ -115,7 +115,7 @@ class ContentRightDetail extends React.Component {
                     {/* .cart-segment */}
                     <div className="faq-segment">
                         <div className="faq-list">
-                            <li><a href="/ho-tro/huong-dan-dat-mua-hang-cach-dat-mua-hang.n37/?utm_source=onsite&utm_medium=link&utm_campaign=LinkProduct" target="_blank">Hướng dẫn đặt hàng?</a></li>
+                            <li><a href="#" target="_blank">Hướng dẫn đặt hàng?</a></li>
                             <li><a href="#" data-toggle="modal" data-target="#feature-service-modal">Chính sách đổi trả xuyên biên giới ?</a></li>
                             <li><a href="#" data-toggle="modal" data-target="#order-timeline-modal">Quy trình đặt hàng ?</a></li>
                         </div>
