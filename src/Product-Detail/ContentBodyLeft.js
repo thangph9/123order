@@ -76,7 +76,7 @@ class ContentBodyLeft extends React.Component {
         
         return (
             <div id="container-scroll" className="container-main-col-1" style={{ position: 'relative' }}>
-                <section id="product-img-block" >
+                <section id="product-img-block" className='product-img-block' >
                     <div className="product-img-segment">
                         <div className={(mouseClickLink.sale=='')?'none-hide':'sale-tag'}>-{(mouseClickLink!=undefined&&mouseClickLink.sale!='') ?mouseClickLink.sale:''}</div>
                         <div className="over-img-field">
