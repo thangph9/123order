@@ -129,23 +129,23 @@ class ContentRightDetail extends React.Component {
                 </div>{/* .block-col-1 */}
                 <div className="block-col-2">
                     <div className="feature-segment">
-                        <div className="segment-head">Duy nhất tại<br />Fado Việt Nam</div>
+                        <div className="segment-head">Duy nhất tại<br />123order Việt Nam</div>
                         <div className="segment-main">
                             <ul className="feature-list" style={{ padding: 0, fontSize: 14 }}>
                                 <li>
                                     <i className="svg svg-check-circle-grd svg-14px" />
                                     <b>Yên tâm mua sắm</b><br />
-                                    Fado đảm bảo giao dịch, hỗ trợ khiếu nại đổi, trả xuyên biên giới dễ dàng, bảo vệ người mua tuyệt đối
+                                    123order đảm bảo giao dịch, hỗ trợ khiếu nại đổi, trả xuyên biên giới dễ dàng, bảo vệ người mua tuyệt đối
                 </li>
                                 <li>
                                     <i className="svg svg-check-circle-grd svg-14px" />
                                     <b>Không lo thủ tục</b><br />
-                                    Fado thông quan, chuyển hàng tới tận tay...Quý khách chỉ việc ngồi nhà tận hưởng
+                                    123order thông quan, chuyển hàng tới tận tay...Quý khách chỉ việc ngồi nhà tận hưởng
                 </li>
                                 <li>
                                     <i className="svg svg-check-circle-grd svg-14px" />
                                     <b>Không giới hạn lựa chọn</b><br />
-                                    &gt; 4 tỷ sản phẩm chất lượng từ khắp thế giới được Fado cập nhật realtime, giúp Quý khách mua được giá hời, giá rẻ.
+                                    &gt; 4 tỷ sản phẩm chất lượng từ khắp thế giới được 123order cập nhật realtime, giúp Quý khách mua được giá hời, giá rẻ.
                 </li>
                                 <li>
                                     <i className="svg svg-check-circle-grd svg-14px" />Tận hưởng giá shock toàn cầu<br />
@@ -154,7 +154,7 @@ class ContentRightDetail extends React.Component {
                                 <li>
                                     <i className="svg svg-check-circle-grd svg-14px" />
                                     <b>Tiết kiệm thêm, ưu đãi thêm</b><br />
-                                    Nhận thêm ưu đãi từ Fado (điểm thưởng, mã giảm giá...) và Fado luôn miễn phí giao hàng toàn quốc
+                                    Nhận thêm ưu đãi từ 123order (điểm thưởng, mã giảm giá...) và 123order luôn miễn phí giao hàng toàn quốc
                 </li>
                                 <li>
                                     <i className="svg svg-check-circle-grd svg-14px" />
@@ -168,7 +168,7 @@ class ContentRightDetail extends React.Component {
                         <div className="segment-head">Quý khách cần trợ giúp</div>
                         <div className="segment-main">
                             <form className="support-form">
-                                <input type="text" className="phone-input phone-txt" name="phone" placeholder="Để lại số điện thoại, Fado sẽ liên lạc" />
+                                <input type="text" className="phone-input phone-txt" name="phone" placeholder="Để lại số điện thoại, 123order sẽ liên lạc" />
                                 <button className="submit-btn" type="button" id="bt-recall"><i className="svg svg-send-grd svg-16px" /></button>
                             </form>
                             <div className="info-item-wrap">
