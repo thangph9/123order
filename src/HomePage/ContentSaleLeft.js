@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import Slider from "react-slick";
-
+import {Link} from 'react-router-dom';
 class ContentSaleLeft extends React.Component {
     constructor(props) {
         super(props);
@@ -35,9 +35,9 @@ class ContentSaleLeft extends React.Component {
         };
         if(this.props.initLoad.length>0){
             var menuItems=this.props.initLoad.map((picture,index)=>{
-                return(<div key={index}>
+                return(<Link to={'/landing-page-cong-nghe'} key={index}>
                     <img alt="img" className="img-fluid" src={picture.linkanh}/>
-                </div>)
+                </Link>)
             })
         }
         
