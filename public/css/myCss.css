@@ -128,5 +128,10 @@
 .list-checked .slick-slide{
 	width: 215px !important;
 }
+.list-checked .slick-prev:before, .slick-next {
+	position: absolute;
+	top: 110px;
+}
+
 
 
