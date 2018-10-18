@@ -42,7 +42,7 @@ class ProductDetail extends React.Component {
     }
     render() {
         return (
-            <div className="body-product-detail" ref="scrollProduct">
+            <div className="body-product-detail"  ref="scrollProduct">
                 <Header/>
                 <Content/>
                 <Footer/>
