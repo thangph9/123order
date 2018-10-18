@@ -52,7 +52,7 @@ class ContentRightDetail extends React.Component {
                                         <div className="info-item sub-item">
                                             <div className="lbl-col">Tiết kiệm:</div>
                                             <div className="info-col text-nowrap">
-                                                <span style={{position: 'relative',left:'40px'}} className={(mouseClickLink.sale=='')?'none-hide':'sale-percent'}>{(mouseClickLink!=undefined&&mouseClickLink.sale!='') ?mouseClickLink.sale:''}</span>
+                                                <span style={{position: 'relative',left:'41px'}} className={(mouseClickLink.sale=='')?'none-hide':'sale-percent'}>{(mouseClickLink!=undefined&&mouseClickLink.sale!='') ?mouseClickLink.sale:''}</span>
                                                 
                                             </div>
                                         </div>

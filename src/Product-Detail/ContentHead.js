@@ -22,7 +22,7 @@ class ContentHead extends React.Component{
         var starNumber=0;
         if(loadDetail[0]!=undefined) starNumber=Number(loadDetail[0].star)*20;
         return (
-            <div className="container-head" style={{float:'left'}}>
+            <div className="container-head">
                         <div className="product-detail-head-block" >
                             <div className="block-col-1" style={{    position: 'relative',top: '-10px'}}>
                                 <h1 style={{margin:'0px 0px 6px 0px',width:'907px'}} className="pd-title" itemProp="name" id="productName">

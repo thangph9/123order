@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import {Link} from 'react-router-dom';
 class ContentSaleRightTop extends React.Component {
     constructor(props) {
         super(props);
@@ -19,7 +20,7 @@ class ContentSaleRightTop extends React.Component {
 
         return (
             <div className="row">
-                <div className="col-12"> <img alt="Responsive img" src="img/Banner 1.png" className="img-fluid" /> </div>
+                <Link className="col-12"> <img alt="Responsive img" src="img/Banner 1.png" className="img-fluid" /> </Link>
             </div>
         )
 
