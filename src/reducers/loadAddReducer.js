@@ -1,5 +1,5 @@
 
-export function loadAdd(state=0,action){
+export function loadAdd(state=5,action){
 	switch (action.type) {
 		case 'LOAD_ADD':
 			
