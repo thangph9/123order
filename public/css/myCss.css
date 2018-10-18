@@ -125,4 +125,7 @@
 .list-checked .slick-slide{
 	width: 215px !important;
 }
+.list-checked .slick-track{
+	width: 1350px !important
+}
 
