@@ -26,7 +26,7 @@ class ContentRightDetail extends React.Component {
                     <div className="price-segment">
                         <div className="segment-head">
                             <a data-ttip="Dành cho người mua cá nhân.<br/>Giá đã bao gồm tất cả các loại thuế phí." className="segment-title ttip is-active" href="javascript:;" data-hasqtip={0}>Nhập khẩu DDP</a>
-                            <span className="segment-title" />
+                        
                         </div>
                         <div className="segment-main">
                             <div className="price-type-col-wrap">
