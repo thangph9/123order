@@ -122,10 +122,11 @@
 	width: 207.6px !important; 
 	height:235px !important;
 }
+.list-checked .slick-track{
+	width: 1350px !important;
+}
 .list-checked .slick-slide{
 	width: 215px !important;
 }
-.list-checked .slick-track{
-	width: 1350px !important
-}
+
 
