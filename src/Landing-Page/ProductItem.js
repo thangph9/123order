@@ -22,7 +22,6 @@ class ProductItem extends React.Component {
         titleTrim=titleTrim.replace(/%/g , "");
         titleTrim=titleTrim.replace(/ /g , "-");
         var starNumber=Number(data.star)*20;
-        console.log(data);
         return (
             <div className="col-md mt-2 px-2" style={{display:display,marginBottom:'8px'}}>
                 <div className="card" style={{width:'212px',height:'340px'}}>

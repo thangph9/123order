@@ -22,21 +22,21 @@ class ContentTrademark extends React.Component{
             <div className="main-tabs">
             <div className="container">
                 <ul className="list-inline">
-                    <li className=""><Link style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} href="#">Citizen</Link></li>
-                    <li className=""><Link style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} href="#">Seiko</Link></li>
-                    <li className=""><Link style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} href="#">Burgi</Link></li>
-                    <li className=""><Link style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} href="#">Akribos</Link></li>
-                    <li className=""><Link style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} href="#">Skagen</Link></li>
-                    <li className=""><Link style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} href="#">Anne Klein</Link></li>
-                    <li className=""><Link style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} href="#">Guess</Link></li>
-                    <li className=""><Link style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} href="#">Casio</Link></li>
-                    <li className=""><Link style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} href="#">Invicta</Link></li>
-                    <li className=""><Link style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} href="#">Michael Kors</Link></li>
-                    <li className=""><Link style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} href="#">Daniel Wellington</Link></li>
-                    <li className=""><Link style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} href="#">Fossil</Link></li>
-                    <li className=""><Link style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} href="#">Kenneth Cole</Link></li>
-                    <li className=""><Link style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} href="#">Timex</Link></li>
-                    <li className=""><Link style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} href="#">Kate Spade</Link></li>
+                    <li className=""><Link style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} to={'#'}>Citizen</Link></li>
+                    <li className=""><Link style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} to={'#'}>Seiko</Link></li>
+                    <li className=""><Link style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} to={'#'}>Burgi</Link></li>
+                    <li className=""><Link style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} to={'#'}>Akribos</Link></li>
+                    <li className=""><Link style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} to={'#'}>Skagen</Link></li>
+                    <li className=""><Link style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} to={'#'}>Anne Klein</Link></li>
+                    <li className=""><Link style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} to={'#'}>Guess</Link></li>
+                    <li className=""><Link style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} to={'#'}>Casio</Link></li>
+                    <li className=""><Link style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} to={'#'}>Invicta</Link></li>
+                    <li className=""><Link style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} to={'#'}>Michael Kors</Link></li>
+                    <li className=""><Link style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} to={'#'}>Daniel Wellington</Link></li>
+                    <li className=""><Link style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} to={'#'}>Fossil</Link></li>
+                    <li className=""><Link style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} to={'#'}>Kenneth Cole</Link></li>
+                    <li className=""><Link style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} to={'#'}>Timex</Link></li>
+                    <li className=""><Link style={{fontSize: '14px',fontWeight: 600,textDecoration:'none'}} to={'#'}>Kate Spade</Link></li>
                 </ul>
             </div>
             </div>
