@@ -18,19 +18,16 @@ class HeaderBotMenuBestSeller extends React.Component {
         })
         console.log("Hello World")
     }
-    // componentDidMount() {
-    //     $('#navbarDropdownMenuLinkBestSeller').on('click', function () {
-    //         $('#menuBestSeller').toggleClass("show");
-    //             $('#linkBestSeller').toggleClass("show");
-    //             $('#linkEbay').removeClass("show");
-    //             $('#linkTopStore').removeClass("show");
-    //             $('#navbarDropdownMenuLinkBestSeller').attr('aria-expanded', 'true');
-    //     })
-    // }
+    handleMouseOutMenu(){
+        document.getElementById("linkBestSeller").style.display = "none";
+    }
+    handleMouseOverMenu(){
+        document.getElementById("linkBestSeller").style.display = "block";
+    }
     render() {
 
         return (
-            <li className="nav-item dropdown" id="menuBestSeller">
+            <li onMouseOver={()=>this.handleMouseOverMenu()} onMouseOut={()=>this.handleMouseOutMenu()}  className="nav-item dropdown" id="menuBestSeller" >
                 <Link to="/best-seller" className="nav-link dropdown-toggle text-white" href="" id="navbarDropdownMenuLinkBestSeller" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BEST SELLER</Link>
             <BestSellerHide/>
             </li>

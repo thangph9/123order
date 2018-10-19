@@ -18,20 +18,16 @@ class HeaderBotMenuHotDeal extends React.Component {
         })
         console.log("Hello World")
     }
-    // componentDidMount() {
-    //     $('#navbarDropdownMenuLinkHotDeal').on('click', function () {
-    //         $('#menuHotDeal').toggleClass("show");
-    //             $('#linkHotDeal').toggleClass("show");
-    //             $('#linkEbay').removeClass("show");
-    //             $('#linkTopStore').removeClass("show");
-    //             $('#navbarDropdownMenuLinkHotDeal').attr('aria-expanded', 'true');
-
-    //     })
-    // }
+    handleMouseOutMenu(){
+        document.getElementById("linkHotDeal").style.display = "none";
+    }
+    handleMouseOverMenu(){
+        document.getElementById("linkHotDeal").style.display = "block";
+    }
     render() {
 
         return (
-            <li className="nav-item dropdown" id="menuHotDeal">
+            <li onMouseOver={()=>this.handleMouseOverMenu()} onMouseOut={()=>this.handleMouseOutMenu()} className="nav-item dropdown" id="menuHotDeal">
                 <Link to='/hot-deal-cong-nghe' className="nav-link dropdown-toggle text-white" href="" id="navbarDropdownMenuLinkHotDeal" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">HOT DEAL CÔNG NGHỆ</Link>
             <HotDealHide/>
             </li>

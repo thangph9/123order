@@ -18,22 +18,18 @@ class HeaderBotMenuAmazon extends React.Component {
         })
         console.log("Hello World")
     }
-    // componentDidMount() {
-    //     $('#navbarDropdownMenuLinkMuaAmazon').on('click', function () {
-    //         $('#menuMuaAmazon').toggleClass("show");
-    //         $('#linkMuaAmazon').toggleClass("show");
-    //         $('#linkEbay').removeClass("show");
-    //         $('#linkTopStore').removeClass("show");
-    //         $('#navbarDropdownMenuLinkMuaAmazon').attr('aria-expanded', 'true');
-    //     })
-    // }
+    handleMouseOutMenu(){
+        document.getElementById("linkMuaAmazon").style.display = "none";
+    }
+    handleMouseOverMenu(){
+        document.getElementById("linkMuaAmazon").style.display = "block";
+    }
     render() {
 
         return (
-            <li className="nav-item dropdown" id="menuMuaAmazon">
+            <li className="nav-item dropdown" id="menuMuaAmazon" onMouseOver={()=>this.handleMouseOverMenu()} onMouseOut={()=>this.handleMouseOutMenu()}>
                 <Link to="/danh-muc-amazon" className="nav-link dropdown-toggle text-white" href="" id="navbarDropdownMenuLinkMuaAmazon" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MUA HÀNG AMAZON</Link>
                 <AmazonHide />
-
             </li>
         );
 

@@ -18,21 +18,17 @@ class HeaderBotMenuGiaSoc extends React.Component {
         })
         console.log("Hello World")
     }
-    // componentDidMount() {
-    //     $('#navbarDropdownMenuLinkGiaSoc').on('click', function () {
-    //         $('#menuGiaSoc').toggleClass("show");
-    //                 $('#linkGiaSoc').toggleClass("show");
-    //                 $('#linkEbay').removeClass("show");
-    //                 $('#linkTopStore').removeClass("show");
-    //                 $('#navbarDropdownMenuLinkGiaSoc').attr('aria-expanded', 'true');
-
-    //     })
-    // }
+    handleMouseOutMenu(){
+        document.getElementById("linkGiaSoc").style.display = "none";
+    }
+    handleMouseOverMenu(){
+        document.getElementById("linkGiaSoc").style.display = "block";
+    }
     render() {
 
         return (
-            <li className="nav-item dropdown" id="menuGiaSoc">
-                <Link to="/gia-soc-moi-ngay" className="nav-link dropdown-toggle text-white" href="" id="navbarDropdownMenuLinkGiaSoc" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GIÁ SỐC MỖI NGÀY</Link>
+            <li className="nav-item dropdown" id="menuGiaSoc" onMouseOver={()=>this.handleMouseOverMenu()} onMouseOut={()=>this.handleMouseOutMenu()} >
+                <Link to="/gia-soc-moi-ngay" className="nav-link dropdown-toggle text-white" id="navbarDropdownMenuLinkGiaSoc" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GIÁ SỐC MỖI NGÀY</Link>
             <GiaSocHide/>
             </li>
         );
