@@ -141,10 +141,6 @@
 	height: 40px;
 	
 }
-.list-landing .slick-list{
-	position: relative;
-	top: -40px;
-}
 .list-landing .slick-prev{
 	display: block;
 	position: absolute;
