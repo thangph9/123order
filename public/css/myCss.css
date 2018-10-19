@@ -147,16 +147,14 @@
 }
 .list-landing .slick-prev{
 	display: block;
-	position: relative;
-	left: 15px;
-	top: 350px;
+	position: absolute;
+	left:30px;
 	z-index: 1;	
 } 
 .list-landing .slick-next{
 	display: block;
-    position: relative;
-    right: -1526px;
-	top: -260px;
+    position: absolute;
+    right: 30px;
 	z-index: 1;
 }
 
