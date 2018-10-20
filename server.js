@@ -354,7 +354,7 @@ app.post("/landing-page-dong-ho", jsonParser, function (req, res) {
             nodeid: item.nodeid,
             price: item.price,
             reviews: item.reviews,
-            sale: item.sale.slice(7, -1),
+            sale: item.sale,
             star: item.star,
             title: item.title,
             type: item.type
