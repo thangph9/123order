@@ -344,7 +344,6 @@ app.post("/landing-page-dong-ho", jsonParser, function (req, res) {
     (callback) => {
       models.instance.products_amazon.find({ $limit: addItem, type: 'womanwatch' }, { raw: true, allow_filtering: true }, function (err, result) {
         var arr = result.map(item => {
-
           return obj = {
             asin: item.asin,
             base_price: item.base_price,
@@ -358,6 +357,16 @@ app.post("/landing-page-dong-ho", jsonParser, function (req, res) {
             star: item.star,
             title: item.title,
             type: item.type
+          }
+        });
+        callback(err, arr)
+      });
+    },(callback) => {
+      models.instance.currency_raito.find({currency :'USD' }, function (err, result) {
+        var arr = result.map(item => {
+          return obj = {
+            currency: item.currency,
+            raito: item.raito
           }
         });
         callback(err, arr)
