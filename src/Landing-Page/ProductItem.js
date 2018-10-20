@@ -27,7 +27,7 @@ class ProductItem extends React.Component {
                 <div className="card" style={{width:'212px',height:'340px'}}>
                     <div className="hovereffect" style={{width:'210px',height:'190px'}}>
                     <div className="position-absolute discount-tag-pos"><img style={{width:'36px',height:'40px',position:'relative',left:'10px'}} src="https://static.fado.vn/f/desktop/v2/images/svg/other/sale-tag-orange.svg" alt className="img-fluid" /></div>
-                    <span className={(data.sale=='')?'none-hide':''} style={{position: 'absolute',top: '10px',right: '10px',color: '#fff',fontSize: '13px',fontWeight: 700,zIndex: 9}}>{data.sale}</span>
+                    <span className={(data.sale=='')?'none-hide':''} style={{position: 'absolute',top: '17px',right: '12px',color: '#fff',fontSize: '13px',fontWeight: 700,zIndex: 9}}>-{data.sale}</span>
                         <img style= {{width:'210px',height:'210px'}} className="card-img-top img-thumbnail border-0 img-fluid" src={data.img} alt='img'/>
                         <div className="overlay">
                         <NavLink to={"#"} className="info">Chi tiết</NavLink>
