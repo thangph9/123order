@@ -212,29 +212,29 @@ app.post("/category", jsonParser, function (req, res) {
         })
         callback(err, arr);
       })
-   },
-   (callback)=>{
-     models.instance.products_amazon.find({},function(err,result){
-       var arr =result.map(item=>{
-         return obj={
-           asin:item.asin,
-           base_price:item.base_price,
-           category:item.category,
-           death_clock:item.death_clock,
-           img:item.img,
-           nodeid:item.nodeid,
-           price:item.price,
-           reviews:item.reviews,
-           sale:item.sale,
-           star:item.star,
-           timestamp:item.timestamp+"",
-           title:item.title,
-           type:item.type
-         }  
-       })
-       callback(err,arr)
-     })
-   }
+    },
+    (callback) => {
+      models.instance.products_amazon.find({}, function (err, result) {
+        var arr = result.map(item => {
+          return obj = {
+            asin: item.asin,
+            base_price: item.base_price,
+            category: item.category,
+            death_clock: item.death_clock,
+            img: item.img,
+            nodeid: item.nodeid,
+            price: item.price,
+            reviews: item.reviews,
+            sale: item.sale,
+            star: item.star,
+            timestamp: item.timestamp + "",
+            title: item.title,
+            type: item.type
+          }
+        })
+        callback(err, arr)
+      })
+    }
   ], (err, result) => {
 
     if (err) console.log(err);
@@ -306,14 +306,14 @@ app.post('/product-detail-amazon', jsonParser, function (req, res) {
       });
     },
     (callback) => {
-      models.instance.product_detail_amazon.find({asin: PARAM_IS_PRODUCT_ASIN_AMAZON.asin}, function (err, result) {
+      models.instance.product_detail_amazon.find({ asin: PARAM_IS_PRODUCT_ASIN_AMAZON.asin }, function (err, result) {
         var arr = result.map(item => {
           return obj = {
             asin: item.asin,
             category: item.category,
             color: item.color,
             deal_of_day: item.deal_of_day,
-            death_clock:item.death_clock,
+            death_clock: item.death_clock,
             description: item.description,
             hugeimage: item.hugeimage,
             largeimage: item.largeimage,
@@ -322,11 +322,11 @@ app.post('/product-detail-amazon', jsonParser, function (req, res) {
             nodeid: item.nodeid,
             price: item.price,
             save_price: item.save_price,
-            size:item.size,
+            size: item.size,
             smallimage: item.smallimage,
             star: item.star,
             style: item.style,
-            timestamp:item.timestamp+"",
+            timestamp: item.timestamp + "",
             title: (item.title != null) ? item.title : '',
           }
         });
@@ -342,24 +342,25 @@ app.post("/landing-page-dong-ho", jsonParser, function (req, res) {
   var addItem = req.body.addItem + 20;
   async.series([
     (callback) => {
-      models.instance.products_amazon.find({ $limit: addItem,type:'womanwatch' }, { raw: true, allow_filtering: true }, function (err, result) {
+      models.instance.products_amazon.find({ $limit: addItem, type: 'womanwatch' }, { raw: true, allow_filtering: true }, function (err, result) {
         var arr = result.map(item => {
+
           return obj = {
-            asin:item.asin,
-            base_price:item.base_price,
-            category:item.category,
-            death_clock:item.death_clock,
-            img:item.img,
-            nodeid:item.nodeid,
-            price:item.price,
-            reviews:item.reviews,
-            sale:item.sale.slice(1,-3),
-            star:item.star,
-            title:item.title,
-            type:item.type
+            asin: item.asin,
+            base_price: item.base_price,
+            category: item.category,
+            death_clock: item.death_clock,
+            img: item.img,
+            nodeid: item.nodeid,
+            price: item.price,
+            reviews: item.reviews,
+            sale: item.sale.slice(7, -1),
+            star: item.star,
+            title: item.title,
+            type: item.type
           }
         });
-        callback(err,arr )
+        callback(err, arr)
       });
     }
   ], (err, result) => {
