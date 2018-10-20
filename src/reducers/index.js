@@ -27,6 +27,7 @@ import {showSummaryProductByCategory} from './mouseClickReducer';
 import {initLoadCategoryItem} from './loadInitReducer';
 import {settingNumberItem} from './mouseClickReducer';
 import {initLoadCategoryProducts} from './loadInitReducer';
+import {initLoadCurrencyRaito} from './loadInitReducer';
 const rootReducer=combineReducers({
     authentication,
     alert,
@@ -55,6 +56,7 @@ const rootReducer=combineReducers({
     showSummaryProductByCategory,
     initLoadProductDetailAmazon,
     showBreadcrumbByCategory,
-    settingNumberItem
+    settingNumberItem,
+    initLoadCurrencyRaito
 });
 export default rootReducer;

@@ -19,6 +19,7 @@ class ProductItem extends React.Component {
         if (data.title.length>45){
             data.title= data.title.slice(0,45)+'...';
         }
+        var {initLoadCurrencyRaito}=this.props;
         titleTrim=titleTrim.replace(/%/g , "");
         titleTrim=titleTrim.replace(/ /g , "-");
         var starNumber=Number(data.star)*20;
@@ -71,7 +72,8 @@ class ProductItem extends React.Component {
 }
 function mapStateToProps(state) {
     return {
-        mouseClickLink:state.mouseClickLinkProductItem
+        mouseClickLink:state.mouseClickLinkProductItem,
+        initLoadCurrencyRaito:state.initLoadCurrencyRaito
     }
 }
 const connected = connect(mapStateToProps)(ProductItem);
