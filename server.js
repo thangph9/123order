@@ -338,38 +338,28 @@ app.post('/product-detail-amazon', jsonParser, function (req, res) {
     res.json(result);
   })
 })
-app.post("/landing-page", jsonParser, function (req, res) {
+app.post("/landing-page-dong-ho", jsonParser, function (req, res) {
   var addItem = req.body.addItem + 20;
   async.series([
     (callback) => {
-      models.instance.amazon_deal_day.find({ $limit: addItem }, { raw: true, allow_filtering: true }, function (err, result) {
+      models.instance.products_amazon.find({ $limit: addItem,type:'womanwatch' }, { raw: true, allow_filtering: true }, function (err, result) {
         var arr = result.map(item => {
           return obj = {
-            dealid: item.dealid,
-            asin: item.asin,
-            base_price: item.base_price,
-            dealstate: item.dealstate,
-            dealtype: item.dealtype,
-            death_clock: item.death_clock,
-            img: item.img,
-            legacydealid: item.legacydealid,
-            link: item.link,
-            offerid: item.offerid,
-            position: item.position,
-            price: item.price,
-            reviews: item.reviews,
-            review_link: item.review_link,
-            sale: (item.sale != null) ? item.sale.slice(1, 4) : '',
-            smid: item.smid,
-            stt: item.stt,
-            timestamp: item.timestamp + "",
-            star: item.star,
-            title: (item.title != null) ? item.title : '',
-            widgetid: item.widgetid
+            asin:item.asin,
+            base_price:item.base_price,
+            category:item.category,
+            death_clock:item.death_clock,
+            img:item.img,
+            nodeid:item.nodeid,
+            price:item.price,
+            reviews:item.reviews,
+            sale:item.sale.slice(6,9),
+            star:item.star,
+            title:item.title,
+            type:item.type
           }
         });
-        ObjTable.ContentAmazonDealDay = arr;
-        callback(err, ObjTable)
+        callback(err,arr )
       });
     }
   ], (err, result) => {
@@ -377,6 +367,7 @@ app.post("/landing-page", jsonParser, function (req, res) {
     res.json(result);
   })
 })
+
 app.get('/', function (req, res) {
   res.render('index');
 });

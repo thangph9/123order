@@ -14,8 +14,8 @@ class LandingPage extends React.Component {
         }
     }
     componentWillMount(){
-        axios.post('/landing-page',{addItem:this.props.loadAdd}).then(res=>{
-            this.props.dispatch(initLoadContentDeal(res.data[0].ContentAmazonDealDay));
+        axios.post('/landing-page-dong-ho',{addItem:this.props.loadAdd}).then(res=>{
+            this.props.dispatch(initLoadContentDeal(res.data[0]));
         })
         document.documentElement.scrollTop=0
     }

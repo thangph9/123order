@@ -31,7 +31,7 @@ class ContentChecked extends React.Component {
         };
         return (
             <section className="scroll-products-block is-checked">
-                <div className="container" style={{maxWidth: '1200px'}}>
+                <div className="container" style={{maxWidth: '1200px',marginBottom:'30px'}}>
                     <div className="block-head">
                         <div className="block-title">Sản phẩm liên quan</div>
                     </div>{/* .block-head*/}
