@@ -25,9 +25,8 @@ class ProductItem extends React.Component {
         let index1 = data.sale.indexOf("(");
         let index2 = data.sale.indexOf(")");
         var saleper = data.sale.substring(index1 + 1, index2);
-        console.log(saleper);
         return (
-            <div className="col-md mt-2 px-2" style={{display:display,marginBottom:'8px'}}>
+            <div className="col-md mt-2 px-2" style={{display:display,marginBottom:'8px',flexGrow:0}}>
                 <div className="card" style={{width:'212px',height:'340px'}}>
                     <div className="hovereffect" style={{width:'210px',height:'190px'}}>
                     <div className="position-absolute discount-tag-pos"><img style={{width:'36px',height:'40px',position:'relative',left:'10px'}} src="https://static.fado.vn/f/desktop/v2/images/svg/other/sale-tag-orange.svg" alt='img' className="img-fluid" /></div>
