@@ -19,7 +19,7 @@ class ProductItem extends React.Component {
         if (data.title.length>45){
             data.title= data.title.slice(0,45)+'...';
         }
-        titleTrim=titleTrim.replace(/[\ - ]/g , "");
+        titleTrim=titleTrim.replace(/ - /g , "-");
         titleTrim=titleTrim.replace(/[\[\]\(\)\,\%\+]+/g , "");
         titleTrim=titleTrim.replace(/ /g , "-");
         var starNumber=Number(data.star)*20;
