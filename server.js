@@ -353,7 +353,7 @@ app.post("/landing-page-dong-ho", jsonParser, function (req, res) {
             nodeid: item.nodeid,
             price: currencyFormatter.unformat(item.price, { code: 'USD' }),
             reviews: item.reviews,
-            sale: currencyFormatter.unformat(item.sale, { code: 'USD' }),
+            sale: item.sale,
             star: item.star,
             title: item.title,
             type: item.type
