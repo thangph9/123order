@@ -455,9 +455,6 @@ app.post("/landing-page-thoi-trang", jsonParser, function (req, res) {
     res.json(result);
   })
 })
-app.get('/', function (req, res) {
-  res.render('index');
-});
 app.get("/api/data", function (req, res, next) {
   res.send("Xin chao");
 });
