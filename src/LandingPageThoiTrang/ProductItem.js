@@ -19,6 +19,12 @@ class ProductItem extends React.Component {
         if (data.title.length>45){
             data.title= data.title.slice(0,45)+'...';
         }
+        var {initLoadCurrencyRaito}=this.props;
+        console.log(initLoadCurrencyRaito);
+        if(initLoadCurrencyRaito.length>0){
+            var base_priceCurrency=Number(data.base_price)*initLoadCurrencyRaito[0].raito
+            var priceCurrency=Number(data.price)*initLoadCurrencyRaito[0].raito
+        }
         titleTrim=titleTrim.replace(/%/g , "");
         titleTrim=titleTrim.replace(/ /g , "-");
         var starNumber=Number(data.star)*20;
@@ -33,7 +39,7 @@ class ProductItem extends React.Component {
                     <span className={(data.sale=='')?'none-hide':''} style={{position: 'absolute',top: '7px',right: '12px',color: '#fff',fontSize: '13px',fontWeight: 700,zIndex: 9}}>-{saleper}</span>
                         <img style= {{width:'210px',height:'210px'}} className="card-img-top img-thumbnail border-0 img-fluid" src={data.img} alt='img'/>
                         <div className="overlay">
-                        <NavLink to={(data.stt==1)?`/product-detail/${titleTrim.substring(0,titleTrim.length-3)}id=` +`${data.dealid}`:'#'} onClick={()=>this.handleClickLink(data)} className="info">Chi tiết</NavLink>
+                        <NavLink to={"#"} className="info">Chi tiết</NavLink>
                         </div>
                     </div>
                     <div className="card-body p-2">
@@ -56,9 +62,9 @@ class ProductItem extends React.Component {
 								</div>
 							</div>
 						</div>  
-                        <br />
-                        <strong className="card-text align-left deal-price mb-2" style={{width: '97px',fontSize: '12px',fontFamily:'Arial,Helvetica,sans-serif'}}>{data.price}</strong>
-                        <span className="card-text align-right deal-old-price"><s style={{fontSize:'12px'}}>{data.base_price}</s></span>
+                        <br/>
+                        <strong className="card-text align-left deal-price mb-2" style={{width: '97px',fontSize: '12px',fontFamily:'Arial,Helvetica,sans-serif'}}>{(initLoadCurrencyRaito.length>0)&&priceCurrency} VNĐ</strong>
+                        <span className="card-text align-right deal-old-price"><s style={{fontSize:'12px'}}>{(initLoadCurrencyRaito.length>0)&&base_priceCurrency} VNĐ</s></span>
                         <div style={{ clear: 'both' }} />
                         <p className="card-text align-left deal-old-price"><i  className={(data.death_clock==='')? '' :'far fa-clock card-text'} /> {(data.death_clock==='None') ? '' : data.death_clock }</p>
                     </div>
@@ -71,7 +77,8 @@ class ProductItem extends React.Component {
 }
 function mapStateToProps(state) {
     return {
-        mouseClickLink:state.mouseClickLinkProductItem
+        mouseClickLink:state.mouseClickLinkProductItem,
+        initLoadCurrencyRaito:state.initLoadCurrencyRaito
     }
 }
 const connected = connect(mapStateToProps)(ProductItem);
