@@ -22,11 +22,15 @@ class ProductItem extends React.Component {
         titleTrim=titleTrim.replace(/%/g , "");
         titleTrim=titleTrim.replace(/ /g , "-");
         var starNumber=Number(data.star)*20;
+        let index1 = data.sale.indexOf("(");
+        let index2 = data.sale.indexOf(")");
+        var saleper = data.sale.substring(index1 + 1, index2);
         return (
-            <div className="col-md mt-2 px-2" style={{display:display,marginBottom:'8px'}}>
+            <div className="col-md mt-2 px-2" style={{display:display,marginBottom:'8px',flexGrow:0}}>
                 <div className="card" style={{width:'212px',height:'340px'}}>
                     <div className="hovereffect" style={{width:'210px',height:'190px'}}>
-                    <span className={(data.sale=='')?'none-hide':''} style={{position: 'absolute',top: '10px',right: '10px',background: 'red',color: '#fff',fontSize: '13px',fontWeight: 700,borderRadius: '3px',padding: '2px 5px',zIndex: 9}}>{data.sale}</span>
+                    <div className="position-absolute discount-tag-pos"><img style={{width:'36px',height:'40px',position:'relative',left:'10px'}} src="https://static.fado.vn/f/desktop/v2/images/svg/other/sale-tag-orange.svg" alt='img' className="img-fluid" /></div>
+                    <span className={(data.sale=='')?'none-hide':''} style={{position: 'absolute',top: '7px',right: '12px',color: '#fff',fontSize: '13px',fontWeight: 700,zIndex: 9}}>-{saleper}</span>
                         <img style= {{width:'210px',height:'210px'}} className="card-img-top img-thumbnail border-0 img-fluid" src={data.img} alt='img'/>
                         <div className="overlay">
                         <NavLink to={(data.stt==1)?`/product-detail/${titleTrim.substring(0,titleTrim.length-3)}id=` +`${data.dealid}`:'#'} onClick={()=>this.handleClickLink(data)} className="info">Chi tiết</NavLink>
