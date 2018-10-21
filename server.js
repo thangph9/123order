@@ -351,9 +351,9 @@ app.post("/landing-page-dong-ho", jsonParser, function (req, res) {
             death_clock: item.death_clock,
             img: item.img,
             nodeid: item.nodeid,
-            price: item.price,
+            price: currencyFormatter.unformat(item.price, { code: 'USD' }),
             reviews: item.reviews,
-            sale: item.sale,
+            sale: currencyFormatter.unformat(item.sale, { code: 'USD' }),
             star: item.star,
             title: item.title,
             type: item.type
