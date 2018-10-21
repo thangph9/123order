@@ -63,8 +63,8 @@ class ProductItem extends React.Component {
 							</div>
 						</div>  
                         <br/>
-                        <strong className="card-text align-left deal-price mb-2" style={{width: '97px',fontSize: '12px',fontFamily:'Arial,Helvetica,sans-serif'}}>{priceCurrency}</strong>
-                        <span className="card-text align-right deal-old-price"><s style={{fontSize:'12px'}}>{base_priceCurrency}</s></span>
+                        <strong className="card-text align-left deal-price mb-2" style={{width: '97px',fontSize: '12px',fontFamily:'Arial,Helvetica,sans-serif'}}>{(initLoadCurrencyRaito.length>0)&&priceCurrency} VNĐ</strong>
+                        <span className="card-text align-right deal-old-price"><s style={{fontSize:'12px'}}>{(initLoadCurrencyRaito.length>0)&&base_priceCurrency} VNĐ</s></span>
                         <div style={{ clear: 'both' }} />
                         <p className="card-text align-left deal-old-price"><i  className={(data.death_clock==='')? '' :'far fa-clock card-text'} /> {(data.death_clock==='None') ? '' : data.death_clock }</p>
                     </div>
