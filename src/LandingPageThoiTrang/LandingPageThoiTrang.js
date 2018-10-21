@@ -14,8 +14,9 @@ class LandingPageThoiTrang extends React.Component {
         }
     }
     componentWillMount(){
-        axios.post('/landing-page',{addItem:this.props.loadAdd}).then(res=>{
-            this.props.dispatch(initLoadContentDeal(res.data[0].ContentAmazonDealDay));
+        axios.post('/landing-page-thoi-trang',{addItem:this.props.loadAdd}).then(res=>{
+            this.props.dispatch(initLoadContentDeal(res.data[0]));
+            this.props.dispatch(initLoadCurrencyRaito(res.data[1]));
         })
         document.documentElement.scrollTop=0
     }
