@@ -16,6 +16,7 @@ class LandingPageCongNghe extends React.Component {
     componentWillMount(){
         axios.post('/landing-page-cong-nghe',{addItem:this.props.loadAdd}).then(res=>{
             this.props.dispatch(initLoadContentDeal(res.data[0]));
+            this.props.dispatch(initLoadCurrencyRaito(res.data[1]));
         })
         document.documentElement.scrollTop=0
     }
