@@ -22,8 +22,8 @@ class ContentDealSeeMoreLanding extends React.Component {
     handleClick(value){     
         var numb=this.props.loadAdd+value;
         this.props.dispatch(loadAdd(numb));
-        axios.post('/landing-page',{addItem:this.props.loadAdd}).then(res=>{
-           this.props.dispatch(initLoadContentDeal(res.data[0].ContentAmazonDealDay));
+        axios.post('/landing-page-cong-nghe',{addItem:this.props.loadAdd}).then(res=>{
+           this.props.dispatch(initLoadContentDeal(res.data[0]));
         })
     }
     render() {

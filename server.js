@@ -377,6 +377,45 @@ app.post("/landing-page-dong-ho", jsonParser, function (req, res) {
     res.json(result);
   })
 })
+app.post("/landing-page-cong-nghe", jsonParser, function (req, res) {
+  var addItem = req.body.addItem + 20;
+  async.series([
+    (callback) => {
+      models.instance.products_amazon.find({ $limit: addItem, type: 'electronics' }, { raw: true, allow_filtering: true }, function (err, result) {
+        var arr = result.map(item => {
+          return obj = {
+            asin: item.asin,
+            base_price: item.base_price,
+            category: item.category,
+            death_clock: item.death_clock,
+            img: item.img,
+            nodeid: item.nodeid,
+            price: item.price,
+            reviews: item.reviews,
+            sale: item.sale,
+            star: item.star,
+            title: item.title,
+            type: item.type
+          }
+        });
+        callback(err, arr)
+      });
+    },(callback) => {
+      models.instance.currency_raito.find({currency :'USD' }, function (err, result) {
+        var arr = result.map(item => {
+          return obj = {
+            currency: item.currency,
+            raito: item.raito
+          }
+        });
+        callback(err, arr)
+      });
+    }
+  ], (err, result) => {
+    if (err) console.log(err);
+    res.json(result);
+  })
+})
 app.post("/landing-page-thoi-trang", jsonParser, function (req, res) {
   var addItem = req.body.addItem + 20;
   async.series([
