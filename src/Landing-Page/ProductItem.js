@@ -20,6 +20,7 @@ class ProductItem extends React.Component {
             data.title= data.title.slice(0,45)+'...';
         }
         var {initLoadCurrencyRaito}=this.props;
+        console.log(data.sale);
         titleTrim=titleTrim.replace(/%/g , "");
         titleTrim=titleTrim.replace(/ /g , "-");
         var starNumber=Number(data.star)*20;
