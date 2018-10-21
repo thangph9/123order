@@ -62,7 +62,7 @@ class ProductItem extends React.Component {
 								</div>
 							</div>
 						</div>  
-                        <br />
+                        <br/>
                         <strong className="card-text align-left deal-price mb-2" style={{width: '97px',fontSize: '12px',fontFamily:'Arial,Helvetica,sans-serif'}}>{priceCurrency}</strong>
                         <span className="card-text align-right deal-old-price"><s style={{fontSize:'12px'}}>{base_priceCurrency}</s></span>
                         <div style={{ clear: 'both' }} />
