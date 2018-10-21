@@ -16,7 +16,7 @@ class LandingPageThoiTrang extends React.Component {
     componentWillMount(){
         axios.post('/landing-page-thoi-trang',{addItem:this.props.loadAdd}).then(res=>{
             this.props.dispatch(initLoadContentDeal(res.data[0]));
-            this.props.dispatch(initLoadCurrencyRaito(res.data[1]));
+            this.props.dispatch(initLoadCurrencyRaito(res.data[1][0].raito));
         })
         document.documentElement.scrollTop=0
     }
