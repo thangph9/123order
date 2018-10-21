@@ -346,7 +346,7 @@ app.post("/landing-page-dong-ho", jsonParser, function (req, res) {
         var arr = result.map(item => {
           return obj = {
             asin: item.asin,
-            base_price: item.base_price,
+            base_price: currencyFormatter.unformat(item.base_price, { code: 'USD' }),
             category: item.category,
             death_clock: item.death_clock,
             img: item.img,
