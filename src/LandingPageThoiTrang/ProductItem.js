@@ -21,8 +21,8 @@ class ProductItem extends React.Component {
         }
         var {initLoadCurrencyRaito}=this.props;
         console.log(initLoadCurrencyRaito);
-        var base_priceCurrency=Number(data.base_price)*initLoadCurrencyRaito
-        var priceCurrency=Number(data.price)*initLoadCurrencyRaito
+        var base_priceCurrency=data.base_price*initLoadCurrencyRaito
+        var priceCurrency=data.price*initLoadCurrencyRaito
         titleTrim=titleTrim.replace(/%/g , "");
         titleTrim=titleTrim.replace(/ /g , "-");
         var starNumber=Number(data.star)*20;

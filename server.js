@@ -346,12 +346,12 @@ app.post("/landing-page-dong-ho", jsonParser, function (req, res) {
         var arr = result.map(item => {
           return obj = {
             asin: item.asin,
-            base_price: currencyFormatter.unformat(item.base_price, { code: 'USD' }),
+            base_price: Number(currencyFormatter.unformat(item.base_price, { code: 'USD' }).toFixed(1)),
             category: item.category,
             death_clock: item.death_clock,
             img: item.img,
             nodeid: item.nodeid,
-            price: currencyFormatter.unformat(item.price, { code: 'USD' }),
+            price: Number(currencyFormatter.unformat(item.price, { code: 'USD' }).toFixed(1)),
             reviews: item.reviews,
             sale: item.sale,
             star: item.star,
@@ -385,12 +385,12 @@ app.post("/landing-page-cong-nghe", jsonParser, function (req, res) {
         var arr = result.map(item => {
           return obj = {
             asin: item.asin,
-            base_price: currencyFormatter.unformat(item.base_price, { code: 'USD' }),
+            base_price: Number(currencyFormatter.unformat(item.base_price, { code: 'USD' }).toFixed(1)),
             category: item.category,
             death_clock: item.death_clock,
             img: item.img,
             nodeid: item.nodeid,
-            price: currencyFormatter.unformat(item.price, { code: 'USD' }),
+            price: Number(currencyFormatter.unformat(item.price, { code: 'USD' }).toFixed(1)),
             reviews: item.reviews,
             sale: item.sale,
             star: item.star,
@@ -424,12 +424,12 @@ app.post("/landing-page-thoi-trang", jsonParser, function (req, res) {
         var arr = result.map(item => {
           return obj = {
             asin: item.asin,
-            base_price: currencyFormatter.unformat(item.base_price, { code: 'USD' }),
+            base_price: Number(currencyFormatter.unformat(item.base_price, { code: 'USD' }).toFixed(1)),
             category: item.category,
             death_clock: item.death_clock,
             img: item.img,
             nodeid: item.nodeid,
-            price: currencyFormatter.unformat(item.price, { code: 'USD' }),
+            price: Number(currencyFormatter.unformat(item.price, { code: 'USD' }).toFixed(1)),
             reviews: item.reviews,
             sale: item.sale,
             star: item.star,
