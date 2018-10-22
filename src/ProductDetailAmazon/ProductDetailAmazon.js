@@ -19,9 +19,8 @@ class ProductDetailAmazon extends React.Component {
         this.handleScrollToElement = this.handleScrollToElement.bind(this); 
     }
     componentWillMount(){
-        console.log(this.props.match.params.dealid);
         axios.post('/product-detail-amazon',{
-            dealid:this.props.match.params.dealid
+            dealid:this.props.match.params.asin
         }).then(res=>{
             var action=initLoadProductDetail(res.data[1]);
             this.props.dispatch(mouseClickSmallImageProduct(0));
