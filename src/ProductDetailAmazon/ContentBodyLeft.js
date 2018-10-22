@@ -33,6 +33,7 @@ class ContentBodyLeft extends React.Component {
         var { mouseClick } = this.props;
         var {mouseClickLink}=this.props;
         var {checkScroll}=this.state;
+        var image=new Image();
         
         var menuItems = [];
         var settings = {
