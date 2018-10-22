@@ -8,7 +8,7 @@ import {mouseScrollDetailProduct} from '../actions';
 import {initLoadProductDetail} from '../actions'; 
 import {mouseClickLinkProductItem} from '../actions';
 import {mouseClickSmallImageProduct} from '../actions';
-class ProductDetail extends React.Component {
+class ProductDetailAmazon extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -55,5 +55,5 @@ class ProductDetail extends React.Component {
 function mapStateToProps(state) {
     return state;
 }
-const connectedHomePage = connect(mapStateToProps)(ProductDetail);
-export { connectedHomePage as ProductDetail } 
+const connectedHomePage = connect(mapStateToProps)(ProductDetailAmazon);
+export { connectedHomePage as ProductDetProductDetailAmazonail } 
