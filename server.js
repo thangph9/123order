@@ -327,7 +327,7 @@ app.post('/product-detail-amazon', jsonParser, function (req, res) {
             star: item.star,
             style: item.style,
             timestamp: item.timestamp + "",
-            title: (item.title != null) ? item.title : '',
+            title: item.title,
           }
         });
         callback(err, arr);

@@ -22,36 +22,9 @@ class ContentBodyLeft extends React.Component {
         })
         console.log("Hello World")
     }
-    selectStyle(valueScroll) {
-        if (valueScroll < 371) return 'product-img-block beginProduct';
-        else if (valueScroll >= 371 && valueScroll < 3000) return 'product-img-block fixedProduct';
-        else if (valueScroll >= 3000) return 'product-img-block endProduct';
-    }
     render() {
         var { loadDetail } = this.props;
-        var { mouseScroll } = this.props;
         var { mouseClick } = this.props;
-        var {checkScroll}=this.state;
-        var scrollValue = this.selectStyle(mouseScroll);
-        var element = document.getElementById("container-scroll");
-        var childfirst = document.getElementById("product-img-block");
-        if(mouseScroll>=371&&element!=null&&childfirst!=null&&checkScroll==0){
-            var newElementScroll=document.createElement("div");
-            newElementScroll.className="scrollProduct";
-            newElementScroll.setAttribute("id", "scrollProduct");
-            element.insertBefore(newElementScroll,childfirst);
-            this.setState({checkScroll:1});
-        }
-        if(mouseScroll<371&&checkScroll==1){
-            var child=document.getElementById("scrollProduct");
-            element.removeChild(child);
-            this.setState({checkScroll:0});
-        }
-        var productDetailContainer = document.getElementById("root");
-        var leftProduct = 0;
-        if (productDetailContainer != null) {
-            leftProduct = (productDetailContainer.offsetWidth - 1200) / 2 + 16;
-        }
         var menuItems = [];
         var settings = {
             dots: false,
@@ -74,7 +47,7 @@ class ContentBodyLeft extends React.Component {
         
         return (
             <div id="container-scroll" className="container-main-col-1" style={{ position: 'relative' }}>
-                <section id="product-img-block" style={(scrollValue == 'product-img-block fixedProduct') ? { left: `${leftProduct}px` } : {}} className={scrollValue} >
+                <section id="product-img-block" >
                     <div className="product-img-segment">
                         <div className={(loadDetail.save_price=='')?'none-hide':'sale-tag'}>-{(loadDetail!=undefined&&loadDetail.save_price!='') ?loadDetail.save_price:''}</div>
                         <div className="over-img-field">
