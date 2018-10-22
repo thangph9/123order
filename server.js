@@ -346,12 +346,12 @@ app.post("/landing-page-dong-ho", jsonParser, function (req, res) {
         var arr = result.map(item => {
           return obj = {
             asin: item.asin,
-            base_price: currencyFormatter.unformat(item.base_price, { code: 'USD' }),
+            base_price: currencyFormatter.unformat(item.base_price, { code: 'USD',locale: 'en-US' }),
             category: item.category,
             death_clock: item.death_clock,
             img: item.img,
             nodeid: item.nodeid,
-            price: currencyFormatter.unformat(item.price, { code: 'USD' }),
+            price: currencyFormatter.unformat(item.price, { code: 'USD',locale: 'en-US' }),
             reviews: item.reviews,
             sale: item.sale,
             star: item.star,
@@ -385,12 +385,12 @@ app.post("/landing-page-cong-nghe", jsonParser, function (req, res) {
         var arr = result.map(item => {
           return obj = {
             asin: item.asin,
-            base_price: currencyFormatter.unformat(item.base_price, { code: 'USD' }),
+            base_price: currencyFormatter.unformat(item.base_price, { code: 'USD',locale: 'en-US' }),
             category: item.category,
             death_clock: item.death_clock,
             img: item.img,
             nodeid: item.nodeid,
-            price: currencyFormatter.unformat(item.price, { code: 'USD' }),
+            price: currencyFormatter.unformat(item.price, { code: 'USD',locale: 'en-US' }),
             reviews: item.reviews,
             sale: item.sale,
             star: item.star,
@@ -401,7 +401,7 @@ app.post("/landing-page-cong-nghe", jsonParser, function (req, res) {
         callback(err, arr)
       });
     },(callback) => {
-      models.instance.currency_raito.find({currency :'USD' }, function (err, result) {
+      models.instance.currency_raito.find({currency :'USD', }, function (err, result) {
         var arr = result.map(item => {
           return obj = {
             currency: item.currency,
@@ -424,12 +424,12 @@ app.post("/landing-page-thoi-trang", jsonParser, function (req, res) {
         var arr = result.map(item => {
           return obj = {
             asin: item.asin,
-            base_price: currencyFormatter.unformat(item.base_price, { code: 'USD' }),
+            base_price: currencyFormatter.unformat(item.base_price, { code: 'USD',locale: 'en-US' }),
             category: item.category,
             death_clock: item.death_clock,
             img: item.img,
             nodeid: item.nodeid,
-            price:currencyFormatter.unformat(item.price, { code: 'USD' }),
+            price:currencyFormatter.unformat(item.price, { code: 'USD',locale: 'en-US' }),
             reviews: item.reviews,
             sale: item.sale,
             star: item.star,
