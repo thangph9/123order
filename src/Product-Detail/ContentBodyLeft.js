@@ -9,7 +9,7 @@ class ContentBodyLeft extends React.Component {
         this.state = {
             login: true,
             loading: false,
-            checkScroll:0
+            checkScroll: 0
         }
         this.handleSubmit = this.handleSubmit.bind(this);
     }
@@ -31,9 +31,9 @@ class ContentBodyLeft extends React.Component {
         var { loadDetail } = this.props;
         var { mouseScroll } = this.props;
         var { mouseClick } = this.props;
-        var {mouseClickLink}=this.props;
-        var {checkScroll}=this.state;
-        
+        var { mouseClickLink } = this.props;
+        var { checkScroll } = this.state;
+
         var menuItems = [];
         var settings = {
             dots: false,
@@ -49,21 +49,25 @@ class ContentBodyLeft extends React.Component {
             menuItems = loadDetail[0].smallimage.map((img, index) => {
                 return (
                     <div key={index} onClick={() => this.handleClick(index)} className="border-small-image">
-                        <img  className="small-image" alt="img" src={(loadDetail[0] != undefined) ? loadDetail[0].smallimage[index] : ''} />
+                        <img className="small-image" alt="img" src={(loadDetail[0] != undefined) ? loadDetail[0].smallimage[index] : ''} />
                     </div>
                 )
             })
         }
-        
+        if (loadDetail.length > 0) {
+            let index1 = loadDetail[0].sale.indexOf("(");
+            let index2 = loadDetail[0].sale.indexOf(")");
+            var saleper = loadDetail[0].sale.substring(index1 + 1, index2);
+        }
         return (
             <div id="container-scroll" className="container-main-col-1" style={{ position: 'relative' }}>
                 <section id="product-img-block" className='product-img-block' >
                     <div className="product-img-segment">
-                        <div className={(mouseClickLink.sale=='')?'none-hide':'sale-tag'}>-{(mouseClickLink!=undefined&&mouseClickLink.sale!='') ?mouseClickLink.sale:''}</div>
+                        <div className={(mouseClickLink.sale == '') ? 'none-hide' : 'sale-tag'}>-{(loadDetail.length > 0)&&saleper}</div>
                         <div className="over-img-field">
                             <span className="field-inner"><img className="over-img" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" alt="img" /></span>
                         </div>
-                        <div className="swiper-container swiper-container-horizontal" style={{overflow: 'visible'}}>
+                        <div className="swiper-container swiper-container-horizontal" style={{ overflow: 'visible' }}>
                             <div className="swiper-wrapper" style={{ height: 310 }}>
                                 <div className="swiper-slide" style={{ width: 310, marginRight: 10 }}>
                                     <a className="gallery-item img-item" data-fancybox="group" target="_blank">
@@ -72,7 +76,7 @@ class ContentBodyLeft extends React.Component {
                                                 smallImage: {
                                                     alt: 'img',
                                                     width: 310,
-                                                    height:310,
+                                                    height: 310,
                                                     src: (loadDetail[0] != undefined) ? loadDetail[0].largeimage[mouseClick] : ''
 
                                                 },
@@ -85,7 +89,7 @@ class ContentBodyLeft extends React.Component {
                                                 enlargedImageContainerDimensions: {
                                                     width: '190%', height: '200%'
                                                 },
-                                                
+
                                                 shouldHideHintAfterFirstActivation: false
                                             }} />
                                         </div>
@@ -159,7 +163,7 @@ function mapStateToProps(state) {
         mouseScroll: state.mouseScrollPageDetailProduct,
         loadDetail: state.initLoadProductDetail,
         mouseClick: state.mouseClickSmallImageProduct,
-        mouseClickLink:state.mouseClickLinkProductItem
+        mouseClickLink: state.mouseClickLinkProductItem
     }
 }
 const connectedContent = connect(mapStateToProps)(ContentBodyLeft);
