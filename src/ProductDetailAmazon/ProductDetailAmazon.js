@@ -20,7 +20,7 @@ class ProductDetailAmazon extends React.Component {
     }
     componentWillMount(){
         axios.post('/product-detail-amazon',{
-            asin:1234
+            asin:this.props.match.params.asin
         }).then(res=>{
             var action=initLoadProductDetail(res.data[1]);
             this.props.dispatch(mouseClickSmallImageProduct(0));
@@ -54,4 +54,4 @@ function mapStateToProps(state) {
     return state;
 }
 const connectedHomePage = connect(mapStateToProps)(ProductDetailAmazon);
-export { connectedHomePage as ProductDetProductDetailAmazonail } 
+export { connectedHomePage as ProductDetailAmazon } 
