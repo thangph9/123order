@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import {settingNumberItem} from '../actions';
 class ContentRightDetail extends React.Component {
     constructor(props) {
         super(props);
@@ -15,11 +16,19 @@ class ContentRightDetail extends React.Component {
         })
         console.log("Hello World")
     }
-    render() {
-        var { loadDetail} = this.props;
-        if(loadDetail.length>0){
-            console.log(loadDetail);
+    handleClick(value){
+        var {settingNumber} =this.props;
+        var newNumb=settingNumber+value;
+        if(newNumb>=1&&newNumb<=15){
+            this.props.dispatch(settingNumberItem(newNumb));
         }
+    }
+    handleChange(){
+
+    }
+    render() {
+        var { mouseClickLink } = this.props;
+        var {settingNumber}=this.props;
         return (
             <section id="product-detail-block-v2" className="product-detail-block-v2 ">
                 <div className="blur-bg" />
@@ -28,60 +37,37 @@ class ContentRightDetail extends React.Component {
                     </div>
                     <div className="price-segment">
                         <div className="segment-head">
-                            <a data-ttip="Dành cho người mua cá nhân.<br/>Giá đã bao gồm tất cả các loại thuế phí." className="segment-title ttip is-active" href="javascript:;" data-hasqtip={0}>Nhập khẩu DDP</a>
-                            <span className="segment-title" />
+                            <a style={{background:'#fff'}} data-ttip="Dành cho người mua cá nhân.<br/>Giá đã bao gồm tất cả các loại thuế phí." className="segment-title ttip is-active" href="javascript:;" data-hasqtip={0}>Nhập khẩu DDP</a>
                         </div>
-                        <div className="segment-main">
+                        <div className="segment-main" style={{background:'#fff'}}>
                             <div className="price-type-col-wrap">
-                                <div className="price-type-col">
+                                <div className="price-type-col" style={{position: 'relative',left: '30px'}}>
                                     <div className="price-panel">
                                         <div className="info-item">
-                                            <div className="lbl-col">Giá bán tại Việt Nam <i className="fa fa-question-circle ttip guide-icon" aria-hidden="true" data-ttip="Giá trọn gói: bao gồm tất cả loại thuế phí,<br/>không phát sinh phụ phí" data-hasqtip={1} aria-describedby="qtip-2" /></div>
+                                            <div className="lbl-col" style={{flex: '0 0 160px'}}>Giá bán tại Việt Nam <i className="fa fa-question-circle ttip guide-icon" aria-hidden="true" data-ttip="Giá trọn gói: bao gồm tất cả loại thuế phí,<br/>không phát sinh phụ phí" data-hasqtip={1} aria-describedby="qtip-2" /></div>
                                             <div className="info-col">
-                                                <div id="currPrice" className="curr-price">{(loadDetail.length>0) &&loadDetail[0].price}</div>
+                                                <div id="currPrice" className="curr-price">{(mouseClickLink!=undefined) &&mouseClickLink.price}</div>
                                             </div>
                                         </div>
                                         <div className="info-item sub-item">
                                             <div className="lbl-col">Tiết kiệm:</div>
                                             <div className="info-col text-nowrap">
-                                                <span className={(loadDetail.length>0&&loadDetail[0].save_price=='')?'none-hide':'sale-percent'}>{(loadDetail.length>0&&loadDetail[0].save_price!='') ?loadDetail[0].save_price:''}</span>
+                                                <span style={{position: 'relative',left:'41px'}} className={(mouseClickLink.sale=='')?'none-hide':'sale-percent'}>{(mouseClickLink!=undefined&&mouseClickLink.sale!='') ?mouseClickLink.sale:''}</span>
                                                 
                                             </div>
                                         </div>
                                         <div className="info-item sub-item">
                                             <div className="lbl-col">Giá chưa giảm:</div>
                                             <div className="info-col">
-                                                <span id="oldPrice" className="old-price line-through">{(loadDetail.length>0) &&loadDetail[0].base_price}</span>
+                                                <span style={{position:'relative',left:'25px'}} id="oldPrice" className="old-price line-through">{(mouseClickLink!=undefined) &&mouseClickLink.base_price}</span>
                                             </div>
                                         </div>
                                     </div>{/* .price-panel */}
                                 </div>
-                                <div className="login-col">
-                                    <div className="login-panel">
-                                        <a className="login-btn btn btn-xs btn-grd-border btn-pill" href="https://fado.vn/dang-nhap?r=https:%2F%2Ffado.vn%2Fde%2Ftablet-stander-verstellbare-lamicall-tablet-staender-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-silber-B01N05W4A2.html%3Fdeal=list&m=A3AJ0GNLXXLZX8"><div className="btn-inner">Đăng nhập <i className="svg svg-arrow-right-black svg-14px" /></div></a>
-                                        <div>Để nhận giá ưu đãi cho thành viên</div>
-                                    </div>{/* .login-panel */}
-                                </div>{/* .login-col */}
+                               
                             </div>
                         </div>{/* .segment-main */}
                     </div>{/* .price-segment */}
-                    <div className="other-info-segment">
-                        <div className="segment-main">
-                            <div className="info-panel compare-panel">
-                                <div className="panel-head">
-                                    <div className="icon-col"><i className="svg svg-compare-grd svg-24px" /></div>
-                                    <div className="title-col" style={{ fontSize: 14 }}>
-                                        Quý Khách muốn so sánh giá với sản phẩm khác
-                  </div>
-                                    <div className="control-col">
-                                        <div className="btn btn-pill btn-grd-border btn-xs compare-btn compare ">
-                                            <div className="btn-inner"><i className="svg svg-plus-black svg-16px" /> Thêm vào so sánh</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>{/* .compare-panel */}
-                        </div>{/* .segment-main */}
-                    </div>{/* .other-info-segment */}
                     <div className="desc-segment">
                         <div className="segment-main">
                             <div className="param-list-outer">
@@ -96,23 +82,6 @@ class ContentRightDetail extends React.Component {
                             </div>
                         </div>
                     </div>{/* .desc-segment */}
-                    <div className="option-segment">
-                        <div className="option-panel pick-panel size-panel pd-choose">
-                            <div className="lbl-col">Farbe:</div>
-                            <div className="info-col">
-                                <select defaultValue={"Silber"} style={{ fontSize: 14, padding: '0px 0px 0px 10px' }} className="size-sel form-control">
-                                    <option value="/de/tablet-stander-verstellbare-lamicall-tablet-staender-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-silber-B07HXYQXQ3.html?deal=list&m=A3AJ0GNLXXLZX8&keywords=">
-                                        ALL                                                              </option>
-                                    <option value="/de/tablet-stander-verstellbare-lamicall-tablet-staender-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-silber-B072MZM8G8.html?deal=list&m=A3AJ0GNLXXLZX8&keywords=">
-                                        Grau                                                              </option>
-                                    <option value="/de/tablet-stander-verstellbare-lamicall-tablet-staender-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-silber-B07BS8YM9B.html?deal=list&m=A3AJ0GNLXXLZX8&keywords=">
-                                        Rose Gold                                                              </option>
-                                    <option value="/de/tablet-stander-verstellbare-lamicall-tablet-staender-universal-halter-halterung-dock-fur-ipad-pro-105-97-ipad-air-2-3-4-ipad-mini-2-3-4-samsung-huawei-e-reader-und-google-nexus-schreibtisch-andere-tab-5-13-silber-B01N05W4A2.html?deal=list&m=A3AJ0GNLXXLZX8&keywords=">
-                                        Silber                                                              </option>
-                                </select>
-                            </div>
-                        </div>{/* .option-panel */}
-                    </div>{/* .option-segment */}
                     <div className="quantity-segment">
                         <div className="segment-main">
                             Số lượng sản phẩm còn lại trong kho người bán: <b>2,446 sản phẩm</b>
@@ -123,9 +92,9 @@ class ContentRightDetail extends React.Component {
                             <div className="main-inner">
                                 <div className="control-col quantity-col">
                                     <div className="pd-quantity-control">
-                                        <input type="text" className="quantity-input quantity-input-fix" defaultValue={1} min={1} />
-                                        <div className="control-btn plus-btn">+</div>
-                                        <div className="control-btn minus-btn is-disabled">-</div>
+                                        <input type="text" className="quantity-input quantity-input-fix" onChange={()=>this.handleChange()} value={settingNumber} />
+                                        <div onClick={()=>this.handleClick(1)} className="control-btn plus-btn">+</div>
+                                        <div onClick={()=>this.handleClick(-1)} className="control-btn minus-btn">-</div>
                                     </div>{/* .quantity-control */}
                                 </div>
                                 <div className="control-col buy-now-col">
@@ -146,7 +115,7 @@ class ContentRightDetail extends React.Component {
                     {/* .cart-segment */}
                     <div className="faq-segment">
                         <div className="faq-list">
-                            <li><a href="/ho-tro/huong-dan-dat-mua-hang-cach-dat-mua-hang.n37/?utm_source=onsite&utm_medium=link&utm_campaign=LinkProduct" target="_blank">Hướng dẫn đặt hàng?</a></li>
+                            <li><a href="#" target="_blank">Hướng dẫn đặt hàng?</a></li>
                             <li><a href="#" data-toggle="modal" data-target="#feature-service-modal">Chính sách đổi trả xuyên biên giới ?</a></li>
                             <li><a href="#" data-toggle="modal" data-target="#order-timeline-modal">Quy trình đặt hàng ?</a></li>
                         </div>
@@ -154,23 +123,23 @@ class ContentRightDetail extends React.Component {
                 </div>{/* .block-col-1 */}
                 <div className="block-col-2">
                     <div className="feature-segment">
-                        <div className="segment-head">Duy nhất tại<br />Fado Việt Nam</div>
+                        <div className="segment-head">Duy nhất tại<br />123order Việt Nam</div>
                         <div className="segment-main">
                             <ul className="feature-list" style={{ padding: 0, fontSize: 14 }}>
                                 <li>
                                     <i className="svg svg-check-circle-grd svg-14px" />
                                     <b>Yên tâm mua sắm</b><br />
-                                    Fado đảm bảo giao dịch, hỗ trợ khiếu nại đổi, trả xuyên biên giới dễ dàng, bảo vệ người mua tuyệt đối
+                                    123order đảm bảo giao dịch, hỗ trợ khiếu nại đổi, trả xuyên biên giới dễ dàng, bảo vệ người mua tuyệt đối
                 </li>
                                 <li>
                                     <i className="svg svg-check-circle-grd svg-14px" />
                                     <b>Không lo thủ tục</b><br />
-                                    Fado thông quan, chuyển hàng tới tận tay...Quý khách chỉ việc ngồi nhà tận hưởng
+                                    123order thông quan, chuyển hàng tới tận tay...Quý khách chỉ việc ngồi nhà tận hưởng
                 </li>
                                 <li>
                                     <i className="svg svg-check-circle-grd svg-14px" />
                                     <b>Không giới hạn lựa chọn</b><br />
-                                    &gt; 4 tỷ sản phẩm chất lượng từ khắp thế giới được Fado cập nhật realtime, giúp Quý khách mua được giá hời, giá rẻ.
+                                    &gt; 4 tỷ sản phẩm chất lượng từ khắp thế giới được 123order cập nhật realtime, giúp Quý khách mua được giá hời, giá rẻ.
                 </li>
                                 <li>
                                     <i className="svg svg-check-circle-grd svg-14px" />Tận hưởng giá shock toàn cầu<br />
@@ -179,7 +148,7 @@ class ContentRightDetail extends React.Component {
                                 <li>
                                     <i className="svg svg-check-circle-grd svg-14px" />
                                     <b>Tiết kiệm thêm, ưu đãi thêm</b><br />
-                                    Nhận thêm ưu đãi từ Fado (điểm thưởng, mã giảm giá...) và Fado luôn miễn phí giao hàng toàn quốc
+                                    Nhận thêm ưu đãi từ 123order (điểm thưởng, mã giảm giá...) và 123order luôn miễn phí giao hàng toàn quốc
                 </li>
                                 <li>
                                     <i className="svg svg-check-circle-grd svg-14px" />
@@ -193,7 +162,7 @@ class ContentRightDetail extends React.Component {
                         <div className="segment-head">Quý khách cần trợ giúp</div>
                         <div className="segment-main">
                             <form className="support-form">
-                                <input type="text" className="phone-input phone-txt" name="phone" placeholder="Để lại số điện thoại, Fado sẽ liên lạc" />
+                                <input type="text" className="phone-input phone-txt" name="phone" placeholder="Để lại số điện thoại, 123order sẽ liên lạc" />
                                 <button className="submit-btn" type="button" id="bt-recall"><i className="svg svg-send-grd svg-16px" /></button>
                             </form>
                             <div className="info-item-wrap">
@@ -215,7 +184,7 @@ function mapStateToProps(state) {
 
     return {
         mouseClickLink: state.mouseClickLinkProductItem,
-        loadDetail: state.initLoadProductDetailAmazon,
+        settingNumber:state.settingNumberItem
     }
 }
 const connectedContent = connect(mapStateToProps)(ContentRightDetail);

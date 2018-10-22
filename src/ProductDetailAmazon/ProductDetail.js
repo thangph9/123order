@@ -5,9 +5,10 @@ import { Footer } from "../Sections/Footer";
 import { Content } from "./Content";
 import axios from 'axios';
 import {mouseScrollDetailProduct} from '../actions';
-import {initLoadProductDetailAmazon} from '../actions'; 
+import {initLoadProductDetail} from '../actions'; 
+import {mouseClickLinkProductItem} from '../actions';
 import {mouseClickSmallImageProduct} from '../actions';
-class ProductDetailAmazon extends React.Component {
+class ProductDetail extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -18,11 +19,16 @@ class ProductDetailAmazon extends React.Component {
         this.handleScrollToElement = this.handleScrollToElement.bind(this); 
     }
     componentWillMount(){
-        axios.post('/product-detail-amazon',{asin:this.props.match.params.asin}).then(res=>{
-            this.props.dispatch(initLoadProductDetailAmazon(res.data[1]));
+        console.log(this.props.match.params.dealid);
+        axios.post('/product-detail',{
+            dealid:this.props.match.params.dealid
+        }).then(res=>{
+            var action=initLoadProductDetail(res.data[1].ProductDetail);
+            this.props.dispatch(mouseClickLinkProductItem(res.data[2]));
             this.props.dispatch(mouseClickSmallImageProduct(0));
-            
+            this.props.dispatch(action);
         })
+        document.documentElement.scrollTop=0
     }
     componentDidMount() {
         window.addEventListener('scroll', this.handleScrollToElement);
@@ -36,7 +42,7 @@ class ProductDetailAmazon extends React.Component {
     }
     render() {
         return (
-            <div ref="scrollProduct">
+            <div className="body-product-detail"  ref="scrollProduct">
                 <Header/>
                 <Content/>
                 <Footer/>
@@ -49,5 +55,5 @@ class ProductDetailAmazon extends React.Component {
 function mapStateToProps(state) {
     return state;
 }
-const connectedHomePage = connect(mapStateToProps)(ProductDetailAmazon);
-export { connectedHomePage as ProductDetailAmazon } 
+const connectedHomePage = connect(mapStateToProps)(ProductDetail);
+export { connectedHomePage as ProductDetail } 

@@ -21,8 +21,7 @@ class Content extends React.Component{
     render(){
         
         return (
-            <div>
-                <Itemscope/>
+            <div style={{marginTop:'20px'}} >
                 <ContentMain/>
                 <ContentChecked/>
             </div>

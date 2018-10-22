@@ -22,12 +22,22 @@ class ContentBodyLeft extends React.Component {
         })
         console.log("Hello World")
     }
+    selectStyle(valueScroll) {
+        if (valueScroll < 371) return 'product-img-block beginProduct';
+        else if (valueScroll >= 371 && valueScroll < 3000) return 'product-img-block fixedProduct';
+        else if (valueScroll >= 3000) return 'product-img-block endProduct';
+    }
     render() {
         var { loadDetail } = this.props;
+        var { mouseScroll } = this.props;
         var { mouseClick } = this.props;
+        var {mouseClickLink}=this.props;
+        var {checkScroll}=this.state;
+        
         var menuItems = [];
         var settings = {
             dots: false,
+            speed: 500,
             slidesToShow: 4,
             slidesToScroll: 1,
             autoplay: false,
@@ -47,9 +57,9 @@ class ContentBodyLeft extends React.Component {
         
         return (
             <div id="container-scroll" className="container-main-col-1" style={{ position: 'relative' }}>
-                <section id="product-img-block" >
+                <section id="product-img-block" className='product-img-block' >
                     <div className="product-img-segment">
-                        <div className={(loadDetail.save_price=='')?'none-hide':'sale-tag'}>-{(loadDetail!=undefined&&loadDetail.save_price!='') ?loadDetail.save_price:''}</div>
+                        <div className={(mouseClickLink.sale=='')?'none-hide':'sale-tag'}>-{(mouseClickLink!=undefined&&mouseClickLink.sale!='') ?mouseClickLink.sale:''}</div>
                         <div className="over-img-field">
                             <span className="field-inner"><img className="over-img" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" alt="img" /></span>
                         </div>
@@ -73,7 +83,7 @@ class ContentBodyLeft extends React.Component {
                                                 },
                                                 shouldUsePositiveSpaceLens: true,
                                                 enlargedImageContainerDimensions: {
-                                                    width: '200%', height: '200%'
+                                                    width: '190%', height: '200%'
                                                 },
                                                 
                                                 shouldHideHintAfterFirstActivation: false
@@ -81,8 +91,8 @@ class ContentBodyLeft extends React.Component {
                                         </div>
                                     </a>
                                 </div>
-                            </div>{/* .swiper-wrapper */}
-                        </div>{/* .swiper-container */}
+                            </div>
+                        </div>
                     </div>
                     <div className="product-thumb-segment">
                         <Slider {...settings}>
@@ -147,8 +157,9 @@ function mapStateToProps(state) {
 
     return {
         mouseScroll: state.mouseScrollPageDetailProduct,
-        loadDetail: state.initLoadProductDetailAmazon,
+        loadDetail: state.initLoadProductDetail,
         mouseClick: state.mouseClickSmallImageProduct,
+        mouseClickLink:state.mouseClickLinkProductItem
     }
 }
 const connectedContent = connect(mapStateToProps)(ContentBodyLeft);

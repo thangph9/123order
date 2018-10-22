@@ -18,13 +18,14 @@ class ContentHead extends React.Component{
     }
     render(){
         var {loadDetail}=this.props;
+        var { mouseClickLink } = this.props;
         var starNumber=0;
-        if(loadDetail[0]!=undefined) {starNumber=Number(loadDetail[0].star)*20;console.log(loadDetail)}
+        if(loadDetail[0]!=undefined) starNumber=Number(loadDetail[0].star)*20;
         return (
             <div className="container-head">
-                        <div className="product-detail-head-block">
-                            <div className="block-col-1">
-                                <h1 style={{margin:'0px 0px 6px 0px'}} className="pd-title" itemProp="name" id="productName">
+                        <div className="product-detail-head-block" >
+                            <div className="block-col-1" style={{    position: 'relative',top: '-10px'}}>
+                                <h1 style={{margin:'0px 0px 6px 0px',width:'907px'}} className="pd-title" itemProp="name" id="productName">
                                 {(loadDetail[0]!=undefined) &&loadDetail[0].title}
                                 </h1>
                                 <div className="meta-item-wrap">
@@ -44,21 +45,19 @@ class ContentHead extends React.Component{
 								</div>
 							</div>
                             <div style={{color:'#737373'}}>
-                            <span style={{color:'#737373'}} itemProp="ratingValue">&nbsp; 4</span>/5
-                                        &nbsp;(<span>795</span> lượt đánh giá) &nbsp; | &nbsp; Bán tại: &nbsp;<i className="si si-logo-amz-mini" /> &nbsp; Amazon Đức &nbsp;|  &nbsp; Thương hiệu:  &nbsp; <span className="text-blue"><a style={{ color: '#007bff' }} href="/de/s/search/?rh=Lamicall&keywords=Lamicall" target="_blank"> Lamicall</a></span>
+                            <span style={{color:'#737373'}} itemProp="ratingValue">&nbsp; {(loadDetail[0]!=undefined)&&loadDetail[0].star}</span>/5
+                                        &nbsp;(<span>{(mouseClickLink!=undefined)&&mouseClickLink.reviews}</span> lượt đánh giá) &nbsp; | &nbsp; Bán tại: &nbsp;<i className="si si-logo-amz-mini" /> &nbsp;
                             </div>
                             
 						</div>                                            
                                 </div>{/* .meta-item-wrap */}
                             </div>{/* .block-col-1 */}
-                            <div className="block-col-2">
+                            <div className="block-col-2" style={{position: 'relative',left:'10px'}}>
                                 <div className="shop-segment">
                                     <div className="segment-head">
                                         <div className="icon-col"><i className="svg svg-shop svg-24px" /></div>
                                         <div className="info-col">
-                                            <div className="shop-title">
-                                                <a style={{ color: '#2196f3', textDecoration: 'none' }} href="/de/s/cat/?me=A3AJ0GNLXXLZX8" target="_blank">LamicallDirect</a>
-                                            </div>
+                                            
                                             <div className="desc">
                                             <div className="star-rating" style={{top:'-1px',fontSize:'12px'}}>
 							<div className="back-stars" style={{top:'4px'}}>
@@ -95,7 +94,8 @@ class ContentHead extends React.Component{
 function mapStateToProps(state){
   
     return {
-        loadDetail:state.initLoadProductDetailAmazon
+        loadDetail:state.initLoadProductDetail,
+        mouseClickLink:state.mouseClickLink
     }
 }
 const connectedContent=connect(mapStateToProps)(ContentHead);
