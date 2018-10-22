@@ -1,4 +1,4 @@
-export * from './ProductDetail';
+export * from './ProductDetailAmazon';
 export * from './Content';
 export * from './ContentTest';
 export * from './Itemscope';
