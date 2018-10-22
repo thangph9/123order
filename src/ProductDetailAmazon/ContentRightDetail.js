@@ -27,7 +27,7 @@ class ContentRightDetail extends React.Component {
 
     }
     render() {
-        var { mouseClickLink } = this.props;
+        var { loadDetail } = this.props;
         var {settingNumber}=this.props;
         return (
             <section id="product-detail-block-v2" className="product-detail-block-v2 ">
@@ -46,20 +46,20 @@ class ContentRightDetail extends React.Component {
                                         <div className="info-item">
                                             <div className="lbl-col" style={{flex: '0 0 160px'}}>Giá bán tại Việt Nam <i className="fa fa-question-circle ttip guide-icon" aria-hidden="true" data-ttip="Giá trọn gói: bao gồm tất cả loại thuế phí,<br/>không phát sinh phụ phí" data-hasqtip={1} aria-describedby="qtip-2" /></div>
                                             <div className="info-col">
-                                                <div id="currPrice" className="curr-price">{(mouseClickLink!=undefined) &&mouseClickLink.price}</div>
+                                                <div id="currPrice" className="curr-price">{(loadDetail.length>0)&&loadDetail[0].deal_of_day}</div>
                                             </div>
                                         </div>
                                         <div className="info-item sub-item">
                                             <div className="lbl-col">Tiết kiệm:</div>
                                             <div className="info-col text-nowrap">
-                                                <span style={{position: 'relative',left:'41px'}} className={(mouseClickLink.sale=='')?'none-hide':'sale-percent'}>{(mouseClickLink!=undefined&&mouseClickLink.sale!='') ?mouseClickLink.sale:''}</span>
+                                                <span style={{position: 'relative',left:'41px'}} className={(loadDetail.length>0&&loadDetail[0].save_price=='')?'none-hide':'sale-percent'}>{(loadDetail.length>0&&loadDetail[0].save_price!='')?loadDetail[0].save_price:''}</span>
                                                 
                                             </div>
                                         </div>
                                         <div className="info-item sub-item">
                                             <div className="lbl-col">Giá chưa giảm:</div>
                                             <div className="info-col">
-                                                <span style={{position:'relative',left:'25px'}} id="oldPrice" className="old-price line-through">{(mouseClickLink!=undefined) &&mouseClickLink.base_price}</span>
+                                                <span style={{position:'relative',left:'25px'}} id="oldPrice" className="old-price line-through">{(loadDetail.length>0) &&loadDetail[0].price}</span>
                                             </div>
                                         </div>
                                     </div>{/* .price-panel */}
@@ -184,7 +184,8 @@ function mapStateToProps(state) {
 
     return {
         mouseClickLink: state.mouseClickLinkProductItem,
-        settingNumber:state.settingNumberItem
+        settingNumber:state.settingNumberItem,
+        loadDetail: state.initLoadProductDetail,
     }
 }
 const connectedContent = connect(mapStateToProps)(ContentRightDetail);
