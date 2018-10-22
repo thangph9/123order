@@ -71,7 +71,7 @@ class ContentBodyLeft extends React.Component {
                                             <ReactImageMagnify className="xzoom" {...{
                                                 smallImage: {
                                                     alt: 'img',
-                                                    width: 310,
+                                                    height:310,
                                                     src: (loadDetail[0] != undefined) ? loadDetail[0].largeimage[mouseClick] : ''
 
                                                 },
