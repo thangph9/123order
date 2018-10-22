@@ -64,7 +64,7 @@ class ContentBodyLeft extends React.Component {
             <div id="container-scroll" className="container-main-col-1" style={{ position: 'relative' }}>
                 <section id="product-img-block" className='product-img-block' >
                     <div className="product-img-segment">
-                        <div className={(loadDetail[0]!=undefined&&loadDetail[0].save_price=='')?'none-hide':'sale-tag'}>-{(loadDetail.length > 0) &&loadDetail[0].saleper}</div>
+                        <div className={(loadDetail[0]!=undefined&&loadDetail[0].save_price=='')?'none-hide':'sale-tag'}>-{(loadDetail.length > 0) &&saleper}</div>
                         <div className="over-img-field">
                             <span className="field-inner"><img className="over-img" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" alt="img" /></span>
                         </div>
