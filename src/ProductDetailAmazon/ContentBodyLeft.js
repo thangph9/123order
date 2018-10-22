@@ -64,21 +64,21 @@ class ContentBodyLeft extends React.Component {
                             <span className="field-inner"><img className="over-img" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" alt="img" /></span>
                         </div>
                         <div className="swiper-container swiper-container-horizontal" style={{overflow: 'visible'}}>
-                            <div className="swiper-wrapper" style={{ height: 310 }}>
+                            <div className="swiper-wrapper" style={{ height: 370 }}>
                                 <div className="swiper-slide" style={{ width: 310, marginRight: 10 }}>
                                     <a className="gallery-item img-item" data-fancybox="group" target="_blank">
                                         <div className="item-inner">
                                             <ReactImageMagnify className="xzoom" {...{
                                                 smallImage: {
                                                     alt: 'img',
-                                                    width: 202,
+                                                    width: auto,
                                                     src: (loadDetail[0] != undefined) ? loadDetail[0].largeimage[mouseClick] : ''
 
                                                 },
                                                 largeImage: {
                                                     src: (loadDetail[0] != undefined) ? loadDetail[0].hugeimage[mouseClick] : '',
                                                     width: 1200,
-                        
+                                                    height:1400
                                                 },
                                                 shouldUsePositiveSpaceLens: true,
                                                 enlargedImageContainerDimensions: {
