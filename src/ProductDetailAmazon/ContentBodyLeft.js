@@ -14,6 +14,8 @@ class ContentBodyLeft extends React.Component {
         this.handleSubmit = this.handleSubmit.bind(this);
     }
     handleClick(value) {
+        var { mouseScroll } = this.props;
+        document.documentElement.scrollTop=mouseScroll+1;
         this.props.dispatch(mouseClickSmallImageProduct(value));
     }
     handleSubmit() {
@@ -29,7 +31,7 @@ class ContentBodyLeft extends React.Component {
     }
     render() {
         var { loadDetail } = this.props;
-        var { mouseScroll } = this.props;
+       
         var { mouseClick } = this.props;
         var { mouseClickLink } = this.props;
         var { checkScroll } = this.state;

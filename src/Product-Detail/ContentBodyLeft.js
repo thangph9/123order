@@ -9,7 +9,7 @@ class ContentBodyLeft extends React.Component {
         this.state = {
             login: true,
             loading: false,
-            checkScroll: 0
+            checkScroll:0
         }
         this.handleSubmit = this.handleSubmit.bind(this);
     }
@@ -31,9 +31,9 @@ class ContentBodyLeft extends React.Component {
         var { loadDetail } = this.props;
         var { mouseScroll } = this.props;
         var { mouseClick } = this.props;
-        var { mouseClickLink } = this.props;
-        var { checkScroll } = this.state;
-
+        var {mouseClickLink}=this.props;
+        var {checkScroll}=this.state;
+        
         var menuItems = [];
         var settings = {
             dots: false,
@@ -49,24 +49,17 @@ class ContentBodyLeft extends React.Component {
             menuItems = loadDetail[0].smallimage.map((img, index) => {
                 return (
                     <div key={index} onClick={() => this.handleClick(index)} className="border-small-image">
-                        <img className="small-image" alt="img" src={(loadDetail[0] != undefined) ? loadDetail[0].smallimage[index] : ''} />
+                        <img  className="small-image" alt="img" src={(loadDetail[0] != undefined) ? loadDetail[0].smallimage[index] : ''} />
                     </div>
                 )
             })
         }
-        if (loadDetail[0] != undefined) {
-            var imglarge = new Image();
-            imglarge.src = loadDetail[0].largeimage[mouseClick];
-            var imghuge = new Image();
-            imghuge.src = loadDetail[0].hugeimage[mouseClick];
-
-        }
-
+        
         return (
             <div id="container-scroll" className="container-main-col-1" style={{ position: 'relative' }}>
                 <section id="product-img-block" className='product-img-block' >
                     <div className="product-img-segment">
-                        <div className={(mouseClickLink.sale == '') ? 'none-hide' : 'sale-tag'}>-{(mouseClickLink != undefined && mouseClickLink.sale != '') ? mouseClickLink.sale : ''}</div>
+                        <div className={(mouseClickLink.sale=='')?'none-hide':'sale-tag'}>-{(mouseClickLink!=undefined&&mouseClickLink.sale!='') ?mouseClickLink.sale:''}</div>
                         <div className="over-img-field">
                             <span className="field-inner"><img className="over-img" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" alt="img" /></span>
                         </div>
@@ -78,7 +71,7 @@ class ContentBodyLeft extends React.Component {
                                             <ReactImageMagnify className="xzoom" {...{
                                                 smallImage: {
                                                     alt: 'img',
-                                                    width:310,
+                                                    width: 310,
                                                     height:310,
                                                     src: (loadDetail[0] != undefined) ? loadDetail[0].largeimage[mouseClick] : ''
 
@@ -86,7 +79,7 @@ class ContentBodyLeft extends React.Component {
                                                 largeImage: {
                                                     src: (loadDetail[0] != undefined) ? loadDetail[0].hugeimage[mouseClick] : '',
                                                     width: 1200,
-                                                    height: 1400,
+                                                    height: 1400
                                                 },
                                                 shouldUsePositiveSpaceLens: true,
                                                 enlargedImageContainerDimensions: {
@@ -166,7 +159,7 @@ function mapStateToProps(state) {
         mouseScroll: state.mouseScrollPageDetailProduct,
         loadDetail: state.initLoadProductDetail,
         mouseClick: state.mouseClickSmallImageProduct,
-        mouseClickLink: state.mouseClickLinkProductItem
+        mouseClickLink:state.mouseClickLinkProductItem
     }
 }
 const connectedContent = connect(mapStateToProps)(ContentBodyLeft);
