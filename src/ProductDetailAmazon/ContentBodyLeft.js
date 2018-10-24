@@ -59,8 +59,8 @@ class ContentBodyLeft extends React.Component {
             let index2 = loadDetail[0].save_price.indexOf(")");
             var saleper = loadDetail[0].save_price.substring(index1 + 1, index2);
         }
+        var imghuge= new Image();
         if(loadDetail[0] != undefined){
-            var imghuge= new Image();
             imghuge.src=loadDetail[0].hugeimage[mouseClick];     
         }
         return (
@@ -86,7 +86,7 @@ class ContentBodyLeft extends React.Component {
                                                 largeImage: {
                                                     width: (loadDetail[0] != undefined)?imghuge.width:0,
                                                     height: (loadDetail[0] != undefined)?imghuge.height:0,
-                                                    src: (loadDetail[0] != undefined) ? loadDetail[0].hugeimage[mouseClick] : '',
+                                                    src: (loadDetail[0] != undefined) ? imghuge.src : '',
                                                 },
                                                 shouldUsePositiveSpaceLens: true,
                                                 enlargedImageContainerDimensions: {
