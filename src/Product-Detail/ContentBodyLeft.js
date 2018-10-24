@@ -54,7 +54,14 @@ class ContentBodyLeft extends React.Component {
                 )
             })
         }
-        
+        if(loadDetail[0] != undefined){
+            var imglarge= new Image();
+            imglarge.src=loadDetail[0].largeimage[mouseClick];
+            var imghuge= new Image();
+            imghuge.src=loadDetail[0].hugeimage[mouseClick];
+           
+        }
+       
         return (
             <div id="container-scroll" className="container-main-col-1" style={{ position: 'relative' }}>
                 <section id="product-img-block" className='product-img-block' >
@@ -68,18 +75,18 @@ class ContentBodyLeft extends React.Component {
                                 <div className="swiper-slide" style={{ width: 310, marginRight: 10 }}>
                                     <a className="gallery-item img-item" data-fancybox="group" target="_blank">
                                         <div className="item-inner">
-                                            <ReactImageMagnify className="xzoom" {...{
+                                            <ReactImageMagnify className="xzoom" style={{width:'100%',height:'100%'}} {...{
                                                 smallImage: {
                                                     alt: 'img',
-                                                    width: 310,
-                                                    height:310,
-                                                    src: (loadDetail[0] != undefined) ? loadDetail[0].largeimage[mouseClick] : ''
+                                                    width: imglarge.width,
+                                                    height:imglarge.height,
+                                                    src: (loadDetail[0] != undefined) ? imglarge.src : ''
 
                                                 },
                                                 largeImage: {
-                                                    src: (loadDetail[0] != undefined) ? loadDetail[0].hugeimage[mouseClick] : '',
-                                                    width: 1200,
-                                                    height: 1400
+                                                    src: (loadDetail[0] != undefined) ? imghuge.src : '',
+                                                    width: imghuge.width,
+                                                    height: imghuge.height
                                                 },
                                                 shouldUsePositiveSpaceLens: true,
                                                 enlargedImageContainerDimensions: {
