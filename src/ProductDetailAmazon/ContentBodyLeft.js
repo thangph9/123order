@@ -10,21 +10,12 @@ class ContentBodyLeft extends React.Component {
             login: true,
             loading: false,
             checkScroll:0,
-            width:0,
-            height:0
         }
         this.handleSubmit = this.handleSubmit.bind(this);
     }
     handleClick(value) {
         var { loadDetail } = this.props;
         this.props.dispatch(mouseClickSmallImageProduct(value));
-       if(loadDetail.length>0){
-        var imghuge= new Image();
-        imghuge.src=loadDetail[0].hugeimage[value];
-        this.setState({width:imghuge.width,height:imghuge.height})
-
-       }
-
     }
     handleSubmit() {
         this.setState({
@@ -91,8 +82,8 @@ class ContentBodyLeft extends React.Component {
                                                 },
                                                 largeImage: {
                                                     src: (loadDetail[0] != undefined) ? loadDetail[0].hugeimage[mouseClick] : '',
-                                                    width: this.state.width,
-                                                    height: this.state.height
+                                                    width: 1200,
+                                                    height: 1400
                                                 },
                                                 shouldUsePositiveSpaceLens: true,
                                                 enlargedImageContainerDimensions: {
