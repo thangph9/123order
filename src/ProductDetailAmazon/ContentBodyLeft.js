@@ -75,7 +75,7 @@ class ContentBodyLeft extends React.Component {
                         <div className="over-img-field">
                             <span className="field-inner"><img className="over-img" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" alt="img" /></span>
                         </div>
-                        <div style={{height:imglarge.height,display:'table-cell',verticalAlign: 'middle'}}>
+                        <div style={{height:(loadDetail[0] != undefined)&&imglarge.height,display:'table-cell',verticalAlign: 'middle'}}>
                             <ReactImageMagnify className="xzoom" style={{ zIndex: 10 }} {...{
                                 smallImage: {
                                     alt: 'img',
