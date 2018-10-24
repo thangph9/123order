@@ -75,7 +75,7 @@ class ContentBodyLeft extends React.Component {
                         <div className="over-img-field">
                             <span className="field-inner"><img className="over-img" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" alt="img" /></span>
                         </div>
-                        <div style={{height:535,display:'table-cell',verticalAlign: 'middle'}}>
+                        
                             <ReactImageMagnify className="xzoom" style={{ zIndex: 2 }} {...{
                                 smallImage: {
                                     alt: 'img',
@@ -94,7 +94,7 @@ class ContentBodyLeft extends React.Component {
 
                                 shouldHideHintAfterFirstActivation: false
                             }} />
-                        </div>
+                        
                     </div>
                     <div className="product-thumb-segment">
                         <Slider {...settings}>
