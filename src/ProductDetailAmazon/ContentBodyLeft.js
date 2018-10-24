@@ -6,15 +6,12 @@ import ReactImageMagnify from 'react-image-magnify';
 class ContentBodyLeft extends React.Component {
     constructor(props) {
         super(props);
-        var { loadDetail } = this.props;
-        var imghuge= new Image();
-        imghuge.src=loadDetail[0].hugeimage[0];
         this.state = {
             login: true,
             loading: false,
             checkScroll:0,
-            width:imghuge.width,
-            height:imghuge.height
+            width:0,
+            height:0
         }
         this.handleSubmit = this.handleSubmit.bind(this);
     }
@@ -44,7 +41,6 @@ class ContentBodyLeft extends React.Component {
         var { loadDetail } = this.props;
         var { mouseScroll } = this.props;
         var { mouseClick } = this.props;
-        var {mouseClickLink}=this.props;
         var {checkScroll}=this.state;
         var image=new Image();
         
