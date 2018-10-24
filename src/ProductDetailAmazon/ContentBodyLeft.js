@@ -14,8 +14,6 @@ class ContentBodyLeft extends React.Component {
         this.handleSubmit = this.handleSubmit.bind(this);
     }
     handleClick(value) {
-        var { mouseScroll } = this.props;
-        document.documentElement.scrollTop=mouseScroll+1;
         this.props.dispatch(mouseClickSmallImageProduct(value));
     }
     handleSubmit() {
@@ -90,7 +88,6 @@ class ContentBodyLeft extends React.Component {
                                     width: (loadDetail[0] != undefined) ? imghuge.width : 0,
                                     height: (loadDetail[0] != undefined) ? imghuge.height : 0
                                 },
-                                shouldUsePositiveSpaceLens: true,
                                 enlargedImageContainerDimensions: {
                                     width: '190%', height: '200%'
                                 },
