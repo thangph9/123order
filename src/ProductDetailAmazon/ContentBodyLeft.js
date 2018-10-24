@@ -9,7 +9,7 @@ class ContentBodyLeft extends React.Component {
         this.state = {
             login: true,
             loading: false,
-            checkScroll: 0
+            checkScroll:0
         }
         this.handleSubmit = this.handleSubmit.bind(this);
     }
@@ -29,12 +29,12 @@ class ContentBodyLeft extends React.Component {
     }
     render() {
         var { loadDetail } = this.props;
-
+        var { mouseScroll } = this.props;
         var { mouseClick } = this.props;
-        var { mouseClickLink } = this.props;
-        var { checkScroll } = this.state;
-        var image = new Image();
-
+        var {mouseClickLink}=this.props;
+        var {checkScroll}=this.state;
+        var image=new Image();
+        
         var menuItems = [];
         var settings = {
             dots: false,
@@ -50,17 +50,10 @@ class ContentBodyLeft extends React.Component {
             menuItems = loadDetail[0].smallimage.map((img, index) => {
                 return (
                     <div key={index} onClick={() => this.handleClick(index)} className="border-small-image">
-                        <img className="small-image" alt="img" src={(loadDetail[0] != undefined) ? loadDetail[0].smallimage[index] : ''} />
+                        <img  className="small-image" alt="img" src={(loadDetail[0] != undefined) ? loadDetail[0].smallimage[index] : ''} />
                     </div>
                 )
             })
-        }
-        if (loadDetail[0] != undefined) {
-            var imglarge = new Image();
-            imglarge.src = loadDetail[0].largeimage[mouseClick];
-            var imghuge = new Image();
-            imghuge.src = loadDetail[0].hugeimage[mouseClick];
-
         }
         if (loadDetail.length > 0) {
             let index1 = loadDetail[0].save_price.indexOf("(");
@@ -71,17 +64,16 @@ class ContentBodyLeft extends React.Component {
             <div id="container-scroll" className="container-main-col-1" style={{ position: 'relative' }}>
                 <section id="product-img-block" className='product-img-block' >
                     <div className="product-img-segment">
-                        <div className={(loadDetail[0] != undefined && loadDetail[0].save_price == '') ? 'none-hide' : 'sale-tag'}>-{(loadDetail.length > 0) && saleper}</div>
+                        <div className={(loadDetail[0]!=undefined&&loadDetail[0].save_price=='')?'none-hide':'sale-tag'}>-{(loadDetail.length > 0) &&saleper}</div>
                         <div className="over-img-field">
                             <span className="field-inner"><img className="over-img" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" alt="img" /></span>
                         </div>
-
-                        <div className="swiper-container swiper-container-horizontal" style={{ overflow: 'visible' }}>
-                            <div className="swiper-wrapper">
-                                <div className="swiper-slide" style={{ marginRight: 10 }}>
+                        <div className="swiper-container swiper-container-horizontal" style={{overflow: 'visible'}}>
+                            <div className="swiper-wrapper" >
+                                <div className="swiper-slide" style={{  marginRight: 10 }}>
                                     <a className="gallery-item img-item" data-fancybox="group" target="_blank">
                                         <div className="item-inner">
-                                            <ReactImageMagnify className="xzoom" style={{ zIndex: 2 }} {...{
+                                            <ReactImageMagnify className="xzoom" {...{
                                                 smallImage: {
                                                     alt: 'img',
                                                     isFluidWidth: true,
@@ -90,13 +82,14 @@ class ContentBodyLeft extends React.Component {
                                                 },
                                                 largeImage: {
                                                     src: (loadDetail[0] != undefined) ? loadDetail[0].hugeimage[mouseClick] : '',
-                                                    width: (loadDetail[0] != undefined) ? imghuge.width : 0,
-                                                    height: (loadDetail[0] != undefined) ? imghuge.height : 0
+                                                    width: 1200,
+                                                    height: 1400,
                                                 },
+                                                shouldUsePositiveSpaceLens: true,
                                                 enlargedImageContainerDimensions: {
                                                     width: '190%', height: '200%'
                                                 },
-
+                                                
                                                 shouldHideHintAfterFirstActivation: false
                                             }} />
                                         </div>
@@ -104,8 +97,6 @@ class ContentBodyLeft extends React.Component {
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
                     <div className="product-thumb-segment">
                         <Slider {...settings}>
@@ -172,7 +163,7 @@ function mapStateToProps(state) {
         mouseScroll: state.mouseScrollPageDetailProduct,
         loadDetail: state.initLoadProductDetail,
         mouseClick: state.mouseClickSmallImageProduct,
-        mouseClickLink: state.mouseClickLinkProductItem
+        mouseClickLink:state.mouseClickLinkProductItem
     }
 }
 const connectedContent = connect(mapStateToProps)(ContentBodyLeft);
