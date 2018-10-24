@@ -62,7 +62,7 @@ class ContentBodyLeft extends React.Component {
         }
         var widthHuge=0;
         var heightHuge=0;
-        if(loadDetail[0] != undefined){
+        if(loadDetail.length>0){
             var imghuge= new Image();
             imghuge.src=loadDetail[0].hugeimage[mouseClick];
             widthHuge=imghuge.width;
