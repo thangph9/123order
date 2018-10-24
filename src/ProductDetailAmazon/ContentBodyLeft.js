@@ -6,9 +6,9 @@ import ReactImageMagnify from 'react-image-magnify';
 class ContentBodyLeft extends React.Component {
     constructor(props) {
         super(props);
+        var { loadDetail } = this.props;
         var imghuge= new Image();
         imghuge.src=loadDetail[0].hugeimage[0];
-        var { loadDetail } = this.props;
         this.state = {
             login: true,
             loading: false,
