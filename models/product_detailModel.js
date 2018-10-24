@@ -26,6 +26,10 @@ module.exports={
         },
         star:"text",
         style:'text',
+        timestamp: {
+            type: "timestamp",
+            default: {"$db_function": "toTimestamp(now())"}
+        },
         title:"text"
     },
     key:["dealid"]
