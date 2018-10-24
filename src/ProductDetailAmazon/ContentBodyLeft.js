@@ -9,12 +9,22 @@ class ContentBodyLeft extends React.Component {
         this.state = {
             login: true,
             loading: false,
-            checkScroll:0
+            checkScroll:0,
+            width:0,
+            height:0
         }
         this.handleSubmit = this.handleSubmit.bind(this);
     }
     handleClick(value) {
+        var { loadDetail } = this.props;
         this.props.dispatch(mouseClickSmallImageProduct(value));
+       if(loadDetail.length>0){
+        var imghuge= new Image();
+        imghuge.src=loadDetail[0].hugeimage[mouseClick];
+        this.setState({width:imghuge.width,height:imghuge.height})
+
+       }
+
     }
     handleSubmit() {
         this.setState({
@@ -60,14 +70,6 @@ class ContentBodyLeft extends React.Component {
             let index2 = loadDetail[0].save_price.indexOf(")");
             var saleper = loadDetail[0].save_price.substring(index1 + 1, index2);
         }
-        var widthHuge=0;
-        var heightHuge=0;
-        if(loadDetail.length>0){
-            var imghuge= new Image();
-            imghuge.src=loadDetail[0].hugeimage[mouseClick];
-            widthHuge=imghuge.width;
-            heightHuge=imghuge.height;
-        }
         return (
             <div id="container-scroll" className="container-main-col-1" style={{ position: 'relative' }}>
                 <section id="product-img-block" className='product-img-block' >
@@ -90,8 +92,8 @@ class ContentBodyLeft extends React.Component {
                                                 },
                                                 largeImage: {
                                                     src: (loadDetail[0] != undefined) ? loadDetail[0].hugeimage[mouseClick] : '',
-                                                    width: 1200,
-                                                    height: 1400
+                                                    width: this.state.width,
+                                                    height: this.state.height
                                                 },
                                                 shouldUsePositiveSpaceLens: true,
                                                 enlargedImageContainerDimensions: {
