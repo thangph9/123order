@@ -33,7 +33,6 @@ class ContentBodyLeft extends React.Component {
         var { mouseScroll } = this.props;
         var { mouseClick } = this.props;
         var {checkScroll}=this.state;
-        var image=new Image();
         
         var menuItems = [];
         var settings = {
@@ -60,6 +59,10 @@ class ContentBodyLeft extends React.Component {
             let index2 = loadDetail[0].save_price.indexOf(")");
             var saleper = loadDetail[0].save_price.substring(index1 + 1, index2);
         }
+        if(loadDetail[0] != undefined){
+            var imghuge= new Image();
+            imghuge.src=loadDetail[0].hugeimage[mouseClick];     
+        }
         return (
             <div id="container-scroll" className="container-main-col-1" style={{ position: 'relative' }}>
                 <section id="product-img-block" className='product-img-block' >
@@ -81,9 +84,9 @@ class ContentBodyLeft extends React.Component {
 
                                                 },
                                                 largeImage: {
+                                                    width: (loadDetail[0] != undefined)?imghuge.width:0,
+                                                    height: (loadDetail[0] != undefined)?imghuge.height:0,
                                                     src: (loadDetail[0] != undefined) ? loadDetail[0].hugeimage[mouseClick] : '',
-                                                    width: 1200,
-                                                    height: 1400
                                                 },
                                                 shouldUsePositiveSpaceLens: true,
                                                 enlargedImageContainerDimensions: {
