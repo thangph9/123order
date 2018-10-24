@@ -80,11 +80,11 @@ class ContentBodyLeft extends React.Component {
                                 smallImage: {
                                     alt: 'img',
                                     isFluidWidth: true,
-                                    src: (loadDetail[0] != undefined) ? imglarge.src : ''
+                                    src: (loadDetail[0] != undefined) ? loadDetail[0].largeimage[mouseClick] : ''
 
                                 },
                                 largeImage: {
-                                    src: (loadDetail[0] != undefined) ? imghuge.src : '',
+                                    src: (loadDetail[0] != undefined) ? loadDetail[0].hugeimage[mouseClick] : '',
                                     width: (loadDetail[0] != undefined) ? imghuge.width : 0,
                                     height: (loadDetail[0] != undefined) ? imghuge.height : 0
                                 },
