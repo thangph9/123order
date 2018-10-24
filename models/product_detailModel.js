@@ -4,7 +4,8 @@ module.exports={
         asin:'text',
         category:'text',
         color:'text',
-        deal_of_day:'text',       
+        deal_of_day:'text', 
+        death_clock:'text',      
         description : "text",
         hugeimage: {
             type: "list",

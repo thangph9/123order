@@ -75,7 +75,7 @@ class ContentBodyLeft extends React.Component {
                         <div className="over-img-field">
                             <span className="field-inner"><img className="over-img" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" alt="img" /></span>
                         </div>
-                        <ReactImageMagnify className="xzoom" {...{
+                        <ReactImageMagnify className="xzoom" style={{zIndex:10}} {...{
                             smallImage: {
                                 alt: 'img',
                                 isFluidWidth: true,
