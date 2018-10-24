@@ -29,7 +29,7 @@ class ContentBodyLeft extends React.Component {
     }
     render() {
         var { loadDetail } = this.props;
-       
+
         var { mouseClick } = this.props;
         var { mouseClickLink } = this.props;
         var { checkScroll } = this.state;
@@ -75,26 +75,37 @@ class ContentBodyLeft extends React.Component {
                         <div className="over-img-field">
                             <span className="field-inner"><img className="over-img" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" alt="img" /></span>
                         </div>
-                        
-                            <ReactImageMagnify className="xzoom" style={{ zIndex: 2 }} {...{
-                                smallImage: {
-                                    alt: 'img',
-                                    isFluidWidth: true,
-                                    src: (loadDetail[0] != undefined) ? loadDetail[0].largeimage[mouseClick] : ''
 
-                                },
-                                largeImage: {
-                                    src: (loadDetail[0] != undefined) ? loadDetail[0].hugeimage[mouseClick] : '',
-                                    width: (loadDetail[0] != undefined) ? imghuge.width : 0,
-                                    height: (loadDetail[0] != undefined) ? imghuge.height : 0
-                                },
-                                enlargedImageContainerDimensions: {
-                                    width: '190%', height: '200%'
-                                },
+                        <div className="swiper-container swiper-container-horizontal" style={{ overflow: 'visible' }}>
+                            <div className="swiper-wrapper">
+                                <div className="swiper-slide" style={{ marginRight: 10 }}>
+                                    <a className="gallery-item img-item" data-fancybox="group" target="_blank">
+                                        <div className="item-inner">
+                                            <ReactImageMagnify className="xzoom" style={{ zIndex: 2 }} {...{
+                                                smallImage: {
+                                                    alt: 'img',
+                                                    isFluidWidth: true,
+                                                    src: (loadDetail[0] != undefined) ? loadDetail[0].largeimage[mouseClick] : ''
 
-                                shouldHideHintAfterFirstActivation: false
-                            }} />
-                        
+                                                },
+                                                largeImage: {
+                                                    src: (loadDetail[0] != undefined) ? loadDetail[0].hugeimage[mouseClick] : '',
+                                                    width: (loadDetail[0] != undefined) ? imghuge.width : 0,
+                                                    height: (loadDetail[0] != undefined) ? imghuge.height : 0
+                                                },
+                                                enlargedImageContainerDimensions: {
+                                                    width: '190%', height: '200%'
+                                                },
+
+                                                shouldHideHintAfterFirstActivation: false
+                                            }} />
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
                     <div className="product-thumb-segment">
                         <Slider {...settings}>
