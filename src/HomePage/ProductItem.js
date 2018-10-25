@@ -19,10 +19,7 @@ class ProductItem extends React.Component {
         </div>
     </div>)
     }
-    componentDidMount(){
-        var element = document.getElementById('willimage');
-        element.parentNode.removeChild(element)
-    }
+
     render(){
         var display=this.props.customStyle;
         var {data}=this.props;
