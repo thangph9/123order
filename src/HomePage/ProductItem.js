@@ -13,7 +13,7 @@ class ProductItem extends React.Component {
         this.props.dispatch(mouseClickLinkProductItem(value));
     }
     componentWillMount(){
-        return(<div id="willimage" className="col-md mt-2 px-2" style={{display:display,marginBottom:'8px'}}>
+        return(<div id="willimage" className="col-md mt-2 px-2" style={{display:block,marginBottom:'8px'}}>
         <div className="card" style={{width:'212px',height:'340px',border: '1px solid darkred',background:'https://us.123rf.com/450wm/tawatchaimaneewan/tawatchaimaneewan1504/tawatchaimaneewan150400146/38616097-loading-icon.jpg?ver=6',backgroundSize:'212px 340px'}}>
             
         </div>
