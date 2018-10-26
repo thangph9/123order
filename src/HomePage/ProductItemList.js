@@ -15,7 +15,7 @@ class ProductItemList extends React.Component{
     componentWillMount(){
         let data=[];
         for(var i=0;i<10;i++){
-            data.push(<div key={i} >Data{i}</div>);
+            data.push(<div key={i} >Data-{i}</div>);
         }
         this.setState({
             loaded: true,
@@ -35,13 +35,16 @@ class ProductItemList extends React.Component{
             isItem=true;
         }
         const { loaded ,data} =this.state; 
+        let d=[];
+        if(loaded){
+            d=data
+        }else{
+            d.push(<div key="data">Had Data</div>)
+        }
         var dem=0;
         return (
                 <div className="row">
-                    { (loaded) ? ( ...data) :(
-                        <div>Has Data</div>
-                    )
-                    }
+                    {...d}
                 </div>
         )
         
