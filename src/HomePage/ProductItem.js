@@ -3,14 +3,16 @@ import { Link,NavLink  } from "react-router-dom";
 import { connect } from "react-redux";
 import {mouseClickLinkProductItem} from '../actions'
 class ProductItem extends React.Component {
-
-        state={
-            isLoaded:true,
+    constructor(props) {
+        super(props);
+        this.state={
+            isLoaded:false,
         }
-    
+    }
     handleClickLink(value){
         this.props.dispatch(mouseClickLinkProductItem(value));
     }
+
     render(){
         var display=this.props.customStyle;
         var {data}=this.props;
