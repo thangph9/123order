@@ -61,11 +61,14 @@ class ContentBodyLeft extends React.Component {
         }
         
         var arrImage = [];
+        var width=[];
+        var height=[];
         if (loadDetail[0] != undefined) {
-            arrImage = loadDetail[0].hugeimage.map((v, i) => {
+            arrImage = loadDetail[0].hugeimage.forEach((v, i) => {
                 let image = new Image()
                 image.src = v;
-                return image;
+                width.push(image.width);
+                height.push(image.height);
             })
         }
         return (
@@ -90,8 +93,8 @@ class ContentBodyLeft extends React.Component {
                                                 },
                                                 largeImage: {
                                                     src: (loadDetail.length >0) ? loadDetail[0].hugeimage[mouseClick] : '',                                
-                                                    width: (loadDetail.length >0) ? arrImage[mouseClick].width:0,
-                                                    height: (loadDetail.length >0) ? arrImage[mouseClick].height:0,                                                    
+                                                    width: (loadDetail.length >0) && width[mouseClick],
+                                                    height: (loadDetail.length >0) && height[mouseClick],                                                    
                                                 }, 
                                                 shouldUsePositiveSpaceLens: true,
                                                 enlargedImageContainerDimensions: {
