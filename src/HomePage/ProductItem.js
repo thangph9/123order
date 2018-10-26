@@ -12,13 +12,6 @@ class ProductItem extends React.Component {
     handleClickLink(value){
         this.props.dispatch(mouseClickLinkProductItem(value));
     }
-    componentWillMount(){
-        return(<div id="willimage" className="col-md mt-2 px-2" style={{display:'block',marginBottom:'8px'}}>
-        <div className="card" style={{width:'212px',height:'340px',border: '1px solid darkred',background:'https://us.123rf.com/450wm/tawatchaimaneewan/tawatchaimaneewan1504/tawatchaimaneewan150400146/38616097-loading-icon.jpg?ver=6',backgroundSize:'212px 340px'}}>
-            
-        </div>
-    </div>)
-    }
 
     render(){
         var display=this.props.customStyle;
@@ -32,7 +25,7 @@ class ProductItem extends React.Component {
         titleTrim=titleTrim.replace(/ /g , "-");
         var starNumber=Number(data.star)*20;
         return (
-            <div className="col-md mt-2 px-2" style={{display:display,marginBottom:'8px'}}>
+            <div  className="col-md mt-2 px-2" style={{display:display,marginBottom:'8px',height:'340px',border:(data!=undefined)?'1px solid rgba(0,0,0,.125)':''}}>
                 <div className="card" style={{width:'212px',height:'340px'}}>
                     <div className="hovereffect" style={{width:'210px',height:'190px'}}>
                     <span className={(data.sale=='')?'none-hide':''} style={{position: 'absolute',top: '10px',right: '10px',background: 'red',color: '#fff',fontSize: '13px',fontWeight: 700,borderRadius: '3px',padding: '2px 5px',zIndex: 9}}>{data.sale}</span>
