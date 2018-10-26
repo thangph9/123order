@@ -39,7 +39,7 @@ export function initLoadContentDeal(state={data: null,loading: false,error: null
 	switch (action.type) {
 		case loaddealdayConstants.LOAD_DEAL_REQUEST:
 			return {
-				...state
+				state
 			}
 		case loaddealdayConstants.LOAD_DEAL_SUCCESS:
 			return {
