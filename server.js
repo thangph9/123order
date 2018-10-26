@@ -193,7 +193,7 @@ app.post("/home", jsonParser, function (req, res) {
       });
     }
   ], (err, result) => {
-    if (err) console.log(err);
+    if (err) res.json(err)
     res.json(result);
   })
 })
