@@ -12,9 +12,7 @@ class ProductItem extends React.Component {
     handleClickLink(value){
         this.props.dispatch(mouseClickLinkProductItem(value));
     }
-    componentDidMount(){
-        this.load(this.img);
-    }
+    
     load(img){
         var image=img;
         image.src= this.props.data.img;
