@@ -1,4 +1,4 @@
-export const loaddealdayConstants={
+export default loaddealdayConstants={
     LOAD_DEAL_REQUEST: 'LOAD_DEAL_REQUEST',
     LOAD_DEAL_SUCCESS: 'LOAD_DEAL_SUCCESS',
     LOAD_DEAL_FAILURE: 'LOAD_DEAL_FAILURE',
