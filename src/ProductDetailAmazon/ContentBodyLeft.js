@@ -3,6 +3,18 @@ import { connect } from "react-redux";
 import Slider from "react-slick";
 import { mouseClickSmallImageProduct } from '../actions';
 import ReactImageMagnify from 'react-image-magnify';
+function mapStateToProps(state) {
+
+    return {
+        mouseScroll: state.mouseScrollPageDetailProduct,
+        loadDetail: state.initLoadProductDetail,
+        mouseClick: state.mouseClickSmallImageProduct,
+        mouseClickLink:state.mouseClickLinkProductItem
+    }
+}
+const connectedContent = connect(mapStateToProps)(ContentBodyLeft);
+export { connectedContent as ContentBodyLeft } 
+
 class ContentBodyLeft extends React.Component {
     constructor(props) {
         super(props);
@@ -166,14 +178,3 @@ class ContentBodyLeft extends React.Component {
 
     }
 }
-function mapStateToProps(state) {
-
-    return {
-        mouseScroll: state.mouseScrollPageDetailProduct,
-        loadDetail: state.initLoadProductDetail,
-        mouseClick: state.mouseClickSmallImageProduct,
-        mouseClickLink:state.mouseClickLinkProductItem
-    }
-}
-const connectedContent = connect(mapStateToProps)(ContentBodyLeft);
-export { connectedContent as ContentBodyLeft } 
