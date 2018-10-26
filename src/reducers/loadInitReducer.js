@@ -35,7 +35,7 @@ export function initLoadContentSaleLeft(state={},action){
 			return state;
 	}	
 }
-export function initLoadContentDeal(state,action){
+export function initLoadContentDeal(state={},action){
 	console.log(loaddealdayConstants)
 	switch (action.type) {
 		case loaddealdayConstants.LOAD_DEAL_REQUEST:
