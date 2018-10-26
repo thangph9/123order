@@ -1,4 +1,4 @@
-
+import { loaddealdayConstants } from "../constants";
 export function initLoadEbayHide(state={},action){
 	switch (action.type) {
 		case 'INIT_LOAD_EBAY_HIDE':{
@@ -35,9 +35,9 @@ export function initLoadContentSaleLeft(state={},action){
 			return state;
 	}	
 }
-export function initLoadContentDeal(state=[],action){
+export function initLoadContentDeal(state={data: null,loading: false,error: null},action){
 	switch (action.type) {
-		case 'INIT_LOAD_CONTENT_DEAL':
+		case :
 			return action.arrData;
 		default:
 			return state;

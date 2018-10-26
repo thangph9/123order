@@ -1,3 +1,5 @@
+import { loaddealdayConstants } from "../constants";
+
 export const initLoadEbayHide=(arrData)=>{
 	return{
 		type: 'INIT_LOAD_EBAY_HIDE',
@@ -17,10 +19,18 @@ export const initLoadContentSaleLeft=(arrData)=>{
 	}
 }
 export const initLoadContentDeal=(arrData)=>{
-	return{
-		type: 'INIT_LOAD_CONTENT_DEAL',
-		arrData
+	return dispatch => {   
+		request();
+		try{
+			success(arrData);
+		}
+		catch(error){
+			failure(error)
+		}
 	}
+    function request() { return { type : loaddealdayConstants.LOAD_DEAL_REQUEST }}
+    function success(arrData){ return { type: loaddealdayConstants.LOAD_DEAL_SUCCESS, arrData }}
+    function failure(error) { return { type: loaddealdayConstants.LOAD_DEAL_FAILURE, error }}
 }
 export const initLoadProductDetail=(arrData)=>{
 	return{
