@@ -43,13 +43,11 @@ export function initLoadContentDeal(state,action){
 			}
 		case loaddealdayConstants.LOAD_DEAL_SUCCESS:
 			return {
-				...state,
 				loading:false,
 				data:action.arrData
 			}
 		case loaddealdayConstants.LOAD_DEAL_FAILURE:
 			return {
-				...state,
 				loading:false,
 				error:action.error
 			}
