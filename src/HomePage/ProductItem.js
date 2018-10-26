@@ -51,8 +51,7 @@ class ProductItem extends React.Component {
         var starNumber=Number(data.star)*20;
         return (
             <div  className="col-md mt-2 px-2" style={{display:display,marginBottom:'8px'}}>
-            {!this.state.isLoaded&&<img src='img/Spinner-1s-200px.svg' alt="loading"/>}
-                <div className="card" style={{width:'212px',height:'340px'}}>
+            {!this.state.isLoaded?<img src='img/Spinner-1s-200px.svg' alt="loading"/>:<div className="card" style={{width:'212px',height:'340px'}}>
                     <div className="hovereffect" style={{width:'210px',height:'190px'}}>
                     <span className={(data.sale=='')?'none-hide':''} style={{position: 'absolute',top: '10px',right: '10px',background: 'red',color: '#fff',fontSize: '13px',fontWeight: 700,borderRadius: '3px',padding: '2px 5px',zIndex: 9}}>{data.sale}</span>
                     
@@ -87,7 +86,8 @@ class ProductItem extends React.Component {
                         <div style={{ clear: 'both' }} />
                         <p className="card-text align-left deal-old-price"><i  className={(data.death_clock==='')? '' :'far fa-clock card-text'} /> {(data.death_clock==='None') ? '' : data.death_clock }</p>
                     </div>
-                </div>
+                </div>}
+                
             </div>
 
         )
