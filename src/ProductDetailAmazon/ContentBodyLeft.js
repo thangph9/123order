@@ -10,12 +10,13 @@ class ContentBodyLeft extends React.Component {
             login: true,
             loading: false,
             checkScroll:0,
+
         }
         this.handleSubmit = this.handleSubmit.bind(this);
     }
     handleClick(value) {
-        var { loadDetail } = this.props;
-        this.props.dispatch(mouseClickSmallImageProduct(value));
+        
+        return value;
     }
     handleSubmit() {
         this.setState({
@@ -30,10 +31,6 @@ class ContentBodyLeft extends React.Component {
     }
     render() {
         var { loadDetail } = this.props;
-        var { mouseScroll } = this.props;
-        var { mouseClick } = this.props;
-        var {checkScroll}=this.state;
-        
         var menuItems = [];
         var settings = {
             dots: false,
@@ -88,13 +85,13 @@ class ContentBodyLeft extends React.Component {
                                                 smallImage: {
                                                     alt: 'img',
                                                     isFluidWidth: true,
-                                                    src: (loadDetail[0] != undefined) ? loadDetail[0].largeimage[mouseClick] : ''
+                                                    src: (loadDetail[0] != undefined) ? loadDetail[0].largeimage[this.handleClick] : ''
 
                                                 },
                                                 largeImage: {
-                                                    src: (loadDetail.length >0) ? loadDetail[0].hugeimage[mouseClick] : '',                                
-                                                    width: (loadDetail.length >0) && width[mouseClick],
-                                                    height: (loadDetail.length >0) && height[mouseClick],                                                    
+                                                    src: (loadDetail.length >0) ? loadDetail[0].hugeimage[this.handleClick] : '',                                
+                                                    width: (loadDetail.length >0) && width[this.handleClick],
+                                                    height: (loadDetail.length >0) && height[this.handleClick],                                                    
                                                 }, 
                                                 shouldUsePositiveSpaceLens: true,
                                                 enlargedImageContainerDimensions: {
