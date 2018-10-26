@@ -1,4 +1,5 @@
 import  loaddealdayConstants  from "../constants/loaddealday.constants";
+import  {userConstants}  from "../constants";
 export function initLoadEbayHide(state={},action){
 	switch (action.type) {
 		case 'INIT_LOAD_EBAY_HIDE':{
@@ -37,6 +38,7 @@ export function initLoadContentSaleLeft(state={},action){
 }
 export function initLoadContentDeal(state,action){
 	console.log(loaddealdayConstants)
+	console.log(userConstants)
 	switch (action.type) {
 		case loaddealdayConstants.LOAD_DEAL_REQUEST:
 		    console.log(state)
