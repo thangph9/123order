@@ -37,8 +37,23 @@ export function initLoadContentSaleLeft(state={},action){
 }
 export function initLoadContentDeal(state={data: null,loading: false,error: null},action){
 	switch (action.type) {
-		case :
-			return action.arrData;
+		case loaddealdayConstants.LOAD_DEAL_REQUEST:
+			return {
+				...state,
+				loading:true
+			}
+		case loaddealdayConstants.LOAD_DEAL_SUCCESS:
+			return {
+				...state,
+				loading:false,
+				data:action.arrData
+			}
+		case loaddealdayConstants.LOAD_DEAL_FAILURE:
+			return {
+				...state,
+				loading:false,
+				error:action.error
+			}
 		default:
 			return state;
 	}	
