@@ -9,10 +9,24 @@ class ProductItemList extends React.Component{
         this.state={
             login: true,
             loading: false,
+            loaded:false,
         }
     }
     componentWillMount(){
-        
+        let data=[];
+        for(var i=0;i<10;i++){
+            data.push(<div key={i} >Data{i}</div>);
+        }
+        this.setState({
+            loaded: true,
+            data:data
+        })
+    }
+    componentDidMount(){
+        this.setState({
+            loaded:  false,
+            data:[]
+        })
     }
     render(){
         let {initLoad}=this.props;
@@ -20,21 +34,14 @@ class ProductItemList extends React.Component{
         if( initLoad.length >0 ){
             isItem=true;
         }
+        const { loaded ,data} =this.state; 
         var dem=0;
         return (
                 <div className="row">
-                { isItem &&
-                    initLoad.map((e,i) =>{
-                        if(dem<5+this.props.loadAdd){
-                            dem++;
-                            return (<ProductItem key={i} data={e} customStyle="block"/>)
-                        }
-                        else{
-                            return (<ProductItem key={i} data={e} customStyle="none"/>)
-                        }
-                        
-                    })
-                }
+                    { (loaded) ? ( {...data}) :(
+                        <div>Has Data</div>
+                    )
+                    }
                 </div>
         )
         
