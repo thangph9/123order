@@ -36,8 +36,7 @@ class HomePage extends React.Component {
 
         })
     }
-    
-    componentWillMount(){
+    componentDidMount(){
         axios.post('/home',{addItem:this.props.loadAdd}).then(res=>{
             this.props.dispatch(initLoadContentDeal(res.data[0].ContentAmazonDealDay));
             this.props.dispatch(initLoadContentSaleLeft(res.data[0].ContentSale));
@@ -45,6 +44,11 @@ class HomePage extends React.Component {
             this.props.dispatch(initLoadAmazonHide(res.data[0].HideAmazonTopHot));
         })
         document.documentElement.scrollTop=0
+        console.log("Did Mount")
+    }
+    componentWillMount(){
+        console.log("Will Mount")
+        
     }
     render() {
         return (
