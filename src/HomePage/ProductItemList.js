@@ -15,7 +15,7 @@ class ProductItemList extends React.Component{
     componentWillMount(){
         let data=[];
         for(var i=0;i<10;i++){
-            data.push(<div key=`"${i}"` >Data-{i}</div>);
+            data.push(<ProductItem key={i} />);
         }
         this.setState({
             loaded: true,
