@@ -15,12 +15,12 @@ class ProductItem extends React.Component {
     }
     load(img){
         var image=img;
-        image.src  = this.props.data.img;
+        image.src= this.props.data.img;
         image.onload=()=>{
             this.onImageLoaded();
         }
         image.oneError=()=>{
-            this.onImageLoadedError(this.props.data.url);
+            this.onImageLoadedError(this.props.data.img);
         }
     }
     handleClickLink(value){

@@ -12,7 +12,32 @@ class ProductItem extends React.Component {
     handleClickLink(value){
         this.props.dispatch(mouseClickLinkProductItem(value));
     }
-
+    componentDidMount(){
+        this.load(this.img);
+    }
+    load(img){
+        var image=img;
+        image.src= this.props.data.img;
+        image.onload=()=>{
+            this.onImageLoaded();
+        }
+        image.oneError=()=>{
+            this.onImageLoadedError(this.props.data.img);
+        }
+    }
+    handleClickLink(value){
+        this.props.dispatch(mouseClickLinkProductItem(value));
+    }
+    onImageLoaded(){
+        this.setState({
+            isLoaded:true
+        });
+    }
+    onImageLoadedError(){
+        this.setState({
+            isError:true
+        })
+    }
     render(){
         var display=this.props.customStyle;
         var {data}=this.props;
@@ -26,10 +51,11 @@ class ProductItem extends React.Component {
         var starNumber=Number(data.star)*20;
         return (
             <div  className="col-md mt-2 px-2" style={{display:display,marginBottom:'8px'}}>
+            {!this.state.isLoaded&&<img src='img/Spinner-1s-200px.svg' alt="loanding"/>}
                 <div className="card" style={{width:'212px',height:'340px'}}>
                     <div className="hovereffect" style={{width:'210px',height:'190px'}}>
                     <span className={(data.sale=='')?'none-hide':''} style={{position: 'absolute',top: '10px',right: '10px',background: 'red',color: '#fff',fontSize: '13px',fontWeight: 700,borderRadius: '3px',padding: '2px 5px',zIndex: 9}}>{data.sale}</span>
-                        <img style= {{width:'210px',height:'210px'}} className="card-img-top img-thumbnail border-0 img-fluid" src={data.img} alt='img'/>
+                    <img style= {{width:'210px',height:'210px'}} className="card-img-top img-thumbnail border-0 img-fluid" ref={(img)=>this.img=img} alt='img'/>
                         <div className="overlay">
                             <NavLink to={`/product-detail/${titleTrim.substring(0,titleTrim.length-3)}id=` +`${data.dealid}`} onClick={()=>this.handleClickLink(data)} className="info">Chi tiết</NavLink>
                         </div>
