@@ -18,15 +18,6 @@ class ContentBodyLeft extends React.Component {
         
         this.props.dispatch(mouseClickSmallImageProduct(value));
     }
-    getImage(src){
-        var image=new Image();
-        image.src = src;
-        var obj={
-            width:image.width,
-            height:image.height
-        }
-        return obj
-    }
     handleSubmit() {
         this.setState({
             login: false
@@ -66,6 +57,18 @@ class ContentBodyLeft extends React.Component {
             let index2 = loadDetail[0].save_price.indexOf(")");
             var saleper = loadDetail[0].save_price.substring(index1 + 1, index2);
         }
+        
+        var arrImage = [];
+        var width=[];
+        var height=[];
+        if (loadDetail[0] != undefined) {
+            arrImage = loadDetail[0].hugeimage.forEach((v, i) => {
+                let image = new Image()
+                image.src = v;
+                width.push(image.width);
+                height.push(image.height);
+            })
+        }
         return (
             <div id="container-scroll" className="container-main-col-1" style={{ position: 'relative' }}>
                 <section id="product-img-block" className='product-img-block' >
@@ -88,8 +91,8 @@ class ContentBodyLeft extends React.Component {
                                                 },
                                                 largeImage: {
                                                     src: (loadDetail.length >0) ? loadDetail[0].hugeimage[mouseClick] : '',                                
-                                                    width: (loadDetail.length >0) ? this.getImage( loadDetail[0].hugeimage[mouseClick]).width:1200 ,
-                                                    height: (loadDetail.length >0) ? this.getImage( loadDetail[0].hugeimage[mouseClick]).height:1200,                                                    
+                                                    width: (loadDetail.length >0) && width[mouseClick],
+                                                    height: (loadDetail.length >0) && height[mouseClick],                                                    
                                                 }, 
                                                 shouldUsePositiveSpaceLens: true,
                                                 enlargedImageContainerDimensions: {
