@@ -7,6 +7,7 @@ module.exports={
         dealtype :'text',
         death_clock:"text",
         img:"text",
+        isale:'int',
         legacydealid:'text',
         link:"text",
         offerid :'text',
@@ -17,6 +18,7 @@ module.exports={
         robot_label_track:'text',
         sale:"text",
         smid:'text',
+        solr_query:'text',
         star:'text',
         stt:'int',
         timestamp: {
