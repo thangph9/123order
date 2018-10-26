@@ -38,7 +38,7 @@ class ProductItemList extends React.Component{
         var dem=0;
         return (
                 <div className="row">
-                    { (loaded) ? ( {...data}) :(
+                    { (loaded) ? ( ...data) :(
                         <div>Has Data</div>
                     )
                     }
