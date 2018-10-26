@@ -1,4 +1,4 @@
-import { authHeader } from "../store";
+import { authHeader } from "../stores";
 export const loadproductService= {
     getDealDay
 }
