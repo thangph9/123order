@@ -1,4 +1,4 @@
-import { loaddealdayConstants } from "../constants";
+import  loaddealdayConstants  from "../constants/loaddealday.constants";
 export function initLoadEbayHide(state={},action){
 	switch (action.type) {
 		case 'INIT_LOAD_EBAY_HIDE':{
