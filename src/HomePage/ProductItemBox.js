@@ -13,7 +13,7 @@ class ProductItemBox extends React.Component{
     render(){
        
         return (
-                <div style={{minHeight:'712px'}}>
+                <div>
                     <ProductItemList />
                 </div>
         )
