@@ -59,9 +59,14 @@ class ContentBodyLeft extends React.Component {
             let index2 = loadDetail[0].save_price.indexOf(")");
             var saleper = loadDetail[0].save_price.substring(index1 + 1, index2);
         }
-        var imghuge= new Image();
-        if(loadDetail[0] != undefined){
-            imghuge.src=loadDetail[0].hugeimage[mouseClick];     
+        
+        var arrImage = [];
+        if (loadDetail[0] != undefined) {
+            arrImage = loadDetail[0].hugeimage.map((v, i) => {
+                let image = new Image()
+                image.src = v;
+                return image;
+            })
         }
         return (
             <div id="container-scroll" className="container-main-col-1" style={{ position: 'relative' }}>
@@ -84,9 +89,9 @@ class ContentBodyLeft extends React.Component {
 
                                                 },
                                                 largeImage: {
-                                                    width: (loadDetail[0] != undefined)?imghuge.width:0,
-                                                    height: (loadDetail[0] != undefined)?imghuge.height:0,
-                                                    src: (loadDetail[0] != undefined) ? loadDetail[0].hugeimage[mouseClick] : '',
+                                                    src: (loadDetail.length >0) ? loadDetail[0].hugeimage[mouseClick] : '',                                
+                                                    width: (loadDetail.length >0) ? arrImage[mouseClick].width:0,
+                                                    height: (loadDetail.length >0) ? arrImage[mouseClick].height:0,                                                    
                                                 }, 
                                                 shouldUsePositiveSpaceLens: true,
                                                 enlargedImageContainerDimensions: {
