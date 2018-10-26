@@ -16,7 +16,7 @@ class ContentBodyLeft extends React.Component {
     }
     handleClick(value) {
         
-        return value;
+        this.props.dispatch(mouseClickSmallImageProduct(value));
     }
     handleSubmit() {
         this.setState({
@@ -31,6 +31,7 @@ class ContentBodyLeft extends React.Component {
     }
     render() {
         var { loadDetail } = this.props;
+        var { mouseClick } = this.props;
         var menuItems = [];
         var settings = {
             dots: false,
@@ -85,13 +86,13 @@ class ContentBodyLeft extends React.Component {
                                                 smallImage: {
                                                     alt: 'img',
                                                     isFluidWidth: true,
-                                                    src: (loadDetail[0] != undefined) ? loadDetail[0].largeimage[this.handleClick] : ''
+                                                    src: (loadDetail[0] != undefined) ? loadDetail[0].largeimage[mouseClick] : ''
 
                                                 },
                                                 largeImage: {
-                                                    src: (loadDetail.length >0) ? loadDetail[0].hugeimage[this.handleClick] : '',                                
-                                                    width: (loadDetail.length >0) && width[this.handleClick],
-                                                    height: (loadDetail.length >0) && height[this.handleClick],                                                    
+                                                    src: (loadDetail.length >0) ? loadDetail[0].hugeimage[mouseClick] : '',                                
+                                                    width: (loadDetail.length >0&&isNaN(mouseClick)==false) && width[mouseClick],
+                                                    height: (loadDetail.length >0&&isNaN(mouseClick)==false) && height[mouseClick],                                                    
                                                 }, 
                                                 shouldUsePositiveSpaceLens: true,
                                                 enlargedImageContainerDimensions: {
