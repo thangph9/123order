@@ -34,7 +34,7 @@ class ContentSaleLeft extends React.Component {
             className:'sale-left'
         };
         if(this.props.initLoad.length>0){
-            var menuItems=this.props.initLoad.map((picture,index)=>{
+            var menuItems=this.props.initLoad[0].ContentSale.map((picture,index)=>{
                 return(<Link to={'/landing-page-cong-nghe'} key={index}>
                     <img alt="img" className="img-fluid" src={picture.linkanh}/>
                 </Link>)
@@ -55,7 +55,8 @@ class ContentSaleLeft extends React.Component {
 function mapStateToProps(state) {
 
     return {
-        initLoad:state.initLoadContentSaleLeft
+        initLoad:state.initLoadContentDeal.data,
+        initLoading:state.initLoadContentDeal.loading,
     }
 }
 const connected = connect(mapStateToProps)(ContentSaleLeft);
