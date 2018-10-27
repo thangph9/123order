@@ -42,11 +42,17 @@ class ContentSaleLeft extends React.Component {
                     </Link>)
             })
         }
-
+        var element='';
+        if(initLoading!=undefined&&initLoading==true){
+            element =  <div style={{height:584}}/>
+        }
+        else{
+            element = <Slider ref="slick" {...settings}>{menuItems}</Slider>
+        }
         return (
             <div className="col-7 p-2">
                 
-                {(initLoading!=undefined&&initLoading==true)? (<div style={{height:584}}/>):(<Slider ref="slick" {...settings}>{menuItems}</Slider>)}
+                {element}
 
             </div>
 
