@@ -45,8 +45,8 @@ class ContentSaleLeft extends React.Component {
 
         return (
             <div className="col-7 p-2">
-                <Slider ref="slick" {...settings}>{menuItems}</Slider>
-               
+                
+                {(initLoading!=undefined&&initLoading==true)? (<div style={{height:584}}/>):(<Slider ref="slick" {...settings}>{menuItems}</Slider>)}
 
             </div>
 
