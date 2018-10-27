@@ -24,7 +24,7 @@ class ProductItemList extends React.Component{
         return (
                 <div className="row">
                 { isItem &&
-                    initLoad.map((e,i) =>{
+                    initLoad[0].map((e,i) =>{
                         if(dem<5+this.props.loadAdd){
                             dem++;
                             return (<ProductItem key={i} data={e} customStyle="block"/>)
@@ -41,7 +41,7 @@ class ProductItemList extends React.Component{
 }
 function mapStateToProps(state){
      return {
-        initLoad:state.initLoadContentDeal,
+        initLoad:state.initLandingPageThoiTrang.data,
         loadAdd:state.loadAdd
     }
 }
