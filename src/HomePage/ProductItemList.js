@@ -42,7 +42,7 @@ class ProductItemList extends React.Component{
 }
 function mapStateToProps(state){
      return {
-        initLoad:state.initLoadContentDeal,
+        initLoad:state.initLoadContentDeal.data,
         loadAdd:state.loadAdd
     }
 }
