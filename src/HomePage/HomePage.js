@@ -44,9 +44,16 @@ class HomePage extends React.Component {
             this.props.dispatch(initLoadEbayHide(res.data[0].HideEbayTopHot));
             this.props.dispatch(initLoadAmazonHide(res.data[0].HideAmazonTopHot));
         })
+        window.addEventListener('scroll', this.handleScrollToElement);
     }
     componentWillMount(){
         document.documentElement.scrollTop=0
+    }
+    componentWillUnmount() {
+        window.removeEventListener('scroll', this.handleScrollToElement);
+    }
+    handleScrollToElement() {
+     document.documentElement.scrollTop;
     }
     render() {
         return (
