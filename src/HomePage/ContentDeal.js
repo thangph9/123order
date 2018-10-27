@@ -28,7 +28,6 @@ class ContentDeal extends React.Component{
                 <ContentDealTitle/>
                 <div className="container">
                 {(initLoading!=undefined&&initLoading==true? <ProductItemBoxHide/>:<ProductItemBox/>)}
-                   
                     <ContentDealSeeMore/>
                 </div>
             </div>
