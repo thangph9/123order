@@ -22,12 +22,13 @@ class ContentDeal extends React.Component{
     }
     
         render(){
-        //console.log(this.props.loadAdd);
+        var {initLoading}=this.props;
         return (
             <div className="container-fluid mt-4">
                 <ContentDealTitle/>
                 <div className="container">
-                    <ProductItemBoxHide/>
+                {(initLoading!=undefined&&initLoading==true? <ProductItemBoxHide/>:<ProductItemBox/>)}
+                   
                     <ContentDealSeeMore/>
                 </div>
             </div>
@@ -37,7 +38,9 @@ class ContentDeal extends React.Component{
 }
 function mapStateToProps(state){
   
-    return state;
+    return {
+        initLoading:state.initLoadContentDeal.loading,
+    }
 }
 const connected=connect(mapStateToProps)(ContentDeal);
 export { connected as ContentDeal } 
