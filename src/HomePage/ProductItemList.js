@@ -16,7 +16,6 @@ class ProductItemList extends React.Component{
     }
     render(){
         let {initLoad}=this.props;
-        console.log(initLoad);
         let isItem=false
         if( initLoad!=undefined ){
             isItem=true;
