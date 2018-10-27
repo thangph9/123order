@@ -190,11 +190,3 @@ export function initLoadProductDetailAmazon(state=[],action){
 			return state;
 	}	
 }
-export function initLoadCurrencyRaito(state=0,action){
-	switch (action.type) {
-		case 'INIT_LOAD_CURRENCYRAITO':
-			return action.numb;
-		default:
-			return state;
-	}	
-}

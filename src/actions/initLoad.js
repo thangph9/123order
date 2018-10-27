@@ -135,9 +135,3 @@ export const initLoadProductDetailAmazon=(arrData)=>{
 		arrData
 	}
 }
-export const initLoadCurrencyRaito=(numb)=>{
-	return{
-		type: 'INIT_LOAD_CURRENCYRAITO',
-		numb
-	}
-}
