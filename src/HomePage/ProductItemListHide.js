@@ -2,7 +2,6 @@ import React from "react";
 //import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import {ProductItemHide} from "./ProductItemHide";
-import {ProductItemListHide} from "./ProductItemListHide";
 class ProductItemListHide extends React.Component{
     constructor(props){
         super(props);
