@@ -44,9 +44,9 @@ class ContentSaleLeft extends React.Component {
 
         return (
             <div className="col-7 p-2">
-                <Slider ref="slick" {...settings}>
-                    {menuItems}
-                </Slider>
+               <div>
+                   abc
+               </div>
                 
             </div>
 
