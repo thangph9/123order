@@ -43,7 +43,7 @@ class ContentSaleLeft extends React.Component {
         
         return (
             <div className="col-7 p-2">
-            {(this.props.initLoad!=undefined&&initLoading==true)?(<div style={{minHeight:584}}></div>):(<Slider ref="slick" {...settings}>
+            {(this.props.initLoad!=undefined&&initLoading==true)?(<div style={{minHeight:'584px'}}></div>):(<Slider ref="slick" {...settings}>
                {menuItems}
             </Slider>)}
             </div>
