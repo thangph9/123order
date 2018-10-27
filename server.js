@@ -188,8 +188,7 @@ app.post("/home", jsonParser, function (req, res) {
             widgetid: item.widgetid
           }
         });
-        ObjTable.ContentAmazonDealDay = arr;
-        callback(err, ObjTable)
+        callback(err, arr)
       });
     }
   ], (err, result) => {
