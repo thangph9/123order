@@ -2710,7 +2710,6 @@ html.swipebox-html.swipebox-touch {
 }
 
 #swipebox-close,#swipebox-next,#swipebox-prev {
-    background-image: url(../images/icons/icons.png)!important;
     background-repeat: no-repeat;
     border: none!important;
     text-decoration: none!important;
