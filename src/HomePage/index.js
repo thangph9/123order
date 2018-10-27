@@ -65,3 +65,5 @@ export * from "./ContentDealTitleBestSeller";
 export * from "./ContentDealSeeMoreBestSeller";
 export * from "./ContentDealBestSeller";
 export * from "./ProductItemHide";
+export * from "./ProductItemListHide";
+export * from "./ProductItemBoxHide";

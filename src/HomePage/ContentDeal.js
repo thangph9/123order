@@ -2,6 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import { ContentDealTitle } from "./ContentDealTitle";
 import { ProductItemBox } from "./ProductItemBox";
+import { ProductItemBoxHide } from "./ProductItemBoxHide";
 import { ContentDealSeeMore } from "./ContentDealSeeMore";
 
 class ContentDeal extends React.Component{
@@ -26,7 +27,7 @@ class ContentDeal extends React.Component{
             <div className="container-fluid mt-4">
                 <ContentDealTitle/>
                 <div className="container">
-                    <ProductItemBox/>
+                    <ProductItemBoxHide/>
                     <ContentDealSeeMore/>
                 </div>
             </div>

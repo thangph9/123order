@@ -2,7 +2,6 @@ import React from "react";
 //import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import {ProductItem} from "./ProductItem";
-import {ProductItemHide} from "./ProductItemHide";
 class ProductItemList extends React.Component{
     constructor(props){
         super(props);
@@ -10,22 +9,6 @@ class ProductItemList extends React.Component{
             login: true,
             loading: false,
         }
-    }
-    componentWillMount(){
-        let {initLoad,initLoading}=this.props;
-        console.log(initLoading);
-        let isItem=false
-        if( initLoad!=undefined ){
-            isItem=true;
-        }
-        return (
-                <div className="row">
-                {(isItem && initLoading==true)&& 
-                    initLoad.map((e,i) =>{                     
-                            return (<ProductItemHide key={i} />)  
-                    })}
-                </div>
-        )
     }
     render(){
         let {initLoad,initLoading}=this.props;
@@ -49,10 +32,6 @@ class ProductItemList extends React.Component{
                         
                     })
                 }
-                {(isItem && initLoading==true)&& 
-                    initLoad.map((e,i) =>{                     
-                            return (<ProductItemHide key={i} />)  
-                    })}
                 </div>
         )
         
