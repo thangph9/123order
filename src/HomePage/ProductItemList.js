@@ -2,7 +2,7 @@ import React from "react";
 //import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import {ProductItem} from "./ProductItem";
-
+import {ProductItemHide} from "./ProductItemHide";
 class ProductItemList extends React.Component{
     constructor(props){
         super(props);
@@ -15,7 +15,7 @@ class ProductItemList extends React.Component{
         
     }
     render(){
-        let {initLoad}=this.props;
+        let {initLoad,initLoading}=this.props;
         let isItem=false
         if( initLoad!=undefined ){
             isItem=true;
@@ -23,7 +23,7 @@ class ProductItemList extends React.Component{
         var dem=0;
         return (
                 <div className="row">
-                { isItem &&
+                { (isItem && initLoading==false)&& 
                     initLoad.map((e,i) =>{
                         if(dem<5+this.props.loadAdd){
                             dem++;
@@ -35,6 +35,10 @@ class ProductItemList extends React.Component{
                         
                     })
                 }
+                {(isItem && initLoading==true)&& 
+                    initLoad.map((e,i) =>{                     
+                            return (<ProductItemHide key={i} customStyle="block"/>)  
+                    })}
                 </div>
         )
         
@@ -43,6 +47,7 @@ class ProductItemList extends React.Component{
 function mapStateToProps(state){
      return {
         initLoad:state.initLoadContentDeal.data,
+        initLoading:state.initLoadContentDeal.loading,
         loadAdd:state.loadAdd
     }
 }

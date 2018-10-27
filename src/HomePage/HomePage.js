@@ -37,7 +37,7 @@ class HomePage extends React.Component {
         })
     }
     componentDidMount(){
-        
+        this.props.dispatch(initLoadContentDeal(this.props.loadAdd));
         axios.post('/home').then(res=>{
             
             this.props.dispatch(initLoadContentSaleLeft(res.data[0].ContentSale));
@@ -47,8 +47,6 @@ class HomePage extends React.Component {
         window.addEventListener('scroll', this.handleScrollToElement);
     }
     componentWillMount(){
-
-        this.props.dispatch(initLoadContentDeal(this.props.loadAdd));
         document.documentElement.scrollTop=0
     }
     render() {
