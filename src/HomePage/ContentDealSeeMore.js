@@ -8,7 +8,8 @@ class ContentDealSeeMore extends React.Component {
         super(props);
         this.state = {
             login: true,
-            loading: false
+            loading: false,
+            
         }
         this.handleSubmit = this.handleSubmit.bind(this);
     }
@@ -22,7 +23,7 @@ class ContentDealSeeMore extends React.Component {
     handleClick(value){     
         var numb=this.props.loadAdd+value;
         this.props.dispatch(loadAdd(numb));
-        initLoadContentDeal(this.props.loadAdd);
+        this.props.dispatch(initLoadContentDeal(this.props.loadAdd));
     }
     render() {
 
