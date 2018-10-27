@@ -1810,9 +1810,6 @@ header .tk {
     display: none
 }
 
-.slider-avatar-thumb .owl-item.selected .item a {
-    border: 1px solid #098f5d
-}
 
 .slider-avatar-thumb .owl-stage-outer {
     padding-top: 10px
@@ -4729,10 +4726,7 @@ body.hidden {
 }
 
 .container {
-    position: relative;
     width: 1170px;
-    max-width: 100%;
-    margin: 0 auto
 }
 
 .menu-box.is-open {
