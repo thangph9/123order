@@ -57,7 +57,7 @@ class ProductItem extends React.Component {
                     {!this.state.isLoaded&&<img src='img/Spinner-1s-200px.gif' alt="loading"/>}
                     <img style= {{width:'210px',height:'210px'}} className="card-img-top img-thumbnail border-0 img-fluid" ref={(img)=>this.img=img} alt='img'/>
                         <div className="overlay">
-                            <NavLink to={`/product-detail/${titleTrim.substring(0,titleTrim.length-3)}id=` +`${data.dealid}`} onClick={()=>this.handleClickLink(data)} className="info">Chi tiết</NavLink>
+                            <NavLink to={`/product-detail-test`} onClick={()=>this.handleClickLink(data)} className="info">Chi tiết</NavLink>
                         </div>
                     </div>
                     <div className="card-body p-2">

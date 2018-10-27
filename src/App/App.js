@@ -18,6 +18,7 @@ import {HotDealCongNghe} from '../HotDealCongNghe';
 import {MuaHangAmazon} from '../MuaHangAmazon';
 import {Category} from '../Category';
 import {ProductDetailAmazon} from '../ProductDetailAmazon';
+import {ProductDetailTest} from '../ProductDetailTest';
 import {DetailProduct} from '../Detail-Product/DetailProduct';
 import {ProductDetail} from '../Product-Detail/ProductDetail';
 import {HomePage} from '../HomePage';
@@ -68,6 +69,7 @@ class App extends Component{
                         <Route exact path="/product-detail-amazon/*&asin=:asin" component={ProductDetailAmazon} />
                         <Route exact path="/landing-page-thoi-trang" component={LandingPageThoiTrang} />
                         <Route exact path="/landing-page-cong-nghe" component={LandingPageCongNghe} />
+                        <Route exact path="/product-detail-test" component={ProductDetailTest} />
                     </Switch>
 
                     </div>
