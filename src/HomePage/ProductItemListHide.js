@@ -24,6 +24,11 @@ class ProductItemListHide extends React.Component{
                     <ProductItemHide/>
                     <ProductItemHide/>
                     <ProductItemHide/>
+                    <ProductItemHide/>
+                    <ProductItemHide/>
+                    <ProductItemHide/>
+                    <ProductItemHide/>
+                    <ProductItemHide/>
                 </div>
         )
         
