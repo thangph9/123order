@@ -1,7 +1,7 @@
 import React from "react";
 import { Link,NavLink  } from "react-router-dom";
 import { connect } from "react-redux";
-import {mouseClickLinkProductItem} from '../actions'
+
 class ProductItemHide extends React.Component {
     constructor(props) {
         super(props);
@@ -11,7 +11,7 @@ class ProductItemHide extends React.Component {
     }
     render(){
         return (
-            <div  className="col-md mt-2 px-2" style={{display:display,marginBottom:'8px'}}>
+            <div  className="col-md mt-2 px-2" style={{display:'block',marginBottom:'8px'}}>
                 <div className="card" style={{width:'212px',height:'340px'}}>
                     <div className="hovereffect" style={{width:'210px',height:'190px'}}>
                     <span className='none-hide' style={{position: 'absolute',top: '10px',right: '10px',background: 'red',color: '#fff',fontSize: '13px',fontWeight: 700,borderRadius: '3px',padding: '2px 5px',zIndex: 9}}></span>

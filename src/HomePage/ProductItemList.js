@@ -37,7 +37,7 @@ class ProductItemList extends React.Component{
                 }
                 {(isItem && initLoading==true)&& 
                     initLoad.map((e,i) =>{                     
-                            return (<ProductItemHide key={i} customStyle="block"/>)  
+                            return (<ProductItemHide key={i} />)  
                     })}
                 </div>
         )
