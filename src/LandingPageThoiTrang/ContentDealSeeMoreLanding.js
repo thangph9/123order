@@ -22,9 +22,8 @@ class ContentDealSeeMoreLanding extends React.Component {
     handleClick(value){     
         var numb=this.props.loadAdd+value;
         this.props.dispatch(loadAdd(numb));
-        axios.post('/landing-page-thoi-trang',{addItem:this.props.loadAdd}).then(res=>{
-           this.props.dispatch(initLoadContentDeal(res.data[0]));
-        })
+        this.props.dispatch(initLandingPageThoiTrang(this.props.loadAdd));
+        
     }
     render() {
 
