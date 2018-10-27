@@ -11,6 +11,7 @@ class ContentSaleLeft extends React.Component {
         }
         this.handleSubmit = this.handleSubmit.bind(this);
     }
+
     handleSubmit() {
         this.setState({
             login: false
@@ -41,9 +42,9 @@ class ContentSaleLeft extends React.Component {
         
         return (
             <div className="col-7 p-2">
-            <Slider {...settings}>
+            {(this.props.initLoad!=undefined&&initLoading==true)?(<div style={{height:584}}></div>):(<Slider ref="slick" {...settings}>
                {menuItems}
-            </Slider>
+            </Slider>)}
             </div>
 
         )
