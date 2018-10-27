@@ -279,7 +279,7 @@ class Content extends React.Component {
                                                     <li>
                                                         <h6>HỆ THỐNG TỰ ĐỘNG</h6>
                                                         <div>
-                                                            <label >Xử lý đơn hàng với costco</label><span><img width={20} height={13} src="/muahang_1.svg" alt="#" /></span>
+                                                            <label >Xử lý đơn hàng với costco</label>
                                                         </div>
                                                         <div>
                                                             <label >Thông báo tình trạng đơn hàng</label>
