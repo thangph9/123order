@@ -39,7 +39,7 @@ class ContentSaleLeft extends React.Component {
         return (
             <div className="col-7 p-2">
 
-                <div style={{ height: '584px' }} />
+                <div style={{ height: '584px' }} >abc</div>
                 
             </div>
 
