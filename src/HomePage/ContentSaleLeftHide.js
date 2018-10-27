@@ -20,8 +20,8 @@ class ContentSaleLeftHide extends React.Component {
       
         return (
             <div className="col-7 p-2">
-                <div style={{minHeight:'584px',display: 'table-cell',verticalAlign: 'middle' }}>
-                    <img alt="img" src="img/Spinner-1s-200px.gif"/>
+                <div style={{minHeight:'584px'}}>
+                   
                 </div>
             </div>
 
