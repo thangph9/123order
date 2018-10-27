@@ -44,12 +44,9 @@ class HomePage extends React.Component {
             this.props.dispatch(initLoadEbayHide(res.data[0].HideEbayTopHot));
             this.props.dispatch(initLoadAmazonHide(res.data[0].HideAmazonTopHot));
         })
-        document.documentElement.scrollTop=0
-        console.log("Did Mount")
     }
     componentWillMount(){
-        console.log("Will Mount")
-        
+        document.documentElement.scrollTop=0
     }
     render() {
         return (
