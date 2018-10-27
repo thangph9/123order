@@ -159,7 +159,7 @@ var ObjTable = {
   ]
 };
 app.post("/home", jsonParser, function (req, res) {
-  var addItem = req.body.addItem + 15;
+  var addItem = req.body.addItem + 20;
   async.series([
     (callback) => {
       models.instance.amazon_deal_day.find({ $limit:addItem ,$solr_query: '{"q":"asin:B*"}' }, { raw: true, allow_filtering: true }, function (err, result) {
