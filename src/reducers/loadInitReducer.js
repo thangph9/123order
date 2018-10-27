@@ -58,16 +58,16 @@ export function initLoadContentDeal(state={},action){
 }
 export function initLandingPageThoiTrang(state={},action){
 	switch (action.type) {
-		case loadlandingthoitrangConstants.LOAD_DEAL_REQUEST:
+		case loadlandingthoitrangConstants.LOAD_LANDING_THOI_TRANG_REQUEST:
 			return {
 				loading:true
 			}
-		case loadlandingthoitrangConstants.LOAD_DEAL_SUCCESS:
+		case loadlandingthoitrangConstants.LOAD_LANDING_THOI_TRANG_SUCCESS:
 			return {
 				loading:false,
 				data:action.arrData
 			}
-		case loadlandingthoitrangConstants.LOAD_DEAL_FAILURE:
+		case loadlandingthoitrangConstants.LOAD_LANDING_THOI_TRANG_FAILURE:
 			return {
 				loading:false,
 				error:action.error
