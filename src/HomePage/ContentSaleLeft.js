@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import Slider from "react-slick";
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 class ContentSaleLeft extends React.Component {
     constructor(props) {
         super(props);
@@ -11,9 +11,9 @@ class ContentSaleLeft extends React.Component {
         }
         this.handleSubmit = this.handleSubmit.bind(this);
     }
-    componentWillReceiveProps() {
+    componentWillReceiveProps(){
         this.refs.slick.innerSlider.onWindowResized()
-    }
+      }
     handleSubmit() {
         this.setState({
             login: false
@@ -21,8 +21,7 @@ class ContentSaleLeft extends React.Component {
         console.log("Hello World")
     }
     render() {
-        var menuItems = [];
-        var {initLoading}=this.props;
+        var menuItems=[];
         var settings = {
             dots: false,
             infinite: true,
@@ -32,22 +31,21 @@ class ContentSaleLeft extends React.Component {
             autoplay: true,
             autoplaySpeed: 3000,
             arrows: false,
-            className: 'sale-left'
+            className:'sale-left'
         };
-        if (this.props.initLoad != undefined && this.props.initLoad.length > 0) {
-            var menuItems = this.props.initLoad[0].ContentSale.map((picture, index) => {
-                return (
-                    <Link to={'/landing-page-cong-nghe'} data-index={index} key={index}>
-                        <img alt="img" className="img-fluid" src={picture.linkanh} />
-                    </Link>)
+        if(this.props.initLoad.length>0){
+            var menuItems=this.props.initLoad.map((picture,index)=>{
+                return(<Link to={'/landing-page-cong-nghe'} key={index}>
+                    <img alt="img" className="img-fluid" src={picture.linkanh}/>
+                </Link>)
             })
         }
-
+        
         return (
             <div className="col-7 p-2">
-                <Slider {...settings}>
-                    {menuItems}
-                </Slider>
+            <Slider ref="slick" {...settings}>
+               {menuItems}
+            </Slider>
             </div>
 
         )
@@ -57,8 +55,7 @@ class ContentSaleLeft extends React.Component {
 function mapStateToProps(state) {
 
     return {
-        initLoad: state.initLoadContentDeal.data,
-        initLoading: state.initLoadContentDeal.loading,
+        initLoad:state.initLoadContentSaleLeft
     }
 }
 const connected = connect(mapStateToProps)(ContentSaleLeft);
