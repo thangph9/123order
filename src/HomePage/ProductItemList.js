@@ -12,7 +12,20 @@ class ProductItemList extends React.Component{
         }
     }
     componentWillMount(){
-        
+        let {initLoad,initLoading}=this.props;
+        console.log(initLoading);
+        let isItem=false
+        if( initLoad!=undefined ){
+            isItem=true;
+        }
+        return (
+                <div className="row">
+                {(isItem && initLoading==true)&& 
+                    initLoad.map((e,i) =>{                     
+                            return (<ProductItemHide key={i} />)  
+                    })}
+                </div>
+        )
     }
     render(){
         let {initLoad,initLoading}=this.props;
@@ -24,7 +37,18 @@ class ProductItemList extends React.Component{
         var dem=0;
         return (
                 <div className="row">
-                
+                { (isItem && initLoading==false)&& 
+                    initLoad.map((e,i) =>{
+                        if(dem<5+this.props.loadAdd){
+                            dem++;
+                            return (<ProductItem key={i} data={e} customStyle="block"/>)
+                        }
+                        else{
+                            return (<ProductItem key={i} data={e} customStyle="none"/>)
+                        }
+                        
+                    })
+                }
                 {(isItem && initLoading==true)&& 
                     initLoad.map((e,i) =>{                     
                             return (<ProductItemHide key={i} />)  
