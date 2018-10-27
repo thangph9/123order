@@ -13,7 +13,7 @@ function getDealDay(add_item){
         url:api.getDealDay,
         data: {addItem: add_item}
     }
-    return axios(requestOptions).then(handleResponse);
+    return axios(requestOptions)
 }
 
 function handleResponse(response){
