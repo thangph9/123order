@@ -21,7 +21,7 @@ class ProductItemList extends React.Component{
         return (
                 <div className="row">
                 { (isItem && initLoading==false)&& 
-                    initLoad.map((e,i) =>{
+                    initLoad[0].ContentAmazonDealDay.map((e,i) =>{
                         if(dem<10+this.props.loadAdd){
                             dem++;
                             return (<ProductItem key={i} data={e} customStyle="block"/>)
