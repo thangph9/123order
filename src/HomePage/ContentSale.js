@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { ContentSaleLeft } from "./ContentSaleLeft";
+import { ContentSaleLeftHide } from "./ContentSaleLeftHide";
 import { ContentSaleRight } from "./ContentSaleRight";
 class ContentSale extends React.Component{
     constructor(props){
@@ -18,11 +19,11 @@ class ContentSale extends React.Component{
         console.log("Hello World")
     }
     render(){
-        
+        var {initLoading}=this.props;
         return (
             <div className="container mt-2">
                 <div className="row">
-                    <ContentSaleLeft/>
+                {(initLoading!=undefined&&initLoading==true? <ContentSaleLeftHide/>:<ContentSaleLeft/>)}
                     <ContentSaleRight/>
                 </div>
             </div>
@@ -32,7 +33,10 @@ class ContentSale extends React.Component{
 }
 function mapStateToProps(state){
   
-    return state;
+    return  {
+        initLoad: state.initLoadContentDeal.data,
+        initLoading: state.initLoadContentDeal.loading,
+    }
 }
 const connected=connect(mapStateToProps)(ContentSale);
 export { connected as ContentSale } 
