@@ -8,6 +8,7 @@ class ContentSaleLeft extends React.Component {
         this.state = {
             login: true,
             loading: false,
+            isLoaded:false
         }
         this.handleSubmit = this.handleSubmit.bind(this);
     }
@@ -18,9 +19,37 @@ class ContentSaleLeft extends React.Component {
         })
         console.log("Hello World")
     }
+    handleClickLink(value){
+        this.props.dispatch(mouseClickLinkProductItem(value));
+    }
+    componentDidMount(){
+        this.load(this.img);
+    }
+    load(img){
+        var image=img;
+        image.src= this.props.data.img;
+        image.onload=()=>{
+            this.onImageLoaded();
+        }
+        image.oneError=()=>{
+            this.onImageLoadedError(this.props.data.img);
+        }
+    }
+    handleClickLink(value){
+        this.props.dispatch(mouseClickLinkProductItem(value));
+    }
+    onImageLoaded(){
+        this.setState({
+            isLoaded:true
+        });
+    }
+    onImageLoadedError(){
+        this.setState({
+            isError:true
+        })
+    }
     render() {
         var menuItems = [];
-        var { initLoading } = this.props;
         var settings = {
             dots: false,
             infinite: true,
@@ -36,7 +65,8 @@ class ContentSaleLeft extends React.Component {
             var menuItems = this.props.initLoad[0].ContentSale.map((picture, index) => {
                 return (
                     <Link to={'/landing-page-cong-nghe'} key={index}>
-                        <img alt="img" className="img-fluid" src={picture.linkanh} />
+                        {!this.state.isLoaded&&<img src='img/Spinner-1s-200px.gif' alt="loading"/>}
+                        <img alt="img" className="img-fluid"  src={picture.linkanh} />
                     </Link>)
             })
         }
