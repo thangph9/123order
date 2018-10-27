@@ -27,7 +27,6 @@ import {showSummaryProductByCategory} from './mouseClickReducer';
 import {initLoadCategoryItem} from './loadInitReducer';
 import {settingNumberItem} from './mouseClickReducer';
 import {initLoadCategoryProducts} from './loadInitReducer';
-import {initLoadCurrencyRaito} from './loadInitReducer';
 import {initLandingPageThoiTrang} from './loadInitReducer';
 import {initLandingPageDongHo} from './loadInitReducer';
 import {initLandingPageCongNghe} from './loadInitReducer';
@@ -60,7 +59,6 @@ const rootReducer=combineReducers({
     initLoadProductDetailAmazon,
     showBreadcrumbByCategory,
     settingNumberItem,
-    initLoadCurrencyRaito,
     initLandingPageThoiTrang,
     initLandingPageDongHo,
     initLandingPageCongNghe

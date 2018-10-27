@@ -43,7 +43,7 @@ class ProductItem extends React.Component {
         if (data.title.length>45){
             data.title= data.title.slice(0,45)+'...';
         }
-        var {initLoadCurrencyRaito}=this.props;
+        var initLoadCurrencyRaito=0;
         var base_priceCurrency=data.base_price*initLoadCurrencyRaito
         var priceCurrency=data.price*initLoadCurrencyRaito
         titleTrim=titleTrim.replace(/ - /g , "-");
