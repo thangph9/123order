@@ -38,8 +38,8 @@ export function initLoadContentSaleLeft(state={},action){
 export function initLoadContentDeal(state={},action){
 	switch (action.type) {
 		case loaddealdayConstants.LOAD_DEAL_REQUEST:
-		    console.log(state)
 			return {
+				loading:true
 			}
 		case loaddealdayConstants.LOAD_DEAL_SUCCESS:
 			return {

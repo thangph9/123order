@@ -23,7 +23,7 @@ export const initLoadContentDeal=(addItem)=>{
 		dispatch(request(addItem));
 		loadproductService.getDealDay(addItem)
 		.then(
-			arrData=>dispatch(success(arrData)),
+			arrData=>dispatch(success(arrData[0].ContentAmazonDealDay)),
 			
 		).catch(
 			error=>dispatch(failure(error))
