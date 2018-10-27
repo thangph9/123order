@@ -16,7 +16,6 @@ class ProductDetailTest extends React.Component {
             loading: false,
             scrollValue:0
         }
-        this.handleScrollToElement = this.handleScrollToElement.bind(this); 
     }
    
     render() {
