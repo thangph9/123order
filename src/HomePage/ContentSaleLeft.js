@@ -20,6 +20,7 @@ class ContentSaleLeft extends React.Component {
     }
     render() {
         var menuItems=[];
+        var {initLoading}=this.props;
         var settings = {
             dots: false,
             infinite: true,
