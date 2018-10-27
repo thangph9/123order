@@ -1,5 +1,7 @@
 import  {loaddealdayConstants}  from "../constants";
 import  {loadlandingthoitrangConstants}  from "../constants";
+import  {loadlandingdonghoConstants}  from "../constants";
+import  {loadlandingcongngheConstants}  from "../constants";
 export function initLoadEbayHide(state={},action){
 	switch (action.type) {
 		case 'INIT_LOAD_EBAY_HIDE':{
@@ -68,6 +70,46 @@ export function initLandingPageThoiTrang(state={},action){
 				data:action.arrData
 			}
 		case loadlandingthoitrangConstants.LOAD_LANDING_THOI_TRANG_FAILURE:
+			return {
+				loading:false,
+				error:action.error
+			}
+		default:
+			return state;
+	}	
+}
+export function initLandingPageDongHo(state={},action){
+	switch (action.type) {
+		case loadlandingdonghoConstants.LOAD_LANDING_DONG_HO_REQUEST:
+			return {
+				loading:true
+			}
+		case loadlandingdonghoConstants.LOAD_LANDING_DONG_HO_SUCCESS:
+			return {
+				loading:false,
+				data:action.arrData
+			}
+		case loadlandingdonghoConstants.LOAD_LANDING_DONG_HO_FAILURE:
+			return {
+				loading:false,
+				error:action.error
+			}
+		default:
+			return state;
+	}	
+}
+export function initLandingPageCongNghe(state={},action){
+	switch (action.type) {
+		case loadlandingcongngheConstants.LOAD_LANDING_CONG_NGHE_REQUEST:
+			return {
+				loading:true
+			}
+		case loadlandingcongngheConstants.LOAD_LANDING_CONG_NGHE_SUCCESS:
+			return {
+				loading:false,
+				data:action.arrData
+			}
+		case loadlandingcongngheConstants.LOAD_LANDING_CONG_NGHE_FAILURE:
 			return {
 				loading:false,
 				error:action.error

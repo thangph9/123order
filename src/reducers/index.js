@@ -29,6 +29,8 @@ import {settingNumberItem} from './mouseClickReducer';
 import {initLoadCategoryProducts} from './loadInitReducer';
 import {initLoadCurrencyRaito} from './loadInitReducer';
 import {initLandingPageThoiTrang} from './loadInitReducer';
+import {initLandingPageDongHo} from './loadInitReducer';
+import {initLandingPageCongNghe} from './loadInitReducer';
 const rootReducer=combineReducers({
     authentication,
     alert,
@@ -59,6 +61,8 @@ const rootReducer=combineReducers({
     showBreadcrumbByCategory,
     settingNumberItem,
     initLoadCurrencyRaito,
-    initLandingPageThoiTrang
+    initLandingPageThoiTrang,
+    initLandingPageDongHo,
+    initLandingPageCongNghe
 });
 export default rootReducer;

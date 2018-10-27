@@ -5,7 +5,7 @@ import { Footer } from "../Sections/Footer";
 import { Content } from "./Content";
 import {initLoadContentDeal} from '../actions';
 import axios from 'axios';
-import {initLoadCurrencyRaito} from '../actions';
+import {initLandingPageDongHo} from '../actions';
 class LandingPage extends React.Component {
     constructor(props) {
         super(props);
@@ -15,10 +15,7 @@ class LandingPage extends React.Component {
         }
     }
     componentWillMount(){
-        axios.post('/landing-page-dong-ho',{addItem:this.props.loadAdd}).then(res=>{
-            this.props.dispatch(initLoadContentDeal(res.data[0]));
-            this.props.dispatch(initLoadCurrencyRaito(res.data[1][0].raito));
-        })
+        this.props.dispatch(initLandingPageDongHo(this.props.loadAdd));
         document.documentElement.scrollTop=0
     }
     render() {

@@ -1,8 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import {loadAdd} from '../actions';
-import {initLoadContentDeal} from '../actions';
-import axios from 'axios';
+import {initLandingPageDongHo} from '../actions';
 class ContentDealSeeMoreLanding extends React.Component {
     constructor(props) {
         super(props);
@@ -22,9 +21,7 @@ class ContentDealSeeMoreLanding extends React.Component {
     handleClick(value){     
         var numb=this.props.loadAdd+value;
         this.props.dispatch(loadAdd(numb));
-        axios.post('/landing-page-dong-ho',{addItem:this.props.loadAdd}).then(res=>{
-           this.props.dispatch(initLoadContentDeal(res.data[0]));
-        })
+        this.props.dispatch(initLandingPageDongHo(this.props.loadAdd))
     }
     render() {
 

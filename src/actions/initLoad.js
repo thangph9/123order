@@ -1,4 +1,7 @@
 import { loaddealdayConstants } from "../constants";
+import { loadlandingthoitrangConstants } from "../constants";
+import { loadlandingcongngheConstants } from "../constants";
+import { loadlandingdonghoConstants } from "../constants";
 import { loadproductService } from "../services";
 export const initLoadEbayHide=(arrData)=>{
 	return{
@@ -33,6 +36,36 @@ export const initLoadContentDeal=(addItem)=>{
     function success(arrData){ return { type: loaddealdayConstants.LOAD_DEAL_SUCCESS, arrData }}
     function failure(error) { return { type: loaddealdayConstants.LOAD_DEAL_FAILURE, error }}
 }
+export const initLandingPageCongNghe=(addItem)=>{
+	return dispatch => {
+		dispatch(request(addItem));
+		loadproductService.getLandingPageCongNghe(addItem)
+		.then(
+			res=>dispatch(success(res)),
+			
+		).catch(
+			error=>dispatch(failure(error))
+		)
+	}
+    function request(addItem) { return { type : loadlandingcongngheConstants.LOAD_LANDING_CONG_NGHE_REQUEST,addItem }}
+    function success(arrData){ return { type: loadlandingcongngheConstants.LOAD_LANDING_CONG_NGHE_SUCCESS, arrData }}
+    function failure(error) { return { type: loadlandingcongngheConstants.LOAD_LANDING_CONG_NGHE_FAILURE, error }}
+}
+export const initLandingPageDongHo=(addItem)=>{
+	return dispatch => {
+		dispatch(request(addItem));
+		loadproductService.getLandingPageDongHo(addItem)
+		.then(
+			res=>dispatch(success(res)),
+			
+		).catch(
+			error=>dispatch(failure(error))
+		)
+	}
+    function request(addItem) { return { type : loadlandingdonghoConstants.LOAD_LANDING_DONG_HO_REQUEST,addItem }}
+    function success(arrData){ return { type: loadlandingdonghoConstants.LOAD_LANDING_DONG_HO_SUCCESS, arrData }}
+    function failure(error) { return { type: loadlandingdonghoConstants.LOAD_LANDING_DONG_HO_FAILURE, error }}
+}
 export const initLandingPageThoiTrang=(addItem)=>{
 	return dispatch => {
 		dispatch(request(addItem));
@@ -44,9 +77,9 @@ export const initLandingPageThoiTrang=(addItem)=>{
 			error=>dispatch(failure(error))
 		)
 	}
-    function request(addItem) { return { type : loaddealdayConstants.LOAD_DEAL_REQUEST,addItem }}
-    function success(arrData){ return { type: loaddealdayConstants.LOAD_DEAL_SUCCESS, arrData }}
-    function failure(error) { return { type: loaddealdayConstants.LOAD_DEAL_FAILURE, error }}
+    function request(addItem) { return { type : loadlandingthoitrangConstants.LOAD_LANDING_THOI_TRANG_REQUEST,addItem }}
+    function success(arrData){ return { type: loadlandingthoitrangConstants.LOAD_LANDING_THOI_TRANG_SUCCESS, arrData }}
+    function failure(error) { return { type: loadlandingthoitrangConstants.LOAD_LANDING_THOI_TRANG_FAILURE, error }}
 }
 export const initLoadProductDetail=(arrData)=>{
 	return{
