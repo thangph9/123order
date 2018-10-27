@@ -22,7 +22,7 @@ class ContentSaleLeft extends React.Component {
     }
     render() {
         var menuItems = [];
-        var {initLoading}=this.props;
+        var { initLoading } = this.props;
         var settings = {
             dots: false,
             infinite: true,
@@ -34,19 +34,17 @@ class ContentSaleLeft extends React.Component {
             arrows: false,
             className: 'sale-left'
         };
-        if (this.props.initLoad != undefined && this.props.initLoad.length > 0) {
-            var menuItems = this.props.initLoad[0].ContentSale.map((picture, index) => {
-                return (
-                    <Link to={'/landing-page-cong-nghe'} data-index={index} key={index}>
-                        <img alt="img" className="img-fluid" src={picture.linkanh} />
-                    </Link>)
-            })
-        }
+        
 
         return (
             <div className="col-7 p-2">
-                
-                {(initLoading!=undefined&&initLoading==true) ? (<div style={{height:584}}/>):(<Slider {...settings}>{menuItems}</Slider>)}
+
+                {(initLoading != undefined && initLoading == true) ? (<div style={{ height: 584 }} />) : (<Slider {...settings}>{this.props.initLoad[0].ContentSale.map((picture, index) => {
+                    return (
+                        <Link to={'/landing-page-cong-nghe'} data-index={index} key={index}>
+                            <img alt="img" className="img-fluid" src={picture.linkanh} />
+                        </Link>)
+                })}</Slider>)}
 
             </div>
 
