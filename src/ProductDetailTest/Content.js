@@ -22,9 +22,9 @@ class Content extends React.Component {
         return (
             <div style={{ marginTop: '20px' }} >
                 <section id="main_container" className="width_100 page_folder sticky">
-                    <div className="container">
+                    <div className="container-use">
                         <div className="menu_control mb10">
-                            <div className="container">
+                            <div className="container-use">
                                 <ul className="breadcrumb">
                                     <li><a href="/">Trang chủ</a></li>
                                     <li><a href="/costco/store">costco</a></li>

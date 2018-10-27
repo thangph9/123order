@@ -1315,7 +1315,7 @@ header .tk {
     border-bottom: 35px solid transparent
 }
 
-.menu_control .container {
+.menu_control .container-use {
     padding: 0
 }
 
@@ -2405,7 +2405,7 @@ header .tk {
     padding: 100px 0
 }
 
-.high_light1 .container {
+.high_light1 .container-use {
     position: static
 }
 
@@ -4725,7 +4725,7 @@ body.hidden {
     margin: 0 auto
 }
 
-.container {
+.container-use {
     position: relative;
     width: 1170px;
     max-width: 100%;
