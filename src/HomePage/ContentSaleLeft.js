@@ -44,7 +44,7 @@ class ContentSaleLeft extends React.Component {
 
         return (
             <div className="col-7 p-2">
-               <div ref="slick">
+               <div className="abc">
                    abc
                </div>
                 
