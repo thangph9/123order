@@ -44,9 +44,7 @@ class ContentSaleLeft extends React.Component {
 
         return (
             <div className="col-7 p-2">
-                <Link to={'/landing-page-cong-nghe'}>
-                        <img alt="img" className="img-fluid" src="img/Home2_715x584.png" />
-                </Link>
+                <div>abc</div>
             </div>
 
         )
