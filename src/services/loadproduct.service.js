@@ -10,10 +10,10 @@ const api={
 function getDealDay(add_item){
     const requestOptions={
         method: 'POST',
-        headers: {'Content-Type': 'application/json'},
-        body: JSON.stringify({addItem: add_item})
+        url:api.getDealDay,
+        data: {addItem: add_item}
     }
-    return axios(api.getDealDay,requestOptions).then(handleResponse);
+    return axios(requestOptions).then(handleResponse);
 }
 
 function handleResponse(response){
