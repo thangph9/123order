@@ -4725,12 +4725,6 @@ body.hidden {
     margin: 0 auto
 }
 
-.container-use {
-    position: relative;
-    width: 1200px;
-    max-width: 100%;
-    margin: 0 auto
-}
 
 .menu-box.is-open {
     visibility: visible;
