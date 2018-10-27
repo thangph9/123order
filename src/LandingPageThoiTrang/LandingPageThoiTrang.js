@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { Header } from "../Sections/Header";
 import { Footer } from "../Sections/Footer";
 import { Content } from "./Content";
-import {initLoadContentDeal} from '../actions';
+import {initLandingPageThoiTrang} from '../actions';
 import {initLoadCurrencyRaito} from '../actions';
 import axios from 'axios';
 class LandingPageThoiTrang extends React.Component {
@@ -15,8 +15,9 @@ class LandingPageThoiTrang extends React.Component {
         }
     }
     componentWillMount(){
+        this.props.dispatch(initLandingPageThoiTrang(this.props.loadAdd));
         axios.post('/landing-page-thoi-trang',{addItem:this.props.loadAdd}).then(res=>{
-            this.props.dispatch(initLoadContentDeal(res.data[0]));
+            
             this.props.dispatch(initLoadCurrencyRaito(res.data[1][0].raito));
         })
         document.documentElement.scrollTop=0

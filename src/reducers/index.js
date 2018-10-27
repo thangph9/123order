@@ -28,6 +28,7 @@ import {initLoadCategoryItem} from './loadInitReducer';
 import {settingNumberItem} from './mouseClickReducer';
 import {initLoadCategoryProducts} from './loadInitReducer';
 import {initLoadCurrencyRaito} from './loadInitReducer';
+import {initLandingPageThoiTrang} from './loadInitReducer';
 const rootReducer=combineReducers({
     authentication,
     alert,
@@ -57,6 +58,7 @@ const rootReducer=combineReducers({
     initLoadProductDetailAmazon,
     showBreadcrumbByCategory,
     settingNumberItem,
-    initLoadCurrencyRaito
+    initLoadCurrencyRaito,
+    initLandingPageThoiTrang
 });
 export default rootReducer;

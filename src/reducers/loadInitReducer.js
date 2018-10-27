@@ -1,4 +1,5 @@
 import  {loaddealdayConstants}  from "../constants";
+import  {loadlandingthoitrangConstants}  from "../constants";
 export function initLoadEbayHide(state={},action){
 	switch (action.type) {
 		case 'INIT_LOAD_EBAY_HIDE':{
@@ -47,6 +48,26 @@ export function initLoadContentDeal(state={},action){
 				data:action.arrData
 			}
 		case loaddealdayConstants.LOAD_DEAL_FAILURE:
+			return {
+				loading:false,
+				error:action.error
+			}
+		default:
+			return state;
+	}	
+}
+export function initLandingPageThoiTrang(state={},action){
+	switch (action.type) {
+		case loadlandingthoitrangConstants.LOAD_DEAL_REQUEST:
+			return {
+				loading:true
+			}
+		case loadlandingthoitrangConstants.LOAD_DEAL_SUCCESS:
+			return {
+				loading:false,
+				data:action.arrData
+			}
+		case loadlandingthoitrangConstants.LOAD_DEAL_FAILURE:
 			return {
 				loading:false,
 				error:action.error

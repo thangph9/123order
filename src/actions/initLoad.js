@@ -33,6 +33,21 @@ export const initLoadContentDeal=(addItem)=>{
     function success(arrData){ return { type: loaddealdayConstants.LOAD_DEAL_SUCCESS, arrData }}
     function failure(error) { return { type: loaddealdayConstants.LOAD_DEAL_FAILURE, error }}
 }
+export const initLandingPageThoiTrang=(addItem)=>{
+	return dispatch => {
+		dispatch(request(addItem));
+		loadproductService.getLandingPageThoiTrang(addItem)
+		.then(
+			res=>dispatch(success(res)),
+			
+		).catch(
+			error=>dispatch(failure(error))
+		)
+	}
+    function request(addItem) { return { type : loaddealdayConstants.LOAD_DEAL_REQUEST,addItem }}
+    function success(arrData){ return { type: loaddealdayConstants.LOAD_DEAL_SUCCESS, arrData }}
+    function failure(error) { return { type: loaddealdayConstants.LOAD_DEAL_FAILURE, error }}
+}
 export const initLoadProductDetail=(arrData)=>{
 	return{
 		type: 'INIT_LOAD_PRODUCT_DETAIL',
