@@ -22,7 +22,7 @@ class ContentDealSeeMore extends React.Component {
     handleClick(value){     
         var numb=this.props.loadAdd+value;
         this.props.dispatch(loadAdd(numb));
-            this.props.dispatch(initLoadContentDeal(this.props.loadAdd));
+        initLoadContentDeal(this.props.loadAdd);
     }
     render() {
 

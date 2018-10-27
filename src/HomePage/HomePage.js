@@ -37,7 +37,7 @@ class HomePage extends React.Component {
         })
     }
     componentDidMount(){
-        this.props.dispatch(initLoadContentDeal(this.props.loadAdd));
+        initLoadContentDeal(this.props.loadAdd);
         axios.post('/home').then(res=>{
             
             this.props.dispatch(initLoadContentSaleLeft(res.data[0].ContentSale));
