@@ -4726,7 +4726,10 @@ body.hidden {
 }
 
 .container {
+    position: relative;
     width: 1170px;
+    max-width: 100%;
+    margin: 0 auto
 }
 
 .menu-box.is-open {
