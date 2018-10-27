@@ -548,39 +548,30 @@ header .tk {
 }
 
 #menu_main ul li .dropdown-menu ul li a .user-ico.num1 {
-    background: url(icons/base-new.png) 6px -840px no-repeat
 }
 
 #menu_main ul li .dropdown-menu ul li a .user-ico.num2 {
-    background: url(icons/base-new.png) -21px -840px no-repeat
 }
 
 #menu_main ul li .dropdown-menu ul li a .user-ico.num3 {
-    background: url(icons/base-new.png) -49px -840px no-repeat
 }
 
 #menu_main ul li .dropdown-menu ul li a .user-ico.num4 {
-    background: url(icons/base-new.png) -79px -840px no-repeat
 }
 
 #menu_main ul li .dropdown-menu ul li a .user-ico.num5 {
-    background: url(icons/base-new.png) -112.5px -840px no-repeat
 }
 
 #menu_main ul li .dropdown-menu ul li a .user-ico.num6 {
-    background: url(icons/base-new.png) -144px -840px no-repeat
 }
 
 #menu_main ul li .dropdown-menu ul li a .user-ico.num7 {
-    background: url(icons/base-new.png) -170px -840px no-repeat
 }
 
 #menu_main ul li .dropdown-menu ul li a .user-ico.num8 {
-    background: url(icons/base-new.png) -197px -840px no-repeat
 }
 
 #menu_main ul li .dropdown-menu ul li a .user-ico.num9 {
-    background: url(icons/base-new.png) -225px -840px no-repeat
 }
 
 #menu_main ul li .dropdown-menu .logout {
@@ -634,7 +625,6 @@ header .tk {
 
 #player_scroll .box_embed_video_parent ul li {
     position: relative;
-    background: url(graphics/bg_title.png) no-repeat;
     color: #226852;
     font-size: 18px;
     padding: 10px 10px 10px 30px;
@@ -658,7 +648,6 @@ header .tk {
 
 #player_scroll .box_embed_video_parent ul li:before {
     content: "";
-    background: url(icons/icon-usexpress.png) -337px -2px no-repeat;
     width: 15px;
     height: 20px;
     position: absolute;
@@ -777,7 +766,6 @@ header .tk {
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url(graphics/banner2.jpg) no-repeat;
     background-size: cover
 }
 
@@ -1060,7 +1048,6 @@ header .tk {
 }
 
 .list_product .item .ava .icon-express {
-    background: url(icons/icon-usexpress.png) no-repeat;
     width: 100px;
     height: 26px;
     position: absolute;
@@ -1139,7 +1126,6 @@ header .tk {
 }
 
 .list_product .item .like span i {
-    background: url(icons/icon-usexpress.png) -335px -3px no-repeat;
     width: 18px;
     height: 18px;
     position: absolute;
@@ -1477,7 +1463,6 @@ header .tk {
 }
 
 .icon-express {
-    background: url(icons/icon-usexpress.png) no-repeat;
     width: 100px;
     height: 26px;
     position: absolute;
@@ -1581,7 +1566,6 @@ header .tk {
 
 .product-info .content .tieu_chuan li:before {
     content: "";
-    background: url(icons/icon-usexpress.png) -337px -2px no-repeat;
     width: 15px;
     height: 20px;
     position: absolute;
@@ -2685,7 +2669,6 @@ html.swipebox-html.swipebox-touch {
 }
 
 #swipebox-slider .slide-loading {
-    background: url(img/loader.gif) center center no-repeat
 }
 
 #swipebox-bottom-bar,#swipebox-top-bar {
@@ -3562,7 +3545,6 @@ div.simplePopup .wrap_popup .scroll {
 }
 
 .form_login .form-group.social a {
-    background: url(icons/social.png) no-repeat;
     width: 165px;
     height: 28px;
     display: block;
@@ -4380,7 +4362,6 @@ div.simplePopup .wrap_popup .scroll {
     position: absolute;
     left: 10px;
     top: -12px;
-    background: url(../images/icons/full_icon.png) -10px -340px no-repeat;
     width: 38px;
     height: 26px
 }
@@ -5800,7 +5781,6 @@ body.hidden {
     top: 50%;
     margin-left: -40px;
     margin-top: -40px;
-    background: url(owl.video.play.png) no-repeat;
     cursor: pointer;
     z-index: 1;
     transition: transform .1s ease

@@ -19,7 +19,6 @@ import {MuaHangAmazon} from '../MuaHangAmazon';
 import {Category} from '../Category';
 import {ProductDetailAmazon} from '../ProductDetailAmazon';
 import {ProductDetailTest} from '../ProductDetailTest';
-import {DetailProduct} from '../Detail-Product/DetailProduct';
 import {ProductDetail} from '../Product-Detail/ProductDetail';
 import {HomePage} from '../HomePage';
 import { history } from "../stores";
@@ -59,7 +58,6 @@ class App extends Component{
                         <Route exact path="/mua-hang-ebay" component={MuaHangEbay} />
                         <Route exact path="/gia-soc-moi-ngay" component={GiaSocMoiNgay} />
                         <Route exact path="/mua-hang-amazon" component={MuaHangAmazon} />
-                        <Route exact path="/detail-product/*.:dealid" component={DetailProduct} />
                         <Route exact path="/best-seller" component={BestSeller} />
                         <Route exact path="/hot-deal-cong-nghe" component={HotDealCongNghe} />
                         <Route exact path="/landing-page" component={LandingPage} />

@@ -165,7 +165,7 @@ body {
 }
 
 .cl_bl_hd {
-    background: url(../images/bt_cl_hd.png) no-repeat;
+    
     width: 16px;
     height: 15px;
     border: none;
@@ -178,7 +178,7 @@ body {
 }
 
 .text_hd input {
-    background: url(../images/icon_tk_hd.png) 8px center no-repeat #fff;
+    
     border: 1px solid #ddd;
     padding-left: 30px
 }
@@ -195,7 +195,7 @@ body {
 }
 
 .list_hd ul li {
-    background: url(../images/icon_hd.svg) 10px 10px no-repeat;
+    
     background-size: 7% 47%;
     margin: 5px 0;
     padding-right: 10px;
@@ -223,7 +223,7 @@ body {
 }
 
 .v_all_hd a {
-    background: url(../images/v_all_hd.svg) center right no-repeat;
+    
     background-size: 15% 77%;
     padding-right: 25px;
     font-size: 14px;
@@ -348,14 +348,14 @@ div.item,div.item:hover {
 }
 
 .slider_hot .swiper-button-next {
-    background-image: url(../images/next_slide_banner.svg);
+    
     width: 21px;
     height: 22px;
     background-size: auto
 }
 
 .slider_hot .swiper-button-prev {
-    background-image: url(../images/back_slide_banner.svg);
+    
     width: 21px;
     height: 22px;
     background-size: auto
@@ -525,7 +525,7 @@ div.item,div.item:hover {
 }
 
 .them_giohang a span {
-    background: url(../images/icon_cart.svg) left center no-repeat;
+    
     color: #fff;
     padding-left: 20px;
     background-size: 10%
@@ -581,13 +581,13 @@ div.item:hover {
 
 .block_slide_sp .swiper-button-next {
     right: 0;
-    background-image: url(../images/btn_next_slide.svg);
+    
     opacity: .85
 }
 
 .block_slide_sp .swiper-button-prev {
     left: 0;
-    background-image: url(../images/btn_back_slide.svg);
+    
     opacity: .7
 }
 
@@ -852,7 +852,7 @@ div.item:hover {
 }
 
 .search-box_input button {
-    background: url(../images/icon_tkiem.png) 7px 5px no-repeat #fff;
+    
     width: 37px;
     height: 34px;
     border: none;
@@ -874,7 +874,7 @@ div.item:hover {
     color: #000;
     width: 140px;
     box-sizing: border-box;
-    background: url(../images/bg_line_tk.png) center right no-repeat
+    
 }
 
 .txt_hang {
@@ -957,7 +957,7 @@ div.item:hover {
 }
 
 .breadcrumb li:first-child {
-    background: url(../images/icon_home.png) 0 3px no-repeat;
+    
     padding-left: 20px
 }
 
@@ -1028,12 +1028,12 @@ div.item:hover {
 }
 
 .block_doitac_th .owl-next {
-    background-image: url(../images/btn_next_sl.svg);
+    
     right: 0
 }
 
 .block_doitac_th .owl-prev {
-    background-image: url(../images/btn_back_sl.svg);
+    
     left: 0
 }
 
@@ -1175,7 +1175,7 @@ div.item:hover {
 .block-title {
     font-size: 24px;
     margin-top: 15px;
-    background: url(../images/line_bl_title.svg) left center no-repeat;
+    
     padding-left: 10px;
     line-height: 100%
 }
@@ -1323,16 +1323,16 @@ div.item:hover {
 
 #big.owl-theme .owl-prev {
     left: 10px;
-    background: url(../images/btn_back_slide.png) no-repeat
+    
 }
 
 #big.owl-theme .owl-next {
     right: 10px;
-    background: url(../images/btn_next_slide.png) no-repeat
+    
 }
 
 .bl_tim a {
-    background: url(../images/icon_heart.svg) 0 center no-repeat;
+    
     background-size: 30% 60%;
     padding-left: 30px;
     padding-bottom: 10px;
@@ -1430,7 +1430,7 @@ div.item:hover {
 }
 
 .block_tk_tinhtrangbansp .tieuchi_banhang li {
-    background: url(../images/icon_usexpress.png) no-repeat;
+    
     padding-left: 20px;
     font-size: 12px;
     display: inline-block;
@@ -1489,7 +1489,7 @@ div.item:hover {
 }
 
 .r_ds_mausac .swiper-button-next {
-    background: url(../images/next_mausac.png) 0 center no-repeat;
+    
     width: 10px;
     height: 25px;
     margin-top: 0;
@@ -1499,7 +1499,7 @@ div.item:hover {
 }
 
 .r_ds_mausac .swiper-button-prev {
-    background: url(../images/back_mausac.png) left center no-repeat;
+    
     width: 10px;
     height: 25px;
     margin-top: 0;
@@ -1582,7 +1582,7 @@ div.item:hover {
 }
 
 .tt_ngay a span {
-    background: url(../images/icon_ttngay.png) left center no-repeat;
+    
     color: #fff;
     padding-left: 20px
 }
@@ -1758,7 +1758,7 @@ div.item:hover {
 }
 
 .giam_sl {
-    background: url(../images/giam_sl.png) center center no-repeat #ccc
+    
 }
 
 .giam_sl:hover {
@@ -1766,7 +1766,7 @@ div.item:hover {
 }
 
 .tang_sl {
-    background: url(../images/tang_sl.png) center center no-repeat #ccc
+    
 }
 
 .tang_sl:hover {
@@ -1976,7 +1976,7 @@ div.item:hover {
     display: inline-block;
     width: 100%;
     margin: 5px 0;
-    background: url(../images/icon_usexpress.png) no-repeat;
+    
     padding-left: 20px
 }
 
@@ -2311,7 +2311,7 @@ table.a-bordered {
 }
 
 .table_stk .close {
-    background: url(../images/cl_dilog.png) no-repeat;
+    
     width: 18px;
     height: 17px;
     margin-top: 0;
