@@ -33,7 +33,7 @@ class ContentSaleLeft extends React.Component {
             arrows: false,
             className:'sale-left'
         };
-        if(this.props.initLoad.length>0){
+        if(this.props.initLoad!=undefined&&this.props.initLoad.length>0){
             var menuItems=this.props.initLoad[0].ContentSale.map((picture,index)=>{
                 return(<Link to={'/landing-page-cong-nghe'} key={index}>
                     <img alt="img" className="img-fluid" src={picture.linkanh}/>
