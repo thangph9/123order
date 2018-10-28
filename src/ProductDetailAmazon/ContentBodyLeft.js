@@ -91,8 +91,8 @@ class ContentBodyLeft extends React.Component {
                                                 },
                                                 largeImage: {
                                                     src: (loadDetail.length >0) ? loadDetail[0].hugeimage[mouseClick] : '',                                
-                                                    width: (loadDetail.length >0) && width[mouseClick],
-                                                    height: (loadDetail.length >0) && height[mouseClick],                                                    
+                                                    width:1200,
+                                                    height: 1200                                                    
                                                 }, 
                                                 shouldUsePositiveSpaceLens: true,
                                                 enlargedImageContainerDimensions: {
