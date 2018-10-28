@@ -22,9 +22,7 @@ class ProductDetailAmazon extends React.Component {
         axios.post('/product-detail-amazon',{
             asin:this.props.match.params.asin
         }).then(res=>{
-            var action=initLoadProductDetail(res.data[1]);
             this.props.dispatch(mouseClickSmallImageProduct(0));
-            this.props.dispatch(action);
         })
         document.documentElement.scrollTop=0
     }
