@@ -34,9 +34,7 @@ class ProductDetailTest extends React.Component {
     }
 }
 function mapStateToProps(state) {
-    return {
-        initLoadProductDetail:state.initLoadProductDetail.data
-    }
+    return state;
 }
 const connectedHomePage = connect(mapStateToProps)(ProductDetailTest);
 export { connectedHomePage as ProductDetailTest } 
