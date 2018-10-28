@@ -9,11 +9,7 @@ class ContentBodyDetailLeftTop extends React.Component {
   render() {
     var { loadDetail } = this.props;
     var { mouseClick } = this.props;
-    (loadDetail!=undefined&&loadDetail.length>0) &&console.log(loadDetail);
-    var image=new Image();
-    if(loadDetail!=undefined&&loadDetail.length>0){
-      image.src=loadDetail[1][0].hugeimage[mouseClick]
-    }
+
     return (
       <div className="big-image-product">
         <ReactImageMagnify style={{ zIndex: 3 }} className="xzoom" {...{
@@ -24,9 +20,9 @@ class ContentBodyDetailLeftTop extends React.Component {
 
           },
           largeImage: {
-            src: (loadDetail!=undefined&&loadDetail.length>0) ?image.src : '',
-            width: (loadDetail!=undefined&&loadDetail.length>0) ?image.width:0,
-            height: (loadDetail!=undefined&&loadDetail.length>0) ?image.height:0
+            src: (loadDetail!=undefined&&loadDetail.length>0) ? loadDetail[1][0].hugeimage[mouseClick] : '',
+            width: 1200,
+            height: 1200
           },
           shouldUsePositiveSpaceLens: true,
           enlargedImageContainerDimensions: {
