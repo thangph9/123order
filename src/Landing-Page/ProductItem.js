@@ -75,7 +75,7 @@ class ProductItem extends React.Component {
 }
 function mapStateToProps(state) {
     return {
-        initLoadCurrencyRaito:state.initLandingPageDongHo.data[1],
+        initLoadCurrencyRaito:state.initLandingPageDongHo.data[1][0].raito,
         mouseClickLink:state.mouseClickLinkProductItem,
     }
 }
