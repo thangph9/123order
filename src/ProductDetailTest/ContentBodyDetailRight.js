@@ -57,7 +57,7 @@ class ContentBodyDetailRight extends React.Component {
                 </li>
                 <li>
                   <label>Giá đã giảm: </label>
-                  <span>{(loadDetail!=undefined)?loadDetail[1][0].deal_of_dat:0}</span>
+                  <span>{(loadDetail!=undefined)?loadDetail[1][0].deal_of_day:0}</span>
                 </li>
               </ul>
               <span>Giá trên là giá cuối cùng, bạn không cần trả thêm bất kỳ khoản phí nào khác</span>
