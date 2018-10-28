@@ -8,7 +8,7 @@ export const loadproductService= {
 }
 const api={
     getDealDay: "/home",
-    getDetail : "/product-detail-test",
+    getDetail : "/product-detail-test/*",
     getLandingPageDongHo:"/landing-page-dong-ho",
     getLandingPageCongNghe:"/landing-page-cong-nghe",
     getLandingPageThoiTrang:"/landing-page-thoi-trang"
