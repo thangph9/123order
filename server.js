@@ -296,7 +296,7 @@ app.post('/product-detail', jsonParser, function (req, res) {
   })
 })
 var PARAM_IS_PRODUCT_ASIN_AMAZON = {};
-app.post('/product-detail-test', jsonParser, function (req, res) {
+app.post('/product-detail-amazon', jsonParser, function (req, res) {
   params = req.body;
   console.log(params.asin);
   async.series([
@@ -309,6 +309,51 @@ app.post('/product-detail-test', jsonParser, function (req, res) {
     (callback) => {
       
       models.instance.product_detail_amazon.find({ asin: PARAM_IS_PRODUCT_ASIN_AMAZON.asin }, function (err, result) {
+        var arr = result.map(item => {
+          return obj = {
+            asin: item.asin,
+            category: item.category,
+            color: item.color,
+            deal_of_day: item.deal_of_day,
+            death_clock: item.death_clock,
+            description: item.description,
+            hugeimage: item.hugeimage,
+            largeimage: item.largeimage,
+            list_price: item.list_price,
+            nested: item.nested,
+            nodeid: item.nodeid,
+            price: item.price,
+            save_price: item.save_price,
+            size: item.size,
+            smallimage: item.smallimage,
+            star: item.star,
+            style: item.style,
+            timestamp: item.timestamp + "",
+            title: item.title,
+          }
+        });
+        callback(err, arr);
+      });
+    },
+  ], (err, result) => {
+    if (err) res.json(err)
+    res.json(result);
+  })
+})
+var PARAM_IS_PRODUCT_ASIN_TEST = {};
+app.post('/product-detail-test', jsonParser, function (req, res) {
+  params = req.body;
+  console.log(params.asin);
+  async.series([
+    (callback) => {
+      models.instance.product_detail_amazon.find({ asin: params.asin }, function (err, result) {
+        if (result.length > 0) PARAM_IS_PRODUCT_ASIN_TEST["asin"] = params.asin;
+        callback(err, null);
+      });
+    },
+    (callback) => {
+      
+      models.instance.product_detail_amazon.find({ asin: PARAM_IS_PRODUCT_ASIN_TEST.asin }, function (err, result) {
         var arr = result.map(item => {
           return obj = {
             asin: item.asin,
