@@ -75,7 +75,7 @@ class ProductItem extends React.Component {
 function mapStateToProps(state) {
     return {
         mouseClickLink:state.mouseClickLinkProductItem,
-        initLoadCurrencyRaito:state.initLandingPageDongHo.data[1][0].raito,
+        initLoadCurrencyRaito:state.initLandingPageCongNghe.data[1][0].raito,
     }
 }
 const connected = connect(mapStateToProps)(ProductItem);
