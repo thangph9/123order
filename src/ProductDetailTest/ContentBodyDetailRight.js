@@ -50,18 +50,18 @@ class ContentBodyDetailRight extends React.Component {
                 <li>
                   <label>Giá ban đầu:</label>
                   <span>
-                    {(loadDetail!=undefined)?lMath.round(base_priceCurrency).toLocaleString('en-US'):0} VNĐ
+                    {(loadDetail!=undefined)?Math.round(base_priceCurrency).toLocaleString('en-US'):0} VNĐ
                     </span>
                 </li>
                 <li>
                   <label>Bạn tiết kiệm:</label>
                   <span>
-                  {(loadDetail!=undefined)?lMath.round(save).toLocaleString('en-US'):0} VNĐ
+                  {(loadDetail!=undefined)?Math.round(save).toLocaleString('en-US'):0} VNĐ
                   </span>      
                 </li>
                 <li>
                   <label>Giá đã giảm: </label>
-                  <span> {(loadDetail!=undefined)?lMath.round(deal).toLocaleString('en-US'):0} VNĐ</span>
+                  <span> {(loadDetail!=undefined)?Math.round(deal).toLocaleString('en-US'):0} VNĐ</span>
                 </li>
               </ul>
               <span>Giá trên là giá cuối cùng, bạn không cần trả thêm bất kỳ khoản phí nào khác</span>
