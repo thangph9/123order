@@ -22,11 +22,6 @@
     text-indent: -9999px
 }
 
-ol,ul {
-    margin: 0;
-    padding: 0;
-    list-style: none
-}
 
 a,a:hover {
     text-decoration: none
@@ -72,14 +67,6 @@ body {
     border-right: 1px solid #ddd
 }
 
-.dr_menu_k ul.sidebar-nav {
-    position: absolute;
-    top: 0;
-    width: 250px;
-    margin: 0;
-    padding: 10px 0 0;
-    list-style: none
-}
 
 #mydiv,.block_hoidap {
     z-index: 10;
@@ -155,11 +142,6 @@ body {
     float: right
 }
 
-.list_hd,.list_hd ul li,.list_hd ul li a,.text_hd,.v_all_hd {
-    display: inline-block;
-    width: 100%
-}
-
 .text_hd input {
     
     border: 1px solid #ddd;
@@ -175,29 +157,6 @@ body {
     font-size: 14px;
     color: #757575;
     padding-left: 10px
-}
-
-.list_hd ul li {
-    
-    background-size: 7% 47%;
-    margin: 5px 0;
-    padding-right: 10px;
-    padding-left: 52px;
-    margin-left: 0!important
-}
-
-.list_hd ul li a {
-    color: #757575;
-    padding: 10px 0;
-    border-bottom: 1px solid #ddd
-}
-
-.list_hd ul li:hover a,.v_all_hd a {
-    color: #236852
-}
-
-.list_hd ul li:last-child a {
-    border-bottom: none
 }
 
 .v_all_hd {
@@ -255,55 +214,12 @@ body {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.5)
 }
 
-.us-sremain ul li {
-    display: inline-block;
-    width: 100%;
-    padding: 10px 15px;
-    border-bottom: 1px solid #e8e8e8
-}
-
-.us-sremain ul li a p,.us-sremain>ul li a p img {
-    width: 40px;
-    height: 40px
-}
-
-.us-sremain ul li:hover {
-    background: #f4f4f4
-}
-
-.us-sremain ul li:last-child {
-    border-bottom: none
-}
-
-.us-sremain ul li a p {
-    float: left
-}
-
-.us-sremain ul li a div {
-    display: inline-block;
-    padding-left: 10px
-}
-
-.us-sremain ul li a div h3 {
-    font-size: 14px;
-    line-height: 1.29;
-    color: #505050;
-    margin-bottom: 6px;
-    margin-top: 0
-}
 
 div.item,div.item:hover {
     border-bottom: none;
     line-height: inherit
 }
 
-.us-sremain ul li a div p {
-    font-size: 14px;
-    font-weight: 700;
-    color: #d0021b;
-    margin-bottom: 0;
-    height: auto
-}
 
 .swiper-container {
     width: 100%;
@@ -347,41 +263,6 @@ div.item,div.item:hover {
 .block_ds_sanpham {
     display: inline-block;
     width: 100%
-}
-
-.block_ds_sanpham ul li {
-    list-style: none;
-    padding: 0 5px;
-    margin-bottom: 25px;
-    width: 20%;
-    float: left
-}
-
-.block_ds_sanpham ul li .thumb {
-    margin-bottom: 10px;
-    overflow: hidden
-}
-
-.block_ds_sanpham ul li .thumb a {
-    display: table-cell;
-    width: 218px;
-    height: 180px;
-    vertical-align: middle;
-    text-align: center;
-    background-color: #fff
-}
-
-.block_ds_sanpham ul li .thumb img {
-    max-height: 90%;
-    max-width: 90%;
-    width: auto;
-    height: auto;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto
 }
 
 .block_ds_sanpham .info .price-box {
@@ -543,14 +424,6 @@ div.item:hover {
     padding: 0;
     background-color: transparent
 }
-
-.block_slide_sp ul li {
-    width: 100%;
-    margin-bottom: 0;
-    padding: 0;
-    z-index: 1
-}
-
 .block_slide_sp .swiper-button-next,.block_slide_sp .swiper-button-prev {
     height: 100%;
     top: 0;
@@ -603,12 +476,6 @@ div.item:hover {
 .phantrang {
     display: inline-block
 }
-
-.phantrang ul {
-    margin-top: 0;
-    margin-bottom: 0
-}
-
 .phantrang span {
     vertical-align: top;
     margin-top: 0;
@@ -686,32 +553,10 @@ div.item:hover {
     width: auto
 }
 
-.sp_noibat_hang .tab-content ul li {
-    width: 20%;
-    position: relative;
-    float: left;
-    border-right: 1px solid #ddd;
-    border-top: 1px solid #ddd
-}
-
 .sp_noibat_hang .hover_ttsp,.sp_noibat_hang .tt_sp {
     position: absolute;
     bottom: 0;
     padding: 10px;
-    width: 100%
-}
-
-.sp_noibat_hang .tab-content ul {
-    border-bottom: 1px solid #ddd;
-    display: inline-block
-}
-
-.sp_noibat_hang .tab-content ul li:nth-child(5n+1) {
-    border-left: 1px solid #ddd
-}
-
-.sp_noibat_hang .tab-content ul li .thumb img {
-    max-width: 100%;
     width: 100%
 }
 
@@ -740,10 +585,6 @@ div.item:hover {
 
 .sp_noibat_hang li .item:hover .hover_ttsp {
     display: block
-}
-
-.logo_usexpress,.op_thuonghieu,.search-box_category,.search-box_input button,.show_menu,.txt_hang,.user_menu ul li,.xemthem_sp,.xemthem_sp i {
-    display: inline-block
 }
 
 .sp_noibat_hang .hover_ttsp a,.sp_noibat_hang .hover_ttsp strong {
@@ -779,26 +620,6 @@ div.item:hover {
     width: 140px
 }
 
-.user_menu ul li {
-    margin-left: 10px;
-    width: 34px;
-    height: 34px;
-    position: relative
-}
-
-.user_menu ul li.av_user img {
-    border-radius: 50%
-}
-
-.user_menu ul li.av_user span {
-    background-color: #fff;
-    border-radius: 50%;
-    padding: 8px;
-    color: #236852;
-    width: 35px;
-    height: 35px;
-    display: inline-block
-}
 
 .show_menu {
     float: left
@@ -974,17 +795,6 @@ div.item:hover {
     padding-right: 0;
 }
 
-.tieuchi_usexpress ul li {
-    display: inline-block;
-    width: 180px;
-    font-size: 14px;
-    color: #333;
-    text-align: left
-}
-
-.tieuchi_usexpress ul li:first-child {
-    width: 150px
-}
 
 .block_doitac_th .owl-next,.block_doitac_th .owl-prev {
     background-size: auto;
@@ -994,20 +804,6 @@ div.item:hover {
     background-color: transparent;
     height: 22px;
     outline: 0
-}
-
-.tieuchi_usexpress ul li:hover {
-    color: #236852
-}
-
-.tieuchi_usexpress ul li img {
-    float: left;
-    padding-top: 5px
-}
-
-.tieuchi_usexpress ul li span {
-    float: left;
-    padding-left: 15px
 }
 
 .block_doitac_th .owl-next {
@@ -1145,11 +941,6 @@ div.item:hover {
     vertical-align: top;
     line-height: 18px
 }
-
-.block_pttt ul li,.modal-dialog,.modal:before,.spgiohang_mobile thead tr th {
-    vertical-align: middle
-}
-
 .smalltext {
     font-size: 10px;
     margin-top: 5px
@@ -1581,35 +1372,6 @@ div.item:hover {
     margin-top: 5px
 }
 
-.block_ttthanhtoan_chitiet ul li {
-    border-bottom: 1px solid #ddd;
-    padding: 10px
-}
-
-.block_ttthanhtoan_chitiet ul li:last-child {
-    border-bottom: none;
-    padding-bottom: 0
-}
-
-.block_ttthanhtoan_chitiet ul li label {
-    color: #666;
-    font-size: 12px;
-    font-weight: 400;
-    display: inline-block;
-    width: 100%
-}
-
-.block_ttthanhtoan_chitiet ul li div {
-    padding-left: 10px
-}
-
-.block_ttthanhtoan_chitiet ul li input {
-    border: 1px solid #ddd;
-    outline: 0;
-    padding-left: 5px;
-    width: 100px
-}
-
 .block_donhang,.tt_mota_sp,.tt_mota_sp .nav-tabs {
     width: 100%;
     display: inline-block
@@ -1688,10 +1450,6 @@ div.item:hover {
     margin-top: 0
 }
 
-.ct_actionsp ul li {
-    display: inline-block;
-    margin-right: 15px
-}
 
 .tt_giohang div {
     display: inline-block
@@ -1815,9 +1573,6 @@ div.item:hover {
     display: none
 }
 
-.block_pttt ul li,.footer ul li,.logo_btc,.spgiohang_mobile .box-row,.tbl_config .qty-left,.tks_addcard {
-    display: inline-block
-}
 
 .spgiohang_mobile thead tr th.col_tensp {
     width: 110px
@@ -1877,10 +1632,6 @@ div.item:hover {
     color: #fff
 }
 
-.block_spdaxem ul li .thumb {
-    margin-bottom: 0
-}
-
 .footer {
     background-color: #236852;
     padding: 20px 0
@@ -1888,11 +1639,6 @@ div.item:hover {
 
 .footer h4 {
     font-size: 18px
-}
-
-.footer ul li {
-    margin: 3px 0;
-    width: 100%
 }
 
 .dia_chi {
@@ -1906,17 +1652,8 @@ div.item:hover {
     margin: 20px 0
 }
 
-.block_pttt ul li,.block_theodoict li img {
-    margin-right: 10px
-}
-
 .block_theodoict,.tks_addcard {
     margin-top: 20px
-}
-
-.block_pttt ul li {
-    width: auto;
-    list-style: none
 }
 
 #footer .block_theodoict li {
@@ -2047,25 +1784,12 @@ table.a-bordered {
     float: left
 }
 
-.note_camkettt ul {
-    margin-bottom: 10px
-}
-
-.note_camkettt ul li {
-    display: inline-block;
-    margin-left: 10px
-}
-
 .person_client,.person_receiver {
     display: inline-block
 }
 
 .person_receiver {
     display: none
-}
-
-.btn_chonpttt,.btn_ptthanhtoan a,.checkout_sum ul li,.note_magiamgia,.page-purchase,.text_tt {
-    display: inline-block
 }
 
 .page-purchase .checkout_primary .payment_billingform .edit_padding .checkbox input {
@@ -2142,17 +1866,6 @@ table.a-bordered {
     border-bottom: 1px solid #ccc;
     padding-bottom: 5px
 }
-
-.checkout_sum ul li {
-    width: 100%;
-    color: #333;
-    margin: 5px 0
-}
-
-.checkout_sum ul li i {
-    color: #999
-}
-
 .tong_tientt {
     font-size: 21px;
     margin-top: 10px!important
@@ -2167,10 +1880,6 @@ table.a-bordered {
 
 .color_yllow {
     color: #DBA510
-}
-
-.checkout_sum ul li p {
-    margin-bottom: 0
 }
 
 .checkout_sum .ds_checksum {
@@ -2192,10 +1901,6 @@ table.a-bordered {
 
 .sh_round_b2tt {
     display: block
-}
-
-.ds_nhang,.ds_nhang ul,.ds_nhang ul li,.head_nhang,.luuy_nganhang,.modal-dialog,.modal:before,.sotienchuyen {
-    display: inline-block
 }
 
 .buoc2_ttoan .heading h3 strong {
@@ -2250,25 +1955,6 @@ table.a-bordered {
     margin-top: 20px
 }
 
-.ds_nhang ul {
-    width: 100%
-}
-
-.ds_nhang ul li {
-    width: 16.66%;
-    float: left;
-    padding: 15px
-}
-
-.ds_nhang ul li img {
-    border: 1px solid #ddd;
-    background: #fff
-}
-
-.ds_nhang ul li a {
-    cursor: pointer
-}
-
 .luuy_nganhang {
     width: 100%;
     margin: 5px 0 20px;
@@ -2318,14 +2004,6 @@ table.a-bordered {
 
     .header_bottom {
         padding-top: 50px
-    }
-
-    .block_spdaxem ul li {
-        width: 100%
-    }
-
-    .bl_cate_sp ul li {
-        width: 50%
     }
 
     .bl_kiemhang_us {
@@ -2386,10 +2064,6 @@ table.a-bordered {
         display:none
     }
 
-    .block_doitac_th .owl-carousel-center .owl-stage,.block_ds_sanpham ul li .thumb a {
-        height: 140px
-    }
-
     #topbar.topbar_pagett .hotline_pagett img,.soluong_sp label {
         margin-right: 10px
     }
@@ -2405,10 +2079,6 @@ table.a-bordered {
 
     .header_bottom {
         padding-top: 50px
-    }
-
-    .tieuchi_usexpress ul li span {
-        font-size: 13px
     }
 
     .hotline_td {
@@ -2436,18 +2106,6 @@ table.a-bordered {
     .block_doitac_th .owl-next {
         background-size: 60%;
         background-position: right center
-    }
-
-    .bl_cate_sp ul li,.sp_noibat_hang .nav-tabs li,.sp_noibat_hang .tab-content ul li {
-        width: 50%
-    }
-
-    .block_spdaxem ul li,.chitiet_giohang,.tt_sp_chitiet .block_tk_tinhtrangbansp .progress.tientrinh_bansp,.tt_sp_chitiet .block_tk_tinhtrangbansp .tieuchi_banhang li,.tt_sp_chitiet .block_tk_tinhtrangbansp .tinhtrang_sp {
-        width: 100%
-    }
-
-    .sp_noibat_hang .tab-content ul li:nth-child(2n+1) {
-        border-left: 1px solid #ddd
     }
 
     .block_tt_all .them_giohang {
@@ -2546,17 +2204,6 @@ table.a-bordered {
         padding: 10px
     }
 
-    .note_camkettt ul {
-        margin-bottom: 10px;
-        float: left!important;
-        margin-top: 10px
-    }
-
-    .note_camkettt ul li {
-        margin-left: 0;
-        margin-right: 10px
-    }
-
     .note_camkettt span {
         padding: 0 0 10px
     }
@@ -2631,11 +2278,6 @@ table.a-bordered {
 
     .page-nganhang {
         margin-top: 65px
-    }
-
-    .ds_nhang ul li {
-        width: 33.33%;
-        padding: 0
     }
 
     #main_container {
