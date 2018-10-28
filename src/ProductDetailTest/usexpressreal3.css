@@ -22,6 +22,35 @@
     text-indent: -9999px
 }
 
+.block_ttthanhtoan_chitiet ul li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px
+}
+
+.block_ttthanhtoan_chitiet ul li:last-child {
+    border-bottom: none;
+    padding-bottom: 0
+}
+
+.block_ttthanhtoan_chitiet ul li label {
+    color: #666;
+    font-size: 12px;
+    font-weight: 400;
+    display: inline-block;
+    width: 100%
+}
+
+.block_ttthanhtoan_chitiet ul li div {
+    padding-left: 10px
+}
+
+.block_ttthanhtoan_chitiet ul li input {
+    border: 1px solid #ddd;
+    outline: 0;
+    padding-left: 5px;
+    width: 100px
+}
+
 
 a,a:hover {
     text-decoration: none
@@ -1372,6 +1401,7 @@ div.item:hover {
     margin-top: 5px
 }
 
+
 .block_donhang,.tt_mota_sp,.tt_mota_sp .nav-tabs {
     width: 100%;
     display: inline-block
@@ -1449,7 +1479,6 @@ div.item:hover {
 .block_tt_all .them_giohang,.ct_giohang_tongtien .tt_ngay,.info_spdaxem .hangcungcap_sp {
     margin-top: 0
 }
-
 
 .tt_giohang div {
     display: inline-block
@@ -1573,7 +1602,6 @@ div.item:hover {
     display: none
 }
 
-
 .spgiohang_mobile thead tr th.col_tensp {
     width: 110px
 }
@@ -1640,6 +1668,7 @@ div.item:hover {
 .footer h4 {
     font-size: 18px
 }
+
 
 .dia_chi {
     border-top: 1px solid #91b3a8;
@@ -1792,6 +1821,7 @@ table.a-bordered {
     display: none
 }
 
+
 .page-purchase .checkout_primary .payment_billingform .edit_padding .checkbox input {
     display: inline-block;
     margin-top: 4px;
@@ -1866,6 +1896,7 @@ table.a-bordered {
     border-bottom: 1px solid #ccc;
     padding-bottom: 5px
 }
+
 .tong_tientt {
     font-size: 21px;
     margin-top: 10px!important
@@ -2063,7 +2094,6 @@ table.a-bordered {
     .hd_mobile,.tieuchi_usexpress {
         display:none
     }
-
     #topbar.topbar_pagett .hotline_pagett img,.soluong_sp label {
         margin-right: 10px
     }
@@ -2107,7 +2137,6 @@ table.a-bordered {
         background-size: 60%;
         background-position: right center
     }
-
     .block_tt_all .them_giohang {
         width: 100%;
         margin-bottom: 15px;
@@ -2279,6 +2308,7 @@ table.a-bordered {
     .page-nganhang {
         margin-top: 65px
     }
+
 
     #main_container {
         margin-bottom: 0
