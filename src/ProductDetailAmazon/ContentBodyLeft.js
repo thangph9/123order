@@ -74,7 +74,7 @@ class ContentBodyLeft extends React.Component {
                 <section id="product-img-block" className='product-img-block' >
                     <div className="product-img-segment">
                         <div className={(loadDetail[0] != undefined && loadDetail[0].save_price == '') ? 'none-hide' : 'sale-tag'}>-{(loadDetail.length > 0) && saleper}</div>
-                        <ReactImageMagnify className="xzoom" {...{
+                        <ReactImageMagnify style={{zIndex:3}} className="xzoom" {...{
                             smallImage: {
                                 alt: 'img',
                                 isFluidWidth: true,
