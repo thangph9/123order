@@ -2,20 +2,44 @@ import React from "react";
 import { connect } from "react-redux";
 import Slider from "react-slick";
 class ContentBodyDetailLeftTop extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+  constructor(props) {
+    super(props);
+  }
 
-    render() {
+  render() {
+    var { loadDetail } = this.props;
+    var { mouseClick } = this.props;
+    return (
+      <div className="big-image-product">
+        <ReactImageMagnify style={{ zIndex: 3 }} className="xzoom" {...{
+          smallImage: {
+            alt: 'img',
+            isFluidWidth: true,
+            src: (loadDetail != undefined) ? loadDetail.largeimage[mouseClick] : ''
 
-        return (
-          <img style={{width:367}} src="https://st.usexpress.vn/Images/xbuuq1ka107201823359_1_374.9140d406-8070-4265-88fb-37cf4c8a8b62.jpeg" className="images" alt="Ubio Labs Lightning Cable Charging Kit" />
-        )
+          },
+          largeImage: {
+            src: (loadDetail != undefined > 0) ? loadDetail.hugeimage[mouseClick] : '',
+            width: 1200,
+            height: 1200
+          },
+          shouldUsePositiveSpaceLens: true,
+          enlargedImageContainerDimensions: {
+            width: '190%', height: '200%'
+          },
 
-    }
+          shouldHideHintAfterFirstActivation: false
+        }} />
+      </div>
+    )
+
+  }
 }
 function mapStateToProps(state) {
-    return state;
+  return {
+    loadDetail: state.initLoadProductDetail.data[1][0],
+    mouseClick: state.mouseClickSmallImageProduct,
+  }
 }
 const connectedHomePage = connect(mapStateToProps)(ContentBodyDetailLeftTop);
 export { connectedHomePage as ContentBodyDetailLeftTop } 

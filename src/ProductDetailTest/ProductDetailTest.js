@@ -20,6 +20,7 @@ class ProductDetailTest extends React.Component {
     }
     componentWillMount(){
         this.props.dispatch(initLoadProductDetail(this.props.match.params.asin));
+        this.props.dispatch(mouseClickSmallImageProduct(0));
     }
     render() {
         return (

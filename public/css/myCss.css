@@ -157,5 +157,7 @@
 	z-index: 1;
 }
 
-
+.big-image-product{
+	display: table-cell; vertical-align: middle 
+}
 
