@@ -341,7 +341,7 @@ app.post('/product-detail-amazon', jsonParser, function (req, res) {
   })
 })
 var PARAM_IS_PRODUCT_ASIN_TEST = {};
-app.post('/product-detail-test', jsonParser, function (req, res) {
+app.post("/product-detail-test", jsonParser, function (req, res) {
   params = req.body;
   console.log(params.asin);
   async.series([
