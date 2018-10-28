@@ -10,10 +10,11 @@ class ContentBodyDetailRight extends React.Component {
 
     var {loadDetail}=this.props;
     var {initLoadCurrencyRaito}=this.props;
-    if(loadDetail!=undefined&&initLoadCurrencyRaito!=undefined){
-      var deal=loadDetail[1][0].deal_of_day*initLoadCurrencyRaito[1][0].raito
-      var save=loadDetail[1][0].save_price*initLoadCurrencyRaito[1][0].raito
-      var price=loadDetail[1][0].price*initLoadCurrencyRaito[1][0].raito
+    console.log(initLoadCurrencyRaito);
+    if(loadDetail!=undefined){
+      var deal=loadDetail[1][0].deal_of_day*loadDetail[2][0].raito
+      var save=loadDetail[1][0].save_price*loadDetail[2][0].raito
+      var price=loadDetail[1][0].price*loadDetail[2][0].raito
     }
     var starNumber=0;
         if(loadDetail!=undefined) starNumber=Number(loadDetail[1][0].star)*20;
@@ -153,7 +154,6 @@ class ContentBodyDetailRight extends React.Component {
 function mapStateToProps(state) {
   return {
     loadDetail: state.initLoadProductDetail.data,
-    initLoadCurrencyRaito:state.initLandingPageThoiTrang.data,
   }
 }
 const connectedHomePage = connect(mapStateToProps)(ContentBodyDetailRight);

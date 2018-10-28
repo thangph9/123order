@@ -381,6 +381,17 @@ app.post("/product-detail-test", jsonParser, function (req, res) {
         callback(err, arr);
       });
     },
+    (callback) => {
+      models.instance.currency_raito.find({currency :'USD' }, function (err, result) {
+        var arr = result.map(item => {
+          return obj = {
+            currency: item.currency,
+            raito: item.raito
+          }
+        });
+        callback(err, arr)
+      });
+    }
   ], (err, result) => {
     if (err) res.json(err)
     res.json(result);
