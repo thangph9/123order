@@ -119,7 +119,7 @@ export function initLandingPageCongNghe(state={},action){
 			return state;
 	}	
 }
-export function initLoadProductDetail(state=[],action){
+export function initLoadProductDetail(state={},action){
 	switch (action.type) {
 		case loadproductdetailConstants.LOAD_PRODUCT_DETAIL_REQUEST:
 			return {
