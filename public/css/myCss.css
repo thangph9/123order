@@ -1,7 +1,9 @@
 .active-small-image{
 	box-shadow: 0px 0px 2px 2px rgb(248, 66, 16);
 }
-
+.container{
+	max-width: 1170px !important;
+}
 .none-hide{
 	display: none !important;
 }
