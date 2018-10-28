@@ -1,4 +1,5 @@
 import { authHeader } from "../stores";
+import axios from 'axios';
 export const loadproductService= {
     getDealDay,
     getLandingPageThoiTrang,
@@ -8,7 +9,7 @@ export const loadproductService= {
 }
 const api={
     getDealDay: "/home",
-    getDetail : "/product-detail-test/*",
+    getDetail : "/product-detail-test",
     getLandingPageDongHo:"/landing-page-dong-ho",
     getLandingPageCongNghe:"/landing-page-cong-nghe",
     getLandingPageThoiTrang:"/landing-page-thoi-trang"
@@ -16,10 +17,10 @@ const api={
 function getProductDetail(value){
     const requestOptions={
         method: 'POST',
-        headers: {'Content-Type': 'application/json'},
-        body: JSON.stringify({asin: value})
+        url:api.getDetail,
+        data:{asin:value}
     }
-    return fetch(api.getDetail,requestOptions).then(handleResponse);
+    return axios(api.getDetail,requestOptions).then(response=>response.json()).catch(err=>err.json());
 }
 function getDealDay(add_item){
     const requestOptions={
