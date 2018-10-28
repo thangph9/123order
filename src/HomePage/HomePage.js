@@ -46,7 +46,7 @@ class HomePage extends React.Component {
         document.documentElement.scrollTop=0
     }
     componentWillMount(){
-        
+        document.documentElement.scrollTop=0
     }
     render() {
         return (
