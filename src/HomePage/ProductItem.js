@@ -38,6 +38,12 @@ class ProductItem extends React.Component {
             isError:true
         })
     }
+    componentWillUnmount(){
+        this.setState({
+            isLoaded:false,
+            isError:false
+        });
+    }
     render(){
         var display=this.props.customStyle;
         var {data}=this.props;
