@@ -33,9 +33,8 @@ class ProductItem extends React.Component {
                 <div className="card" style={{width:'212px',height:'340px'}}>
                     <div className="hovereffect" style={{width:'210px',height:'190px'}}>
                     <div className="position-absolute discount-tag-pos"><img style={{width:'36px',height:'40px',position:'relative',left:'10px'}} src="https://static.fado.vn/f/desktop/v2/images/svg/other/sale-tag-orange.svg" alt='img' className="img-fluid" /></div>
-                    <span className={(data.sale=='')?'none-hide':''} style={{position: 'absolute',top: '7px',right: '12px',color: '#fff',fontSize: '13px',fontWeight: 700,zIndex: 9}}>-{saleper}</span>
-                        
-                        <img style= {{width:'210px',height:'210px'}} className="card-img-top img-thumbnail border-0 img-fluid" ref={(img)=>this.img=img} alt='img'/>
+                    <span className={(data.sale=='')?'none-hide':''} style={{position: 'absolute',top: '7px',right: '12px',color: '#fff',fontSize: '13px',fontWeight: 700,zIndex: 9}}>-{saleper}</span>                        
+                        <img style= {{width:'210px',height:'210px'}} className="card-img-top img-thumbnail border-0 img-fluid" src={data.img} alt='img'/>
                         <div className="overlay">
                         <NavLink to={`/product-detail-amazon/${titleTrim}&asin=` +`${data.asin}`} className="info">Chi tiết</NavLink>
                         </div>
