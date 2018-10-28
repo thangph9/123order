@@ -160,6 +160,6 @@
 }
 
 .big-image-product{
-	display: table-cell; vertical-align: middle;width: 370px;
+	display: table-cell; vertical-align: middle;min-height:370px;
 }
 
