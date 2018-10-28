@@ -4,6 +4,7 @@ import { Header } from "../Sections/Header";
 import { Footer } from "../Sections/Footer";
 import { Content } from "./Content";
 import {initLoadProductDetail} from '../actions';
+import {mouseClickSmallImageProduct} from '../actions';
 class ProductDetailTest extends React.Component {
     constructor(props) {
         super(props);
