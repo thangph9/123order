@@ -10,7 +10,7 @@ class ContentBodyDetailRight extends React.Component {
 
     var {loadDetail}=this.props;
     var starNumber=0;
-        if(loadDetail[0]!=undefined) starNumber=Number(loadDetail[1][0].star)*20;
+        if(loadDetail!=undefined) starNumber=Number(loadDetail[1][0].star)*20;
     return (
       <div className="content col-md-8 col-sm-7 col-xs-12 col-tn-12">
         <div className="tt_sp_chitiet">
