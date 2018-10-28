@@ -10,32 +10,6 @@ class ProductItem extends React.Component {
         }
 
     }
-    componentDidMount(){
-        this.load(this.img);
-    }
-    load(img){
-        var image=img;
-        image.src= this.props.data.img;
-        image.onload=()=>{
-            this.onImageLoaded();
-        }
-        image.oneError=()=>{
-            this.onImageLoadedError(this.props.data.img);
-        }
-    }
-    handleClickLink(value){
-        this.props.dispatch(mouseClickLinkProductItem(value));
-    }
-    onImageLoaded(){
-        this.setState({
-            isLoaded:true
-        });
-    }
-    onImageLoadedError(){
-        this.setState({
-            isError:true
-        })
-    }
     render(){
         var display=this.props.customStyle;
         var {data}=this.props;
