@@ -15,7 +15,7 @@ class ContentBodyDetailLeftBot extends React.Component {
         var settings = {
             dots: false,
             speed: 500,
-            slidesToShow: 4,
+            slidesToShow: 5,
             slidesToScroll: 1,
             autoplay: false,
             arrows: true,
