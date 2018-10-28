@@ -28,6 +28,9 @@
 .height-18px{
 	height: 18px;
 }
+.menu2-dropdown ul{
+	padding-left: 40px !important;
+}
 .scrollProduct{
 	height: 479px; 
 	left: auto; 
