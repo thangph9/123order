@@ -9,17 +9,18 @@ class ContentBodyDetailLeftTop extends React.Component {
   render() {
     var { loadDetail } = this.props;
     var { mouseClick } = this.props;
+    console.log(loadDetail);
     return (
       <div className="big-image-product">
         <ReactImageMagnify style={{ zIndex: 3 }} className="xzoom" {...{
           smallImage: {
             alt: 'img',
             isFluidWidth: true,
-            src: (loadDetail != undefined) ? loadDetail.largeimage[mouseClick] : ''
+            src: (loadDetail.length>0) ? loadDetail[1][0].largeimage[mouseClick] : ''
 
           },
           largeImage: {
-            src: (loadDetail != undefined > 0) ? loadDetail.hugeimage[mouseClick] : '',
+            src: (loadDetail.length>0) ? loadDetail[1][0].hugeimage[mouseClick] : '',
             width: 1200,
             height: 1200
           },
@@ -37,7 +38,7 @@ class ContentBodyDetailLeftTop extends React.Component {
 }
 function mapStateToProps(state) {
   return {
-    loadDetail: state.initLoadProductDetail.data[1][0],
+    loadDetail: state.initLoadProductDetail.data,
     mouseClick: state.mouseClickSmallImageProduct,
   }
 }
