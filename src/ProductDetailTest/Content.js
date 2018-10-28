@@ -20,7 +20,7 @@ class Content extends React.Component {
     render() {
 
         return (
-            <div style={{ marginTop: '20px' }} >
+            <div >
                 <section id="main_container" className="width_100 page_folder sticky">
                     <div className="container-use">
                         <div className="menu_control mb10">
