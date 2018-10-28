@@ -36,7 +36,7 @@ class ProductItem extends React.Component {
                     <span className={(data.sale=='')?'none-hide':''} style={{position: 'absolute',top: '7px',right: '12px',color: '#fff',fontSize: '13px',fontWeight: 700,zIndex: 9}}>-{saleper}</span>                        
                         <img style= {{width:'210px',height:'210px'}} className="card-img-top img-thumbnail border-0 img-fluid" src={data.img} alt='img'/>
                         <div className="overlay">
-                        <NavLink to={`/product-detail-amazon/${titleTrim}&asin=` +`${data.asin}`} className="info">Chi tiết</NavLink>
+                        <NavLink to={`/product-detail-test/${titleTrim}&asin=` +`${data.asin}`} className="info">Chi tiết</NavLink>
                         </div>
                     </div>
                     <div className="card-body p-2">
