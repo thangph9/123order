@@ -306,6 +306,7 @@ app.post('/product-detail-test', jsonParser, function (req, res) {
       });
     },
     (callback) => {
+      console.log(PARAM_IS_PRODUCT_ASIN_AMAZON);
       models.instance.product_detail_amazon.find({ asin: PARAM_IS_PRODUCT_ASIN_AMAZON.asin }, function (err, result) {
         var arr = result.map(item => {
           return obj = {
@@ -334,7 +335,7 @@ app.post('/product-detail-test', jsonParser, function (req, res) {
       });
     },
   ], (err, result) => {
-    if (err) console.log(err);
+    if (err) res.json(err)
     res.json(result);
   })
 })
