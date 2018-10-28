@@ -50,7 +50,7 @@ class ContentBodyDetailRight extends React.Component {
                 <li>
                   <label>Giá ban đầu:</label>
                   <span>
-                    {(loadDetail!=undefined)?Math.round(base_priceCurrency).toLocaleString('en-US'):0} VNĐ
+                    {(loadDetail!=undefined)?Math.round(price).toLocaleString('en-US'):0} VNĐ
                     </span>
                 </li>
                 <li>
