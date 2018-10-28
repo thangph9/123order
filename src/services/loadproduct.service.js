@@ -13,11 +13,11 @@ const api={
     getLandingPageCongNghe:"/landing-page-cong-nghe",
     getLandingPageThoiTrang:"/landing-page-thoi-trang"
 }
-function getProductDetail(asin){
+function getProductDetail(value){
     const requestOptions={
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
-        body: JSON.stringify({asin: asin})
+        body: JSON.stringify({asin: value})
     }
     return fetch(api.getDetail,requestOptions).then(handleResponse);
 }
