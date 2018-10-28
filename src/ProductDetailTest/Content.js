@@ -1,7 +1,5 @@
 import React from "react";
 import { connect } from "react-redux";
-import './usexpressreal2.css'
-import './usexpressreal3.css'
 import {ContentBreadcrumb} from './ContentBreadcrumb'
 import { ContentBody } from "./ContentBody";
 
