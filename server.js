@@ -352,8 +352,7 @@ app.post("/product-detail-test", jsonParser, function (req, res) {
       });
     },
     (callback) => {
-      
-      models.instance.product_detail_amazon.find({ asin: PARAM_IS_PRODUCT_ASIN_TEST.asin }, function (err, result) {
+        models.instance.product_detail_amazon.find({ asin: PARAM_IS_PRODUCT_ASIN_TEST.asin }, function (err, result) {
         var arr = result.map(item => {
           return obj = {
             asin: item.asin,
