@@ -16,8 +16,11 @@ class ProductDetailTest extends React.Component {
             loading: false,
             scrollValue:0
         }
+        
     }
-   
+    componentDidMount(){
+        document.documentElement.scrollTop=0
+    }
     render() {
         return (
             <div className="body-product-detail"  ref="scrollProduct">
