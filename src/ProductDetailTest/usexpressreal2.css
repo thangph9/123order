@@ -12,11 +12,6 @@ body {
     font-size: 14px;
     text-align: left
 }
-
-li,ul {
-    list-style-type: none
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -409,85 +404,6 @@ header .tk {
 #menu_main a i.fa-phone {
     font-size: 12px
 }
-
-#menu_main ul {
-    float: right;
-    margin: 0
-}
-
-#menu_main ul li {
-    display: inline-block;
-    position: relative
-}
-
-#menu_main ul li a {
-    margin: 0;
-    padding-left: 15px;
-    line-height: 30px
-}
-
-#menu_main ul li a.active,#menu_main ul li a:hover {
-    color: #ffad11
-}
-
-#menu_main ul li .check_oder {
-    position: absolute;
-    background: #fff;
-    padding: 10px 15px;
-    top: 29px;
-    width: 270px;
-    display: none
-}
-
-#menu_main ul li:hover .check_oder {
-    display: block
-}
-
-#menu_main ul li .check_oder p {
-    float: left;
-    font-size: 12px
-}
-
-#menu_main ul li .check_oder p i {
-    margin-right: 4px
-}
-
-#menu_main ul li .check_oder .login {
-    float: right;
-    color: #236853;
-    font-weight: 700
-}
-
-#menu_main ul li .check_oder form {
-    width: 100%;
-    height: 30px;
-    float: left;
-    background: #fff;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    border: 1px solid;
-    overflow: hidden
-}
-
-#menu_main ul li .check_oder form input {
-    height: 28px;
-    width: 82%;
-    float: left;
-    padding-left: 10px;
-    font-size: 12px
-}
-
-#menu_main ul li .check_oder form .icon_seach_web {
-    color: #236853;
-    height: 30px;
-    line-height: 30px;
-    padding: 0;
-    float: right;
-    width: 30px;
-    text-align: center
-}
-
-
 #player_scroll .pp-tableCell {
     height: 100vh!important
 }
@@ -509,45 +425,6 @@ header .tk {
     width: 100%;
     height: 100vh;
     overflow: hidden
-}
-
-#player_scroll .box_embed_video_parent ul {
-    position: absolute;
-    right: 0;
-    top: 220px;
-    z-index: 3
-}
-
-#player_scroll .box_embed_video_parent ul li {
-    position: relative;
-    color: #226852;
-    font-size: 18px;
-    padding: 10px 10px 10px 30px;
-    font-style: italic;
-    font-weight: 500;
-    width: 390px;
-    margin-bottom: 5px
-}
-
-#player_scroll .box_embed_video_parent ul li:nth-child(2) {
-    margin-left: -7px
-}
-
-#player_scroll .box_embed_video_parent ul li:nth-child(3) {
-    margin-left: -14px
-}
-
-#player_scroll .box_embed_video_parent ul li:nth-child(4) {
-    margin-left: -21px
-}
-
-#player_scroll .box_embed_video_parent ul li:before {
-    content: "";
-    width: 15px;
-    height: 20px;
-    position: absolute;
-    left: 12px;
-    top: 12px
 }
 
 #player_scroll .box_embed_video_parent iframe,#player_scroll .box_embed_video_parent video {
@@ -1220,22 +1097,6 @@ header .tk {
     padding: 0
 }
 
-.menu_control ul {
-    margin: 0
-}
-
-.menu_control ul li {
-    display: inline-block;
-    margin-right: 7px
-}
-
-.menu_control ul li.active a {
-    color: #28a677
-}
-
-.menu_control ul li a {
-    padding-right: 10px
-}
 
 .product-info .col-thumb .owl-stage {
     margin: 0 auto
@@ -3799,28 +3660,6 @@ div.simplePopup .wrap_popup .scroll {
     margin-top: 5px
 }
 
-.page-purchase .heading ul,.tieuchi_tt ul {
-    display: inline-block;
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px
-}
-
-.page-purchase .heading ul li,.tieuchi_tt ul li {
-    display: inline-block;
-    padding: 0 3px;
-    float: left;
-    width: 33%;
-    text-align: center
-}
-
-.page-purchase .heading ul li span,.tieuchi_tt ul li span {
-    width: 100%;
-    display: inline-block;
-    margin-top: 12px;
-    font-size: 13px
-}
-
 .page-purchase .checkout_sidebar .heading {
     border-bottom: none;
     padding: 0 10px;
@@ -3988,15 +3827,6 @@ div.simplePopup .wrap_popup .scroll {
     color: #f36d2a
 }
 
-.page-purchase .checkout_sidebar .td7 ul {
-    margin-top: 5px
-}
-
-.page-purchase .checkout_sidebar .tr li {
-    color: #666;
-    font-size: 13px
-}
-
 .page-purchase .checkout_sidebar .tr .img_sp_ttoan {
     display: inline-block;
     padding-right: 10px
@@ -4156,16 +3986,6 @@ div.simplePopup .wrap_popup .scroll {
     margin: 0 0 15px
 }
 
-#footer ul li {
-    margin-bottom: 5px
-}
-
-#footer ul li a {
-    font-weight: 400;
-    color: #fff;
-    font-size: 14px
-}
-
 #footer form {
     width: 100%;
     height: 33px;
@@ -4216,26 +4036,6 @@ div.simplePopup .wrap_popup .scroll {
 .fixed_contact a i {
     margin-right: 3px
 }
-
-#pp-nav ul li {
-    width: 15px;
-    height: 15px;
-    margin: 0 0 10px
-}
-
-#pp-nav ul li a span {
-    width: 12px;
-    height: 12px;
-    border-color: #ccc!important;
-    background: #fff
-}
-
-#pp-nav ul li a.active span {
-    background: #28a677;
-    border: 1px solid #28a677;
-    border-color: #28a677!important
-}
-
 #topbar .in_cart {
     color: #fff;
     padding-left: 6px;
@@ -4722,11 +4522,6 @@ body.hidden {
         font-size: 12px
     }
 
-    #menu_main ul li a {
-        font-size: 12px;
-        padding-left: 15px
-    }
-
     .slide_product .owl-nav .owl-prev {
         left: inherit;
         height: 35px;
@@ -4885,21 +4680,6 @@ body.hidden {
         width: 200px;
         font-size: 15px
     }
-
-    #player_scroll .box_embed_video_parent ul {
-        right: -50px;
-        top: 90px
-    }
-
-    #player_scroll .box_embed_video_parent ul li {
-        font-size: 15px;
-        padding: 7px 10px 7px 30px
-    }
-
-    #player_scroll .box_embed_video_parent ul li:before {
-        top: 6px
-    }
-
     #search_amazon .content {
         top: 25px;
         transform: none!important
