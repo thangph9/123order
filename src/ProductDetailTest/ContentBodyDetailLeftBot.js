@@ -45,6 +45,7 @@ class ContentBodyDetailLeftBot extends React.Component {
 function mapStateToProps(state) {
   return{
     loadDetail: state.initLoadProductDetail.data,
+    
   }
 }
 const connectedHomePage = connect(mapStateToProps)(ContentBodyDetailLeftBot);

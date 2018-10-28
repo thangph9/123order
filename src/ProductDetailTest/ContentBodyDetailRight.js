@@ -9,6 +9,12 @@ class ContentBodyDetailRight extends React.Component {
   render() {
 
     var {loadDetail}=this.props;
+    var {initLoadCurrencyRaito}=this.props;
+    if(loadDetail!=undefined&&initLoadCurrencyRaito!=undefined){
+      var deal=loadDetail[1][0].deal_of_day*initLoadCurrencyRaito
+      var save=loadDetail[1][0].save_price*initLoadCurrencyRaito
+      var price=loadDetail[1][0].price*initLoadCurrencyRaito
+    }
     var starNumber=0;
         if(loadDetail!=undefined) starNumber=Number(loadDetail[1][0].star)*20;
     return (
@@ -42,20 +48,20 @@ class ContentBodyDetailRight extends React.Component {
             <div className="block_ttsp">
               <ul>
                 <li>
-                  <label>Giá gốc:</label>
+                  <label>Giá ban đầu:</label>
                   <span>
-                    {(loadDetail!=undefined)?loadDetail[1][0].price:0}
+                    {(loadDetail!=undefined)?lMath.round(base_priceCurrency).toLocaleString('en-US'):0} VNĐ
                     </span>
                 </li>
                 <li>
                   <label>Bạn tiết kiệm:</label>
                   <span>
-                  {(loadDetail!=undefined)?loadDetail[1][0].save_price:0}
+                  {(loadDetail!=undefined)?lMath.round(save).toLocaleString('en-US'):0} VNĐ
                   </span>      
                 </li>
                 <li>
                   <label>Giá đã giảm: </label>
-                  <span>{(loadDetail!=undefined)?loadDetail[1][0].deal_of_day:0}</span>
+                  <span> {(loadDetail!=undefined)?lMath.round(deal).toLocaleString('en-US'):0} VNĐ</span>
                 </li>
               </ul>
               <span>Giá trên là giá cuối cùng, bạn không cần trả thêm bất kỳ khoản phí nào khác</span>
@@ -147,6 +153,7 @@ class ContentBodyDetailRight extends React.Component {
 function mapStateToProps(state) {
   return {
     loadDetail: state.initLoadProductDetail.data,
+    initLoadCurrencyRaito:state.initLandingPageThoiTrang.data[1][0].raito,
   }
 }
 const connectedHomePage = connect(mapStateToProps)(ContentBodyDetailRight);
