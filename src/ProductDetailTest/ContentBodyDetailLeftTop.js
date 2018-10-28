@@ -15,7 +15,7 @@ class ContentBodyDetailLeftTop extends React.Component {
         <ReactImageMagnify style={{ zIndex: 3 }} className="xzoom" {...{
           smallImage: {
             alt: 'img',
-            isFluidWidth: true,
+            width:310,
             src: (loadDetail!=undefined&&loadDetail.length>0) ? loadDetail[1][0].largeimage[mouseClick] : ''
 
           },
