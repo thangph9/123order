@@ -38,55 +38,26 @@ class ContentBodyDetailRight extends React.Component {
                   <span> Chưa có  đánh giá</span>
                 </div>
               </div>
-              <div className="tt_nguoiban">
-                Người bán: <strong>Ubio Labs</strong>
-              </div>
             </div>
             <div className="block_ttsp">
               <ul>
                 <li>
-                  <label>Giá sản phẩm trên costco:</label>
+                  <label>Giá gốc:</label>
                   <span>
-                    $22.99
+                    {(loadDetail!=undefined)?loadDetail[1][0].price:0}
                     </span>
                 </li>
                 <li>
-                  <label>Phí mua hộ từ US Express:</label>
+                  <label>Bạn tiết kiệm:</label>
                   <span>
-                    $8
-                      <a data-toggle="collapse" data-target="#cl_chitietphi">(Xem chi tiết)</a>
+                  {(loadDetail!=undefined)?loadDetail[1][0].save_price:0}
+                  
                   </span>
-                  <div id="cl_chitietphi" className="collapse cl_chitietphi">
-                    <table className="table segment-main">
-                      <thead>
-                        <tr>
-                          <th colSpan={2}>Chi tiết bảng giá phí mua hộ</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>
-                            Phí xử lý sản phẩm
-                            </td>
-                          <td>$3</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            Phí theo cân nặng (Pound)
-                            </td>
-                          <td>$5</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+                  
                 </li>
                 <li>
-                  <label>Tổng giá (đã bao gồm thuế, phí): </label>
-                  <span>$30.99</span>
-                </li>
-                <li>
-                  <label>Tổng giá bằng VNĐ (đã bao gồm thuế, phí): </label>
-                  <span className="tong_gia_vnd"><strong className="price-vnd-last">742,985 đ</strong></span>
+                  <label>Giá đã giảm: </label>
+                  <span>{(loadDetail!=undefined)?loadDetail[1][0].deal_of_dat:0}</span>
                 </li>
               </ul>
               <span>Giá trên là giá cuối cùng, bạn không cần trả thêm bất kỳ khoản phí nào khác</span>
