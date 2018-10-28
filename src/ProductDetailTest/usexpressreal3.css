@@ -1263,11 +1263,6 @@ div.item:hover {
     text-transform: uppercase
 }
 
-.newletter .input-group-btn button {
-    border: 1px solid #fff;
-    outline: 0
-}
-
 .side_anh_chitiet {
     margin-top: 20px
 }

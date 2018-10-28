@@ -3027,15 +3027,6 @@ html.swipebox-html.swipebox-touch {
     margin-right: 10px
 }
 
-.btn-success {
-    background: #f5a640;
-    border: 1px solid #f5a640
-}
-
-.btn-success:hover {
-    background: #d2821a;
-    border: 1px solid #d2821a
-}
 
 .page_lienhe {
     background: #28a677!important;
@@ -4788,10 +4779,6 @@ body.hidden {
 .mm-menu .mm-navbar a,.mm-menu .mm-navbar>* {
     font-size: 18px;
     color: #fff
-}
-
-.mm-menu .mm-btn:after,.mm-menu .mm-btn:before,.mm-menu .mm-listview>li .mm-next:after {
-    border-color: #fff!important
 }
 
 .mm-listview>li>a img {
