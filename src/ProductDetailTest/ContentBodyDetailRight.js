@@ -51,9 +51,7 @@ class ContentBodyDetailRight extends React.Component {
                   <label>Bạn tiết kiệm:</label>
                   <span>
                   {(loadDetail!=undefined)?loadDetail[1][0].save_price:0}
-                  
-                  </span>
-                  
+                  </span>      
                 </li>
                 <li>
                   <label>Giá đã giảm: </label>

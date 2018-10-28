@@ -354,11 +354,13 @@ app.post("/product-detail-test", jsonParser, function (req, res) {
     (callback) => {
         models.instance.product_detail_amazon.find({ asin: PARAM_IS_PRODUCT_ASIN_TEST.asin }, function (err, result) {
         var arr = result.map(item => {
+          let index1 = item.save_price.indexOf(" ");
+          var save = item.save_price.substring(0, index1);
           return obj = {
             asin: item.asin,
             category: item.category,
             color: item.color,
-            deal_of_day: item.deal_of_day,
+            deal_of_day: currencyFormatter.unformat(item.deal_of_day, { code: 'USD',locale: 'en-US' }),
             death_clock: item.death_clock,
             description: item.description,
             hugeimage: item.hugeimage,
@@ -366,8 +368,8 @@ app.post("/product-detail-test", jsonParser, function (req, res) {
             list_price: item.list_price,
             nested: item.nested,
             nodeid: item.nodeid,
-            price: item.price,
-            save_price: item.save_price,
+            price: currencyFormatter.unformat(item.price, { code: 'USD',locale: 'en-US' }),
+            save_price: currencyFormatter.unformat(save, { code: 'USD',locale: 'en-US' }),
             size: item.size,
             smallimage: item.smallimage,
             star: item.star,
