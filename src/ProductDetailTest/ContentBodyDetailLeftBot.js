@@ -22,7 +22,7 @@ class ContentBodyDetailLeftBot extends React.Component {
             infinite: false,
             className: 'list-small-image'
         };
-        if (loadDetail.length > 0) {
+        if (loadDetail != undefined) {
             menuItems = loadDetail[1][0].smallimage.map((img, index) => {
                 return (
                     <div key={index} onClick={() => this.handleClick(index)} className="border-small-image">
