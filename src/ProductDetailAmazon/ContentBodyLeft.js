@@ -9,13 +9,13 @@ class ContentBodyLeft extends React.Component {
         this.state = {
             login: true,
             loading: false,
-            checkScroll:0,
+            checkScroll: 0,
 
         }
         this.handleSubmit = this.handleSubmit.bind(this);
     }
     handleClick(value) {
-        
+
         this.props.dispatch(mouseClickSmallImageProduct(value));
     }
     handleSubmit() {
@@ -47,7 +47,7 @@ class ContentBodyLeft extends React.Component {
             menuItems = loadDetail[0].smallimage.map((img, index) => {
                 return (
                     <div key={index} onClick={() => this.handleClick(index)} className="border-small-image">
-                        <img  className="small-image" alt="img" src={(loadDetail[0] != undefined) ? loadDetail[0].smallimage[index] : ''} />
+                        <img className="small-image" alt="img" src={(loadDetail[0] != undefined) ? loadDetail[0].smallimage[index] : ''} />
                     </div>
                 )
             })
@@ -57,10 +57,10 @@ class ContentBodyLeft extends React.Component {
             let index2 = loadDetail[0].save_price.indexOf(")");
             var saleper = loadDetail[0].save_price.substring(index1 + 1, index2);
         }
-        
+
         var arrImage = [];
-        var width=[];
-        var height=[];
+        var width = [];
+        var height = [];
         if (loadDetail[0] != undefined) {
             arrImage = loadDetail[0].hugeimage.forEach((v, i) => {
                 let image = new Image()
@@ -73,39 +73,26 @@ class ContentBodyLeft extends React.Component {
             <div id="container-scroll" className="container-main-col-1" style={{ position: 'relative' }}>
                 <section id="product-img-block" className='product-img-block' >
                     <div className="product-img-segment">
-                        <div className={(loadDetail[0]!=undefined&&loadDetail[0].save_price=='')?'none-hide':'sale-tag'}>-{(loadDetail.length > 0) &&saleper}</div>
-                        <div className="over-img-field">
-                            <span className="field-inner"><img className="over-img" src="https://static.fado.vn/f/desktop/v2/images/null-image.png" alt="img" /></span>
-                        </div>
-                        <div className="swiper-container swiper-container-horizontal" style={{overflow: 'visible'}}>
-                            <div className="swiper-wrapper" >
-                                <div className="swiper-slide" style={{  marginRight: 10 }}>
-                                    <a className="gallery-item img-item" data-fancybox="group" target="_blank">
-                                        <div className="item-inner">
-                                            <ReactImageMagnify className="xzoom" {...{
-                                                smallImage: {
-                                                    alt: 'img',
-                                                    isFluidWidth: true,
-                                                    src: (loadDetail[0] != undefined) ? loadDetail[0].largeimage[mouseClick] : ''
+                        <div className={(loadDetail[0] != undefined && loadDetail[0].save_price == '') ? 'none-hide' : 'sale-tag'}>-{(loadDetail.length > 0) && saleper}</div>
+                        <ReactImageMagnify className="xzoom" {...{
+                            smallImage: {
+                                alt: 'img',
+                                isFluidWidth: true,
+                                src: (loadDetail[0] != undefined) ? loadDetail[0].largeimage[mouseClick] : ''
 
-                                                },
-                                                largeImage: {
-                                                    src: (loadDetail.length >0) ? loadDetail[0].hugeimage[mouseClick] : '',                                
-                                                    width:1200,
-                                                    height: 1200                                                    
-                                                }, 
-                                                shouldUsePositiveSpaceLens: true,
-                                                enlargedImageContainerDimensions: {
-                                                    width: '190%', height: '200%'
-                                                },
-                                                
-                                                shouldHideHintAfterFirstActivation: false
-                                            }} />
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                            },
+                            largeImage: {
+                                src: (loadDetail.length > 0) ? loadDetail[0].hugeimage[mouseClick] : '',
+                                width: 1200,
+                                height: 1200
+                            },
+                            shouldUsePositiveSpaceLens: true,
+                            enlargedImageContainerDimensions: {
+                                width: '190%', height: '200%'
+                            },
+
+                            shouldHideHintAfterFirstActivation: false
+                        }} />
                     </div>
                     <div className="product-thumb-segment">
                         <Slider {...settings}>
@@ -172,7 +159,7 @@ function mapStateToProps(state) {
         mouseScroll: state.mouseScrollPageDetailProduct,
         loadDetail: state.initLoadProductDetail,
         mouseClick: state.mouseClickSmallImageProduct,
-        mouseClickLink:state.mouseClickLinkProductItem
+        mouseClickLink: state.mouseClickLinkProductItem
     }
 }
 const connectedContent = connect(mapStateToProps)(ContentBodyLeft);
