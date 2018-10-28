@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import Slider from "react-slick";
+import ReactImageMagnify from 'react-image-magnify';
 class ContentBodyDetailLeftTop extends React.Component {
   constructor(props) {
     super(props);
