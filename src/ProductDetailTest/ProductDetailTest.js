@@ -19,7 +19,7 @@ class ProductDetailTest extends React.Component {
         document.documentElement.scrollTop=0
     }
     componentWillMount(){
-        this.props.dispatch(initLoadProductDetail( this.props.match.params.asin));
+        this.props.dispatch(initLoadProductDetail(this.props.match.params.asin));
     }
     render() {
         return (
