@@ -9,7 +9,7 @@ class ContentBodyDetailLeftTop extends React.Component {
   render() {
     var { loadDetail } = this.props;
     var { mouseClick } = this.props;
-    console.log(loadDetail);
+    (loadDetai!=undefined&&loadDetail.length>0) &&console.log(loadDetail);
     return (
       <div className="big-image-product">
         <ReactImageMagnify style={{ zIndex: 3 }} className="xzoom" {...{
