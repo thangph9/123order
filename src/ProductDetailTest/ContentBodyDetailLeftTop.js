@@ -16,11 +16,11 @@ class ContentBodyDetailLeftTop extends React.Component {
           smallImage: {
             alt: 'img',
             isFluidWidth: true,
-            src: (loadDetai!=undefined&&loadDetail.length>0) ? loadDetail[1][0].largeimage[mouseClick] : ''
+            src: (loadDetail!=undefined&&loadDetail.length>0) ? loadDetail[1][0].largeimage[mouseClick] : ''
 
           },
           largeImage: {
-            src: (loadDetai!=undefined&&loadDetail.length>0) ? loadDetail[1][0].hugeimage[mouseClick] : '',
+            src: (loadDetail!=undefined&&loadDetail.length>0) ? loadDetail[1][0].hugeimage[mouseClick] : '',
             width: 1200,
             height: 1200
           },
