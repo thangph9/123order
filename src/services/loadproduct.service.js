@@ -3,14 +3,23 @@ export const loadproductService= {
     getDealDay,
     getLandingPageThoiTrang,
     getLandingPageCongNghe,
-    getLandingPageDongHo
+    getLandingPageDongHo,
+    getProductDetail
 }
 const api={
     getDealDay: "/home",
-    getDetail : "/product-detail-amazon",
+    getDetail : "/product-detail-test",
     getLandingPageDongHo:"/landing-page-dong-ho",
     getLandingPageCongNghe:"/landing-page-cong-nghe",
     getLandingPageThoiTrang:"/landing-page-thoi-trang"
+}
+function getProductDetail(asin){
+    const requestOptions={
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({asin: asin})
+    }
+    return fetch(api.getDetail,requestOptions).then(handleResponse);
 }
 function getDealDay(add_item){
     const requestOptions={

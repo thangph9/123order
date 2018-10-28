@@ -2,6 +2,7 @@ import  {loaddealdayConstants}  from "../constants";
 import  {loadlandingthoitrangConstants}  from "../constants";
 import  {loadlandingdonghoConstants}  from "../constants";
 import  {loadlandingcongngheConstants}  from "../constants";
+import  {loadproductdetailConstants}  from "../constants";
 export function initLoadEbayHide(state={},action){
 	switch (action.type) {
 		case 'INIT_LOAD_EBAY_HIDE':{
@@ -120,8 +121,20 @@ export function initLandingPageCongNghe(state={},action){
 }
 export function initLoadProductDetail(state=[],action){
 	switch (action.type) {
-		case 'INIT_LOAD_PRODUCT_DETAIL':
-			return action.arrData;
+		case loadproductdetailConstants.LOAD_PRODUCT_DETAIL_REQUEST:
+			return {
+				loading:true
+			}
+		case loadproductdetailConstants.LOAD_PRODUCT_DETAIL_SUCCESS:
+			return {
+				loading:false,
+				data:action.arrData
+			}
+		case loadproductdetailConstants.LOAD_PRODUCT_DETAIL_FAILURE:
+			return {
+				loading:false,
+				error:action.error
+			}
 		default:
 			return state;
 	}	

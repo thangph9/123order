@@ -1,8 +1,10 @@
 import { loaddealdayConstants } from "../constants";
 import { loadlandingthoitrangConstants } from "../constants";
 import { loadlandingcongngheConstants } from "../constants";
+import { loadproductdetailConstants } from "../constants";
 import { loadlandingdonghoConstants } from "../constants";
 import { loadproductService } from "../services";
+
 export const initLoadEbayHide=(arrData)=>{
 	return{
 		type: 'INIT_LOAD_EBAY_HIDE',
@@ -81,11 +83,20 @@ export const initLandingPageThoiTrang=(addItem)=>{
     function success(arrData){ return { type: loadlandingthoitrangConstants.LOAD_LANDING_THOI_TRANG_SUCCESS, arrData }}
     function failure(error) { return { type: loadlandingthoitrangConstants.LOAD_LANDING_THOI_TRANG_FAILURE, error }}
 }
-export const initLoadProductDetail=(arrData)=>{
-	return{
-		type: 'INIT_LOAD_PRODUCT_DETAIL',
-		arrData
+export const initLoadProductDetail=(asin)=>{
+	return dispatch => {
+		dispatch(request(asin));
+		loadproductService.getProductDetail(asin)
+		.then(
+			res=>dispatch(success(res)),
+			
+		).catch(
+			error=>dispatch(failure(error))
+		)
 	}
+    function request(asin) { return { type : loadproductdetailConstants.LOAD_PRODUCT_DETAIL_REQUEST,asin }}
+    function success(arrData){ return { type: loadproductdetailConstants.LOAD_PRODUCT_DETAIL_SUCCESS, arrData }}
+    function failure(error) { return { type: loadproductdetailConstants.LOAD_PRODUCT_DETAIL_FAILURE, error }}
 }
 export const initLoadCategoryFirstItem=(arrData)=>{
 	return{

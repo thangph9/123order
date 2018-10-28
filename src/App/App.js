@@ -10,7 +10,6 @@ import { LandingPage } from "../Landing-Page";
 import { LandingPageThoiTrang } from "../LandingPageThoiTrang";
 import { LandingPageCongNghe } from "../LandingPageCongNghe";
 import { DanhMucAmazon } from "../DanhMucAmazon";
-//import {PrivateRoute } from "../Sections";
 import {MuaHangEbay} from '../MuaHangEbay';
 import {BestSeller} from '../BestSeller';
 import {GiaSocMoiNgay} from '../GiaSocMoiNgay';
@@ -67,7 +66,7 @@ class App extends Component{
                         <Route exact path="/product-detail-amazon/*&asin=:asin" component={ProductDetailAmazon} />
                         <Route exact path="/landing-page-thoi-trang" component={LandingPageThoiTrang} />
                         <Route exact path="/landing-page-cong-nghe" component={LandingPageCongNghe} />
-                        <Route exact path="/product-detail-test" component={ProductDetailTest} />
+                        <Route exact path="/product-detail-test/*&asin=:asin" component={ProductDetailTest} />
                     </Switch>
 
                     </div>
