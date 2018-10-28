@@ -4,6 +4,8 @@ import './usexpressreal2.css'
 import './usexpressreal3.css'
 import {ContentBreadcrumb} from './ContentBreadcrumb'
 import { ContentBody } from "./ContentBody";
+import { connect } from "react-redux";
+
 class Content extends React.Component {
     constructor(props) {
         super(props);

@@ -1,4 +1,6 @@
 import React from "react";
+import { connect } from "react-redux";
+
 import { ContentBodyDescription } from "./ContentBodyDescription";
 import { ContentBodyDetail } from "./ContentBodyDetail";
 class ContentBody extends React.Component {

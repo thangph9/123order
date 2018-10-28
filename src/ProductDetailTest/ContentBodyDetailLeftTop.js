@@ -1,4 +1,6 @@
 import React from "react";
+import { connect } from "react-redux";
+
 class ContentBodyDetailLeftTop extends React.Component {
     constructor(props) {
         super(props);

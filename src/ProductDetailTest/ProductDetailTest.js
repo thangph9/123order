@@ -3,11 +3,6 @@ import { connect } from "react-redux";
 import { Header } from "../Sections/Header";
 import { Footer } from "../Sections/Footer";
 import { Content } from "./Content";
-import axios from 'axios';
-import {mouseScrollDetailProduct} from '../actions';
-import {initLoadProductDetail} from '../actions'; 
-import {mouseClickLinkProductItem} from '../actions';
-import {mouseClickSmallImageProduct} from '../actions';
 class ProductDetailTest extends React.Component {
     constructor(props) {
         super(props);
