@@ -20,7 +20,7 @@ function getProductDetail(value){
         url:api.getDetail,
         data:{asin:value}
     }
-    return axios(api.getDetail,requestOptions).then(response=>response.json()).catch(err=>err.json());
+    return axios(api.getDetail,requestOptions)
 }
 function getDealDay(add_item){
     const requestOptions={
