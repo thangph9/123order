@@ -9,6 +9,8 @@ class ContentBodyDetailRight extends React.Component {
   render() {
 
     var {loadDetail}=this.props;
+    var starNumber=0;
+        if(loadDetail!=undefined) starNumber=Number(loadDetail[1][0].star)*20;
     return (
       <div className="content col-md-8 col-sm-7 col-xs-12 col-tn-12">
         <div className="tt_sp_chitiet">
@@ -33,11 +35,6 @@ class ContentBodyDetailRight extends React.Component {
                       <i className="fa fa-star" aria-hidden="true"></i>
                     </div>
                   </div>
-                  <div style={{ color: '#737373' }}>
-                    <span style={{ color: '#737373' }} itemProp="ratingValue">&nbsp; {(loadDetail[0] != undefined) && loadDetail[0].star}</span>/5
-                                        &nbsp;(<span>{(mouseClickLink != undefined) && mouseClickLink.reviews}</span> lượt đánh giá) &nbsp; | &nbsp; Bán tại: &nbsp;<i className="si si-logo-amz-mini" /> &nbsp;
-                            </div>
-
                 </div>
                 <span> Chưa có  đánh giá</span>
               </div>
