@@ -90,7 +90,7 @@ class ContentBodyDetailRight extends React.Component {
               </div>
             </div>
             <div className="soluong_sp">
-              <label className="col-lg-2 no-gutter">Số lượng: </label>
+              <label style={{fontWeight:600}} className="col-lg-2 no-gutter">Số lượng: </label>
               <div className="range_giatri col-lg-10 no-gutter-right">
                 <div>
                   <div className="input-group-prepend down-quantity">
