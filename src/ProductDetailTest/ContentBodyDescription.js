@@ -36,7 +36,7 @@ class ContentBodyDescription extends React.Component {
             <a onClick={() => this.handleClickTS(true)} id="thongso-kt" href="#detail" className={(this.state.statusTS == true) ? 'active' : ''}>Chi tiết sản phẩm</a>
           </div>
           <div className="tab_container">
-            <div className="tab_content" id="detail" style={(this.state.statusCT == true) ? { display: 'none' } : { display: 'block' }}>
+            <div className="tab_content" id="detail" style={(this.state.statusCT == true) ? { display: 'block' } : { display: 'none' }}>
               <div id="product-tab1-espotdetails">
               </div>
               <div className="product-info-description">
@@ -51,7 +51,7 @@ class ContentBodyDescription extends React.Component {
                 <div className="col-xs-12 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4"><input type="button" data-cke-saved-name="view-more" name="view-more" defaultValue="View More Details" data-cke-editable={1} contentEditable="false" /></div>
               </div>
             </div>
-            <div className="tab_content" id="info" style={(this.state.statusKT == true) ? { display: 'none' } : { display: 'block' }}>
+            <div className="tab_content" id="info" style={(this.state.statusKT == true) ? { display: 'block' } : { display: 'none' }}>
               <div className="param-panel">
                 <div className="info-cell">
                   <div id="description-main" className="cell-inner">
