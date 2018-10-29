@@ -56,7 +56,7 @@ class ContentBodyDetailRight extends React.Component {
                 </li>
                 <li>
                   <label>Bạn tiết kiệm:</label>
-                  <span>
+                  <span className="tong_gia_vnd">
                   {(loadDetail!=undefined)?Math.round(save).toLocaleString('en-US'):0} VNĐ
                   </span>      
                 </li>
