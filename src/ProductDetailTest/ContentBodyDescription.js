@@ -4,6 +4,22 @@ import { connect } from "react-redux";
 class ContentBodyDescription extends React.Component {
     constructor(props) {
         super(props);
+        this.state={
+          statusCT:true,
+          stateKT:false
+        }
+    }
+    handleClickCT(value){
+      this.setState({
+        statusCT:value,
+        stateKT:!value
+      })
+    }
+    handleClickTS(value){
+      this.setState({
+        statusCT:this.stateCT,
+        stateKT:!value
+      })
     }
     render() {
       var blockMain=document.getElementById("description-main");
@@ -16,8 +32,25 @@ class ContentBodyDescription extends React.Component {
             <div className="row">
             <div className="info mt20 width_100 col-sm-12 col-xs-12">
               <div className="tab_product">
-                <a href="#info" className="active">Thông số kỹ thuật</a>
+                <a onClick={()=>this.handleClickCT(true)} id="chitiet-sp" href="#info" className={(this.state.statusCT==true)?'active':''}>Thông số kỹ thuật</a>
+                <a onClick={()=>this.handleClickTS(true)} id="thongso-kt" href="#detail" className={(this.state.statusTS==true)?'active':''}>Chi tiết sản phẩm</a>
               </div>
+              <div className="tab_content" id="detail" style={{display:'none'}}>
+  <div id="product-tab1-espotdetails">
+  </div>
+  <div className="product-info-description">
+    <div id="SP_ProductImage">
+      <div id="sp_popup_product"><br /></div>
+    </div>
+    <div id="sp_inline_product">
+      <div id="sp_widget_7Gz9E9DY_2_css_listener"><br /></div>
+    </div>
+  </div>
+  <div id="view-more" className="row view-more hide">
+    <div className="col-xs-12 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4"><input type="button" data-cke-saved-name="view-more" name="view-more" defaultValue="View More Details" data-cke-editable={1} contentEditable="false" /></div>
+  </div>
+</div>
+
               <div className="tab_container">
                 <div className="tab_content" id="info" style={{ display: 'block' }}>
                   <div className="param-panel">
@@ -28,7 +61,7 @@ class ContentBodyDescription extends React.Component {
                     </div>
                   </div>
                 </div>
-                {/* #tab2 */}
+
               </div>
             </div>
           </div>
