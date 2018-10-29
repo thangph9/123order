@@ -418,7 +418,7 @@ div.item,div.item:hover {
 }
 
 .them_giohang a span {
-    
+    background: url("https://usexpress.vn/Media_Master/images/icon_cart.svg") no-repeat left center;
     color: #fff;
     padding-left: 20px;
     background-size: 10%
@@ -1228,7 +1228,7 @@ div.item:hover {
 }
 
 .block_tk_tinhtrangbansp .tieuchi_banhang li {
-    
+    background: url("https://usexpress.vn/Media_Master/images/icon_usexpress.png") no-repeat 0 0;
     padding-left: 20px;
     font-size: 12px;
     display: inline-block;
@@ -1380,7 +1380,7 @@ div.item:hover {
 }
 
 .tt_ngay a span {
-    
+    background: url("https://usexpress.vn/Media_Master/images/icon_ttngay.png") no-repeat left center;
     color: #fff;
     padding-left: 20px
 }
@@ -1584,6 +1584,7 @@ div.item:hover {
 }
 
 .block_tt_all .them_giohang a span {
+
     background-size: 7%
 }
 
