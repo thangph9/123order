@@ -6,7 +6,7 @@ class ContentBodyDescription extends React.Component {
         super(props);
     }
     render() {
-      var blockMain=document.getElementById("descriptions");
+      var blockMain=document.getElementById("description-main");
         var {loadDetail}=this.props;
         if(loadDetail!=undefined&&blockMain!=null){
             blockMain.innerHTML =loadDetail[1][0].description
