@@ -1207,7 +1207,7 @@ div.item:hover {
 }
 
 .block_ttsp label {
-    min-width: 80px;
+    min-width: 200px;
     float: left;
     margin-bottom: 0
 }
