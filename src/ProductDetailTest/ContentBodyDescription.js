@@ -47,9 +47,6 @@ class ContentBodyDescription extends React.Component {
                   <div id="sp_widget_7Gz9E9DY_2_css_listener"><br /></div>
                 </div>
               </div>
-              <div id="view-more" className="row view-more hide">
-                <div className="col-xs-12 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4"><input type="button" data-cke-saved-name="view-more" name="view-more" defaultValue="View More Details" data-cke-editable={1} contentEditable="false" /></div>
-              </div>
             </div>
             <div className="tab_content" id="info" style={(this.state.statusKT == true) ? { display: 'block' } : { display: 'none' }}>
               <div className="param-panel">
