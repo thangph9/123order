@@ -1,6 +1,5 @@
 import React from "react";
 import { connect } from "react-redux";
-
 import { ContentBodyDetailLeftTop } from "./ContentBodyDetailLeftTop";
 import { ContentBodyDetailLeftBot } from "./ContentBodyDetailLeftBot";
 class ContentBodyDetailLeft extends React.Component {
