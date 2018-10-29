@@ -103,7 +103,7 @@ class ContentBodyDetailRight extends React.Component {
                 </div>
               </div>
             </div>
-            <div style={{paddingLeft: '10px',paddingRight: '0px'}} className="action_dathang col-lg-12 col-md-12 col-sm-12 col-xs-12 no-gutter">
+            <div style={{paddingLeft: '0px',paddingLeft: '0px'}} className="action_dathang col-lg-12 col-md-12 col-sm-12 col-xs-12 no-gutter">
               <div className="tt_ngay col-md-6 col-sm-6 col-xs-6 no-gutter-left btnBuyProduct cur" data-store={2}>
                 <a><span>Thanh toán ngay</span></a>
               </div>
