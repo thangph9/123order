@@ -9,7 +9,7 @@ class ContentBodyDetailLeft extends React.Component {
   render() {
     return (
       <div className="col-md-4 col-sm-5 col-xs-12 col-tn-12">
-        <div className="PD_Media" style={{ minHeight: 340 }}>
+        <div className="PD_Media" style={{ maxWidth: 370 }}>
           <div className="slider-avatar">
             <ContentBodyDetailLeftTop/>
             <ContentBodyDetailLeftBot/>
