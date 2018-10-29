@@ -17,7 +17,6 @@ class ContentBodyDetailLeftTop extends React.Component {
         image={{
           src: (loadDetail!=undefined&&loadDetail.length>0) ? loadDetail[1][0].largeimage[mouseClick] : '',
           alt: 'img',
-          style: { width: 370 }
         }}
         zoomImage={{
           src: (loadDetail!=undefined&&loadDetail.length>0) ? loadDetail[1][0].hugeimage[mouseClick] : '',
