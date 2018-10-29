@@ -19,7 +19,7 @@ class ContentBodyDescription extends React.Component {
                 <a href="#info" className="active">Thông số kỹ thuật</a>
               </div>
               <div className="tab_container">
-                <div className="tab_content" id="info" style={{ display: 'none' }}>
+                <div className="tab_content" id="info" style={{ display: 'block' }}>
                   <div className="param-panel">
                     <div className="info-cell">
                       <div id="description-main" className="cell-inner">
