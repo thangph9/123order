@@ -11,6 +11,7 @@ class ContentBodyDescription extends React.Component {
         if(loadDetail!=undefined&&blockMain!=null){
             blockMain.innerHTML =loadDetail[1][0].description
         }
+        console.log(blockMain);
         return (
             <div className="row">
             <div className="info mt20 width_100 col-sm-12 col-xs-12">
