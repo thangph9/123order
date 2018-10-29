@@ -32,8 +32,8 @@ class ContentBodyDescription extends React.Component {
       <div className="row">
         <div className="info mt20 width_100 col-sm-12 col-xs-12">
           <div className="tab_product">
-            <a onClick={() => this.handleClickCT(true)} id="chitiet-sp" href="#info" className={(this.state.statusCT == true) ? 'active' : ''}>Thông số kỹ thuật</a>
-            <a onClick={() => this.handleClickTS(true)} id="thongso-kt" href="#detail" className={(this.state.statusTS == true) ? 'active' : ''}>Chi tiết sản phẩm</a>
+            <a onClick={() => this.handleClickCT(true)} id="chitiet-sp" href="#info" className={(this.state.statusCT == true) ? 'active' : ''}>Chi tiết sản phẩm</a>
+            <a onClick={() => this.handleClickTS(true)} id="thongso-kt" href="#detail" className={(this.state.statusTS == true) ? 'active' : ''}> Thông số kỹ thuật</a>
           </div>
           <div className="tab_container">
             <div className="tab_content" id="detail" style={(this.state.statusCT == true) ? { display: 'block' } : { display: 'none' }}>
