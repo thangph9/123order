@@ -109,30 +109,31 @@ class ContentBodyDetailRight extends React.Component {
                   <h6>CHẤP NHẬN THANH TOÁN</h6>
                   <div>
                     <label >Thẻ thanh toán nội địa</label>
-
+                    <span><img width="18" height="18" src="https://usexpress.vn/Media_Master/images/thett_1.svg" alt="img"/></span>
                   </div>
                   <div className="the_thtoan">
                     <label >Thẻ Visa/Master/JCB</label>
-
-
-
+                    <span><img width={18} height={18} src="https://usexpress.vn/Media_Master/images/thett_2.svg" alt="img"/></span>
+                    <span><img width={18} height={18} src="https://usexpress.vn/Media_Master/images/thett_3.svg" alt="img"/></span>
+                    <span><img width={18} height={18} src="https://usexpress.vn/Media_Master/images/thett_4.svg" alt="img"/></span>
                   </div>
                 </li>
                 <li>
                   <h6>HỆ THỐNG TỰ ĐỘNG</h6>
                   <div>
-                    <label >Xử lý đơn hàng với costco</label>
+                    <label >Xử lý đơn hàng với 123order</label>
+                    <span><img width={18} height={13} src="https://usexpress.vn/Media_Master/images/muahang_1.svg" alt="img"/></span>
                   </div>
                   <div>
                     <label >Thông báo tình trạng đơn hàng</label>
-
+                    <span><img width={18} height={18} src="https://usexpress.vn/Media_Master/images/muahang_2.svg" alt="img"/></span>
                   </div>
                 </li>
                 <li>
                   <h6>MIỄN PHÍ VẬN CHUYỂN TOÀN QUỐC</h6>
                   <div>
                     <label >Nhận hàng trong vòng 2 tuần nếu thanh toán ngay hôm nay</label>
-                    <span><img width={19} height={19} src="" alt="img" /></span>
+                    <span><img width={19} height={19} src="https://usexpress.vn/Media_Master/images/muahang_3.svg" alt="img" /></span>
                   </div>
                 </li>
               </ul>

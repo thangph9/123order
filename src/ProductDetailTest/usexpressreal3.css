@@ -1523,7 +1523,7 @@ div.item:hover {
 }
 
 .giam_sl {
-    
+    background: url("https://usexpress.vn/Media_Master/images/giam_sl.png") no-repeat center center #ccc;
 }
 
 .giam_sl:hover {
@@ -1531,7 +1531,7 @@ div.item:hover {
 }
 
 .tang_sl {
-    
+    background: url("https://usexpress.vn/Media_Master/images/tang_sl.png") no-repeat center center #ccc;
 }
 
 .tang_sl:hover {
