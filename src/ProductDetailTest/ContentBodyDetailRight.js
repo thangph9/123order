@@ -77,7 +77,7 @@ class ContentBodyDetailRight extends React.Component {
                 <div className="sl_daban pull-right w_49">Đã bán(13)</div>
               </div>
               <div className="progress tientrinh_bansp w_49">
-                <div className="progress-bar" role="progressbar" aria-valuenow="56.6666666666667" aria-valuemin={0} aria-valuemax={100} style={{ width: '56.6666666666667%' }}>
+                <div className="progress-bar" role="progressbar" aria-valuenow="56.6666666666667" aria-valuemin={0} aria-valuemax={100} style={{ width: '56.6666666666667%',height: '100%' }}>
                 </div>
               </div>
               <div className="tieuchi_banhang">
