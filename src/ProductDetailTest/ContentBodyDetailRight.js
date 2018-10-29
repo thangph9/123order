@@ -103,14 +103,13 @@ class ContentBodyDetailRight extends React.Component {
                 </div>
               </div>
             </div>
-            <div className="action_dathang col-lg-12 col-md-12 col-sm-12 col-xs-12 no-gutter">
-            <div className="them_giohang col-md-6 col-sm-6 col-xs-6 no-gutter-right">
-                <a className="btn-addtocart cur"><span>Thêm vào giỏ hàng</span></a>
-              </div>
+            <div style={{paddingLeft: '10px',paddingRight: '0px'}} className="action_dathang col-lg-12 col-md-12 col-sm-12 col-xs-12 no-gutter">
               <div className="tt_ngay col-md-6 col-sm-6 col-xs-6 no-gutter-left btnBuyProduct cur" data-store={2}>
                 <a><span>Thanh toán ngay</span></a>
               </div>
-              
+              <div style={{paddingLeft: '0px',paddingRight: '10px'}} className="them_giohang col-md-6 col-sm-6 col-xs-6 no-gutter-right">
+                <a className="btn-addtocart cur"><span>Thêm vào giỏ hàng</span></a>
+              </div>
             </div>
           </div>
           <div className="col-lg-4 col-md-4 no-gutter-right bl_kiemhang_us" style={{ position: 'absolute', top: 44, left: 515 }}>
