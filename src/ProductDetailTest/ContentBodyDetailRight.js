@@ -68,8 +68,6 @@ class ContentBodyDetailRight extends React.Component {
               <span>Giá trên là giá cuối cùng, bạn không cần trả thêm bất kỳ khoản phí nào khác</span>
             </div>
             <div className="block_tk_tinhtrangbansp">
-              <div className="progress tientrinh_bansp">
-              </div>
               <div className="tieuchi_banhang">
                 <ul>
                   <li>Chi phí minh bạch</li>
