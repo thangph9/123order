@@ -50,7 +50,7 @@ class ContentBodyDetailRight extends React.Component {
               <ul>
                 <li>
                   <label>Giá ban đầu:</label>
-                  <span>
+                  <span className="tong_gia_vnd">
                     {(loadDetail!=undefined)?Math.round(price).toLocaleString('en-US'):0} VNĐ
                     </span>
                 </li>
@@ -62,17 +62,12 @@ class ContentBodyDetailRight extends React.Component {
                 </li>
                 <li>
                   <label>Giá đã giảm: </label>
-                  <span> {(loadDetail!=undefined)?Math.round(deal).toLocaleString('en-US'):0} VNĐ</span>
+                  <span className="tong_gia_vnd"> {(loadDetail!=undefined)?Math.round(deal).toLocaleString('en-US'):0} VNĐ</span>
                 </li>
               </ul>
               <span>Giá trên là giá cuối cùng, bạn không cần trả thêm bất kỳ khoản phí nào khác</span>
             </div>
             <div className="block_tk_tinhtrangbansp">
-              <div className="tinhtrang_sp">
-                <span className="time_today">Hôm nay:</span>
-                <div className="sl_con pull-left">Số lượng còn (30)</div>
-                <div className="sl_daban pull-right">Đã bán(0)</div>
-              </div>
               <div className="progress tientrinh_bansp">
                 <div className="progress-bar" role="progressbar" aria-valuenow={100} aria-valuemin={0} aria-valuemax={100} style={{ width: '100%' }}>
                 </div>
