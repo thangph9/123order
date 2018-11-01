@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import './style.css';
 class Home extends React.Component {
     constructor(props) {
         super(props);
@@ -1939,9 +1940,7 @@ class Home extends React.Component {
 }
 function mapStateToProps(state) {
 
-    return {
-        loadAdd:state.loadAdd
-    }
+    return state;
 }
 const connectedHomePage = connect(mapStateToProps)(Home);
 export { connectedHomePage as Home } 
