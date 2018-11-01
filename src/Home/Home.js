@@ -49,14 +49,10 @@ class Home extends React.Component {
         <nav className="hidden-lg-up header__mobile-nav-cat-container___2JTtk cate-show" id="cate-mobile-root">
           <div className="container__container___1fvX0 header__padding-remove___uM9bo">
             <ul className="header__mobile-nav-cat___1wJ9O">
-              <li className="header__nav-item___MQLXP"><a className="header__nav-link___3W4sc " href="/Women">Nữ</a></li>
-              <li className="header__nav-item___MQLXP"><a className="header__nav-link___3W4sc " href="/Men">Nam</a></li>
-              <li className="header__nav-item___MQLXP">
-                <div className="header__new-indicator___16ciR">Mới</div><a className="header__nav-link___3W4sc " href="/International">Hàng
-                  nhập khẩu</a>
-              </li>
-              <li className="header__nav-item___MQLXP"><a className="header__nav-link___3W4sc " href="/Home">Nhà cửa</a></li>
-              <li className="header__nav-item___MQLXP"><a className="header__nav-link___3W4sc " href="/Kids">Trẻ em</a></li>
+              <li className="header__nav-item___MQLXP"><a className="header__nav-link___3W4sc " href="/Women">Amazon</a></li>
+              <li className="header__nav-item___MQLXP"><a className="header__nav-link___3W4sc " href="/Men">Ebay</a></li>            
+              <li className="header__nav-item___MQLXP"><a className="header__nav-link___3W4sc " href="/Home">Adidas</a></li>
+              <li className="header__nav-item___MQLXP"><a className="header__nav-link___3W4sc " href="/Kids">Nike</a></li>
             </ul>
           </div>
         </nav>
