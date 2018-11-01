@@ -1437,7 +1437,7 @@ input.subscription-form__form-control___hdjaw::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -1830,13 +1830,13 @@ a.subscription-form__btn___2kh7f.subscription-form__disabled___2Lle0,fieldset[di
 
 .subscription-form__btn-lg___1H0gi {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
 .subscription-form__btn-sm___MVoWe {
     padding: .4375rem 1.25rem;
-    font-size: 14px;
+    font-size: .875rem;
     border-radius: 0
 }
 
@@ -1856,8 +1856,8 @@ input[type=button].subscription-form__btn-block___1ddG6,input[type=reset].subscr
 .subscription-form__form-control___hdjaw {
     display: block;
     width: 100%;
-    padding: 12px;
-    font-size: 15px;
+    padding: .6875rem .75rem;
+    font-size: 1rem;
     line-height: 1.313;
     color: #4e595d;
     background-color: #fff;
@@ -1916,7 +1916,7 @@ select.subscription-form__form-control___hdjaw:focus::-ms-value {
 .subscription-form__col-form-label-lg___144kJ {
     padding-top: calc(.9375rem - 1px * 2);
     padding-bottom: calc(.9375rem - 1px * 2);
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .subscription-form__col-form-label-sm___PCXRY {
@@ -1929,7 +1929,7 @@ select.subscription-form__form-control___hdjaw:focus::-ms-value {
     padding-top: .6875rem;
     padding-bottom: .6875rem;
     margin-bottom: 0;
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .subscription-form__form-control-static___2KFou {
@@ -1958,7 +1958,7 @@ select.subscription-form__form-control-sm___33ms9:not([size]):not([multiple]) {
 
 .subscription-form__form-control-lg___2LCan {
     padding: .9375rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -2201,7 +2201,7 @@ select.subscription-form__form-control-lg___2LCan:not([size]):not([multiple]) {
 .subscription-form__title-container___19sMv .subscription-form__subtext___3gWxq {
     font-weight: 400;
     color: #4e595d;
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .subscription-form__form___1HTdc {
@@ -9013,7 +9013,7 @@ input.images-slider__form-control___3Teic::-webkit-input-placeholder {
 .images-slider__btn-close___2aNO8 .images-slider__close-icon___33kPZ {
     text-align: center;
     display: block;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 1
 }
 
@@ -9208,14 +9208,14 @@ input.product-info__form-control___2Uy_-::-webkit-input-placeholder {
 }
 
 .product-info__title___2J672 {
-    font-size: 15px!important;
+    font-size: 1.25rem!important;
     color: #4e595d;
     font-weight: 400
 }
 
 @media (max-width: 767px) {
     .product-info__title___2J672 {
-        font-size:15px;
+        font-size:1.25rem;
         margin-bottom: 2px
     }
 }
@@ -9224,14 +9224,14 @@ input.product-info__form-control___2Uy_-::-webkit-input-placeholder {
     color: rgba(78,89,93,.7);
     font-weight: 400;
     text-decoration: line-through;
-    font-size: 15px;
+    font-size: 1.25rem;
     padding-right: 8px
 }
 
 .product-info__sale-price___1unp2 {
     color: #16accf;
     font-weight: 700;
-    font-size: 16px
+    font-size: 1.5rem
 }
 
 .color-variations__btn-primary___2ndud.color-variations__active___a7wCv,.color-variations__btn-primary___2ndud.color-variations__active___a7wCv.color-variations__focus___37RbA,.color-variations__btn-primary___2ndud.color-variations__active___a7wCv:focus,.color-variations__btn-primary___2ndud.color-variations__active___a7wCv:hover,.color-variations__btn-primary___2ndud.color-variations__focus___37RbA:active,.color-variations__btn-primary___2ndud:active,.color-variations__btn-primary___2ndud:active:focus,.color-variations__btn-primary___2ndud:active:hover {
@@ -9371,7 +9371,7 @@ input.color-variations__form-control___1lebb::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -9764,7 +9764,7 @@ a.color-variations__btn___2nwHA.color-variations__disabled___2g7c4,fieldset[disa
 
 .color-variations__btn-lg___2ex18 {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -10008,7 +10008,7 @@ input.brand-info__form-control___1CO51::-webkit-input-placeholder {
 .brand-info__heading___EhwGa {
     margin-top: 18px;
     font-weight: 500;
-    font-size: 15px
+    font-size: 1.125rem
 }
 
 .brand-info__desc___19Dk4 {
@@ -10155,7 +10155,7 @@ input.size-variations__form-control___h0j4F::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -10548,7 +10548,7 @@ a.size-variations__btn___2VUX6.size-variations__disabled___2mESO,fieldset[disabl
 
 .size-variations__btn-lg___X0Jfz {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -10977,7 +10977,7 @@ input.add-to-bag__form-control___3uEsP::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -11370,7 +11370,7 @@ a.add-to-bag__btn___2i-kl.add-to-bag__disabled___3SoRf,fieldset[disabled] a.add-
 
 .add-to-bag__btn-lg___2EiZ8 {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -11517,7 +11517,7 @@ input[type=button].add-to-bag__btn-block___3NXJe,input[type=reset].add-to-bag__b
 }
 
 .add-to-bag__icon-added___2Xm_P.add-to-bag__active___3guk3 {
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .add-to-bag__btn___2i-kl.add-to-bag__btn-new___1M9Ag {
@@ -11858,7 +11858,7 @@ input.additional-info__form-control___3unz9::-webkit-input-placeholder {
 }
 
 .additional-info__international-wrap___1eujW .additional-info__int-title___2XNXW {
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 500;
     margin-left: -16px;
     margin-bottom: 16px
@@ -12158,7 +12158,7 @@ input.product-description__form-control___xqaj3::-webkit-input-placeholder {
 @media (max-width: 767px) {
     .product-description__about-the-brand___3lT4W .product-description__desc___Pym2G {
         font-weight:500;
-        font-size: 15px;
+        font-size: 1rem
     }
 }
 
@@ -12183,7 +12183,7 @@ input.product-description__form-control___xqaj3::-webkit-input-placeholder {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .product-description__btn-collapse___3Pk93 {
@@ -13760,7 +13760,7 @@ input.extra-info__form-control___1z1Q0::-webkit-input-placeholder {
 }
 
 .extra-info__title___1Itso {
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 500;
     text-transform: uppercase;
     padding-bottom: 8px
@@ -14130,7 +14130,7 @@ input.product-card__form-control___2gY2Y::-webkit-input-placeholder {
 .product-card__soldOutOverlay___1lzrp .product-card__text___3OR8d {
     position: relative;
     color: #fff;
-    font-size: 17px;
+    font-size: 1.75rem;
     font-weight: 400;
     text-transform: uppercase;
     margin-top: 50%
@@ -14217,7 +14217,7 @@ input.product-card__form-control___2gY2Y::-webkit-input-placeholder {
 .product-card__salePrice___3PSWy {
     color: #16accf;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 1.125rem;
     letter-spacing: -.86px
 }
 
@@ -19576,7 +19576,7 @@ input.potd-new__form-control___16iDN::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -19969,7 +19969,7 @@ a.potd-new__btn___2dCR3.potd-new__disabled___3TRE9,fieldset[disabled] a.potd-new
 
 .potd-new__btn-lg___3a-QJ {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -23257,7 +23257,7 @@ input.home__form-control___rE0Sd::-webkit-input-placeholder {
     float: left;
     padding-right: 8px;
     color: #4e595d;
-    font-size: 15px;
+    font-size: 1rem
 }
 
 @media (max-width: 767px) {
@@ -23273,7 +23273,7 @@ input.home__form-control___rE0Sd::-webkit-input-placeholder {
     width: 35%;
     padding-left: 8px;
     color: rgba(78,89,93,.7);
-    font-size: 15px;
+    font-size: 1rem
 }
 
 @media (max-width: 767px) {
@@ -23600,7 +23600,7 @@ input.not-found__form-control___2HcAt::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -23993,7 +23993,7 @@ a.not-found__btn___2OaB6.not-found__disabled___wXVrK,fieldset[disabled] a.not-fo
 
 .not-found__btn-lg___3FQIp {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -24351,7 +24351,7 @@ input.sort__form-control___2l4dQ::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -24744,7 +24744,7 @@ a.sort__btn___1Cu7A.sort__disabled___3KJVi,fieldset[disabled] a.sort__btn___1Cu7
 
 .sort__btn-lg___2jl89 {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -24802,7 +24802,7 @@ input[type=button].sort__btn-block___3n-30,input[type=reset].sort__btn-block___3
     min-width: 10rem;
     padding: .5rem 0;
     margin: .125rem 0 0;
-    font-size: 15px;
+    font-size: 1rem;
     color: #4e595d;
     text-align: left;
     list-style: none;
@@ -25084,7 +25084,7 @@ input.filter-option__form-control___3aPfb::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -25477,7 +25477,7 @@ a.filter-option__btn___2u45i.filter-option__disabled___1DVaD,fieldset[disabled] 
 
 .filter-option__btn-lg___FuYm1 {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -25706,7 +25706,7 @@ input.filter__form-control___1WR49::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -26099,7 +26099,7 @@ a.filter__btn___3SgaO.filter__disabled___wEH8N,fieldset[disabled] a.filter__btn_
 
 .filter__btn-lg___3bERy {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -27584,7 +27584,7 @@ input.sale__form-control___2aZjT::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -27977,7 +27977,7 @@ a.sale__btn___3OqFl.sale__disabled___1JB5o,fieldset[disabled] a.sale__btn___3OqF
 
 .sale__btn-lg___3G33t {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -28199,7 +28199,7 @@ input[type=button].sale__btn-block___O8koG,input[type=reset].sale__btn-block___O
     position: absolute;
     padding: 13px 12px;
     color: #16accf!important;
-    font-size: 15px;
+    font-size: 1rem;
     cursor: pointer
 }
 
@@ -28458,7 +28458,7 @@ input[type=button].sale__btn-block___O8koG,input[type=reset].sale__btn-block___O
 }
 
 .upcoming-sale__timer-container___1_El- {
-    font-size: 15.5px;
+    font-size: 1.375rem;
     line-height: 1.2;
     font-weight: 500;
     color: #4e595d;
@@ -28704,7 +28704,7 @@ input.upcoming-sale__form-control___fbg-2::-webkit-input-placeholder {
 @media (max-width: 767px) {
     .upcoming-sale__title___5PqFj {
         color:#4e595d;
-        font-size: 15.5px;
+        font-size: 1.375rem;
         margin-bottom: 8px
     }
 }
@@ -28867,7 +28867,7 @@ input.address-card__form-control___Z9teK::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -29260,7 +29260,7 @@ a.address-card__btn___1pg9E.address-card__disabled___RqQOE,fieldset[disabled] a.
 
 .address-card__btn-lg___2m96Y {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -29379,7 +29379,7 @@ input[type=button].address-card__btn-block___z5zqz,input[type=reset].address-car
 }
 
 .addresses__pageTitle___1bYB6 {
-    font-size: 15.5px;
+    font-size: 1.375rem;
     line-height: 1.2;
     font-weight: 500;
     color: #4e595d;
@@ -32334,7 +32334,7 @@ ul:after {
     .account-nav__navWrap___1ukO- {
         border-right: 1px solid rgba(78,89,93,.06);
         padding-left: 0;
-        font-size: 15px;
+        font-size: 1rem
     }
 
     .account-nav__navWrap___1ukO- .account-nav__navItem___jUVVg {
@@ -32537,7 +32537,7 @@ input.address-form__form-control___2yMOi::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -32930,7 +32930,7 @@ a.address-form__btn___1dPd-.address-form__disabled___2xUIP,fieldset[disabled] a.
 
 .address-form__btn-lg___judPE {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -32956,8 +32956,8 @@ input[type=button].address-form__btn-block___1UfTR,input[type=reset].address-for
 .address-form__form-control___2yMOi {
     display: block;
     width: 100%;
-    padding: 12px;
-    font-size: 15px;
+    padding: .6875rem .75rem;
+    font-size: 1rem;
     line-height: 1.313;
     color: #4e595d;
     background-color: #fff;
@@ -33016,7 +33016,7 @@ select.address-form__form-control___2yMOi:focus::-ms-value {
 .address-form__col-form-label-lg___3cmYO {
     padding-top: calc(.9375rem - 1px * 2);
     padding-bottom: calc(.9375rem - 1px * 2);
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .address-form__col-form-label-sm___xPrY5 {
@@ -33029,7 +33029,7 @@ select.address-form__form-control___2yMOi:focus::-ms-value {
     padding-top: .6875rem;
     padding-bottom: .6875rem;
     margin-bottom: 0;
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .address-form__form-control-static___1AXYN {
@@ -33058,7 +33058,7 @@ select.address-form__form-control-sm___DZVIt:not([size]):not([multiple]) {
 
 .address-form__form-control-lg___2As8i {
     padding: .9375rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -36323,7 +36323,7 @@ input.create-address__form-control___2O-jG::-webkit-input-placeholder {
 
 .create-address__title___31HPx {
     margin-bottom: 0;
-    font-size: 16px;
+    font-size: 1.5rem;
     font-weight: 500
 }
 
@@ -37983,7 +37983,7 @@ input.edit-address__form-control___3VLck::-webkit-input-placeholder {
 
 .edit-address__title___2fS4C {
     margin-bottom: 0;
-    font-size: 15.5px;
+    font-size: 1.5rem;
     font-weight: 500
 }
 
@@ -38124,7 +38124,7 @@ input.card__form-control___2MTt0::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -38517,7 +38517,7 @@ a.card__btn___3bFeQ.card__disabled___2bMNC,fieldset[disabled] a.card__btn___3bFe
 
 .card__btn-lg___3BBqA {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -38585,7 +38585,7 @@ input[type=button].card__btn-block___2Qc8K,input[type=reset].card__btn-block___2
 }
 
 .cards__pageTitle___1j4wU {
-    font-size: 15.5px;
+    font-size: 1.375rem;
     line-height: 1.2;
     font-weight: 500;
     color: #4e595d;
@@ -40239,7 +40239,7 @@ input.filter-dropdown__form-control___ECNyc::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -40632,7 +40632,7 @@ a.filter-dropdown__btn___dUXAc.filter-dropdown__disabled___jk1UF,fieldset[disabl
 
 .filter-dropdown__btn-lg___3ai4D {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -40690,7 +40690,7 @@ input[type=button].filter-dropdown__btn-block___3fCG9,input[type=reset].filter-d
     min-width: 10rem;
     padding: .5rem 0;
     margin: .125rem 0 0;
-    font-size: 15px;
+    font-size: 1rem;
     color: #4e595d;
     text-align: left;
     list-style: none;
@@ -41089,7 +41089,7 @@ input.order__form-control___1rNPr::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -41482,7 +41482,7 @@ a.order__btn___2dgNF.order__disabled___r6-ix,fieldset[disabled] a.order__btn___2
 
 .order__btn-lg___1EK0t {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -42931,7 +42931,7 @@ input[type=button].order__btn-block___1Tyij,input[type=reset].order__btn-block__
 }
 
 .orders__pageTitle___C2Lor {
-    font-size: 15px;
+    font-size: 1.375rem;
     line-height: 1.2;
     font-weight: 500;
     color: #4e595d;
@@ -44545,7 +44545,7 @@ input.personal-info-form__form-control___3nnYr::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -44938,7 +44938,7 @@ a.personal-info-form__btn___1nmO2.personal-info-form__disabled___19qvb,fieldset[
 
 .personal-info-form__btn-lg___1uvEz {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -44965,7 +44965,7 @@ input[type=button].personal-info-form__btn-block___1FHAC,input[type=reset].perso
     display: block;
     width: 100%;
     padding: .6875rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 1.313;
     color: #4e595d;
     background-color: #fff;
@@ -45024,7 +45024,7 @@ select.personal-info-form__form-control___3nnYr:focus::-ms-value {
 .personal-info-form__col-form-label-lg___1gs0z {
     padding-top: calc(.9375rem - 1px * 2);
     padding-bottom: calc(.9375rem - 1px * 2);
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .personal-info-form__col-form-label-sm___3kuxJ {
@@ -45037,7 +45037,7 @@ select.personal-info-form__form-control___3nnYr:focus::-ms-value {
     padding-top: .6875rem;
     padding-bottom: .6875rem;
     margin-bottom: 0;
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .personal-info-form__form-control-static___Ksal3 {
@@ -45066,7 +45066,7 @@ select.personal-info-form__form-control-sm___ihq8d:not([size]):not([multiple]) {
 
 .personal-info-form__form-control-lg___2lLO_ {
     padding: .9375rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -46712,7 +46712,7 @@ input.password-form__form-control___3ru_K::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -47105,7 +47105,7 @@ a.password-form__btn___tHTrv.password-form__disabled___2kCdK,fieldset[disabled] 
 
 .password-form__btn-lg___3PoTD {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -47132,7 +47132,7 @@ input[type=button].password-form__btn-block___3Eh0z,input[type=reset].password-f
     display: block;
     width: 100%;
     padding: .6875rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 1.313;
     color: #4e595d;
     background-color: #fff;
@@ -47191,7 +47191,7 @@ select.password-form__form-control___3ru_K:focus::-ms-value {
 .password-form__col-form-label-lg___Dyi6x {
     padding-top: calc(.9375rem - 1px * 2);
     padding-bottom: calc(.9375rem - 1px * 2);
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .password-form__col-form-label-sm___22lZG {
@@ -47204,7 +47204,7 @@ select.password-form__form-control___3ru_K:focus::-ms-value {
     padding-top: .6875rem;
     padding-bottom: .6875rem;
     margin-bottom: 0;
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .password-form__form-control-static___34k1D {
@@ -47233,7 +47233,7 @@ select.password-form__form-control-sm___vkOwM:not([size]):not([multiple]) {
 
 .password-form__form-control-lg___Xfpbz {
     padding: .9375rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -48743,7 +48743,7 @@ select.password-form__form-control-lg___Xfpbz:not([size]):not([multiple]) {
 }
 
 .settings__pageTitle___346w_ {
-    font-size: 15px;
+    font-size: 1.375rem;
     line-height: 1.2;
     font-weight: 500;
     color: #4e595d;
@@ -50181,7 +50181,7 @@ input.settings__form-control___3-iy6::-webkit-input-placeholder {
     display: block;
     width: 100%;
     padding: .6875rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 1.313;
     color: #4e595d;
     background-color: #fff;
@@ -50240,7 +50240,7 @@ select.settings__form-control___3-iy6:focus::-ms-value {
 .settings__col-form-label-lg___j0WXf {
     padding-top: calc(.9375rem - 1px * 2);
     padding-bottom: calc(.9375rem - 1px * 2);
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .settings__col-form-label-sm___9rBTf {
@@ -50253,7 +50253,7 @@ select.settings__form-control___3-iy6:focus::-ms-value {
     padding-top: .6875rem;
     padding-bottom: .6875rem;
     margin-bottom: 0;
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .settings__form-control-static___1LH9r {
@@ -50282,7 +50282,7 @@ select.settings__form-control-sm___3-67A:not([size]):not([multiple]) {
 
 .settings__form-control-lg___iGIru {
     padding: .9375rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -50521,7 +50521,7 @@ select.settings__form-control-lg___iGIru:not([size]):not([multiple]) {
 }
 
 .settings__credit-info___jg8uq .settings__credit-amount___IQXVC {
-    font-size: 15px;
+    font-size: 1.25rem;
     float: right
 }
 
@@ -50564,7 +50564,7 @@ select.settings__form-control-lg___iGIru:not([size]):not([multiple]) {
 }
 
 .auth__title___2xOb7 {
-    font-size: 15.5px;
+    font-size: 1.375rem;
     line-height: 1.2;
     font-weight: 500;
     color: #4e595d;
@@ -52145,7 +52145,7 @@ input.signin__form-control___3UcX4::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -52538,7 +52538,7 @@ a.signin__btn___1aGiN.signin__disabled___11OAn,fieldset[disabled] a.signin__btn_
 
 .signin__btn-lg___4EQNN {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -52565,7 +52565,7 @@ input[type=button].signin__btn-block___1rW2E,input[type=reset].signin__btn-block
     display: block;
     width: 100%;
     padding: .6875rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 1.313;
     color: #4e595d;
     background-color: #fff;
@@ -52624,7 +52624,7 @@ select.signin__form-control___3UcX4:focus::-ms-value {
 .signin__col-form-label-lg___3sM_H {
     padding-top: calc(.9375rem - 1px * 2);
     padding-bottom: calc(.9375rem - 1px * 2);
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .signin__col-form-label-sm___1TE6d {
@@ -52637,7 +52637,7 @@ select.signin__form-control___3UcX4:focus::-ms-value {
     padding-top: .6875rem;
     padding-bottom: .6875rem;
     margin-bottom: 0;
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .signin__form-control-static___1y6tf {
@@ -52666,7 +52666,7 @@ select.signin__form-control-sm___12Vdo:not([size]):not([multiple]) {
 
 .signin__form-control-lg___3GYh0 {
     padding: .9375rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -53133,7 +53133,7 @@ input.forgot-password-form__form-control_____DLi::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -53526,7 +53526,7 @@ a.forgot-password-form__btn___2d-0L.forgot-password-form__disabled___1L7cv,field
 
 .forgot-password-form__btn-lg___jnoXK {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -53553,7 +53553,7 @@ input[type=button].forgot-password-form__btn-block___1PhD0,input[type=reset].for
     display: block;
     width: 100%;
     padding: .6875rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 1.313;
     color: #4e595d;
     background-color: #fff;
@@ -53612,7 +53612,7 @@ select.forgot-password-form__form-control_____DLi:focus::-ms-value {
 .forgot-password-form__col-form-label-lg___DZtNm {
     padding-top: calc(.9375rem - 1px * 2);
     padding-bottom: calc(.9375rem - 1px * 2);
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .forgot-password-form__col-form-label-sm___WDe0x {
@@ -53625,7 +53625,7 @@ select.forgot-password-form__form-control_____DLi:focus::-ms-value {
     padding-top: .6875rem;
     padding-bottom: .6875rem;
     margin-bottom: 0;
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .forgot-password-form__form-control-static___sqVsv {
@@ -53654,7 +53654,7 @@ select.forgot-password-form__form-control-sm___2GJSo:not([size]):not([multiple])
 
 .forgot-password-form__form-control-lg___1Nrpj {
     padding: .9375rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -54237,7 +54237,7 @@ input.register-form__form-control___s8Zia::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -54630,7 +54630,7 @@ a.register-form__btn___2t6Pv.register-form__disabled___23Qip,fieldset[disabled] 
 
 .register-form__btn-group-lg___2EQRD>.register-form__btn___2t6Pv,.register-form__btn-lg___2K0t- {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -54794,7 +54794,7 @@ input[type=button].register-form__btn-block___38bSg,input[type=reset].register-f
     display: block;
     width: 100%;
     padding: .6875rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 1.313;
     color: #4e595d;
     background-color: #fff;
@@ -54853,7 +54853,7 @@ select.register-form__form-control___s8Zia:focus::-ms-value {
 .register-form__col-form-label-lg___2DXEl {
     padding-top: calc(.9375rem - 1px * 2);
     padding-bottom: calc(.9375rem - 1px * 2);
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .register-form__col-form-label-sm___wWoKO {
@@ -54866,7 +54866,7 @@ select.register-form__form-control___s8Zia:focus::-ms-value {
     padding-top: .6875rem;
     padding-bottom: .6875rem;
     margin-bottom: 0;
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .register-form__form-control-static___2KsKT {
@@ -54895,7 +54895,7 @@ select.register-form__form-control-sm___1iJQY:not([size]):not([multiple]) {
 
 .register-form__form-control-lg___2l1kO {
     padding: .9375rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -55613,7 +55613,7 @@ input.reset-password-form__form-control___36OeE::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -56006,7 +56006,7 @@ a.reset-password-form__btn___2aOGG.reset-password-form__disabled___lijRd,fieldse
 
 .reset-password-form__btn-lg___3MNOl {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -56033,7 +56033,7 @@ input[type=button].reset-password-form__btn-block___1-VTM,input[type=reset].rese
     display: block;
     width: 100%;
     padding: .6875rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 1.313;
     color: #4e595d;
     background-color: #fff;
@@ -56092,7 +56092,7 @@ select.reset-password-form__form-control___36OeE:focus::-ms-value {
 .reset-password-form__col-form-label-lg___1Nx2V {
     padding-top: calc(.9375rem - 1px * 2);
     padding-bottom: calc(.9375rem - 1px * 2);
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .reset-password-form__col-form-label-sm___1FY5O {
@@ -56105,7 +56105,7 @@ select.reset-password-form__form-control___36OeE:focus::-ms-value {
     padding-top: .6875rem;
     padding-bottom: .6875rem;
     margin-bottom: 0;
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .reset-password-form__form-control-static___vPP5w {
@@ -56134,7 +56134,7 @@ select.reset-password-form__form-control-sm___3RzG2:not([size]):not([multiple]) 
 
 .reset-password-form__form-control-lg___1zm0b {
     padding: .9375rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -56634,7 +56634,7 @@ input.facebook-sign-in-button__form-control___zRKXf::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -57027,7 +57027,7 @@ a.facebook-sign-in-button__btn___8j_B7.facebook-sign-in-button__disabled___sPk-I
 
 .facebook-sign-in-button__btn-lg___ewrQ0 {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -57286,7 +57286,7 @@ input.sign-in-form__form-control___3PtWN::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -57679,7 +57679,7 @@ a.sign-in-form__btn___3I2Fz.sign-in-form__disabled___1A-fh,fieldset[disabled] a.
 
 .sign-in-form__btn-lg___2V7-Z {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -59151,7 +59151,7 @@ input.shipping-address__form-control___pWwJC::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -59544,7 +59544,7 @@ a.shipping-address__btn___23gq5.shipping-address__disabled___3cTpM,fieldset[disa
 
 .shipping-address__btn-lg___1Qps5 {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -59571,7 +59571,7 @@ input[type=button].shipping-address__btn-block___3STBL,input[type=reset].shippin
     display: block;
     width: 100%;
     padding: .6875rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 1.313;
     color: #4e595d;
     background-color: #fff;
@@ -59630,7 +59630,7 @@ select.shipping-address__form-control___pWwJC:focus::-ms-value {
 .shipping-address__col-form-label-lg___214u4 {
     padding-top: calc(.9375rem - 1px * 2);
     padding-bottom: calc(.9375rem - 1px * 2);
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .shipping-address__col-form-label-sm___bPr5z {
@@ -59643,7 +59643,7 @@ select.shipping-address__form-control___pWwJC:focus::-ms-value {
     padding-top: .6875rem;
     padding-bottom: .6875rem;
     margin-bottom: 0;
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .shipping-address__form-control-static___QyX-O {
@@ -59672,7 +59672,7 @@ select.shipping-address__form-control-sm___mhHNy:not([size]):not([multiple]) {
 
 .shipping-address__form-control-lg___3_rQD {
     padding: .9375rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -60369,7 +60369,7 @@ input.add-password-form__form-control___HV9uq::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -60762,7 +60762,7 @@ a.add-password-form__btn___LErnE.add-password-form__disabled___2gAqc,fieldset[di
 
 .add-password-form__btn-lg___1u1aR {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -60789,7 +60789,7 @@ input[type=button].add-password-form__btn-block___1BHJo,input[type=reset].add-pa
     display: block;
     width: 100%;
     padding: .6875rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 1.313;
     color: #4e595d;
     background-color: #fff;
@@ -60848,7 +60848,7 @@ select.add-password-form__form-control___HV9uq:focus::-ms-value {
 .add-password-form__col-form-label-lg___3U_FU {
     padding-top: calc(.9375rem - 1px * 2);
     padding-bottom: calc(.9375rem - 1px * 2);
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .add-password-form__col-form-label-sm___27SC_ {
@@ -60861,7 +60861,7 @@ select.add-password-form__form-control___HV9uq:focus::-ms-value {
     padding-top: .6875rem;
     padding-bottom: .6875rem;
     margin-bottom: 0;
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .add-password-form__form-control-static___3J-FY {
@@ -60890,7 +60890,7 @@ select.add-password-form__form-control-sm___1Ajnb:not([size]):not([multiple]) {
 
 .add-password-form__form-control-lg___1H_uI {
     padding: .9375rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -66981,7 +66981,7 @@ input.discount-form__form-control___3OHY8::-webkit-input-placeholder {
     display: block;
     width: 100%;
     padding: .6875rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 1.313;
     color: #4e595d;
     background-color: #fff;
@@ -67040,7 +67040,7 @@ select.discount-form__form-control___3OHY8:focus::-ms-value {
 .discount-form__col-form-label-lg___3nt4U {
     padding-top: calc(.9375rem - 1px * 2);
     padding-bottom: calc(.9375rem - 1px * 2);
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .discount-form__col-form-label-sm___1Rmjf {
@@ -67053,7 +67053,7 @@ select.discount-form__form-control___3OHY8:focus::-ms-value {
     padding-top: .6875rem;
     padding-bottom: .6875rem;
     margin-bottom: 0;
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .discount-form__form-control-static___5CKwx {
@@ -67082,7 +67082,7 @@ select.discount-form__form-control___3OHY8:focus::-ms-value {
 
 .discount-form__form-control-lg___1mKSd,.discount-form__input-group-lg___1hx8G>.discount-form__form-control___3OHY8,.discount-form__input-group-lg___1hx8G>.discount-form__input-group-addon___3x9Dk,.discount-form__input-group-lg___1hx8G>.discount-form__input-group-btn___1ezG_>.discount-form__btn___3Vods {
     padding: .9375rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -67297,7 +67297,7 @@ select.discount-form__form-control___3OHY8:focus::-ms-value {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -67690,7 +67690,7 @@ a.discount-form__btn___3Vods.discount-form__disabled___2j5FI,fieldset[disabled] 
 
 .discount-form__btn-lg___1Tnw8 {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -67749,7 +67749,7 @@ input[type=button].discount-form__btn-block___WfmqE,input[type=reset].discount-f
 .discount-form__input-group-addon___3x9Dk {
     padding: .6875rem .75rem;
     margin-bottom: 0;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 1.313;
     color: #4e595d;
@@ -67767,7 +67767,7 @@ input[type=button].discount-form__btn-block___WfmqE,input[type=reset].discount-f
 
 .discount-form__input-group-addon___3x9Dk.discount-form__form-control-lg___1mKSd,.discount-form__input-group-lg___1hx8G>.discount-form__input-group-addon___3x9Dk,.discount-form__input-group-lg___1hx8G>.discount-form__input-group-btn___1ezG_>.discount-form__input-group-addon___3x9Dk.discount-form__btn___3Vods {
     padding: .9375rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -70624,7 +70624,7 @@ input.order-summary__form-control___2BiJZ::-webkit-input-placeholder {
 
 .order-summary__order-summary___2WFNx .order-summary__total___2aqMF {
     font-weight: 700;
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .order-summary__btn-remove-voucher___2Xgnr {
@@ -73276,7 +73276,7 @@ input.saved-cc__form-control___2ffnb::-webkit-input-placeholder {
     display: block;
     width: 100%;
     padding: .6875rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 1.313;
     color: #4e595d;
     background-color: #fff;
@@ -73335,7 +73335,7 @@ select.saved-cc__form-control___2ffnb:focus::-ms-value {
 .saved-cc__col-form-label-lg___4XqF3 {
     padding-top: calc(.9375rem - 1px * 2);
     padding-bottom: calc(.9375rem - 1px * 2);
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .saved-cc__col-form-label-sm___3ulQ7 {
@@ -73348,7 +73348,7 @@ select.saved-cc__form-control___2ffnb:focus::-ms-value {
     padding-top: .6875rem;
     padding-bottom: .6875rem;
     margin-bottom: 0;
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .saved-cc__form-control-static___37XIc {
@@ -73377,7 +73377,7 @@ select.saved-cc__form-control-sm___X7lz2:not([size]):not([multiple]) {
 
 .saved-cc__form-control-lg___1r2po {
     padding: .9375rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -75109,7 +75109,7 @@ input.credit-card-form__form-control___2zxui::-webkit-input-placeholder {
     display: block;
     width: 100%;
     padding: .6875rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 1.313;
     color: #4e595d;
     background-color: #fff;
@@ -75168,7 +75168,7 @@ select.credit-card-form__form-control___2zxui:focus::-ms-value {
 .credit-card-form__col-form-label-lg___2XFne {
     padding-top: calc(.9375rem - 1px * 2);
     padding-bottom: calc(.9375rem - 1px * 2);
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .credit-card-form__col-form-label-sm___1suc7 {
@@ -75181,7 +75181,7 @@ select.credit-card-form__form-control___2zxui:focus::-ms-value {
     padding-top: .6875rem;
     padding-bottom: .6875rem;
     margin-bottom: 0;
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .credit-card-form__form-control-static___1A7vU {
@@ -75210,7 +75210,7 @@ select.credit-card-form__form-control-sm___14oWf:not([size]):not([multiple]) {
 
 .credit-card-form__form-control-lg___5Y71e {
     padding: .9375rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -75425,7 +75425,7 @@ select.credit-card-form__form-control-lg___5Y71e:not([size]):not([multiple]) {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -75818,7 +75818,7 @@ a.credit-card-form__btn___AaiiU.credit-card-form__disabled___1WII2,fieldset[disa
 
 .credit-card-form__btn-lg___3adhm {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -80172,7 +80172,7 @@ input.stripe-form__form-control___faSMo::-webkit-input-placeholder {
     display: block;
     width: 100%;
     padding: .6875rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 1.313;
     color: #4e595d;
     background-color: #fff;
@@ -80231,7 +80231,7 @@ select.stripe-form__form-control___faSMo:focus::-ms-value {
 .stripe-form__col-form-label-lg___26K0W {
     padding-top: calc(.9375rem - 1px * 2);
     padding-bottom: calc(.9375rem - 1px * 2);
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .stripe-form__col-form-label-sm___1gZjs {
@@ -80244,7 +80244,7 @@ select.stripe-form__form-control___faSMo:focus::-ms-value {
     padding-top: .6875rem;
     padding-bottom: .6875rem;
     margin-bottom: 0;
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .stripe-form__form-control-static___1Tdh7 {
@@ -80273,7 +80273,7 @@ select.stripe-form__form-control-sm___yfJj1:not([size]):not([multiple]) {
 
 .stripe-form__form-control-lg___KxKY3 {
     padding: .9375rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -82407,7 +82407,7 @@ input.international-note__form-control___1pMMe::-webkit-input-placeholder {
 .international-note__popover-title___1ctGZ {
     padding: 8px 14px;
     margin-bottom: 0;
-    font-size: 15px;
+    font-size: 1rem;
     background-color: rgba(78,89,93,.06);
     border-bottom: 1px solid rgba(66,76,79,.06);
     border-top-right-radius: -1px;
@@ -82451,7 +82451,7 @@ input.international-note__form-control___1pMMe::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -82844,7 +82844,7 @@ a.international-note__btn___nQLzo.international-note__disabled___1yZRN,fieldset[
 
 .international-note__btn-lg___ag7-H {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -83069,7 +83069,7 @@ input.checkout-btn__form-control___2ZDnG::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -83462,7 +83462,7 @@ a.checkout-btn__btn___1DYTV.checkout-btn__disabled___2QL3R,fieldset[disabled] a.
 
 .checkout-btn__btn-lg___2Cq8h {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -85196,7 +85196,7 @@ input.checkout__form-control___3T7oR::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -85589,7 +85589,7 @@ a.checkout__btn___21jQJ.checkout__disabled___1QbC6,fieldset[disabled] a.checkout
 
 .checkout__btn-lg___357K- {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -85805,7 +85805,7 @@ input[type=button].checkout__btn-block___KkVZM,input[type=reset].checkout__btn-b
     display: block;
     width: 100%;
     padding: .6875rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 1.313;
     color: #4e595d;
     background-color: #fff;
@@ -85864,7 +85864,7 @@ select.checkout__form-control___3T7oR:focus::-ms-value {
 .checkout__col-form-label-lg___25pwM {
     padding-top: calc(.9375rem - 1px * 2);
     padding-bottom: calc(.9375rem - 1px * 2);
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .checkout__col-form-label-sm___2hyRn {
@@ -85877,7 +85877,7 @@ select.checkout__form-control___3T7oR:focus::-ms-value {
     padding-top: .6875rem;
     padding-bottom: .6875rem;
     margin-bottom: 0;
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .checkout__form-control-static___P5Fpc {
@@ -85906,7 +85906,7 @@ select.checkout__form-control-sm___Dr7FM:not([size]):not([multiple]) {
 
 .checkout__form-control-lg___3Rg0m {
     padding: .9375rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -86267,7 +86267,7 @@ select.checkout__form-control-lg___3Rg0m:not([size]):not([multiple]) {
 
 .checkout__order-summary___1rjHX .checkout__total___1hqW8 {
     font-weight: 700;
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .checkout__shipping-address___1kPCv+.checkout__billing-address___3E2Ho {
@@ -86306,7 +86306,7 @@ select.checkout__form-control-lg___3Rg0m:not([size]):not([multiple]) {
 }
 
 .continue__title___24Yiu {
-    font-size: 15.5px;
+    font-size: 1.375rem;
     line-height: 1.2;
     font-weight: 500;
     color: #4e595d;
@@ -86450,7 +86450,7 @@ input.continue__form-control___4Vwnt::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -86843,7 +86843,7 @@ a.continue__btn___1ZlRu.continue__disabled___XMkj5,fieldset[disabled] a.continue
 
 .continue__btn-lg___2tczS {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -88170,14 +88170,14 @@ input[type=button].continue__btn-block___3jiI1,input[type=reset].continue__btn-b
     margin-bottom: 8px;
     text-align: center;
     text-transform: capitalize;
-    font-size: 15.5px;
+    font-size: 1.25rem;
     font-weight: 700
 }
 
 @media (min-width: 992px) {
     .continue__title___24Yiu {
         margin-bottom:8px;
-        font-size: 16px;
+        font-size: 1.5rem;
         text-align: center
     }
 }
@@ -88373,7 +88373,7 @@ input[type=button].continue__btn-block___3jiI1,input[type=reset].continue__btn-b
 }
 
 .international__overseas-title___3p232 .international__sectionTitle___1O2S- {
-    font-size: 16px;
+    font-size: 1.5rem;
     line-height: 1.2;
     color: #4e595d;
     font-family: Josefin Sans,Georgia,Times New Roman,Times,serif;
@@ -89830,7 +89830,7 @@ input.international__form-control___1fmB9::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -90223,7 +90223,7 @@ a.international__btn___SSinB.international__disabled___1ssiL,fieldset[disabled] 
 
 .international__btn-lg___1Llb4 {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -92028,7 +92028,7 @@ input.default__form-control___3vU9k::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -92421,7 +92421,7 @@ a.default__btn___1k_L2.default__disabled___2ez-L,fieldset[disabled] a.default__b
 
 .default__btn-lg___3TxAV {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -94017,7 +94017,7 @@ input.first-sale-tile__form-control___3ErHD::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -94410,7 +94410,7 @@ a.first-sale-tile__btn___2kqdj.first-sale-tile__disabled___1APZp,fieldset[disabl
 
 .first-sale-tile__btn-lg___3N5-x {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -95943,7 +95943,7 @@ input.secret-sales-page__form-control___2z-EZ::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -96336,7 +96336,7 @@ a.secret-sales-page__btn___CkVcL.secret-sales-page__disabled___3odB8,fieldset[di
 
 .secret-sales-page__btn-lg___1MZoO {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -97026,7 +97026,7 @@ input.header__form-control___155g8::-webkit-input-placeholder {
 }
 
 .content__title___1TUmj {
-    font-size: 16.5px;
+    font-size: 1.75rem;
     line-height: 1.2;
     font-weight: 500;
     color: #4e595d;
@@ -97294,7 +97294,7 @@ input.content__form-control___3LMrw::-webkit-input-placeholder {
 }
 
 .footer__name___2kQG5 {
-    font-size: 16.5px;
+    font-size: 1.75rem;
     line-height: 1.2;
     font-weight: 500;
     color: #4e595d;
@@ -99246,7 +99246,7 @@ input.text-input__form-control___3hVs1::-webkit-input-placeholder {
     display: block;
     width: 100%;
     padding: .6875rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 1.313;
     color: #4e595d;
     background-color: #fff;
@@ -99305,7 +99305,7 @@ select.text-input__form-control___3hVs1:focus::-ms-value {
 .text-input__col-form-label-lg___3nAAJ {
     padding-top: calc(.9375rem - 1px * 2);
     padding-bottom: calc(.9375rem - 1px * 2);
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .text-input__col-form-label-sm___1VPlx {
@@ -99318,7 +99318,7 @@ select.text-input__form-control___3hVs1:focus::-ms-value {
     padding-top: .6875rem;
     padding-bottom: .6875rem;
     margin-bottom: 0;
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .text-input__form-control-static___2HyrJ {
@@ -99347,7 +99347,7 @@ select.text-input__form-control-sm___lhO42:not([size]):not([multiple]) {
 
 .text-input__form-control-lg___3x6Os {
     padding: .9375rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -103502,7 +103502,7 @@ input.language-dropdown__form-control___2-iUa::-webkit-input-placeholder {
     padding-top: .25rem;
     padding-bottom: .25rem;
     margin-right: 1rem;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: inherit;
     white-space: nowrap
 }
@@ -103533,7 +103533,7 @@ input.language-dropdown__form-control___2-iUa::-webkit-input-placeholder {
 .language-dropdown__navbar-toggler___2XELq {
     align-self: flex-start;
     padding: .5rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 1;
     background: transparent;
     border: 1px solid transparent;
@@ -103871,7 +103871,7 @@ input.language-dropdown__form-control___2-iUa::-webkit-input-placeholder {
     min-width: 10rem;
     padding: .5rem 0;
     margin: .125rem 0 0;
-    font-size: 15px;
+    font-size: 1rem;
     color: #4e595d;
     text-align: left;
     list-style: none;
@@ -103970,7 +103970,7 @@ input.language-dropdown__form-control___2-iUa::-webkit-input-placeholder {
         display:block;
         margin-top: 8px;
         padding: 15px 16px;
-        font-size: 15px;
+        font-size: 1rem;
         line-height: 1rem;
         text-transform: capitalize;
         text-align: left
@@ -104361,7 +104361,7 @@ input.my-account-dropdown__form-control___1Y9aC::-webkit-input-placeholder {
     padding-top: .25rem;
     padding-bottom: .25rem;
     margin-right: 1rem;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: inherit;
     white-space: nowrap
 }
@@ -104392,7 +104392,7 @@ input.my-account-dropdown__form-control___1Y9aC::-webkit-input-placeholder {
 .my-account-dropdown__navbar-toggler___2iBEI {
     align-self: flex-start;
     padding: .5rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 1;
     background: transparent;
     border: 1px solid transparent;
@@ -104730,7 +104730,7 @@ input.my-account-dropdown__form-control___1Y9aC::-webkit-input-placeholder {
     min-width: 10rem;
     padding: .5rem 0;
     margin: .125rem 0 0;
-    font-size: 15px;
+    font-size: 1rem;
     color: #4e595d;
     text-align: left;
     list-style: none;
@@ -105000,7 +105000,7 @@ input.auth-buttons__form-control___1qVWV::-webkit-input-placeholder {
     padding-top: .25rem;
     padding-bottom: .25rem;
     margin-right: 1rem;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: inherit;
     white-space: nowrap
 }
@@ -105031,7 +105031,7 @@ input.auth-buttons__form-control___1qVWV::-webkit-input-placeholder {
 .auth-buttons__navbar-toggler___ec1z3 {
     align-self: flex-start;
     padding: .5rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 1;
     background: transparent;
     border: 1px solid transparent;
@@ -107050,7 +107050,7 @@ input.subscription-banner__form-control___3Gbun::-webkit-input-placeholder {
     text-transform: uppercase;
     text-decoration: underline;
     color: hsla(0,0%,100%,.8);
-    font-size: 15px;
+    font-size: 1rem;
     padding-top: 24px;
     display: block;
     cursor: pointer
@@ -107284,7 +107284,7 @@ input.header__form-control___3nOMM::-webkit-input-placeholder {
     padding-top: .25rem;
     padding-bottom: .25rem;
     margin-right: 1rem;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: inherit;
     white-space: nowrap
 }
@@ -107313,7 +107313,7 @@ input.header__form-control___3nOMM::-webkit-input-placeholder {
 .header__navbar-toggler___2MM65 {
     align-self: flex-start;
     padding: .5rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 1;
     background: transparent;
     border: 1px solid transparent;
@@ -107651,7 +107651,7 @@ input.header__form-control___3nOMM::-webkit-input-placeholder {
     min-width: 10rem;
     padding: .5rem 0;
     margin: .125rem 0 0;
-    font-size: 15px;
+    font-size: 1rem;
     color: #4e595d;
     text-align: left;
     list-style: none;
@@ -108549,7 +108549,7 @@ input.cart__form-control___3g0tc::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -108942,7 +108942,7 @@ a.cart__btn___1bOR1.cart__disabled___26zKY,fieldset[disabled] a.cart__btn___1bOR
 
 .cart__btn-lg___2Dha9 {
     padding: .9375rem 2.813rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -110269,7 +110269,7 @@ input[type=button].cart__btn-block___2Ojbc,input[type=reset].cart__btn-block___2
     display: block;
     width: 100%;
     padding: .6875rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 1.313;
     color: #4e595d;
     background-color: #fff;
@@ -110328,7 +110328,7 @@ select.cart__form-control___3g0tc:focus::-ms-value {
 .cart__col-form-label-lg___311KO {
     padding-top: calc(.9375rem - 1px * 2);
     padding-bottom: calc(.9375rem - 1px * 2);
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .cart__col-form-label-sm___61_mt {
@@ -110341,7 +110341,7 @@ select.cart__form-control___3g0tc:focus::-ms-value {
     padding-top: .6875rem;
     padding-bottom: .6875rem;
     margin-bottom: 0;
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .cart__form-control-static___1gRYf {
@@ -110370,7 +110370,7 @@ select.cart__form-control-sm___2R5T7:not([size]):not([multiple]) {
 
 .cart__form-control-lg___33PB_ {
     padding: .9375rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -110613,7 +110613,7 @@ select.cart__form-control-lg___33PB_:not([size]):not([multiple]) {
 .cart__title___XIF0i {
     margin-bottom: 0;
     text-align: center;
-    font-size: 15px;
+    font-size: 1rem;
     display: block;
     padding-bottom: 2px;
     width: 70%;
@@ -110652,7 +110652,7 @@ select.cart__form-control-lg___33PB_:not([size]):not([multiple]) {
 .cart__btn-close___1BLZG .cart__icon___DWUE4 {
     text-align: center;
     display: block;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 1
 }
 
@@ -110776,7 +110776,7 @@ select.cart__form-control-lg___33PB_:not([size]):not([multiple]) {
 .cart__product___2fY_V .cart__info___3nGrF .cart__price___10cWN .cart__sale-price___3jWGr {
     font-weight: 500;
     display: block;
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .cart__product___2fY_V .cart__info___3nGrF .cart__btn-remove___3IkR9 {
@@ -110806,7 +110806,7 @@ select.cart__form-control-lg___33PB_:not([size]):not([multiple]) {
 }
 
 .cart__subtotal___b7ocn {
-    font-size: 15px;
+    font-size: 1.25rem;
     font-weight: 700;
     margin-bottom: 12px
 }
@@ -113256,7 +113256,7 @@ input.preview__form-control___2afdv::-webkit-input-placeholder {
     display: block;
     width: 100%;
     padding: .6875rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 1.313;
     color: #4e595d;
     background-color: #fff;
@@ -113315,7 +113315,7 @@ select.preview__form-control___2afdv:focus::-ms-value {
 .preview__col-form-label-lg___1kwkA {
     padding-top: calc(.9375rem - 1px * 2);
     padding-bottom: calc(.9375rem - 1px * 2);
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .preview__col-form-label-sm___2NNlK {
@@ -113328,7 +113328,7 @@ select.preview__form-control___2afdv:focus::-ms-value {
     padding-top: .6875rem;
     padding-bottom: .6875rem;
     margin-bottom: 0;
-    font-size: 15px;
+    font-size: 1rem
 }
 
 .preview__form-control-static___222TS {
@@ -113357,7 +113357,7 @@ select.preview__form-control-sm___1m-hp:not([size]):not([multiple]) {
 
 .preview__form-control-lg___2rbGn {
     padding: .9375rem .75rem;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0
 }
 
@@ -113879,7 +113879,7 @@ legend {
     width: 100%;
     padding: 0;
     margin-bottom: .5rem;
-    font-size: 16px;
+    font-size: 1.5rem;
     line-height: inherit
 }
 
@@ -113904,31 +113904,31 @@ output {
 }
 
 .h1,h1 {
-    font-size: 18px
+    font-size: 2rem
 }
 
 .h2,h2 {
-    font-size: 17px
+    font-size: 1.75rem
 }
 
 .h3,h3 {
-    font-size: 15.5px
+    font-size: 1.375rem
 }
 
 .h4,h4 {
-    font-size: 15px
+    font-size: 1.125rem
 }
 
 .h5,h5 {
-    font-size: 15px
+    font-size: 1rem
 }
 
 .h6,h6 {
-    font-size: 14.5px
+    font-size: .75rem
 }
 
 .lead {
-    font-size: 15px;
+    font-size: 1.25rem;
     font-weight: 300
 }
 
