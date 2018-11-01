@@ -1856,7 +1856,7 @@ input[type=button].subscription-form__btn-block___1ddG6,input[type=reset].subscr
 .subscription-form__form-control___hdjaw {
     display: block;
     width: 100%;
-    padding: .6875rem .75rem;
+    padding: 12px;
     font-size: 15px;
     line-height: 1.313;
     color: #4e595d;
@@ -32956,7 +32956,7 @@ input[type=button].address-form__btn-block___1UfTR,input[type=reset].address-for
 .address-form__form-control___2yMOi {
     display: block;
     width: 100%;
-    padding: .6875rem .75rem;
+    padding: 12px;
     font-size: 15px;
     line-height: 1.313;
     color: #4e595d;
@@ -33355,7 +33355,7 @@ select.address-form__form-control-lg___2As8i:not([size]):not([multiple]) {
     display: inline-block;
     max-width: 100%;
     height: calc(2.688rem + 2px);
-    padding: .6875rem 1.75rem .6875rem .75rem;
+    padding: .6875rem 1.75rem 12px;
     line-height: 1.25;
     color: #4e595d;
     vertical-align: middle;
@@ -33418,7 +33418,7 @@ select.address-form__form-control-lg___2As8i:not([size]):not([multiple]) {
     left: 0;
     z-index: 5;
     height: 2.813rem;
-    padding: .6875rem .75rem;
+    padding: 12px;
     line-height: 1.313;
     color: #4e595d;
     pointer-events: none;
@@ -33440,7 +33440,7 @@ select.address-form__form-control-lg___2As8i:not([size]):not([multiple]) {
     z-index: 6;
     display: block;
     height: 2.813rem;
-    padding: .6875rem .75rem;
+    padding: 12px;
     line-height: 1.313;
     color: #4e595d;
     background-color: #fff;
@@ -44964,7 +44964,7 @@ input[type=button].personal-info-form__btn-block___1FHAC,input[type=reset].perso
 .personal-info-form__form-control___3nnYr {
     display: block;
     width: 100%;
-    padding: .6875rem .75rem;
+    padding: 12px;
     font-size: 15px;
     line-height: 1.313;
     color: #4e595d;
@@ -47131,7 +47131,7 @@ input[type=button].password-form__btn-block___3Eh0z,input[type=reset].password-f
 .password-form__form-control___3ru_K {
     display: block;
     width: 100%;
-    padding: .6875rem .75rem;
+    padding: 12px;
     font-size: 15px;
     line-height: 1.313;
     color: #4e595d;
@@ -50180,7 +50180,7 @@ input.settings__form-control___3-iy6::-webkit-input-placeholder {
 .settings__form-control___3-iy6 {
     display: block;
     width: 100%;
-    padding: .6875rem .75rem;
+    padding: 12px;
     font-size: 15px;
     line-height: 1.313;
     color: #4e595d;
@@ -52564,7 +52564,7 @@ input[type=button].signin__btn-block___1rW2E,input[type=reset].signin__btn-block
 .signin__form-control___3UcX4 {
     display: block;
     width: 100%;
-    padding: .6875rem .75rem;
+    padding: 12px;
     font-size: 15px;
     line-height: 1.313;
     color: #4e595d;
@@ -53552,7 +53552,7 @@ input[type=button].forgot-password-form__btn-block___1PhD0,input[type=reset].for
 .forgot-password-form__form-control_____DLi {
     display: block;
     width: 100%;
-    padding: .6875rem .75rem;
+    padding: 12px;
     font-size: 15px;
     line-height: 1.313;
     color: #4e595d;
@@ -54793,7 +54793,7 @@ input[type=button].register-form__btn-block___38bSg,input[type=reset].register-f
 .register-form__form-control___s8Zia {
     display: block;
     width: 100%;
-    padding: .6875rem .75rem;
+    padding: 12px;
     font-size: 15px;
     line-height: 1.313;
     color: #4e595d;
@@ -56032,7 +56032,7 @@ input[type=button].reset-password-form__btn-block___1-VTM,input[type=reset].rese
 .reset-password-form__form-control___36OeE {
     display: block;
     width: 100%;
-    padding: .6875rem .75rem;
+    padding: 12px;
     font-size: 15px;
     line-height: 1.313;
     color: #4e595d;
@@ -59570,7 +59570,7 @@ input[type=button].shipping-address__btn-block___3STBL,input[type=reset].shippin
 .shipping-address__form-control___pWwJC {
     display: block;
     width: 100%;
-    padding: .6875rem .75rem;
+    padding: 12px;
     font-size: 15px;
     line-height: 1.313;
     color: #4e595d;
@@ -59969,7 +59969,7 @@ select.shipping-address__form-control-lg___3_rQD:not([size]):not([multiple]) {
     display: inline-block;
     max-width: 100%;
     height: calc(2.688rem + 2px);
-    padding: .6875rem 1.75rem .6875rem .75rem;
+    padding: .6875rem 1.75rem 12px;
     line-height: 1.25;
     color: #4e595d;
     vertical-align: middle;
@@ -60032,7 +60032,7 @@ select.shipping-address__form-control-lg___3_rQD:not([size]):not([multiple]) {
     left: 0;
     z-index: 5;
     height: 2.813rem;
-    padding: .6875rem .75rem;
+    padding: 12px;
     line-height: 1.313;
     color: #4e595d;
     pointer-events: none;
@@ -60054,7 +60054,7 @@ select.shipping-address__form-control-lg___3_rQD:not([size]):not([multiple]) {
     z-index: 6;
     display: block;
     height: 2.813rem;
-    padding: .6875rem .75rem;
+    padding: 12px;
     line-height: 1.313;
     color: #4e595d;
     background-color: #fff;
@@ -60788,7 +60788,7 @@ input[type=button].add-password-form__btn-block___1BHJo,input[type=reset].add-pa
 .add-password-form__form-control___HV9uq {
     display: block;
     width: 100%;
-    padding: .6875rem .75rem;
+    padding: 12px;
     font-size: 15px;
     line-height: 1.313;
     color: #4e595d;
@@ -66980,7 +66980,7 @@ input.discount-form__form-control___3OHY8::-webkit-input-placeholder {
 .discount-form__form-control___3OHY8 {
     display: block;
     width: 100%;
-    padding: .6875rem .75rem;
+    padding: 12px;
     font-size: 15px;
     line-height: 1.313;
     color: #4e595d;
@@ -67747,7 +67747,7 @@ input[type=button].discount-form__btn-block___WfmqE,input[type=reset].discount-f
 }
 
 .discount-form__input-group-addon___3x9Dk {
-    padding: .6875rem .75rem;
+    padding: 12px;
     margin-bottom: 0;
     font-size: 15px;
     font-weight: 400;
@@ -71525,7 +71525,7 @@ input.cod__form-control___1NWeE::-webkit-input-placeholder {
     display: inline-block;
     max-width: 100%;
     height: calc(2.688rem + 2px);
-    padding: .6875rem 1.75rem .6875rem .75rem;
+    padding: .6875rem 1.75rem 12px;
     line-height: 1.25;
     color: #4e595d;
     vertical-align: middle;
@@ -71588,7 +71588,7 @@ input.cod__form-control___1NWeE::-webkit-input-placeholder {
     left: 0;
     z-index: 5;
     height: 2.813rem;
-    padding: .6875rem .75rem;
+    padding: 12px;
     line-height: 1.313;
     color: #4e595d;
     pointer-events: none;
@@ -71610,7 +71610,7 @@ input.cod__form-control___1NWeE::-webkit-input-placeholder {
     z-index: 6;
     display: block;
     height: 2.813rem;
-    padding: .6875rem .75rem;
+    padding: 12px;
     line-height: 1.313;
     color: #4e595d;
     background-color: #fff;
@@ -73175,7 +73175,7 @@ input.saved-cc__form-control___2ffnb::-webkit-input-placeholder {
     display: inline-block;
     max-width: 100%;
     height: calc(2.688rem + 2px);
-    padding: .6875rem 1.75rem .6875rem .75rem;
+    padding: .6875rem 1.75rem 12px;
     line-height: 1.25;
     color: #4e595d;
     vertical-align: middle;
@@ -73238,7 +73238,7 @@ input.saved-cc__form-control___2ffnb::-webkit-input-placeholder {
     left: 0;
     z-index: 5;
     height: 2.813rem;
-    padding: .6875rem .75rem;
+    padding: 12px;
     line-height: 1.313;
     color: #4e595d;
     pointer-events: none;
@@ -73260,7 +73260,7 @@ input.saved-cc__form-control___2ffnb::-webkit-input-placeholder {
     z-index: 6;
     display: block;
     height: 2.813rem;
-    padding: .6875rem .75rem;
+    padding: 12px;
     line-height: 1.313;
     color: #4e595d;
     background-color: #fff;
@@ -73275,7 +73275,7 @@ input.saved-cc__form-control___2ffnb::-webkit-input-placeholder {
 .saved-cc__form-control___2ffnb {
     display: block;
     width: 100%;
-    padding: .6875rem .75rem;
+    padding: 12px;
     font-size: 15px;
     line-height: 1.313;
     color: #4e595d;
@@ -75108,7 +75108,7 @@ input.credit-card-form__form-control___2zxui::-webkit-input-placeholder {
 .credit-card-form__form-control___2zxui {
     display: block;
     width: 100%;
-    padding: .6875rem .75rem;
+    padding: 12px;
     font-size: 15px;
     line-height: 1.313;
     color: #4e595d;
@@ -78246,7 +78246,7 @@ input.cc__form-control___2f3OP::-webkit-input-placeholder {
     display: inline-block;
     max-width: 100%;
     height: calc(2.688rem + 2px);
-    padding: .6875rem 1.75rem .6875rem .75rem;
+    padding: .6875rem 1.75rem 12px;
     line-height: 1.25;
     color: #4e595d;
     vertical-align: middle;
@@ -78309,7 +78309,7 @@ input.cc__form-control___2f3OP::-webkit-input-placeholder {
     left: 0;
     z-index: 5;
     height: 2.813rem;
-    padding: .6875rem .75rem;
+    padding: 12px;
     line-height: 1.313;
     color: #4e595d;
     pointer-events: none;
@@ -78331,7 +78331,7 @@ input.cc__form-control___2f3OP::-webkit-input-placeholder {
     z-index: 6;
     display: block;
     height: 2.813rem;
-    padding: .6875rem .75rem;
+    padding: 12px;
     line-height: 1.313;
     color: #4e595d;
     background-color: #fff;
@@ -78610,7 +78610,7 @@ input.saved-stripe__form-control___1f2QA::-webkit-input-placeholder {
     display: inline-block;
     max-width: 100%;
     height: calc(2.688rem + 2px);
-    padding: .6875rem 1.75rem .6875rem .75rem;
+    padding: .6875rem 1.75rem 12px;
     line-height: 1.25;
     color: #4e595d;
     vertical-align: middle;
@@ -78673,7 +78673,7 @@ input.saved-stripe__form-control___1f2QA::-webkit-input-placeholder {
     left: 0;
     z-index: 5;
     height: 2.813rem;
-    padding: .6875rem .75rem;
+    padding: 12px;
     line-height: 1.313;
     color: #4e595d;
     pointer-events: none;
@@ -78695,7 +78695,7 @@ input.saved-stripe__form-control___1f2QA::-webkit-input-placeholder {
     z-index: 6;
     display: block;
     height: 2.813rem;
-    padding: .6875rem .75rem;
+    padding: 12px;
     line-height: 1.313;
     color: #4e595d;
     background-color: #fff;
@@ -80171,7 +80171,7 @@ input.stripe-form__form-control___faSMo::-webkit-input-placeholder {
 .stripe-form__form-control___faSMo {
     display: block;
     width: 100%;
-    padding: .6875rem .75rem;
+    padding: 12px;
     font-size: 15px;
     line-height: 1.313;
     color: #4e595d;
@@ -82011,7 +82011,7 @@ input.stripe__form-control___1Fxs5::-webkit-input-placeholder {
     display: inline-block;
     max-width: 100%;
     height: calc(2.688rem + 2px);
-    padding: .6875rem 1.75rem .6875rem .75rem;
+    padding: .6875rem 1.75rem 12px;
     line-height: 1.25;
     color: #4e595d;
     vertical-align: middle;
@@ -82074,7 +82074,7 @@ input.stripe__form-control___1Fxs5::-webkit-input-placeholder {
     left: 0;
     z-index: 5;
     height: 2.813rem;
-    padding: .6875rem .75rem;
+    padding: 12px;
     line-height: 1.313;
     color: #4e595d;
     pointer-events: none;
@@ -82096,7 +82096,7 @@ input.stripe__form-control___1Fxs5::-webkit-input-placeholder {
     z-index: 6;
     display: block;
     height: 2.813rem;
-    padding: .6875rem .75rem;
+    padding: 12px;
     line-height: 1.313;
     color: #4e595d;
     background-color: #fff;
@@ -85704,7 +85704,7 @@ input[type=button].checkout__btn-block___KkVZM,input[type=reset].checkout__btn-b
     display: inline-block;
     max-width: 100%;
     height: calc(2.688rem + 2px);
-    padding: .6875rem 1.75rem .6875rem .75rem;
+    padding: .6875rem 1.75rem 12px;
     line-height: 1.25;
     color: #4e595d;
     vertical-align: middle;
@@ -85767,7 +85767,7 @@ input[type=button].checkout__btn-block___KkVZM,input[type=reset].checkout__btn-b
     left: 0;
     z-index: 5;
     height: 2.813rem;
-    padding: .6875rem .75rem;
+    padding: 12px;
     line-height: 1.313;
     color: #4e595d;
     pointer-events: none;
@@ -85789,7 +85789,7 @@ input[type=button].checkout__btn-block___KkVZM,input[type=reset].checkout__btn-b
     z-index: 6;
     display: block;
     height: 2.813rem;
-    padding: .6875rem .75rem;
+    padding: 12px;
     line-height: 1.313;
     color: #4e595d;
     background-color: #fff;
@@ -85804,7 +85804,7 @@ input[type=button].checkout__btn-block___KkVZM,input[type=reset].checkout__btn-b
 .checkout__form-control___3T7oR {
     display: block;
     width: 100%;
-    padding: .6875rem .75rem;
+    padding: 12px;
     font-size: 15px;
     line-height: 1.313;
     color: #4e595d;
@@ -99245,7 +99245,7 @@ input.text-input__form-control___3hVs1::-webkit-input-placeholder {
 .text-input__form-control___3hVs1 {
     display: block;
     width: 100%;
-    padding: .6875rem .75rem;
+    padding: 12px;
     font-size: 15px;
     line-height: 1.313;
     color: #4e595d;
@@ -110268,7 +110268,7 @@ input[type=button].cart__btn-block___2Ojbc,input[type=reset].cart__btn-block___2
 .cart__form-control___3g0tc {
     display: block;
     width: 100%;
-    padding: .6875rem .75rem;
+    padding: 12px;
     font-size: 15px;
     line-height: 1.313;
     color: #4e595d;
@@ -113255,7 +113255,7 @@ input.preview__form-control___2afdv::-webkit-input-placeholder {
 .preview__form-control___2afdv {
     display: block;
     width: 100%;
-    padding: .6875rem .75rem;
+    padding: 12px;
     font-size: 15px;
     line-height: 1.313;
     color: #4e595d;
