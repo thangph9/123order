@@ -17,7 +17,7 @@ class Home extends React.Component {
     </div>
     <div className="default-layout__container___13v1V home__defaultLayout___Q6Udu  false">
       <div className="backdrop__body-backdrop___1rvky  " />
-      <div className="header__header___1t3MH false" id="header">
+      <div className="header__header___1t3MH false">
         <nav className="header__my-navbar___2Cghd header__navbar-toggleable-sm___pR4tF header__nav-header___3lWCb">
           <div className="container__container___1fvX0 header__container___2d-Oi">
             <div className="hidden-md-up header__my-navbar-toggler___2PiaS"><button className="header__btn-icon___17D-i" type="button"><i className="ic-ic-user" /></button></div><a className="header__navbar-brand___SzzgD" href="/"><img src="https://www.leflair.vn/images/leflair-logo-black.png" /></a>
