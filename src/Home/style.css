@@ -117460,8 +117460,8 @@ input.leflair-font-icon__form-control___2rrk5::-webkit-input-placeholder {
 
 @font-face {
 	font-family: 'icomoon';
-    src: url(font/icomoon.ttf);
-    src: url(font/icomoon.ttf) format("embedded-opentype"),url(font/icomoon.ttf) format("truetype"),url(font/icomoon.ttf) format("woff"),url(font/icomoon.ttf) format("svg");
+    src: url(/font/icomoon.ttf);
+    src: url(/font/icomoon.ttf) format("embedded-opentype"),url(/font/icomoon.ttf) format("truetype"),url(/font/icomoon.ttf) format("woff"),url(/font/icomoon.ttf) format("svg");
     font-weight: 400;
     font-style: normal
 }
