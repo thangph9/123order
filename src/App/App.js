@@ -20,6 +20,7 @@ import {ProductDetailAmazon} from '../ProductDetailAmazon';
 import {ProductDetailTest} from '../ProductDetailTest';
 import {ProductDetail} from '../Product-Detail/ProductDetail';
 import {HomePage} from '../HomePage';
+import {Home} from '../Home';
 import { history } from "../stores";
 import { alertActions } from "../actions";
 class App extends Component{
@@ -50,7 +51,7 @@ class App extends Component{
                     <div>
                     <Switch history ={ history  }>
                         <Route exact path="/" component={HomePage} />
-                        <Route exact path="/home" component={HomePage} />
+                        <Route exact path="/home" component={Home} />
                         <Route exact path="/cod" component={COD} />
                         <Route exact path="/danh-muc-amazon" component={DanhMucAmazon} />
                         <Route exact path="/danh-muc-ebay" component={DanhMucEbay} />

@@ -33,7 +33,7 @@ class Description extends React.Component {
                     </div>
                     <div className="head-control-col">
                     </div>
-                </div>{/* .block-head */}
+                </div>
                 <div id="block-main" className="block-main" style={{ fontSize: 14 }}>
                 
                 </div>
