@@ -1802,7 +1802,7 @@ class Home extends React.Component {
                                         </div>
                                         <form className="subscription-form__form___1HTdc" name="form">
                                             <div className="row__row___2roCA ">
-                                                <div className="subscription-form__form-group___2Xlci subscription-form__col-md-8___2XbMH subscription-form__input-wrap___SQsyI"><input type="email" className="subscription-form__form-control___hdjaw" name="email" placeholder="Your email..." required /></div>
+                                                <div className="subscription-form__form-group___2Xlci subscription-form__col-md-8___2XbMH subscription-form__input-wrap___SQsyI"><input type="email" style={{fontSize:'15px'}} className="subscription-form__form-control___hdjaw" name="email" placeholder="Your email..." required /></div>
                                                 <div className="subscription-form__form-group___2Xlci subscription-form__col-md-4___3bt17 subscription-form__button-wrap___2iFz3"><button type="submit" className="subscription-form__btn___2kh7f subscription-form__btn-primary___34C5C">Đăng
                       Ký </button></div>
                                             </div>
