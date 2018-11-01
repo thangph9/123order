@@ -112796,7 +112796,8 @@ input.footer__form-control___37_DK::-webkit-input-placeholder {
 
 @media (max-width: 767px) {
     .footer__socialLinks___3S5w9 .footer__logo___SNGnI {
-        margin-top:0
+        margin-top:0;
+        margin-left: 0px !important;
     }
 }
 
