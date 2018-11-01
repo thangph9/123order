@@ -66,7 +66,7 @@ class Home extends React.Component {
                             <div className="hidden-md-up home__currentSaleInfo___2Fj0C">
                                 <div className="home__currentSaleTitle___1jXFQ">Giảm Đến 82% - Nike Giày Thể Thao Nam</div>
                                 <div className="home__endTimeWrap___25O4u"><span className="home__endTimeContent___2G8rq"><i className="ic-ic-time end-time__icon___REEKA" />
-                                    <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">7 ngày</span></span></div>
+                                    <span className="end-time__text___1A-sx">Còn </span> <span className="end-time__timer___LMsIT">7 ngày</span></span></div>
                             </div>
                         </a></div>
                         <div className="container__container___1fvX0 home__homeContainer___1VKcQ">
@@ -79,7 +79,7 @@ class Home extends React.Component {
                                     <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd801be2dd83a3139169387.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd801be2dd83a3139169387.jpg 640w, https://images.leflair.vn/w1080/q85/5bd801be2dd83a3139169387.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd801be2dd83a3139169387.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 81% - Nike Giày Thể Thao Nữ" /></div>
                                     <div className="sale-card__currentSaleInfo___2LkMa">
                                         <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 81% - Nike Giày Thể Thao Nữ</div>
-                                        <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                        <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                             <span className="end-time__timer___LMsIT">7 ngày</span></span></div>
                                     </div>
                                 </div>
@@ -88,7 +88,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd957262054d4d8d1f3de7e.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd957262054d4d8d1f3de7e.jpg 640w, https://images.leflair.vn/w1080/q85/5bd957262054d4d8d1f3de7e.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd957262054d4d8d1f3de7e.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 62% - Jeanswest Thời Trang Nữ & Nam" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 62% - Jeanswest Thời Trang Nữ &amp; Nam</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">7 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -98,7 +98,7 @@ class Home extends React.Component {
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 53% - Police, Furla Gọng Kính Nữ &amp;
                   Nam</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">7 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -107,7 +107,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd965ad3833ca360094e583.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd965ad3833ca360094e583.jpg 640w, https://images.leflair.vn/w1080/q85/5bd965ad3833ca360094e583.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd965ad3833ca360094e583.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 57% - Police, Furla: Kính Mát Thời Trang" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 57% - Police, Furla: Kính Mát Thời Trang</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">7 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -116,7 +116,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd94ec4f95af294e918c5a0.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd94ec4f95af294e918c5a0.jpg 640w, https://images.leflair.vn/w1080/q85/5bd94ec4f95af294e918c5a0.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd94ec4f95af294e918c5a0.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Omron & Laica: Thiết Bị Chăm Sóc Sức Khỏe" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Omron &amp; Laica: Thiết Bị Chăm Sóc Sức Khỏe</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">7 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -126,7 +126,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd9915bb4993258f12b2dc3.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd9915bb4993258f12b2dc3.jpg 640w, https://images.leflair.vn/w1080/q85/5bd9915bb4993258f12b2dc3.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd9915bb4993258f12b2dc3.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Dr. Brandt Mỹ Phẩm Chăm Sóc Da" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Dr. Brandt Mỹ Phẩm Chăm Sóc Da</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">7 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -135,7 +135,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd92b282054d44423f3d715.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd92b282054d44423f3d715.jpg 640w, https://images.leflair.vn/w1080/q85/5bd92b282054d44423f3d715.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd92b282054d44423f3d715.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 56% - Kate Spade New York Đồng Hồ Nữ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 56% - Kate Spade New York Đồng Hồ Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">7 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -144,7 +144,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd81fb8d297d16792389ad6.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd81fb8d297d16792389ad6.jpg 640w, https://images.leflair.vn/w1080/q85/5bd81fb8d297d16792389ad6.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd81fb8d297d16792389ad6.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 59% - Elly Preston Trang Sức Nữ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 59% - Elly Preston Trang Sức Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">7 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -153,7 +153,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd826e2d297d131fb389b98.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd826e2d297d131fb389b98.jpg 640w, https://images.leflair.vn/w1080/q85/5bd826e2d297d131fb389b98.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd826e2d297d131fb389b98.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 56% - Dermolab Mỹ Phẩm Chăm Sóc Da" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 56% - Dermolab Mỹ Phẩm Chăm Sóc Da</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">7 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -163,7 +163,7 @@ class Home extends React.Component {
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Nón &amp; Bình Nước Thể Thao: Mitchell &amp; Ness,
                   O2cool</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">7 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -174,7 +174,7 @@ class Home extends React.Component {
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 50% - Gaya Mỹ Phẩm &amp; Dụng Cụ Trang
                   Điểm</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -183,7 +183,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd9894002c08e07a371b705.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd9894002c08e07a371b705.jpg 640w, https://images.leflair.vn/w1080/q85/5bd9894002c08e07a371b705.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd9894002c08e07a371b705.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="SNP Mỹ Phẩm Chăm Sóc Da" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">SNP Mỹ Phẩm Chăm Sóc Da</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">7 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -192,7 +192,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd925922054d424b5f3d4f0.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd925922054d424b5f3d4f0.jpg 640w, https://images.leflair.vn/w1080/q85/5bd925922054d424b5f3d4f0.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd925922054d424b5f3d4f0.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 55% - Jun Store Drap Bọc & Vỏ Chăn" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 55% - Jun Store Drap Bọc &amp; Vỏ Chăn</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">7 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -201,7 +201,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd93412f95af258f218c15d.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd93412f95af258f218c15d.jpg 640w, https://images.leflair.vn/w1080/q85/5bd93412f95af258f218c15d.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd93412f95af258f218c15d.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Cuckoo Thiết Bị Gia Dụng Nhà Bếp" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Cuckoo Thiết Bị Gia Dụng Nhà Bếp</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">7 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -225,7 +225,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd9202e2054d433e0f3d3a0.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd9202e2054d433e0f3d3a0.jpg 640w, https://images.leflair.vn/w1080/q85/5bd9202e2054d433e0f3d3a0.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd9202e2054d433e0f3d3a0.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Oz Naturals Tinh Chất Vitamin C" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Oz Naturals Tinh Chất Vitamin C</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">16 giờ</span></span></div>
                                         </div>
                                     </div>
@@ -234,7 +234,7 @@ class Home extends React.Component {
                                             <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd82ac4b8cecbea299d9878.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd82ac4b8cecbea299d9878.jpg 640w, https://images.leflair.vn/w1080/q85/5bd82ac4b8cecbea299d9878.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd82ac4b8cecbea299d9878.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 50% - Luminarc Bộ Nồi Gốm Thủy Tinh" /></div>
                                             <div className="sale-card__currentSaleInfo___2LkMa">
                                                 <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 50% - Luminarc Bộ Nồi Gốm Thủy Tinh</div>
-                                                <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                                <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                     <span className="end-time__timer___LMsIT">16 giờ</span></span></div>
                                             </div>
                                         </div>
@@ -424,7 +424,7 @@ class Home extends React.Component {
                                     <div className="sale-card__currentSaleInfo___2LkMa">
                                         <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 69% - James McCabe &amp; Thomas Earnshaw:
                   Đồng Hồ Nam</div>
-                                        <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                        <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                             <span className="end-time__timer___LMsIT">6 ngày</span></span></div>
                                     </div>
                                 </div>
@@ -433,7 +433,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd83d01efbad4926038241f.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd83d01efbad4926038241f.jpg 640w, https://images.leflair.vn/w1080/q85/5bd83d01efbad4926038241f.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd83d01efbad4926038241f.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 40% - Lotus Nệm Cao Cấp" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 40% - Lotus Nệm Cao Cấp</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">6 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -443,7 +443,7 @@ class Home extends React.Component {
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 53% - Fila Thời Trang &amp; Giày Thể Thao
                   Nam, Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">6 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -452,7 +452,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd84328efbad42946382656.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd84328efbad42946382656.jpg 640w, https://images.leflair.vn/w1080/q85/5bd84328efbad42946382656.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd84328efbad42946382656.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Calvin Klein, Dkny, Tommy Hilfiger..." /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Calvin Klein, Dkny, Tommy Hilfiger...</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">6 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -462,7 +462,7 @@ class Home extends React.Component {
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giorgio Armani &amp; Giorgio Ferri: Kính Mát Nam,
                   Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">6 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -471,7 +471,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd68e407cf0473662488796.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd68e407cf0473662488796.jpg 640w, https://images.leflair.vn/w1080/q85/5bd68e407cf0473662488796.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd68e407cf0473662488796.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="MIP, BOOKKI, COSMETEA" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">MIP, BOOKKI, COSMETEA</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">6 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -480,7 +480,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd81f7177f2253c0cd8e034.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd81f7177f2253c0cd8e034.jpg 640w, https://images.leflair.vn/w1080/q85/5bd81f7177f2253c0cd8e034.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd81f7177f2253c0cd8e034.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 50% - Windsir® Bộ Drap & Chăn" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 50% - Windsir® Bộ Drap &amp; Chăn</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">6 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -490,7 +490,7 @@ class Home extends React.Component {
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 58% - Les Georgettes Paris Phụ Kiện Trang
                   Sức Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">6 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -499,7 +499,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6cbdd3d41613a1ac1ad90.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd6cbdd3d41613a1ac1ad90.jpg 640w, https://images.leflair.vn/w1080/q85/5bd6cbdd3d41613a1ac1ad90.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd6cbdd3d41613a1ac1ad90.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Fresh & Feel Mỹ Phẩm Chăm Sóc Tóc & Cơ Thể" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Fresh &amp; Feel Mỹ Phẩm Chăm Sóc Tóc &amp; Cơ Thể</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">6 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -508,7 +508,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd7d5b777f22509ead8c3be.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd7d5b777f22509ead8c3be.jpg 640w, https://images.leflair.vn/w1080/q85/5bd7d5b777f22509ead8c3be.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd7d5b777f22509ead8c3be.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Tiniboo Thời Trang Trẻ Em" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Tiniboo Thời Trang Trẻ Em</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">6 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -517,7 +517,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6b6457cf0470f5e488c09.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd6b6457cf0470f5e488c09.jpg 640w, https://images.leflair.vn/w1080/q85/5bd6b6457cf0470f5e488c09.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd6b6457cf0470f5e488c09.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Philips, Panasonic, Elmich..." /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Philips, Panasonic, Elmich...</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">6 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -526,7 +526,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd84219ec2d4454f201a9c9.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd84219ec2d4454f201a9c9.jpg 640w, https://images.leflair.vn/w1080/q85/5bd84219ec2d4454f201a9c9.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd84219ec2d4454f201a9c9.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Pretty Mỹ Phẩm Cao Cấp" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Pretty Mỹ Phẩm Cao Cấp</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">6 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -535,7 +535,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd84348056301de7ea86236.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd84348056301de7ea86236.jpg 640w, https://images.leflair.vn/w1080/q85/5bd84348056301de7ea86236.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd84348056301de7ea86236.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Para'kito Viên Chống Muỗi" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Para'kito Viên Chống Muỗi</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">6 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -544,7 +544,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd7eac177f22500bed8d130.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd7eac177f22500bed8d130.jpg 640w, https://images.leflair.vn/w1080/q85/5bd7eac177f22500bed8d130.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd7eac177f22500bed8d130.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Tiross Đồ Gia Dụng" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Tiross Đồ Gia Dụng</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">6 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -553,7 +553,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd839570563016512a8619b.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd839570563016512a8619b.jpg 640w, https://images.leflair.vn/w1080/q85/5bd839570563016512a8619b.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd839570563016512a8619b.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 47% - Kyocera Đồ Dùng Nhà Bếp Từ Nhật Bản" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 47% - Kyocera Đồ Dùng Nhà Bếp Từ Nhật Bản</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">6 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -562,7 +562,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd83f630563017b45a86206.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd83f630563017b45a86206.jpg 640w, https://images.leflair.vn/w1080/q85/5bd83f630563017b45a86206.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd83f630563017b45a86206.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Pensonic, Cuchen, Aqua,..." /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Pensonic, Cuchen, Aqua,...</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">6 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -571,7 +571,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6c2473bc93302b999c259.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd6c2473bc93302b999c259.jpg 640w, https://images.leflair.vn/w1080/q85/5bd6c2473bc93302b999c259.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd6c2473bc93302b999c259.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 59% - Olv Boutique Thời Trang Nữ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 59% - Olv Boutique Thời Trang Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">6 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -580,7 +580,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd696377cf0477eba488891.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd696377cf0477eba488891.jpg 640w, https://images.leflair.vn/w1080/q85/5bd696377cf0477eba488891.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd696377cf0477eba488891.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Idigo Balo & Túi Thời Trang Nữ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Idigo Balo &amp; Túi Thời Trang Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">6 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -589,7 +589,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd90ebc3a7bff63c1c00d79.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd90ebc3a7bff63c1c00d79.jpg 640w, https://images.leflair.vn/w1080/q85/5bd90ebc3a7bff63c1c00d79.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd90ebc3a7bff63c1c00d79.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="C'est La V Thời Trang Nữ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">C'est La V Thời Trang Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">6 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -598,7 +598,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd80d4f77f2255c05d8d883.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd80d4f77f2255c05d8d883.jpg 640w, https://images.leflair.vn/w1080/q85/5bd80d4f77f2255c05d8d883.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd80d4f77f2255c05d8d883.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Uriage Mỹ Phẩm Chăm Sóc Da" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Uriage Mỹ Phẩm Chăm Sóc Da</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">6 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -607,7 +607,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6ec562cd7970ba564b1e5.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd6ec562cd7970ba564b1e5.jpg 640w, https://images.leflair.vn/w1080/q85/5bd6ec562cd7970ba564b1e5.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd6ec562cd7970ba564b1e5.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 69% - Burgi Đồng Hồ Nữ Thời Trang" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 69% - Burgi Đồng Hồ Nữ Thời Trang</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -617,7 +617,7 @@ class Home extends React.Component {
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Giá Độc Quyền Tại Leflair - Versace &amp;
                   Salvatore Ferragamo: Nước Hoa Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -627,7 +627,7 @@ class Home extends React.Component {
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 69% - Fitflop Giày Dép Thời Trang Nam
                   &amp; Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -636,7 +636,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6c4e57cf047c6d8488d4a.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd6c4e57cf047c6d8488d4a.jpg 640w, https://images.leflair.vn/w1080/q85/5bd6c4e57cf047c6d8488d4a.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd6c4e57cf047c6d8488d4a.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 53% - Kính Mát Nữ: Fendi, Mcm" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 53% - Kính Mát Nữ: Fendi, Mcm</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -645,7 +645,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6ea232dd83a5ece168271.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd6ea232dd83a5ece168271.jpg 640w, https://images.leflair.vn/w1080/q85/5bd6ea232dd83a5ece168271.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd6ea232dd83a5ece168271.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Cellini Giày & Túi Xách Nam, Nữ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Cellini Giày &amp; Túi Xách Nam, Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -654,7 +654,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd43f47c2d2e53d0817f943.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd43f47c2d2e53d0817f943.jpg 640w, https://images.leflair.vn/w1080/q85/5bd43f47c2d2e53d0817f943.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd43f47c2d2e53d0817f943.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="NoTS Mỹ Phẩm Dưỡng Da Toàn Diện" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">NoTS Mỹ Phẩm Dưỡng Da Toàn Diện</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -664,7 +664,7 @@ class Home extends React.Component {
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 70% - Flonal &amp; Tramontina: Nồi, Chảo,
                   Dao</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -673,7 +673,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd7b8f8b16f63800440052b.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd7b8f8b16f63800440052b.jpg 640w, https://images.leflair.vn/w1080/q85/5bd7b8f8b16f63800440052b.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd7b8f8b16f63800440052b.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 54% - Gọng Kính Nam & Nữ: Fendi, Mcm" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 54% - Gọng Kính Nam &amp; Nữ: Fendi, Mcm</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -684,7 +684,7 @@ class Home extends React.Component {
                                         </div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 40% - Sharp Thiết Bị Gia Dụng Nhà Bếp</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -696,7 +696,7 @@ class Home extends React.Component {
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Dụng Cụ Trang Điểm &amp; Chăm Sóc Sức Khỏe: Rio,
                   Waterpulse</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -707,7 +707,7 @@ class Home extends React.Component {
                                         </div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Guess Trang Sức Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -716,7 +716,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6cf333d41615dffc1b2d1.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd6cf333d41615dffc1b2d1.jpg 640w, https://images.leflair.vn/w1080/q85/5bd6cf333d41615dffc1b2d1.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd6cf333d41615dffc1b2d1.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Lần Đầu Tại Leflair - IVV Đồ Dùng Bàn Ăn Từ Nước Ý" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Lần Đầu Tại Leflair - IVV Đồ Dùng Bàn Ăn Từ Nước Ý</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -725,7 +725,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6e3ff0d0a02e9d62600e7.png" srcSet="https://images.leflair.vn/w640/q85/5bd6e3ff0d0a02e9d62600e7.png 640w, https://images.leflair.vn/w1080/q85/5bd6e3ff0d0a02e9d62600e7.png 1080w, https://images.leflair.vn/w1440/q85/5bd6e3ff0d0a02e9d62600e7.png 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Speedo Đồ Bơi Gia Đình" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Speedo Đồ Bơi Gia Đình</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -734,7 +734,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6aa9a7cf047c5b54889ab.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd6aa9a7cf047c5b54889ab.jpg 640w, https://images.leflair.vn/w1080/q85/5bd6aa9a7cf047c5b54889ab.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd6aa9a7cf047c5b54889ab.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Calvin Klein, Tommy Hilfiger,..." /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Calvin Klein, Tommy Hilfiger,...</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -743,7 +743,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6dcfde50f80ef3fb11505.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd6dcfde50f80ef3fb11505.jpg 640w, https://images.leflair.vn/w1080/q85/5bd6dcfde50f80ef3fb11505.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd6dcfde50f80ef3fb11505.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Lần Đầu Tại Leflair - Skin Nation Mỹ Phẩm Dưỡng Da" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Lần Đầu Tại Leflair - Skin Nation Mỹ Phẩm Dưỡng Da</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -752,7 +752,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6bd043bc933bfd499c1bf.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd6bd043bc933bfd499c1bf.jpg 640w, https://images.leflair.vn/w1080/q85/5bd6bd043bc933bfd499c1bf.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd6bd043bc933bfd499c1bf.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 54% - Vii House Bộ Drap & Chăn" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 54% - Vii House Bộ Drap &amp; Chăn</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -761,7 +761,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd4182950cfa99baee02495.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd4182950cfa99baee02495.jpg 640w, https://images.leflair.vn/w1080/q85/5bd4182950cfa99baee02495.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd4182950cfa99baee02495.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 78% - Libbey Đồ Dùng Bàn Ăn" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 78% - Libbey Đồ Dùng Bàn Ăn</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -770,7 +770,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd307bbc07c398ce0f636db.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd307bbc07c398ce0f636db.jpg 640w, https://images.leflair.vn/w1080/q85/5bd307bbc07c398ce0f636db.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd307bbc07c398ce0f636db.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Novelle Bộ Drap & Chăn Phòng Ngủ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Novelle Bộ Drap &amp; Chăn Phòng Ngủ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -779,7 +779,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd3fa6c045f2c8115a6cd78.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd3fa6c045f2c8115a6cd78.jpg 640w, https://images.leflair.vn/w1080/q85/5bd3fa6c045f2c8115a6cd78.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd3fa6c045f2c8115a6cd78.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Domani Giày Thời Trang Nữ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Domani Giày Thời Trang Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -788,7 +788,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd3e455045f2cf707a6cd2c.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd3e455045f2cf707a6cd2c.jpg 640w, https://images.leflair.vn/w1080/q85/5bd3e455045f2cf707a6cd2c.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd3e455045f2cf707a6cd2c.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Graziella Túi, Bóp & Ví Thời Trang Nữ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Graziella Túi, Bóp &amp; Ví Thời Trang Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -797,7 +797,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd08cc622064a0001fa488c.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd08cc622064a0001fa488c.jpg 640w, https://images.leflair.vn/w1080/q85/5bd08cc622064a0001fa488c.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd08cc622064a0001fa488c.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Celin Vật Phẩm Trang Trí Mạ Vàng 24K" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Celin Vật Phẩm Trang Trí Mạ Vàng 24K</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -806,7 +806,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd42766c2d2e5d77d17f914.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd42766c2d2e5d77d17f914.jpg 640w, https://images.leflair.vn/w1080/q85/5bd42766c2d2e5d77d17f914.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd42766c2d2e5d77d17f914.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Yves Rocher Mỹ Phẩm & Chăm Sóc Da" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Yves Rocher Mỹ Phẩm &amp; Chăm Sóc Da</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -816,7 +816,7 @@ class Home extends React.Component {
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Lần Đầu Tại Leflair - Graceful Trang Sức Phong
                   Thủy</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -825,7 +825,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd40f2f0f102237deb9ecc8.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd40f2f0f102237deb9ecc8.jpg 640w, https://images.leflair.vn/w1080/q85/5bd40f2f0f102237deb9ecc8.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd40f2f0f102237deb9ecc8.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Hector, andLAB, Angellook..." /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Hector, andLAB, Angellook...</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -834,7 +834,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd406e8045f2c1312a6cdc5.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd406e8045f2c1312a6cdc5.jpg 640w, https://images.leflair.vn/w1080/q85/5bd406e8045f2c1312a6cdc5.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd406e8045f2c1312a6cdc5.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Sukin Chăm Sóc Toàn Thân Cho Cả Gia Đình" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Sukin Chăm Sóc Toàn Thân Cho Cả Gia Đình</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -843,7 +843,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd435a9bfaa18df05e62d16.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd435a9bfaa18df05e62d16.jpg 640w, https://images.leflair.vn/w1080/q85/5bd435a9bfaa18df05e62d16.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd435a9bfaa18df05e62d16.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Thời Trang Cho Cả Gia Đình: Mimi, Nature Colored" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Thời Trang Cho Cả Gia Đình: Mimi, Nature Colored</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -853,7 +853,7 @@ class Home extends React.Component {
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 60% - Stormtech Thời Trang &amp; Túi Xách
                   Nam, Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -863,7 +863,7 @@ class Home extends React.Component {
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Lần Đầu Tại Leflair - Giảm Đến 44% - Cole &amp;
                   Mason Đồ Dùng Nhà Bếp</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -872,7 +872,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd3db63045f2cf9b2a6cd19.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd3db63045f2cf9b2a6cd19.jpg 640w, https://images.leflair.vn/w1080/q85/5bd3db63045f2cf9b2a6cd19.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd3db63045f2cf9b2a6cd19.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Elo, Fivestar, Ilo" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Elo, Fivestar, Ilo</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -882,7 +882,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd427e350cfa9f5a3e024a0.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd427e350cfa9f5a3e024a0.jpg 640w, https://images.leflair.vn/w1080/q85/5bd427e350cfa9f5a3e024a0.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd427e350cfa9f5a3e024a0.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="The Dancing Jewels Thời Trang Nữ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">The Dancing Jewels Thời Trang Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">16 giờ</span></span></div>
                                         </div>
                                     </div>
@@ -893,7 +893,7 @@ class Home extends React.Component {
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 60% - Aldo Ví &amp; Phụ Kiện Thời Trang
                   Từ Canada</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">16 giờ</span></span></div>
                                         </div>
                                     </div>
@@ -902,7 +902,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd310ce3ff63137171caf2f.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd310ce3ff63137171caf2f.jpg 640w, https://images.leflair.vn/w1080/q85/5bd310ce3ff63137171caf2f.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd310ce3ff63137171caf2f.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Ferroli, Cuchen, Tiger Queen..." /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Ferroli, Cuchen, Tiger Queen...</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -911,7 +911,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd3ef4050cfa93d84e02443.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd3ef4050cfa93d84e02443.jpg 640w, https://images.leflair.vn/w1080/q85/5bd3ef4050cfa93d84e02443.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd3ef4050cfa93d84e02443.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Graziella Trang Sức Nữ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Graziella Trang Sức Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -920,7 +920,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd4186f50cfa99a91e02497.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd4186f50cfa99a91e02497.jpg 640w, https://images.leflair.vn/w1080/q85/5bd4186f50cfa99a91e02497.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd4186f50cfa99a91e02497.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 55% - Calvin Klein Kính Mát Nam, Nữ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 55% - Calvin Klein Kính Mát Nam, Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -929,7 +929,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd4230ac2d2e54ba617f90d.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd4230ac2d2e54ba617f90d.jpg 640w, https://images.leflair.vn/w1080/q85/5bd4230ac2d2e54ba617f90d.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd4230ac2d2e54ba617f90d.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 54% - Calvin Klein Gọng Kính Thời Trang" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 54% - Calvin Klein Gọng Kính Thời Trang</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -938,7 +938,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd402250f10228237b9ec7c.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd402250f10228237b9ec7c.jpg 640w, https://images.leflair.vn/w1080/q85/5bd402250f10228237b9ec7c.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd402250f10228237b9ec7c.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Glamful Mỹ Phẩm Trang Điểm" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Glamful Mỹ Phẩm Trang Điểm</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -948,7 +948,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd4371fc2d2e5285617f932.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd4371fc2d2e5285617f932.jpg 640w, https://images.leflair.vn/w1080/q85/5bd4371fc2d2e5285617f932.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd4371fc2d2e5285617f932.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 70% - August Society Đồ Bơi Nữ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 70% - August Society Đồ Bơi Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">16 giờ</span></span></div>
                                         </div>
                                     </div>
@@ -957,7 +957,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd3ed0250cfa9c23ee02431.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd3ed0250cfa9c23ee02431.jpg 640w, https://images.leflair.vn/w1080/q85/5bd3ed0250cfa9c23ee02431.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd3ed0250cfa9c23ee02431.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Venice Đồng Hồ Nam & Nữ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Venice Đồng Hồ Nam &amp; Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -966,7 +966,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd3f0de045f2cf622a6cd6f.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd3f0de045f2cf622a6cd6f.jpg 640w, https://images.leflair.vn/w1080/q85/5bd3f0de045f2cf622a6cd6f.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd3f0de045f2cf622a6cd6f.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="dieuAnh Thời Trang Nữ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">dieuAnh Thời Trang Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -975,7 +975,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2cef3c3be2733afd5bfe9.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2cef3c3be2733afd5bfe9.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2cef3c3be2733afd5bfe9.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2cef3c3be2733afd5bfe9.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 71% - Lily Jewelry Trang Sức Nữ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 71% - Lily Jewelry Trang Sức Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -985,7 +985,7 @@ class Home extends React.Component {
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Lần Đầu Tại Leflair - Giảm Đến 49% Wüsthof Bộ Dao,
                   Kéo</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -994,7 +994,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd30ec5c07c397452f636f5.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd30ec5c07c397452f636f5.jpg 640w, https://images.leflair.vn/w1080/q85/5bd30ec5c07c397452f636f5.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd30ec5c07c397452f636f5.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Su:m37° Mỹ Phẩm & Chăm Sóc Da" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Su:m37° Mỹ Phẩm &amp; Chăm Sóc Da</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1003,7 +1003,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd3e34a045f2c76c0a6cd27.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd3e34a045f2c76c0a6cd27.jpg 640w, https://images.leflair.vn/w1080/q85/5bd3e34a045f2c76c0a6cd27.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd3e34a045f2c76c0a6cd27.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Quay Australia Kính Mát Nam & Nữ Từ Úc" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Quay Australia Kính Mát Nam &amp; Nữ Từ Úc</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1012,7 +1012,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd30809c07c397d4cf636de.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd30809c07c397d4cf636de.jpg 640w, https://images.leflair.vn/w1080/q85/5bd30809c07c397d4cf636de.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd30809c07c397d4cf636de.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Nike, El Camino, Dsquared²..." /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Nike, El Camino, Dsquared²...</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1021,7 +1021,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2f5fffe928b61fb64ee03.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2f5fffe928b61fb64ee03.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2f5fffe928b61fb64ee03.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2f5fffe928b61fb64ee03.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 53% - Lily Jewelry Cài Áo" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 53% - Lily Jewelry Cài Áo</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1030,7 +1030,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2e6aca46c6d1f05596048.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2e6aca46c6d1f05596048.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2e6aca46c6d1f05596048.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2e6aca46c6d1f05596048.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Levi's®, Reebok: Kính Mát Nam & Nữ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Levi's®, Reebok: Kính Mát Nam &amp; Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1039,7 +1039,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd304103ff63162be1caf2c.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd304103ff63162be1caf2c.jpg 640w, https://images.leflair.vn/w1080/q85/5bd304103ff63162be1caf2c.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd304103ff63162be1caf2c.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Korihome®, Sakura, Kiwa" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Korihome®, Sakura, Kiwa</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1049,7 +1049,7 @@ class Home extends React.Component {
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 48% - King Koil Nệm &amp; Khung Giường
                   Cao Cấp</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1058,7 +1058,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2c141dc461759a5dccc16.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2c141dc461759a5dccc16.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2c141dc461759a5dccc16.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2c141dc461759a5dccc16.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Kelly Son Môi & Nước Hoa Cao Cấp" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Kelly Son Môi &amp; Nước Hoa Cao Cấp</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1067,7 +1067,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2db2ac3be2762efd5c403.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2db2ac3be2762efd5c403.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2db2ac3be2762efd5c403.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2db2ac3be2762efd5c403.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 56% - Haewon Style Bộ Drap & Chăn" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 56% - Haewon Style Bộ Drap &amp; Chăn</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1076,7 +1076,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd30535c07c394646f636d7.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd30535c07c394646f636d7.jpg 640w, https://images.leflair.vn/w1080/q85/5bd30535c07c394646f636d7.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd30535c07c394646f636d7.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Alivy Thời Trang Nữ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Alivy Thời Trang Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1085,7 +1085,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd18b38021e58000172c458.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd18b38021e58000172c458.jpg 640w, https://images.leflair.vn/w1080/q85/5bd18b38021e58000172c458.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd18b38021e58000172c458.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Else.Instyle Thời Trang Nữ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Else.Instyle Thời Trang Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1094,7 +1094,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2feec99034006b2f181f4.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2feec99034006b2f181f4.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2feec99034006b2f181f4.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2feec99034006b2f181f4.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 57% - Paul's Boutique Túi Thời Trang Nữ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 57% - Paul's Boutique Túi Thời Trang Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1103,7 +1103,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2c930cc9f046106233236.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2c930cc9f046106233236.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2c930cc9f046106233236.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2c930cc9f046106233236.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Doma Vali Du Lịch" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Doma Vali Du Lịch</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1112,7 +1112,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2e369c3be27602ed5c816.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2e369c3be27602ed5c816.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2e369c3be27602ed5c816.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2e369c3be27602ed5c816.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 60% - Atlantic Đồng Hồ Nam, Nữ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 60% - Atlantic Đồng Hồ Nam, Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1121,7 +1121,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd04020b51072000186990b.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd04020b51072000186990b.jpg 640w, https://images.leflair.vn/w1080/q85/5bd04020b51072000186990b.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd04020b51072000186990b.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Holster Australia® Giày Thời Trang Nữ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Holster Australia® Giày Thời Trang Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1130,7 +1130,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2f576fe928bc05664ed99.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2f576fe928bc05664ed99.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2f576fe928bc05664ed99.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2f576fe928bc05664ed99.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Seesee & Huxley: Chăm Sóc Da Cao Cấp" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Seesee &amp; Huxley: Chăm Sóc Da Cao Cấp</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1139,7 +1139,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd1813657a8ba0001f7f618.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd1813657a8ba0001f7f618.jpg 640w, https://images.leflair.vn/w1080/q85/5bd1813657a8ba0001f7f618.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd1813657a8ba0001f7f618.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Chăm Sóc Da & Tóc: Jacklon, Broo" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Chăm Sóc Da &amp; Tóc: Jacklon, Broo</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1148,7 +1148,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bc976c98bfb3000019ee916.jpg" srcSet="https://images.leflair.vn/w640/q85/5bc976c98bfb3000019ee916.jpg 640w, https://images.leflair.vn/w1080/q85/5bc976c98bfb3000019ee916.jpg 1080w, https://images.leflair.vn/w1440/q85/5bc976c98bfb3000019ee916.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Organique Mỹ Phẩm Chăm Sóc Da" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Organique Mỹ Phẩm Chăm Sóc Da</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1157,7 +1157,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2c3e6dc46179e78dccdf3.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2c3e6dc46179e78dccdf3.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2c3e6dc46179e78dccdf3.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2c3e6dc46179e78dccdf3.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 64% - Mande Thời Trang Nữ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 64% - Mande Thời Trang Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">2 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1166,7 +1166,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2becfdc461733cadccbed.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2becfdc461733cadccbed.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2becfdc461733cadccbed.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2becfdc461733cadccbed.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="O Hui Mỹ Phẩm & Chăm Sóc Da" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">O Hui Mỹ Phẩm &amp; Chăm Sóc Da</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">2 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1175,7 +1175,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2b0feb57df39b943c591d.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2b0feb57df39b943c591d.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2b0feb57df39b943c591d.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2b0feb57df39b943c591d.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 53% - Venuco Madrid Balo, Túi Mini" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 53% - Venuco Madrid Balo, Túi Mini</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">2 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1184,7 +1184,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2989fb57df38d933c57c9.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2989fb57df38d933c57c9.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2989fb57df38d933c57c9.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2989fb57df38d933c57c9.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 74% - Venuco Madrid Ví & Phụ Kiện Nữ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 74% - Venuco Madrid Ví &amp; Phụ Kiện Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">2 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1193,7 +1193,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd1a381810fe400019a913e.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd1a381810fe400019a913e.jpg 640w, https://images.leflair.vn/w1080/q85/5bd1a381810fe400019a913e.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd1a381810fe400019a913e.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Meditime - Neo Mỹ Phẩm Chăm Sóc Da" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Meditime - Neo Mỹ Phẩm Chăm Sóc Da</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">2 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1202,7 +1202,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2b8ffba14fa35dbf2d223.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2b8ffba14fa35dbf2d223.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2b8ffba14fa35dbf2d223.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2b8ffba14fa35dbf2d223.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Toto, Tulip, Fountain" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Toto, Tulip, Fountain</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">2 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1211,7 +1211,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd0b78b22064a0001fa488f.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd0b78b22064a0001fa488f.jpg 640w, https://images.leflair.vn/w1080/q85/5bd0b78b22064a0001fa488f.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd0b78b22064a0001fa488f.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Scentuals Chăm Sóc Da & Cơ Thể" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Scentuals Chăm Sóc Da &amp; Cơ Thể</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">2 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1220,7 +1220,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2ebc4df505cfd0f55797a.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2ebc4df505cfd0f55797a.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2ebc4df505cfd0f55797a.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2ebc4df505cfd0f55797a.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Borgonovi, Airlite, Gip..." /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Borgonovi, Airlite, Gip...</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">2 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1229,7 +1229,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd1b36b021e58000172d138.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd1b36b021e58000172d138.jpg 640w, https://images.leflair.vn/w1080/q85/5bd1b36b021e58000172d138.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd1b36b021e58000172d138.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Polaroid, Sunday, Woodzee..." /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Polaroid, Sunday, Woodzee...</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">2 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1239,7 +1239,7 @@ class Home extends React.Component {
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 60% - Geparlys, Paris Elysees: Nước Hoa
                   Nữ &amp; Nam</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">2 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1248,7 +1248,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2cd51fe1916ebaad4d8ad.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2cd51fe1916ebaad4d8ad.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2cd51fe1916ebaad4d8ad.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2cd51fe1916ebaad4d8ad.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Vichy Chăm Sóc Da" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Vichy Chăm Sóc Da</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">2 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1257,7 +1257,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2e82bf8a1c6dba5ee6454.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2e82bf8a1c6dba5ee6454.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2e82bf8a1c6dba5ee6454.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2e82bf8a1c6dba5ee6454.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Likini Đồ Bơi Nữ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Likini Đồ Bơi Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">2 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1266,7 +1266,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2e9c05ab4ddd2bd1ebd52.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2e9c05ab4ddd2bd1ebd52.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2e9c05ab4ddd2bd1ebd52.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2e9c05ab4ddd2bd1ebd52.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 87% - Venuco Madrid Túi Thời Trang" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 87% - Venuco Madrid Túi Thời Trang</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">2 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1275,7 +1275,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd191ce021e58000172c8be.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd191ce021e58000172c8be.jpg 640w, https://images.leflair.vn/w1080/q85/5bd191ce021e58000172c8be.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd191ce021e58000172c8be.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 54% - Fastrack Đồng Hồ Nam, Nữ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 54% - Fastrack Đồng Hồ Nam, Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">2 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1284,7 +1284,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd183c7021e58000172c3d0.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd183c7021e58000172c3d0.jpg 640w, https://images.leflair.vn/w1080/q85/5bd183c7021e58000172c3d0.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd183c7021e58000172c3d0.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Storm Đồng Hồ Nam & Nữ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Storm Đồng Hồ Nam &amp; Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">2 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1294,7 +1294,7 @@ class Home extends React.Component {
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 54% - Royal Walk &amp; Scala: Giày, Dép
                   Thời Trang Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">2 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1303,7 +1303,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd168b6b24be90001159b1b.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd168b6b24be90001159b1b.jpg 640w, https://images.leflair.vn/w1080/q85/5bd168b6b24be90001159b1b.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd168b6b24be90001159b1b.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Goldsun, Prosun, Disney Eyewear..." /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Goldsun, Prosun, Disney Eyewear...</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">2 ngày</span></span></div>
                                         </div>
                                     </div>
@@ -1313,7 +1313,7 @@ class Home extends React.Component {
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 50% - Lock &amp; Lock Điện Gia Dụng &amp;
                   Nhà Bếp</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">16 giờ</span></span></div>
                                         </div>
                                     </div>
@@ -1322,7 +1322,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd1a724810fe400019a9306.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd1a724810fe400019a9306.jpg 640w, https://images.leflair.vn/w1080/q85/5bd1a724810fe400019a9306.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd1a724810fe400019a9306.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 49% - AZP Nội Thất Nhà Ở & Văn Phòng" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 49% - AZP Nội Thất Nhà Ở &amp; Văn Phòng</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">16 giờ</span></span></div>
                                         </div>
                                     </div>
@@ -1331,7 +1331,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd15fe257a8ba0001f7f451.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd15fe257a8ba0001f7f451.jpg 640w, https://images.leflair.vn/w1080/q85/5bd15fe257a8ba0001f7f451.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd15fe257a8ba0001f7f451.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 72% - Adidas Thời Trang Nữ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 72% - Adidas Thời Trang Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">16 giờ</span></span></div>
                                         </div>
                                     </div>
@@ -1340,7 +1340,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd0430622064a0001fa3aed.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd0430622064a0001fa3aed.jpg 640w, https://images.leflair.vn/w1080/q85/5bd0430622064a0001fa3aed.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd0430622064a0001fa3aed.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Adidas Giày Thể Thao Nữ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Adidas Giày Thể Thao Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">16 giờ</span></span></div>
                                         </div>
                                     </div>
@@ -1349,7 +1349,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd04c9fb510720001869c93.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd04c9fb510720001869c93.jpg 640w, https://images.leflair.vn/w1080/q85/5bd04c9fb510720001869c93.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd04c9fb510720001869c93.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Adidas & Adidas Original: Giày Thể Thao Nam" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Adidas &amp; Adidas Original: Giày Thể Thao Nam</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">16 giờ</span></span></div>
                                         </div>
                                     </div>
@@ -1358,7 +1358,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd1847cb24be90001159c99.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd1847cb24be90001159c99.jpg 640w, https://images.leflair.vn/w1080/q85/5bd1847cb24be90001159c99.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd1847cb24be90001159c99.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Whoo Chăm Sóc Da Cao Cấp" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Whoo Chăm Sóc Da Cao Cấp</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">16 giờ</span></span></div>
                                         </div>
                                     </div>
@@ -1367,7 +1367,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd14798021e58000172b9de.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd14798021e58000172b9de.jpg 640w, https://images.leflair.vn/w1080/q85/5bd14798021e58000172b9de.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd14798021e58000172b9de.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Adidas Thời Trang Nam" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Adidas Thời Trang Nam</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">16 giờ</span></span></div>
                                         </div>
                                     </div>
@@ -1377,7 +1377,7 @@ class Home extends React.Component {
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Lần Đầu Tại Leflair - Giảm Đến 63% Über Đồ Dùng
                   Quầy Bar</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">16 giờ</span></span></div>
                                         </div>
                                     </div>
@@ -1386,7 +1386,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd143f1021e58000172b901.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd143f1021e58000172b901.jpg 640w, https://images.leflair.vn/w1080/q85/5bd143f1021e58000172b901.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd143f1021e58000172b901.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Tigo, Dr.Oz, Happy Smile..." /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Tigo, Dr.Oz, Happy Smile...</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">16 giờ</span></span></div>
                                         </div>
                                     </div>
@@ -1395,7 +1395,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bcdb56aa9afb70001033fe4.png" srcSet="https://images.leflair.vn/w640/q85/5bcdb56aa9afb70001033fe4.png 640w, https://images.leflair.vn/w1080/q85/5bcdb56aa9afb70001033fe4.png 1080w, https://images.leflair.vn/w1440/q85/5bcdb56aa9afb70001033fe4.png 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 50% - Desigual Thời Trang Nữ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 50% - Desigual Thời Trang Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">16 giờ</span></span></div>
                                         </div>
                                     </div>
@@ -1404,7 +1404,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd1643d021e58000172bdbd.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd1643d021e58000172bdbd.jpg 640w, https://images.leflair.vn/w1080/q85/5bd1643d021e58000172bdbd.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd1643d021e58000172bdbd.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 58% - Florent Bộ Drap & Chăn" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 58% - Florent Bộ Drap &amp; Chăn</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">16 giờ</span></span></div>
                                         </div>
                                     </div>
@@ -1413,7 +1413,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd1b52d021e58000172d13a.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd1b52d021e58000172d13a.jpg 640w, https://images.leflair.vn/w1080/q85/5bd1b52d021e58000172d13a.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd1b52d021e58000172d13a.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Solo, AGVA: Túi & Balo" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Solo, AGVA: Túi &amp; Balo</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">16 giờ</span></span></div>
                                         </div>
                                     </div>
@@ -1423,7 +1423,7 @@ class Home extends React.Component {
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 55% - Diesel &amp; Adidas: Đồng Hồ Nam,
                   Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">16 giờ</span></span></div>
                                         </div>
                                     </div>
@@ -1432,7 +1432,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd1aa78b24be9000115a0d1.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd1aa78b24be9000115a0d1.jpg 640w, https://images.leflair.vn/w1080/q85/5bd1aa78b24be9000115a0d1.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd1aa78b24be9000115a0d1.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Lynn's Trang Sức Ngọc Trai" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Lynn's Trang Sức Ngọc Trai</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">16 giờ</span></span></div>
                                         </div>
                                     </div>
@@ -1441,7 +1441,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd14804021e58000172b9ec.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd14804021e58000172b9ec.jpg 640w, https://images.leflair.vn/w1080/q85/5bd14804021e58000172b9ec.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd14804021e58000172b9ec.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Bolon Gọng, Kính Mát Nam & Nữ" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Bolon Gọng, Kính Mát Nam &amp; Nữ</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">16 giờ</span></span></div>
                                         </div>
                                     </div>
@@ -1450,7 +1450,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd16283b24be90001159ad6.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd16283b24be90001159ad6.jpg 640w, https://images.leflair.vn/w1080/q85/5bd16283b24be90001159ad6.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd16283b24be90001159ad6.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Annayake Mỹ Phẩm Trang Điểm" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Annayake Mỹ Phẩm Trang Điểm</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">16 giờ</span></span></div>
                                         </div>
                                     </div>
@@ -1459,7 +1459,7 @@ class Home extends React.Component {
                                         <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bcdbe679eaacb0001499296.png" srcSet="https://images.leflair.vn/w640/q85/5bcdbe679eaacb0001499296.png 640w, https://images.leflair.vn/w1080/q85/5bcdbe679eaacb0001499296.png 1080w, https://images.leflair.vn/w1440/q85/5bcdbe679eaacb0001499296.png 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Dugena Đồng Hồ Nữ & Nam" /></div>
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Dugena Đồng Hồ Nữ &amp; Nam</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">16 giờ</span></span></div>
                                         </div>
                                     </div>
@@ -1469,7 +1469,7 @@ class Home extends React.Component {
                                         <div className="sale-card__currentSaleInfo___2LkMa">
                                             <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 30% - Hitachi: Nồi Cơm, Máy Hút Bụi, Máy
                   Lọc Không Khí</div>
-                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span>
+                                            <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                                                 <span className="end-time__timer___LMsIT">16 giờ</span></span></div>
                                         </div>
                                     </div>
