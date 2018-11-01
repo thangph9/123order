@@ -1437,7 +1437,7 @@ input.subscription-form__form-control___hdjaw::-webkit-input-placeholder {
     user-select: none;
     border: 1px solid transparent;
     padding: .6875rem 2.5rem;
-    font-size: 1rem;
+    font-size: 15px;
     border-radius: 0;
     transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
 }
@@ -1830,13 +1830,13 @@ a.subscription-form__btn___2kh7f.subscription-form__disabled___2Lle0,fieldset[di
 
 .subscription-form__btn-lg___1H0gi {
     padding: .9375rem 2.813rem;
-    font-size: 1rem;
+    font-size: 15px;
     border-radius: 0
 }
 
 .subscription-form__btn-sm___MVoWe {
     padding: .4375rem 1.25rem;
-    font-size: .875rem;
+    font-size: 14px;
     border-radius: 0
 }
 
@@ -9208,14 +9208,14 @@ input.product-info__form-control___2Uy_-::-webkit-input-placeholder {
 }
 
 .product-info__title___2J672 {
-    font-size: 1.25rem!important;
+    font-size: 15px!important;
     color: #4e595d;
     font-weight: 400
 }
 
 @media (max-width: 767px) {
     .product-info__title___2J672 {
-        font-size:1.25rem;
+        font-size:15px;
         margin-bottom: 2px
     }
 }
@@ -9224,14 +9224,14 @@ input.product-info__form-control___2Uy_-::-webkit-input-placeholder {
     color: rgba(78,89,93,.7);
     font-weight: 400;
     text-decoration: line-through;
-    font-size: 1.25rem;
+    font-size: 15px;
     padding-right: 8px
 }
 
 .product-info__sale-price___1unp2 {
     color: #16accf;
     font-weight: 700;
-    font-size: 1.5rem
+    font-size: 16px
 }
 
 .color-variations__btn-primary___2ndud.color-variations__active___a7wCv,.color-variations__btn-primary___2ndud.color-variations__active___a7wCv.color-variations__focus___37RbA,.color-variations__btn-primary___2ndud.color-variations__active___a7wCv:focus,.color-variations__btn-primary___2ndud.color-variations__active___a7wCv:hover,.color-variations__btn-primary___2ndud.color-variations__focus___37RbA:active,.color-variations__btn-primary___2ndud:active,.color-variations__btn-primary___2ndud:active:focus,.color-variations__btn-primary___2ndud:active:hover {
@@ -10008,7 +10008,7 @@ input.brand-info__form-control___1CO51::-webkit-input-placeholder {
 .brand-info__heading___EhwGa {
     margin-top: 18px;
     font-weight: 500;
-    font-size: 1.125rem
+    font-size: 15px
 }
 
 .brand-info__desc___19Dk4 {
@@ -14130,7 +14130,7 @@ input.product-card__form-control___2gY2Y::-webkit-input-placeholder {
 .product-card__soldOutOverlay___1lzrp .product-card__text___3OR8d {
     position: relative;
     color: #fff;
-    font-size: 1.75rem;
+    font-size: 17px;
     font-weight: 400;
     text-transform: uppercase;
     margin-top: 50%
@@ -14217,7 +14217,7 @@ input.product-card__form-control___2gY2Y::-webkit-input-placeholder {
 .product-card__salePrice___3PSWy {
     color: #16accf;
     font-weight: 700;
-    font-size: 1.125rem;
+    font-size: 15px;
     letter-spacing: -.86px
 }
 
@@ -28458,7 +28458,7 @@ input[type=button].sale__btn-block___O8koG,input[type=reset].sale__btn-block___O
 }
 
 .upcoming-sale__timer-container___1_El- {
-    font-size: 1.375rem;
+    font-size: 15.5px;
     line-height: 1.2;
     font-weight: 500;
     color: #4e595d;
@@ -28704,7 +28704,7 @@ input.upcoming-sale__form-control___fbg-2::-webkit-input-placeholder {
 @media (max-width: 767px) {
     .upcoming-sale__title___5PqFj {
         color:#4e595d;
-        font-size: 1.375rem;
+        font-size: 15.5px;
         margin-bottom: 8px
     }
 }
@@ -29379,7 +29379,7 @@ input[type=button].address-card__btn-block___z5zqz,input[type=reset].address-car
 }
 
 .addresses__pageTitle___1bYB6 {
-    font-size: 1.375rem;
+    font-size: 15.5px;
     line-height: 1.2;
     font-weight: 500;
     color: #4e595d;
@@ -36323,7 +36323,7 @@ input.create-address__form-control___2O-jG::-webkit-input-placeholder {
 
 .create-address__title___31HPx {
     margin-bottom: 0;
-    font-size: 1.5rem;
+    font-size: 16px;
     font-weight: 500
 }
 
@@ -37983,7 +37983,7 @@ input.edit-address__form-control___3VLck::-webkit-input-placeholder {
 
 .edit-address__title___2fS4C {
     margin-bottom: 0;
-    font-size: 1.5rem;
+    font-size: 15.5px;
     font-weight: 500
 }
 
@@ -38585,7 +38585,7 @@ input[type=button].card__btn-block___2Qc8K,input[type=reset].card__btn-block___2
 }
 
 .cards__pageTitle___1j4wU {
-    font-size: 1.375rem;
+    font-size: 15.5px;
     line-height: 1.2;
     font-weight: 500;
     color: #4e595d;
@@ -42931,7 +42931,7 @@ input[type=button].order__btn-block___1Tyij,input[type=reset].order__btn-block__
 }
 
 .orders__pageTitle___C2Lor {
-    font-size: 1.375rem;
+    font-size: 15px;
     line-height: 1.2;
     font-weight: 500;
     color: #4e595d;
@@ -48743,7 +48743,7 @@ select.password-form__form-control-lg___Xfpbz:not([size]):not([multiple]) {
 }
 
 .settings__pageTitle___346w_ {
-    font-size: 1.375rem;
+    font-size: 15px;
     line-height: 1.2;
     font-weight: 500;
     color: #4e595d;
@@ -50521,7 +50521,7 @@ select.settings__form-control-lg___iGIru:not([size]):not([multiple]) {
 }
 
 .settings__credit-info___jg8uq .settings__credit-amount___IQXVC {
-    font-size: 1.25rem;
+    font-size: 15px;
     float: right
 }
 
@@ -50564,7 +50564,7 @@ select.settings__form-control-lg___iGIru:not([size]):not([multiple]) {
 }
 
 .auth__title___2xOb7 {
-    font-size: 1.375rem;
+    font-size: 15.5px;
     line-height: 1.2;
     font-weight: 500;
     color: #4e595d;
@@ -86306,7 +86306,7 @@ select.checkout__form-control-lg___3Rg0m:not([size]):not([multiple]) {
 }
 
 .continue__title___24Yiu {
-    font-size: 1.375rem;
+    font-size: 15.5px;
     line-height: 1.2;
     font-weight: 500;
     color: #4e595d;
@@ -88170,14 +88170,14 @@ input[type=button].continue__btn-block___3jiI1,input[type=reset].continue__btn-b
     margin-bottom: 8px;
     text-align: center;
     text-transform: capitalize;
-    font-size: 1.25rem;
+    font-size: 15.5px;
     font-weight: 700
 }
 
 @media (min-width: 992px) {
     .continue__title___24Yiu {
         margin-bottom:8px;
-        font-size: 1.5rem;
+        font-size: 16px;
         text-align: center
     }
 }
@@ -88373,7 +88373,7 @@ input[type=button].continue__btn-block___3jiI1,input[type=reset].continue__btn-b
 }
 
 .international__overseas-title___3p232 .international__sectionTitle___1O2S- {
-    font-size: 1.5rem;
+    font-size: 16px;
     line-height: 1.2;
     color: #4e595d;
     font-family: Josefin Sans,Georgia,Times New Roman,Times,serif;
@@ -97026,7 +97026,7 @@ input.header__form-control___155g8::-webkit-input-placeholder {
 }
 
 .content__title___1TUmj {
-    font-size: 1.75rem;
+    font-size: 16.5px;
     line-height: 1.2;
     font-weight: 500;
     color: #4e595d;
@@ -97294,7 +97294,7 @@ input.content__form-control___3LMrw::-webkit-input-placeholder {
 }
 
 .footer__name___2kQG5 {
-    font-size: 1.75rem;
+    font-size: 16.5px;
     line-height: 1.2;
     font-weight: 500;
     color: #4e595d;
@@ -110806,7 +110806,7 @@ select.cart__form-control-lg___33PB_:not([size]):not([multiple]) {
 }
 
 .cart__subtotal___b7ocn {
-    font-size: 1.25rem;
+    font-size: 15px;
     font-weight: 700;
     margin-bottom: 12px
 }
@@ -113879,7 +113879,7 @@ legend {
     width: 100%;
     padding: 0;
     margin-bottom: .5rem;
-    font-size: 1.5rem;
+    font-size: 16px;
     line-height: inherit
 }
 
@@ -113904,31 +113904,31 @@ output {
 }
 
 .h1,h1 {
-    font-size: 2rem
+    font-size: 18px
 }
 
 .h2,h2 {
-    font-size: 1.75rem
+    font-size: 17px
 }
 
 .h3,h3 {
-    font-size: 1.375rem
+    font-size: 15.5px
 }
 
 .h4,h4 {
-    font-size: 1.125rem
+    font-size: 15px
 }
 
 .h5,h5 {
-    font-size: 1rem
+    font-size: 15px
 }
 
 .h6,h6 {
-    font-size: .75rem
+    font-size: 14.5px
 }
 
 .lead {
-    font-size: 1.25rem;
+    font-size: 15px;
     font-weight: 300
 }
 
