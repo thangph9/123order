@@ -349,9 +349,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/calvin-klein-dkny-tommy-hilfiger...-5bd67b7273d283d157e0aacc">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd84328efbad42946382656.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd84328efbad42946382656.jpg 640w, https://images.leflair.vn/w1080/q85/5bd84328efbad42946382656.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd84328efbad42946382656.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Calvin Klein, Dkny, Tommy Hilfiger..." /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Calvin Klein, Dkny, Tommy Hilfiger...</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
@@ -360,9 +358,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/giorgio-armani-and-giorgio-ferri-kinh-mat-nam-nu-5bd033d5b5107200018695cf">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd8199977f225fd44d8de5f.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd8199977f225fd44d8de5f.jpg 640w, https://images.leflair.vn/w1080/q85/5bd8199977f225fd44d8de5f.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd8199977f225fd44d8de5f.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giorgio Armani & Giorgio Ferri: Kính Mát Nam, Nữ" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Giorgio Armani &amp; Giorgio Ferri: Kính Mát Nam, Nữ</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
@@ -371,9 +367,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/mip-bookki-cosmetea-5bce9a177176290001132360">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd68e407cf0473662488796.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd68e407cf0473662488796.jpg 640w, https://images.leflair.vn/w1080/q85/5bd68e407cf0473662488796.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd68e407cf0473662488796.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="MIP, BOOKKI, COSMETEA" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">MIP, BOOKKI, COSMETEA</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
@@ -382,9 +376,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/giam-den-58-les-georgettes-paris-phu-kien-trang-suc-nu-5bd2f01b5ab4dd1ec71ebdb0">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd84540ec2d442e7801a9d4.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd84540ec2d442e7801a9d4.jpg 640w, https://images.leflair.vn/w1080/q85/5bd84540ec2d442e7801a9d4.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd84540ec2d442e7801a9d4.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 58% - Les Georgettes Paris Phụ Kiện Trang Sức Nữ" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 58% - Les Georgettes Paris Phụ Kiện Trang Sức Nữ</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
@@ -393,9 +385,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/fresh-and-feel-my-pham-cham-soc-toc-and-co-the-5bd2b8c7e6de67527108b9aa">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6cbdd3d41613a1ac1ad90.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd6cbdd3d41613a1ac1ad90.jpg 640w, https://images.leflair.vn/w1080/q85/5bd6cbdd3d41613a1ac1ad90.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd6cbdd3d41613a1ac1ad90.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Fresh & Feel Mỹ Phẩm Chăm Sóc Tóc & Cơ Thể" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Fresh &amp; Feel Mỹ Phẩm Chăm Sóc Tóc &amp; Cơ Thể</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
@@ -404,9 +394,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/philips-panasonic-elmich...-5bd679f173d283bf29e0a9d0">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6b6457cf0470f5e488c09.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd6b6457cf0470f5e488c09.jpg 640w, https://images.leflair.vn/w1080/q85/5bd6b6457cf0470f5e488c09.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd6b6457cf0470f5e488c09.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Philips, Panasonic, Elmich..." /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Philips, Panasonic, Elmich...</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
@@ -415,9 +403,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/pretty-my-pham-cao-cap-5bd679867cf047911c4880a6">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd84219ec2d4454f201a9c9.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd84219ec2d4454f201a9c9.jpg 640w, https://images.leflair.vn/w1080/q85/5bd84219ec2d4454f201a9c9.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd84219ec2d4454f201a9c9.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Pretty Mỹ Phẩm Cao Cấp" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Pretty Mỹ Phẩm Cao Cấp</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
@@ -426,9 +412,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/parakito-vien-chong-muoi-5bd2b9f7d7751c62fb8f8c81">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd84348056301de7ea86236.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd84348056301de7ea86236.jpg 640w, https://images.leflair.vn/w1080/q85/5bd84348056301de7ea86236.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd84348056301de7ea86236.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Para'kito Viên Chống Muỗi" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Para'kito Viên Chống Muỗi</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
@@ -437,9 +421,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/giam-den-59-olv-boutique-thoi-trang-nu-5bcea8219eaacb000149986c">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6c2473bc93302b999c259.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd6c2473bc93302b999c259.jpg 640w, https://images.leflair.vn/w1080/q85/5bd6c2473bc93302b999c259.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd6c2473bc93302b999c259.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 59% - Olv Boutique Thời Trang Nữ" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 59% - Olv Boutique Thời Trang Nữ</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
@@ -448,9 +430,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/idigo-balo-and-tui-thoi-trang-nu-5bcea72671762900011325b8">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd696377cf0477eba488891.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd696377cf0477eba488891.jpg 640w, https://images.leflair.vn/w1080/q85/5bd696377cf0477eba488891.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd696377cf0477eba488891.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Idigo Balo & Túi Thời Trang Nữ" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Idigo Balo &amp; Túi Thời Trang Nữ</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
@@ -459,9 +439,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/cest-la-v-thoi-trang-nu-5bcea2569eaacb000149979b">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd90ebc3a7bff63c1c00d79.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd90ebc3a7bff63c1c00d79.jpg 640w, https://images.leflair.vn/w1080/q85/5bd90ebc3a7bff63c1c00d79.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd90ebc3a7bff63c1c00d79.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="C'est La V Thời Trang Nữ" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">C'est La V Thời Trang Nữ</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
@@ -470,9 +448,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/uriage-my-pham-cham-soc-da-5bd0385822064a0001fa3395">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd80d4f77f2255c05d8d883.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd80d4f77f2255c05d8d883.jpg 640w, https://images.leflair.vn/w1080/q85/5bd80d4f77f2255c05d8d883.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd80d4f77f2255c05d8d883.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Uriage Mỹ Phẩm Chăm Sóc Da" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Uriage Mỹ Phẩm Chăm Sóc Da</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
@@ -481,9 +457,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/giam-den-69-burgi-dong-ho-nu-thoi-trang-5bc6a75b0ea5fe0001d7db3c">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6ec562cd7970ba564b1e5.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd6ec562cd7970ba564b1e5.jpg 640w, https://images.leflair.vn/w1080/q85/5bd6ec562cd7970ba564b1e5.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd6ec562cd7970ba564b1e5.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 69% - Burgi Đồng Hồ Nữ Thời Trang" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 69% - Burgi Đồng Hồ Nữ Thời Trang</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
@@ -492,9 +466,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/giam-gia-doc-quyen-tai-leflair-versace-and-salvatore-ferragamo-nuoc-hoa-nu-5bbce4f13138ba0001a1d23c">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd681ec3bc933d99599b346.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd681ec3bc933d99599b346.jpg 640w, https://images.leflair.vn/w1080/q85/5bd681ec3bc933d99599b346.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd681ec3bc933d99599b346.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Giá Độc Quyền Tại Leflair - Versace & Salvatore Ferragamo: Nước Hoa Nữ" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Giảm Giá Độc Quyền Tại Leflair - Versace &amp; Salvatore Ferragamo: Nước Hoa Nữ</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
@@ -503,9 +475,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/giam-den-69-fitflop-giay-dep-thoi-trang-nam-and-nu-5bce9d399eaacb00014996f9">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6dc3faea2cb6a396b19f0.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd6dc3faea2cb6a396b19f0.jpg 640w, https://images.leflair.vn/w1080/q85/5bd6dc3faea2cb6a396b19f0.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd6dc3faea2cb6a396b19f0.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 69% - Fitflop Giày Dép Thời Trang Nam & Nữ" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 69% - Fitflop Giày Dép Thời Trang Nam &amp; Nữ</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
@@ -514,9 +484,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/giam-den-53-kinh-mat-nu-fendi-mcm-5bd0246522064a0001fa1f04">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6c4e57cf047c6d8488d4a.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd6c4e57cf047c6d8488d4a.jpg 640w, https://images.leflair.vn/w1080/q85/5bd6c4e57cf047c6d8488d4a.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd6c4e57cf047c6d8488d4a.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 53% - Kính Mát Nữ: Fendi, Mcm" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 53% - Kính Mát Nữ: Fendi, Mcm</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
@@ -525,9 +493,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/cellini-giay-and-tui-xach-nam-nu-5bd2f749fe928beeb764ee10">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6ea232dd83a5ece168271.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd6ea232dd83a5ece168271.jpg 640w, https://images.leflair.vn/w1080/q85/5bd6ea232dd83a5ece168271.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd6ea232dd83a5ece168271.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Cellini Giày & Túi Xách Nam, Nữ" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Cellini Giày &amp; Túi Xách Nam, Nữ</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
@@ -536,9 +502,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/nots-my-pham-duong-da-toan-dien-5bd029a398ea5c000109ebd3">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd43f47c2d2e53d0817f943.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd43f47c2d2e53d0817f943.jpg 640w, https://images.leflair.vn/w1080/q85/5bd43f47c2d2e53d0817f943.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd43f47c2d2e53d0817f943.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="NoTS Mỹ Phẩm Dưỡng Da Toàn Diện" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">NoTS Mỹ Phẩm Dưỡng Da Toàn Diện</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
@@ -547,9 +511,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/giam-den-54-gong-kinh-nam-and-nu-fendi-mcm-5bd0210122064a0001fa1eae">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd7b8f8b16f63800440052b.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd7b8f8b16f63800440052b.jpg 640w, https://images.leflair.vn/w1080/q85/5bd7b8f8b16f63800440052b.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd7b8f8b16f63800440052b.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 54% - Gọng Kính Nam & Nữ: Fendi, Mcm" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 54% - Gọng Kính Nam &amp; Nữ: Fendi, Mcm</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
@@ -558,9 +520,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/dung-cu-trang-diem-and-cham-soc-suc-khoe-rio-waterpulse-5bd019cf22064a0001fa1ddb">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6ddf8e50f800cabb11509.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd6ddf8e50f800cabb11509.jpg 640w, https://images.leflair.vn/w1080/q85/5bd6ddf8e50f800cabb11509.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd6ddf8e50f800cabb11509.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Dụng Cụ Trang Điểm & Chăm Sóc Sức Khỏe: Rio, Waterpulse" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Dụng Cụ Trang Điểm &amp; Chăm Sóc Sức Khỏe: Rio, Waterpulse</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
@@ -569,9 +529,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/guess-trang-suc-nu-5bd028e522064a0001fa1fce">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6d997e50f805910b11433.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd6d997e50f805910b11433.jpg 640w, https://images.leflair.vn/w1080/q85/5bd6d997e50f805910b11433.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd6d997e50f805910b11433.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Guess Trang Sức Nữ" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Guess Trang Sức Nữ</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
@@ -580,9 +538,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/speedo-do-boi-gia-dinh-5bcea6b1d56ec80001043c7c">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6e3ff0d0a02e9d62600e7.png" srcSet="https://images.leflair.vn/w640/q85/5bd6e3ff0d0a02e9d62600e7.png 640w, https://images.leflair.vn/w1080/q85/5bd6e3ff0d0a02e9d62600e7.png 1080w, https://images.leflair.vn/w1440/q85/5bd6e3ff0d0a02e9d62600e7.png 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Speedo Đồ Bơi Gia Đình" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Speedo Đồ Bơi Gia Đình</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
@@ -591,9 +547,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/lan-dau-tai-leflair-skin-nation-my-pham-duong-da-5bd2ba98d7751c03fc8f8c87">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6dcfde50f80ef3fb11505.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd6dcfde50f80ef3fb11505.jpg 640w, https://images.leflair.vn/w1080/q85/5bd6dcfde50f80ef3fb11505.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd6dcfde50f80ef3fb11505.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Lần Đầu Tại Leflair - Skin Nation Mỹ Phẩm Dưỡng Da" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Lần Đầu Tại Leflair - Skin Nation Mỹ Phẩm Dưỡng Da</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
@@ -602,9 +556,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/domani-giay-thoi-trang-nu-5bc6a6d49e3b150001afbc33">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd3fa6c045f2c8115a6cd78.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd3fa6c045f2c8115a6cd78.jpg 640w, https://images.leflair.vn/w1080/q85/5bd3fa6c045f2c8115a6cd78.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd3fa6c045f2c8115a6cd78.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Domani Giày Thời Trang Nữ" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Domani Giày Thời Trang Nữ</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -613,9 +565,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/graziella-tui-bop-and-vi-thoi-trang-nu-5bcea1b2717629000113244a">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd3e455045f2cf707a6cd2c.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd3e455045f2cf707a6cd2c.jpg 640w, https://images.leflair.vn/w1080/q85/5bd3e455045f2cf707a6cd2c.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd3e455045f2cf707a6cd2c.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Graziella Túi, Bóp & Ví Thời Trang Nữ" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Graziella Túi, Bóp &amp; Ví Thời Trang Nữ</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -624,9 +574,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/celin-vat-pham-trang-tri-ma-vang-24k-5bcfe99f98ea5c000109da7a">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd08cc622064a0001fa488c.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd08cc622064a0001fa488c.jpg 640w, https://images.leflair.vn/w1080/q85/5bd08cc622064a0001fa488c.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd08cc622064a0001fa488c.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Celin Vật Phẩm Trang Trí Mạ Vàng 24K" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Celin Vật Phẩm Trang Trí Mạ Vàng 24K</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -635,9 +583,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/yves-rocher-my-pham-and-cham-soc-da-5bcff677b510720001868037">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd42766c2d2e5d77d17f914.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd42766c2d2e5d77d17f914.jpg 640w, https://images.leflair.vn/w1080/q85/5bd42766c2d2e5d77d17f914.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd42766c2d2e5d77d17f914.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Yves Rocher Mỹ Phẩm & Chăm Sóc Da" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Yves Rocher Mỹ Phẩm &amp; Chăm Sóc Da</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -646,9 +592,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/lan-dau-tai-leflair-graceful-trang-suc-phong-thuy-5bce904e9eaacb0001499482">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd428ebc2d2e5466617f919.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd428ebc2d2e5466617f919.jpg 640w, https://images.leflair.vn/w1080/q85/5bd428ebc2d2e5466617f919.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd428ebc2d2e5466617f919.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Lần Đầu Tại Leflair - Graceful Trang Sức Phong Thủy" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Lần Đầu Tại Leflair - Graceful Trang Sức Phong Thủy</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -657,9 +601,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/hector-andlab-angellook...-5bcfec1eb510720001867b69">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd40f2f0f102237deb9ecc8.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd40f2f0f102237deb9ecc8.jpg 640w, https://images.leflair.vn/w1080/q85/5bd40f2f0f102237deb9ecc8.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd40f2f0f102237deb9ecc8.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Hector, andLAB, Angellook..." /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Hector, andLAB, Angellook...</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -668,9 +610,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/sukin-cham-soc-toan-than-cho-ca-gia-dinh-5bcff5b898ea5c000109de23">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd406e8045f2c1312a6cdc5.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd406e8045f2c1312a6cdc5.jpg 640w, https://images.leflair.vn/w1080/q85/5bd406e8045f2c1312a6cdc5.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd406e8045f2c1312a6cdc5.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Sukin Chăm Sóc Toàn Thân Cho Cả Gia Đình" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Sukin Chăm Sóc Toàn Thân Cho Cả Gia Đình</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -679,9 +619,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/giam-den-60-stormtech-thoi-trang-and-tui-xach-nam-nu-5bc959454f3acf000198344c">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bdbc225e747f70e0b198273.jpg" srcSet="https://images.leflair.vn/w640/q85/5bdbc225e747f70e0b198273.jpg 640w, https://images.leflair.vn/w1080/q85/5bdbc225e747f70e0b198273.jpg 1080w, https://images.leflair.vn/w1440/q85/5bdbc225e747f70e0b198273.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 60% - Stormtech Thời Trang & Túi Xách Nam, Nữ" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 60% - Stormtech Thời Trang &amp; Túi Xách Nam, Nữ</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -690,9 +628,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/graziella-trang-suc-nu-5bcfeabe98ea5c000109db06">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd3ef4050cfa93d84e02443.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd3ef4050cfa93d84e02443.jpg 640w, https://images.leflair.vn/w1080/q85/5bd3ef4050cfa93d84e02443.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd3ef4050cfa93d84e02443.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Graziella Trang Sức Nữ" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Graziella Trang Sức Nữ</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -701,9 +637,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/giam-den-55-calvin-klein-kinh-mat-nam-nu-5bcfe87fb510720001867ad6">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd4186f50cfa99a91e02497.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd4186f50cfa99a91e02497.jpg 640w, https://images.leflair.vn/w1080/q85/5bd4186f50cfa99a91e02497.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd4186f50cfa99a91e02497.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 55% - Calvin Klein Kính Mát Nam, Nữ" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 55% - Calvin Klein Kính Mát Nam, Nữ</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -712,9 +646,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/giam-den-54-calvin-klein-gong-kinh-thoi-trang-5bcfe7a40d477e00014fb06a">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd4230ac2d2e54ba617f90d.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd4230ac2d2e54ba617f90d.jpg 640w, https://images.leflair.vn/w1080/q85/5bd4230ac2d2e54ba617f90d.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd4230ac2d2e54ba617f90d.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 54% - Calvin Klein Gọng Kính Thời Trang" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 54% - Calvin Klein Gọng Kính Thời Trang</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -723,9 +655,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/glamful-my-pham-trang-diem-5bc9be4d3857b7000180ddac">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd402250f10228237b9ec7c.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd402250f10228237b9ec7c.jpg 640w, https://images.leflair.vn/w1080/q85/5bd402250f10228237b9ec7c.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd402250f10228237b9ec7c.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Glamful Mỹ Phẩm Trang Điểm" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Glamful Mỹ Phẩm Trang Điểm</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -734,9 +664,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/venice-dong-ho-nam-and-nu-5bc5a7fdfa074e00010edce8">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd3ed0250cfa9c23ee02431.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd3ed0250cfa9c23ee02431.jpg 640w, https://images.leflair.vn/w1080/q85/5bd3ed0250cfa9c23ee02431.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd3ed0250cfa9c23ee02431.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Venice Đồng Hồ Nam & Nữ" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Venice Đồng Hồ Nam &amp; Nữ</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -745,9 +673,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/dieuanh-thoi-trang-nu-5bc5a7a40ea5fe0001d7d193">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd3f0de045f2cf622a6cd6f.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd3f0de045f2cf622a6cd6f.jpg 640w, https://images.leflair.vn/w1080/q85/5bd3f0de045f2cf622a6cd6f.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd3f0de045f2cf622a6cd6f.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="dieuAnh Thời Trang Nữ" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">dieuAnh Thời Trang Nữ</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -756,9 +682,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/giam-den-71-lily-jewelry-trang-suc-nu-5bcfee8f98ea5c000109dd82">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2cef3c3be2733afd5bfe9.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2cef3c3be2733afd5bfe9.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2cef3c3be2733afd5bfe9.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2cef3c3be2733afd5bfe9.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 71% - Lily Jewelry Trang Sức Nữ" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 71% - Lily Jewelry Trang Sức Nữ</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -767,9 +691,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/sum37degree-my-pham-and-cham-soc-da-5bcef6e8f3b4e50001b91083">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd30ec5c07c397452f636f5.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd30ec5c07c397452f636f5.jpg 640w, https://images.leflair.vn/w1080/q85/5bd30ec5c07c397452f636f5.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd30ec5c07c397452f636f5.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Su:m37° Mỹ Phẩm & Chăm Sóc Da" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Su:m37° Mỹ Phẩm &amp; Chăm Sóc Da</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -778,9 +700,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/quay-australia-kinh-mat-nam-and-nu-tu-uc-5bcef68022064a0001fa0407">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd3e34a045f2c76c0a6cd27.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd3e34a045f2c76c0a6cd27.jpg 640w, https://images.leflair.vn/w1080/q85/5bd3e34a045f2c76c0a6cd27.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd3e34a045f2c76c0a6cd27.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Quay Australia Kính Mát Nam & Nữ Từ Úc" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Quay Australia Kính Mát Nam &amp; Nữ Từ Úc</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -789,9 +709,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/nike-el-camino-dsquared...-5bcef386418eb80001ec211d">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd30809c07c397d4cf636de.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd30809c07c397d4cf636de.jpg 640w, https://images.leflair.vn/w1080/q85/5bd30809c07c397d4cf636de.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd30809c07c397d4cf636de.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Nike, El Camino, Dsquared²..." /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Nike, El Camino, Dsquared²...</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -800,9 +718,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/giam-den-53-lily-jewelry-cai-ao-5bcef2cd22064a0001fa0397">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2f5fffe928b61fb64ee03.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2f5fffe928b61fb64ee03.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2f5fffe928b61fb64ee03.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2f5fffe928b61fb64ee03.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 53% - Lily Jewelry Cài Áo" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 53% - Lily Jewelry Cài Áo</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -811,9 +727,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/levisr-reebok-kinh-mat-nam-and-nu-5bceef9f22064a0001fa02ba">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2e6aca46c6d1f05596048.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2e6aca46c6d1f05596048.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2e6aca46c6d1f05596048.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2e6aca46c6d1f05596048.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Levi's®, Reebok: Kính Mát Nam & Nữ" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Levi's®, Reebok: Kính Mát Nam &amp; Nữ</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -822,9 +736,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/kelly-son-moi-and-nuoc-hoa-cao-cap-5bcee73c22064a0001fa0224">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2c141dc461759a5dccc16.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2c141dc461759a5dccc16.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2c141dc461759a5dccc16.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2c141dc461759a5dccc16.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Kelly Son Môi & Nước Hoa Cao Cấp" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Kelly Son Môi &amp; Nước Hoa Cao Cấp</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -833,9 +745,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/alivy-thoi-trang-nu-5bcea10b9eaacb0001499736">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd30535c07c394646f636d7.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd30535c07c394646f636d7.jpg 640w, https://images.leflair.vn/w1080/q85/5bd30535c07c394646f636d7.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd30535c07c394646f636d7.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Alivy Thời Trang Nữ" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Alivy Thời Trang Nữ</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -844,9 +754,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/else.instyle-thoi-trang-nu-5bce9ba39eaacb00014996cc">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd18b38021e58000172c458.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd18b38021e58000172c458.jpg 640w, https://images.leflair.vn/w1080/q85/5bd18b38021e58000172c458.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd18b38021e58000172c458.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Else.Instyle Thời Trang Nữ" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Else.Instyle Thời Trang Nữ</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -855,9 +763,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/giam-den-57-pauls-boutique-tui-thoi-trang-nu-5bc8390b7904c2000167f2ca">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2feec99034006b2f181f4.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2feec99034006b2f181f4.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2feec99034006b2f181f4.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2feec99034006b2f181f4.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 57% - Paul's Boutique Túi Thời Trang Nữ" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 57% - Paul's Boutique Túi Thời Trang Nữ</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -866,9 +772,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/doma-vali-du-lich-5bc5a746fa074e00010edcb7">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2c930cc9f046106233236.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2c930cc9f046106233236.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2c930cc9f046106233236.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2c930cc9f046106233236.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Doma Vali Du Lịch" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Doma Vali Du Lịch</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -877,9 +781,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/giam-den-60-atlantic-dong-ho-nam-nu-5bc5a6e4fa074e00010edcb6">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2e369c3be27602ed5c816.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2e369c3be27602ed5c816.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2e369c3be27602ed5c816.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2e369c3be27602ed5c816.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 60% - Atlantic Đồng Hồ Nam, Nữ" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 60% - Atlantic Đồng Hồ Nam, Nữ</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -888,9 +790,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/holster-australiar-giay-thoi-trang-nu-5bc45b645aa76b000168877f">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd04020b51072000186990b.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd04020b51072000186990b.jpg 640w, https://images.leflair.vn/w1080/q85/5bd04020b51072000186990b.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd04020b51072000186990b.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Holster Australia® Giày Thời Trang Nữ" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Holster Australia® Giày Thời Trang Nữ</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -899,9 +799,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/seesee-and-huxley-cham-soc-da-cao-cap-5bbed967607a400001c6e080">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2f576fe928bc05664ed99.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2f576fe928bc05664ed99.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2f576fe928bc05664ed99.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2f576fe928bc05664ed99.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Seesee & Huxley: Chăm Sóc Da Cao Cấp" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Seesee &amp; Huxley: Chăm Sóc Da Cao Cấp</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -910,9 +808,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/cham-soc-da-and-toc-jacklon-broo-5bbcdfde2efe400001ca1c29">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd1813657a8ba0001f7f618.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd1813657a8ba0001f7f618.jpg 640w, https://images.leflair.vn/w1080/q85/5bd1813657a8ba0001f7f618.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd1813657a8ba0001f7f618.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Chăm Sóc Da & Tóc: Jacklon, Broo" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Chăm Sóc Da &amp; Tóc: Jacklon, Broo</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -921,9 +817,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/organique-my-pham-cham-soc-da-5bb1c3bf568eb70001328dde">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bc976c98bfb3000019ee916.jpg" srcSet="https://images.leflair.vn/w640/q85/5bc976c98bfb3000019ee916.jpg 640w, https://images.leflair.vn/w1080/q85/5bc976c98bfb3000019ee916.jpg 1080w, https://images.leflair.vn/w1440/q85/5bc976c98bfb3000019ee916.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Organique Mỹ Phẩm Chăm Sóc Da" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Organique Mỹ Phẩm Chăm Sóc Da</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -932,9 +826,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/giam-den-64-mande-thoi-trang-nu-5bc71f86af243f00013020e6">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2c3e6dc46179e78dccdf3.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2c3e6dc46179e78dccdf3.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2c3e6dc46179e78dccdf3.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2c3e6dc46179e78dccdf3.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 64% - Mande Thời Trang Nữ" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 64% - Mande Thời Trang Nữ</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -943,9 +835,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/o-hui-my-pham-and-cham-soc-da-5bcf001ff3b545000135b778">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2becfdc461733cadccbed.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2becfdc461733cadccbed.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2becfdc461733cadccbed.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2becfdc461733cadccbed.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="O Hui Mỹ Phẩm & Chăm Sóc Da" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">O Hui Mỹ Phẩm &amp; Chăm Sóc Da</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -954,9 +844,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/giam-den-53-venuco-madrid-balo-tui-mini-5bc5a148fa074e00010edbf9">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2b0feb57df39b943c591d.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2b0feb57df39b943c591d.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2b0feb57df39b943c591d.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2b0feb57df39b943c591d.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 53% - Venuco Madrid Balo, Túi Mini" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 53% - Venuco Madrid Balo, Túi Mini</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -965,9 +853,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/giam-den-74-venuco-madrid-vi-and-phu-kien-nu-5bc598ecfc45c60001d597ea">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2989fb57df38d933c57c9.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2989fb57df38d933c57c9.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2989fb57df38d933c57c9.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2989fb57df38d933c57c9.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 74% - Venuco Madrid Ví & Phụ Kiện Nữ" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 74% - Venuco Madrid Ví &amp; Phụ Kiện Nữ</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -976,9 +862,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/meditime-neo-my-pham-cham-soc-da-5bce97cb7176290001132352">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd1a381810fe400019a913e.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd1a381810fe400019a913e.jpg 640w, https://images.leflair.vn/w1080/q85/5bd1a381810fe400019a913e.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd1a381810fe400019a913e.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Meditime - Neo Mỹ Phẩm Chăm Sóc Da" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Meditime - Neo Mỹ Phẩm Chăm Sóc Da</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -987,9 +871,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/scentuals-cham-soc-da-and-co-the-5bcea8a671762900011325c3">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd0b78b22064a0001fa488f.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd0b78b22064a0001fa488f.jpg 640w, https://images.leflair.vn/w1080/q85/5bd0b78b22064a0001fa488f.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd0b78b22064a0001fa488f.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Scentuals Chăm Sóc Da & Cơ Thể" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Scentuals Chăm Sóc Da &amp; Cơ Thể</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -998,9 +880,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/borgonovi-airlite-gip...-5bce9d049eaacb00014996f5">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2ebc4df505cfd0f55797a.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2ebc4df505cfd0f55797a.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2ebc4df505cfd0f55797a.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2ebc4df505cfd0f55797a.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Borgonovi, Airlite, Gip..." /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Borgonovi, Airlite, Gip...</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -1009,9 +889,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/polaroid-sunday-woodzee...-5bce9ac1717629000113237a">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd1b36b021e58000172d138.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd1b36b021e58000172d138.jpg 640w, https://images.leflair.vn/w1080/q85/5bd1b36b021e58000172d138.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd1b36b021e58000172d138.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Polaroid, Sunday, Woodzee..." /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Polaroid, Sunday, Woodzee...</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -1020,9 +898,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/giam-den-60-geparlys-paris-elysees-nuoc-hoa-nu-and-nam-5bce970fd56ec80001043a56">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2a1b07a96e6a26d539411.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2a1b07a96e6a26d539411.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2a1b07a96e6a26d539411.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2a1b07a96e6a26d539411.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 60% - Geparlys, Paris Elysees: Nước Hoa Nữ & Nam" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 60% - Geparlys, Paris Elysees: Nước Hoa Nữ &amp; Nam</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -1031,9 +907,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/vichy-cham-soc-da-5bce96127176290001132345">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2cd51fe1916ebaad4d8ad.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2cd51fe1916ebaad4d8ad.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2cd51fe1916ebaad4d8ad.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2cd51fe1916ebaad4d8ad.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Vichy Chăm Sóc Da" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Vichy Chăm Sóc Da</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -1042,9 +916,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/likini-do-boi-nu-5bcdb21e9eaacb000149921a">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2e82bf8a1c6dba5ee6454.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2e82bf8a1c6dba5ee6454.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2e82bf8a1c6dba5ee6454.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2e82bf8a1c6dba5ee6454.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Likini Đồ Bơi Nữ" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Likini Đồ Bơi Nữ</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -1053,9 +925,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/giam-den-87-venuco-madrid-tui-thoi-trang-5bc46645290cb30001e985ff">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd2e9c05ab4ddd2bd1ebd52.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd2e9c05ab4ddd2bd1ebd52.jpg 640w, https://images.leflair.vn/w1080/q85/5bd2e9c05ab4ddd2bd1ebd52.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd2e9c05ab4ddd2bd1ebd52.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 87% - Venuco Madrid Túi Thời Trang" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 87% - Venuco Madrid Túi Thời Trang</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -1064,9 +934,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/giam-den-54-fastrack-dong-ho-nam-nu-5bc465dc290cb30001e985e0">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd191ce021e58000172c8be.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd191ce021e58000172c8be.jpg 640w, https://images.leflair.vn/w1080/q85/5bd191ce021e58000172c8be.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd191ce021e58000172c8be.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 54% - Fastrack Đồng Hồ Nam, Nữ" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 54% - Fastrack Đồng Hồ Nam, Nữ</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -1075,9 +943,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/storm-dong-ho-nam-and-nu-5bc4659d290cb30001e985bf">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd183c7021e58000172c3d0.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd183c7021e58000172c3d0.jpg 640w, https://images.leflair.vn/w1080/q85/5bd183c7021e58000172c3d0.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd183c7021e58000172c3d0.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Storm Đồng Hồ Nam & Nữ" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Storm Đồng Hồ Nam &amp; Nữ</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -1086,9 +952,7 @@ class Amazon extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/giam-den-54-royal-walk-and-scala-giay-dep-thoi-trang-nu-5bc465384de7540001268a91">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla">
-          <div className="sale-card__current-sale-placeholder___293Z4" />
-        </div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd19a8857a8ba0001f80116.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd19a8857a8ba0001f80116.jpg 640w, https://images.leflair.vn/w1080/q85/5bd19a8857a8ba0001f80116.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd19a8857a8ba0001f80116.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 54% - Royal Walk & Scala: Giày, Dép Thời Trang Nữ" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 54% - Royal Walk &amp; Scala: Giày, Dép Thời Trang Nữ</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
