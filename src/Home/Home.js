@@ -617,9 +617,9 @@ class Home extends React.Component {
                   </div>
                 </a><a className="home__col-md-6___2zJjj home__paddingRemove___3EmRr" href="/sales/giam-gia-doc-quyen-tai-leflair-versace-and-salvatore-ferragamo-nuoc-hoa-nu-5bbce4f13138ba0001a1d23c">
                   <div className="sale-card__currentSale___cC1H3">
-                    <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd681ec3bc933d99599b346.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd681ec3bc933d99599b346.jpg 640w, https://images.leflair.vn/w1080/q85/5bd681ec3bc933d99599b346.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd681ec3bc933d99599b346.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Giá Độc Quyền Tại Leflair - Versace & Salvatore Ferragamo: Nước Hoa Nữ" /></div>
+                    <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd681ec3bc933d99599b346.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd681ec3bc933d99599b346.jpg 640w, https://images.leflair.vn/w1080/q85/5bd681ec3bc933d99599b346.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd681ec3bc933d99599b346.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Giá Độc Quyền Tại 123order - Versace & Salvatore Ferragamo: Nước Hoa Nữ" /></div>
                     <div className="sale-card__currentSaleInfo___2LkMa">
-                      <div className="sale-card__currentSaleTitle___1eVtM">Giảm Giá Độc Quyền Tại Leflair - Versace &amp;
+                      <div className="sale-card__currentSaleTitle___1eVtM">Giảm Giá Độc Quyền Tại 123order - Versace &amp;
                   Salvatore Ferragamo: Nước Hoa Nữ</div>
                       <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                         <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
@@ -717,9 +717,9 @@ class Home extends React.Component {
                   </div>
                 </a><a className="home__col-md-6___2zJjj home__paddingRemove___3EmRr" href="/sales/lan-dau-tai-leflair-ivv-do-dung-ban-an-tu-nuoc-y-5bd027a8b510720001868ea7">
                   <div className="sale-card__currentSale___cC1H3">
-                    <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6cf333d41615dffc1b2d1.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd6cf333d41615dffc1b2d1.jpg 640w, https://images.leflair.vn/w1080/q85/5bd6cf333d41615dffc1b2d1.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd6cf333d41615dffc1b2d1.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Lần Đầu Tại Leflair - IVV Đồ Dùng Bàn Ăn Từ Nước Ý" /></div>
+                    <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6cf333d41615dffc1b2d1.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd6cf333d41615dffc1b2d1.jpg 640w, https://images.leflair.vn/w1080/q85/5bd6cf333d41615dffc1b2d1.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd6cf333d41615dffc1b2d1.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Lần Đầu Tại 123order - IVV Đồ Dùng Bàn Ăn Từ Nước Ý" /></div>
                     <div className="sale-card__currentSaleInfo___2LkMa">
-                      <div className="sale-card__currentSaleTitle___1eVtM">Lần Đầu Tại Leflair - IVV Đồ Dùng Bàn Ăn Từ Nước Ý</div>
+                      <div className="sale-card__currentSaleTitle___1eVtM">Lần Đầu Tại 123order - IVV Đồ Dùng Bàn Ăn Từ Nước Ý</div>
                       <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                         <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
                     </div>
@@ -744,9 +744,9 @@ class Home extends React.Component {
                   </div>
                 </a><a className="home__col-md-6___2zJjj home__paddingRemove___3EmRr" href="/sales/lan-dau-tai-leflair-skin-nation-my-pham-duong-da-5bd2ba98d7751c03fc8f8c87">
                   <div className="sale-card__currentSale___cC1H3">
-                    <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6dcfde50f80ef3fb11505.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd6dcfde50f80ef3fb11505.jpg 640w, https://images.leflair.vn/w1080/q85/5bd6dcfde50f80ef3fb11505.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd6dcfde50f80ef3fb11505.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Lần Đầu Tại Leflair - Skin Nation Mỹ Phẩm Dưỡng Da" /></div>
+                    <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6dcfde50f80ef3fb11505.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd6dcfde50f80ef3fb11505.jpg 640w, https://images.leflair.vn/w1080/q85/5bd6dcfde50f80ef3fb11505.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd6dcfde50f80ef3fb11505.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Lần Đầu Tại 123order - Skin Nation Mỹ Phẩm Dưỡng Da" /></div>
                     <div className="sale-card__currentSaleInfo___2LkMa">
-                      <div className="sale-card__currentSaleTitle___1eVtM">Lần Đầu Tại Leflair - Skin Nation Mỹ Phẩm Dưỡng Da</div>
+                      <div className="sale-card__currentSaleTitle___1eVtM">Lần Đầu Tại 123order - Skin Nation Mỹ Phẩm Dưỡng Da</div>
                       <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                         <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
                     </div>
@@ -816,9 +816,9 @@ class Home extends React.Component {
                   </div>
                 </a><a className="home__col-md-6___2zJjj home__paddingRemove___3EmRr" href="/sales/lan-dau-tai-leflair-graceful-trang-suc-phong-thuy-5bce904e9eaacb0001499482">
                   <div className="sale-card__currentSale___cC1H3">
-                    <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd428ebc2d2e5466617f919.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd428ebc2d2e5466617f919.jpg 640w, https://images.leflair.vn/w1080/q85/5bd428ebc2d2e5466617f919.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd428ebc2d2e5466617f919.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Lần Đầu Tại Leflair - Graceful Trang Sức Phong Thủy" /></div>
+                    <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd428ebc2d2e5466617f919.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd428ebc2d2e5466617f919.jpg 640w, https://images.leflair.vn/w1080/q85/5bd428ebc2d2e5466617f919.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd428ebc2d2e5466617f919.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Lần Đầu Tại 123order - Graceful Trang Sức Phong Thủy" /></div>
                     <div className="sale-card__currentSaleInfo___2LkMa">
-                      <div className="sale-card__currentSaleTitle___1eVtM">Lần Đầu Tại Leflair - Graceful Trang Sức Phong
+                      <div className="sale-card__currentSaleTitle___1eVtM">Lần Đầu Tại 123order - Graceful Trang Sức Phong
                   Thủy</div>
                       <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                         <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
@@ -863,9 +863,9 @@ class Home extends React.Component {
                   </div>
                 </a><a className="home__col-md-6___2zJjj home__paddingRemove___3EmRr" href="/sales/lan-dau-tai-leflair-giam-den-44-cole-and-mason-do-dung-nha-bep-5bcffbeb98ea5c000109de6f">
                   <div className="sale-card__currentSale___cC1H3">
-                    <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd4293d50cfa90e3ae024a2.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd4293d50cfa90e3ae024a2.jpg 640w, https://images.leflair.vn/w1080/q85/5bd4293d50cfa90e3ae024a2.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd4293d50cfa90e3ae024a2.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Lần Đầu Tại Leflair - Giảm Đến 44% - Cole & Mason Đồ Dùng Nhà Bếp" /></div>
+                    <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd4293d50cfa90e3ae024a2.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd4293d50cfa90e3ae024a2.jpg 640w, https://images.leflair.vn/w1080/q85/5bd4293d50cfa90e3ae024a2.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd4293d50cfa90e3ae024a2.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Lần Đầu Tại 123order - Giảm Đến 44% - Cole & Mason Đồ Dùng Nhà Bếp" /></div>
                     <div className="sale-card__currentSaleInfo___2LkMa">
-                      <div className="sale-card__currentSaleTitle___1eVtM">Lần Đầu Tại Leflair - Giảm Đến 44% - Cole &amp;
+                      <div className="sale-card__currentSaleTitle___1eVtM">Lần Đầu Tại 123order - Giảm Đến 44% - Cole &amp;
                   Mason Đồ Dùng Nhà Bếp</div>
                       <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                         <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
@@ -985,9 +985,9 @@ class Home extends React.Component {
                   </div>
                 </a><a className="home__col-md-6___2zJjj home__paddingRemove___3EmRr" href="/sales/lan-dau-tai-leflair-giam-den-49-wusthof-bo-dao-keo-5bcef72e418eb80001ec2154">
                   <div className="sale-card__currentSale___cC1H3">
-                    <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd42873bfaa18854fe62cfc.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd42873bfaa18854fe62cfc.jpg 640w, https://images.leflair.vn/w1080/q85/5bd42873bfaa18854fe62cfc.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd42873bfaa18854fe62cfc.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Lần Đầu Tại Leflair - Giảm Đến 49% Wüsthof Bộ Dao, Kéo" /></div>
+                    <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd42873bfaa18854fe62cfc.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd42873bfaa18854fe62cfc.jpg 640w, https://images.leflair.vn/w1080/q85/5bd42873bfaa18854fe62cfc.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd42873bfaa18854fe62cfc.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Lần Đầu Tại 123order - Giảm Đến 49% Wüsthof Bộ Dao, Kéo" /></div>
                     <div className="sale-card__currentSaleInfo___2LkMa">
-                      <div className="sale-card__currentSaleTitle___1eVtM">Lần Đầu Tại Leflair - Giảm Đến 49% Wüsthof Bộ Dao,
+                      <div className="sale-card__currentSaleTitle___1eVtM">Lần Đầu Tại 123order - Giảm Đến 49% Wüsthof Bộ Dao,
                   Kéo</div>
                       <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                         <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -1377,9 +1377,9 @@ class Home extends React.Component {
                   </div>
                 </a><a className="home__col-md-6___2zJjj home__paddingRemove___3EmRr" href="/sales/lan-dau-tai-leflair-giam-den-63-uber-do-dung-quay-bar-5bce91ead56ec800010439ee">
                   <div className="sale-card__currentSale___cC1H3">
-                    <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd17a72b24be90001159c32.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd17a72b24be90001159c32.jpg 640w, https://images.leflair.vn/w1080/q85/5bd17a72b24be90001159c32.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd17a72b24be90001159c32.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Lần Đầu Tại Leflair - Giảm Đến 63% Über Đồ Dùng Quầy Bar" /></div>
+                    <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd17a72b24be90001159c32.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd17a72b24be90001159c32.jpg 640w, https://images.leflair.vn/w1080/q85/5bd17a72b24be90001159c32.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd17a72b24be90001159c32.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Lần Đầu Tại 123order - Giảm Đến 63% Über Đồ Dùng Quầy Bar" /></div>
                     <div className="sale-card__currentSaleInfo___2LkMa">
-                      <div className="sale-card__currentSaleTitle___1eVtM">Lần Đầu Tại Leflair - Giảm Đến 63% Über Đồ Dùng
+                      <div className="sale-card__currentSaleTitle___1eVtM">Lần Đầu Tại 123order - Giảm Đến 63% Über Đồ Dùng
                   Quầy Bar</div>
                       <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn </span>
                         <span className="end-time__timer___LMsIT">16 giờ</span></span></div>
@@ -1725,7 +1725,7 @@ class Home extends React.Component {
                         trị &amp; trải nghiệm của chính khách hàng ngày là vô cùng to lớn, với 3 nhánh nhu cầu mua sắm
                   chính bao gồm: <strong>thời trang</strong>, <strong>làm đẹp</strong> &amp; <strong>phong cách
                     sống</strong></p>
-                      <h2 className="footer-seo-text__h1___3zWgO">Sứ mệnh mua sắm hàng hiệu giá hấp dẫn đến từ Leflair.vn</h2>
+                      <h2 className="footer-seo-text__h1___3zWgO">Sứ mệnh mua sắm hàng hiệu giá hấp dẫn đến từ 123order.vn</h2>
                       <p className="footer-seo-text__body___UPRs4">Với sự phát triển nhanh chóng từ chính người tiêu dùng tại
                         Việt Nam cùng nhu cầu hết sức chính đáng ấy, khách hàng - đặc biệt là các tín đồ đam mê hàng hiệu
                         - luôn trong trạng thái sẵn sàng đặt công sức của mình cho việc sở hữu được những sản phẩm hàng
@@ -1738,7 +1738,7 @@ class Home extends React.Component {
                   <strong>hàng hiệu giá tốt</strong> vô cùng hiện đại &amp; tiện lợi, đáp ứng mong muốn tiếp cập
                   với các dòng sản phẩm từ những <strong>thương hiệu danh tiếng</strong> từ các <strong>tín đồ mua
                     sắm</strong> tại Việt Nam.</p>
-                      <h2 className="footer-seo-text__h1___3zWgO">Leflair.vn - điểm đến mua sắm dẫn đầu phong cách sống hiện
+                      <h2 className="footer-seo-text__h1___3zWgO">123order.vn - điểm đến mua sắm dẫn đầu phong cách sống hiện
                   đại</h2>
                       <p className="footer-seo-text__body___UPRs4">LEFLAIR.VN tin rằng mua sắm phải là niềm vui thuần khiết.
                         Các thương hiệu phải tự tìm đến khách hàng theo cách tiện lợi nhất &amp; với mức giá hấp dẫn
@@ -1753,7 +1753,7 @@ class Home extends React.Component {
                   dùng trên toàn khu vực Đông Nam Á trong tương lai.</p>
                     </div>
                     <div className="footer-seo-text__col-md-6___C70zu footer-seo-text__col-right___1TmuY">
-                      <h2 className="footer-seo-text__h1___3zWgO">Leflair.vn - mua sắm tích hợp các thương hiệu đẳng cấp quốc
+                      <h2 className="footer-seo-text__h1___3zWgO">123order.vn - mua sắm tích hợp các thương hiệu đẳng cấp quốc
                   tế</h2>
                       <p className="footer-seo-text__body___UPRs4">Sở hữu ngay phong cách sống thời thượng &amp; đậm chất cá
                   nhân khi trải nghiệm mua sắm tại LEFLAIR.VN. Thật đơn giản, chỉ cần tham gia <strong>mua sắm
@@ -1762,7 +1762,7 @@ class Home extends React.Component {
                   mua hoàn hảo, giúp bạn <strong>mua sắm hàng hiệu</strong> một cách thoải mái, nhẹ nhàng &amp; mọi
                   thứ đều hợp với túi tiền của bạn.</p>
                       <h2 className="footer-seo-text__h1___3zWgO">Không thể bỏ lỡ cơ hội mua sắm hàng hiệu chính hãng giá tốt
-                  tại Leflair.vn</h2>
+                  tại 123order.vn</h2>
                       <p className="footer-seo-text__body___UPRs4">Với vô số thương hiệu đẳng cấp quốc tế dành riêng cho các
                         tín đồ thời trang, bạn không cần phải bỏ hàng giờ dành cho việc lặn lội ra các cửa hàng, thay vào
                         đó, chỉ cần thư giãn tại nhà, truy cập trang web LEFLAIR.VN, các thương hiệu danh tiếng đã sẵn
@@ -1772,7 +1772,7 @@ class Home extends React.Component {
                         Guerlain,... Và cả những cô nàng, anh chàng nội trợ với nhu cầu trang hoàng nhà cửa, chăm sóc
                         cuộc sống &amp; gia đình cũng hoàn toàn có thể tìm thấy các sản phẩm ưng ý về nhà cửa, trẻ em,...
                   chỉ với một cú click chuột.</p>
-                      <h2 className="footer-seo-text__h1___3zWgO">Lý do bạn nên mua sắm hàng hiệu giá ưu đãi tại Leflair.vn?</h2>
+                      <h2 className="footer-seo-text__h1___3zWgO">Lý do bạn nên mua sắm hàng hiệu giá ưu đãi tại 123order.vn?</h2>
                       <p className="footer-seo-text__body___UPRs4">Chỉ với một số lý do dưới đây, bạn hoàn toàn có thể khẳng
                   định rằng, quyết định lựa chọn trải nghiệm mua sắm của bạn tại LEFLAIR.VN là hoàn toàn sáng suốt:</p>
                       <ol>
@@ -1780,7 +1780,7 @@ class Home extends React.Component {
                         <li className="footer-seo-text__body___UPRs4">Giá ưu đãi vô cùng hợp lý</li>
                         <li className="footer-seo-text__body___UPRs4">Trải nghiệm mua sắm tối giản</li>
                         <li className="footer-seo-text__body___UPRs4">Dịch vụ khách hàng chất lượng</li>
-                        <li className="footer-seo-text__body___UPRs4">Sở hữu blog online Leflair Style Guide về thời trang,
+                        <li className="footer-seo-text__body___UPRs4">Sở hữu blog online 123order Style Guide về thời trang,
                     làm đẹp &amp; lối sống</li>
                       </ol>
                       <p className="footer-seo-text__body___UPRs4">Với các tiêu chí nâng tầm trải nghiệm mua sắm tuyệt vời
@@ -1802,7 +1802,7 @@ class Home extends React.Component {
                   <div className="subscription-form__subscription-box___3q4Dq">
                     <div className="subscription-form__title-container___19sMv">
                       <h3>Đăng ký ngay!</h3>
-                      <p className="subscription-form__subtext___3gWxq">Nhận bản tin từ Leflair mỗi ngày</p>
+                      <p className="subscription-form__subtext___3gWxq">Nhận bản tin từ 123order mỗi ngày</p>
                     </div>
                     <form className="subscription-form__form___1HTdc" name="form">
                       <div className="row__row___2roCA ">
@@ -1840,7 +1840,7 @@ class Home extends React.Component {
                       <h4 className="footer__title___2Zw_F">Doanh nghiệp</h4>
                       <div className="footer__body___2_pAR">
                         <ul className="list-unstyled">
-                          <li><a href="https://pages.leflair.vn/about-us">Về Leflair</a></li>
+                          <li><a href="https://pages.leflair.vn/about-us">Về 123order</a></li>
                           <li><a href="https://styleguide.leflair.vn/">Style Guide</a></li>
                           <li><a href="https://pages.leflair.vn/partners">Hợp tác</a></li>
                           <li><a href="https://pages.leflair.vn/genuine-guarantee">Chính hãng</a></li>
@@ -1875,7 +1875,7 @@ class Home extends React.Component {
                       <div className="row__row___2roCA ">
                         <div className="footer__col-lg-6___2jvLt footer__copyright___1R9Fa"><a className="footer__govLink___1bjkn" href="http://www.online.gov.vn/HomePage/CustomWebsiteDisplay.aspx?DocId=19306" target="blank"><img className="footer__image___1wrDs" src="https://www.leflair.vn/images/stamp-bo-cong-thuong.png" /></a><span className="footer__text___1Ta7d">Copyright
                       @ 2018 123order.vn</span></div>
-                        <div className="footer__col-lg-6___2jvLt footer__address___aiHX9">Công ty Cổ phần Leflair - Tầng 16,
+                        <div className="footer__col-lg-6___2jvLt footer__address___aiHX9">Công ty Cổ phần 123order - Tầng 16,
                     Tháp A2, Tòa nhà Viettel, 285 Cách Mạng Tháng Tám, P.12, Q.10, TP.HCM</div>
                       </div>
                     </div>

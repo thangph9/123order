@@ -161,7 +161,7 @@ class Nike extends React.Component {
                       <h4 className="footer__title___2Zw_F">Doanh nghiệp</h4>
                       <div className="footer__body___2_pAR">
                         <ul className="list-unstyled">
-                          <li><a href="https://pages.leflair.vn/about-us">Về Leflair</a></li>
+                          <li><a href="https://pages.leflair.vn/about-us">Về 123order</a></li>
                           <li><a href="https://styleguide.leflair.vn/">Style Guide</a></li>
                           <li><a href="https://pages.leflair.vn/partners">Hợp tác</a></li>
                           <li><a href="https://pages.leflair.vn/genuine-guarantee">Chính hãng</a></li>
@@ -196,7 +196,7 @@ class Nike extends React.Component {
                       <div className="row__row___2roCA ">
                         <div className="footer__col-lg-6___2jvLt footer__copyright___1R9Fa"><a className="footer__govLink___1bjkn" href="http://www.online.gov.vn/HomePage/CustomWebsiteDisplay.aspx?DocId=19306" target="blank"><img className="footer__image___1wrDs" src="https://www.leflair.vn/images/stamp-bo-cong-thuong.png" /></a><span className="footer__text___1Ta7d">Copyright
                       @ 2018 123order.vn</span></div>
-                        <div className="footer__col-lg-6___2jvLt footer__address___aiHX9">Công ty Cổ phần Leflair - Tầng 16,
+                        <div className="footer__col-lg-6___2jvLt footer__address___aiHX9">Công ty Cổ phần 123order - Tầng 16,
                     Tháp A2, Tòa nhà Viettel, 285 Cách Mạng Tháng Tám, P.12, Q.10, TP.HCM</div>
                       </div>
                     </div>

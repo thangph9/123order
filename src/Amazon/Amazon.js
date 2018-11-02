@@ -468,9 +468,9 @@ class Amazon extends React.Component {
                 </a>
                 <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/giam-gia-doc-quyen-tai-leflair-versace-and-salvatore-ferragamo-nuoc-hoa-nu-5bbce4f13138ba0001a1d23c">
                   <div className="sale-card__currentSale___cC1H3">
-                    <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd681ec3bc933d99599b346.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd681ec3bc933d99599b346.jpg 640w, https://images.leflair.vn/w1080/q85/5bd681ec3bc933d99599b346.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd681ec3bc933d99599b346.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Giá Độc Quyền Tại Leflair - Versace & Salvatore Ferragamo: Nước Hoa Nữ" /></div>
+                    <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd681ec3bc933d99599b346.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd681ec3bc933d99599b346.jpg 640w, https://images.leflair.vn/w1080/q85/5bd681ec3bc933d99599b346.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd681ec3bc933d99599b346.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Giá Độc Quyền Tại 123order - Versace & Salvatore Ferragamo: Nước Hoa Nữ" /></div>
                     <div className="sale-card__currentSaleInfo___2LkMa">
-                      <div className="sale-card__currentSaleTitle___1eVtM">Giảm Giá Độc Quyền Tại Leflair - Versace &amp; Salvatore Ferragamo: Nước Hoa Nữ</div>
+                      <div className="sale-card__currentSaleTitle___1eVtM">Giảm Giá Độc Quyền Tại 123order - Versace &amp; Salvatore Ferragamo: Nước Hoa Nữ</div>
                       <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
                     </div>
                   </div>
@@ -549,9 +549,9 @@ class Amazon extends React.Component {
                 </a>
                 <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/lan-dau-tai-leflair-skin-nation-my-pham-duong-da-5bd2ba98d7751c03fc8f8c87">
                   <div className="sale-card__currentSale___cC1H3">
-                    <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6dcfde50f80ef3fb11505.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd6dcfde50f80ef3fb11505.jpg 640w, https://images.leflair.vn/w1080/q85/5bd6dcfde50f80ef3fb11505.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd6dcfde50f80ef3fb11505.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Lần Đầu Tại Leflair - Skin Nation Mỹ Phẩm Dưỡng Da" /></div>
+                    <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6dcfde50f80ef3fb11505.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd6dcfde50f80ef3fb11505.jpg 640w, https://images.leflair.vn/w1080/q85/5bd6dcfde50f80ef3fb11505.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd6dcfde50f80ef3fb11505.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Lần Đầu Tại 123order - Skin Nation Mỹ Phẩm Dưỡng Da" /></div>
                     <div className="sale-card__currentSaleInfo___2LkMa">
-                      <div className="sale-card__currentSaleTitle___1eVtM">Lần Đầu Tại Leflair - Skin Nation Mỹ Phẩm Dưỡng Da</div>
+                      <div className="sale-card__currentSaleTitle___1eVtM">Lần Đầu Tại 123order - Skin Nation Mỹ Phẩm Dưỡng Da</div>
                       <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
                     </div>
                   </div>
@@ -594,9 +594,9 @@ class Amazon extends React.Component {
                 </a>
                 <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/lan-dau-tai-leflair-graceful-trang-suc-phong-thuy-5bce904e9eaacb0001499482">
                   <div className="sale-card__currentSale___cC1H3">
-                    <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd428ebc2d2e5466617f919.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd428ebc2d2e5466617f919.jpg 640w, https://images.leflair.vn/w1080/q85/5bd428ebc2d2e5466617f919.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd428ebc2d2e5466617f919.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Lần Đầu Tại Leflair - Graceful Trang Sức Phong Thủy" /></div>
+                    <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd428ebc2d2e5466617f919.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd428ebc2d2e5466617f919.jpg 640w, https://images.leflair.vn/w1080/q85/5bd428ebc2d2e5466617f919.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd428ebc2d2e5466617f919.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Lần Đầu Tại 123order - Graceful Trang Sức Phong Thủy" /></div>
                     <div className="sale-card__currentSaleInfo___2LkMa">
-                      <div className="sale-card__currentSaleTitle___1eVtM">Lần Đầu Tại Leflair - Graceful Trang Sức Phong Thủy</div>
+                      <div className="sale-card__currentSaleTitle___1eVtM">Lần Đầu Tại 123order - Graceful Trang Sức Phong Thủy</div>
                       <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
                     </div>
                   </div>
@@ -990,7 +990,7 @@ class Amazon extends React.Component {
                       <h4 className="footer__title___2Zw_F">Doanh nghiệp</h4>
                       <div className="footer__body___2_pAR">
                         <ul className="list-unstyled">
-                          <li><a href="https://pages.leflair.vn/about-us">Về Leflair</a></li>
+                          <li><a href="https://pages.leflair.vn/about-us">Về 123order</a></li>
                           <li><a href="https://styleguide.leflair.vn/">Style Guide</a></li>
                           <li><a href="https://pages.leflair.vn/partners">Hợp tác</a></li>
                           <li><a href="https://pages.leflair.vn/genuine-guarantee">Chính hãng</a></li>
@@ -1025,7 +1025,7 @@ class Amazon extends React.Component {
                       <div className="row__row___2roCA ">
                         <div className="footer__col-lg-6___2jvLt footer__copyright___1R9Fa"><a className="footer__govLink___1bjkn" href="http://www.online.gov.vn/HomePage/CustomWebsiteDisplay.aspx?DocId=19306" target="blank"><img className="footer__image___1wrDs" src="https://www.leflair.vn/images/stamp-bo-cong-thuong.png" /></a><span className="footer__text___1Ta7d">Copyright
                       @ 2018 123order.vn</span></div>
-                        <div className="footer__col-lg-6___2jvLt footer__address___aiHX9">Công ty Cổ phần Leflair - Tầng 16,
+                        <div className="footer__col-lg-6___2jvLt footer__address___aiHX9">Công ty Cổ phần 123order - Tầng 16,
                     Tháp A2, Tòa nhà Viettel, 285 Cách Mạng Tháng Tám, P.12, Q.10, TP.HCM</div>
                       </div>
                     </div>

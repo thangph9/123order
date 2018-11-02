@@ -190,9 +190,9 @@ class Adidas extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/lan-dau-tai-leflair-ivv-do-dung-ban-an-tu-nuoc-y-5bd027a8b510720001868ea7">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6cf333d41615dffc1b2d1.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd6cf333d41615dffc1b2d1.jpg 640w, https://images.leflair.vn/w1080/q85/5bd6cf333d41615dffc1b2d1.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd6cf333d41615dffc1b2d1.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Lần Đầu Tại Leflair - IVV Đồ Dùng Bàn Ăn Từ Nước Ý" /></div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6cf333d41615dffc1b2d1.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd6cf333d41615dffc1b2d1.jpg 640w, https://images.leflair.vn/w1080/q85/5bd6cf333d41615dffc1b2d1.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd6cf333d41615dffc1b2d1.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Lần Đầu Tại 123order - IVV Đồ Dùng Bàn Ăn Từ Nước Ý" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
-          <div className="sale-card__currentSaleTitle___1eVtM">Lần Đầu Tại Leflair - IVV Đồ Dùng Bàn Ăn Từ Nước Ý</div>
+          <div className="sale-card__currentSaleTitle___1eVtM">Lần Đầu Tại 123order - IVV Đồ Dùng Bàn Ăn Từ Nước Ý</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
         </div>
       </div>
@@ -235,9 +235,9 @@ class Adidas extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/lan-dau-tai-leflair-giam-den-44-cole-and-mason-do-dung-nha-bep-5bcffbeb98ea5c000109de6f">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd4293d50cfa90e3ae024a2.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd4293d50cfa90e3ae024a2.jpg 640w, https://images.leflair.vn/w1080/q85/5bd4293d50cfa90e3ae024a2.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd4293d50cfa90e3ae024a2.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Lần Đầu Tại Leflair - Giảm Đến 44% - Cole & Mason Đồ Dùng Nhà Bếp" /></div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd4293d50cfa90e3ae024a2.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd4293d50cfa90e3ae024a2.jpg 640w, https://images.leflair.vn/w1080/q85/5bd4293d50cfa90e3ae024a2.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd4293d50cfa90e3ae024a2.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Lần Đầu Tại 123order - Giảm Đến 44% - Cole & Mason Đồ Dùng Nhà Bếp" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
-          <div className="sale-card__currentSaleTitle___1eVtM">Lần Đầu Tại Leflair - Giảm Đến 44% - Cole &amp; Mason Đồ Dùng Nhà Bếp</div>
+          <div className="sale-card__currentSaleTitle___1eVtM">Lần Đầu Tại 123order - Giảm Đến 44% - Cole &amp; Mason Đồ Dùng Nhà Bếp</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
         </div>
       </div>
@@ -262,9 +262,9 @@ class Adidas extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/lan-dau-tai-leflair-giam-den-49-wusthof-bo-dao-keo-5bcef72e418eb80001ec2154">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd42873bfaa18854fe62cfc.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd42873bfaa18854fe62cfc.jpg 640w, https://images.leflair.vn/w1080/q85/5bd42873bfaa18854fe62cfc.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd42873bfaa18854fe62cfc.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Lần Đầu Tại Leflair - Giảm Đến 49% Wüsthof Bộ Dao, Kéo" /></div>
+        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd42873bfaa18854fe62cfc.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd42873bfaa18854fe62cfc.jpg 640w, https://images.leflair.vn/w1080/q85/5bd42873bfaa18854fe62cfc.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd42873bfaa18854fe62cfc.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Lần Đầu Tại 123order - Giảm Đến 49% Wüsthof Bộ Dao, Kéo" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
-          <div className="sale-card__currentSaleTitle___1eVtM">Lần Đầu Tại Leflair - Giảm Đến 49% Wüsthof Bộ Dao, Kéo</div>
+          <div className="sale-card__currentSaleTitle___1eVtM">Lần Đầu Tại 123order - Giảm Đến 49% Wüsthof Bộ Dao, Kéo</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
         </div>
       </div>
@@ -335,7 +335,7 @@ class Adidas extends React.Component {
                       <h4 className="footer__title___2Zw_F">Doanh nghiệp</h4>
                       <div className="footer__body___2_pAR">
                         <ul className="list-unstyled">
-                          <li><a href="https://pages.leflair.vn/about-us">Về Leflair</a></li>
+                          <li><a href="https://pages.leflair.vn/about-us">Về 123order</a></li>
                           <li><a href="https://styleguide.leflair.vn/">Style Guide</a></li>
                           <li><a href="https://pages.leflair.vn/partners">Hợp tác</a></li>
                           <li><a href="https://pages.leflair.vn/genuine-guarantee">Chính hãng</a></li>
@@ -370,7 +370,7 @@ class Adidas extends React.Component {
                       <div className="row__row___2roCA ">
                         <div className="footer__col-lg-6___2jvLt footer__copyright___1R9Fa"><a className="footer__govLink___1bjkn" href="http://www.online.gov.vn/HomePage/CustomWebsiteDisplay.aspx?DocId=19306" target="blank"><img className="footer__image___1wrDs" src="https://www.leflair.vn/images/stamp-bo-cong-thuong.png" /></a><span className="footer__text___1Ta7d">Copyright
                       @ 2018 123order.vn</span></div>
-                        <div className="footer__col-lg-6___2jvLt footer__address___aiHX9">Công ty Cổ phần Leflair - Tầng 16,
+                        <div className="footer__col-lg-6___2jvLt footer__address___aiHX9">Công ty Cổ phần 123order - Tầng 16,
                     Tháp A2, Tòa nhà Viettel, 285 Cách Mạng Tháng Tám, P.12, Q.10, TP.HCM</div>
                       </div>
                     </div>
