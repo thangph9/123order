@@ -506,7 +506,7 @@ class Ebay extends React.Component {
                 </div>
               </div>
             </div>
-            <div className=" cart__cart___yD7P6 ">
+            <div className="cart__cart___yD7P6 ">
               <div className="clearfix cart__heading___1Yc0F">
                 <div className="cart__btn-close___1BLZG" title="Tiếp tục mua sắm!"><span className="ic-ic-close cart__icon___DWUE4" /></div>
                 <h4 className="cart__title___XIF0i">Giỏ hàng<span>(0 Sản phẩm)</span></h4>
@@ -544,7 +544,7 @@ class Ebay extends React.Component {
                 </div>
               </div>
             </div>
-            <a id="go-to-top" className=" go-to-top__go-to-top___7XKAr" href="javascript:void(0)"><span className="go-to-top__icon___217Vz ic-ic-arrow-up" /></a>
+            <a id="go-to-top" className="go-to-top__go-to-top___7XKAr" href="javascript:void(0)"><span className="go-to-top__icon___217Vz ic-ic-arrow-up" /></a>
           </div>
         </div>
       </main>
