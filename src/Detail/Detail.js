@@ -27,8 +27,8 @@ class Detail extends React.Component {
       var allClass=document.getElementsByClassName("product-description__group___3Z2qF");
       console.log(allClass)
       for(let i=0;i<allClass.length;i++){
-      allClass[i].classList.remove('open');
-      allClass[i].classList.remove('product-description__panel-open___2KMq2');
+      console.log(allClass[i])
+      
       }
       
     }
