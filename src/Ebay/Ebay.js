@@ -8,6 +8,9 @@ class Ebay extends React.Component {
     this.state = {
     }
   }
+  componentWillMount() {
+    document.documentElement.scrollTop = 0
+  }
   render() {
     return (
       <main className="app__body___3NlTJ" data-reactroot>

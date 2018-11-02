@@ -9,6 +9,12 @@ class Home extends React.Component {
     this.state = {
     }
   }
+  componentWillMount() {
+    document.documentElement.scrollTop = 0
+  }
+  handleClick(){
+    document.documentElement.scrollTop = 0
+  }
   render() {
     return (
       <main className="app__body___3NlTJ" data-reactroot>
@@ -1813,7 +1819,7 @@ class Home extends React.Component {
               <div className="container__container___1fvX0 ">
                 <div className="footer__upper___3xatR">
                   <div className="row__row___2roCA ">
-                    <div className="footer__col-md-2___1vyOI footer__socialLinks___3S5w9"><Link to={`/home`} className="footer__logo___SNGnI" style={{ marginLeft: '25px' }} ><img className="footer__image___1wrDs" src="/img/123orderwhite.png" /></Link>
+                    <div className="footer__col-md-2___1vyOI footer__socialLinks___3S5w9"><Link to={`/home`} className="footer__logo___SNGnI" style={{ marginLeft: '25px' }} ><img onClick={()=>this.handleClick()} className="footer__image___1wrDs" src="/img/123orderwhite.png" /></Link>
                       <ul className="list-inline">
                         <li className="list-inline-item"><a href="https://www.facebook.com/LeflairVN"><i className="ic-facebook" /></a></li>
                         <li className="list-inline-item"><a href="https://instagram.com/leflairvietnam"><i className="ic-instagram" /></a></li>
