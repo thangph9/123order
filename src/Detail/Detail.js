@@ -1,9 +1,10 @@
 import React from "react";
 import { connect } from "react-redux";
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import '../Sections/style.css';
 import './slick.css';
 import './slick-themes.css';
+import Slider from "react-slick";
 class Detail extends React.Component {
   constructor(props) {
     super(props);
@@ -13,10 +14,20 @@ class Detail extends React.Component {
   componentWillMount() {
     document.documentElement.scrollTop = 0
   }
-  handleClick(){
+  handleClick() {
     document.documentElement.scrollTop = 0
   }
   render() {
+    var settings = {
+      dots: false,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: false,
+      arrows: true,
+      dots: true
+    };
     return (
       <main className="app__body___3NlTJ" data-reactroot>
         <div>
@@ -60,7 +71,6 @@ class Detail extends React.Component {
               <div />
             </div>
 
-
             <div className="container__container___1fvX0 ">
               <div className="product__product___2plEK">
                 <div className="clearfix product__product-header___2yYGL">
@@ -81,23 +91,35 @@ class Detail extends React.Component {
                           <div className="hidden-md-down images-slider__slider___2EiI8">
                             <div className="ic-ic-arrow-up images-slider__images-navigation___KCIEC images-slider__navigation-up___yqRaw undefined" />
                             <ul className="list-unstyled images-slider__list-thumbnail-inner___2vzS2" id="images-container">
-                              <li className="images-slider__image-border___2hkRy images-slider__image-selected___3ftth"><img id className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w90/q85/5bda7a8502c08e863b71bb2b.jpg" srcSet="https://images.leflair.vn/w90/q85/5bda7a8502c08e863b71bb2b.jpg 90w, https://images.leflair.vn/w144/q85/5bda7a8502c08e863b71bb2b.jpg 144w" sizes="80px" alt /></li>
+                              <li className="images-slider__image-border___2hkRy "><img id className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w90/q85/5bda7a8502c08e863b71bb2b.jpg" srcSet="https://images.leflair.vn/w90/q85/5bda7a8502c08e863b71bb2b.jpg 90w, https://images.leflair.vn/w144/q85/5bda7a8502c08e863b71bb2b.jpg 144w" sizes="80px" alt /></li>
                               <li className="images-slider__image-border___2hkRy "><img id className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w90/q85/5bda7a852b25c2eab5b33bc9.jpg" srcSet="https://images.leflair.vn/w90/q85/5bda7a852b25c2eab5b33bc9.jpg 90w, https://images.leflair.vn/w144/q85/5bda7a852b25c2eab5b33bc9.jpg 144w" sizes="80px" alt /></li>
                               <li className="images-slider__image-border___2hkRy "><img id className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w90/q85/5bda7a9793073444b0761dc1.jpg" srcSet="https://images.leflair.vn/w90/q85/5bda7a9793073444b0761dc1.jpg 90w, https://images.leflair.vn/w144/q85/5bda7a9793073444b0761dc1.jpg 144w" sizes="80px" alt /></li>
-                              <li className="images-slider__image-border___2hkRy "><img id className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w90/q85/5bda7a922b25c20d05b33bca.jpg" srcSet="https://images.leflair.vn/w90/q85/5bda7a922b25c20d05b33bca.jpg 90w, https://images.leflair.vn/w144/q85/5bda7a922b25c20d05b33bca.jpg 144w" sizes="80px" alt /></li>
+                              <li className="images-slider__image-border___2hkRy images-slider__image-selected___3ftth"><img id className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w90/q85/5bda7a922b25c20d05b33bca.jpg" srcSet="https://images.leflair.vn/w90/q85/5bda7a922b25c20d05b33bca.jpg 90w, https://images.leflair.vn/w144/q85/5bda7a922b25c20d05b33bca.jpg 144w" sizes="80px" alt /></li>
                             </ul>
                             <div className="ic-ic-arrow-down images-slider__images-navigation___KCIEC images-slider__navigation-down___2GHVX undefined" />
                           </div>
                           <div className="hidden-lg-up images-slider__slider-wrapper___1hmGf">
-                            <div className="undefined unslicked"><img id className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w380/q85/5bda7a8502c08e863b71bb2b.jpg" srcSet="https://images.leflair.vn/w380/q85/5bda7a8502c08e863b71bb2b.jpg 380w, https://images.leflair.vn/w640/q85/5bda7a8502c08e863b71bb2b.jpg 640w, https://images.leflair.vn/w850/q85/5bda7a8502c08e863b71bb2b.jpg 850w" sizes alt /><img id className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w380/q85/5bda7a852b25c2eab5b33bc9.jpg" srcSet="https://images.leflair.vn/w380/q85/5bda7a852b25c2eab5b33bc9.jpg 380w, https://images.leflair.vn/w640/q85/5bda7a852b25c2eab5b33bc9.jpg 640w, https://images.leflair.vn/w850/q85/5bda7a852b25c2eab5b33bc9.jpg 850w" sizes alt /><img id className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w380/q85/5bda7a9793073444b0761dc1.jpg" srcSet="https://images.leflair.vn/w380/q85/5bda7a9793073444b0761dc1.jpg 380w, https://images.leflair.vn/w640/q85/5bda7a9793073444b0761dc1.jpg 640w, https://images.leflair.vn/w850/q85/5bda7a9793073444b0761dc1.jpg 850w" sizes alt /><img id className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w380/q85/5bda7a922b25c20d05b33bca.jpg" srcSet="https://images.leflair.vn/w380/q85/5bda7a922b25c20d05b33bca.jpg 380w, https://images.leflair.vn/w640/q85/5bda7a922b25c20d05b33bca.jpg 640w, https://images.leflair.vn/w850/q85/5bda7a922b25c20d05b33bca.jpg 850w" sizes alt /></div>
+                            <div className="slick-initialized slick-slider">
+                              <button type="button" data-role="none" className="slick-arrow slick-prev slick-disabled" style={{ display: 'block' }}> Previous</button>
+                              <div className="slick-list">
+                                <div className="slick-track" style={{ opacity: 1, transform: 'translate3d(0px, 0px, 0px)', width: 2682 }}><img id className="slick-slide slick-active images-slider__image___wW9Yw" src="https://images.leflair.vn/w380/q85/5bda7a8502c08e863b71bb2b.jpg" srcSet="https://images.leflair.vn/w380/q85/5bda7a8502c08e863b71bb2b.jpg 380w, https://images.leflair.vn/w640/q85/5bda7a8502c08e863b71bb2b.jpg 640w, https://images.leflair.vn/w850/q85/5bda7a8502c08e863b71bb2b.jpg 850w" sizes alt style={{ outline: 'none', width: 447 }} /><img id className="slick-slide images-slider__image___wW9Yw" src="https://images.leflair.vn/w380/q85/5bda7a852b25c2eab5b33bc9.jpg" srcSet="https://images.leflair.vn/w380/q85/5bda7a852b25c2eab5b33bc9.jpg 380w, https://images.leflair.vn/w640/q85/5bda7a852b25c2eab5b33bc9.jpg 640w, https://images.leflair.vn/w850/q85/5bda7a852b25c2eab5b33bc9.jpg 850w" sizes alt style={{ outline: 'none', width: 447 }} /><img id className="slick-slide images-slider__image___wW9Yw" src="https://images.leflair.vn/w380/q85/5bda7a9793073444b0761dc1.jpg" srcSet="https://images.leflair.vn/w380/q85/5bda7a9793073444b0761dc1.jpg 380w, https://images.leflair.vn/w640/q85/5bda7a9793073444b0761dc1.jpg 640w, https://images.leflair.vn/w850/q85/5bda7a9793073444b0761dc1.jpg 850w" sizes alt style={{ outline: 'none', width: 447 }} /><img id className="slick-slide images-slider__image___wW9Yw" src="https://images.leflair.vn/w380/q85/5bda7a922b25c20d05b33bca.jpg" srcSet="https://images.leflair.vn/w380/q85/5bda7a922b25c20d05b33bca.jpg 380w, https://images.leflair.vn/w640/q85/5bda7a922b25c20d05b33bca.jpg 640w, https://images.leflair.vn/w850/q85/5bda7a922b25c20d05b33bca.jpg 850w" sizes alt style={{ outline: 'none', width: 447 }} /></div>
+                              </div>
+                              <button type="button" data-role="none" className="slick-arrow slick-next" style={{ display: 'block' }}> Next</button>
+                              <ul className="slick-dots" style={{ display: 'block' }}>
+                                <li className="slick-active"><button>1</button></li>
+                                <li className><button>2</button></li>
+                                <li className><button>3</button></li>
+                                <li className><button>4</button></li>
+                              </ul>
+                            </div>
                             <div className="images-slider__sold-out-overlay___2Avrv">Hết hàng</div>
                           </div>
                         </div>
                         <div className="hidden-md-down images-slider__col-lg-10___3uZXv">
                           <div className="images-slider__main-image___1MFAY">
-                            <img id className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w580/q85/5bda7a8502c08e863b71bb2b.jpg" srcSet="https://images.leflair.vn/w580/q85/5bda7a8502c08e863b71bb2b.jpg 580w, https://images.leflair.vn/w1030/q85/5bda7a8502c08e863b71bb2b.jpg 1030w, https://images.leflair.vn/w1080/q85/5bda7a8502c08e863b71bb2b.jpg 1080w" sizes alt />
+                            <img id className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w580/q85/5bda7a922b25c20d05b33bca.jpg" srcSet="https://images.leflair.vn/w580/q85/5bda7a922b25c20d05b33bca.jpg 580w, https://images.leflair.vn/w1030/q85/5bda7a922b25c20d05b33bca.jpg 1030w, https://images.leflair.vn/w1080/q85/5bda7a922b25c20d05b33bca.jpg 1080w" sizes alt />
                             <div className="images-slider__sold-out-overlay___2Avrv">Hết hàng</div>
-                            <img id="zoom-image" className="images-slider__zoom-image___3jo-j" src="https://images.leflair.vn/w1350/q85/5bda7a8502c08e863b71bb2b.jpg" srcSet="https://images.leflair.vn/w1350/q85/5bda7a8502c08e863b71bb2b.jpg 1350w, https://images.leflair.vn/w1440/q85/5bda7a8502c08e863b71bb2b.jpg 1440w" sizes alt style={{ top: '-229.816px', left: '-115.798px' }} />
+                            <img id="zoom-image" className="images-slider__zoom-image___3jo-j" src="https://images.leflair.vn/w1350/q85/5bda7a922b25c20d05b33bca.jpg" srcSet="https://images.leflair.vn/w1350/q85/5bda7a922b25c20d05b33bca.jpg 1350w, https://images.leflair.vn/w1440/q85/5bda7a922b25c20d05b33bca.jpg 1440w" sizes alt style={{ top: '-138.534px', left: '-300.779px' }} />
                             <div className="images-slider__overlay___CJo-l" />
                           </div>
                         </div>
@@ -124,15 +146,15 @@ class Detail extends React.Component {
                             <div>Ngày</div>
                           </div>
                           <div>
-                            <div>18</div>
+                            <div>10</div>
                             <div>Giờ</div>
                           </div>
                           <div>
-                            <div>03</div>
+                            <div>01</div>
                             <div>Phút</div>
                           </div>
                           <div>
-                            <div>15</div>
+                            <div>36</div>
                             <div>Giây</div>
                           </div>
                         </div>
@@ -161,7 +183,7 @@ class Detail extends React.Component {
                                   <li>
                                     <div>
                                       Ý nghĩa:
-                                        <ul>
+                          <ul>
                                         <li>Đá mặt trăng được coi như hấp thụ tinh hoa của mặt trăng, mang đến sự êm đềm và khiến tâm trí không bị xao nhãng, xóa bỏ căng thẳng, nguôi ngoai cơn giận. Ngoài ra, còn có tác động tới với thận niệu đạo và bàng quang, điều trị phù thũng.</li>
                                         <li>Thạch anh tóc đen được coi là viên đá của tình cảm, giúp cân bằng cảm xúc, xóa bỏ trạng thái căng thẳng, trầm cảm kéo dài. </li>
                                         <li>Xua đuổi hư khí, giúp người đeo tránh được điềm xui rủi, mang đến vận may, cơ hội.</li>
@@ -237,7 +259,7 @@ class Detail extends React.Component {
                   </div>
                   <div id="product-info" className="row__row___2roCA product__extra-info___1r8vd extra-info__extra-info-section___378qZ">
                     <div className="extra-info__extra-info___HmKpD extra-info__col-md-6___3ZC3K extra-info__col-sm-12___2y7dc">
-                      <div className="extra-info__info-image___1Kd9E"><img src="img/product-extra-guarantee.jpg" alt="Product extra guarantee" /></div>
+                      <div className="extra-info__info-image___1Kd9E"><img src="/images/product-extra-guarantee.jpg" alt="Product extra guarantee" /></div>
                       <div className="extra-info__info-text___CTc2n">
                         <div className="extra-info__title___1Itso">Bảo đảm 100% chính hãng</div>
                         <ul className="extra-info__text-list-ul___6CagB">
@@ -248,7 +270,7 @@ class Detail extends React.Component {
                       </div>
                     </div>
                     <div className="extra-info__extra-info___HmKpD extra-info__col-md-6___3ZC3K extra-info__col-sm-12___2y7dc">
-                      <div className="extra-info__info-image___1Kd9E"><img src="img/product-extra-return.jpg" alt="Product extra guarantee" /></div>
+                      <div className="extra-info__info-image___1Kd9E"><img src="/images/product-extra-return.jpg" alt="Product extra guarantee" /></div>
                       <div className="extra-info__info-text___CTc2n">
                         <div className="extra-info__title___1Itso">Trả hàng đơn giản theo 4 bước</div>
                         <ul className="extra-info__table-group___1xJ6Q">
@@ -275,6 +297,8 @@ class Detail extends React.Component {
                 </div>
               </div>
             </div>
+
+
             <div className="container__container___1fvX0 product__full-view-mobile___2dg3r">
               <div className="product__lower-content___SU6_q">
                 <div className="product__recently-viewed-container___1z-1h">
@@ -343,75 +367,75 @@ class Detail extends React.Component {
               </div>
             </div>
             <div className="footer__footerSection___1-2XO" id="footer">
-        <div className="container__container___1fvX0 ">
-          <div className="footer__upper___3xatR">
-            <div className="row__row___2roCA ">
-              <div className="footer__col-md-2___1vyOI footer__socialLinks___3S5w9"><Link to={`/home`} className="footer__logo___SNGnI" style={{marginLeft:'25px'}} ><img onClick={()=>this.handleClick()} className="footer__image___1wrDs" src="/img/123orderwhite.png" /></Link>
-                <ul className="list-inline">
-                  <li className="list-inline-item"><a href="https://www.facebook.com/LeflairVN"><i className="ic-facebook" /></a></li>
-                  <li className="list-inline-item"><a href="https://instagram.com/leflairvietnam"><i className="ic-instagram" /></a></li>
-                  <li className="list-inline-item"><a href="https://www.linkedin.com/company/leflair"><i className="ic-linkedin2" /></a></li>
-                  <li className="list-inline-item"><a href="https://zalo.me/3159399474223916820"><i className="ic-ic-zalo" /></a></li>
-                </ul>
-              </div>
-              <div className="footer__col-md-2___1vyOI footer__col-4___-XXVx footer__contact___2p3rC">
-                <h4 className="footer__title___2Zw_F">Liên hệ</h4>
-                <div className="footer__body___2_pAR">
-                  <ul className="list-unstyled">
-                    <li><a className="phone" href="tel:19006710">19006710</a></li>
-                    <li><a className="email" href="mailto:help@leflair.vn">help@leflair.vn</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div className="footer__col-md-2___1vyOI footer__col-4___-XXVx footer__company___GKAFU">
-                <h4 className="footer__title___2Zw_F">Doanh nghiệp</h4>
-                <div className="footer__body___2_pAR">
-                  <ul className="list-unstyled">
-                    <li><a href="https://pages.leflair.vn/about-us">Về Leflair</a></li>
-                    <li><a href="https://styleguide.leflair.vn/">Style Guide</a></li>
-                    <li><a href="https://pages.leflair.vn/partners">Hợp tác</a></li>
-                    <li><a href="https://pages.leflair.vn/genuine-guarantee">Chính hãng</a></li>
-                    <li><a href="https://careers.leflair.vn/">Tuyển dụng</a></li>
-                    <li><a className href="/brands">Thương hiệu</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div className="footer__col-md-2___1vyOI footer__col-4___-XXVx footer__customerService___2ZPaW">
-                <h4 className="footer__title___2Zw_F">Chăm sóc khách hàng</h4>
-                <div className="footer__body___2_pAR">
-                  <ul className="list-unstyled">
-                    <li><a href="https://support.leflair.vn/hc/vi">Hỏi đáp</a></li>
-                    <li><a href="https://support.leflair.vn/hc/vi/articles/214167448-Ch%C3%ADnh-s%C3%A1ch-tr%E1%BA%A3-h%C3%A0ng-v%C3%A0-ho%C3%A0n-ti%E1%BB%81n">Đổi
+              <div className="container__container___1fvX0 ">
+                <div className="footer__upper___3xatR">
+                  <div className="row__row___2roCA ">
+                    <div className="footer__col-md-2___1vyOI footer__socialLinks___3S5w9"><Link to={`/home`} className="footer__logo___SNGnI" style={{ marginLeft: '25px' }} ><img onClick={() => this.handleClick()} className="footer__image___1wrDs" src="/img/123orderwhite.png" /></Link>
+                      <ul className="list-inline">
+                        <li className="list-inline-item"><a href="https://www.facebook.com/LeflairVN"><i className="ic-facebook" /></a></li>
+                        <li className="list-inline-item"><a href="https://instagram.com/leflairvietnam"><i className="ic-instagram" /></a></li>
+                        <li className="list-inline-item"><a href="https://www.linkedin.com/company/leflair"><i className="ic-linkedin2" /></a></li>
+                        <li className="list-inline-item"><a href="https://zalo.me/3159399474223916820"><i className="ic-ic-zalo" /></a></li>
+                      </ul>
+                    </div>
+                    <div className="footer__col-md-2___1vyOI footer__col-4___-XXVx footer__contact___2p3rC">
+                      <h4 className="footer__title___2Zw_F">Liên hệ</h4>
+                      <div className="footer__body___2_pAR">
+                        <ul className="list-unstyled">
+                          <li><a className="phone" href="tel:19006710">19006710</a></li>
+                          <li><a className="email" href="mailto:help@leflair.vn">help@leflair.vn</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div className="footer__col-md-2___1vyOI footer__col-4___-XXVx footer__company___GKAFU">
+                      <h4 className="footer__title___2Zw_F">Doanh nghiệp</h4>
+                      <div className="footer__body___2_pAR">
+                        <ul className="list-unstyled">
+                          <li><a href="https://pages.leflair.vn/about-us">Về Leflair</a></li>
+                          <li><a href="https://styleguide.leflair.vn/">Style Guide</a></li>
+                          <li><a href="https://pages.leflair.vn/partners">Hợp tác</a></li>
+                          <li><a href="https://pages.leflair.vn/genuine-guarantee">Chính hãng</a></li>
+                          <li><a href="https://careers.leflair.vn/">Tuyển dụng</a></li>
+                          <li><a className href="/brands">Thương hiệu</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div className="footer__col-md-2___1vyOI footer__col-4___-XXVx footer__customerService___2ZPaW">
+                      <h4 className="footer__title___2Zw_F">Chăm sóc khách hàng</h4>
+                      <div className="footer__body___2_pAR">
+                        <ul className="list-unstyled">
+                          <li><a href="https://support.leflair.vn/hc/vi">Hỏi đáp</a></li>
+                          <li><a href="https://support.leflair.vn/hc/vi/articles/214167448-Ch%C3%ADnh-s%C3%A1ch-tr%E1%BA%A3-h%C3%A0ng-v%C3%A0-ho%C3%A0n-ti%E1%BB%81n">Đổi
                         trả</a></li>
-                    <li><a href="https://support.leflair.vn/hc/vi/articles/214857097-%C4%90i%E1%BB%81u-kho%E1%BA%A3n-v%C3%A0-quy-%C4%91%E1%BB%8Bnh-chung">Điều
+                          <li><a href="https://support.leflair.vn/hc/vi/articles/214857097-%C4%90i%E1%BB%81u-kho%E1%BA%A3n-v%C3%A0-quy-%C4%91%E1%BB%8Bnh-chung">Điều
                         khoản &amp; quy định</a></li>
-                    <li><a href="https://support.leflair.vn/hc/vi/articles/214167378-Ch%C3%ADnh-s%C3%A1ch-giao-v%C3%A0-nh%E1%BA%ADn-h%C3%A0ng">Giao
+                          <li><a href="https://support.leflair.vn/hc/vi/articles/214167378-Ch%C3%ADnh-s%C3%A1ch-giao-v%C3%A0-nh%E1%BA%ADn-h%C3%A0ng">Giao
                         hàng</a></li>
-                    <li><a href="https://support.leflair.vn/hc/vi/articles/214113678-T%C3%B4i-c%C3%B3-nh%E1%BA%ADn-%C4%91%C6%B0%E1%BB%A3c-h%C3%B3a-%C4%91%C6%A1n-GTGT-trong-b%C6%B0u-ki%E1%BB%87n-kh%C3%B4ng-">Thuế</a></li>
-                  </ul>
+                          <li><a href="https://support.leflair.vn/hc/vi/articles/214113678-T%C3%B4i-c%C3%B3-nh%E1%BA%ADn-%C4%91%C6%B0%E1%BB%A3c-h%C3%B3a-%C4%91%C6%A1n-GTGT-trong-b%C6%B0u-ki%E1%BB%87n-kh%C3%B4ng-">Thuế</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div className="footer__col-md-4___2KXw4 footer__facebookPage___2mPne">
+                      <div className="fb-page" data-href="https://www.facebook.com/LeflairVN" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" data-show-posts="false" />
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div className="footer__col-md-4___2KXw4 footer__facebookPage___2mPne">
-                <div className="fb-page" data-href="https://www.facebook.com/LeflairVN" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" data-show-posts="false" />
-              </div>
-            </div>
-          </div>
-          <div className="footer__lower___3ZvXz">
-            <div className="row__row___2roCA ">
-              <div className="footer__col-lg-8___KYzn5 footer__col-md-8___2pauw">
-                <div className="row__row___2roCA ">
-                  <div className="footer__col-lg-6___2jvLt footer__copyright___1R9Fa"><a className="footer__govLink___1bjkn" href="http://www.online.gov.vn/HomePage/CustomWebsiteDisplay.aspx?DocId=19306" target="blank"><img className="footer__image___1wrDs" src="https://www.leflair.vn/images/stamp-bo-cong-thuong.png" /></a><span className="footer__text___1Ta7d">Copyright
+                <div className="footer__lower___3ZvXz">
+                  <div className="row__row___2roCA ">
+                    <div className="footer__col-lg-8___KYzn5 footer__col-md-8___2pauw">
+                      <div className="row__row___2roCA ">
+                        <div className="footer__col-lg-6___2jvLt footer__copyright___1R9Fa"><a className="footer__govLink___1bjkn" href="http://www.online.gov.vn/HomePage/CustomWebsiteDisplay.aspx?DocId=19306" target="blank"><img className="footer__image___1wrDs" src="https://www.leflair.vn/images/stamp-bo-cong-thuong.png" /></a><span className="footer__text___1Ta7d">Copyright
                       @ 2018 leflair.vn</span></div>
-                  <div className="footer__col-lg-6___2jvLt footer__address___aiHX9">Công ty Cổ phần Leflair - Tầng 16,
+                        <div className="footer__col-lg-6___2jvLt footer__address___aiHX9">Công ty Cổ phần Leflair - Tầng 16,
                     Tháp A2, Tòa nhà Viettel, 285 Cách Mạng Tháng Tám, P.12, Q.10, TP.HCM</div>
+                      </div>
+                    </div>
+                    <div className="footer__col-lg-4___excjO footer__col-md-4___2KXw4">Cơ quan cấp: Sở Kế hoạch và Đầu tư
+                Thành phố Hồ Chí Minh</div>
+                  </div>
                 </div>
               </div>
-              <div className="footer__col-lg-4___excjO footer__col-md-4___2KXw4">Cơ quan cấp: Sở Kế hoạch và Đầu tư
-                Thành phố Hồ Chí Minh</div>
             </div>
-          </div>
-        </div>
-      </div>
             <div className=" cart__cart___yD7P6 ">
               <div className="clearfix cart__heading___1Yc0F">
                 <div className="cart__btn-close___1BLZG" title="Tiếp tục mua sắm!"><span className="ic-ic-close cart__icon___DWUE4" /></div>
