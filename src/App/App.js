@@ -23,6 +23,7 @@ import {HomePage} from '../HomePage';
 import {Home} from '../Home';
 import {Detail} from '../Detail';
 import {Amazon} from '../Amazon';
+import {Ebay} from '../Ebay';
 import { history } from "../stores";
 import { alertActions } from "../actions";
 class App extends Component{
@@ -56,6 +57,7 @@ class App extends Component{
                         <Route exact path="/home" component={Home} />
                         <Route exact path="/detail" component={Detail} />
                         <Route exact path="/amazon" component={Amazon} />
+                        <Route exact path="/ebay" component={Ebay} />
                         <Route exact path="/cod" component={COD} />
                         <Route exact path="/danh-muc-amazon" component={DanhMucAmazon} />
                         <Route exact path="/danh-muc-ebay" component={DanhMucEbay} />
