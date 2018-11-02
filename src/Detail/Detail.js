@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import {Link} from 'react-router-dom';
 import '../Sections/style.css';
 class Detail extends React.Component {
   constructor(props) {
@@ -7,8 +8,8 @@ class Detail extends React.Component {
     this.state = {
     }
   }
-  componentWillMount(){
-    document.documentElement.scrollTop=0
+  componentWillMount() {
+    document.documentElement.scrollTop = 0
   }
   render() {
     return (
@@ -24,18 +25,14 @@ class Detail extends React.Component {
               <nav className="header__my-navbar___2Cghd header__navbar-toggleable-sm___pR4tF header__nav-header___3lWCb">
                 <div className="container__container___1fvX0 header__container___2d-Oi">
                   <div className="hidden-md-up header__my-navbar-toggler___2PiaS"><button className="header__btn-icon___17D-i" type="button"><i className="ic-ic-user" /></button></div>
-                  <a className="header__navbar-brand___SzzgD" href="/"><img src="/img/logo123order.png" /></a>
+                  <Link to={`/home`} className="header__navbar-brand___SzzgD" ><img src="/img/logo123order.png" /></Link>
                   <div className="clearfix collapse header__navbar-collapse___2AK1h">
-                    <a className="hidden-md-up header__navbar-brand___SzzgD" href="/"><img src="/img/logo123order.png" /></a>
+                    <Link to={`/home`} className="hidden-md-up header__navbar-brand___SzzgD" ><img src="/img/logo123order.png" /></Link>
                     <ul className="hidden-md-down header__navbar-nav___9cfBy header__navbar-left___25OFe">
-                      <li className="header__nav-item___MQLXP"><a className="header__nav-link___3W4sc " href="/Women">Nữ</a></li>
-                      <li className="header__nav-item___MQLXP"><a className="header__nav-link___3W4sc " href="/Men">Nam</a></li>
-                      <li className="header__nav-item___MQLXP">
-                        <div className="header__new-indicator___16ciR">Mới</div>
-                        <a className="header__nav-link___3W4sc " href="/International">Hàng nhập khẩu</a>
-                      </li>
-                      <li className="header__nav-item___MQLXP"><a className="header__nav-link___3W4sc " href="/Home">Nhà cửa</a></li>
-                      <li className="header__nav-item___MQLXP"><a className="header__nav-link___3W4sc " href="/Kids">Trẻ em</a></li>
+                      <li className="header__nav-item___MQLXP"><a className="header__nav-link___3W4sc " href="/Women">Amazon</a></li>
+                      <li className="header__nav-item___MQLXP"><a className="header__nav-link___3W4sc " href="/Men">Ebay</a></li>
+                      <li className="header__nav-item___MQLXP"><a className="header__nav-link___3W4sc " href="/Home">Adidas</a></li>
+                      <li className="header__nav-item___MQLXP"><a className="header__nav-link___3W4sc " href="/Kids">Nike</a></li>
                     </ul>
                     <ul className="header__navbar-nav___9cfBy header__navbar-right___2_zf5">
                       <li className="header__nav-item___MQLXP">
@@ -344,7 +341,7 @@ class Detail extends React.Component {
               <div className="container__container___1fvX0 ">
                 <div className="footer__upper___3xatR">
                   <div className="row__row___2roCA ">
-                    <div className="footer__col-md-2___1vyOI footer__socialLinks___3S5w9"><a className="footer__logo___SNGnI" href="/"><img className="footer__image___1wrDs" src="/img/123orderwhite.png" /></a>
+                    <div className="footer__col-md-2___1vyOI footer__socialLinks___3S5w9"><Link to={`/home`} className="footer__logo___SNGnI" href="/"><img className="footer__image___1wrDs" src="/img/123orderwhite.png" /></Link>
                       <ul className="list-inline">
                         <li className="list-inline-item"><a href="https://www.facebook.com/LeflairVN"><i className="ic-facebook" /></a></li>
                         <li className="list-inline-item"><a href="https://instagram.com/leflairvietnam"><i className="ic-instagram" /></a></li>
