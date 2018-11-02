@@ -77,7 +77,7 @@ class Amazon extends React.Component {
                     <div className="sale-card__currentSale___cC1H3">
                       <div className="sale-card__international-tile___3A645">Hàng nhập khẩu</div>
                       <div className="sale-card__image-wrapper___EfOla">
-                        <div className="sale-card__current-sale-placeholder___293Z4" />
+                      <img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bdad591afd2a6680da62d6e.jpg" srcSet="https://images.leflair.vn/w640/q85/5bdad591afd2a6680da62d6e.jpg 640w, https://images.leflair.vn/w1080/q85/5bdad591afd2a6680da62d6e.jpg 1080w, https://images.leflair.vn/w1440/q85/5bdad591afd2a6680da62d6e.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 50% - Blackmores® Thực Phẩm Chức Năng Từ Úc" />
                       </div>
                       <div className="sale-card__currentSaleInfo___2LkMa">
                         <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 50% - Blackmores® Thực Phẩm Chức Năng Từ Úc</div>
