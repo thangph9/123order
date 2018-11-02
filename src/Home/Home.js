@@ -1734,20 +1734,20 @@ class Home extends React.Component {
                         vẫn không thể hài lòng về nguồn cung hàng chất lượng chưa đáp ứng như kỳ vọng, kèm theo cảm giác
                         khó chịu - vì phải chờ đợi, vì phải lo sợ, vì phải e ngại, vì phải mệt mỏi - khi mua sắm hàng
                   hiệu ở những địa điểm khác. Thấu hiểu những mối lo âu &amp; chính nhu cầu <strong>mua sắm hàng
-                    hiệu</strong> của các tín đồ, LEFLAIR.VN tự hào đem đến cho khách hàng trải nghiệm mua sắm
+                    hiệu</strong> của các tín đồ, 123order.vn tự hào đem đến cho khách hàng trải nghiệm mua sắm
                   <strong>hàng hiệu giá tốt</strong> vô cùng hiện đại &amp; tiện lợi, đáp ứng mong muốn tiếp cập
                   với các dòng sản phẩm từ những <strong>thương hiệu danh tiếng</strong> từ các <strong>tín đồ mua
                     sắm</strong> tại Việt Nam.</p>
                       <h2 className="footer-seo-text__h1___3zWgO">123order.vn - điểm đến mua sắm dẫn đầu phong cách sống hiện
                   đại</h2>
-                      <p className="footer-seo-text__body___UPRs4">LEFLAIR.VN tin rằng mua sắm phải là niềm vui thuần khiết.
+                      <p className="footer-seo-text__body___UPRs4">123order.vn tin rằng mua sắm phải là niềm vui thuần khiết.
                         Các thương hiệu phải tự tìm đến khách hàng theo cách tiện lợi nhất &amp; với mức giá hấp dẫn
-                  nhất. LEFLAIR.VN tự hào là trang web <strong>mua sắm trực tuyến</strong> đầu tiên tại Việt Nam
+                  nhất. 123order.vn tự hào là trang web <strong>mua sắm trực tuyến</strong> đầu tiên tại Việt Nam
                         giới thiệu đến người mua những thương hiệu hàng đầu thế giới với mức giá hấp dẫn. Mỗi ngày, “cửa
-                        hàng” LEFLAIR.VN sẽ “mở cửa” vào lúc 8 giờ sáng với những chương trình ưu đãi mới cho các sản
-                        phẩm hàng hiệu thời trang, làm đẹp, nội thất &amp; hơn thế nữa. LEFLAIR.VN chỉ làm việc trực tiếp
+                        hàng” 123order.vn sẽ “mở cửa” vào lúc 8 giờ sáng với những chương trình ưu đãi mới cho các sản
+                        phẩm hàng hiệu thời trang, làm đẹp, nội thất &amp; hơn thế nữa. 123order.vn chỉ làm việc trực tiếp
                         với các thương hiệu &amp; nhà phân phối chính thức, với sự an tâm về nguồn gốc sản phẩm, chất
-                        lượng sản phẩm &amp; mức giá tốt nhất được đặt lên hàng đầu. Không những thế, LEFLAIR.VN mong
+                        lượng sản phẩm &amp; mức giá tốt nhất được đặt lên hàng đầu. Không những thế, 123order.vn mong
                   muốn trở thành điểm đến <strong>mua sắm online</strong> số 1 cho nhu cầu mua sắm hàng hiệu trực
                         tuyến tại Việt Nam, cùng hoài bão mang sản phẩm hàng hiệu với mức giá tốt nhất đến tay người tiêu
                   dùng trên toàn khu vực Đông Nam Á trong tương lai.</p>
@@ -1756,8 +1756,8 @@ class Home extends React.Component {
                       <h2 className="footer-seo-text__h1___3zWgO">123order.vn - mua sắm tích hợp các thương hiệu đẳng cấp quốc
                   tế</h2>
                       <p className="footer-seo-text__body___UPRs4">Sở hữu ngay phong cách sống thời thượng &amp; đậm chất cá
-                  nhân khi trải nghiệm mua sắm tại LEFLAIR.VN. Thật đơn giản, chỉ cần tham gia <strong>mua sắm
-                    online</strong> tại website LEFLAIR.VN, bạn hoàn toàn có thể tìm được các sản phẩm cao cấp ưng
+                  nhân khi trải nghiệm mua sắm tại 123order.vn. Thật đơn giản, chỉ cần tham gia <strong>mua sắm
+                    online</strong> tại website 123order.vn, bạn hoàn toàn có thể tìm được các sản phẩm cao cấp ưng
                       ý với chất lượng đảm bảo 100% đến từ thương hiệu quốc tế, giá ưu đãi lớn &amp; trải nghiệm sau
                   mua hoàn hảo, giúp bạn <strong>mua sắm hàng hiệu</strong> một cách thoải mái, nhẹ nhàng &amp; mọi
                   thứ đều hợp với túi tiền của bạn.</p>
@@ -1765,16 +1765,16 @@ class Home extends React.Component {
                   tại 123order.vn</h2>
                       <p className="footer-seo-text__body___UPRs4">Với vô số thương hiệu đẳng cấp quốc tế dành riêng cho các
                         tín đồ thời trang, bạn không cần phải bỏ hàng giờ dành cho việc lặn lội ra các cửa hàng, thay vào
-                        đó, chỉ cần thư giãn tại nhà, truy cập trang web LEFLAIR.VN, các thương hiệu danh tiếng đã sẵn
+                        đó, chỉ cần thư giãn tại nhà, truy cập trang web 123order.vn, các thương hiệu danh tiếng đã sẵn
                         sàng có mặt dành riêng cho bạn lựa chọn: Nine West, Michael Kors, Gucci, Bonia,... Các cô nàng
-                        đam mê làm đẹp khi đến với LEFLAIR.VN cũng dễ dàng tìm kiếm các dòng mỹ phẩm cao cấp giá hợp lý,
+                        đam mê làm đẹp khi đến với 123order.vn cũng dễ dàng tìm kiếm các dòng mỹ phẩm cao cấp giá hợp lý,
                         đảm bảo chính hãng &amp; thương hiệu được giới làm đẹp ưa chuộng như: Dior, SK-II, Yves Rocher,
                         Guerlain,... Và cả những cô nàng, anh chàng nội trợ với nhu cầu trang hoàng nhà cửa, chăm sóc
                         cuộc sống &amp; gia đình cũng hoàn toàn có thể tìm thấy các sản phẩm ưng ý về nhà cửa, trẻ em,...
                   chỉ với một cú click chuột.</p>
                       <h2 className="footer-seo-text__h1___3zWgO">Lý do bạn nên mua sắm hàng hiệu giá ưu đãi tại 123order.vn?</h2>
                       <p className="footer-seo-text__body___UPRs4">Chỉ với một số lý do dưới đây, bạn hoàn toàn có thể khẳng
-                  định rằng, quyết định lựa chọn trải nghiệm mua sắm của bạn tại LEFLAIR.VN là hoàn toàn sáng suốt:</p>
+                  định rằng, quyết định lựa chọn trải nghiệm mua sắm của bạn tại 123order.vn là hoàn toàn sáng suốt:</p>
                       <ol>
                         <li className="footer-seo-text__body___UPRs4">Vô số hàng hiệu chính hãng từ nhiều thương hiệu lớn</li>
                         <li className="footer-seo-text__body___UPRs4">Giá ưu đãi vô cùng hợp lý</li>
@@ -1784,11 +1784,11 @@ class Home extends React.Component {
                     làm đẹp &amp; lối sống</li>
                       </ol>
                       <p className="footer-seo-text__body___UPRs4">Với các tiêu chí nâng tầm trải nghiệm mua sắm tuyệt vời
-                        dành riêng cho các tín đồ yêu thích hàng hiệu tại Việt Nam, LEFLAIR.VN mong muốn đây chính là
+                        dành riêng cho các tín đồ yêu thích hàng hiệu tại Việt Nam, 123order.vn mong muốn đây chính là
                         điểm đến mua sắm hàng hiệu lý tưởng nhất cùng vô số ưu đãi hấp dẫn hàng ngày. Bạn hoàn toàn có
                   thể trải nghiệm <strong>shopping online</strong> thỏa thích, vừa cập nhật nhiều thông tin hữu ích
                         cho bản thân, chắc chắn bạn sẽ không thể nào bỏ lỡ trải nghiệm mua sắm tuyệt vời khi lựa chọn
-                  LEFLAIR.VN. Mua ngay.</p>
+                  123order.vn. Mua ngay.</p>
                     </div>
                   </div>
                   <div className="footer-seo-text__btn-wrap___337pF"><span className="footer-seo-text__icon___3SvXs ic-ic-double-down" /><span>Xem
