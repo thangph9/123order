@@ -27,7 +27,7 @@ class Detail extends React.Component {
       var allClass=document.getElementsByClassName("product-description__group___3Z2qF");
       console.log(allClass)
       for(let i=0;i<allClass.length;i++){
-      console.log(allClass[i])
+      console.log(allClass[i].id)
       
       }
       
