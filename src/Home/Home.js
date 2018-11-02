@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import './style.css';
+import '../Sections/style.css';
 import './fonts.css';
 class Home extends React.Component {
     constructor(props) {
