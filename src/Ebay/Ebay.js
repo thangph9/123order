@@ -41,10 +41,7 @@ class Ebay extends React.Component {
                       <li className="header__nav-item___MQLXP">
                         <div className="undefined language-dropdown__dropdown____KQAB language-dropdown__dropdown-section___2Exp9 ">
                           <a className="text-uppercase language-dropdown__nav-link___2sOBe language-dropdown__dropdown-toggle___3DM4H" href="javascript:void(0)">vn</a>
-                          <ul className="language-dropdown__dropdown-menu___2iFhf">
-                            <li className="language-dropdown__active___23oVE"><a className="language-dropdown__dropdown-item___3bDVi" href="javascript:void(0)">Tiếng Việt (vn)</a></li>
-                            <li><a className="language-dropdown__dropdown-item___3bDVi" href="javascript:void(0)">English (en)</a></li>
-                          </ul>
+                          
                         </div>
                       </li>
                       <li className="header__nav-item___MQLXP">
