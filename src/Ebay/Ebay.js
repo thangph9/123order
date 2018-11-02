@@ -41,7 +41,10 @@ class Ebay extends React.Component {
                       <li className="header__nav-item___MQLXP">
                         <div className="undefined language-dropdown__dropdown____KQAB language-dropdown__dropdown-section___2Exp9 ">
                           <a className="text-uppercase language-dropdown__nav-link___2sOBe language-dropdown__dropdown-toggle___3DM4H" href="javascript:void(0)">vn</a>
-                          
+                          <ul className="language-dropdown__dropdown-menu___2iFhf">
+                            <li className="language-dropdown__active___23oVE"><a className="language-dropdown__dropdown-item___3bDVi" href="javascript:void(0)">Tiếng Việt (vn)</a></li>
+                            <li ><a className="language-dropdown__dropdown-item___3bDVi" href="javascript:void(0)">English (en)</a></li>
+                          </ul>
                         </div>
                       </li>
                       <li className="header__nav-item___MQLXP">
@@ -514,45 +517,4 @@ class Ebay extends React.Component {
                   <div className="slick-list">
                     <div className="slick-track" style={{ opacity: 1, transform: 'translate3d(-900px, 0px, 0px)', width: 2250 }}>
                       <div data-index={-1} className="slick-slide slick-cloned" style={{ width: 450 }}>
-                        <p className="cart-promo-list__content___1N3l1 cart-promo-list__multi-item____Q_7w"><span>Giảm giá </span><span className="cart-promo-list__bold-text___1wUCM">10%</span><span> cho thẻ </span><span className="cart-promo-list__bold-text___1wUCM">HSBC</span><span> khi mua hàng trên </span><span className="cart-promo-list__bold-text___1wUCM"><span>1.500.000₫</span>.</span><a href="https://pages.leflair.vn/promotions" target="blank"> Chi tiết→</a></p>
-                      </div>
-                      <div data-index={0} className="slick-slide" tabIndex={-1} style={{ outline: 'none', width: 450 }}>
-                        <p className="cart-promo-list__content___1N3l1 cart-promo-list__multi-item____Q_7w"><span>Giảm giá </span><span className="cart-promo-list__bold-text___1wUCM">150.000₫</span><span> cho thẻ </span><span className="cart-promo-list__bold-text___1wUCM">HSBC</span><span> khi mua hàng trên </span><span className="cart-promo-list__bold-text___1wUCM"><span>600.000₫</span>.</span><a href="https://pages.leflair.vn/promotions" target="blank"> Chi tiết→</a></p>
-                      </div>
-                      <div data-index={1} className="slick-slide slick-active" tabIndex={-1} style={{ outline: 'none', width: 450 }}>
-                        <p className="cart-promo-list__content___1N3l1 cart-promo-list__multi-item____Q_7w"><span>Giảm giá </span><span className="cart-promo-list__bold-text___1wUCM">100.000₫</span><span> cho thẻ </span><span className="cart-promo-list__bold-text___1wUCM">Vietin Bank</span><span> khi mua hàng trên </span><span className="cart-promo-list__bold-text___1wUCM"><span>0₫</span>.</span><a href="https://pages.leflair.vn/promotions" target="blank"> Chi tiết→</a></p>
-                      </div>
-                      <div data-index={2} className="slick-slide" tabIndex={-1} style={{ outline: 'none', width: 450 }}>
-                        <p className="cart-promo-list__content___1N3l1 cart-promo-list__multi-item____Q_7w"><span>Giảm giá </span><span className="cart-promo-list__bold-text___1wUCM">10%</span><span> cho thẻ </span><span className="cart-promo-list__bold-text___1wUCM">HSBC</span><span> khi mua hàng trên </span><span className="cart-promo-list__bold-text___1wUCM"><span>1.500.000₫</span>.</span><a href="https://pages.leflair.vn/promotions" target="blank"> Chi tiết→</a></p>
-                      </div>
-                      <div data-index={3} className="slick-slide slick-cloned" style={{ width: 450 }}>
-                        <p className="cart-promo-list__content___1N3l1 cart-promo-list__multi-item____Q_7w"><span>Giảm giá </span><span className="cart-promo-list__bold-text___1wUCM">150.000₫</span><span> cho thẻ </span><span className="cart-promo-list__bold-text___1wUCM">HSBC</span><span> khi mua hàng trên </span><span className="cart-promo-list__bold-text___1wUCM"><span>600.000₫</span>.</span><a href="https://pages.leflair.vn/promotions" target="blank"> Chi tiết→</a></p>
-                      </div>
-                    </div>
-                  </div>
-                  <button type="button" data-role="none" className="slick-arrow slick-next" style={{ display: 'block' }}> Next</button>
-                </div>
-              </div>
-              <div className="cart__body___XUP_6 cart__empty___1VFD2">
-                <div className="cart__cart-empty___2VwBC">
-                  <div className="cart__icon___DWUE4"><img src="/images/empty-bag.jpg" /></div>
-                  <div>Giỏ hàng của bạn còn trống</div>
-                  <div><button className="cart__btn___1bOR1 cart__btn-primary___2una7 cart__button-shopping___qfkgg" type="button">Tiếp tục mua sắm!</button></div>
-                </div>
-              </div>
-            </div>
-            <a id="go-to-top" className="go-to-top__go-to-top___7XKAr" href="javascript:void(0)"><span className="go-to-top__icon___217Vz ic-ic-arrow-up" /></a>
-          </div>
-        </div>
-      </main>
-
-    )
-
-  }
-}
-function mapStateToProps(state) {
-
-  return state;
-}
-const connected = connect(mapStateToProps)(Ebay);
-export { connected as Ebay } 
+                        <p className="cart-promo-list__content___1N3l1 cart-promo-list__multi-item____Q_7w"><span>Giảm giá </span><span className="cart-promo-list__bold-text___1wUCM">10%</span><span> cho thẻ </span><span className="cart-promo-list__bold-text___1wUCM">HSBC</span><span> khi mua hàng trên </span><span className="cart-promo-list__bold-text___1wUCM"><span

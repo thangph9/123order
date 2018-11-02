@@ -2,6 +2,8 @@ import React from "react";
 import { connect } from "react-redux";
 import {Link} from 'react-router-dom';
 import '../Sections/style.css';
+import './slick.css';
+import './slick-themes.css';
 class Detail extends React.Component {
   constructor(props) {
     super(props);
