@@ -2,6 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import '../Sections/style.css';
 import './fonts.css';
+import {Link} from 'react-router-dom';
 class Home extends React.Component {
     constructor(props) {
         super(props);
@@ -244,7 +245,7 @@ class Home extends React.Component {
           <div id="products-carousel" className="undefined products-carousel__products-carousel___Wk8_0">
             <div className="products-carousel__outerbox___2Ng9R">
               <div className="products-carousel__innerbox___1Jnq1">
-                <div className="products-carousel__product-card-container___7-x0W"><a className="products-carousel__product-card___2cXOo product-card__productCard___2lSYu" href="/products/bo-drap-boc-and-vo-chan-cotton-180x200-5-mon-5ae195bbfb11c8000f040962?color=STERMIL">
+                <div className="products-carousel__product-card-container___7-x0W"><Link to={`/detail`} className="products-carousel__product-card___2cXOo product-card__productCard___2lSYu" href="/products/bo-drap-boc-and-vo-chan-cotton-180x200-5-mon-5ae195bbfb11c8000f040962?color=STERMIL">
                     <div>
                       <div className="product-card__imageContainer___1apY_  product-card__home-sale___3YRZP"><img id className="product-card__image___QEKAk" src="https://images.leflair.vn/w300/q85/5aec505e1069e2001a19f659.jpg" srcSet="https://images.leflair.vn/w300/q85/5aec505e1069e2001a19f659.jpg 300w" sizes="140px, (min-width: 768px) 205px" alt="Bộ Drap Bọc & Vỏ Chăn Cotton 180x200 (5 Món)" /></div>
                       <div className="product-card__titleContainer___1HE6o">
@@ -253,7 +254,7 @@ class Home extends React.Component {
                         <div><span className="product-card__retailPrice___2urqH">4.100.000₫</span><span className="product-card__salePrice___3PSWy">1.829.000₫</span></div>
                       </div>
                     </div>
-                  </a></div>
+                  </Link></div>
                 <div className="products-carousel__product-card-container___7-x0W"><a className="products-carousel__product-card___2cXOo product-card__productCard___2lSYu" href="/products/bo-4-noi-gom-thuy-tinh-blooming-1l-2l-3l-5l-5ab37eb3452b6900191edbc0">
                     <div>
                       <div className="product-card__imageContainer___1apY_  product-card__home-sale___3YRZP"><img id className="product-card__image___QEKAk" src="https://images.leflair.vn/w300/q85/5ab9ef25c2d5810019f95c02.jpg" srcSet="https://images.leflair.vn/w300/q85/5ab9ef25c2d5810019f95c02.jpg 300w" sizes="140px, (min-width: 768px) 205px" alt="Bộ 4 Nồi Gốm Thủy Tinh Blooming 1L, 2L, 3L, 5L" /></div>
