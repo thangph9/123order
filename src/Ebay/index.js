@@ -1,1 +1,1 @@
-export * from "./Amazon";
+export * from "./Ebay";
