@@ -230,7 +230,7 @@ class Detail extends React.Component {
                           </div>
                         </div>
                         <div>
-                          <div id="size-table" onClick={()=>this.handleClickDesciption()} className="product-description__group___3Z2qF  ">
+                          <div id="size-table" className="product-description__group___3Z2qF  ">
                             <h4 className="product-description__panel-title___1aoFo">
                               <a onClick={()=>this.handleClickDesciption('size-table')} id="size-table-click" className="product-description__accordion-toggle___1kmrM" href="javascript:void(0)">
                                 <div className="product-description__title___Xh_fg">Chi tiết kích cỡ<span className="product-description__btn-collapse___3Pk93"><i className="ic-ic-minus product-description__expanded___wm98V" /><i className="ic-ic-plus product-description__collapsed___ahwQq" /></span></div>
