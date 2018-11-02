@@ -22,7 +22,7 @@ class Nike extends React.Component {
               <nav className="header__my-navbar___2Cghd header__navbar-toggleable-sm___pR4tF header__nav-header___3lWCb">
                 <div className="container__container___1fvX0 header__container___2d-Oi">
                   <div className="hidden-md-up header__my-navbar-toggler___2PiaS"><button className="header__btn-icon___17D-i" type="button"><i className="ic-ic-user" /></button></div>
-                  <Link to={`/home`} className="header__navbar-brand___SzzgD"><img src="/img/logo123order.png" /></Link>
+                  <Link to={`/home`} className="header__navbar-brand___SzzgD"><img style={{ position: 'relative', top: '4px' }} src="/img/logo123order.png" /></Link>
                   <div className="clearfix collapse header__navbar-collapse___2AK1h">
                     <Link to={`/home`} className="hidden-md-up header__navbar-brand___SzzgD"><img src="/img/logo123order.png" /></Link>
                     <ul className="hidden-md-down header__navbar-nav___9cfBy header__navbar-left___25OFe">
