@@ -24,6 +24,7 @@ import {Home} from '../Home';
 import {Detail} from '../Detail';
 import {Amazon} from '../Amazon';
 import {Adidas} from '../Adidas';
+import {Nike} from '../Nike';
 import {Ebay} from '../Ebay';
 import { history } from "../stores";
 import { alertActions } from "../actions";
@@ -59,6 +60,7 @@ class App extends Component{
                         <Route exact path="/detail" component={Detail} />
                         <Route exact path="/amazon" component={Amazon} />
                         <Route exact path="/adidas" component={Adidas} />
+                        <Route exact path="/nike" component={Nike} />
                         <Route exact path="/ebay" component={Ebay} />
                         <Route exact path="/cod" component={COD} />
                         <Route exact path="/danh-muc-amazon" component={DanhMucAmazon} />
