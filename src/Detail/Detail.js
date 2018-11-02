@@ -186,7 +186,7 @@ class Detail extends React.Component {
                         <div>
                           <div id="info-product" className="product-description__group___3Z2qF ">
                             <h4 className="product-description__panel-title___1aoFo">
-                              <a onClick={()=>this.handleClickDesciption('info-product')} className="product-description__accordion-toggle___1kmrM" href="javascript:void(0)">
+                              <a onClick={()=>this.handleClickDesciption('info-product')} className="product-description__accordion-toggle___1kmrM" href="#info-product">
                                 <div className="product-description__title___Xh_fg">Thông tin sản phẩm<span className="product-description__btn-collapse___3Pk93"><i className="ic-ic-minus product-description__expanded___wm98V" /><i className="ic-ic-plus product-description__collapsed___ahwQq" /></span></div>
                               </a>
                             </h4>
@@ -214,7 +214,7 @@ class Detail extends React.Component {
                         <div>
                           <div id="material" className="product-description__group___3Z2qF  ">
                             <h4 className="product-description__panel-title___1aoFo">
-                              <a onClick={()=>this.handleClickDesciption('material')} className="product-description__accordion-toggle___1kmrM" href="javascript:void(0)">
+                              <a onClick={()=>this.handleClickDesciption('material')} className="product-description__accordion-toggle___1kmrM" href="#material">
                                 <div className="product-description__title___Xh_fg">Chất liệu &amp; Cách sử dụng<span className="product-description__btn-collapse___3Pk93"><i className="ic-ic-minus product-description__expanded___wm98V" /><i className="ic-ic-plus product-description__collapsed___ahwQq" /></span></div>
                               </a>
                             </h4>
@@ -232,7 +232,7 @@ class Detail extends React.Component {
                         <div>
                           <div id="size-table" className="product-description__group___3Z2qF  ">
                             <h4 className="product-description__panel-title___1aoFo">
-                              <a onClick={()=>this.handleClickDesciption('size-table')} id="size-table-click" className="product-description__accordion-toggle___1kmrM" href="javascript:void(0)">
+                              <a onClick={()=>this.handleClickDesciption('size-table')} id="size-table-click" className="product-description__accordion-toggle___1kmrM" href="#size-table">
                                 <div className="product-description__title___Xh_fg">Chi tiết kích cỡ<span className="product-description__btn-collapse___3Pk93"><i className="ic-ic-minus product-description__expanded___wm98V" /><i className="ic-ic-plus product-description__collapsed___ahwQq" /></span></div>
                               </a>
                             </h4>
@@ -258,7 +258,7 @@ class Detail extends React.Component {
                         <div>
                           <div id='info-brand' className="product-description__group___3Z2qF hidden-md-up ">
                             <h4 className="product-description__panel-title___1aoFo">
-                              <a onClick={()=>this.handleClickDesciption('info-brand')} className="product-description__accordion-toggle___1kmrM" href="javascript:void(0)">
+                              <a onClick={()=>this.handleClickDesciption('info-brand')} className="product-description__accordion-toggle___1kmrM" href="#info-brand">
                                 <div className="product-description__title___Xh_fg"><span><img className="product-description__about-the-brand-logo___h7FTg" src="https://leflair-assets.storage.googleapis.com/59ca0a3be1b357001a65d626.jpg" /><span className="product-description__about-the-brand-heading___20E5W">Thông tin thương hiệu</span></span><span className="product-description__btn-collapse___3Pk93"><i className="ic-ic-minus product-description__expanded___wm98V" /><i className="ic-ic-plus product-description__collapsed___ahwQq" /></span></div>
                               </a>
                             </h4>
