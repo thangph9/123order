@@ -2,7 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import '../Sections/style.css';
 import { Link } from 'react-router-dom';
-class Amazon extends React.Component {
+class Ebay extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -621,5 +621,5 @@ function mapStateToProps(state) {
 
   return state;
 }
-const connected = connect(mapStateToProps)(Amazon);
-export { connected as Amazon } 
+const connected = connect(mapStateToProps)(Ebay);
+export { connected as Ebay } 
