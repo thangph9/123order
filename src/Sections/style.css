@@ -107798,13 +107798,13 @@ input.header__form-control___3nOMM::-webkit-input-placeholder {
     top: 0;
     width: 100%;
     z-index: 101;
-    font-size: 16px;
+    font-size: 15px;
     text-align: center
 }
 
 @media (max-width: 767px) {
     .header__header___1t3MH {
-        font-size:16px
+        font-size:15px
     }
 }
 
