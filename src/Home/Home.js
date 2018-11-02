@@ -1880,7 +1880,7 @@ class Home extends React.Component {
                       </div>
                     </div>
                     <div className="footer__col-lg-4___excjO footer__col-md-4___2KXw4">Cơ quan cấp: Sở Kế hoạch và Đầu tư
-                Thành phố Hồ Chí Minh</div>
+                Thành phố Hà Nội</div>
                   </div>
                 </div>
               </div>
