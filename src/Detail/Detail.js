@@ -21,9 +21,14 @@ class Detail extends React.Component {
   handleClickDesciption(idDetail){
     var body=document.getElementById("app__body___3NlTJ");
     var width = body.offsetWidth;
+   
     if(width<767){
-      var allClass=document.getElementsByClassName("product-description__group___3Z2qF");
       console.log(allClass)
+      var allClass=document.getElementsByClassName("product-description__group___3Z2qF");
+      allClass.forEach(v => {
+      v.classList.remove('open');
+      v.classList.remove('product-description__panel-open___2KMq2');
+      });
     }
     else{
       var element=document.getElementById(idDetail);
