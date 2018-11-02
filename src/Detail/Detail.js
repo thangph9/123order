@@ -26,10 +26,11 @@ class Detail extends React.Component {
       
       var allClass=document.getElementsByClassName("product-description__group___3Z2qF");
       console.log(allClass)
-      allClass.forEach(v => {
-      v.classList.remove('open');
-      v.classList.remove('product-description__panel-open___2KMq2');
-      });
+      for(let i=0;i<allClass.length;i++){
+      allClass[i].classList.remove('open');
+      allClass[i].classList.remove('product-description__panel-open___2KMq2');
+      }
+      
     }
     else{
       var element=document.getElementById(idDetail);
