@@ -1832,7 +1832,7 @@ class Home extends React.Component {
                       <div className="footer__body___2_pAR">
                         <ul className="list-unstyled">
                           <li><a className="phone" href="tel:19006710">19006710</a></li>
-                          <li><a className="email" href="mailto:help@leflair.vn">help@leflair.vn</a></li>
+                          <li><a className="email" href="mailto:help@123order.vn">help@123order.vn</a></li>
                         </ul>
                       </div>
                     </div>
@@ -1874,7 +1874,7 @@ class Home extends React.Component {
                     <div className="footer__col-lg-8___KYzn5 footer__col-md-8___2pauw">
                       <div className="row__row___2roCA ">
                         <div className="footer__col-lg-6___2jvLt footer__copyright___1R9Fa"><a className="footer__govLink___1bjkn" href="http://www.online.gov.vn/HomePage/CustomWebsiteDisplay.aspx?DocId=19306" target="blank"><img className="footer__image___1wrDs" src="https://www.leflair.vn/images/stamp-bo-cong-thuong.png" /></a><span className="footer__text___1Ta7d">Copyright
-                      @ 2018 leflair.vn</span></div>
+                      @ 2018 123order.vn</span></div>
                         <div className="footer__col-lg-6___2jvLt footer__address___aiHX9">Công ty Cổ phần Leflair - Tầng 16,
                     Tháp A2, Tòa nhà Viettel, 285 Cách Mạng Tháng Tám, P.12, Q.10, TP.HCM</div>
                       </div>
