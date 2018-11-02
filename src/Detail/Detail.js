@@ -19,10 +19,20 @@ class Detail extends React.Component {
     document.documentElement.scrollTop = 0
   }
   handleClickDesciption(idDetail){
-    var element=document.getElementById(idDetail);
-   element.classList.toggle("open"); 
-   element.classList.toggle("product-description__panel-open___2KMq2");
+    var body=document.getElementById("app__body___3NlTJ");
+    var width = body.offsetWidth;
+    if(width<767){
+      var allClass=document.getElementsByClassName("product-description__group___3Z2qF");
+      allClass.classList.remove('open');
+      allClass.classList.remove('product-description__panel-open___2KMq2');
+    }
+    else{
+      var element=document.getElementById(idDetail);
+      element.classList.toggle("open"); 
+      element.classList.toggle("product-description__panel-open___2KMq2");
+    }
   }
+
   render() {
     var settings = {
       dots: false,
@@ -35,7 +45,7 @@ class Detail extends React.Component {
       dots: true
     };
     return (
-      <main className="app__body___3NlTJ" data-reactroot>
+      <main id="app__body___3NlTJ" className="app__body___3NlTJ" data-reactroot>
         <div>
           <div>
             <div className="loading-bar" style={{ opacity: 0, transform: 'scaleX(0)', transformOrigin: 'left center 0px', transition: 'transform 800ms linear 0s', width: '100%', willChange: 'transform, opacity', position: 'fixed', zIndex: 10002, backgroundColor: 'rgb(14, 192, 232)', height: 3 }} />
