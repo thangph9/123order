@@ -9,6 +9,7 @@ class Detail extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      dem:0
     }
   }
   componentWillMount() {
@@ -16,6 +17,11 @@ class Detail extends React.Component {
   }
   handleClick() {
     document.documentElement.scrollTop = 0
+  }
+  handleClickDesciption(idDetail){
+    var element=document.getElementById(idDetail);
+   element.classList.toggle("open"); 
+   element.classList.toggle("product-description__panel-open___2KMq2");
   }
   render() {
     var settings = {
@@ -91,23 +97,23 @@ class Detail extends React.Component {
                           <div className="hidden-md-down images-slider__slider___2EiI8">
                             <div className="ic-ic-arrow-up images-slider__images-navigation___KCIEC images-slider__navigation-up___yqRaw undefined" />
                             <ul className="list-unstyled images-slider__list-thumbnail-inner___2vzS2" id="images-container">
-                              <li className="images-slider__image-border___2hkRy "><img id className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w90/q85/5bda7a8502c08e863b71bb2b.jpg" srcSet="https://images.leflair.vn/w90/q85/5bda7a8502c08e863b71bb2b.jpg 90w, https://images.leflair.vn/w144/q85/5bda7a8502c08e863b71bb2b.jpg 144w" sizes="80px" alt /></li>
-                              <li className="images-slider__image-border___2hkRy "><img id className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w90/q85/5bda7a852b25c2eab5b33bc9.jpg" srcSet="https://images.leflair.vn/w90/q85/5bda7a852b25c2eab5b33bc9.jpg 90w, https://images.leflair.vn/w144/q85/5bda7a852b25c2eab5b33bc9.jpg 144w" sizes="80px" alt /></li>
-                              <li className="images-slider__image-border___2hkRy "><img id className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w90/q85/5bda7a9793073444b0761dc1.jpg" srcSet="https://images.leflair.vn/w90/q85/5bda7a9793073444b0761dc1.jpg 90w, https://images.leflair.vn/w144/q85/5bda7a9793073444b0761dc1.jpg 144w" sizes="80px" alt /></li>
-                              <li className="images-slider__image-border___2hkRy images-slider__image-selected___3ftth"><img id className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w90/q85/5bda7a922b25c20d05b33bca.jpg" srcSet="https://images.leflair.vn/w90/q85/5bda7a922b25c20d05b33bca.jpg 90w, https://images.leflair.vn/w144/q85/5bda7a922b25c20d05b33bca.jpg 144w" sizes="80px" alt /></li>
+                              <li className="images-slider__image-border___2hkRy "><img className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w90/q85/5bda7a8502c08e863b71bb2b.jpg" srcSet="https://images.leflair.vn/w90/q85/5bda7a8502c08e863b71bb2b.jpg 90w, https://images.leflair.vn/w144/q85/5bda7a8502c08e863b71bb2b.jpg 144w" sizes="80px" alt /></li>
+                              <li className="images-slider__image-border___2hkRy "><img className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w90/q85/5bda7a852b25c2eab5b33bc9.jpg" srcSet="https://images.leflair.vn/w90/q85/5bda7a852b25c2eab5b33bc9.jpg 90w, https://images.leflair.vn/w144/q85/5bda7a852b25c2eab5b33bc9.jpg 144w" sizes="80px" alt /></li>
+                              <li className="images-slider__image-border___2hkRy "><img className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w90/q85/5bda7a9793073444b0761dc1.jpg" srcSet="https://images.leflair.vn/w90/q85/5bda7a9793073444b0761dc1.jpg 90w, https://images.leflair.vn/w144/q85/5bda7a9793073444b0761dc1.jpg 144w" sizes="80px" alt /></li>
+                              <li className="images-slider__image-border___2hkRy images-slider__image-selected___3ftth"><img className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w90/q85/5bda7a922b25c20d05b33bca.jpg" srcSet="https://images.leflair.vn/w90/q85/5bda7a922b25c20d05b33bca.jpg 90w, https://images.leflair.vn/w144/q85/5bda7a922b25c20d05b33bca.jpg 144w" sizes="80px" alt /></li>
                             </ul>
                             <div className="ic-ic-arrow-down images-slider__images-navigation___KCIEC images-slider__navigation-down___2GHVX undefined" />
                           </div>
                           <div className="hidden-lg-up images-slider__slider-wrapper___1hmGf">
                           <Slider  {...settings}>
-                            <img id className="slick-slide slick-active images-slider__image___wW9Yw" src="https://images.leflair.vn/w380/q85/5bda7a8502c08e863b71bb2b.jpg" srcSet="https://images.leflair.vn/w380/q85/5bda7a8502c08e863b71bb2b.jpg 380w, https://images.leflair.vn/w640/q85/5bda7a8502c08e863b71bb2b.jpg 640w, https://images.leflair.vn/w850/q85/5bda7a8502c08e863b71bb2b.jpg 850w" sizes alt style={{ outline: 'none', width: 447 }} /><img id className="slick-slide images-slider__image___wW9Yw" src="https://images.leflair.vn/w380/q85/5bda7a852b25c2eab5b33bc9.jpg" srcSet="https://images.leflair.vn/w380/q85/5bda7a852b25c2eab5b33bc9.jpg 380w, https://images.leflair.vn/w640/q85/5bda7a852b25c2eab5b33bc9.jpg 640w, https://images.leflair.vn/w850/q85/5bda7a852b25c2eab5b33bc9.jpg 850w" sizes alt style={{ outline: 'none', width: 447 }} /><img id className="slick-slide images-slider__image___wW9Yw" src="https://images.leflair.vn/w380/q85/5bda7a9793073444b0761dc1.jpg" srcSet="https://images.leflair.vn/w380/q85/5bda7a9793073444b0761dc1.jpg 380w, https://images.leflair.vn/w640/q85/5bda7a9793073444b0761dc1.jpg 640w, https://images.leflair.vn/w850/q85/5bda7a9793073444b0761dc1.jpg 850w" sizes alt style={{ outline: 'none', width: 447 }} /><img id className="slick-slide images-slider__image___wW9Yw" src="https://images.leflair.vn/w380/q85/5bda7a922b25c20d05b33bca.jpg" srcSet="https://images.leflair.vn/w380/q85/5bda7a922b25c20d05b33bca.jpg 380w, https://images.leflair.vn/w640/q85/5bda7a922b25c20d05b33bca.jpg 640w, https://images.leflair.vn/w850/q85/5bda7a922b25c20d05b33bca.jpg 850w" sizes alt style={{ outline: 'none', width: 447 }} />
+                            <img className="slick-slide slick-active images-slider__image___wW9Yw" src="https://images.leflair.vn/w380/q85/5bda7a8502c08e863b71bb2b.jpg" srcSet="https://images.leflair.vn/w380/q85/5bda7a8502c08e863b71bb2b.jpg 380w, https://images.leflair.vn/w640/q85/5bda7a8502c08e863b71bb2b.jpg 640w, https://images.leflair.vn/w850/q85/5bda7a8502c08e863b71bb2b.jpg 850w" sizes alt style={{ outline: 'none', width: 447 }} /><img className="slick-slide images-slider__image___wW9Yw" src="https://images.leflair.vn/w380/q85/5bda7a852b25c2eab5b33bc9.jpg" srcSet="https://images.leflair.vn/w380/q85/5bda7a852b25c2eab5b33bc9.jpg 380w, https://images.leflair.vn/w640/q85/5bda7a852b25c2eab5b33bc9.jpg 640w, https://images.leflair.vn/w850/q85/5bda7a852b25c2eab5b33bc9.jpg 850w" sizes alt style={{ outline: 'none', width: 447 }} /><img className="slick-slide images-slider__image___wW9Yw" src="https://images.leflair.vn/w380/q85/5bda7a9793073444b0761dc1.jpg" srcSet="https://images.leflair.vn/w380/q85/5bda7a9793073444b0761dc1.jpg 380w, https://images.leflair.vn/w640/q85/5bda7a9793073444b0761dc1.jpg 640w, https://images.leflair.vn/w850/q85/5bda7a9793073444b0761dc1.jpg 850w" sizes alt style={{ outline: 'none', width: 447 }} /><img className="slick-slide images-slider__image___wW9Yw" src="https://images.leflair.vn/w380/q85/5bda7a922b25c20d05b33bca.jpg" srcSet="https://images.leflair.vn/w380/q85/5bda7a922b25c20d05b33bca.jpg 380w, https://images.leflair.vn/w640/q85/5bda7a922b25c20d05b33bca.jpg 640w, https://images.leflair.vn/w850/q85/5bda7a922b25c20d05b33bca.jpg 850w" sizes alt style={{ outline: 'none', width: 447 }} />
                           </Slider>
                             <div className="images-slider__sold-out-overlay___2Avrv">Hết hàng</div>
                           </div>
                         </div>
                         <div className="hidden-md-down images-slider__col-lg-10___3uZXv">
                           <div className="images-slider__main-image___1MFAY">
-                            <img id className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w580/q85/5bda7a922b25c20d05b33bca.jpg" srcSet="https://images.leflair.vn/w580/q85/5bda7a922b25c20d05b33bca.jpg 580w, https://images.leflair.vn/w1030/q85/5bda7a922b25c20d05b33bca.jpg 1030w, https://images.leflair.vn/w1080/q85/5bda7a922b25c20d05b33bca.jpg 1080w" sizes alt />
+                            <img className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w580/q85/5bda7a922b25c20d05b33bca.jpg" srcSet="https://images.leflair.vn/w580/q85/5bda7a922b25c20d05b33bca.jpg 580w, https://images.leflair.vn/w1030/q85/5bda7a922b25c20d05b33bca.jpg 1030w, https://images.leflair.vn/w1080/q85/5bda7a922b25c20d05b33bca.jpg 1080w" sizes alt />
                             <div className="images-slider__sold-out-overlay___2Avrv">Hết hàng</div>
                             <img id="zoom-image" className="images-slider__zoom-image___3jo-j" src="https://images.leflair.vn/w1350/q85/5bda7a922b25c20d05b33bca.jpg" srcSet="https://images.leflair.vn/w1350/q85/5bda7a922b25c20d05b33bca.jpg 1350w, https://images.leflair.vn/w1440/q85/5bda7a922b25c20d05b33bca.jpg 1440w" sizes alt style={{ top: '-138.534px', left: '-300.779px' }} />
                             <div className="images-slider__overlay___CJo-l" />
@@ -158,9 +164,9 @@ class Detail extends React.Component {
                       </div>
                       <div className="product__product-desc___3eim0">
                         <div>
-                          <div id className="product-description__group___3Z2qF  open product-description__panel-open___2KMq2">
+                          <div id="info-product" className="product-description__group___3Z2qF ">
                             <h4 className="product-description__panel-title___1aoFo">
-                              <a id className="product-description__accordion-toggle___1kmrM" href="javascript:void(0)">
+                              <a onClick={()=>this.handleClickDesciption('info-product')} className="product-description__accordion-toggle___1kmrM" href="javascript:void(0)">
                                 <div className="product-description__title___Xh_fg">Thông tin sản phẩm<span className="product-description__btn-collapse___3Pk93"><i className="ic-ic-minus product-description__expanded___wm98V" /><i className="ic-ic-plus product-description__collapsed___ahwQq" /></span></div>
                               </a>
                             </h4>
@@ -186,9 +192,9 @@ class Detail extends React.Component {
                           </div>
                         </div>
                         <div>
-                          <div id className="product-description__group___3Z2qF  ">
+                          <div id="material" className="product-description__group___3Z2qF  ">
                             <h4 className="product-description__panel-title___1aoFo">
-                              <a id className="product-description__accordion-toggle___1kmrM" href="javascript:void(0)">
+                              <a onClick={()=>this.handleClickDesciption('material')} className="product-description__accordion-toggle___1kmrM" href="javascript:void(0)">
                                 <div className="product-description__title___Xh_fg">Chất liệu &amp; Cách sử dụng<span className="product-description__btn-collapse___3Pk93"><i className="ic-ic-minus product-description__expanded___wm98V" /><i className="ic-ic-plus product-description__collapsed___ahwQq" /></span></div>
                               </a>
                             </h4>
@@ -204,9 +210,9 @@ class Detail extends React.Component {
                           </div>
                         </div>
                         <div>
-                          <div id="size-table" className="product-description__group___3Z2qF  ">
+                          <div id="size-table" onClick={()=>this.handleClickDesciption()} className="product-description__group___3Z2qF  ">
                             <h4 className="product-description__panel-title___1aoFo">
-                              <a id="size-table-click" className="product-description__accordion-toggle___1kmrM" href="javascript:void(0)">
+                              <a onClick={()=>this.handleClickDesciption('size-table')} id="size-table-click" className="product-description__accordion-toggle___1kmrM" href="javascript:void(0)">
                                 <div className="product-description__title___Xh_fg">Chi tiết kích cỡ<span className="product-description__btn-collapse___3Pk93"><i className="ic-ic-minus product-description__expanded___wm98V" /><i className="ic-ic-plus product-description__collapsed___ahwQq" /></span></div>
                               </a>
                             </h4>
@@ -230,9 +236,9 @@ class Detail extends React.Component {
                           </div>
                         </div>
                         <div>
-                          <div id className="product-description__group___3Z2qF hidden-md-up ">
+                          <div className="product-description__group___3Z2qF hidden-md-up ">
                             <h4 className="product-description__panel-title___1aoFo">
-                              <a id className="product-description__accordion-toggle___1kmrM" href="javascript:void(0)">
+                              <a className="product-description__accordion-toggle___1kmrM" href="javascript:void(0)">
                                 <div className="product-description__title___Xh_fg"><span><img className="product-description__about-the-brand-logo___h7FTg" src="https://leflair-assets.storage.googleapis.com/59ca0a3be1b357001a65d626.jpg" /><span className="product-description__about-the-brand-heading___20E5W">Thông tin thương hiệu</span></span><span className="product-description__btn-collapse___3Pk93"><i className="ic-ic-minus product-description__expanded___wm98V" /><i className="ic-ic-plus product-description__collapsed___ahwQq" /></span></div>
                               </a>
                             </h4>
@@ -302,7 +308,7 @@ class Detail extends React.Component {
                           <div className="products-carousel__product-card-container___7-x0W">
                             <a className="products-carousel__product-card___2cXOo product-card__productCard___2lSYu" href="/products/Giày Brogues Nam Grain Đen-5b11096f415d08000130e0e5?color=GRA">
                               <div>
-                                <div className="product-card__imageContainer___1apY_  "><img id className="product-card__image___QEKAk" src="https://images.leflair.vn/w300/q85/5b2b10ad38edf90001bb8eb7.jpg" srcSet="https://images.leflair.vn/w300/q85/5b2b10ad38edf90001bb8eb7.jpg 300w" sizes="140px, (min-width: 768px) 205px" alt="Giày Brogues Nam Grain Đen" /></div>
+                                <div className="product-card__imageContainer___1apY_  "><img className="product-card__image___QEKAk" src="https://images.leflair.vn/w300/q85/5b2b10ad38edf90001bb8eb7.jpg" srcSet="https://images.leflair.vn/w300/q85/5b2b10ad38edf90001bb8eb7.jpg 300w" sizes="140px, (min-width: 768px) 205px" alt="Giày Brogues Nam Grain Đen" /></div>
                                 <div className="product-card__titleContainer___1HE6o">
                                   <h4 className="product-card__brand___3np4R">Efora</h4>
                                   <h4 className="product-card__title___3l79X">Giày Brogues Nam Grain Đen</h4>
@@ -314,7 +320,7 @@ class Detail extends React.Component {
                           <div className="products-carousel__product-card-container___7-x0W">
                             <a className="products-carousel__product-card___2cXOo product-card__productCard___2lSYu" href="/products/Đồng Hồ Nam Automatic Meteorite Grey Dial-5a740cf6fedb3c001bc0995b">
                               <div>
-                                <div className="product-card__imageContainer___1apY_  "><img id className="product-card__image___QEKAk" src="https://images.leflair.vn/w300/q85/5a93eefe511a4e001ce0f989.jpg" srcSet="https://images.leflair.vn/w300/q85/5a93eefe511a4e001ce0f989.jpg 300w" sizes="140px, (min-width: 768px) 205px" alt="Đồng Hồ Nam Automatic Meteorite Grey Dial" /></div>
+                                <div className="product-card__imageContainer___1apY_  "><img className="product-card__image___QEKAk" src="https://images.leflair.vn/w300/q85/5a93eefe511a4e001ce0f989.jpg" srcSet="https://images.leflair.vn/w300/q85/5a93eefe511a4e001ce0f989.jpg 300w" sizes="140px, (min-width: 768px) 205px" alt="Đồng Hồ Nam Automatic Meteorite Grey Dial" /></div>
                                 <div className="product-card__titleContainer___1HE6o">
                                   <h4 className="product-card__brand___3np4R">Thomas Earnshaw</h4>
                                   <h4 className="product-card__title___3l79X">Đồng Hồ Nam Automatic Meteorite Grey Dial</h4>
@@ -326,7 +332,7 @@ class Detail extends React.Component {
                           <div className="products-carousel__product-card-container___7-x0W">
                             <a className="products-carousel__product-card___2cXOo product-card__productCard___2lSYu" href="/products/Bộ 2 Bình Thủy Tinh Blossom 1L-5af958ce3d5ead000f0981a0">
                               <div>
-                                <div className="product-card__imageContainer___1apY_  "><img id className="product-card__image___QEKAk" src="https://images.leflair.vn/w300/q85/5b07c4ba024f5e00016fbf1d.jpg" srcSet="https://images.leflair.vn/w300/q85/5b07c4ba024f5e00016fbf1d.jpg 300w" sizes="140px, (min-width: 768px) 205px" alt="Bộ 2 Bình Thủy Tinh Blossom 1L" /></div>
+                                <div className="product-card__imageContainer___1apY_  "><img className="product-card__image___QEKAk" src="https://images.leflair.vn/w300/q85/5b07c4ba024f5e00016fbf1d.jpg" srcSet="https://images.leflair.vn/w300/q85/5b07c4ba024f5e00016fbf1d.jpg 300w" sizes="140px, (min-width: 768px) 205px" alt="Bộ 2 Bình Thủy Tinh Blossom 1L" /></div>
                                 <div className="product-card__titleContainer___1HE6o">
                                   <h4 className="product-card__brand___3np4R">Libbey</h4>
                                   <h4 className="product-card__title___3l79X">Bộ 2 Bình Thủy Tinh Blossom 1L</h4>
@@ -338,7 +344,7 @@ class Detail extends React.Component {
                           <div className="products-carousel__product-card-container___7-x0W">
                             <a className="products-carousel__product-card___2cXOo product-card__productCard___2lSYu" href="/products/Bộ Drap & Chăn Sylvan 160x200 (6 Món)-5b2a2c7d38edf90001bb8b7d?color=FLO-MAROON">
                               <div>
-                                <div className="product-card__imageContainer___1apY_  "><img id className="product-card__image___QEKAk" src="https://images.leflair.vn/w300/q85/5b3309f39b035a000102e5df.jpg" srcSet="https://images.leflair.vn/w300/q85/5b3309f39b035a000102e5df.jpg 300w" sizes="140px, (min-width: 768px) 205px" alt="Bộ Drap & Chăn Sylvan 160x200 (6 Món)" /></div>
+                                <div className="product-card__imageContainer___1apY_  "><img className="product-card__image___QEKAk" src="https://images.leflair.vn/w300/q85/5b3309f39b035a000102e5df.jpg" srcSet="https://images.leflair.vn/w300/q85/5b3309f39b035a000102e5df.jpg 300w" sizes="140px, (min-width: 768px) 205px" alt="Bộ Drap & Chăn Sylvan 160x200 (6 Món)" /></div>
                                 <div className="product-card__titleContainer___1HE6o">
                                   <h4 className="product-card__brand___3np4R">Novelle</h4>
                                   <h4 className="product-card__title___3l79X">Bộ Drap &amp; Chăn Sylvan 160x200 (6 Món)</h4>
