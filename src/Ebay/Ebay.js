@@ -1,5 +1,5 @@
-import React from"react";
-import { connect } from"react-redux";
+import React from "react";
+import { connect } from "react-redux";
 import '../Sections/style.css';
 import { Link } from 'react-router-dom';
 class Ebay extends React.Component {
@@ -23,7 +23,7 @@ class Ebay extends React.Component {
             <div style={{ display: 'table', clear: 'both' }} />
           </div>
           <div className="default-layout__container___13v1V default__defaultLayout___3nBIn false">
-            <div className="backdrop__body-backdrop___1rvky" />
+            <div className="backdrop__body-backdrop___1rvky  " />
             <div className="header__header___1t3MH false">
               <nav className="header__my-navbar___2Cghd header__navbar-toggleable-sm___pR4tF header__nav-header___3lWCb">
                 <div className="container__container___1fvX0 header__container___2d-Oi">
@@ -32,18 +32,18 @@ class Ebay extends React.Component {
                   <div className="clearfix collapse header__navbar-collapse___2AK1h">
                     <Link to={`/home`} className="hidden-md-up header__navbar-brand___SzzgD"><img src="/img/logo123order.png" /></Link>
                     <ul className="hidden-md-down header__navbar-nav___9cfBy header__navbar-left___25OFe">
-                      <li className="header__nav-item___MQLXP"><Link to={`/amazon`} className="header__nav-link___3W4sc">Amazon</Link></li>
-                      <li className="header__nav-item___MQLXP"><Link to={`/ebay`} className="header__nav-link___3W4sc">Ebay</Link></li>
-                      <li className="header__nav-item___MQLXP"><Link to={`/adidas`} className="header__nav-link___3W4sc">Adidas</Link></li>
-                      <li className="header__nav-item___MQLXP"><Link to={`/nike`} className="header__nav-link___3W4sc">Nike</Link></li>
+                      <li className="header__nav-item___MQLXP"><Link to={`/amazon`} className="header__nav-link___3W4sc ">Amazon</Link></li>
+                      <li className="header__nav-item___MQLXP"><Link to={`/ebay`} className="header__nav-link___3W4sc ">Ebay</Link></li>
+                      <li className="header__nav-item___MQLXP"><Link to={`/adidas`} className="header__nav-link___3W4sc ">Adidas</Link></li>
+                      <li className="header__nav-item___MQLXP"><Link to={`/nike`} className="header__nav-link___3W4sc ">Nike</Link></li>
                     </ul>
                     <ul className="header__navbar-nav___9cfBy header__navbar-right___2_zf5">
                       <li className="header__nav-item___MQLXP">
-                        <div className="undefined language-dropdown__dropdown____KQAB language-dropdown__dropdown-section___2Exp9">
-                          <a className="text-uppercase language-dropdown__nav-link___2sOBe language-dropdown__dropdown-toggle___3DM4H">vn</a>
+                        <div className="undefined language-dropdown__dropdown____KQAB language-dropdown__dropdown-section___2Exp9 ">
+                          <a className="text-uppercase language-dropdown__nav-link___2sOBe language-dropdown__dropdown-toggle___3DM4H" href="javascript:void(0)">vn</a>
                           <ul className="language-dropdown__dropdown-menu___2iFhf">
-                            <li className="language-dropdown__active___23oVE"><a className="language-dropdown__dropdown-item___3bDVi">Tiếng Việt (vn)</a></li>
-                            <li ><a className="language-dropdown__dropdown-item___3bDVi">English (en)</a></li>
+                            <li className="language-dropdown__active___23oVE"><a className="language-dropdown__dropdown-item___3bDVi" href="javascript:void(0)">Tiếng Việt (vn)</a></li>
+                            <li><a className="language-dropdown__dropdown-item___3bDVi" href="javascript:void(0)">English (en)</a></li>
                           </ul>
                         </div>
                       </li>
@@ -58,20 +58,20 @@ class Ebay extends React.Component {
               <nav className="hidden-lg-up header__mobile-nav-cat-container___2JTtk" id="cate-mobile-root">
                 <div className="container__container___1fvX0 header__padding-remove___uM9bo">
                   <ul className="header__mobile-nav-cat___1wJ9O">
-                    <li className="header__nav-item___MQLXP"><Link to={`/amazon`} className="header__nav-link___3W4sc">Amazon</Link></li>
-                    <li className="header__nav-item___MQLXP"><Link to={`/ebay`} className="header__nav-link___3W4sc" >Ebay</Link></li>
-                    <li className="header__nav-item___MQLXP"><Link to={`/adidas`} className="header__nav-link___3W4sc" >Adidas</Link></li>
-                    <li className="header__nav-item___MQLXP"><Link to={`/nike`} className="header__nav-link___3W4sc" >Nike</Link></li>
+                    <li className="header__nav-item___MQLXP"><Link to={`/amazon`} className="header__nav-link___3W4sc ">Amazon</Link></li>
+                    <li className="header__nav-item___MQLXP"><Link to={`/ebay`} className="header__nav-link___3W4sc " >Ebay</Link></li>
+                    <li className="header__nav-item___MQLXP"><Link to={`/adidas`} className="header__nav-link___3W4sc " >Adidas</Link></li>
+                    <li className="header__nav-item___MQLXP"><Link to={`/nike`} className="header__nav-link___3W4sc " >Nike</Link></li>
                   </ul>
                 </div>
               </nav>
               <div />
             </div>
             <div className="container__container___1fvX0 default__container___1TdpD">
-  <div className="row__row___2roCA">
+  <div className="row__row___2roCA ">
     <div className="first-sale-tile__first-sale-container___12AH9">
       <a className="hidden-md-down first-sale-tile__first-sale-desktop___3DYvl" href="/sales/giam-den-50-blackmoresr-thuc-pham-chuc-nang-tu-uc-5bd6c3137cf0476b22488d23">
-        <div className="row__row___2roCA">
+        <div className="row__row___2roCA ">
           <div className="first-sale-tile__col-lg-9___2uu-j first-sale-tile__image-container___VGe3q"><img src="https://images.leflair.vn/w640/q85/5bdad591afd2a6680da62d6e.jpg" srcSet="https://images.leflair.vn/w640/q85/5bdad591afd2a6680da62d6e.jpg 640w, https://images.leflair.vn/w1080/q85/5bdad591afd2a6680da62d6e.jpg 1080w, https://images.leflair.vn/w1440/q85/5bdad591afd2a6680da62d6e.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, 100vw" alt="Giảm Đến 50% - Blackmores® Thực Phẩm Chức Năng Từ Úc" /></div>
           <div className="first-sale-tile__col-lg-3___2ZXJG first-sale-tile__text-container___3Kt7T">
             <h2 className="first-sale-tile__title___2Dutp">Giảm Đến 50% - Blackmores® Thực Phẩm Chức Năng Từ Úc</h2>
@@ -437,9 +437,9 @@ class Ebay extends React.Component {
 
             <iframe src="//asia.creativecdn.com/tags?id=pr_01dY0e4guJ61lwvQGDAs_category2_Women" width={1} height={1} scrolling="no" frameBorder={0} style={{ display: 'none' }} />
             <div className="footer__footerSection___1-2XO" id="footer">
-              <div className="container__container___1fvX0">
+              <div className="container__container___1fvX0 ">
                 <div className="footer__upper___3xatR">
-                  <div className="row__row___2roCA">
+                  <div className="row__row___2roCA ">
                     <div className="footer__col-md-2___1vyOI footer__socialLinks___3S5w9"><Link to={`/home`} className="footer__logo___SNGnI" style={{ marginLeft: '25px' }} ><img onClick={()=>this.handleClick()} className="footer__image___1wrDs" src="/img/123orderwhite.png" /></Link>
                       <ul className="list-inline">
                         <li className="list-inline-item"><a href="https://www.facebook.com/LeflairVN"><i className="ic-facebook" /></a></li>
@@ -491,9 +491,9 @@ class Ebay extends React.Component {
                   </div>
                 </div>
                 <div className="footer__lower___3ZvXz">
-                  <div className="row__row___2roCA">
+                  <div className="row__row___2roCA ">
                     <div className="footer__col-lg-8___KYzn5 footer__col-md-8___2pauw">
-                      <div className="row__row___2roCA">
+                      <div className="row__row___2roCA ">
                         <div className="footer__col-lg-6___2jvLt footer__copyright___1R9Fa"><a className="footer__govLink___1bjkn" href="http://www.online.gov.vn/HomePage/CustomWebsiteDisplay.aspx?DocId=19306" target="blank"><img className="footer__image___1wrDs" src="https://www.leflair.vn/images/stamp-bo-cong-thuong.png" /></a><span className="footer__text___1Ta7d">Copyright
                       @ 2018 leflair.vn</span></div>
                         <div className="footer__col-lg-6___2jvLt footer__address___aiHX9">Công ty Cổ phần Leflair - Tầng 16,
@@ -506,7 +506,7 @@ class Ebay extends React.Component {
                 </div>
               </div>
             </div>
-            <div className="cart__cart___yD7P6">
+            <div className="cart__cart___yD7P6 ">
               <div className="clearfix cart__heading___1Yc0F">
                 <div className="cart__btn-close___1BLZG" title="Tiếp tục mua sắm!"><span className="ic-ic-close cart__icon___DWUE4" /></div>
                 <h4 className="cart__title___XIF0i">Giỏ hàng<span>(0 Sản phẩm)</span></h4>
@@ -544,7 +544,7 @@ class Ebay extends React.Component {
                 </div>
               </div>
             </div>
-            <a id="go-to-top" className="go-to-top__go-to-top___7XKAr"><span className="go-to-top__icon___217Vz ic-ic-arrow-up" /></a>
+            <a id="go-to-top" className="go-to-top__go-to-top___7XKAr" href="javascript:void(0)"><span className="go-to-top__icon___217Vz ic-ic-arrow-up" /></a>
           </div>
         </div>
       </main>
