@@ -338,75 +338,75 @@ class Detail extends React.Component {
               </div>
             </div>
             <div className="footer__footerSection___1-2XO" id="footer">
-              <div className="container__container___1fvX0 ">
-                <div className="footer__upper___3xatR">
-                  <div className="row__row___2roCA ">
-                    <div className="footer__col-md-2___1vyOI footer__socialLinks___3S5w9"><Link to={`/home`} className="footer__logo___SNGnI" href="/"><img className="footer__image___1wrDs" src="/img/123orderwhite.png" /></Link>
-                      <ul className="list-inline">
-                        <li className="list-inline-item"><a href="https://www.facebook.com/LeflairVN"><i className="ic-facebook" /></a></li>
-                        <li className="list-inline-item"><a href="https://instagram.com/leflairvietnam"><i className="ic-instagram" /></a></li>
-                        <li className="list-inline-item"><a href="https://www.linkedin.com/company/leflair"><i className="ic-linkedin2" /></a></li>
-                        <li className="list-inline-item"><a href="https://zalo.me/3159399474223916820"><i className="ic-ic-zalo" /></a></li>
-                      </ul>
-                    </div>
-                    <div className="footer__col-md-2___1vyOI footer__col-4___-XXVx footer__contact___2p3rC">
-                      <h4 className="footer__title___2Zw_F">Liên hệ</h4>
-                      <div className="footer__body___2_pAR">
-                        <ul className="list-unstyled">
-                          <li><a className="phone" href="tel:19006710">19006710</a></li>
-                          <li><a className="email" href="mailto:help@leflair.vn">help@leflair.vn</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div className="footer__col-md-2___1vyOI footer__col-4___-XXVx footer__company___GKAFU">
-                      <h4 className="footer__title___2Zw_F">Doanh nghiệp</h4>
-                      <div className="footer__body___2_pAR">
-                        <ul className="list-unstyled">
-                          <li><a href="https://pages.leflair.vn/about-us">Về Leflair</a></li>
-                          <li><a href="https://styleguide.leflair.vn/">Style Guide</a></li>
-                          <li><a href="https://pages.leflair.vn/partners">Hợp tác</a></li>
-                          <li><a href="https://pages.leflair.vn/genuine-guarantee">Chính hãng</a></li>
-                          <li><a href="https://careers.leflair.vn/">Tuyển dụng</a></li>
-                          <li><a className href="/brands">Thương hiệu</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div className="footer__col-md-2___1vyOI footer__col-4___-XXVx footer__customerService___2ZPaW">
-                      <h4 className="footer__title___2Zw_F">Chăm sóc khách hàng</h4>
-                      <div className="footer__body___2_pAR">
-                        <ul className="list-unstyled">
-                          <li><a href="https://support.leflair.vn/hc/vi">Hỏi đáp</a></li>
-                          <li><a href="https://support.leflair.vn/hc/vi/articles/214167448-Ch%C3%ADnh-s%C3%A1ch-tr%E1%BA%A3-h%C3%A0ng-v%C3%A0-ho%C3%A0n-ti%E1%BB%81n">Đổi
-                                trả</a></li>
-                          <li><a href="https://support.leflair.vn/hc/vi/articles/214857097-%C4%90i%E1%BB%81u-kho%E1%BA%A3n-v%C3%A0-quy-%C4%91%E1%BB%8Bnh-chung">Điều
-                                khoản &amp; quy định</a></li>
-                          <li><a href="https://support.leflair.vn/hc/vi/articles/214167378-Ch%C3%ADnh-s%C3%A1ch-giao-v%C3%A0-nh%E1%BA%ADn-h%C3%A0ng">Giao
-                                hàng</a></li>
-                          <li><a href="https://support.leflair.vn/hc/vi/articles/214113678-T%C3%B4i-c%C3%B3-nh%E1%BA%ADn-%C4%91%C6%B0%E1%BB%A3c-h%C3%B3a-%C4%91%C6%A1n-GTGT-trong-b%C6%B0u-ki%E1%BB%87n-kh%C3%B4ng-">Thuế</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div className="footer__col-md-4___2KXw4 footer__facebookPage___2mPne">
-                      <div className="fb-page" data-href="https://www.facebook.com/LeflairVN" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" data-show-posts="false" />
-                    </div>
-                  </div>
-                </div>
-                <div className="footer__lower___3ZvXz">
-                  <div className="row__row___2roCA ">
-                    <div className="footer__col-lg-8___KYzn5 footer__col-md-8___2pauw">
-                      <div className="row__row___2roCA ">
-                        <div className="footer__col-lg-6___2jvLt footer__copyright___1R9Fa"><a className="footer__govLink___1bjkn" href="http://www.online.gov.vn/HomePage/CustomWebsiteDisplay.aspx?DocId=19306" target="blank"><img className="footer__image___1wrDs" src="https://www.leflair.vn/images/stamp-bo-cong-thuong.png" /></a><span className="footer__text___1Ta7d">Copyright
-                              @ 2018 leflair.vn</span></div>
-                        <div className="footer__col-lg-6___2jvLt footer__address___aiHX9">Công ty Cổ phần Leflair - Tầng 16,
-                            Tháp A2, Tòa nhà Viettel, 285 Cách Mạng Tháng Tám, P.12, Q.10, TP.HCM</div>
-                      </div>
-                    </div>
-                    <div className="footer__col-lg-4___excjO footer__col-md-4___2KXw4">Cơ quan cấp: Sở Kế hoạch và Đầu tư
-                        Thành phố Hồ Chí Minh</div>
-                  </div>
+        <div className="container__container___1fvX0 ">
+          <div className="footer__upper___3xatR">
+            <div className="row__row___2roCA ">
+              <div className="footer__col-md-2___1vyOI footer__socialLinks___3S5w9"><Link to={`/home`} className="footer__logo___SNGnI" style={{marginLeft:'25px'}} ><img className="footer__image___1wrDs" src="/img/123orderwhite.png" /></Link>
+                <ul className="list-inline">
+                  <li className="list-inline-item"><a href="https://www.facebook.com/LeflairVN"><i className="ic-facebook" /></a></li>
+                  <li className="list-inline-item"><a href="https://instagram.com/leflairvietnam"><i className="ic-instagram" /></a></li>
+                  <li className="list-inline-item"><a href="https://www.linkedin.com/company/leflair"><i className="ic-linkedin2" /></a></li>
+                  <li className="list-inline-item"><a href="https://zalo.me/3159399474223916820"><i className="ic-ic-zalo" /></a></li>
+                </ul>
+              </div>
+              <div className="footer__col-md-2___1vyOI footer__col-4___-XXVx footer__contact___2p3rC">
+                <h4 className="footer__title___2Zw_F">Liên hệ</h4>
+                <div className="footer__body___2_pAR">
+                  <ul className="list-unstyled">
+                    <li><a className="phone" href="tel:19006710">19006710</a></li>
+                    <li><a className="email" href="mailto:help@leflair.vn">help@leflair.vn</a></li>
+                  </ul>
                 </div>
               </div>
+              <div className="footer__col-md-2___1vyOI footer__col-4___-XXVx footer__company___GKAFU">
+                <h4 className="footer__title___2Zw_F">Doanh nghiệp</h4>
+                <div className="footer__body___2_pAR">
+                  <ul className="list-unstyled">
+                    <li><a href="https://pages.leflair.vn/about-us">Về Leflair</a></li>
+                    <li><a href="https://styleguide.leflair.vn/">Style Guide</a></li>
+                    <li><a href="https://pages.leflair.vn/partners">Hợp tác</a></li>
+                    <li><a href="https://pages.leflair.vn/genuine-guarantee">Chính hãng</a></li>
+                    <li><a href="https://careers.leflair.vn/">Tuyển dụng</a></li>
+                    <li><a className href="/brands">Thương hiệu</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div className="footer__col-md-2___1vyOI footer__col-4___-XXVx footer__customerService___2ZPaW">
+                <h4 className="footer__title___2Zw_F">Chăm sóc khách hàng</h4>
+                <div className="footer__body___2_pAR">
+                  <ul className="list-unstyled">
+                    <li><a href="https://support.leflair.vn/hc/vi">Hỏi đáp</a></li>
+                    <li><a href="https://support.leflair.vn/hc/vi/articles/214167448-Ch%C3%ADnh-s%C3%A1ch-tr%E1%BA%A3-h%C3%A0ng-v%C3%A0-ho%C3%A0n-ti%E1%BB%81n">Đổi
+                        trả</a></li>
+                    <li><a href="https://support.leflair.vn/hc/vi/articles/214857097-%C4%90i%E1%BB%81u-kho%E1%BA%A3n-v%C3%A0-quy-%C4%91%E1%BB%8Bnh-chung">Điều
+                        khoản &amp; quy định</a></li>
+                    <li><a href="https://support.leflair.vn/hc/vi/articles/214167378-Ch%C3%ADnh-s%C3%A1ch-giao-v%C3%A0-nh%E1%BA%ADn-h%C3%A0ng">Giao
+                        hàng</a></li>
+                    <li><a href="https://support.leflair.vn/hc/vi/articles/214113678-T%C3%B4i-c%C3%B3-nh%E1%BA%ADn-%C4%91%C6%B0%E1%BB%A3c-h%C3%B3a-%C4%91%C6%A1n-GTGT-trong-b%C6%B0u-ki%E1%BB%87n-kh%C3%B4ng-">Thuế</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div className="footer__col-md-4___2KXw4 footer__facebookPage___2mPne">
+                <div className="fb-page" data-href="https://www.facebook.com/LeflairVN" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" data-show-posts="false" />
+              </div>
             </div>
+          </div>
+          <div className="footer__lower___3ZvXz">
+            <div className="row__row___2roCA ">
+              <div className="footer__col-lg-8___KYzn5 footer__col-md-8___2pauw">
+                <div className="row__row___2roCA ">
+                  <div className="footer__col-lg-6___2jvLt footer__copyright___1R9Fa"><a className="footer__govLink___1bjkn" href="http://www.online.gov.vn/HomePage/CustomWebsiteDisplay.aspx?DocId=19306" target="blank"><img className="footer__image___1wrDs" src="https://www.leflair.vn/images/stamp-bo-cong-thuong.png" /></a><span className="footer__text___1Ta7d">Copyright
+                      @ 2018 leflair.vn</span></div>
+                  <div className="footer__col-lg-6___2jvLt footer__address___aiHX9">Công ty Cổ phần Leflair - Tầng 16,
+                    Tháp A2, Tòa nhà Viettel, 285 Cách Mạng Tháng Tám, P.12, Q.10, TP.HCM</div>
+                </div>
+              </div>
+              <div className="footer__col-lg-4___excjO footer__col-md-4___2KXw4">Cơ quan cấp: Sở Kế hoạch và Đầu tư
+                Thành phố Hồ Chí Minh</div>
+            </div>
+          </div>
+        </div>
+      </div>
             <div className=" cart__cart___yD7P6 ">
               <div className="clearfix cart__heading___1Yc0F">
                 <div className="cart__btn-close___1BLZG" title="Tiếp tục mua sắm!"><span className="ic-ic-close cart__icon___DWUE4" /></div>
