@@ -20,47 +20,42 @@ class Detail extends React.Component {
             <div className="header__header___1t3MH false">
               <nav className="header__my-navbar___2Cghd header__navbar-toggleable-sm___pR4tF header__nav-header___3lWCb">
                 <div className="container__container___1fvX0 header__container___2d-Oi">
-                  <div className="hidden-md-up header__my-navbar-toggler___2PiaS"><button className="header__btn-icon___17D-i" type="button"><i className="ic-ic-user" /></button></div><a className="header__navbar-brand___SzzgD" href="/"><img src="https://www.leflair.vn/images/leflair-logo-black.png" /></a>
-                  <div className="clearfix collapse header__navbar-collapse___2AK1h"><a className="hidden-md-up header__navbar-brand___SzzgD" href="/"><img src="https://www.leflair.vn/images/leflair-logo-black.png" /></a>
+                  <div className="hidden-md-up header__my-navbar-toggler___2PiaS"><button className="header__btn-icon___17D-i" type="button"><i className="ic-ic-user" /></button></div>
+                  <a className="header__navbar-brand___SzzgD" href="/"><img src="/images/leflair-logo-black.png" /></a>
+                  <div className="clearfix collapse header__navbar-collapse___2AK1h">
+                    <a className="hidden-md-up header__navbar-brand___SzzgD" href="/"><img src="/images/leflair-logo-black.png" /></a>
                     <ul className="hidden-md-down header__navbar-nav___9cfBy header__navbar-left___25OFe">
-                      <li className="header__nav-item___MQLXP"><a className="header__nav-link___3W4sc " href="/Women">Amazon</a></li>
-                      <li className="header__nav-item___MQLXP"><a className="header__nav-link___3W4sc " href="/Men">Ebay</a></li>
-                      <li className="header__nav-item___MQLXP"><a className="header__nav-link___3W4sc " href="/Home">Adidas</a></li>
-                      <li className="header__nav-item___MQLXP"><a className="header__nav-link___3W4sc " href="/Kids">Nike</a></li>
+                      <li className="header__nav-item___MQLXP"><a className="header__nav-link___3W4sc " href="/Women">Nữ</a></li>
+                      <li className="header__nav-item___MQLXP"><a className="header__nav-link___3W4sc " href="/Men">Nam</a></li>
+                      <li className="header__nav-item___MQLXP">
+                        <div className="header__new-indicator___16ciR">Mới</div>
+                        <a className="header__nav-link___3W4sc " href="/International">Hàng nhập khẩu</a>
+                      </li>
+                      <li className="header__nav-item___MQLXP"><a className="header__nav-link___3W4sc " href="/Home">Nhà cửa</a></li>
+                      <li className="header__nav-item___MQLXP"><a className="header__nav-link___3W4sc " href="/Kids">Trẻ em</a></li>
                     </ul>
                     <ul className="header__navbar-nav___9cfBy header__navbar-right___2_zf5">
                       <li className="header__nav-item___MQLXP">
-                        <div className="undefined language-dropdown__dropdown____KQAB language-dropdown__dropdown-section___2Exp9 "><a className="text-uppercase language-dropdown__nav-link___2sOBe language-dropdown__dropdown-toggle___3DM4H" href="#">vn</a>
+                        <div className="undefined language-dropdown__dropdown____KQAB language-dropdown__dropdown-section___2Exp9 ">
+                          <a className="text-uppercase language-dropdown__nav-link___2sOBe language-dropdown__dropdown-toggle___3DM4H" href="javascript:void(0)">vn</a>
                           <ul className="language-dropdown__dropdown-menu___2iFhf">
-                            <li className="language-dropdown__active___23oVE"><a className="language-dropdown__dropdown-item___3bDVi" href="#">Tiếng Việt (vn)</a></li>
-                            <li className><a className="language-dropdown__dropdown-item___3bDVi" href="#">English
-                                  (en)</a></li>
+                            <li className="language-dropdown__active___23oVE"><a className="language-dropdown__dropdown-item___3bDVi" href="javascript:void(0)">Tiếng Việt (vn)</a></li>
+                            <li className><a className="language-dropdown__dropdown-item___3bDVi" href="javascript:void(0)">English (en)</a></li>
                           </ul>
                         </div>
                       </li>
                       <li className="header__nav-item___MQLXP">
-                        <div className="auth-buttons__auth___33bfZ"><a className="auth-buttons__nav-link___1DCMU auth-buttons__btn-sign-in___1nV-O" href="/auth/signin?redirect=/">Đăng nhập</a><a className="auth-buttons__nav-link___1DCMU auth-buttons__btn-register___3sIO1" href="/auth/register">Tạo tài khoản</a></div>
+                        <div className="auth-buttons__auth___33bfZ"><a className="auth-buttons__nav-link___1DCMU auth-buttons__btn-sign-in___1nV-O" href="/auth/signin?redirect=/products/bo-vong-tay-mat-trang-charm-ngoi-sao-and-vong-tay-thach-anh-toc-den-charm-hoa-mai-5bd2ceb8001f375c3ce6b71e">Đăng nhập</a><a className="auth-buttons__nav-link___1DCMU auth-buttons__btn-register___3sIO1" href="/auth/register">Tạo tài khoản</a></div>
                       </li>
                     </ul>
-                  </div><button className="header__cart-icon___38YSW cart-button__btn-cart___2KPCq" type="button"><i className="ic-ic-bag cart-button__icon___3QHeM" /></button>
-                </div>
-              </nav>
-              <nav className="hidden-lg-up header__mobile-nav-cat-container___2JTtk cate-show" id="cate-mobile-root">
-                <div className="container__container___1fvX0 header__padding-remove___uM9bo">
-                  <ul className="header__mobile-nav-cat___1wJ9O">
-                    <li className="header__nav-item___MQLXP"><a className="header__nav-link___3W4sc " href="/Women">Nữ</a></li>
-                    <li className="header__nav-item___MQLXP"><a className="header__nav-link___3W4sc " href="/Men">Nam</a></li>
-                    <li className="header__nav-item___MQLXP">
-                      <div className="header__new-indicator___16ciR">Mới</div><a className="header__nav-link___3W4sc " href="/International">Hàng
-                          nhập khẩu</a>
-                    </li>
-                    <li className="header__nav-item___MQLXP"><a className="header__nav-link___3W4sc " href="/Home">Nhà cửa</a></li>
-                    <li className="header__nav-item___MQLXP"><a className="header__nav-link___3W4sc " href="/Kids">Trẻ em</a></li>
-                  </ul>
+                  </div>
+                  <button className="header__cart-icon___38YSW cart-button__btn-cart___2KPCq" type="button"><i className="ic-ic-bag cart-button__icon___3QHeM" /></button>
                 </div>
               </nav>
               <div />
             </div>
+
+
             <div className="container__container___1fvX0 ">
               <div className="product__product___2plEK">
                 <div className="clearfix product__product-header___2yYGL">
