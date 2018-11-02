@@ -15,7 +15,7 @@ class Detail extends React.Component {
             <div className="loading-bar" style={{ opacity: 0, transform: 'scaleX(0)', transformOrigin: 'left center 0px', transition: 'transform 800ms linear 0s', width: '100%', willChange: 'transform, opacity', position: 'fixed', zIndex: 10002, backgroundColor: 'rgb(14, 192, 232)', height: 3 }} />
             <div style={{ display: 'table', clear: 'both' }} />
           </div>
-          <div className="default-layout__container___13v1V home__defaultLayout___Q6Udu  false">
+          <div className="default-layout__container___13v1V home__defaultLayout___Q6Udu  false" style={{paddingTop:'52px !important'}}>
             <div className="backdrop__body-backdrop___1rvky  " />
             <div className="header__header___1t3MH false">
               <nav className="header__my-navbar___2Cghd header__navbar-toggleable-sm___pR4tF header__nav-header___3lWCb">
