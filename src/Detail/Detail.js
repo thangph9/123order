@@ -17,7 +17,7 @@ class Detail extends React.Component {
           </div>
           <div className="default-layout__container___13v1V home__defaultLayout___Q6Udu  false">
             <div className="backdrop__body-backdrop___1rvky  " />
-            <div className="header__header___1t3MH false" id="header">
+            <div className="header__header___1t3MH false">
               <nav className="header__my-navbar___2Cghd header__navbar-toggleable-sm___pR4tF header__nav-header___3lWCb">
                 <div className="container__container___1fvX0 header__container___2d-Oi">
                   <div className="hidden-md-up header__my-navbar-toggler___2PiaS"><button className="header__btn-icon___17D-i" type="button"><i className="ic-ic-user" /></button></div><a className="header__navbar-brand___SzzgD" href="/"><img src="https://www.leflair.vn/images/leflair-logo-black.png" /></a>
@@ -237,7 +237,7 @@ class Detail extends React.Component {
                   </div>
                   <div id="product-info" className="row__row___2roCA product__extra-info___1r8vd extra-info__extra-info-section___378qZ">
                     <div className="extra-info__extra-info___HmKpD extra-info__col-md-6___3ZC3K extra-info__col-sm-12___2y7dc">
-                      <div className="extra-info__info-image___1Kd9E"><img src="/images/product-extra-guarantee.jpg" alt="Product extra guarantee" /></div>
+                      <div className="extra-info__info-image___1Kd9E"><img src="img/product-extra-guarantee.jpg" alt="Product extra guarantee" /></div>
                       <div className="extra-info__info-text___CTc2n">
                         <div className="extra-info__title___1Itso">Bảo đảm 100% chính hãng</div>
                         <ul className="extra-info__text-list-ul___6CagB">
@@ -248,7 +248,7 @@ class Detail extends React.Component {
                       </div>
                     </div>
                     <div className="extra-info__extra-info___HmKpD extra-info__col-md-6___3ZC3K extra-info__col-sm-12___2y7dc">
-                      <div className="extra-info__info-image___1Kd9E"><img src="/images/product-extra-return.jpg" alt="Product extra guarantee" /></div>
+                      <div className="extra-info__info-image___1Kd9E"><img src="img/product-extra-return.jpg" alt="Product extra guarantee" /></div>
                       <div className="extra-info__info-text___CTc2n">
                         <div className="extra-info__title___1Itso">Trả hàng đơn giản theo 4 bước</div>
                         <ul className="extra-info__table-group___1xJ6Q">
