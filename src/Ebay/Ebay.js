@@ -40,10 +40,10 @@ class Ebay extends React.Component {
                     <ul className="header__navbar-nav___9cfBy header__navbar-right___2_zf5">
                       <li className="header__nav-item___MQLXP">
                         <div className="undefined language-dropdown__dropdown____KQAB language-dropdown__dropdown-section___2Exp9">
-                          <a className="text-uppercase language-dropdown__nav-link___2sOBe language-dropdown__dropdown-toggle___3DM4H" href="javascript:void(0)">vn</a>
+                          <a className="text-uppercase language-dropdown__nav-link___2sOBe language-dropdown__dropdown-toggle___3DM4H">vn</a>
                           <ul className="language-dropdown__dropdown-menu___2iFhf">
-                            <li className="language-dropdown__active___23oVE"><a className="language-dropdown__dropdown-item___3bDVi" href="javascript:void(0)">Tiếng Việt (vn)</a></li>
-                            <li ><a className="language-dropdown__dropdown-item___3bDVi" href="javascript:void(0)">English (en)</a></li>
+                            <li className="language-dropdown__active___23oVE"><a className="language-dropdown__dropdown-item___3bDVi">Tiếng Việt (vn)</a></li>
+                            <li ><a className="language-dropdown__dropdown-item___3bDVi">English (en)</a></li>
                           </ul>
                         </div>
                       </li>
@@ -544,7 +544,7 @@ class Ebay extends React.Component {
                 </div>
               </div>
             </div>
-            <a id="go-to-top" className="go-to-top__go-to-top___7XKAr" href="javascript:void(0)"><span className="go-to-top__icon___217Vz ic-ic-arrow-up" /></a>
+            <a id="go-to-top" className="go-to-top__go-to-top___7XKAr"><span className="go-to-top__icon___217Vz ic-ic-arrow-up" /></a>
           </div>
         </div>
       </main>
