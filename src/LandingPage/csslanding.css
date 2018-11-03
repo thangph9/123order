@@ -3,14 +3,6 @@
     src: url(/assets/a28f17ad/css/../fonts/glyphicons-halflings-regular.eot);
     src: url(/assets/a28f17ad/css/../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'),url(/assets/a28f17ad/css/../fonts/glyphicons-halflings-regular.woff2) format('woff2'),url(/assets/a28f17ad/css/../fonts/glyphicons-halflings-regular.woff) format('woff'),url(/assets/a28f17ad/css/../fonts/glyphicons-halflings-regular.ttf) format('truetype'),url(/assets/a28f17ad/css/../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
 }
-
-@font-face {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    src: url(/assets/63e86909/css/../fonts/roboto/roboto-bold-webfont.eot?#iefix) format("embedded-opentype"),url(/assets/63e86909/css/../fonts/roboto/roboto-regular-webfont.woff) format("woff"),url(/assets/63e86909/css/../fonts/roboto/roboto-regular-webfont.ttf) format("truetype"),url(/assets/63e86909/css/../fonts/roboto/roboto-regular-webfont.svg#Roboto) format("svg")
-}
-
 @font-face {
     font-family: "Roboto";
     font-style: italic;
