@@ -70,7 +70,7 @@ class App extends Component{
                         <Route exact path="/mua-hang-amazon" component={MuaHangAmazon} />
                         <Route exact path="/best-seller" component={BestSeller} />
                         <Route exact path="/hot-deal-cong-nghe" component={HotDealCongNghe} />
-                        <Route exact path="/landingpage" component={LandingPage} />
+
                         <Route exact path="/price" component={Price} />
                         <Route exact path="/category/nodeid=:nodeid&categoryindex=:categoryindex" component={Category} />
                         <Route exact path="/product-detail/*id=:dealid" component={ProductDetail} />
