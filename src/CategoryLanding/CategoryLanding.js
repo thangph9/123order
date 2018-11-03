@@ -64,8 +64,8 @@ class CategoryLanding extends React.Component {
               <div />
             </div>
             <div className="container__container___1fvX0 home__featuredContainer___1YAQy">
-              <a className href="/sales/giam-den-60-lotus-bo-chan-and-drap-boc-5bd7cf7f77f2254353d8c2ff">
-                <img id className="hidden-md-up" src="https://images.leflair.vn/w640/q85/5bdc00a4c6b3c5a18f0a3296.jpg" srcSet="https://images.leflair.vn/w640/q85/5bdc00a4c6b3c5a18f0a3296.jpg 640w, https://images.leflair.vn/w1080/q85/5bdc00a4c6b3c5a18f0a3296.jpg 1080w, https://images.leflair.vn/w1440/q85/5bdc00a4c6b3c5a18f0a3296.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, 100vw" alt="Giảm Đến 60% - Lotus Bộ Chăn & Drap Bọc" /><img id className="hidden-sm-down" src="https://images.leflair.vn/w850/q85/5bdc21d10946306c20111702.jpg" srcSet="https://images.leflair.vn/w850/q85/5bdc21d10946306c20111702.jpg 850w, https://images.leflair.vn/w1440/q85/5bdc21d10946306c20111702.jpg 1440w, https://images.leflair.vn/w2560/q85/5bdc21d10946306c20111702.jpg 2560w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, 100vw" alt="Giảm Đến 60% - Lotus Bộ Chăn & Drap Bọc" />
+              <a href="/sales/giam-den-60-lotus-bo-chan-and-drap-boc-5bd7cf7f77f2254353d8c2ff">
+                <img className="hidden-md-up" src="https://images.leflair.vn/w640/q85/5bdc00a4c6b3c5a18f0a3296.jpg" srcSet="https://images.leflair.vn/w640/q85/5bdc00a4c6b3c5a18f0a3296.jpg 640w, https://images.leflair.vn/w1080/q85/5bdc00a4c6b3c5a18f0a3296.jpg 1080w, https://images.leflair.vn/w1440/q85/5bdc00a4c6b3c5a18f0a3296.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, 100vw" alt="Giảm Đến 60% - Lotus Bộ Chăn & Drap Bọc" /><img className="hidden-sm-down" src="https://images.leflair.vn/w850/q85/5bdc21d10946306c20111702.jpg" srcSet="https://images.leflair.vn/w850/q85/5bdc21d10946306c20111702.jpg 850w, https://images.leflair.vn/w1440/q85/5bdc21d10946306c20111702.jpg 1440w, https://images.leflair.vn/w2560/q85/5bdc21d10946306c20111702.jpg 2560w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, 100vw" alt="Giảm Đến 60% - Lotus Bộ Chăn & Drap Bọc" />
                 <div className="hidden-md-up home__badge___2w2Lc home__featured-badge___2hhaD">Ưu đãi nổi bật</div>
                 <div className="hidden-md-up home__currentSaleInfo___2Fj0C">
                   <div className="home__currentSaleTitle___1jXFQ">Giảm Đến 60% - Lotus Bộ Chăn &amp; Drap Bọc</div>
@@ -76,37 +76,37 @@ class CategoryLanding extends React.Component {
             <div className="main-tabs text-right">
               <div className="container">
                 <ul className="list-inline">
-                  <li className><a href="https://weshop.com.vn/search/bulova%20women%20watch.html?portal=ebay">Bulova</a>
+                  <li><a href="https://weshop.com.vn/search/bulova%20women%20watch.html?portal=ebay">Bulova</a>
                   </li>
-                  <li className><a href="https://weshop.com.vn/search/citizen%20women%20watch.html?portal=ebay">Citizen</a>
+                  <li><a href="https://weshop.com.vn/search/citizen%20women%20watch.html?portal=ebay">Citizen</a>
                   </li>
-                  <li className><a href="https://weshop.com.vn/search/seiko%20women%20watch.html?portal=ebay">Seiko</a>
+                  <li><a href="https://weshop.com.vn/search/seiko%20women%20watch.html?portal=ebay">Seiko</a>
                   </li>
-                  <li className><a href="https://weshop.com.vn/search/burgi%20women%20watch.html?portal=ebay">Burgi</a>
+                  <li><a href="https://weshop.com.vn/search/burgi%20women%20watch.html?portal=ebay">Burgi</a>
                   </li>
-                  <li className><a href="https://weshop.com.vn/search/akribos%20women%20watch.html?portal=ebay">Akribos</a>
+                  <li><a href="https://weshop.com.vn/search/akribos%20women%20watch.html?portal=ebay">Akribos</a>
                   </li>
-                  <li className><a href="https://weshop.com.vn/search/skagen%20women%20watch.html?portal=ebay">Skagen</a>
+                  <li><a href="https://weshop.com.vn/search/skagen%20women%20watch.html?portal=ebay">Skagen</a>
                   </li>
-                  <li className><a href="https://weshop.com.vn/search/anne%20klein%20women%20watch.html?portal=ebay">Anne Klein</a>
+                  <li><a href="https://weshop.com.vn/search/anne%20klein%20women%20watch.html?portal=ebay">Anne Klein</a>
                   </li>
-                  <li className><a href="https://weshop.com.vn/search/guess%20women%20watch.html?portal=ebay">Guess</a>
+                  <li><a href="https://weshop.com.vn/search/guess%20women%20watch.html?portal=ebay">Guess</a>
                   </li>
-                  <li className><a href="https://weshop.com.vn/search/casio%20women%20watch.html?portal=ebay">Casio</a>
+                  <li><a href="https://weshop.com.vn/search/casio%20women%20watch.html?portal=ebay">Casio</a>
                   </li>
-                  <li className><a href="https://weshop.com.vn/search/invicta%20women%20watch.html?portal=ebay">Invicta</a>
+                  <li><a href="https://weshop.com.vn/search/invicta%20women%20watch.html?portal=ebay">Invicta</a>
                   </li>
-                  <li className><a href="https://weshop.com.vn/search/michael%20kors%20women%20watch.html?portal=ebay">Michael Kors</a>
+                  <li><a href="https://weshop.com.vn/search/michael%20kors%20women%20watch.html?portal=ebay">Michael Kors</a>
                   </li>
-                  <li className><a href="https://weshop.com.vn/search/%20Daniel%20Wellington%20women%20watch.html?portal=ebay">Daniel Wellington</a>
+                  <li><a href="https://weshop.com.vn/search/%20Daniel%20Wellington%20women%20watch.html?portal=ebay">Daniel Wellington</a>
                   </li>
-                  <li className><a href="https://weshop.com.vn/search/fossil%20women%20watch.html?portal=ebay">Fossil</a>
+                  <li><a href="https://weshop.com.vn/search/fossil%20women%20watch.html?portal=ebay">Fossil</a>
                   </li>
-                  <li className><a href="https://weshop.com.vn/search/Kenneth%20Cole%20women%20watch.html?portal=ebay">Kenneth Cole</a>
+                  <li><a href="https://weshop.com.vn/search/Kenneth%20Cole%20women%20watch.html?portal=ebay">Kenneth Cole</a>
                   </li>
-                  <li className><a href="https://weshop.com.vn/search/Timex%20women%20watch.html?portal=ebay">Timex</a>
+                  <li><a href="https://weshop.com.vn/search/Timex%20women%20watch.html?portal=ebay">Timex</a>
                   </li>
-                  <li className><a href="https://weshop.com.vn/search/Kate%20Spade%20women%20watch.html?portal=ebay">Kate Spade</a>
+                  <li><a href="https://weshop.com.vn/search/Kate%20Spade%20women%20watch.html?portal=ebay">Kate Spade</a>
                   </li>
                 </ul>
               </div>
