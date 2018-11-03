@@ -23,7 +23,10 @@ class Detail extends React.Component {
     var width = body.offsetWidth;
    
     if(width<767){
-      
+      if(id.classList.length>1){
+        id.classList.remove("open"); 
+        id.classList.remove("product-description__panel-open___2KMq2");return;
+      }
       var allClass=document.getElementsByClassName("product-description__group___3Z2qF");
       console.log(allClass)
       for(let i=0;i<allClass.length;i++){
@@ -32,7 +35,9 @@ class Detail extends React.Component {
         element.classList.remove('open');
         element.classList.remove('product-description__panel-open___2KMq2');
       }
+      
       var id=document.getElementById(idDetail);
+      
       id.classList.toggle("open"); 
       id.classList.toggle("product-description__panel-open___2KMq2");
     }
