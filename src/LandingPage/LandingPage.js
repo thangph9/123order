@@ -1,7 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
 import '../Sections/style.css';
-import './fonts.css';
 import './csslanding.css';
 import { Link } from 'react-router-dom';
 class LandingPage extends React.Component {
