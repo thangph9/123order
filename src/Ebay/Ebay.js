@@ -538,7 +538,7 @@ class Ebay extends React.Component {
               </div>
               <div className="cart__body___XUP_6 cart__empty___1VFD2">
                 <div className="cart__cart-empty___2VwBC">
-                  <div className="cart__icon___DWUE4"><img src="/images/empty-bag.jpg" /></div>
+                  <div className="cart__icon___DWUE4"><img src="/img/empty-bag.jpg" /></div>
                   <div>Giỏ hàng của bạn còn trống</div>
                   <div><button className="cart__btn___1bOR1 cart__btn-primary___2una7 cart__button-shopping___qfkgg" type="button">Tiếp tục mua sắm!</button></div>
                 </div>
