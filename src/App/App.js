@@ -6,7 +6,7 @@ import {Price} from '../Price/Price';
 import { Test } from '../Test';
 import { COD } from "../COD";
 import { DanhMucEbay } from "../DanhMucEbay";
-import { LandingPage } from "../LandingPage";
+import { LandingPage } from "../Landing-Page";
 import { LandingPageThoiTrang } from "../LandingPageThoiTrang";
 import { LandingPageCongNghe } from "../LandingPageCongNghe";
 import { DanhMucAmazon } from "../DanhMucAmazon";
@@ -26,6 +26,7 @@ import {Amazon} from '../Amazon';
 import {Adidas} from '../Adidas';
 import {Nike} from '../Nike';
 import {Ebay} from '../Ebay';
+import {CategoryLanding} from '../CategoryLanding';
 import { history } from "../stores";
 import { alertActions } from "../actions";
 class App extends Component{
@@ -70,7 +71,7 @@ class App extends Component{
                         <Route exact path="/mua-hang-amazon" component={MuaHangAmazon} />
                         <Route exact path="/best-seller" component={BestSeller} />
                         <Route exact path="/hot-deal-cong-nghe" component={HotDealCongNghe} />
-                        <Route exact path="/landingpage" component={LandingPage} />
+                        <Route exact path="/category-landing" component={CategoryLanding} />
                         <Route exact path="/price" component={Price} />
                         <Route exact path="/category/nodeid=:nodeid&categoryindex=:categoryindex" component={Category} />
                         <Route exact path="/product-detail/*id=:dealid" component={ProductDetail} />

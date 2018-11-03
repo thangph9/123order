@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import '../Sections/style.css';
 import './csslanding.css';
 import { Link } from 'react-router-dom';
-class LandingPage extends React.Component {
+class CategoryLanding extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -2574,5 +2574,5 @@ function mapStateToProps(state) {
 
   return state;
 }
-const connected = connect(mapStateToProps)(LandingPage);
-export { connected as LandingPage } 
+const connected = connect(mapStateToProps)(CategoryLanding);
+export { connected as CategoryLanding } 
