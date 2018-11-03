@@ -1,7 +1,5 @@
 import React from "react";
 import { connect } from "react-redux";
-import '../Sections/style.css';
-import './csslanding.css';
 import { Link } from 'react-router-dom';
 class CategoryLanding extends React.Component {
   constructor(props) {

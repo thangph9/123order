@@ -1,9 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
 import { Link } from 'react-router-dom';
-import '../Sections/style.css';
-import './slick.css';
-import './slick-themes.css';
 import Slider from "react-slick";
 class Detail extends React.Component {
   constructor(props) {

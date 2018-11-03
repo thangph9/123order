@@ -1,6 +1,5 @@
 import React from "react";
 import { connect } from "react-redux";
-import '../Sections/style.css';
 import { Link } from 'react-router-dom';
 class Adidas extends React.Component {
   constructor(props) {
