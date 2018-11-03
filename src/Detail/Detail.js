@@ -24,7 +24,7 @@ class Detail extends React.Component {
    
     if(width<767){
       var id=document.getElementById(idDetail);
-      if(id.classList.length>1){
+      if(id.classList.length>2){
         id.classList.remove("open"); 
         id.classList.remove("product-description__panel-open___2KMq2");return;
       }
