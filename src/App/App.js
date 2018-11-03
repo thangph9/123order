@@ -6,7 +6,7 @@ import {Price} from '../Price/Price';
 import { Test } from '../Test';
 import { COD } from "../COD";
 import { DanhMucEbay } from "../DanhMucEbay";
-import { LandingPage } from "../Landing-Page";
+import { LandingPage } from "../LandingPage";
 import { LandingPageThoiTrang } from "../LandingPageThoiTrang";
 import { LandingPageCongNghe } from "../LandingPageCongNghe";
 import { DanhMucAmazon } from "../DanhMucAmazon";
