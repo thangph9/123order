@@ -63,14 +63,14 @@ class Home extends React.Component {
               </nav>
               <div />
             </div>
-            <div className="container__container___1fvX0 home__featuredContainer___1YAQy"><a href="/sales/giam-den-82-nike-giay-the-thao-nam-5bc9abd3775b1800018985bb"><img className="hidden-md-up" src="https://images.leflair.vn/w640/q85/5bd7ea622dd83a6bfb16913e.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd7ea622dd83a6bfb16913e.jpg 640w, https://images.leflair.vn/w1080/q85/5bd7ea622dd83a6bfb16913e.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd7ea622dd83a6bfb16913e.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, 100vw" alt="Giảm Đến 82% - Nike Giày Thể Thao Nam" /><img className="hidden-sm-down" src="https://images.leflair.vn/w850/q85/5bd7ea602dd83a3fcc16913d.jpg" srcSet="https://images.leflair.vn/w850/q85/5bd7ea602dd83a3fcc16913d.jpg 850w, https://images.leflair.vn/w1440/q85/5bd7ea602dd83a3fcc16913d.jpg 1440w, https://images.leflair.vn/w2560/q85/5bd7ea602dd83a3fcc16913d.jpg 2560w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, 100vw" alt="Giảm Đến 82% - Nike Giày Thể Thao Nam" />
+            <div className="container__container___1fvX0 home__featuredContainer___1YAQy"><Link to={`/category-landing`}><img className="hidden-md-up" src="https://images.leflair.vn/w640/q85/5bd7ea622dd83a6bfb16913e.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd7ea622dd83a6bfb16913e.jpg 640w, https://images.leflair.vn/w1080/q85/5bd7ea622dd83a6bfb16913e.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd7ea622dd83a6bfb16913e.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, 100vw" alt="Giảm Đến 82% - Nike Giày Thể Thao Nam" /><img className="hidden-sm-down" src="https://images.leflair.vn/w850/q85/5bd7ea602dd83a3fcc16913d.jpg" srcSet="https://images.leflair.vn/w850/q85/5bd7ea602dd83a3fcc16913d.jpg 850w, https://images.leflair.vn/w1440/q85/5bd7ea602dd83a3fcc16913d.jpg 1440w, https://images.leflair.vn/w2560/q85/5bd7ea602dd83a3fcc16913d.jpg 2560w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, 100vw" alt="Giảm Đến 82% - Nike Giày Thể Thao Nam" />
               <div className="hidden-md-up home__badge___2w2Lc home__featured-badge___2hhaD">Ưu đãi nổi bật</div>
               <div className="hidden-md-up home__currentSaleInfo___2Fj0C">
                 <div className="home__currentSaleTitle___1jXFQ">Giảm Đến 82% - Nike Giày Thể Thao Nam</div>
                 <div className="home__endTimeWrap___25O4u"><span className="home__endTimeContent___2G8rq"><i className="ic-ic-time end-time__icon___REEKA" />
                   <span className="end-time__text___1A-sx">Còn </span> <span className="end-time__timer___LMsIT">7 ngày</span></span></div>
               </div>
-            </a></div>
+            </Link></div>
             <div className="container__container___1fvX0 home__homeContainer___1VKcQ">
               <div className="home__topShadow___3wy_J" />
               <div className="section-title__title-wrap___9DwpB home__currentSaleSectionTitle___XcRpN">
