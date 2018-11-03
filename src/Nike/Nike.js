@@ -37,7 +37,7 @@ class Nike extends React.Component {
                           <a className="text-uppercase language-dropdown__nav-link___2sOBe language-dropdown__dropdown-toggle___3DM4H" href="javascript:void(0)">vn</a>
                           <ul className="language-dropdown__dropdown-menu___2iFhf">
                             <li className="language-dropdown__active___23oVE"><a className="language-dropdown__dropdown-item___3bDVi" href="javascript:void(0)">Tiếng Việt (vn)</a></li>
-                            <li className><a className="language-dropdown__dropdown-item___3bDVi" href="javascript:void(0)">English (en)</a></li>
+                            <li><a className="language-dropdown__dropdown-item___3bDVi" href="javascript:void(0)">English (en)</a></li>
                           </ul>
                         </div>
                       </li>
@@ -66,7 +66,7 @@ class Nike extends React.Component {
     <div className="first-sale-tile__first-sale-container___12AH9">
       <a className="hidden-md-down first-sale-tile__first-sale-desktop___3DYvl" href="/sales/giam-den-50-blackmoresr-thuc-pham-chuc-nang-tu-uc-5bd6c3137cf0476b22488d23">
         <div className="row__row___2roCA ">
-          <div className="first-sale-tile__col-lg-9___2uu-j first-sale-tile__image-container___VGe3q"><img id className src="https://images.leflair.vn/w640/q85/5bdad591afd2a6680da62d6e.jpg" srcSet="https://images.leflair.vn/w640/q85/5bdad591afd2a6680da62d6e.jpg 640w, https://images.leflair.vn/w1080/q85/5bdad591afd2a6680da62d6e.jpg 1080w, https://images.leflair.vn/w1440/q85/5bdad591afd2a6680da62d6e.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, 100vw" alt="Giảm Đến 50% - Blackmores® Thực Phẩm Chức Năng Từ Úc" /></div>
+          <div className="first-sale-tile__col-lg-9___2uu-j first-sale-tile__image-container___VGe3q"><img src="https://images.leflair.vn/w640/q85/5bdad591afd2a6680da62d6e.jpg" srcSet="https://images.leflair.vn/w640/q85/5bdad591afd2a6680da62d6e.jpg 640w, https://images.leflair.vn/w1080/q85/5bdad591afd2a6680da62d6e.jpg 1080w, https://images.leflair.vn/w1440/q85/5bdad591afd2a6680da62d6e.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, 100vw" alt="Giảm Đến 50% - Blackmores® Thực Phẩm Chức Năng Từ Úc" /></div>
           <div className="first-sale-tile__col-lg-3___2ZXJG first-sale-tile__text-container___3Kt7T">
             <h2 className="first-sale-tile__title___2Dutp">Giảm Đến 50% - Blackmores® Thực Phẩm Chức Năng Từ Úc</h2>
             <span className="first-sale-tile__time-wrap___3v0IL"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">4 ngày</span></span><button className="first-sale-tile__btn___2kqdj first-sale-tile__btn-primary___2YFp4 first-sale-tile__btnSeeMore___2a8MB">Xem chi tiết</button>
@@ -88,7 +88,7 @@ class Nike extends React.Component {
     </div>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/giam-den-51-people-giay-tre-em-5bd6b68f73d283b302e0baa9">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bdac53dafd2a69084a62b62.jpg" srcSet="https://images.leflair.vn/w640/q85/5bdac53dafd2a69084a62b62.jpg 640w, https://images.leflair.vn/w1080/q85/5bdac53dafd2a69084a62b62.jpg 1080w, https://images.leflair.vn/w1440/q85/5bdac53dafd2a69084a62b62.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 51% - People Giày Trẻ Em" /></div>
+        <div className="sale-card__image-wrapper___EfOla"><img className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bdac53dafd2a69084a62b62.jpg" srcSet="https://images.leflair.vn/w640/q85/5bdac53dafd2a69084a62b62.jpg 640w, https://images.leflair.vn/w1080/q85/5bdac53dafd2a69084a62b62.jpg 1080w, https://images.leflair.vn/w1440/q85/5bdac53dafd2a69084a62b62.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Giảm Đến 51% - People Giày Trẻ Em" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Giảm Đến 51% - People Giày Trẻ Em</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">7 ngày</span></span></div>
@@ -97,7 +97,7 @@ class Nike extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/tiniboo-thoi-trang-tre-em-5bd29008b57df3b8c83c56bf">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd7d5b777f22509ead8c3be.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd7d5b777f22509ead8c3be.jpg 640w, https://images.leflair.vn/w1080/q85/5bd7d5b777f22509ead8c3be.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd7d5b777f22509ead8c3be.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Tiniboo Thời Trang Trẻ Em" /></div>
+        <div className="sale-card__image-wrapper___EfOla"><img className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd7d5b777f22509ead8c3be.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd7d5b777f22509ead8c3be.jpg 640w, https://images.leflair.vn/w1080/q85/5bd7d5b777f22509ead8c3be.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd7d5b777f22509ead8c3be.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Tiniboo Thời Trang Trẻ Em" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Tiniboo Thời Trang Trẻ Em</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">5 ngày</span></span></div>
@@ -106,7 +106,7 @@ class Nike extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/speedo-do-boi-gia-dinh-5bcea6b1d56ec80001043c7c">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6e3ff0d0a02e9d62600e7.png" srcSet="https://images.leflair.vn/w640/q85/5bd6e3ff0d0a02e9d62600e7.png 640w, https://images.leflair.vn/w1080/q85/5bd6e3ff0d0a02e9d62600e7.png 1080w, https://images.leflair.vn/w1440/q85/5bd6e3ff0d0a02e9d62600e7.png 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Speedo Đồ Bơi Gia Đình" /></div>
+        <div className="sale-card__image-wrapper___EfOla"><img className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd6e3ff0d0a02e9d62600e7.png" srcSet="https://images.leflair.vn/w640/q85/5bd6e3ff0d0a02e9d62600e7.png 640w, https://images.leflair.vn/w1080/q85/5bd6e3ff0d0a02e9d62600e7.png 1080w, https://images.leflair.vn/w1440/q85/5bd6e3ff0d0a02e9d62600e7.png 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Speedo Đồ Bơi Gia Đình" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Speedo Đồ Bơi Gia Đình</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
@@ -115,7 +115,7 @@ class Nike extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/thoi-trang-cho-ca-gia-dinh-mimi-nature-colored-5bc439c8eb54ae000183864b">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd435a9bfaa18df05e62d16.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd435a9bfaa18df05e62d16.jpg 640w, https://images.leflair.vn/w1080/q85/5bd435a9bfaa18df05e62d16.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd435a9bfaa18df05e62d16.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Thời Trang Cho Cả Gia Đình: Mimi, Nature Colored" /></div>
+        <div className="sale-card__image-wrapper___EfOla"><img className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd435a9bfaa18df05e62d16.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd435a9bfaa18df05e62d16.jpg 640w, https://images.leflair.vn/w1080/q85/5bd435a9bfaa18df05e62d16.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd435a9bfaa18df05e62d16.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Thời Trang Cho Cả Gia Đình: Mimi, Nature Colored" /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Thời Trang Cho Cả Gia Đình: Mimi, Nature Colored</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">4 ngày</span></span></div>
@@ -124,7 +124,7 @@ class Nike extends React.Component {
     </a>
     <a className="default__col-md-6___9I2wX default__padding-remove___2T9LM" href="/sales/goldsun-prosun-disney-eyewear...-5bce9a6c7176290001132379">
       <div className="sale-card__currentSale___cC1H3">
-        <div className="sale-card__image-wrapper___EfOla"><img id className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd168b6b24be90001159b1b.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd168b6b24be90001159b1b.jpg 640w, https://images.leflair.vn/w1080/q85/5bd168b6b24be90001159b1b.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd168b6b24be90001159b1b.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Goldsun, Prosun, Disney Eyewear..." /></div>
+        <div className="sale-card__image-wrapper___EfOla"><img className="sale-card__currentSaleImg___3wFRM" src="https://images.leflair.vn/w640/q85/5bd168b6b24be90001159b1b.jpg" srcSet="https://images.leflair.vn/w640/q85/5bd168b6b24be90001159b1b.jpg 640w, https://images.leflair.vn/w1080/q85/5bd168b6b24be90001159b1b.jpg 1080w, https://images.leflair.vn/w1440/q85/5bd168b6b24be90001159b1b.jpg 1440w" sizes="(max-width: 575px) 100vw, (max-width: 767px) 540px, (max-width: 991px) 336px, (min-width: 992px) 456px, (min-width: 1200px) 546px, 100vw" alt="Goldsun, Prosun, Disney Eyewear..." /></div>
         <div className="sale-card__currentSaleInfo___2LkMa">
           <div className="sale-card__currentSaleTitle___1eVtM">Goldsun, Prosun, Disney Eyewear...</div>
           <div className="sale-card__endTimeWrap___3q0l3"><span className="sale-card__endTimeContent___3z5se"><i className="ic-ic-time end-time__icon___REEKA" /> <span className="end-time__text___1A-sx">Còn</span> <span className="end-time__timer___LMsIT">3 ngày</span></span></div>
@@ -166,7 +166,7 @@ class Nike extends React.Component {
                           <li><a href="https://pages.leflair.vn/partners">Hợp tác</a></li>
                           <li><a href="https://pages.leflair.vn/genuine-guarantee">Chính hãng</a></li>
                           <li><a href="https://careers.leflair.vn/">Tuyển dụng</a></li>
-                          <li><a className href="/brands">Thương hiệu</a></li>
+                          <li><a href="/brands">Thương hiệu</a></li>
                         </ul>
                       </div>
                     </div>
@@ -217,19 +217,19 @@ class Nike extends React.Component {
                   <div className="slick-list">
                     <div className="slick-track" style={{ opacity: 1, transform: 'translate3d(-900px, 0px, 0px)', width: 2250 }}>
                       <div data-index={-1} className="slick-slide slick-cloned" style={{ width: 450 }}>
-                        <p className="cart-promo-list__content___1N3l1 cart-promo-list__multi-item____Q_7w"><span>Giảm giá </span><span className="cart-promo-list__bold-text___1wUCM">10%</span><span> cho thẻ </span><span className="cart-promo-list__bold-text___1wUCM">HSBC</span><span> khi mua hàng trên </span><span className="cart-promo-list__bold-text___1wUCM"><span className>1.500.000₫</span>.</span><a href="https://pages.leflair.vn/promotions" target="blank"> Chi tiết→</a></p>
+                        <p className="cart-promo-list__content___1N3l1 cart-promo-list__multi-item____Q_7w"><span>Giảm giá </span><span className="cart-promo-list__bold-text___1wUCM">10%</span><span> cho thẻ </span><span className="cart-promo-list__bold-text___1wUCM">HSBC</span><span> khi mua hàng trên </span><span className="cart-promo-list__bold-text___1wUCM"><span>1.500.000₫</span>.</span><a href="https://pages.leflair.vn/promotions" target="blank"> Chi tiết→</a></p>
                       </div>
                       <div data-index={0} className="slick-slide" tabIndex={-1} style={{ outline: 'none', width: 450 }}>
-                        <p className="cart-promo-list__content___1N3l1 cart-promo-list__multi-item____Q_7w"><span>Giảm giá </span><span className="cart-promo-list__bold-text___1wUCM">150.000₫</span><span> cho thẻ </span><span className="cart-promo-list__bold-text___1wUCM">HSBC</span><span> khi mua hàng trên </span><span className="cart-promo-list__bold-text___1wUCM"><span className>600.000₫</span>.</span><a href="https://pages.leflair.vn/promotions" target="blank"> Chi tiết→</a></p>
+                        <p className="cart-promo-list__content___1N3l1 cart-promo-list__multi-item____Q_7w"><span>Giảm giá </span><span className="cart-promo-list__bold-text___1wUCM">150.000₫</span><span> cho thẻ </span><span className="cart-promo-list__bold-text___1wUCM">HSBC</span><span> khi mua hàng trên </span><span className="cart-promo-list__bold-text___1wUCM"><span>600.000₫</span>.</span><a href="https://pages.leflair.vn/promotions" target="blank"> Chi tiết→</a></p>
                       </div>
                       <div data-index={1} className="slick-slide slick-active" tabIndex={-1} style={{ outline: 'none', width: 450 }}>
-                        <p className="cart-promo-list__content___1N3l1 cart-promo-list__multi-item____Q_7w"><span>Giảm giá </span><span className="cart-promo-list__bold-text___1wUCM">100.000₫</span><span> cho thẻ </span><span className="cart-promo-list__bold-text___1wUCM">Vietin Bank</span><span> khi mua hàng trên </span><span className="cart-promo-list__bold-text___1wUCM"><span className>0₫</span>.</span><a href="https://pages.leflair.vn/promotions" target="blank"> Chi tiết→</a></p>
+                        <p className="cart-promo-list__content___1N3l1 cart-promo-list__multi-item____Q_7w"><span>Giảm giá </span><span className="cart-promo-list__bold-text___1wUCM">100.000₫</span><span> cho thẻ </span><span className="cart-promo-list__bold-text___1wUCM">Vietin Bank</span><span> khi mua hàng trên </span><span className="cart-promo-list__bold-text___1wUCM"><span>0₫</span>.</span><a href="https://pages.leflair.vn/promotions" target="blank"> Chi tiết→</a></p>
                       </div>
                       <div data-index={2} className="slick-slide" tabIndex={-1} style={{ outline: 'none', width: 450 }}>
-                        <p className="cart-promo-list__content___1N3l1 cart-promo-list__multi-item____Q_7w"><span>Giảm giá </span><span className="cart-promo-list__bold-text___1wUCM">10%</span><span> cho thẻ </span><span className="cart-promo-list__bold-text___1wUCM">HSBC</span><span> khi mua hàng trên </span><span className="cart-promo-list__bold-text___1wUCM"><span className>1.500.000₫</span>.</span><a href="https://pages.leflair.vn/promotions" target="blank"> Chi tiết→</a></p>
+                        <p className="cart-promo-list__content___1N3l1 cart-promo-list__multi-item____Q_7w"><span>Giảm giá </span><span className="cart-promo-list__bold-text___1wUCM">10%</span><span> cho thẻ </span><span className="cart-promo-list__bold-text___1wUCM">HSBC</span><span> khi mua hàng trên </span><span className="cart-promo-list__bold-text___1wUCM"><span>1.500.000₫</span>.</span><a href="https://pages.leflair.vn/promotions" target="blank"> Chi tiết→</a></p>
                       </div>
                       <div data-index={3} className="slick-slide slick-cloned" style={{ width: 450 }}>
-                        <p className="cart-promo-list__content___1N3l1 cart-promo-list__multi-item____Q_7w"><span>Giảm giá </span><span className="cart-promo-list__bold-text___1wUCM">150.000₫</span><span> cho thẻ </span><span className="cart-promo-list__bold-text___1wUCM">HSBC</span><span> khi mua hàng trên </span><span className="cart-promo-list__bold-text___1wUCM"><span className>600.000₫</span>.</span><a href="https://pages.leflair.vn/promotions" target="blank"> Chi tiết→</a></p>
+                        <p className="cart-promo-list__content___1N3l1 cart-promo-list__multi-item____Q_7w"><span>Giảm giá </span><span className="cart-promo-list__bold-text___1wUCM">150.000₫</span><span> cho thẻ </span><span className="cart-promo-list__bold-text___1wUCM">HSBC</span><span> khi mua hàng trên </span><span className="cart-promo-list__bold-text___1wUCM"><span>600.000₫</span>.</span><a href="https://pages.leflair.vn/promotions" target="blank"> Chi tiết→</a></p>
                       </div>
                     </div>
                   </div>

@@ -85,7 +85,7 @@ class Detail extends React.Component {
                           <a className="text-uppercase language-dropdown__nav-link___2sOBe language-dropdown__dropdown-toggle___3DM4H" href="javascript:void(0)">vn</a>
                           <ul className="language-dropdown__dropdown-menu___2iFhf">
                             <li className="language-dropdown__active___23oVE"><a className="language-dropdown__dropdown-item___3bDVi" href="javascript:void(0)">Tiếng Việt (vn)</a></li>
-                            <li className><a className="language-dropdown__dropdown-item___3bDVi" href="javascript:void(0)">English (en)</a></li>
+                            <li><a className="language-dropdown__dropdown-item___3bDVi" href="javascript:void(0)">English (en)</a></li>
                           </ul>
                         </div>
                       </li>
@@ -104,8 +104,8 @@ class Detail extends React.Component {
               <div className="product__product___2plEK">
                 <div className="clearfix product__product-header___2yYGL">
                   <ol className="undefined breadcrumb__breadcrumb___3F6K8">
-                    <li className="breadcrumb__breadcrumb-item___3ytpk"><a className href="/">Ưu đãi</a></li>
-                    <li className="breadcrumb__breadcrumb-item___3ytpk"><a className href="/sales/j-natural-stonesr-trang-suc-phong-thuy-5bd6c4d93bc9335db599c3b6">J Natural Stones® Trang Sức Phong Thủy</a></li>
+                    <li className="breadcrumb__breadcrumb-item___3ytpk"><a href="/">Ưu đãi</a></li>
+                    <li className="breadcrumb__breadcrumb-item___3ytpk"><a href="/sales/j-natural-stonesr-trang-suc-phong-thuy-5bd6c4d93bc9335db599c3b6">J Natural Stones® Trang Sức Phong Thủy</a></li>
                     <li className="breadcrumb__breadcrumb-item___3ytpk">
                       <h1>Bộ Vòng Tay Mặt Trăng Charm Ngôi Sao &amp; Vòng Tay Thạch Anh Tóc Đen Charm Hoa Mai</h1>
                     </li>
@@ -120,25 +120,25 @@ class Detail extends React.Component {
                           <div className="hidden-md-down images-slider__slider___2EiI8">
                             <div className="ic-ic-arrow-up images-slider__images-navigation___KCIEC images-slider__navigation-up___yqRaw undefined" />
                             <ul className="list-unstyled images-slider__list-thumbnail-inner___2vzS2" id="images-container">
-                              <li className="images-slider__image-border___2hkRy "><img className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w90/q85/5bda7a8502c08e863b71bb2b.jpg" srcSet="https://images.leflair.vn/w90/q85/5bda7a8502c08e863b71bb2b.jpg 90w, https://images.leflair.vn/w144/q85/5bda7a8502c08e863b71bb2b.jpg 144w" sizes="80px" alt /></li>
-                              <li className="images-slider__image-border___2hkRy "><img className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w90/q85/5bda7a852b25c2eab5b33bc9.jpg" srcSet="https://images.leflair.vn/w90/q85/5bda7a852b25c2eab5b33bc9.jpg 90w, https://images.leflair.vn/w144/q85/5bda7a852b25c2eab5b33bc9.jpg 144w" sizes="80px" alt /></li>
-                              <li className="images-slider__image-border___2hkRy "><img className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w90/q85/5bda7a9793073444b0761dc1.jpg" srcSet="https://images.leflair.vn/w90/q85/5bda7a9793073444b0761dc1.jpg 90w, https://images.leflair.vn/w144/q85/5bda7a9793073444b0761dc1.jpg 144w" sizes="80px" alt /></li>
-                              <li className="images-slider__image-border___2hkRy images-slider__image-selected___3ftth"><img className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w90/q85/5bda7a922b25c20d05b33bca.jpg" srcSet="https://images.leflair.vn/w90/q85/5bda7a922b25c20d05b33bca.jpg 90w, https://images.leflair.vn/w144/q85/5bda7a922b25c20d05b33bca.jpg 144w" sizes="80px" alt /></li>
+                              <li className="images-slider__image-border___2hkRy "><img className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w90/q85/5bda7a8502c08e863b71bb2b.jpg" srcSet="https://images.leflair.vn/w90/q85/5bda7a8502c08e863b71bb2b.jpg 90w, https://images.leflair.vn/w144/q85/5bda7a8502c08e863b71bb2b.jpg 144w" sizes="80px" /></li>
+                              <li className="images-slider__image-border___2hkRy "><img className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w90/q85/5bda7a852b25c2eab5b33bc9.jpg" srcSet="https://images.leflair.vn/w90/q85/5bda7a852b25c2eab5b33bc9.jpg 90w, https://images.leflair.vn/w144/q85/5bda7a852b25c2eab5b33bc9.jpg 144w" sizes="80px" /></li>
+                              <li className="images-slider__image-border___2hkRy "><img className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w90/q85/5bda7a9793073444b0761dc1.jpg" srcSet="https://images.leflair.vn/w90/q85/5bda7a9793073444b0761dc1.jpg 90w, https://images.leflair.vn/w144/q85/5bda7a9793073444b0761dc1.jpg 144w" sizes="80px" /></li>
+                              <li className="images-slider__image-border___2hkRy images-slider__image-selected___3ftth"><img className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w90/q85/5bda7a922b25c20d05b33bca.jpg" srcSet="https://images.leflair.vn/w90/q85/5bda7a922b25c20d05b33bca.jpg 90w, https://images.leflair.vn/w144/q85/5bda7a922b25c20d05b33bca.jpg 144w" sizes="80px" /></li>
                             </ul>
                             <div className="ic-ic-arrow-down images-slider__images-navigation___KCIEC images-slider__navigation-down___2GHVX undefined" />
                           </div>
                           <div className="hidden-lg-up images-slider__slider-wrapper___1hmGf">
                           <Slider  {...settings}>
-                            <img className="slick-slide slick-active images-slider__image___wW9Yw" src="https://images.leflair.vn/w380/q85/5bda7a8502c08e863b71bb2b.jpg" srcSet="https://images.leflair.vn/w380/q85/5bda7a8502c08e863b71bb2b.jpg 380w, https://images.leflair.vn/w640/q85/5bda7a8502c08e863b71bb2b.jpg 640w, https://images.leflair.vn/w850/q85/5bda7a8502c08e863b71bb2b.jpg 850w" sizes alt style={{ outline: 'none', width: 447 }} /><img className="slick-slide images-slider__image___wW9Yw" src="https://images.leflair.vn/w380/q85/5bda7a852b25c2eab5b33bc9.jpg" srcSet="https://images.leflair.vn/w380/q85/5bda7a852b25c2eab5b33bc9.jpg 380w, https://images.leflair.vn/w640/q85/5bda7a852b25c2eab5b33bc9.jpg 640w, https://images.leflair.vn/w850/q85/5bda7a852b25c2eab5b33bc9.jpg 850w" sizes alt style={{ outline: 'none', width: 447 }} /><img className="slick-slide images-slider__image___wW9Yw" src="https://images.leflair.vn/w380/q85/5bda7a9793073444b0761dc1.jpg" srcSet="https://images.leflair.vn/w380/q85/5bda7a9793073444b0761dc1.jpg 380w, https://images.leflair.vn/w640/q85/5bda7a9793073444b0761dc1.jpg 640w, https://images.leflair.vn/w850/q85/5bda7a9793073444b0761dc1.jpg 850w" sizes alt style={{ outline: 'none', width: 447 }} /><img className="slick-slide images-slider__image___wW9Yw" src="https://images.leflair.vn/w380/q85/5bda7a922b25c20d05b33bca.jpg" srcSet="https://images.leflair.vn/w380/q85/5bda7a922b25c20d05b33bca.jpg 380w, https://images.leflair.vn/w640/q85/5bda7a922b25c20d05b33bca.jpg 640w, https://images.leflair.vn/w850/q85/5bda7a922b25c20d05b33bca.jpg 850w" sizes alt style={{ outline: 'none', width: 447 }} />
+                            <img className="slick-slide slick-active images-slider__image___wW9Yw" src="https://images.leflair.vn/w380/q85/5bda7a8502c08e863b71bb2b.jpg" srcSet="https://images.leflair.vn/w380/q85/5bda7a8502c08e863b71bb2b.jpg 380w, https://images.leflair.vn/w640/q85/5bda7a8502c08e863b71bb2b.jpg 640w, https://images.leflair.vn/w850/q85/5bda7a8502c08e863b71bb2b.jpg 850w" sizes style={{ outline: 'none', width: 447 }} /><img className="slick-slide images-slider__image___wW9Yw" src="https://images.leflair.vn/w380/q85/5bda7a852b25c2eab5b33bc9.jpg" srcSet="https://images.leflair.vn/w380/q85/5bda7a852b25c2eab5b33bc9.jpg 380w, https://images.leflair.vn/w640/q85/5bda7a852b25c2eab5b33bc9.jpg 640w, https://images.leflair.vn/w850/q85/5bda7a852b25c2eab5b33bc9.jpg 850w" sizes style={{ outline: 'none', width: 447 }} /><img className="slick-slide images-slider__image___wW9Yw" src="https://images.leflair.vn/w380/q85/5bda7a9793073444b0761dc1.jpg" srcSet="https://images.leflair.vn/w380/q85/5bda7a9793073444b0761dc1.jpg 380w, https://images.leflair.vn/w640/q85/5bda7a9793073444b0761dc1.jpg 640w, https://images.leflair.vn/w850/q85/5bda7a9793073444b0761dc1.jpg 850w" sizes style={{ outline: 'none', width: 447 }} /><img className="slick-slide images-slider__image___wW9Yw" src="https://images.leflair.vn/w380/q85/5bda7a922b25c20d05b33bca.jpg" srcSet="https://images.leflair.vn/w380/q85/5bda7a922b25c20d05b33bca.jpg 380w, https://images.leflair.vn/w640/q85/5bda7a922b25c20d05b33bca.jpg 640w, https://images.leflair.vn/w850/q85/5bda7a922b25c20d05b33bca.jpg 850w" sizes style={{ outline: 'none', width: 447 }} />
                           </Slider>
                             <div className="images-slider__sold-out-overlay___2Avrv">Hết hàng</div>
                           </div>
                         </div>
                         <div className="hidden-md-down images-slider__col-lg-10___3uZXv">
                           <div className="images-slider__main-image___1MFAY">
-                            <img className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w580/q85/5bda7a922b25c20d05b33bca.jpg" srcSet="https://images.leflair.vn/w580/q85/5bda7a922b25c20d05b33bca.jpg 580w, https://images.leflair.vn/w1030/q85/5bda7a922b25c20d05b33bca.jpg 1030w, https://images.leflair.vn/w1080/q85/5bda7a922b25c20d05b33bca.jpg 1080w" sizes alt />
+                            <img className="images-slider__image___wW9Yw" src="https://images.leflair.vn/w580/q85/5bda7a922b25c20d05b33bca.jpg" srcSet="https://images.leflair.vn/w580/q85/5bda7a922b25c20d05b33bca.jpg 580w, https://images.leflair.vn/w1030/q85/5bda7a922b25c20d05b33bca.jpg 1030w, https://images.leflair.vn/w1080/q85/5bda7a922b25c20d05b33bca.jpg 1080w" sizes />
                             <div className="images-slider__sold-out-overlay___2Avrv">Hết hàng</div>
-                            <img id="zoom-image" className="images-slider__zoom-image___3jo-j" src="https://images.leflair.vn/w1350/q85/5bda7a922b25c20d05b33bca.jpg" srcSet="https://images.leflair.vn/w1350/q85/5bda7a922b25c20d05b33bca.jpg 1350w, https://images.leflair.vn/w1440/q85/5bda7a922b25c20d05b33bca.jpg 1440w" sizes alt style={{ top: '-138.534px', left: '-300.779px' }} />
+                            <img id="zoom-image" className="images-slider__zoom-image___3jo-j" src="https://images.leflair.vn/w1350/q85/5bda7a922b25c20d05b33bca.jpg" srcSet="https://images.leflair.vn/w1350/q85/5bda7a922b25c20d05b33bca.jpg 1350w, https://images.leflair.vn/w1440/q85/5bda7a922b25c20d05b33bca.jpg 1440w" sizes style={{ top: '-138.534px', left: '-300.779px' }} />
                             <div className="images-slider__overlay___CJo-l" />
                           </div>
                         </div>
@@ -415,7 +415,7 @@ class Detail extends React.Component {
                           <li><a href="https://pages.leflair.vn/partners">Hợp tác</a></li>
                           <li><a href="https://pages.leflair.vn/genuine-guarantee">Chính hãng</a></li>
                           <li><a href="https://careers.leflair.vn/">Tuyển dụng</a></li>
-                          <li><a className href="/brands">Thương hiệu</a></li>
+                          <li><a href="/brands">Thương hiệu</a></li>
                         </ul>
                       </div>
                     </div>
@@ -467,28 +467,28 @@ class Detail extends React.Component {
                       <div data-index={-1} className="slick-slide slick-cloned" style={{ width: 450 }}>
                         <p className="cart-promo-list__content___1N3l1 cart-promo-list__multi-item____Q_7w"><span>Giảm giá
                             </span><span className="cart-promo-list__bold-text___1wUCM">15%</span><span> cho thẻ </span><span className="cart-promo-list__bold-text___1wUCM">Standard Chartered </span><span> khi mua hàng trên
-                            </span><span className="cart-promo-list__bold-text___1wUCM"><span className>700.000₫</span>.</span><a href="https://pages.leflair.vn/promotions" target="blank"> Chi tiết→</a></p>
+                            </span><span className="cart-promo-list__bold-text___1wUCM"><span>700.000₫</span>.</span><a href="https://pages.leflair.vn/promotions" target="blank"> Chi tiết→</a></p>
                       </div>
                       <div data-index={0} className="slick-slide" tabIndex={-1} style={{ outline: 'none', width: 450 }}>
                         <p className="cart-promo-list__content___1N3l1 cart-promo-list__multi-item____Q_7w"><span>Giảm giá
-                            </span><span className="cart-promo-list__bold-text___1wUCM">150.000₫</span><span> cho thẻ </span><span className="cart-promo-list__bold-text___1wUCM">HSBC</span><span> khi mua hàng trên </span><span className="cart-promo-list__bold-text___1wUCM"><span className>600.000₫</span>.</span><a href="https://pages.leflair.vn/promotions" target="blank"> Chi tiết→</a></p>
+                            </span><span className="cart-promo-list__bold-text___1wUCM">150.000₫</span><span> cho thẻ </span><span className="cart-promo-list__bold-text___1wUCM">HSBC</span><span> khi mua hàng trên </span><span className="cart-promo-list__bold-text___1wUCM"><span>600.000₫</span>.</span><a href="https://pages.leflair.vn/promotions" target="blank"> Chi tiết→</a></p>
                       </div>
                       <div data-index={1} className="slick-slide" tabIndex={-1} style={{ outline: 'none', width: 450 }}>
                         <p className="cart-promo-list__content___1N3l1 cart-promo-list__multi-item____Q_7w"><span>Giảm giá
-                            </span><span className="cart-promo-list__bold-text___1wUCM">100.000₫</span><span> cho thẻ </span><span className="cart-promo-list__bold-text___1wUCM">Vietin Bank</span><span> khi mua hàng trên </span><span className="cart-promo-list__bold-text___1wUCM"><span className>0₫</span>.</span><a href="https://pages.leflair.vn/promotions" target="blank"> Chi tiết→</a></p>
+                            </span><span className="cart-promo-list__bold-text___1wUCM">100.000₫</span><span> cho thẻ </span><span className="cart-promo-list__bold-text___1wUCM">Vietin Bank</span><span> khi mua hàng trên </span><span className="cart-promo-list__bold-text___1wUCM"><span>0₫</span>.</span><a href="https://pages.leflair.vn/promotions" target="blank"> Chi tiết→</a></p>
                       </div>
                       <div data-index={2} className="slick-slide slick-active" tabIndex={-1} style={{ outline: 'none', width: 450 }}>
                         <p className="cart-promo-list__content___1N3l1 cart-promo-list__multi-item____Q_7w"><span>Giảm giá
-                            </span><span className="cart-promo-list__bold-text___1wUCM">10%</span><span> cho thẻ </span><span className="cart-promo-list__bold-text___1wUCM">SCB</span><span> khi mua hàng trên </span><span className="cart-promo-list__bold-text___1wUCM"><span className>800.000₫</span>.</span><a href="https://pages.leflair.vn/promotions" target="blank"> Chi tiết→</a></p>
+                            </span><span className="cart-promo-list__bold-text___1wUCM">10%</span><span> cho thẻ </span><span className="cart-promo-list__bold-text___1wUCM">SCB</span><span> khi mua hàng trên </span><span className="cart-promo-list__bold-text___1wUCM"><span>800.000₫</span>.</span><a href="https://pages.leflair.vn/promotions" target="blank"> Chi tiết→</a></p>
                       </div>
                       <div data-index={3} className="slick-slide" tabIndex={-1} style={{ outline: 'none', width: 450 }}>
                         <p className="cart-promo-list__content___1N3l1 cart-promo-list__multi-item____Q_7w"><span>Giảm giá
                             </span><span className="cart-promo-list__bold-text___1wUCM">15%</span><span> cho thẻ </span><span className="cart-promo-list__bold-text___1wUCM">Standard Chartered </span><span> khi mua hàng trên
-                            </span><span className="cart-promo-list__bold-text___1wUCM"><span className>700.000₫</span>.</span><a href="https://pages.leflair.vn/promotions" target="blank"> Chi tiết→</a></p>
+                            </span><span className="cart-promo-list__bold-text___1wUCM"><span>700.000₫</span>.</span><a href="https://pages.leflair.vn/promotions" target="blank"> Chi tiết→</a></p>
                       </div>
                       <div data-index={4} className="slick-slide slick-cloned" style={{ width: 450 }}>
                         <p className="cart-promo-list__content___1N3l1 cart-promo-list__multi-item____Q_7w"><span>Giảm giá
-                            </span><span className="cart-promo-list__bold-text___1wUCM">150.000₫</span><span> cho thẻ </span><span className="cart-promo-list__bold-text___1wUCM">HSBC</span><span> khi mua hàng trên </span><span className="cart-promo-list__bold-text___1wUCM"><span className>600.000₫</span>.</span><a href="https://pages.leflair.vn/promotions" target="blank"> Chi tiết→</a></p>
+                            </span><span className="cart-promo-list__bold-text___1wUCM">150.000₫</span><span> cho thẻ </span><span className="cart-promo-list__bold-text___1wUCM">HSBC</span><span> khi mua hàng trên </span><span className="cart-promo-list__bold-text___1wUCM"><span>600.000₫</span>.</span><a href="https://pages.leflair.vn/promotions" target="blank"> Chi tiết→</a></p>
                       </div>
                     </div>
                   </div><button type="button" data-role="none" className="slick-arrow slick-next" style={{ display: 'block' }}>
