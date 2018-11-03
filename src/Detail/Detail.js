@@ -23,6 +23,7 @@ class Detail extends React.Component {
     var width = body.offsetWidth;
    
     if(width<767){
+      var id=document.getElementById(idDetail);
       if(id.classList.length>1){
         id.classList.remove("open"); 
         id.classList.remove("product-description__panel-open___2KMq2");return;
@@ -35,9 +36,6 @@ class Detail extends React.Component {
         element.classList.remove('open');
         element.classList.remove('product-description__panel-open___2KMq2');
       }
-      
-      var id=document.getElementById(idDetail);
-      
       id.classList.toggle("open"); 
       id.classList.toggle("product-description__panel-open___2KMq2");
     }
