@@ -24,34 +24,31 @@ class Adidas extends React.Component {
           <div className="default-layout__container___13v1V default__defaultLayout___3nBIn false">
             <div className="backdrop__body-backdrop___1rvky  " />
             <div className="header__header___1t3MH false">
-              <nav className="header__my-navbar___2Cghd header__navbar-toggleable-sm___pR4tF header__nav-header___3lWCb">
+            <nav className="header__my-navbar___2Cghd header__navbar-toggleable-sm___pR4tF header__nav-header___3lWCb">
                 <div className="container__container___1fvX0 header__container___2d-Oi">
-                  <div className="hidden-md-up header__my-navbar-toggler___2PiaS"><button className="header__btn-icon___17D-i" type="button"><i className="ic-ic-user" /></button></div>
-                  <Link to={`/home`} className="header__navbar-brand___SzzgD"><img style={{ position: 'relative', top: '4px' }} src="/img/logo123order.png" /></Link>
-                  <div className="clearfix collapse header__navbar-collapse___2AK1h">
-                    <Link to={`/home`} className="hidden-md-up header__navbar-brand___SzzgD"><img src="/img/logo123order.png" /></Link>
-                    <ul className="hidden-md-down header__navbar-nav___9cfBy header__navbar-left___25OFe">
+                  <div className="hidden-md-up header__my-navbar-toggler___2PiaS"><button className="header__btn-icon___17D-i" type="button"><i className="ic-ic-user" /></button></div><Link to={`/home`} className="header__navbar-brand___SzzgD"><img style={{ position: 'relative', top: '6px' }} src="/img/logo123order.png" /></Link>
+                  <div className="clearfix collapse header__navbar-collapse___2AK1h"><Link to={`/home`} className="hidden-md-up header__navbar-brand___SzzgD"><img src="/img/logo123order.png" /></Link>
+                  <ul className="hidden-md-down header__navbar-nav___9cfBy header__navbar-left___25OFe">
                       <li className="header__nav-item___MQLXP"><Link to={`/amazon`} className="header__nav-link___3W4sc ">Amazon</Link></li>
-                      <li className="header__nav-item___MQLXP"><Link to={`/ebay`} className="header__nav-link___3W4sc ">Ebay</Link></li>
-                      <li className="header__nav-item___MQLXP"><Link to={`/adidas`} className="header__nav-link___3W4sc ">Adidas</Link></li>
-                      <li className="header__nav-item___MQLXP"><Link to={`/nike`} className="header__nav-link___3W4sc ">Nike</Link></li>
+                      <li className="header__nav-item___MQLXP"><Link to={`/ebay`} className="header__nav-link___3W4sc " >Ebay</Link></li>
+                      <li className="header__nav-item___MQLXP"><Link to={`/adidas`} className="header__nav-link___3W4sc " >Adidas</Link></li>
+                      <li className="header__nav-item___MQLXP"><Link to={`/nike`} className="header__nav-link___3W4sc " >Nike</Link></li>
                     </ul>
                     <ul className="header__navbar-nav___9cfBy header__navbar-right___2_zf5">
                       <li className="header__nav-item___MQLXP">
-                        <div className="undefined language-dropdown__dropdown____KQAB language-dropdown__dropdown-section___2Exp9 ">
-                          <a className="text-uppercase language-dropdown__nav-link___2sOBe language-dropdown__dropdown-toggle___3DM4H" href="javascript:void(0)">vn</a>
+                        <div className="undefined language-dropdown__dropdown____KQAB language-dropdown__dropdown-section___2Exp9 "><a className="text-uppercase language-dropdown__nav-link___2sOBe language-dropdown__dropdown-toggle___3DM4H" href="#">vn</a>
                           <ul className="language-dropdown__dropdown-menu___2iFhf">
-                            <li className="language-dropdown__active___23oVE"><a className="language-dropdown__dropdown-item___3bDVi" href="javascript:void(0)">Tiếng Việt (vn)</a></li>
-                            <li><a className="language-dropdown__dropdown-item___3bDVi" href="javascript:void(0)">English (en)</a></li>
+                            <li className="language-dropdown__active___23oVE"><a className="language-dropdown__dropdown-item___3bDVi" href="#">Tiếng Việt (vn)</a></li>
+                            <li ><a className="language-dropdown__dropdown-item___3bDVi" href="#">English
+                          (en)</a></li>
                           </ul>
                         </div>
                       </li>
                       <li className="header__nav-item___MQLXP">
-                        <div className="auth-buttons__auth___33bfZ"><a className="auth-buttons__nav-link___1DCMU auth-buttons__btn-sign-in___1nV-O" href="/auth/signin?redirect=/Women">Đăng nhập</a><a className="auth-buttons__nav-link___1DCMU auth-buttons__btn-register___3sIO1" href="/auth/register">Tạo tài khoản</a></div>
+                        <div className="auth-buttons__auth___33bfZ"><a className="auth-buttons__nav-link___1DCMU auth-buttons__btn-sign-in___1nV-O" href="/auth/signin?redirect=/">Đăng nhập</a><a className="auth-buttons__nav-link___1DCMU auth-buttons__btn-register___3sIO1" href="/auth/register">Tạo tài khoản</a></div>
                       </li>
                     </ul>
-                  </div>
-                  <button className="header__cart-icon___38YSW cart-button__btn-cart___2KPCq" type="button"><i className="ic-ic-bag cart-button__icon___3QHeM" /></button>
+                  </div><button className="header__cart-icon___38YSW cart-button__btn-cart___2KPCq" type="button"><i className="ic-ic-bag cart-button__icon___3QHeM" /></button>
                 </div>
               </nav>
               <nav className="hidden-lg-up header__mobile-nav-cat-container___2JTtk" id="cate-mobile-root">

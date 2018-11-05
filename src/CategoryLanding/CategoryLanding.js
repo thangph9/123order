@@ -24,11 +24,11 @@ class CategoryLanding extends React.Component {
           <div className="default-layout__container___13v1V home__defaultLayout___Q6Udu  false">
             <div className="backdrop__body-backdrop___1rvky  " />
             <div className="header__header___1t3MH false">
-              <nav className="header__my-navbar___2Cghd header__navbar-toggleable-sm___pR4tF header__nav-header___3lWCb">
+            <nav className="header__my-navbar___2Cghd header__navbar-toggleable-sm___pR4tF header__nav-header___3lWCb">
                 <div className="container__container___1fvX0 header__container___2d-Oi">
-                  <div className="hidden-md-up header__my-navbar-toggler___2PiaS"><button className="header__btn-icon___17D-i" type="button"><i className="ic-ic-user" /></button></div><Link to={`/home`} className="header__navbar-brand___SzzgD"><img style={{ position: 'relative', top: '4px' }} src="/img/logo123order.png" /></Link>
+                  <div className="hidden-md-up header__my-navbar-toggler___2PiaS"><button className="header__btn-icon___17D-i" type="button"><i className="ic-ic-user" /></button></div><Link to={`/home`} className="header__navbar-brand___SzzgD"><img style={{ position: 'relative', top: '6px' }} src="/img/logo123order.png" /></Link>
                   <div className="clearfix collapse header__navbar-collapse___2AK1h"><Link to={`/home`} className="hidden-md-up header__navbar-brand___SzzgD"><img src="/img/logo123order.png" /></Link>
-                    <ul className="hidden-md-down header__navbar-nav___9cfBy header__navbar-left___25OFe">
+                  <ul className="hidden-md-down header__navbar-nav___9cfBy header__navbar-left___25OFe">
                       <li className="header__nav-item___MQLXP"><Link to={`/amazon`} className="header__nav-link___3W4sc ">Amazon</Link></li>
                       <li className="header__nav-item___MQLXP"><Link to={`/ebay`} className="header__nav-link___3W4sc " >Ebay</Link></li>
                       <li className="header__nav-item___MQLXP"><Link to={`/adidas`} className="header__nav-link___3W4sc " >Adidas</Link></li>
