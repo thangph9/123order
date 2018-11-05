@@ -1436,7 +1436,7 @@ input.subscription-form__form-control___hdjaw::-webkit-input-placeholder {
   vertical-align: middle;
   user-select: none;
   border: 1px solid transparent;
-  padding: .6875rem 2.5rem;
+  padding: 11px;
   font-size: 16px;
   border-radius: 0;
   transition: all .2s ease-in-out cubic-bezier(.23,1,.32,1) .35s
